@@ -2718,7 +2718,8 @@
         "azbyka-pechory",
         "anokhin2023",
         "alexandrov2023",
-        "dp2024"
+        "dp2024",
+        "alexandrov2023-preprint"
       ],
       "related": [
         "f",
@@ -2766,11 +2767,13 @@
           "level": "documented",
           "sources": [
             "alexandrov2023",
-            "anokhin2023"
+            "anokhin2023",
+            "alexandrov2023-preprint"
           ],
           "paras": [
             "In 2023 a team of physicists, led according to the newspaper by N. G. Polukhina, laid nuclear-emulsion detectors in the caves to record atmospheric muons, which pass through rock and leave tracks where the rock is thinner or hollow. The method is non-destructive. A paper in the *Bulletin of the Lebedev Physics Institute* reports it for two objects in the cave complex.",
             "The newspaper account gives the results as reported by the team: a hidden passage about 12 m long behind a walled crypt, the continuation of Trinity Street into the hill beyond a barrier, and an unidentified cavity of roughly 3 × 6 × 3 m between two streets. These dimensions are the team’s estimates as quoted, not measurements anyone has opened up and checked.",
+            "The authors’ open preprint is more careful than the newspaper. Thirteen detectors were used, two in the attic of the Assumption Church to measure background and eleven underground, and they were exposed for 112 days. The first object is a crypt behind a large icon at the cave entrance, about 2.5 × 2.5 m, with a corridor 1–3 m wide and up to 12 m long running at right angles to Main Street. The second is a cavity near Trinity Street about 2 m high and roughly 3 × 6 m, and the street itself is shown to continue. The preprint gives no formal error margins, calls the sizes rough estimates, and differs from the newspaper on the height of the cavity (about 2 m against 3 m). It gives no number of burials; it says only that the caves were used as a necropolis from the monastery’s founding.",
             "The same account says it is hard to know who dug the spaces, when and why. The question of what lies behind the walls is open, and the plate leaves it open."
           ]
         },
@@ -2815,20 +2818,31 @@
             ],
             [
               "Hidden passage about 12 m long behind a crypt",
-              "Rosatom feature, from the survey team",
-              "Team estimate; the paper was not read in full"
+              "Rosatom feature; preprint (corridor 1–3 m wide, up to 12 m)",
+              "Team estimate; no formal error margin; journal version not read"
             ],
             [
               "The caves run to Izborsk",
               "dp.ru; Rosatom feature",
               "Legend; distance given as 20 km and as 15 km"
+            ],
+            [
+              "Cavity at Trinity Street, about 2 × 3 × 6 m",
+              "Preprint; the Rosatom feature gives 3 × 6 × 3 m",
+              "Rough estimate; the two accounts disagree on height"
+            ],
+            [
+              "Number of burials from the survey",
+              "Preprint",
+              "None: the survey does not count burials"
             ]
           ],
           "sources": [
             "azbyka-pechory",
             "anokhin2023",
             "alexandrov2023",
-            "dp2024"
+            "dp2024",
+            "alexandrov2023-preprint"
           ]
         },
         {
@@ -2850,7 +2864,7 @@
           "heading": "What would turn this plate into a study",
           "level": "interpretation",
           "items": [
-            "The full text of the muography paper, with its own dimensions and error margins.",
+            "The journal version of the muography paper (Bulletin of the Lebedev Physics Institute, 2023), to compare with the preprint, and the figures of the preprint, including its plan of the known galleries.",
             "Burial lists, necrologies or commemoration books kept by the monastery, to test the figure of ten thousand, if they exist and can be consulted.",
             "Source-by-source work on other underground sites, each with a named collector, place and date, before any of them joins this plate."
           ],

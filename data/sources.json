@@ -531,7 +531,7 @@
       "accessed": "2026-11-15",
       "language": "English",
       "supports": "That a muographic study with nuclear emulsion detectors was made of two objects in the cave complex of the monastery, and that the method images the internal structure of objects from the tracks of atmospheric muons.",
-      "limitation": "Only the abstract and bibliographic data were read, not the full paper. The dimensions on this plate come from the popular account, not from the paper."
+      "limitation": "Only the abstract and bibliographic data of the journal version were read. For dimensions and method the plate uses the open preprint (alexandrov2023-preprint) and the popular account."
     },
     {
       "id": "dp2024",
@@ -847,6 +847,21 @@
       "language": "Russian",
       "supports": "From the abstract: signs that give no information about the dead make up 19% of all signs on R 241, 33% on A 151 and 50% on R 178; the author links the higher shares to flowerpots, gazebos and fences without plates, and to old metal signs that have lost photographs and plates.",
       "limitation": "Abstract only (DOAJ record); the article was not read. The percentages and the explanation are the author's, and the abstract does not give counts."
+    },
+    {
+      "id": "alexandrov2023-preprint",
+      "kind": "article",
+      "author": "Alexandrov, A., et al. (23 authors, among them N. Polukhina)",
+      "title": "Muonography of Caves of the Holy Dormition Pskovo-Pechersky Monastery",
+      "title_en": "",
+      "year": "2023",
+      "publisher": "Preprints.org, v1, posted 13 September 2023 (not peer-reviewed; CC BY 4.0)",
+      "extent": "",
+      "url": "https://www.preprints.org/manuscript/202309.0820",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "Method and results of the 2023 muon survey: 13 nuclear-emulsion detectors (two in the Assumption Church attic for background, eleven underground), exposed 112 days; two objects. A crypt behind a large icon at the cave entrance, about 2.5 × 2.5 m, with a corridor 1–3 m wide and up to 12 m long perpendicular to Main Street; a cavity at Trinity Street about 2 m high and roughly 3 × 6 m, at 77–79 m altitude, and the street continuing along its direction. No formal error margins; dimensions are rough estimates. The paper gives no number of burials and says only that the caves were used as a necropolis from the monastery's founding.",
+      "limitation": "An earlier, non-peer-reviewed version of the journal paper (the published title differs). Read through a summary of the preprint page, not line by line; the figures themselves were not inspected."
     }
   ]
 }
