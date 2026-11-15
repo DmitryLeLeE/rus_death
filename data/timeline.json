@@ -2,6 +2,22 @@
   "note": "Chronology. The timeline is deliberately discontinuous: it shows documented points, not a continuous tradition. Entries marked kind=caesura mark a break in the record or in the institution that produced it.",
   "entries": [
     {
+      "id": "t1380",
+      "sort": 1380,
+      "display": "1380",
+      "era": "pre-imperial",
+      "kind": "doctrine",
+      "title": "St. Demetrius Saturday is set up",
+      "text": "After the battle of Kulikovo a Saturday of commemoration is instituted, first for the fallen soldiers and later for all the departed, with the blessing of Sergius of Radonezh. This is the Church’s own account of the origin, as a churchman tells it.",
+      "plates": [
+        "u"
+      ],
+      "sources": [
+        "gumerov2012"
+      ],
+      "confidence": "documented (as the Church states it; not independently checked)"
+    },
+    {
       "id": "t1540",
       "sort": 1540,
       "display": "1540s",
@@ -9,8 +25,12 @@
       "kind": "image",
       "title": "The Last Judgment in Novgorod",
       "text": "The Last Judgment icon from the Nativity monastery in Novgorod is painted in registers, with the saved and the damned arranged as populations. It is an image made to be read, and it will remain the basic model for Russian judgement pictures for centuries.",
-      "plates": ["h"],
-      "sources": ["images"],
+      "plates": [
+        "h"
+      ],
+      "sources": [
+        "images"
+      ],
       "confidence": "documented (icon date and provenance as recorded by the museum description)"
     },
     {
@@ -21,8 +41,13 @@
       "kind": "policy",
       "title": "Peter I restricts burial inside towns",
       "text": "A decree orders that the overcrowded churchyard cemeteries be moved outside the city, with an exception for ‘notable persons’, and orders raised tombs levelled. After Peter’s death the churchyard burial resumes; the measure is a precedent more than a settlement.",
-      "plates": ["f", "k"],
-      "sources": ["pravenc-nadgrobie"],
+      "plates": [
+        "f",
+        "k"
+      ],
+      "sources": [
+        "pravenc-nadgrobie"
+      ],
       "confidence": "documented"
     },
     {
@@ -33,9 +58,31 @@
       "kind": "collective",
       "title": "Plague in Moscow; Vagankovo founded",
       "text": "Tens of thousands die. Grigorii Orlov is sent to Moscow with emergency powers; the dead are buried outside the city, and the new cemetery at Vagankovo begins with unnamed plague victims. Mass death produces the modern out-of-town cemetery.",
-      "plates": ["f", "i"],
-      "sources": ["vagankovo", "merridale2000"],
+      "plates": [
+        "f",
+        "i"
+      ],
+      "sources": [
+        "vagankovo",
+        "merridale2000"
+      ],
       "confidence": "documented (the total is not established in the sources used here)"
+    },
+    {
+      "id": "t1771s",
+      "sort": 1771,
+      "display": "1771",
+      "era": "imperial",
+      "kind": "policy",
+      "title": "Burial in communal pits is banned",
+      "text": "The online encyclopedia entry on Semik says that unidentified and unclaimed bodies were once placed in open communal pits, skudelnitsy, and that Catherine II banned burial in them in 1771. The entry is anonymous and cites no decree.",
+      "plates": [
+        "o"
+      ],
+      "sources": [
+        "bre-semik"
+      ],
+      "confidence": "documented (anonymous encyclopedia entry; no decree cited)"
     },
     {
       "id": "t1770",
@@ -45,8 +92,12 @@
       "kind": "image",
       "title": "The Volga Last Judgment",
       "text": "An icon of the Last Judgment is painted in the Volga region, 180 × 137 cm. Its compartments and inscribed bands derive from printed engravings: the judgement has become a page.",
-      "plates": ["h"],
-      "sources": ["images"],
+      "plates": [
+        "h"
+      ],
+      "sources": [
+        "images"
+      ],
       "confidence": "documented (date range and provenance per the collection description)"
     },
     {
@@ -57,9 +108,30 @@
       "kind": "doctrine",
       "title": "Novaia Skrizhal’ published",
       "text": "Archbishop Veniamin’s handbook sets out the rationale for commemoration on the third, ninth and fortieth days: the Resurrection, the nine ranks of angels, the Ascension. It is the clearest statement of the scheme that later writers would call a folk custom.",
-      "plates": ["c", "h"],
-      "sources": ["skrizhal"],
+      "plates": [
+        "c",
+        "h"
+      ],
+      "sources": [
+        "skrizhal"
+      ],
       "confidence": "documented (first edition 1803; text consulted in a modern online edition)"
+    },
+    {
+      "id": "t1855",
+      "sort": 1855,
+      "display": "1855–1863",
+      "era": "imperial",
+      "kind": "scholarship",
+      "title": "Afanasyev publishes his folktales",
+      "text": "The collection of Russian folktales on which a 2025 reading of Baba-Yaga’s hut as a threshold rests. The folktales are narrative, not a record of burial practice.",
+      "plates": [
+        "n"
+      ],
+      "sources": [
+        "santos2025"
+      ],
+      "confidence": "documented (publication dates as given by Santos Marinas)"
     },
     {
       "id": "t1865",
@@ -69,8 +141,12 @@
       "kind": "art",
       "title": "Perov paints Seeing Off the Dead",
       "text": "A small canvas, 45.3 × 57 cm, of a family carrying a coffin on a sled. The painting becomes a reference point for the representation of peasant death and is later connected by the gallery to Nekrasov’s poem of 1862–63.",
-      "plates": ["j"],
-      "sources": ["tretyakov-perov"],
+      "plates": [
+        "j"
+      ],
+      "sources": [
+        "tretyakov-perov"
+      ],
       "confidence": "documented"
     },
     {
@@ -81,21 +157,13 @@
       "kind": "scholarship",
       "title": "Barsov publishes the northern laments",
       "text": "Three volumes of funeral laments recorded in the Olonets region establish lament as a composed, performed genre with named performers and a repertoire. This is the moment the Russian lament becomes an archive.",
-      "plates": ["g"],
-      "sources": ["barsov1872"],
+      "plates": [
+        "g"
+      ],
+      "sources": [
+        "barsov1872"
+      ],
       "confidence": "documented"
-    },
-    {
-      "id": "t1886",
-      "sort": 1886,
-      "display": "1886",
-      "era": "imperial",
-      "kind": "art",
-      "title": "The Death of Ivan Ilyich",
-      "text": "Tolstoy’s novella turns the deathbed into a corridor. It is not an ethnographic document; it is evidence of how the educated Russian reader was invited to imagine dying.",
-      "plates": ["j"],
-      "sources": [],
-      "confidence": "documented (work and date); interpretation (reading)"
     },
     {
       "id": "t1881",
@@ -105,9 +173,27 @@
       "kind": "image",
       "title": "A memorial meal photographed",
       "text": "An unknown photographer records a memorial meal at Smolensk cemetery in St Petersburg. It is one of the few nineteenth-century photographs in this atlas that shows the ritual meal rather than the monument.",
-      "plates": ["d"],
-      "sources": ["images"],
+      "plates": [
+        "d"
+      ],
+      "sources": [
+        "images"
+      ],
       "confidence": "documented (as recorded by the archive description)"
+    },
+    {
+      "id": "t1886",
+      "sort": 1886,
+      "display": "1886",
+      "era": "imperial",
+      "kind": "art",
+      "title": "The Death of Ivan Ilyich",
+      "text": "Tolstoy’s novella turns the deathbed into a corridor. It is not an ethnographic document; it is evidence of how the educated Russian reader was invited to imagine dying.",
+      "plates": [
+        "j"
+      ],
+      "sources": [],
+      "confidence": "documented (work and date); interpretation (reading)"
     },
     {
       "id": "t1916",
@@ -117,8 +203,12 @@
       "kind": "scholarship",
       "title": "Zelenin’s unclean dead",
       "text": "D. K. Zelenin publishes his study of those who die an unnatural death and of the rusalki, and gives the category *zalozhnye pokoiniki* its lasting form. The book is a synthesis, and its category is an argument.",
-      "plates": ["e"],
-      "sources": ["zelenin1916"],
+      "plates": [
+        "e"
+      ],
+      "sources": [
+        "zelenin1916"
+      ],
       "confidence": "documented"
     },
     {
@@ -129,9 +219,30 @@
       "kind": "caesura",
       "title": "Rupture",
       "text": "Revolution and civil war break the institutions that had produced most of the sources above: parishes, monasteries, consistories, the ethnographic collections of the imperial academies. After this point, the atlas’s sources change kind.",
-      "plates": ["i", "k"],
-      "sources": ["merridale2000"],
+      "plates": [
+        "i",
+        "k"
+      ],
+      "sources": [
+        "merridale2000"
+      ],
       "confidence": "interpretation"
+    },
+    {
+      "id": "t1925",
+      "sort": 1925,
+      "display": "1925",
+      "era": "soviet",
+      "kind": "institution",
+      "title": "Moscow Soviet decides to build a crematorium",
+      "text": "The decision chooses the church of St Seraphim of Sarov and St Anna of Kashin at the Donskoy Monastery as the site. The first cremation follows in 1927.",
+      "plates": [
+        "k"
+      ],
+      "sources": [
+        "mospravda-crematorium"
+      ],
+      "confidence": "documented (press account; archival check recommended)"
     },
     {
       "id": "t1927",
@@ -141,9 +252,30 @@
       "kind": "institution",
       "title": "The first Moscow cremation",
       "text": "A crematorium opens in the church of St Seraphim of Sarov and St Anna of Kashin at the Donskoy Monastery. The first cremation takes place on 12 January; the official opening follows on 6 October 1927, without ceremony.",
-      "plates": ["k"],
-      "sources": ["mospravda-crematorium", "merridale2000"],
+      "plates": [
+        "k"
+      ],
+      "sources": [
+        "mospravda-crematorium",
+        "merridale2000"
+      ],
       "confidence": "documented (press account; archival check recommended)"
+    },
+    {
+      "id": "t1929",
+      "sort": 1929,
+      "display": "1920–1930",
+      "era": "soviet",
+      "kind": "policy",
+      "title": "Novosibirsk: cemetery grove, church closure, protest",
+      "text": "In the account of E. Krasilnikova, a 1920 decision concerned cutting the grove at the cemetery, the Voskresenskaya church was ordered closed in 1929, and in April 1930 a crowd of about a thousand protested and was dispersed by the militia. The old cemetery became a garden and later part of a park.",
+      "plates": [
+        "w"
+      ],
+      "sources": [
+        "krasilnikova2023"
+      ],
+      "confidence": "unverified (interviewee’s dated account; no file cited)"
     },
     {
       "id": "t1930",
@@ -153,9 +285,31 @@
       "kind": "caesura",
       "title": "Cemeteries under pressure",
       "text": "The destruction or truncation of monastic and parish burial grounds in the Soviet period is well attested in general terms, but it has not been itemised by this atlas. The record here is a gap, not a list.",
-      "plates": ["f", "l"],
-      "sources": ["merridale2000", "etkind2013"],
+      "plates": [
+        "f",
+        "l"
+      ],
+      "sources": [
+        "merridale2000",
+        "etkind2013"
+      ],
       "confidence": "interpretation; low detail"
+    },
+    {
+      "id": "t1932",
+      "sort": 1932,
+      "display": "1930-е",
+      "era": "soviet",
+      "kind": "policy",
+      "title": "Two large Barnaul cemeteries destroyed",
+      "text": "In Krasilnikova’s account two large cemeteries in Barnaul were destroyed in the 1930s, graves were opened for valuables and remains left scattered. She calls Barnaul the most radical case in Siberia; that comparison is her judgement.",
+      "plates": [
+        "w"
+      ],
+      "sources": [
+        "krasilnikova2023"
+      ],
+      "confidence": "unverified (interviewee’s account; no file cited)"
     },
     {
       "id": "t1935",
@@ -165,9 +319,30 @@
       "kind": "art",
       "title": "Malevich buried under a black square",
       "text": "The painter is buried near Nemchinovka. A white cube with a black square marks the grave. The oak is cut down, the grave is lost, and the cube disappears.",
-      "plates": ["j", "l"],
-      "sources": ["mk-malevich"],
+      "plates": [
+        "j",
+        "l"
+      ],
+      "sources": [
+        "mk-malevich"
+      ],
       "confidence": "documented (press account of the grave’s loss)"
+    },
+    {
+      "id": "t1936",
+      "sort": 1936,
+      "display": "1 August 1936",
+      "era": "soviet",
+      "kind": "policy",
+      "title": "Decree on resettlement from the flood zone",
+      "text": "An article on Cherepovets district states that resettlement followed a decree of the All-Russian Central Executive Committee and the Council of People’s Commissars of that date, and that the residents of about seven hundred villages and hamlets were moved out of the flood zone. The decree itself was not seen.",
+      "plates": [
+        "q"
+      ],
+      "sources": [
+        "tsipileva2014"
+      ],
+      "confidence": "documented (date and decree as stated in an article; decree not seen)"
     },
     {
       "id": "t1941",
@@ -177,8 +352,13 @@
       "kind": "collective",
       "title": "The blockade dead",
       "text": "Hundreds of thousands die in Leningrad and are buried in mass graves that become the ground of the Piskaryovskoye memorial. The sites are administrative before they are sacred.",
-      "plates": ["i"],
-      "sources": ["rusmuseum", "pmemorial"],
+      "plates": [
+        "i"
+      ],
+      "sources": [
+        "rusmuseum",
+        "pmemorial"
+      ],
       "confidence": "documented (totals contested: about 470,000 and about 520,000 are both reported)"
     },
     {
@@ -189,8 +369,14 @@
       "kind": "architecture",
       "title": "Piskaryovskoye memorial opened",
       "text": "The ensemble by A. V. Vasil’ev and E. A. Levinson opens on the fifteenth anniversary of victory. The flame is carried from the Field of Mars, where it had been lit in 1957.",
-      "plates": ["i", "k"],
-      "sources": ["pmemorial", "rusmuseum"],
+      "plates": [
+        "i",
+        "k"
+      ],
+      "sources": [
+        "pmemorial",
+        "rusmuseum"
+      ],
       "confidence": "documented"
     },
     {
@@ -201,8 +387,14 @@
       "kind": "architecture",
       "title": "The Tomb of the Unknown Soldier",
       "text": "The monument by Dmitrii Burdin, Vladimir Klimov and Iurii Rabaev, with the sculptor Nikolai Tomskii, opens at the Kremlin wall. An unmanageable number of war dead is converted into one body that can be visited.",
-      "plates": ["i", "k"],
-      "sources": ["mos-ru-unknown", "tumarkin1994"],
+      "plates": [
+        "i",
+        "k"
+      ],
+      "sources": [
+        "mos-ru-unknown",
+        "tumarkin1994"
+      ],
       "confidence": "documented"
     },
     {
@@ -213,9 +405,162 @@
       "kind": "caesura",
       "title": "Rupture",
       "text": "The state monopoly on funeral services ends; commercial funeral homes, municipal fee schedules and, later, online memorials appear. Orthodoxy returns to public ritual. The atlas marks this period as under-researched rather than describing it as a unified new culture of death.",
-      "plates": ["k", "l"],
-      "sources": ["merridale2000"],
+      "plates": [
+        "k",
+        "l"
+      ],
+      "sources": [
+        "merridale2000"
+      ],
       "confidence": "interpretation"
+    },
+    {
+      "id": "t2005",
+      "sort": 2005,
+      "display": "2005",
+      "era": "post-soviet",
+      "kind": "architecture",
+      "title": "Omsk gathers fragments of its necropolis into a square",
+      "text": "Krasilnikova says the historic necropolis of Omsk survived until the 1950s and was recorded and photographed by a museum director before its demolition. In 2005 fragments of its stones were gathered into a memorial square. Novosibirsk has no comparable memorial.",
+      "plates": [
+        "w"
+      ],
+      "sources": [
+        "krasilnikova2023"
+      ],
+      "confidence": "unverified (interviewee’s account; no file cited)"
+    },
+    {
+      "id": "t2010",
+      "sort": 2010,
+      "display": "2010",
+      "era": "post-soviet",
+      "kind": "institution",
+      "title": "The census counts villages with no inhabitants",
+      "text": "Press reports of the 2010 census figures put the number of villages that exist de jure but have no inhabitants at 19,400, up from 13,000, and say 36,200 villages have fewer than ten residents. The reports give figures, not the fate of the cemeteries.",
+      "plates": [
+        "m",
+        "q"
+      ],
+      "sources": [
+        "tass2011-census",
+        "rte2011-villages"
+      ],
+      "confidence": "documented (press reports of preliminary census figures)"
+    },
+    {
+      "id": "t2013",
+      "sort": 2013,
+      "display": "2013–2021",
+      "era": "post-soviet",
+      "kind": "scholarship",
+      "title": "Roadside memorial signs counted on three highways",
+      "text": "M. G. Matlin drives sections of three federal highways in the Middle Volga repeatedly and documents 299 roadside memorial signs, with dates of death from 1965 to 2019. He sorts them into a family that imitates the cemetery and one that does not.",
+      "plates": [
+        "p"
+      ],
+      "sources": [
+        "matlin2021"
+      ],
+      "confidence": "documented (published survey; three routes, one region)"
+    },
+    {
+      "id": "t2016",
+      "sort": 2016,
+      "display": "2016–2017",
+      "era": "post-soviet",
+      "kind": "scholarship",
+      "title": "Fieldwork on cemetery commemoration in Kostroma and Vladimir",
+      "text": "E. G. Chesnokova’s fieldwork finds the main cemetery commemoration falling in the Easter or the Trinity period, following regional zones. Only the abstract was read.",
+      "plates": [
+        "u"
+      ],
+      "sources": [
+        "chesnokova-cemetery"
+      ],
+      "confidence": "documented (abstract only; counts of respondents not given)"
+    },
+    {
+      "id": "t2018",
+      "sort": 2018,
+      "display": "2018–2019",
+      "era": "post-soviet",
+      "kind": "scholarship",
+      "title": "Fieldwork in Khislavichi district, Smolensk region",
+      "text": "A. Ryko records that informants born in the 1930s remember a ban on taking those who hanged or drowned themselves to the common cemetery, while younger people say they know nothing of it. Neighbours washed the dead, women washing women and men washing men. She says the findings rest on memory and that it is unclear whether the trend is local.",
+      "plates": [
+        "t",
+        "v"
+      ],
+      "sources": [
+        "ryko2025"
+      ],
+      "confidence": "documented (one district; informants’ memory)"
+    },
+    {
+      "id": "t2019g",
+      "sort": 2019,
+      "display": "June 2019",
+      "era": "post-soviet",
+      "kind": "scholarship",
+      "title": "Domovoy beliefs recorded in Severny Kommunar",
+      "text": "M. A. Granova records beliefs about the domovoy in Severny Kommunar, Sivinsky district, Perm Krai, and compares them with older university-archive material. She finds the beliefs much reduced and gives this as a tendency; the number of informants is not stated.",
+      "plates": [
+        "s"
+      ],
+      "sources": [
+        "granova2019"
+      ],
+      "confidence": "documented (one village; informants not counted)"
+    },
+    {
+      "id": "t2019m",
+      "sort": 2019,
+      "display": "2019",
+      "era": "post-soviet",
+      "kind": "architecture",
+      "title": "Gravestones found used as curbs on Bersenevskaya Embankment",
+      "text": "A municipal deputy posts photographs of gravestones used as curbs near the Estrada Theatre in Moscow; some stones still show dates of birth and death. The construction department says the work was not under its direction. The find is known through the photographs and an outlet’s report, not through an inspection record.",
+      "plates": [
+        "w"
+      ],
+      "sources": [
+        "minkin2019"
+      ],
+      "confidence": "documented (deputy’s photographs as reported; no inspection record)"
+    },
+    {
+      "id": "t2020",
+      "sort": 2020,
+      "display": "2020",
+      "era": "post-soviet",
+      "kind": "scholarship",
+      "title": "A study of the digital afterlife of Russian internet users",
+      "text": "A. Sergeeva, R. Gerlit and H. Krcmar analyse 33 social networks and online services, survey 173 users and interview experts. Their abstract expects services to host more deceased than living users in the coming decades. This is a projection; only the abstract was read.",
+      "plates": [
+        "x"
+      ],
+      "sources": [
+        "sergeeva2020"
+      ],
+      "confidence": "documented (abstract only; sample not known here)"
+    },
+    {
+      "id": "t2023",
+      "sort": 2023,
+      "display": "2023",
+      "era": "post-soviet",
+      "kind": "architecture",
+      "title": "Muon survey in the Pskov-Caves Monastery",
+      "text": "A team lays nuclear-emulsion detectors in the caves at Pechory to image two objects with atmospheric muons. The newspaper account reports a hidden passage of about 12 m behind a walled crypt, a continuation of Trinity Street and a cavity of roughly 3 × 6 × 3 m. These are the team’s estimates as quoted, not checked by opening.",
+      "plates": [
+        "r"
+      ],
+      "sources": [
+        "alexandrov2023",
+        "anokhin2023"
+      ],
+      "confidence": "documented (method and objects); the dimensions are reported estimates"
     }
   ]
 }
