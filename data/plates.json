@@ -2144,15 +2144,28 @@
       "sections": [
         {
           "type": "prose",
-          "kicker": "N / 01",
-          "heading": "Outside the fence",
+          "kicker": "PART I · ZELENIN’S COMPILATION",
+          "heading": "A report from Simbirsk province",
           "level": "documented",
           "sources": [
             "zelenin1916"
           ],
           "paras": [
-            "Dmitry Zelenin’s 1916 essays on those who died an ‘unnatural’ death collect local reports that such people were not always laid in the churchyard. Two are used here. At Orkino, in Saratov uezd, sudden deaths, drunkards, the drowned and suicides were buried far from the village, in the forest, in a ravine between two steep hills. In Silinskaya volost, Simbirsk guberniya, a ‘deaf forest ravine’ was held to be the proper grave for someone who had drunk himself to death, and burial in the cemetery was said to bring drought and crop failure.",
-            "Both are reports in someone else’s book, read here through excerpts. The Orkino report concerns half-Russified Mordvins. Zelenin’s own conclusions about two classes of the dead have been revised since, and the plate takes from him only what local people were reported to do and to fear."
+            "Dmitry Zelenin’s 1916 essays on those who died an ‘unnatural’ death are a compilation of local reports, made by other people and gathered into one book. Two are used on this plate; this part takes the first. In Silinskaya volost, Simbirsk guberniya, a ‘deaf forest ravine’ was held to be the proper grave for someone who had drunk himself to death, and burial in the cemetery was said to bring drought and crop failure.",
+            "It is a report in someone else’s book, read here through an excerpt. The excerpt read does not say who the villagers were, and the atlas has not checked. Zelenin’s own conclusions about two classes of the dead have been revised since, and the plate takes from him only what local people were reported to do and to fear."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "PART II · A MORDVIN REPORT",
+          "heading": "The ravine at Orkino",
+          "level": "documented",
+          "sources": [
+            "zelenin1916"
+          ],
+          "paras": [
+            "The second report in Zelenin concerns Orkino, in Saratov uezd. There sudden deaths, drunkards, the drowned and suicides were buried far from the village, in the forest, in a ravine between two steep hills.",
+            "The Orkino report concerns half-Russified Mordvins, not Russians. It is on this plate openly, as a neighbouring tradition in the same governorate that shows the same placing of the dead, and it is not counted as evidence for Russian custom. It was read through an excerpt, and no page number is available."
           ]
         },
         {
@@ -2167,7 +2180,7 @@
         },
         {
           "type": "prose",
-          "kicker": "N / 02",
+          "kicker": "PART III · ESTONIAN AND BELARUSIAN ARCHIVES",
           "heading": "The forest on the road",
           "level": "interpretation",
           "sources": [
@@ -2180,7 +2193,7 @@
         },
         {
           "type": "prose",
-          "kicker": "N / 03",
+          "kicker": "PART IV · THE FOLKTALE",
           "heading": "A hut at the treeline",
           "level": "interpretation",
           "sources": [
@@ -2193,8 +2206,8 @@
         },
         {
           "type": "register",
-          "kicker": "N / 04",
-          "heading": "Three kinds of evidence, three kinds of place",
+          "kicker": "WHAT EACH PART CAN SHOW",
+          "heading": "Four kinds of evidence, four kinds of place",
           "colhead": [
             "Source",
             "Region and genre",
@@ -2202,17 +2215,22 @@
           ],
           "rows": [
             [
-              "Zelenin, 1916",
-              "Saratov and Simbirsk provinces; reports of local practice",
-              "That in these places some dead were buried in forest ravines and that cemetery burial was feared"
+              "I. Zelenin, 1916: Simbirsk province",
+              "A report of local practice in a compilation",
+              "That in one volost some dead were reported buried in a forest ravine and cemetery burial was feared"
             ],
             [
-              "Kõiva, Boganeva and Butov, 2025",
+              "II. Zelenin, 1916: Orkino, Saratov uezd",
+              "A report concerning Mordvins",
+              "That the same placing is reported for a neighbouring people; not Russian evidence"
+            ],
+            [
+              "III. Kõiva, Boganeva and Butov, 2025",
               "Estonia and Belarus; archive texts about forest spirits",
               "That a road to the dead through the forest is cited as a widespread belief"
             ],
             [
-              "Santos Marinas, 2025",
+              "IV. Santos Marinas, 2025",
               "Russian folktales; literary reading",
               "That the forest edge works as a threshold in the tales"
             ]
@@ -2230,7 +2248,7 @@
           "heading": "What this plate does not say",
           "level": "interpretation",
           "items": [
-            "It does not say that Russians generally buried anyone in forests. The one burial report from a Russian-speaking area is a single volost in Simbirsk province, and it is a report of belief about where a particular kind of dead person belonged.",
+            "It does not say that Russians generally buried anyone in forests. The one other burial report is a single volost in Simbirsk province; it is a report of belief about where a particular kind of dead person belonged, and the excerpt read does not name the villagers.",
             "It does not equate the forest spirit with the dead. The sources used here do not make that link, and the plate leaves it alone.",
             "The Orkino report is Mordvin. Putting it on a plate about Russian death is a choice the plate makes openly and does not hide."
           ],
