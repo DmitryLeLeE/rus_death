@@ -3191,6 +3191,198 @@
           ]
         }
       ]
+    },
+    {
+      "id": "v",
+      "letter": "V",
+      "slug": "taboo-and-protection",
+      "nav": "Taboo and Protection",
+      "title": "TABOO, OMEN AND PROTECTION",
+      "subtitle": "Covered mirrors, thrown-out water and the reasons attached to them",
+      "dek": "What sources report people did in a house of mourning, which reasons are on record for each act, and where the reports do not agree. No customs are offered as rules.",
+      "marginal": "Two aims, eight acts, several reasons that do not agree. Nothing here is advice.",
+      "period": "Customs reported from earlier ethnography; fieldwork 2018–2019",
+      "location": "East Slavic villages; Russian North; Khislavichi district, Smolensk region",
+      "tradition": "Russian funeral custom and its protective and cleansing acts",
+      "category": "house",
+      "layout": "vanished",
+      "tone": "dark",
+      "sources": [
+        "bigenc-funeral",
+        "rouhier2007",
+        "ryko2025",
+        "dometian-superstition"
+      ],
+      "related": [
+        "a",
+        "b",
+        "s"
+      ],
+      "concepts": [
+        "threshold",
+        "ritual"
+      ],
+      "objects": [],
+      "places": [],
+      "volume": "III",
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "V / 01",
+          "heading": "Two aims, and the acts that serve them",
+          "level": "documented",
+          "sources": [
+            "bigenc-funeral"
+          ],
+          "paras": [
+            "An encyclopedia article on East Slavic funeral rites says the rite works in two directions: some acts help the dead reach the other world, others protect the living from the dead. Its protective and cleansing acts include washing the house after the coffin is carried out, turning objects over, covering mirrors and washing hands on returning from the cemetery. Its prohibitions include close relatives making the coffin and bringing food back from the cemetery.",
+            "The explanation the article gives is general: the dead can harm the living, and the boundary between worlds stays open from the death until the burial and the fortieth day. It does not give a reason for each separate act, and it does not date its examples. The page does not name an author."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "V / 02",
+          "heading": "In the house",
+          "level": "documented",
+          "sources": [
+            "rouhier2007"
+          ],
+          "paras": [
+            "J. Rouhier-Willoughby, in a review of urban funerals, lists what the older village rite is reported to have included: candles lit, all the mirrors in the house covered, all water thrown out. She says mirrors were thought symbolically close to water, which is why both were treated the same. The women who washed the body turned tables and benches over before washing them, she writes, so that death would enter the soil; a priest might also say a prayer of purification once the body had been carried out.",
+            "She draws these from earlier ethnographers, so the village custom reaches the atlas at second hand. For the urban twentieth century she reports that the covering of shiny surfaces continued."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "V / 03",
+          "heading": "Washing",
+          "level": "documented",
+          "sources": [
+            "bigenc-funeral",
+            "ryko2025"
+          ],
+          "paras": [
+            "Washing the body appears in both sources as an obligatory part of the rite. The encyclopedia cites a scholar who argues that the strictness of the rule points to a purpose beyond cleaning: removing what marked the person as living. In the Russian North, it says, older women past childbearing were often hired to wash the dead.",
+            "In the Khislavichi district of Smolensk, A. Ryko’s informants said neighbours were invited to wash, women washing women and men washing men, and she found no stated ban on relatives taking part. Where the encyclopedia lists a prohibition, her district does not report it. The two sources describe different places and cannot be added together."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "V / 04",
+          "heading": "Done without an explanation",
+          "level": "documented",
+          "sources": [
+            "ryko2025"
+          ],
+          "paras": [
+            "Ryko writes that people in the borderland often perform funeral actions without being able to say what they are for, and that as the motives fade the sense of obligation fades with them. This is her observation of one district, based on informants’ memories, and she says it is unclear whether the trend is local.",
+            "It matters here because the reasons attached to protective acts in the other sources are the reasons collected from or ascribed to people at particular times. They are not a fixed meaning that every act always carried."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "V / 05",
+          "heading": "Why the mirror?",
+          "level": "interpretation",
+          "contested": true,
+          "sources": [
+            "dometian-superstition",
+            "rouhier2007"
+          ],
+          "paras": [
+            "Several reasons are on record for covering mirrors. A hieromonk, writing against the custom, reports that people said the soul should not be frightened by its reflection, or the dead should not frighten the family, or the soul might pass into the mirror. Rouhier-Willoughby, reporting scholarship, ties mirrors to water, which was also thrown out.",
+            "These do not agree with each other and none is shown here to be the original. The church writer is hostile and gives the folk reasons in order to dismiss them. The atlas lists the reasons and leaves the meaning of the act unsettled."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "V / 06",
+          "heading": "The Church’s position",
+          "level": "documented",
+          "sources": [
+            "dometian-superstition"
+          ],
+          "paras": [
+            "Hieromonk Dometian calls the covering of mirrors a folk custom with nothing in common with the Orthodox burial rite, and he says the same of overturning tables and chairs, which he calls pagan survivals. He also reports a belief that one must not look out of a window at a funeral procession, and he tells believers to take the blessing of a priest as their only guide.",
+            "This is a polemical text of unstated date. It shows what the Church objects to, and by implication what was practised, but it is not a count of practice."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "V / 07",
+          "heading": "Act, reason and who says so",
+          "colhead": [
+            "Act",
+            "Reason given",
+            "Source and status"
+          ],
+          "rows": [
+            [
+              "Covering mirrors",
+              "The soul may be frightened by its reflection or may pass into the mirror; mirrors akin to water",
+              "Dometian (hostile report); Rouhier-Willoughby (review); contested"
+            ],
+            [
+              "Throwing out water",
+              "Linked to the mirror’s likeness to water",
+              "Rouhier-Willoughby; second hand"
+            ],
+            [
+              "Turning tables and benches over",
+              "So that death enters the soil",
+              "Rouhier-Willoughby, citing earlier work"
+            ],
+            [
+              "Washing the house after the coffin leaves",
+              "Protects the living from the dead",
+              "Encyclopedia article; no individual reason given"
+            ],
+            [
+              "Washing hands after the cemetery",
+              "Protects the living from the dead",
+              "Encyclopedia article; no individual reason given"
+            ],
+            [
+              "Close relatives not making the coffin",
+              "Prohibition listed without a stated reason",
+              "Encyclopedia article"
+            ],
+            [
+              "Not bringing food back from the cemetery",
+              "Prohibition listed without a stated reason",
+              "Encyclopedia article"
+            ],
+            [
+              "Not looking from a window at a procession",
+              "Belief that one will die",
+              "Dometian; Church writer’s report"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "What this plate does not say",
+          "level": "interpretation",
+          "items": [
+            "It does not offer rules to follow. These are customs reported by sources, not advice.",
+            "It does not date the customs. The encyclopedia gives none, and the village examples come second hand.",
+            "It does not say which customs were common in any one region. The two sources that name regions do not overlap.",
+            "It does not use popular lists of funeral superstitions found online, which cite no fieldwork."
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Research leads",
+          "heading": "What would turn this plate into a study",
+          "level": "interpretation",
+          "items": [
+            "The scholars cited by the encyclopedia article (Baiburin, Razumova, Tolstaya) in the original, and the article’s author and edition.",
+            "Zelenin, Kabakova, Kremleva and Sedakova as cited by Rouhier-Willoughby, to check each custom against its first source and region.",
+            "Open-access field studies of funeral prohibitions in other regions, for example the Chuvash study found while searching, as a comparison and not as Russian evidence."
+          ]
+        }
+      ]
     }
   ]
 }

@@ -50,6 +50,7 @@ export const KEY = {
   s: "kustodiev-domovoi-faded",
   t: "makovsky-rusalki-faded",
   u: "arkhipov-radonitsa-cut",
+  v: "izba-red-corner-wide",
 };
 
 export const LAYOUT = {

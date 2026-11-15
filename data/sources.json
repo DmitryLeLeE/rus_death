@@ -726,6 +726,36 @@
       "language": "English",
       "supports": "Fieldwork of 2016–2017 in the Kostroma and Vladimir regions: the main commemoration falls in the Easter or the Trinity period according to regional zones; one day of that period holds the main cemetery rites; the structure of that day; family and social character; a held or growing importance.",
       "limitation": "Year, volume and pages are not stated on the page read; the day itself is not named in the abstract. Respondent and record counts are not given. Read as a web abstract, not in full."
+    },
+    {
+      "id": "bigenc-funeral",
+      "kind": "web",
+      "author": "Author not shown on the page read",
+      "title": "Восточнославянская похоронная обрядность",
+      "title_en": "East Slavic funeral rites",
+      "year": "n.d.",
+      "publisher": "bigenc.ru (Great Russian Encyclopedia portal)",
+      "extent": "",
+      "url": "https://bigenc.ru/c/vostochnoslavianskii-pogrebal-nyi-obriad-11fc86",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "The two aims of the rite as the article states them (helping the dead reach the other world; protecting the living); cleansing and protective acts (washing the house after the coffin is carried out, turning objects over, covering mirrors, washing hands after the cemetery) and prohibitions (close relatives making the coffin, bringing food back from the cemetery); washing of the body as obligatory; regional variants (hired older women in the Russian North, spruce branches in Arkhangelsk).",
+      "limitation": "No author, date or edition on the page that was read, so it is cited as an anonymous encyclopedia article. It states an explanation in general (the dead can harm the living; the boundary stays open until burial and the fortieth day) and gives none for each act. It does not date its examples."
+    },
+    {
+      "id": "dometian-superstition",
+      "kind": "web",
+      "author": "Hieromonk Dometian",
+      "title": "Православие против суеверий",
+      "title_en": "Orthodoxy against superstition",
+      "year": "n.d.",
+      "publisher": "azbyka.ru, ‘Superstition.net’ section",
+      "extent": "",
+      "url": "https://azbyka.ru/sueverie/?p=40",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "The Church’s polemical position: covering mirrors in a house of mourning is called a folk custom unrelated to the Orthodox burial rite; the reasons the author reports for it (the soul should not be frightened by its reflection; the dead should not frighten the family; a fear of the soul going into the mirror); belief that one must not look out of a window at a funeral procession; turning tables and chairs over called a pagan survival.",
+      "limitation": "A church polemical text; it reports popular reasons in order to condemn them, so its account of belief is filtered. No publisher or year of first publication on the page read. It is evidence of the Church’s stance and of customs it names, not a study."
     }
   ]
 }

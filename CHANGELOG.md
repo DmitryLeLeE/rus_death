@@ -2,6 +2,7 @@
 
 ## Unreleased — Russian Chthonic Atlas
 
+- Plate V, *Taboo, Omen and Protection* (Vol. III): funeral prohibitions and protective acts as reported by an encyclopedia article, a review of village and urban rites, a 2018–19 Smolensk field study and a church polemic; the reasons for covering mirrors are listed as contested. Two new sources. Volume III (S–V) is now complete.
 - Plate U, *The Calendar of the Dead* (Vol. III): a table of who named which commemoration day — the Church's own account, a Komi-Permyak comparison and a 2016–17 Kostroma/Vladimir field study — with the question of origin marked contested and left open. Three new sources.
 - Plate T, *The Unquiet Dead* (Vol. III): impure dead of the Belarusian-Russian borderland, Zelenin's term set apart from informants' words, a church-history dissent marked contested (abstract only), the literary vampire kept out. Four new sources, one Makovsky painting.
 - Plate S, *Household Spirits* (Vol. III): the domovoy read as an ancestor, set against two regional studies and a student survey, with the bannik and kikimora kept out of that story; marked contested. Two new sources, one lead-only portal source, one Kustodiev painting. Volume III now begun.

@@ -24,15 +24,9 @@
       "numeral": "III",
       "title": "THE UNSEEN",
       "subtitle": "Household spirits, the unquiet dead, the calendar of the dead, taboo and protection",
-      "dek": "The third volume opens with household spirits. Plates are published one at a time; the rest are listed with their scope and stay unpublished until their sources are checked.",
-      "status": "in-preparation",
-      "planned": [
-        {
-          "letter": "V",
-          "title": "Taboo, Omen and Protection",
-          "scope": "Prohibitions, signs, washing and cleansing, protective objects; what people did and what researchers think it meant."
-        }
-      ]
+      "dek": "The third volume: household spirits, the unquiet dead, the calendar of the dead, taboo and protection. Each plate states its region, source and period, and none is offered as a unified pantheon.",
+      "status": "published",
+      "planned": []
     },
     {
       "id": "IV",
