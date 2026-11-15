@@ -313,7 +313,7 @@ function renderSection(s, base, item) {
 
 // --------------------------------------------------------------- shell -----
 const OTHER = { en: "ru", ru: "en" };
-function shell({ title, description, base, bodyClass = "", page = "", rel = "index.html", content, extraHead = "" }) {
+function shell({ title, description, base, bodyClass = "", page = "", rel = "index.html", content, extraHead = "", social = "", socialAlt = "" }) {
   const A = UP + base;                       // path prefix for assets
   const toRu = LANG === "en" ? `${base}ru/${rel}` : `${base}${rel}`;
   const toEn = LANG === "ru" ? `${UP}${base}${rel}` : `${base}${rel}`;
@@ -321,6 +321,8 @@ function shell({ title, description, base, bodyClass = "", page = "", rel = "ind
   const urlEn = SITE + rel.replace(/index\.html$/, ""), urlRu = SITE + "ru/" + rel.replace(/index\.html$/, "");
   const self = LANG === "en" ? urlEn : urlRu;
   const brand = T.brand;
+  const socialFile = social || (LANG === "ru" ? "social-ru.jpg" : "social.jpg");
+  const sAlt = socialAlt || T.socialAlt;
   const nav = T.nav;
   const ruBanner = LANG === "en" ? `<div class="rubanner" data-rubanner hidden lang="ru"><p>${UI.en.ruBanner}</p><a href="${toRu}" hreflang="ru" data-lang-pick="ru">${UI.en.ruBannerGo}</a><button type="button" data-rubanner-close>${UI.en.ruBannerNo}</button></div>` : "";
   return `<!doctype html>
@@ -341,25 +343,29 @@ function shell({ title, description, base, bodyClass = "", page = "", rel = "ind
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${self}">
-<meta property="og:image" content="${SITE}${LANG === "ru" ? "social-ru.jpg" : "social.jpg"}">
+<meta property="og:image" content="${SITE}${socialFile}">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="${esc(T.socialAlt)}">
+<meta property="og:image:alt" content="${esc(sAlt)}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
-<meta name="twitter:image" content="${SITE}${LANG === "ru" ? "social-ru.jpg" : "social.jpg"}">
-<meta name="twitter:image:alt" content="${esc(T.socialAlt)}">
+<meta name="twitter:image" content="${SITE}${socialFile}">
+<meta name="twitter:image:alt" content="${esc(sAlt)}">
 <meta name="theme-color" content="#0d0c0b">
 <meta name="author" content="Dmitry Papilin">
 <meta name="color-scheme" content="dark">
 <link rel="icon" href="${A}assets/illustrations/colophon-mark.svg" type="image/svg+xml">
+<link rel="icon" href="${A}assets/icons/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="${A}assets/icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="${A}assets/icons/apple-touch-icon.png">
 <link rel="preload" href="${A}assets/fonts/anton-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${A}css/core.css">
 <link rel="stylesheet" href="${A}css/plates.css">
 <link rel="stylesheet" href="${A}css/pages.css">
 <link rel="stylesheet" href="${A}css/motion.css">
+<link rel="stylesheet" href="${A}css/print.css" media="print">
 ${extraHead}
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
@@ -425,7 +431,9 @@ ${content}
     <p data-credit></p>
   </div>
 </dialog>
+<button class="sound-btn" type="button" data-sound aria-pressed="false" title="${esc(T.soundTitle)}" data-on="${esc(T.soundOn)}" data-off="${esc(T.sound)}">${T.sound}</button>
 <script src="${A}js/app.js" defer></script>
+<script src="${A}js/sound.js" defer></script>
 </body>
 </html>`;
 }
@@ -530,6 +538,8 @@ function renderPlate(p) {
     description: p.dek.replace(/[*`]/g, ""),
     base,
     rel: `plates/${p.id}-${p.slug}.html`,
+    social: `social/${LANG === "ru" ? "ru-" : ""}plate-${p.id}.jpg`,
+    socialAlt: `${LANG === "ru" ? "Лист" : "Plate"} ${p.letter}: ${p.title}. ${p.subtitle}`.replace(/[*`]/g, ""),
     bodyClass: `plate-page g-${lay.ground}`,
     page: `plate-${p.id}`,
     content: `<main id="main">
@@ -674,6 +684,7 @@ function mapPage() {
   const pins = groups.map((g, i) => `<button class="pin" type="button" data-place="${g.marker}" style="--x:${g.pos.x}%;--y:${g.pos.y}%"
       aria-label="${esc(X.pinAria(String(i + 1).padStart(2, "0"), g.items.map((x) => x.name).join(" / ")))}">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span>
+      <span class="pin__tip mono pin__tip--${g.pos.x > 70 ? "l" : g.pos.x < 25 ? "r" : "c"}" aria-hidden="true">${esc(g.items.map((x) => x.name).join(" · "))} — ${[...new Set(g.items.flatMap((x) => x.plates))].filter((x) => PLATE[x]).map((x) => PLATE[x].letter).join(" ")}</span>
     </button>`).join("\n");
 
   const cards = groups.map((g, i) => `<li class="place" data-marker="${g.marker}" id="place-card-${g.marker}">

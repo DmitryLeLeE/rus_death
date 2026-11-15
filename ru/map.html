@@ -30,11 +30,15 @@
 <meta name="author" content="Dmitry Papilin">
 <meta name="color-scheme" content="dark">
 <link rel="icon" href="../assets/illustrations/colophon-mark.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/icons/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="../assets/icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
 <link rel="preload" href="../assets/fonts/anton-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../css/core.css">
 <link rel="stylesheet" href="../css/plates.css">
 <link rel="stylesheet" href="../css/pages.css">
 <link rel="stylesheet" href="../css/motion.css">
+<link rel="stylesheet" href="../css/print.css" media="print">
 
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
@@ -98,34 +102,42 @@
       <button class="pin" type="button" data-place="moscow" style="--x:48.182%;--y:47.291%"
       aria-label="Место 01: Москва — показать записи">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">01</span>
+      <span class="pin__tip mono pin__tip--c" aria-hidden="true">Москва — F I K J L</span>
     </button>
 <button class="pin" type="button" data-place="st-petersburg" style="--x:29.55%;--y:32.061%"
       aria-label="Место 02: Санкт-Петербург / Пушкин (Царское Село) — показать записи">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">02</span>
+      <span class="pin__tip mono pin__tip--c" aria-hidden="true">Санкт-Петербург · Пушкин (Царское Село) — D I K F</span>
     </button>
 <button class="pin" type="button" data-place="novgorod" style="--x:31.998%;--y:37.113%"
       aria-label="Место 03: Новгород — показать записи">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">03</span>
+      <span class="pin__tip mono pin__tip--c" aria-hidden="true">Новгород — H</span>
     </button>
 <button class="pin" type="button" data-place="olonets-karelia" style="--x:38.003%;--y:25.838%"
       aria-label="Место 04: Олонецкая губерния (Карелия) — показать записи">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">04</span>
+      <span class="pin__tip mono pin__tip--c" aria-hidden="true">Олонецкая губерния (Карелия) — G C</span>
     </button>
 <button class="pin" type="button" data-place="volga-region" style="--x:73.824%;--y:55.491%"
       aria-label="Место 05: Поволжье — показать записи">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">05</span>
+      <span class="pin__tip mono pin__tip--l" aria-hidden="true">Поволжье — H</span>
     </button>
 <button class="pin" type="button" data-place="volgograd" style="--x:66.17%;--y:72.918%"
       aria-label="Место 06: Волгоград (Сталинград) — показать записи">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">06</span>
+      <span class="pin__tip mono pin__tip--c" aria-hidden="true">Волгоград (Сталинград) — I</span>
     </button>
 <button class="pin" type="button" data-place="rostov-on-don" style="--x:53.775%;--y:78.409%"
       aria-label="Место 07: Ростов-на-Дону — показать записи">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">07</span>
+      <span class="pin__tip mono pin__tip--c" aria-hidden="true">Ростов-на-Дону — L</span>
     </button>
 <button class="pin" type="button" data-place="tymky-ukraine" style="--x:40.322%;--y:68.305%"
       aria-label="Место 08: Хутор Тимки — показать записи">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">08</span>
+      <span class="pin__tip mono pin__tip--c" aria-hidden="true">Хутор Тимки — D</span>
     </button>
       <p class="map-plane__scale mono" aria-hidden="true">РАВНОПРОМЕЖУТОЧНАЯ ПРОЕКЦИЯ (PLATE CARRÉE) С ПОПРАВКОЙ НА ШИРОТУ · 20°–56° в. д. · 42°–68° с. ш. · ПОЛОЖЕНИЯ ПРИБЛИЗИТЕЛЬНЫЕ</p>
       <p class="map-plane__credit mono">ОСНОВА: NATURAL EARTH 1:110M (ОБЩЕСТВЕННОЕ ДОСТОЯНИЕ). ПРОЕКЦИЯ И ЗНАКИ: АТЛАС.</p>
@@ -273,6 +285,8 @@
     <p data-credit></p>
   </div>
 </dialog>
+<button class="sound-btn" type="button" data-sound aria-pressed="false" title="Необязательный звук помещения, синтезируется в браузере. По умолчанию выключен." data-on="ЗВУК ВКЛ" data-off="ЗВУК">ЗВУК</button>
 <script src="../js/app.js" defer></script>
+<script src="../js/sound.js" defer></script>
 </body>
 </html>

@@ -359,22 +359,6 @@
       "made_by": "make_derived.py"
     },
     {
-      "id": "radonitsa-women",
-      "file": "assets/derived/radonitsa-women.webp",
-      "kind": "derivative",
-      "title": "Commemoration at graves, Khutir Tymky, Ukraine — the women (2014) — underexposed print",
-      "creator": "Derivative made for this atlas from the original by Perohanych",
-      "date": "2026",
-      "medium": "Crop: Left group of the gathering. Processing: underexposed print, torn edge baked into the alpha channel",
-      "license": "CC BY-SA 3.0 (derived)",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG",
-      "parent": "radonitsa-graves",
-      "alt": "People standing among graves with food and cloths laid on them",
-      "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
-      "made_by": "make_derived.py"
-    },
-    {
       "id": "radonitsa-table",
       "file": "assets/derived/radonitsa-table.webp",
       "kind": "derivative",

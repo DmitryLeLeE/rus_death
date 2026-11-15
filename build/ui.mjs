@@ -30,6 +30,7 @@ export const UI = {
     eras: { "pre-imperial": "PRE-IMPERIAL", imperial: "IMPERIAL", soviet: "SOVIET", "post-soviet": "POST-SOVIET" },
     kinds: { monograph: "MONOGRAPH", primary: "PRIMARY", reference: "REFERENCE", institutional: "INSTITUTIONAL", museum: "MUSEUM", press: "PRESS" },
     langToggle: "РУС", langToggleTitle: "Читать по-русски", langToggleAria: "Читать этот проект по-русски",
+    sound: "SOUND", soundOn: "SOUND ON", soundTitle: "Optional room sound, synthesised in the browser. Off by default.",
     readable: "READABLE", readableTitle: "Plain reading mode: no tilt, no texture, larger text", readableOn: "ORIGINAL",
     ruBanner: "Этот проект есть на русском языке.", ruBannerGo: "Читать по-русски →", ruBannerNo: "не нужно",
 
@@ -152,6 +153,7 @@ export const UI = {
     eras: { "pre-imperial": "ДОИМПЕРСКИЙ", imperial: "ИМПЕРСКИЙ", soviet: "СОВЕТСКИЙ", "post-soviet": "ПОСТСОВЕТСКИЙ" },
     kinds: { monograph: "МОНОГРАФИЯ", primary: "ПЕРВОИСТОЧНИК", reference: "СПРАВОЧНОЕ", institutional: "ИНСТИТУЦИОНАЛЬНОЕ", museum: "МУЗЕЙНОЕ", press: "ПРЕССА" },
     langToggle: "ENG", langToggleTitle: "Read in English", langToggleAria: "Read this project in English",
+    sound: "ЗВУК", soundOn: "ЗВУК ВКЛ", soundTitle: "Необязательный звук помещения, синтезируется в браузере. По умолчанию выключен.",
     readable: "ЧИТАТЬ ЛЕГКО", readableTitle: "Режим спокойного чтения: без наклонов и текстур, крупнее шрифт", readableOn: "КАК В ИЗДАНИИ",
     ruBanner: "", ruBannerGo: "", ruBannerNo: "",
 

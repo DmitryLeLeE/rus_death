@@ -17,3 +17,32 @@ for (const [lang, out] of [["en", "social.jpg"], ["ru", "social-ru.jpg"]]) {
   await pg.close();
 }
 await b.close();
+
+// ---- one card per plate, EN and RU: social/plate-a.jpg, social/ru-plate-a.jpg ----
+import fs from "node:fs";
+const ground = { a: "tomb-path", b: "dormition-bier", c: "rogozhskoe-oldbelievers-cut", d: "radonitsa-table", e: "hero-radonitsa", f: "golubets-cut", g: "nevrev-panikhida-cut", h: "judgment-full", i: "piskaryov-flame", j: "perov-full", k: "mamayev-news", l: "tomb-black" };
+const en = JSON.parse(fs.readFileSync(path.join(root, "data/plates.json"), "utf8")).plates;
+const ruP = JSON.parse(fs.readFileSync(path.join(root, "data/ru/plates.json"), "utf8")).plates;
+fs.mkdirSync(path.join(root, "social"), { recursive: true });
+const b2 = await pw.chromium.launch({ executablePath: process.env.CHROME || "/usr/bin/google-chrome", args: ["--no-sandbox", "--allow-file-access-from-files"] });
+for (const lang of ["en", "ru"]) {
+  for (const p of en) {
+    const t = lang === "ru" ? { ...p, ...ruP[p.id] } : p;
+    const d = {
+      lang, image: ground[p.id], letter: p.letter, title: t.title, subtitle: t.subtitle,
+      kicker: lang === "ru" ? `АТЛАС · ЛИСТ ${p.letter}` : `AN ATLAS · PLATE ${p.letter}`,
+      meta: t.period,
+      site: lang === "ru" ? "АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ" : "ARCHÆOLOGY OF RUSSIAN DEATH",
+    };
+    const pg = await b2.newPage({ viewport: { width: 1200, height: 630 } });
+    await pg.goto(pathToFileURL(path.join(root, "build/social_plate.html")).href, { waitUntil: "networkidle" });
+    await pg.evaluate((x) => window.fill(x), d);
+    await pg.evaluate(() => document.fonts.ready);
+    await pg.waitForTimeout(250);
+    const out = `social/${lang === "ru" ? "ru-" : ""}plate-${p.id}.jpg`;
+    await pg.screenshot({ path: path.join(root, out), type: "jpeg", quality: 84 });
+    await pg.close();
+  }
+}
+await b2.close();
+console.log("plate cards: 24");

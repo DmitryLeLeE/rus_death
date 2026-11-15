@@ -237,10 +237,25 @@
         }
       }
     };
-    pins.forEach((pin) => {
+    pins.forEach((pin, i) => {
       pin.setAttribute("aria-pressed", "false");
       pin.addEventListener("click", () => select(pin.dataset.place, true));
+      // arrow keys walk from pin to pin
+      pin.addEventListener("keydown", (e) => {
+        const step = e.key === "ArrowRight" || e.key === "ArrowDown" ? 1 : e.key === "ArrowLeft" || e.key === "ArrowUp" ? -1 : 0;
+        if (!step) return;
+        e.preventDefault();
+        pins[(i + step + pins.length) % pins.length].focus();
+      });
     });
+    // clicking a card lights its pin; #place-card-… in the address opens that place
+    cards.forEach((c) => c.addEventListener("click", (e) => { if (!e.target.closest("a")) select(c.dataset.marker, false); }));
+    const fromHash = () => {
+      const m = /^#place-card-(.+)$/.exec(location.hash);
+      if (m && pins.some((p) => p.dataset.place === m[1])) select(m[1], true);
+    };
+    fromHash();
+    addEventListener("hashchange", fromHash);
   }
 
   /* ----------------------------------------------------------- chronology -- */

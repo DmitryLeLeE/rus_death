@@ -282,8 +282,6 @@ SPECS = [
      "Commemoration at graves, Khutir Tymky, Ukraine (2014; not evidence for Russian custom)", "Whole frame, cropped to a wide band"),
     ("hero-tomb", "abandoned-tomb.jpg", (0, 230, 1200, 1010), "black", 1600, "b",
      "Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don", "Wide crop of the path and the tomb"),
-    ("radonitsa-women", "radonitsa-graves.jpg", (60, 280, 700, 1200), "dormant", 760, "tb",
-     "Commemoration at graves, Khutir Tymky, Ukraine — the women (2014)", "Left group of the gathering"),
     ("radonitsa-table", "radonitsa-graves.jpg", (700, 420, 1300, 880), "faded", 900, "lr",
      "Commemoration at graves, Khutir Tymky, Ukraine — the table (2014)", "Table with cloth and food, right of centre"),
     ("golubets-cut", "golubets.jpg", None, "xerox", 682, "tblr",

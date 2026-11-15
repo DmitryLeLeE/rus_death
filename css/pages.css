@@ -344,3 +344,11 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
 /* prologue: tall newsprint strips are cropped, not stretched */
 .pro__art .photo__img img { max-height: 78vh; object-fit: cover; object-position: 50% 30%; }
 .pro__art .photo__img { max-height: 78vh; overflow: hidden; }
+
+/* map pin labels */
+.pin__tip { position: absolute; bottom: calc(100% - 4px); left: 50%; transform: translateX(-50%); padding: 4px 8px; background: #0d0c0b; color: #f3eee2; border: 1px solid var(--red); font: 0.62rem var(--f-type); letter-spacing: 0.1em; white-space: nowrap; opacity: 0; pointer-events: none; transition: opacity 0.12s; z-index: 5; }
+.pin__tip--l { left: auto; right: 0; transform: none; }
+.pin__tip--r { left: 0; transform: none; }
+.pin:hover .pin__tip, .pin:focus-visible .pin__tip, .pin.is-active .pin__tip { opacity: 1; }
+.pin:focus-visible { outline: 2px solid var(--red-hot); outline-offset: 2px; }
+.place { cursor: pointer; }

@@ -1,5 +1,7 @@
 # ARCHÆOLOGY OF RUSSIAN DEATH
 
+<a href="https://DmitryLeLeE.github.io/rus_death/"><img src="social.jpg" alt="ARCHÆOLOGY OF RUSSIAN DEATH: a roofed grave cross and a sleigh with a coffin, black and white, on torn paper"></a>
+
 **An atlas of death, memory, ritual and the afterlife in Russian culture.**
 Twelve plates, a map, a chronology, a lexicon and a bibliography, in English and Russian.
 
@@ -16,6 +18,17 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 > Not Slavic fantasy. Not gothic horror. Not a dark aesthetic.
 > The aesthetic is Russian death, remembered through matter.
 
+## Twelve plates
+
+<table>
+<tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/a-threshold.html"><img src="social/plate-a.jpg" alt="Plate A: The Threshold"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/b-body.html"><img src="social/plate-b.jpg" alt="Plate B: The Body"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/c-ritual.html"><img src="social/plate-c.jpg" alt="Plate C: The Ritual"></a></td></tr>
+<tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/d-table.html"><img src="social/plate-d.jpg" alt="Plate D: The Table"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/e-returning.html"><img src="social/plate-e.jpg" alt="Plate E: The Returning Dead"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/f-grave.html"><img src="social/plate-f.jpg" alt="Plate F: The Grave"></a></td></tr>
+<tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/g-voice.html"><img src="social/plate-g.jpg" alt="Plate G: The Voice"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/h-afterlife.html"><img src="social/plate-h.jpg" alt="Plate H: The Afterlife"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/i-collective.html"><img src="social/plate-i.jpg" alt="Plate I: Collective Death"></a></td></tr>
+<tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/j-art.html"><img src="social/plate-j.jpg" alt="Plate J: Death in Art"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/k-soviet.html"><img src="social/plate-k.jpg" alt="Plate K: The Soviet Afterlife"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/l-unfinished.html"><img src="social/plate-l.jpg" alt="Plate L: The Unfinished Archive"></a></td></tr>
+</table>
+
+*Click a card to open the plate. Each plate has its own composition, material and ground.*
+
 ## Inside
 
 | Page | What it is |
@@ -30,9 +43,11 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Sources | Bibliography with what each source can and cannot support; image credits |
 | Method | Scope, evidence levels, periodisation, limits |
 
-There is a *Readable* button in the header (calm paper, no tilt, larger type) and every motion effect switches off under `prefers-reduced-motion`.
+There is a *Readable* button in the header (calm paper, no tilt, larger type) and an optional *Sound* button (a quiet room, wind and a far bell, synthesised in the browser; off by default). Every motion effect switches off under `prefers-reduced-motion`, and each plate prints as a plain black-and-white sheet.
 
 ## По-русски
+
+<a href="https://DmitryLeLeE.github.io/rus_death/ru/"><img src="social-ru.jpg" alt="АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ: крест под крышей и сани с гробом, чёрно-белые, на рваной бумаге"></a>
 
 «Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двенадцать листов, карта, хронология, словарь и библиография. Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
 
@@ -65,4 +80,4 @@ The atlas states its gaps rather than filling them: no field survey, no municipa
 - Map geometry: Natural Earth, public domain.
 - Statement → source registry: [`SOURCES.md`](SOURCES.md).
 
-No analytics, no cookies, no external requests. The only thing stored in the browser is your language and *Readable* choice.
+No analytics, no cookies, no external requests. The only things stored in the browser are your language, *Readable* and *Sound* choices.
