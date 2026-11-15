@@ -1925,6 +1925,146 @@
           ]
         }
       ]
+    },
+    {
+      "id": "n",
+      "letter": "N",
+      "slug": "forest-edge",
+      "nav": "The Forest Edge",
+      "title": "THE FOREST EDGE",
+      "subtitle": "Burial away from the churchyard, the forest on the road to the dead, and a hut at the border",
+      "dek": "Three kinds of evidence put the dead near the forest: reports of burial in forest ravines, a belief that the way to the dead leads through the woods, and a fairy-tale hut at the treeline. They come from different peoples and different genres, and the plate does not blend them.",
+      "marginal": "One report is about Mordvins. One article is mostly Estonian and Belarusian. One is a reading of folktales. None of them is a map of where Russians buried anyone.",
+      "period": "Reports published 1916; articles 2025",
+      "location": "Saratov and Simbirsk provinces (reports); Estonia and Belarus (corpus); Russian folktales (reading)",
+      "tradition": "Eastern Slavic and neighbouring folk belief",
+      "category": "forest",
+      "layout": "forestedge",
+      "tone": "dark",
+      "sources": [
+        "zelenin1916",
+        "koiva2025",
+        "santos2025"
+      ],
+      "related": [
+        "e",
+        "m",
+        "l"
+      ],
+      "concepts": [
+        "threshold",
+        "return"
+      ],
+      "objects": [],
+      "places": [],
+      "volume": "II",
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "N / 01",
+          "heading": "Outside the fence",
+          "level": "documented",
+          "sources": [
+            "zelenin1916"
+          ],
+          "paras": [
+            "Dmitry Zelenin’s 1916 essays on those who died an ‘unnatural’ death collect local reports that such people were not always laid in the churchyard. Two are used here. At Orkino, in Saratov uezd, sudden deaths, drunkards, the drowned and suicides were buried far from the village, in the forest, in a ravine between two steep hills. In Silinskaya volost, Simbirsk guberniya, a ‘deaf forest ravine’ was held to be the proper grave for someone who had drunk himself to death, and burial in the cemetery was said to bring drought and crop failure.",
+            "Both are reports in someone else’s book, read here through excerpts. The Orkino report concerns half-Russified Mordvins. Zelenin’s own conclusions about two classes of the dead have been revised since, and the plate takes from him only what local people were reported to do and to fear."
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "forest-edge-domodedovo",
+          "show": "forest-edge-wide",
+          "alt": "A wide view along the edge of a mixed forest beside a railway line under open sky",
+          "caption": "A present-day forest edge beside a railway, Domodedovo, Moscow Oblast, 2022. Photograph: Artem Svetlov, CC0. It illustrates what an edge looks like. It is not a burial site and not evidence of any custom.",
+          "credit": "Artem Svetlov / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "wide"
+        },
+        {
+          "type": "prose",
+          "kicker": "N / 02",
+          "heading": "The forest on the road",
+          "level": "interpretation",
+          "sources": [
+            "koiva2025"
+          ],
+          "paras": [
+            "A 2025 comparative study of forest spirits by Mare Kõiva, Elena Boganeva and Ilya Butov remarks that in many rural cultures the forest is a place of hostile forces, or even of hell, and that the road to the realm of the dead is thought to run through it. The authors take that remark from an earlier author, Ivanov (1992), and present it as a common belief, not as their own finding.",
+            "The article’s sources are archives in Estonia and Belarus, with a small Russian-language sample from Estonia. It supports a widespread idea; it does not show how that idea was held in any Russian village."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "N / 03",
+          "heading": "A hut at the treeline",
+          "level": "interpretation",
+          "sources": [
+            "santos2025"
+          ],
+          "paras": [
+            "Enrique Santos Marinas, reading the folktales Afanasyev published between 1855 and 1863, argues that the hut of Baba-Yaga stands at the forest edge or in a clearing because that position marks it as a threshold between two realms. On his reading the hut is a gateway to the Other World and its owner guards the passage.",
+            "This is a reading of narrative. A tale tells us what a teller expected an audience to recognise, which is not the same as what anyone did with a body. The plate keeps the hut as an image and does not use it as a record of belief."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "N / 04",
+          "heading": "Three kinds of evidence, three kinds of place",
+          "colhead": [
+            "Source",
+            "Region and genre",
+            "What it can support"
+          ],
+          "rows": [
+            [
+              "Zelenin, 1916",
+              "Saratov and Simbirsk provinces; reports of local practice",
+              "That in these places some dead were buried in forest ravines and that cemetery burial was feared"
+            ],
+            [
+              "Kõiva, Boganeva and Butov, 2025",
+              "Estonia and Belarus; archive texts about forest spirits",
+              "That a road to the dead through the forest is cited as a widespread belief"
+            ],
+            [
+              "Santos Marinas, 2025",
+              "Russian folktales; literary reading",
+              "That the forest edge works as a threshold in the tales"
+            ]
+          ],
+          "level": "documented",
+          "sources": [
+            "zelenin1916",
+            "koiva2025",
+            "santos2025"
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "What this plate does not say",
+          "level": "interpretation",
+          "items": [
+            "It does not say that Russians generally buried anyone in forests. The one burial report from a Russian-speaking area is a single volost in Simbirsk province, and it is a report of belief about where a particular kind of dead person belonged.",
+            "It does not equate the forest spirit with the dead. The sources used here do not make that link, and the plate leaves it alone.",
+            "The Orkino report is Mordvin. Putting it on a plate about Russian death is a choice the plate makes openly and does not hide."
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Research leads",
+          "heading": "What would turn this plate into a study",
+          "level": "interpretation",
+          "items": [
+            "Zelenin’s text itself, with page references for each local report and the correspondent named where he names one.",
+            "Regional ethnographic collections that record where drowned, suicides and unbaptised children were buried, village by village.",
+            "Archaeological or cemetery records of burials outside churchyards, kept apart from folklore.",
+            "Russian-language studies of the road to the other world, read in full."
+          ]
+        }
+      ]
     }
   ]
 }

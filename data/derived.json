@@ -480,6 +480,16 @@
   "bytes": 130246
  },
  {
+  "id": "forest-edge-wide",
+  "parent_file": "forest-edge-domodedovo.jpg",
+  "treatment": "faded",
+  "title": "Forest edge by the railway, Domodedovo (2022)",
+  "shows": "Whole frame",
+  "w": 1500,
+  "h": 608,
+  "bytes": 251704
+ },
+ {
   "id": "izba-red-corner-wide",
   "parent_file": "izba-red-corner.jpg",
   "treatment": "faded",

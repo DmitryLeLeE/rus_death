@@ -374,6 +374,8 @@ SPECS = [
      "Abandoned house, Nepogodikha, Nizhny Novgorod Oblast (2008)", "Whole frame"),
     ("tver-empty-house-cut", "tver-empty-house.jpg", None, "faded", 1200, "tblr",
      "Abandoned wooden house by the road, Tver Oblast (2016)", "Whole frame"),
+    ("forest-edge-wide", "forest-edge-domodedovo.jpg", None, "faded", 1500, "tblr",
+     "Forest edge by the railway, Domodedovo (2022)", "Whole frame"),
     ("izba-red-corner-wide", "izba-red-corner.jpg", None, "faded", 1300, "tblr",
      "Red corner in an izba, Vitoslavlitsy (Veliky Novgorod) — whole frame", "Whole frame"),
     ("tver-empty-house-xerox", "tver-empty-house.jpg", None, "xerox", 1200, "tblr",

@@ -351,6 +351,51 @@
       "language": "English",
       "supports": "Rosstat head Alexander Surinov’s preliminary figures: villages with no population grown from 13,000 to 19,400; 36,200 villages with fewer than ten residents.",
       "limitation": "Preliminary figures reported secondhand, published before the final census report; compare the TASS and OSW records."
+    },
+    {
+      "id": "zelenin1916",
+      "kind": "monograph",
+      "author": "Zelenin, Dmitry K.",
+      "title": "Очерки русской мифологии. Вып. 1: Умершие неестественною смертью и русалки",
+      "title_en": "Essays in Russian Mythology, part 1: Those Who Died an Unnatural Death, and Rusalki",
+      "year": "1916",
+      "publisher": "Tip. A. V. Orlova, Petrograd",
+      "extent": "312 pp.",
+      "url": "https://elib.rgo.ru/handle/123456789/216718",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Zelenin’s compilation of reports that people who died an ‘unnatural’ death were buried away from the churchyard, including the two local cases used on plate N: a forest ravine near Orkino (Saratov uezd) and a ‘deaf forest ravine’ in Silinskaya volost (Simbirsk guberniya); also his term ‘zalozhnye’.",
+      "limitation": "The book itself was not read. The two cases were read as excerpts shown in a web transcription of the text, which was not opened, so page numbers are not given. The Orkino report concerns half-Russified Mordvins, not Russians. The compilation is over a century old, and its theory of two classes of dead has been revised by later scholarship; this atlas uses only the local reports."
+    },
+    {
+      "id": "koiva2025",
+      "kind": "article",
+      "author": "Kõiva, Mare; Boganeva, Elena; Butov, Ilya",
+      "title": "Forest Spirits and Their Functions in the Traditions of Estonians, Estonian Russians and Belarusians",
+      "title_en": "",
+      "year": "2025",
+      "publisher": "Studia Mythologica Slavica",
+      "extent": "pp. 143–162",
+      "url": "https://doi.org/10.3986/SMS20252807",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "That a path to the realm of the dead through the forest is a widespread rural belief, which the authors cite from Ivanov (1992) and do not claim as their own finding; the forest as a place of hostile forces or of hell.",
+      "limitation": "Only the passage on the path to the realm of the dead and the corpus description were read. The material is Estonian, Estonian-Russian and Belarusian; the Russian sample is about 108 archive texts against some 3,500 Estonian ones. It is not evidence for Russia as a whole."
+    },
+    {
+      "id": "santos2025",
+      "kind": "article",
+      "author": "Santos Marinas, Enrique",
+      "title": "Myth and Immortality in Russian Folktales",
+      "title_en": "",
+      "year": "2025",
+      "publisher": "Religions 16(1), article 7 (published online 25 December 2024)",
+      "extent": "",
+      "url": "https://doi.org/10.3390/rel16010007",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "An interpretation that the hut of Baba-Yaga, set at the edge of the forest or in a clearing, marks a threshold to the Other World, with its owner as guardian of that passage.",
+      "limitation": "Only the abstract and the passage on the hut’s location were read. The corpus is Afanasyev’s published folktales, so this is a reading of narrative, not a record of burial or belief practice."
     }
   ]
 }

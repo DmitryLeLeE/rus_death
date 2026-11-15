@@ -549,6 +549,21 @@
       "note": "No attribution required; credited anyway."
     },
     {
+      "id": "forest-edge-domodedovo",
+      "file": "assets/images/forest-edge-domodedovo.jpg",
+      "kind": "photograph",
+      "title": "Forest edge by the railway at the 52 km platform, Domodedovo (2022)",
+      "creator": "Artem Svetlov",
+      "date": "2022-05",
+      "medium": "Photograph (spherical panorama, reduced)",
+      "collection": "Moscow Oblast",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Domodedovo_forest_2022-05.jpg",
+      "alt": "A wide view along the edge of a mixed forest beside a railway line under open sky",
+      "note": "No attribution required; credited anyway. The file is a very wide panorama; the atlas uses a 1920 px reduction. It documents a present-day forest edge near Moscow, not any burial site."
+    },
+    {
       "id": "hero-radonitsa",
       "file": "assets/derived/hero-radonitsa.webp",
       "kind": "derivative",
@@ -1313,6 +1328,22 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:0055_August_2016_in_Tver_Oblast.jpg",
       "parent": "tver-empty-house",
       "alt": "A dark wooden house with a sagging roof stands beside a country road under a pale sky",
+      "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
+      "made_by": "make_derived.py"
+    },
+    {
+      "id": "forest-edge-wide",
+      "file": "assets/derived/forest-edge-wide.webp",
+      "kind": "derivative",
+      "title": "Forest edge by the railway, Domodedovo (2022) — faded print with scanner banding",
+      "creator": "Derivative made for this atlas from the original by Artem Svetlov",
+      "date": "2026",
+      "medium": "Crop: Whole frame. Processing: faded print with scanner banding, torn edge baked into the alpha channel",
+      "license": "CC0 1.0 (derived)",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Domodedovo_forest_2022-05.jpg",
+      "parent": "forest-edge-domodedovo",
+      "alt": "A wide view along the edge of a mixed forest beside a railway line under open sky",
       "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
       "made_by": "make_derived.py"
     },
