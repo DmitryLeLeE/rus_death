@@ -55,12 +55,14 @@
         },
         {
           "type": "figure",
-          "src": "threshold-diagram",
-          "alt": "Schematic drawing: a house on the left, a grave on the right, a red vertical band between them crossed by two arrows",
-          "caption": "Schematic. The threshold is not a place but a set of prohibitions applied to a doorway. Drawing: original for this atlas.",
-          "credit": "Original illustration",
-          "level": "reconstruction",
-          "size": "wide"
+          "src": "nepogodikha-house",
+          "alt": "A log house with carved window frames and a rusted iron roof, its windows empty, tall grass in front",
+          "caption": "An abandoned izba with carved window frames, Nepogodikha, Nizhny Novgorod Oblast. Photograph: Evgeny Katyshev, CC BY-SA 3.0. The house is the first boundary in the material this plate uses: what is done at its windows, doors and threshold is done for the person who is leaving it.",
+          "credit": "Evgeny Katyshev / Wikimedia Commons, CC BY-SA 3.0",
+          "level": "documented",
+          "size": "wide",
+          "mask": null,
+          "state": null
         },
         {
           "type": "prose",
@@ -158,12 +160,14 @@
         },
         {
           "type": "figure",
-          "src": "ritual-sequence",
-          "alt": "Six line drawings in a row: a bowl and cloth, a comb, a coffin, a procession before a cross, a grave mound with a spade, a table with a cup and bread",
-          "caption": "Six operations, drawn as a sequence without a beginning. Original line drawings for this atlas; the order is analytical, not documentary.",
-          "credit": "Original illustration",
-          "level": "reconstruction",
-          "size": "wide"
+          "src": "funeral-1941",
+          "alt": "Mourners stand around an open grave among cut branches, a plain wooden coffin on the ground beside them",
+          "caption": "A burial photographed c. 1941–43 by a German soldier. The Bundesarchiv caption says the body was taken out of the coffin and committed to the earth in a blanket; the coffin stays above ground. Bundesarchiv, Bild 169-0339, CC BY-SA 3.0 de. The place is uncertain: Commons files the picture under both Russia and Ukraine.",
+          "credit": "Bundesarchiv, Bild 169-0339, CC BY-SA 3.0 de",
+          "level": "documented",
+          "size": "wide",
+          "mask": null,
+          "state": null
         },
         {
           "type": "prose",
@@ -301,12 +305,14 @@
         },
         {
           "type": "figure",
-          "src": "soul-path",
-          "alt": "An arc diagram rising from a grave to a high point and descending again, with three red tick marks and a row of small ticks below",
-          "caption": "Analytical diagram of the commemorative arc: burial, the third and ninth days, the fortieth. The curve is a convention, not a source. Drawing: original.",
-          "credit": "Original illustration",
-          "level": "reconstruction",
-          "size": "wide"
+          "src": "theodora-lubok",
+          "alt": "A coloured print of a staircase rising through clouds, with demons and angels on the steps and a deathbed at the lower left",
+          "caption": "*Death of Theodora*: a Russian hand-made lubok, second half of the 19th century, showing the soul’s ascent past the aerial toll-houses (*mytarstva*). Public domain, via Wikimedia Commons. The forty days are also an itinerary in popular print; this is an image from print culture, not a record of what a village did.",
+          "credit": "Anonymous lubok / Wikimedia Commons, public domain",
+          "level": "documented",
+          "size": "wide",
+          "mask": null,
+          "state": null
         },
         {
           "type": "table",
@@ -771,16 +777,19 @@
           "caption": "Schematic cemetery plan: wall, gate, chapel, rows of graves, and the route taken by a funeral. Drawn for this atlas; not a survey of any existing cemetery.",
           "credit": "Original illustration",
           "level": "reconstruction",
-          "size": "medium"
+          "size": "medium",
+          "hidden": true
         },
         {
           "type": "figure",
-          "src": "cross-typology",
-          "alt": "Four measured elevations of grave crosses: eight-pointed, six-pointed, four-pointed under a roof, and a roofed cross with a plank shelter",
-          "caption": "Four grave-cross types drawn as measured elevations. The proportions are conventional, not taken from a single monument. Drawing: original.",
-          "credit": "Original illustration",
-          "level": "reconstruction",
-          "size": "wide"
+          "src": "zaret-crosses",
+          "alt": "Crosses of different shapes standing in deep snow among bare trees in a city cemetery",
+          "caption": "Crosses of several shapes in one field, Zaretskoe Cemetery, Petrozavodsk, January 2019. Photograph: Semenov.m7, CC0. The type of a cross is read off the monuments themselves: one shape for the plot, another for the next.",
+          "credit": "Semenov.m7 / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "wide",
+          "mask": null,
+          "state": null
         },
         {
           "type": "prose",
@@ -1165,7 +1174,8 @@
           "caption": "A tent-roofed wooden church, drawn as a schematic elevation. Wooden church architecture is the architectural register of the northern cemetery and parish; the drawing is a type, not a monument.",
           "credit": "Original illustration",
           "level": "reconstruction",
-          "size": "wide"
+          "size": "wide",
+          "hidden": true
         }
       ]
     },
@@ -1593,12 +1603,14 @@
         },
         {
           "type": "figure",
-          "src": "post-soviet-plot",
-          "alt": "A contemporary grave plot with fence, granite slab, oval portrait, wreath and bench, drawn as a schematic",
-          "caption": "A contemporary grave plot: metal fence, granite slab with an unreadable oval portrait, a plastic wreath and a bench. Drawn as a measured schematic of a type, not as a photograph of any specific grave.",
-          "credit": "Original illustration",
-          "level": "reconstruction",
-          "size": "wide"
+          "src": "besovets-cross",
+          "alt": "A black cast-iron cross with an oval enamel portrait, plastic flowers in front, black granite stelae among pines",
+          "caption": "Besovets Cemetery, Petrozavodsk, October 2022. Photograph: Mikhail Semyonov, CC BY-SA 4.0. A cast cross with an enamel portrait, plastic flowers, and black granite stelae behind: the vocabulary of the post-Soviet plot, in one town’s cemetery. It stands for no scale or trend.",
+          "credit": "Mikhail Semyonov / Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide",
+          "mask": null,
+          "state": null
         }
       ]
     },
@@ -1734,12 +1746,14 @@
         },
         {
           "type": "figure",
-          "src": "empty-house",
-          "alt": "A log village house with darkened windows drawn as a sagging elevation",
-          "caption": "The empty house: a log dwelling drawn as a measured elevation. The darkened windows mark the motif of the house emptied by death; a type, not a record of a specific building.",
-          "credit": "Original illustration",
-          "level": "reconstruction",
-          "size": "narrow"
+          "src": "tver-empty-house",
+          "alt": "A dark wooden house with a sagging roof beside a country road under a pale sky",
+          "caption": "An abandoned wooden house by the road, Tver Oblast, August 2016. Photograph: Rakoon, CC0. The empty house is a second kind of cemetery record: nobody keeps it, and nobody has said it is gone.",
+          "credit": "Rakoon / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "narrow",
+          "mask": null,
+          "state": null
         }
       ]
     }

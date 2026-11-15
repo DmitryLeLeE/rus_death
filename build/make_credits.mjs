@@ -84,15 +84,7 @@ All files below were produced for this atlas by the scripts in \`build/\`. They 
 
 - \`torn-masks.svg\` — six distinct clip paths (\`torn-01\` … \`torn-06\`) plus a strip and a hole, generated as closed polygons with wandering edges; used through \`clip-path: url(#…)\`.
 - \`hand-marks.svg\` — symbol sprite: arrows, rings, cross-outs, ticks, brackets, underline, scribble, eye mark, asterisk. Used as editorial marks, in red or in ink.
-- \`cross-typology.svg\` — four grave-cross elevations, drawn as measured geometry (original).
-- \`ritual-sequence.svg\` — six line vignettes of the funeral sequence (original).
-- \`soul-path.svg\` — analytical diagram of the commemorative arc (original).
-- \`cemetery-plan.svg\` — schematic cemetery plan (original, not a survey).
-- \`threshold-diagram.svg\` — house / threshold / grave diagram (original).
 - \`colophon-mark.svg\` — printer's mark (original).
-- \`empty-house.svg\` — log dwelling as a sagging elevation, darkened windows (original, schematic of a type).
-- \`wooden-church.svg\` — tent-roofed wooden church, schematic elevation (original).
-- \`post-soviet-plot.svg\` — contemporary grave plot: fence, granite, unreadable oval portrait, wreath, bench (original, schematic of a type).
 
 Three photographic derivatives were generated: \`perov-funeral-halftone.png\`, \`last-judgment-halftone.png\` (halftone), \`memorial-meal-xerox.png\` (toner degradation) and \`donskoy-1913-duotone.jpg\` (duotone). They are derived from public-domain works.
 

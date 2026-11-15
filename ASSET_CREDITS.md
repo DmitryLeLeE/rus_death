@@ -41,6 +41,12 @@ Downloaded: **2026-11-15**. Licence names and URLs are copied from the holding r
 | `assets/images/trifon-cemetery.jpg` | Village cemetery, Trifon (Antropovsky district, Kostroma Oblast) | Semenov.m7 | 2019-07-13 | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Trifon%2C_Antropovsky_District_%286%29.jpg |
 | `assets/images/rogozhskoe-oldbelievers.jpg` | Graves of Old Believers, Rogozhskoye Cemetery, Moscow | Sovmogil (original uploader, Russian Wikipedia) | 2007-08-25 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Mogily-starowerow-Moskwa-Rogozhskoe_Kladbische.jpg |
 | `assets/images/kizhi-ryabinin.jpg` | Grave of the storyteller T. G. Ryabinin, Kizhi churchyard | Reshinna | 2021-06-20 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:DSC06589_2021_%D0%9A%D0%B8%D0%B6%D0%B8%2C_%D0%9A%D0%B8%D0%B6%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%B3%D0%BE%D1%81%D1%82%2C_%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%A2.%D0%93.%D0%A0%D1%8F%D0%B1%D0%B8%D0%BD%D0%B8%D0%BD%D0%B0%2C_%D1%81%D0%BA%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8F.jpg |
+| `assets/images/funeral-1941.jpg` | Burial of a Russian, c. 1941–43 (Bundesarchiv, Bild 169-0339) | Unknown photographer; Bundesarchiv | c. 1941–43 | CC BY-SA 3.0 de | https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_169-0339,_Russland,_Beerdigung_eines_Russen.jpg |
+| `assets/images/theodora-lubok.jpg` | Death of Theodora (Russian lubok, second half of the 19th century) | Anonymous | second half of the 19th century | Public domain | https://commons.wikimedia.org/wiki/File:Death_of_Theodora.jpg |
+| `assets/images/zaret-crosses.jpg` | Crosses in the snow, Zaretskoe Cemetery, Petrozavodsk (2019) | Semenov.m7 | 2019-01-26 | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Petrozavodsk_01-2019_img01_Zaretskoe_Cemetery.jpg |
+| `assets/images/besovets-cross.jpg` | Besovets Cemetery, Petrozavodsk (2022) | Михаил Семёнов (Mikhail Semyonov) | 2022-10-30 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Besovets_Cemetery.jpg |
+| `assets/images/nepogodikha-house.jpg` | Abandoned house, Nepogodikha, Nizhny Novgorod Oblast (2008) | Евгений Катышев (Evgeny Katyshev) | 2008-07 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Abandoned_house_in_Nepogodickha.jpg |
+| `assets/images/tver-empty-house.jpg` | Abandoned wooden house by the road, Tver Oblast (2016) | Rakoon | 2016-08-05 | CC0 1.0 | https://commons.wikimedia.org/wiki/File:0055_August_2016_in_Tver_Oblast.jpg |
 | `assets/derived/hero-radonitsa.webp` | Commemoration at graves, Khutir Tymky, Ukraine (2014; not evidence for Russian custom) — deep-black print | Derivative made for this atlas from the original by Perohanych | 2026 | CC BY-SA 3.0 (derived) | https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG |
 | `assets/derived/hero-tomb.webp` | Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don — deep-black print | Derivative made for this atlas from the original by Wikimedia Commons contributor (released CC0) | 2026 | CC0 1.0 (derived) | https://commons.wikimedia.org/wiki/File:Abandoned_tomb_at_Nizhne-Gnilovskoe_cemetery.jpg |
 | `assets/derived/radonitsa-table.webp` | Commemoration at graves, Khutir Tymky, Ukraine — the table (2014) — faded print with scanner banding | Derivative made for this atlas from the original by Perohanych | 2026 | CC BY-SA 3.0 (derived) | https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG |
@@ -83,6 +89,12 @@ Downloaded: **2026-11-15**. Licence names and URLs are copied from the holding r
 | `assets/derived/plattonen-funeral-cut.webp` | Funeral of the lamenter Matjoi Plattonen, Suistamo (1928) — underexposed print | Derivative made for this atlas from the original by Armas Otto Väisänen | 2026 | CC BY 4.0 (derived) | https://commons.wikimedia.org/wiki/File:Arvostetun_itkij%C3%A4n_Matjoi_Plattosen_hautajaiset.tif |
 | `assets/derived/donskoy-crematorium-cut.webp` | First crematorium, Donskoye Cemetery, Moscow (2023) — deep-black print | Derivative made for this atlas from the original by Ulaisaeva | 2026 | CC BY-SA 4.0 (derived) | https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BD%D1%81%D0%BA%D0%BE%D0%B9_1-%D0%B9_%D0%BA%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%B9.jpg |
 | `assets/derived/donskoy-columbarium-cut.webp` | Columbarium 9, section 1, Donskoye Cemetery (2023) — halftone screen | Derivative made for this atlas from the original by Brattarb | 2026 | CC BY-SA 4.0 (derived) | https://commons.wikimedia.org/wiki/File:9_%D0%BA%D0%BE%D0%BB%D1%83%D0%BC%D0%B1%D0%B0%D1%80%D0%B8%D0%B9%2C_1_%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D1%8F.jpg |
+| `assets/derived/funeral-1941-cut.webp` | Burial of a Russian, c. 1941–43 (Bundesarchiv, Bild 169-0339) — faded print with scanner banding | Derivative made for this atlas from the original by Unknown photographer; Bundesarchiv | 2026 | CC BY-SA 3.0 de (derived) | https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_169-0339,_Russland,_Beerdigung_eines_Russen.jpg |
+| `assets/derived/theodora-lubok-cut.webp` | Death of Theodora, Russian lubok (second half of the 19th century) — faded print with scanner banding | Derivative made for this atlas from the original by Anonymous | 2026 | Public domain (derived) | https://commons.wikimedia.org/wiki/File:Death_of_Theodora.jpg |
+| `assets/derived/zaret-crosses-cut.webp` | Crosses in the snow, Zaretskoe Cemetery, Petrozavodsk (2019) — photocopy (toner threshold, streaks) | Derivative made for this atlas from the original by Semenov.m7 | 2026 | CC0 1.0 (derived) | https://commons.wikimedia.org/wiki/File:Petrozavodsk_01-2019_img01_Zaretskoe_Cemetery.jpg |
+| `assets/derived/besovets-cross-cut.webp` | Besovets Cemetery, Petrozavodsk (2022) — halftone screen | Derivative made for this atlas from the original by Михаил Семёнов (Mikhail Semyonov) | 2026 | CC BY-SA 4.0 (derived) | https://commons.wikimedia.org/wiki/File:Besovets_Cemetery.jpg |
+| `assets/derived/nepogodikha-house-cut.webp` | Abandoned house, Nepogodikha, Nizhny Novgorod Oblast (2008) — underexposed print | Derivative made for this atlas from the original by Евгений Катышев (Evgeny Katyshev) | 2026 | CC BY-SA 3.0 (derived) | https://commons.wikimedia.org/wiki/File:Abandoned_house_in_Nepogodickha.jpg |
+| `assets/derived/tver-empty-house-cut.webp` | Abandoned wooden house by the road, Tver Oblast (2016) — faded print with scanner banding | Derivative made for this atlas from the original by Rakoon | 2026 | CC0 1.0 (derived) | https://commons.wikimedia.org/wiki/File:0055_August_2016_in_Tver_Oblast.jpg |
 | `assets/derived/mamayev-news.webp` | Mamayev Kurgan, Volgograd — the slope — newsprint dither | Derivative made for this atlas from the original by Redboston | 2026 | CC BY-SA 4.0 (derived) | https://commons.wikimedia.org/wiki/File:Mamayev_Kurgan_2021-08-15.jpg |
 
 ### Notes per file
@@ -179,6 +191,24 @@ Licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Attribu
 
 **kizhi-ryabinin** — Grave of the storyteller T. G. Ryabinin, Kizhi churchyard. Photograph. Reshinna, 2021-06-20. Photograph. Kizhi churchyard, Kizhi island, Medvezhyegorsk district, Karelia.
 Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Attribution required; adaptation permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.
+
+**funeral-1941** — Burial of a Russian, c. 1941–43 (Bundesarchiv, Bild 169-0339). Photograph. Unknown photographer; Bundesarchiv, c. 1941–43. Photograph. Bundesarchiv, Bild 169-0339.
+Licence: CC BY-SA 3.0 de (https://creativecommons.org/licenses/by-sa/3.0/de/deed.en). The archive’s own caption is kept as is; place of the burial is uncertain (Commons files it under both Russia and Ukraine).
+
+**theodora-lubok** — Death of Theodora (Russian lubok, second half of the 19th century). print. Anonymous, second half of the 19th century. Hand-made lubok. Wikimedia Commons.
+Licence: Public domain. Subject after the Commons title and category (aerial toll-houses).
+
+**zaret-crosses** — Crosses in the snow, Zaretskoe Cemetery, Petrozavodsk (2019). Photograph. Semenov.m7, 2019-01-26. Photograph. Zaretskoe Cemetery, Petrozavodsk.
+Licence: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). No attribution required; credited anyway.
+
+**besovets-cross** — Besovets Cemetery, Petrozavodsk (2022). Photograph. Михаил Семёнов (Mikhail Semyonov), 2022-10-30. Photograph. Besovets Cemetery, Petrozavodsk.
+Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). 
+
+**nepogodikha-house** — Abandoned house, Nepogodikha, Nizhny Novgorod Oblast (2008). Photograph. Евгений Катышев (Evgeny Katyshev), 2008-07. Photograph. Nepogodikha, Nizhny Novgorod Oblast.
+Licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). 
+
+**tver-empty-house** — Abandoned wooden house by the road, Tver Oblast (2016). Photograph. Rakoon, 2016-08-05. Photograph. Tver Oblast.
+Licence: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). No attribution required; credited anyway.
 
 **hero-radonitsa** — Commemoration at graves, Khutir Tymky, Ukraine (2014; not evidence for Russian custom) — deep-black print. Derivative image (made for this atlas). Derivative made for this atlas from the original by Perohanych, 2026. Crop: Whole frame, cropped to a wide band. Processing: deep-black print, torn edge baked into the alpha channel.
 Licence: CC BY-SA 3.0 (derived) (https://creativecommons.org/licenses/by-sa/3.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
@@ -306,6 +336,24 @@ Licence: CC BY-SA 4.0 (derived) (https://creativecommons.org/licenses/by-sa/4.0/
 **donskoy-columbarium-cut** — Columbarium 9, section 1, Donskoye Cemetery (2023) — halftone screen. Derivative image (made for this atlas). Derivative made for this atlas from the original by Brattarb, 2026. Crop: Whole frame. Processing: halftone screen, torn edge baked into the alpha channel.
 Licence: CC BY-SA 4.0 (derived) (https://creativecommons.org/licenses/by-sa/4.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
 
+**funeral-1941-cut** — Burial of a Russian, c. 1941–43 (Bundesarchiv, Bild 169-0339) — faded print with scanner banding. Derivative image (made for this atlas). Derivative made for this atlas from the original by Unknown photographer; Bundesarchiv, 2026. Crop: Cropped above the archive’s caption strip. Processing: faded print with scanner banding, torn edge baked into the alpha channel.
+Licence: CC BY-SA 3.0 de (derived) (https://creativecommons.org/licenses/by-sa/3.0/de/deed.en). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
+
+**theodora-lubok-cut** — Death of Theodora, Russian lubok (second half of the 19th century) — faded print with scanner banding. Derivative image (made for this atlas). Derivative made for this atlas from the original by Anonymous, 2026. Crop: Whole print. Processing: faded print with scanner banding, torn edge baked into the alpha channel.
+Licence: Public domain (derived). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
+
+**zaret-crosses-cut** — Crosses in the snow, Zaretskoe Cemetery, Petrozavodsk (2019) — photocopy (toner threshold, streaks). Derivative image (made for this atlas). Derivative made for this atlas from the original by Semenov.m7, 2026. Crop: Whole frame. Processing: photocopy (toner threshold, streaks), torn edge baked into the alpha channel.
+Licence: CC0 1.0 (derived) (https://creativecommons.org/publicdomain/zero/1.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
+
+**besovets-cross-cut** — Besovets Cemetery, Petrozavodsk (2022) — halftone screen. Derivative image (made for this atlas). Derivative made for this atlas from the original by Михаил Семёнов (Mikhail Semyonov), 2026. Crop: Whole frame. Processing: halftone screen, torn edge baked into the alpha channel.
+Licence: CC BY-SA 4.0 (derived) (https://creativecommons.org/licenses/by-sa/4.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
+
+**nepogodikha-house-cut** — Abandoned house, Nepogodikha, Nizhny Novgorod Oblast (2008) — underexposed print. Derivative image (made for this atlas). Derivative made for this atlas from the original by Евгений Катышев (Evgeny Katyshev), 2026. Crop: Whole frame. Processing: underexposed print, torn edge baked into the alpha channel.
+Licence: CC BY-SA 3.0 (derived) (https://creativecommons.org/licenses/by-sa/3.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
+
+**tver-empty-house-cut** — Abandoned wooden house by the road, Tver Oblast (2016) — faded print with scanner banding. Derivative image (made for this atlas). Derivative made for this atlas from the original by Rakoon, 2026. Crop: Whole frame. Processing: faded print with scanner banding, torn edge baked into the alpha channel.
+Licence: CC0 1.0 (derived) (https://creativecommons.org/publicdomain/zero/1.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
+
 **mamayev-news** — Mamayev Kurgan, Volgograd — the slope — newsprint dither. Derivative image (made for this atlas). Derivative made for this atlas from the original by Redboston, 2026. Crop: Lower two-thirds. Processing: newsprint dither, torn edge baked into the alpha channel.
 Licence: CC BY-SA 4.0 (derived) (https://creativecommons.org/licenses/by-sa/4.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
 
@@ -353,15 +401,7 @@ All files below were produced for this atlas by the scripts in `build/`. They ar
 
 - `torn-masks.svg` — six distinct clip paths (`torn-01` … `torn-06`) plus a strip and a hole, generated as closed polygons with wandering edges; used through `clip-path: url(#…)`.
 - `hand-marks.svg` — symbol sprite: arrows, rings, cross-outs, ticks, brackets, underline, scribble, eye mark, asterisk. Used as editorial marks, in red or in ink.
-- `cross-typology.svg` — four grave-cross elevations, drawn as measured geometry (original).
-- `ritual-sequence.svg` — six line vignettes of the funeral sequence (original).
-- `soul-path.svg` — analytical diagram of the commemorative arc (original).
-- `cemetery-plan.svg` — schematic cemetery plan (original, not a survey).
-- `threshold-diagram.svg` — house / threshold / grave diagram (original).
 - `colophon-mark.svg` — printer's mark (original).
-- `empty-house.svg` — log dwelling as a sagging elevation, darkened windows (original, schematic of a type).
-- `wooden-church.svg` — tent-roofed wooden church, schematic elevation (original).
-- `post-soviet-plot.svg` — contemporary grave plot: fence, granite, unreadable oval portrait, wreath, bench (original, schematic of a type).
 
 Three photographic derivatives were generated: `perov-funeral-halftone.png`, `last-judgment-halftone.png` (halftone), `memorial-meal-xerox.png` (toner degradation) and `donskoy-1913-duotone.jpg` (duotone). They are derived from public-domain works.
 

@@ -420,6 +420,66 @@
   "bytes": 477194
  },
  {
+  "id": "funeral-1941-cut",
+  "parent_file": "funeral-1941.jpg",
+  "treatment": "faded",
+  "title": "Burial of a Russian, c. 1941–43 (Bundesarchiv, Bild 169-0339)",
+  "shows": "Cropped above the archive’s caption strip",
+  "w": 800,
+  "h": 490,
+  "bytes": 75056
+ },
+ {
+  "id": "theodora-lubok-cut",
+  "parent_file": "theodora-lubok.jpg",
+  "treatment": "faded",
+  "title": "Death of Theodora, Russian lubok (second half of the 19th century)",
+  "shows": "Whole print",
+  "w": 869,
+  "h": 1015,
+  "bytes": 173146
+ },
+ {
+  "id": "zaret-crosses-cut",
+  "parent_file": "zaret-crosses.jpg",
+  "treatment": "xerox",
+  "title": "Crosses in the snow, Zaretskoe Cemetery, Petrozavodsk (2019)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 900,
+  "bytes": 339702
+ },
+ {
+  "id": "besovets-cross-cut",
+  "parent_file": "besovets-cross.jpg",
+  "treatment": "halftone",
+  "title": "Besovets Cemetery, Petrozavodsk (2022)",
+  "shows": "Whole frame",
+  "w": 960,
+  "h": 768,
+  "bytes": 329432
+ },
+ {
+  "id": "nepogodikha-house-cut",
+  "parent_file": "nepogodikha-house.jpg",
+  "treatment": "dormant",
+  "title": "Abandoned house, Nepogodikha, Nizhny Novgorod Oblast (2008)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 900,
+  "bytes": 214768
+ },
+ {
+  "id": "tver-empty-house-cut",
+  "parent_file": "tver-empty-house.jpg",
+  "treatment": "faded",
+  "title": "Abandoned wooden house by the road, Tver Oblast (2016)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 795,
+  "bytes": 130246
+ },
+ {
   "id": "mamayev-news",
   "parent_file": "mamayev.jpg",
   "treatment": "news",

@@ -28,6 +28,12 @@ export const FIGMAP = {
   "trifon-cemetery": "trifon-cemetery-cut",
   "rogozhskoe-oldbelievers": "rogozhskoe-oldbelievers-cut",
   "kizhi-ryabinin": "kizhi-ryabinin-cut",
+  "funeral-1941": "funeral-1941-cut",
+  "theodora-lubok": "theodora-lubok-cut",
+  "zaret-crosses": "zaret-crosses-cut",
+  "besovets-cross": "besovets-cross-cut",
+  "nepogodikha-house": "nepogodikha-house-cut",
+  "tver-empty-house": "tver-empty-house-cut",
 };
 
 // Image that stands for each plate on the cover and in the index.
