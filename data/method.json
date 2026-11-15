@@ -1,0 +1,87 @@
+{
+  "dek": "This atlas was built in a fixed order: research first, then graphic interpretation, then the digital object. The method is printed because the limits of the evidence are part of the publication.",
+  "levels": [
+    {
+      "level": "documented",
+      "name": "A fact, practice or object that a cited source records.",
+      "text": "The source, its date and its limitations are in the bibliography. ‘Documented’ does not mean ‘universal’: a documented practice may be one village’s practice."
+    },
+    {
+      "level": "interpretation",
+      "name": "An argument about what the documentation means.",
+      "text": "Includes the atlas’s own readings, and the arguments of the scholars cited. Interpretations are attributed where they belong to someone, and marked as editorial where they belong to this edition."
+    },
+    {
+      "level": "reconstruction",
+      "name": "A drawing, diagram, sequence or layout made for this atlas.",
+      "text": "Reconstructions are never presented as historical photographs. Diagrams of ritual sequences, cross types and cemetery plans are analytical drawings, not records of a specific event."
+    }
+  ],
+  "sections": [
+    {
+      "kicker": "01",
+      "heading": "What this atlas is",
+      "paras": [
+        "A collection of twelve research plates on death in Russian culture, arranged as an atlas rather than as a book: each plate is a composition on one problem, and the index, map and chronology provide routes between them that are not sequential.",
+        "The subject is not death as a mood. It is the material and institutional record: how bodies were handled, how cemeteries were regulated, how the dead were fed and named, how the state counted them, how artists used them."
+      ]
+    },
+    {
+      "kicker": "02",
+      "heading": "What ‘Russian’ means here",
+      "paras": [
+        "It means the tradition of the Russian state and the Russian-language sources, centred on the territory of the Russian Federation and on the imperial and Soviet institutions that shaped it. It does not mean ‘East Slavic’.",
+        "Ukrainian, Belarusian and other traditions appear only where a source documents them, and are labelled. The one photographic example from outside the Russian Federation — a commemoration in Ukraine — is on plate D, and the caption says why it is there and what it must not be used to prove."
+      ]
+    },
+    {
+      "kicker": "03",
+      "heading": "Periods, and the refusal of continuity",
+      "paras": [
+        "The atlas distinguishes four rough periods: pre-imperial (to about 1700), imperial (1700–1917), Soviet (1917–1991) and post-Soviet (1991–). These are institutional markers, not a claim that everyone in a period believed the same thing.",
+        "The same object can mean different things in different periods, and a practice recorded in 1890 is not evidence for 1490. The chronology marks three caesuras — 1917, the 1930s and 1991 — where the institutions producing the record changed. Continuity is not assumed across them."
+      ]
+    },
+    {
+      "kicker": "04",
+      "heading": "Sources, and the refusal of decoration",
+      "paras": [
+        "Priority is given to academic monographs, ethnographic collections, museum and institutional records, and primary texts. Popular websites and press reports appear only where they are the best available account of a specific documented detail, and are marked as such.",
+        "No laments, proverbs or epitaphs are quoted verbatim in this edition. A quotation that cannot be checked against a printed text and defended in translation is a decoration, and decoration is the one thing this subject does not need."
+      ]
+    },
+    {
+      "kicker": "05",
+      "heading": "Geography",
+      "paras": [
+        "The map plots only places for which the atlas has a documentary basis, and it does not shade areas. A photograph of one cemetery is not a distribution; a set of reports gathered from many provinces does not establish a custom’s range.",
+        "Where a source gives only a province, the entry says ‘province’. Where a location is approximate, the coordinates are approximate. One locality lies outside the Russian Federation and is marked."
+      ]
+    },
+    {
+      "kicker": "06",
+      "heading": "Language",
+      "paras": [
+        "All visible text is English. Russian terms appear in simplified transliteration — kh, zh, ch, shch, y — with a gloss at first use. The apostrophe marks softness only where it is needed to avoid ambiguity.",
+        "All translations from Russian are working translations made for this edition unless a published English translation is named. Dates are given as in the source; no attempt is made to harmonise Old and New Style across the atlas."
+      ]
+    },
+    {
+      "kicker": "07",
+      "heading": "The material layer is an argument",
+      "paras": [
+        "The torn edges, toner, halftone screens and photocopy damage in this publication are not a mood applied over the content. They are a statement about the evidence: that it is reproduced, damaged, recopied and partial.",
+        "The contrast between clean and damaged surfaces is deliberate. Some plates are almost clean because the material they present is confident; others are dense with damage because the record is.",
+        "No single overlay is applied to the whole site. Each texture has a role: a dirty photocopy for a print-derived image, paper grain for an editorial page, a halftone screen for a painting that reached most viewers as a reproduction."
+      ]
+    },
+    {
+      "kicker": "08",
+      "heading": "What is missing",
+      "paras": [
+        "There is no field survey, no municipal burial register and no systematic study of post-Soviet commercial funerals in this edition. The digital memorial is recorded as a research question, not as a finding.",
+        "The atlas is published with these gaps visible. A reader who wants to extend it should start with the bibliography’s limitation notes: each one says what the source cannot support."
+      ]
+    }
+  ]
+}

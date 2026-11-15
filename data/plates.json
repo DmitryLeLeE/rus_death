@@ -1,0 +1,1747 @@
+{
+  "meta": {
+    "title": "ARCHÆOLOGY OF RUSSIAN DEATH",
+    "subtitle": "An Atlas of Death, Memory, Ritual and the Afterlife in Russian Culture",
+    "edition": "First edition, 2026",
+    "compiled": "2026-11-15",
+    "editorial_note": "All visible text is in English. Russian terms are given in simplified transliteration with a gloss. Quotations from Russian sources are the atlas’s working translations unless the source itself is in English. Dates before 1918 are given as they appear in the cited source; where a source converts to the New Style, the conversion is noted."
+  },
+  "plates": [
+    {
+      "id": "a",
+      "letter": "A",
+      "slug": "threshold",
+      "nav": "Death as a Threshold",
+      "title": "THE THRESHOLD",
+      "subtitle": "The room, the moment, and the border that is not drawn",
+      "dek": "The ethnography of death in Russia is rarely an account of dying. It is an account of what the living do in the room afterwards — and of how quickly that room becomes a border.",
+      "marginal": "The mirror, the clock and the open window are the three objects most often repeated in the literature and the least often dated. None of them appears in a source earlier than the nineteenth century in the material used here.",
+      "period": "Documented mainly 19th–20th centuries",
+      "location": "European Russia; unevenly recorded",
+      "tradition": "Orthodox Christian practice; local folk custom",
+      "category": "threshold",
+      "layout": "threshold",
+      "tone": "dark",
+      "sources": [
+        "ivanits1989",
+        "zelenin1916",
+        "baiburin1993"
+      ],
+      "related": [
+        "e",
+        "h",
+        "c"
+      ],
+      "concepts": [
+        "threshold",
+        "soul",
+        "return"
+      ],
+      "objects": [
+        "candle",
+        "mirror"
+      ],
+      "places": [],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "A / 01",
+          "heading": "A room with the window open",
+          "paras": [
+            "In the accounts collected by ethnographers in Russian villages from the middle of the nineteenth century onward, death is registered less as an event than as a series of adjustments to a house. A window is opened. A mirror is covered. A clock is stopped. Water standing in a vessel is covered or carried out. The body is washed and laid on a bench or table, head toward the icons, and the household is rearranged around it.",
+            "These are the practices most often repeated in the literature, and they are the ones most often flattened into a single ‘Russian custom’. The sources do not support that flattening. They record variants; they record disagreement between villages a day’s walk apart; and they record the informant’s own uncertainty about why a thing was done."
+          ],
+          "level": "documented"
+        },
+        {
+          "type": "figure",
+          "src": "threshold-diagram",
+          "alt": "Schematic drawing: a house on the left, a grave on the right, a red vertical band between them crossed by two arrows",
+          "caption": "Schematic. The threshold is not a place but a set of prohibitions applied to a doorway. Drawing: original for this atlas.",
+          "credit": "Original illustration",
+          "level": "reconstruction",
+          "size": "wide"
+        },
+        {
+          "type": "prose",
+          "kicker": "A / 02",
+          "heading": "The soul as breath, and as a guest",
+          "paras": [
+            "Russian folk belief, as described by Linda Ivanits and by D. K. Zelenin before her, treats the soul (*dusha*) as a substance closely bound to breath and to the body’s warmth, and simultaneously as a person-like visitor who must be housed, fed and escorted. These are not two beliefs held by different people; they are two grammars used in the same account.",
+            "The consequence is a threshold that is both physical and social. The dead remain members of the household for a defined period, are addressed in the second person, and are given food and a place at the table. The border is maintained by small prohibitions rather than by a wall."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "record",
+          "kicker": "A / 03",
+          "heading": "Premonitions, and the problem of the motif",
+          "meta": {
+            "Period": "Recorded 19th–early 20th c.",
+            "Evidence": "Folklore motif; prevalence not established",
+            "Tradition": "Folk narrative"
+          },
+          "paras": [
+            "A dog howling at night, a bird striking the window, a beam groaning in the wall, a double shadow: the folkloric record is full of signs read retrospectively as announcements of a death. Published collections treat them as motifs, not as statistics. No source used here establishes how widely any single sign was believed, and retrospective reading makes such reports structurally unreliable."
+          ],
+          "level": "documented",
+          "sources": [
+            "ivanits1989"
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Uncertainty register",
+          "heading": "Three claims we did not confirm",
+          "items": [
+            "That the mirror was covered to prevent the soul from being trapped. The practice is widely reported; the explanation is supplied by later writers and varies.",
+            "That a body was always carried out feet first. Reported in some regional descriptions; we did not verify its distribution or age.",
+            "That the forty-day period is pre-Christian in origin. The scheme is documented in Orthodox liturgical handbooks; the claim that it continues an older pagan calendar is an interpretation, and a contested one."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "quote",
+          "text": "The dead person is not yet an ancestor. For forty days he is a guest who has not been given a room.",
+          "attrib": "Editorial note, not a quotation from a source",
+          "level": "interpretation"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "letter": "B",
+      "slug": "body",
+      "nav": "The Body",
+      "title": "THE BODY",
+      "subtitle": "Washing, dressing, carrying",
+      "dek": "Before it becomes a memory, the dead is an object that must be handled. The handling is the ritual.",
+      "period": "Documented 19th–20th centuries",
+      "location": "European Russia",
+      "tradition": "Orthodox practice with local custom",
+      "category": "body",
+      "layout": "body",
+      "tone": "paper",
+      "sources": [
+        "zelenin1916",
+        "ivanits1989",
+        "tolstoy1995"
+      ],
+      "related": [
+        "c",
+        "d",
+        "f"
+      ],
+      "concepts": [
+        "purification",
+        "mourning"
+      ],
+      "objects": [
+        "coffin",
+        "funeral-cloth"
+      ],
+      "places": [],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "B / 01",
+          "heading": "Washing",
+          "paras": [
+            "The body is washed (*obmyvanie*) before it is dressed. The task is generally given to people from outside the immediate family — commonly older women, sometimes women who have performed it before — and the work is understood as a service that must be paid for, in soap, towels or money. The washing is practical and it is also a boundary: the living handle the dead at arm’s length and then wash themselves.",
+            "The water used is not poured out where the household draws water. In accounts from different provinces it is carried away, poured at a threshold, or given to the ground. The variation is the point: the sources describe a prohibition around disposal, not one fixed method."
+          ],
+          "level": "documented",
+          "sources": [
+            "zelenin1916",
+            "ivanits1989"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "ritual-sequence",
+          "alt": "Six line drawings in a row: a bowl and cloth, a comb, a coffin, a procession before a cross, a grave mound with a spade, a table with a cup and bread",
+          "caption": "Six operations, drawn as a sequence without a beginning. Original line drawings for this atlas; the order is analytical, not documentary.",
+          "credit": "Original illustration",
+          "level": "reconstruction",
+          "size": "wide"
+        },
+        {
+          "type": "prose",
+          "kicker": "B / 02",
+          "heading": "Clothing kept for the occasion",
+          "paras": [
+            "Dress for the dead was, in many households, prepared during life and stored: a bundle known in different places as *smertnoe* — ‘the death clothes’. It might include linen, a shirt or dress, stockings, sometimes a shroud. To have it ready was considered a form of decency, and its absence a small scandal.",
+            "Once dressed, the body was placed in the coffin and the coffin placed so that the dead faced the icons. The position is an argument in wood and cloth: the dead is oriented toward the images of salvation, not toward the household. The living keep the door; the dead keep the corner."
+          ],
+          "level": "documented",
+          "sources": [
+            "ivanits1989",
+            "zelenin1916"
+          ]
+        },
+        {
+          "type": "record",
+          "kicker": "B / 03",
+          "heading": "The coffin as furniture",
+          "meta": {
+            "Material": "Planks; surviving dugout examples in northern descriptions",
+            "Period": "19th–20th c.",
+            "Function": "Container, bed, and public stage"
+          },
+          "paras": [
+            "The coffin (*grob*) appears in the ethnography with an emphasis on plainness, but also with ornament: a lid, a shawl, a cross on the lid. In some northern descriptions coffins were hollowed from a single trunk; by the late imperial period the sawn plank coffin was standard and increasingly a purchased object rather than a made one.",
+            "Between the two lies a commercial history that the ritual sources rarely discuss: the coffin is where the funeral economy becomes visible, first as carpentry, later as an industry."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "zelenin1916"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Objects of the body, with the strength of the evidence used here",
+          "cols": [
+            "Object",
+            "Documented function",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Coffin (*grob*)",
+              "Container; carried to the grave; lid closed at the rite",
+              "documented"
+            ],
+            [
+              "Death clothes (*smertnoe*)",
+              "Prepared in advance; plain, new or little-worn",
+              "documented"
+            ],
+            [
+              "Funeral cloth / shroud",
+              "Wraps or covers the body; regional forms differ",
+              "documented"
+            ],
+            [
+              "Soap and towel",
+              "Payment to the washer; also removed from the house",
+              "documented"
+            ],
+            [
+              "Paper band on the brow",
+              "Church-supplied item in Orthodox burial",
+              "not verified here"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Method",
+          "heading": "Why the body is a difficult archive",
+          "items": [
+            "The body leaves no object. What survives is the description of the objects that surrounded it, written down later, often by outsiders.",
+            "Ethnographers of the nineteenth century tended to record what they judged to be old. The date of a practice is therefore often the date of its recording, not of its origin."
+          ],
+          "level": "interpretation"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "letter": "C",
+      "slug": "ritual",
+      "nav": "The Ritual",
+      "title": "THE RITUAL",
+      "subtitle": "Days three, nine, forty",
+      "dek": "The most confidently repeated ‘Russian funeral custom’ is also the one most often misdescribed: the commemoration on the third, ninth and fortieth day is a liturgical scheme before it is a folk one.",
+      "marginal": "The third, ninth and fortieth days are often introduced as an ancient Slavic custom. The handbook quoted on this plate is a Christian explanation of a Christian cycle; the older layer, if it exists, has not been demonstrated here.",
+      "period": "Liturgical sources 17th–19th c.; practice recorded 19th–21st c.",
+      "location": "Russia; Orthodox parishes",
+      "tradition": "Orthodox Christianity; folk elaboration",
+      "category": "ritual",
+      "layout": "ritual",
+      "tone": "paper",
+      "sources": [
+        "skrizhal",
+        "baiburin1993",
+        "shevzov2003",
+        "barsov1872"
+      ],
+      "related": [
+        "a",
+        "d",
+        "g",
+        "h"
+      ],
+      "concepts": [
+        "threshold",
+        "remembrance",
+        "mourning"
+      ],
+      "objects": [
+        "candle",
+        "memorial-bread"
+      ],
+      "places": [
+        "moscow",
+        "olonets-karelia"
+      ],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "C / 01",
+          "heading": "The shape of the forty days",
+          "paras": [
+            "The commemoration of the dead on the third, ninth and fortieth day after death is set out in Orthodox liturgical handbooks, and the reasons given there are theological rather than calendrical. In the nineteenth-century handbook *Novaia Skrizhal’*, the third day is tied to the Resurrection, the ninth to the nine ranks of angels, and the fortieth to the Ascension, which took place on the fortieth day.",
+            "The same handbook is explicit that the prayers are for the forgiveness of sins and the placing of the soul ‘with the saints’. The popular explanations that accompany the scheme — that the soul visits the house for three days, that it is examined on the ninth, that it finally departs on the fortieth — belong to a different register. They are widespread, they are recorded, and they are not the doctrine."
+          ],
+          "level": "documented",
+          "sources": [
+            "skrizhal"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "soul-path",
+          "alt": "An arc diagram rising from a grave to a high point and descending again, with three red tick marks and a row of small ticks below",
+          "caption": "Analytical diagram of the commemorative arc: burial, the third and ninth days, the fortieth. The curve is a convention, not a source. Drawing: original.",
+          "credit": "Original illustration",
+          "level": "reconstruction",
+          "size": "wide"
+        },
+        {
+          "type": "table",
+          "caption": "Commemorative days: what is documented, what is interpretation",
+          "cols": [
+            "Moment",
+            "Documented in liturgical sources",
+            "Folk elaboration (interpretation)",
+            "Confidence"
+          ],
+          "rows": [
+            [
+              "Third day",
+              "Commemoration; linked to the Resurrection",
+              "The soul lingers near the house",
+              "high / low"
+            ],
+            [
+              "Ninth day",
+              "Commemoration; linked to the angelic ranks",
+              "The soul is shown the places of the blessed",
+              "high / low"
+            ],
+            [
+              "Fortieth day",
+              "Commemoration; linked to the Ascension",
+              "The soul departs; the ‘final’ farewell",
+              "high / low"
+            ],
+            [
+              "Anniversary",
+              "Annual commemoration (*godoviny*)",
+              "The dead is counted as an ancestor",
+              "high / low"
+            ],
+            [
+              "Radonitsa",
+              "A fixed day of parish commemoration in spring",
+              "Meal at the grave; greeting the dead",
+              "medium / low"
+            ]
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "C / 02",
+          "heading": "Against the survival story",
+          "paras": [
+            "Nineteenth- and early twentieth-century scholarship often read Russian funerary practice as a survival of pre-Christian religion, with the Church imposed on top. Later work on ritual has been more cautious. A. K. Baiburin’s study of ritual in traditional culture treats ritual as a system of signs with its own internal logic rather than as a fossil of an earlier belief; the question of what a rite ‘originally meant’ is usually unanswerable from the evidence that survives.",
+            "This atlas therefore marks origin claims as interpretations. The forty-day cycle is documented as Christian. Whether some households also understood it as an older calendar is a question the sources used here cannot settle."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "baiburin1993"
+          ]
+        },
+        {
+          "type": "record",
+          "kicker": "C / 03",
+          "heading": "Who does the work",
+          "meta": {
+            "Role": "Female mourners, readers, priest, household",
+            "Period": "19th–20th c.",
+            "Evidence": "Ethnographic descriptions; parish sources"
+          },
+          "paras": [
+            "The ritual has an economy of roles. The priest serves; a reader may read the psalter; women lament; neighbours cook and carry. The laments (see plate G) are performed by women who are often, but not always, kin, and their performance is judged — for voice, for fullness, for the ability to make the room weep.",
+            "The distribution of labour is itself historical. In the Soviet period the priest’s role contracted and the household’s expanded; after 1991 it contracted back again in some places and not in others."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "barsov1872",
+            "shevzov2003"
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "One calendar, many calendars",
+          "items": [
+            "The dates of commemoration interact with the church calendar (and with the Julian calendar still used by part of the Russian Church). A date given in a source may not correspond to the date a family used.",
+            "Memorial days also differ by region and by parish practice. The scheme above is a frame, not a census."
+          ],
+          "level": "interpretation"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "letter": "D",
+      "slug": "table",
+      "nav": "The Table",
+      "title": "THE TABLE",
+      "subtitle": "Feeding the dead, feeding the living",
+      "dek": "The memorial meal is the place where the dead is most directly treated as a person with preferences, a place and an appetite.",
+      "period": "Documented 19th–21st centuries",
+      "location": "Russia; one Ukrainian example, marked",
+      "tradition": "Orthodox memorial practice; household custom",
+      "category": "table",
+      "layout": "table",
+      "tone": "paper",
+      "sources": [
+        "ivanits1989",
+        "zelenin1916",
+        "tolstoy1995"
+      ],
+      "related": [
+        "c",
+        "b",
+        "e"
+      ],
+      "concepts": [
+        "remembrance",
+        "threshold"
+      ],
+      "objects": [
+        "kutia",
+        "memorial-bread",
+        "ritual-vessel"
+      ],
+      "places": [
+        "st-petersburg",
+        "tymky-ukraine"
+      ],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "D / 01",
+          "heading": "The hot dinner",
+          "paras": [
+            "On the day of burial the household feeds everyone who came. In the ethnography this meal has a name in each region — ‘hot dinner’, ‘hot table’ — and a fixed grammar: a first course that is eaten before anything else, a place kept for the dead, a portion set aside, food carried to the grave.",
+            "The meal is not only commemoration. It is also accounting: those who washed, dug, carried, read and cooked are fed, and the household’s obligation is discharged in food. To refuse to sit at the table is to refuse the account."
+          ],
+          "level": "documented",
+          "sources": [
+            "ivanits1989"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "memorial-meal-xerox",
+          "alt": "A degraded photocopy of a nineteenth-century photograph showing people seated at a table outdoors",
+          "caption": "Memorial meal, Smolensk cemetery, St Petersburg, 1881. Photographer unknown. Photocopy degradation applied for this atlas; the underlying photograph is in the public domain.",
+          "credit": "Public domain; derivative processing by the atlas",
+          "level": "documented",
+          "size": "medium",
+          "mask": "torn-01",
+          "state": "archive"
+        },
+        {
+          "type": "table",
+          "caption": "What is on the table, and how firmly we know it",
+          "cols": [
+            "Food",
+            "Documented context",
+            "Notes",
+            "Confidence"
+          ],
+          "rows": [
+            [
+              "Kutya / kolivo",
+              "Boiled grain with honey; church memorial service; household table",
+              "Wheat or rice; raisins in later practice",
+              "documented"
+            ],
+            [
+              "Bliny",
+              "Recorded as a funerary and commemorative food in 19th-c. descriptions",
+              "Also a calendar food; the same object, a different argument",
+              "documented"
+            ],
+            [
+              "Bread",
+              "Set on the table; carried to the grave",
+              "The most stable element across descriptions",
+              "documented"
+            ],
+            [
+              "Honey",
+              "Eaten with kutya and bliny",
+              "Sweetness as a figure of the resurrection",
+              "documented"
+            ],
+            [
+              "Vodka",
+              "Reported at graveside and at meals",
+              "Late imperial and Soviet-era practice; origin not established",
+              "medium"
+            ],
+            [
+              "A place for the dead",
+              "A setting, a portion, an open place at table",
+              "Reported in many accounts; not universal",
+              "medium"
+            ]
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "D / 02",
+          "heading": "Kutia, and the ambiguity of grain",
+          "paras": [
+            "Kutya is boiled grain sweetened with honey, and in its church form — *kolivo* — it is brought to the memorial service and blessed. The grain is read as a figure of resurrection: it is buried, it does not remain buried. The reading is old and it is also obvious enough to have been made many times independently.",
+            "What the sources do not settle is the relationship between the church dish and the household dish. In some accounts they are the same object under two names; in others the household kutya is a separate, richer preparation with raisins or nuts. The atlas keeps both, and keeps the question open."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "tolstoy1995",
+            "ivanits1989"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "radonitsa-graves",
+          "alt": "People standing among graves in a cemetery, with food and cloths laid on the graves",
+          "caption": "Commemoration at graves, Khutir Tymky, Ukraine, 2014. Photograph: Perohanych, CC BY-SA 3.0. Included as a documented example outside the Russian Federation — not as evidence for Russian practice.",
+          "credit": "Perohanych / Wikimedia Commons, CC BY-SA 3.0",
+          "level": "documented",
+          "size": "medium",
+          "mask": "torn-02",
+          "state": "document"
+        },
+        {
+          "type": "note",
+          "kicker": "Outside Russia",
+          "heading": "Why a Ukrainian photograph is here",
+          "items": [
+            "The atlas treats ‘Russian’ as a language, a state tradition and a set of institutions, not as a synonym for East Slavic. Where a photograph documents a Ukrainian or Belarusian practice, it is labelled as such.",
+            "The meal at the grave is widely attested across the region, which makes it exactly the kind of practice that gets mislabelled as ‘Russian’ by default."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "figure",
+          "src": "memorial-meal-1881",
+          "alt": "A nineteenth-century photograph of people seated at a table outdoors at a cemetery",
+          "caption": "The same 1881 photograph at its archive resolution, before processing. The atlas shows the degraded copy at the head of this plate because that is how the image would have circulated.",
+          "credit": "Public domain, via Wikimedia Commons",
+          "level": "documented",
+          "size": "narrow",
+          "mask": "torn-01",
+          "state": "archive"
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "letter": "E",
+      "slug": "returning",
+      "nav": "The Returning Dead",
+      "title": "THE RETURNING DEAD",
+      "subtitle": "The unclean dead and the trouble with categories",
+      "dek": "Not every dead person was thought to stay dead. The distinction was not good and evil but proper and improper death — and the category that names it has been under dispute for a century.",
+      "period": "Recorded 19th–early 20th c.; category proposed 1916",
+      "location": "European Russia; regional variation",
+      "tradition": "Folk belief; not church doctrine",
+      "category": "returning",
+      "layout": "returning",
+      "tone": "dark",
+      "sources": [
+        "zelenin1916",
+        "ivanits1989",
+        "tolstoy1995",
+        "baiburin1993"
+      ],
+      "related": [
+        "a",
+        "f",
+        "l"
+      ],
+      "concepts": [
+        "return",
+        "abandonment",
+        "threshold"
+      ],
+      "objects": [
+        "grave-marker"
+      ],
+      "places": [],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "E / 01",
+          "heading": "Zelenin’s ‘pledged’ dead",
+          "paras": [
+            "In 1916 D. K. Zelenin published a study of those who die an unnatural death — by suicide, accident, murder, drowning, or before their time — and of the rusalki. His term for them, *zalozhnye pokoiniki*, is usually translated as ‘pledged’ or ‘unclean’ dead: those whose death was not completed within the order of things.",
+            "Zelenin argued that such dead were buried apart, outside the cemetery or at its edge, in ravines, fields or at crossroads, and that they were believed to remain active — to walk, to appear, to harm. The book is a work of synthesis and it is also a work of its time, assembled from scattered reports into a system that no single informant would have recognised."
+          ],
+          "level": "documented",
+          "sources": [
+            "zelenin1916"
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "E / 02",
+          "heading": "The dispute",
+          "paras": [
+            "Later scholarship has treated Zelenin’s category with caution. The reports he gathered come from different provinces, different decades and different genres — legend, memorate, custom, ecclesiastical prohibition — and the boundary between ‘unclean’ and ‘clean’ death was drawn differently from place to place. Whether the rusalka is a development of the unclean dead, as Zelenin proposed, remains an interpretation rather than a finding.",
+            "The atlas therefore presents *zalozhnye* as a scholarly construction built on real reports, not as a folk taxonomy that everyone shared. The reports are evidence. The category is an argument."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "zelenin1916",
+            "tolstoy1995",
+            "baiburin1993"
+          ]
+        },
+        {
+          "type": "record",
+          "kicker": "E / 03",
+          "heading": "Case notes, without the case",
+          "meta": {
+            "Genre": "Ethnographic report, legend, memorate",
+            "Period": "19th–early 20th c.",
+            "Warning": "No individual narrative is quoted here"
+          },
+          "paras": [
+            "The reports share a structure: a death that violates expectation, a burial that violates place, and a subsequent sighting or disturbance. The disturbance is usually resolved by a ritual action — moving the body, reading a prayer, driving a stake, calling the priest — and the resolution tells us more about the living than about the dead.",
+            "No narrative is reproduced verbatim in this atlas. The genre is highly variable, the published texts are often retold rather than transcribed, and a single vivid quotation would misrepresent the record as more uniform than it is."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "zelenin1916",
+            "ivanits1989"
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "E / 04",
+          "heading": "What the category was for",
+          "paras": [
+            "The unclean dead mark the limits of the community’s obligation. They are the people for whom the full ritual was not, or could not be, performed — and the fear they provoke is the fear of an obligation left unpaid. In this reading the revenant is less a monster than an unpaid debt with a voice.",
+            "That reading is the atlas’s interpretation, offered as such. It does not require the dead to be real; it requires the living to have accounts."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "No vampires here",
+          "items": [
+            "Russian and Ukrainian records do contain stories of the dead who rise and feed, and the word *upyr’* is attested. It is not the same figure as the nineteenth-century literary vampire, and it should not be used to give this material a familiar costume.",
+            "The atlas avoids the vocabulary of horror. ‘Returning’ is a social event in these sources, not a genre."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "quote",
+          "text": "A bad death is not a death that hurts. It is a death that leaves something owing.",
+          "attrib": "Editorial note",
+          "level": "interpretation"
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "letter": "F",
+      "slug": "grave",
+      "nav": "The Grave",
+      "title": "THE GRAVE",
+      "subtitle": "From churchyard to cemetery, and the architecture of a name",
+      "dek": "The Russian grave is a legal object before it is a sacred one. Where the dead may lie has been decided by decrees, epidemics and municipal budgets at least as often as by custom.",
+      "period": "1723–present",
+      "location": "Moscow, St Petersburg, Pushkin, provincial Russia",
+      "tradition": "Orthodox; state regulation; multi-confessional necropolises",
+      "category": "grave",
+      "layout": "grave",
+      "tone": "paper",
+      "sources": [
+        "pravenc-nadgrobie",
+        "vagankovo",
+        "merridale2000",
+        "tolstoy1995"
+      ],
+      "related": [
+        "b",
+        "i",
+        "l"
+      ],
+      "concepts": [
+        "memory",
+        "abandonment",
+        "remembrance"
+      ],
+      "objects": [
+        "cross",
+        "grave-marker",
+        "cemetery-gate",
+        "fence"
+      ],
+      "places": [
+        "moscow",
+        "st-petersburg",
+        "pushkin"
+      ],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "F / 01",
+          "heading": "The decree of 1723",
+          "paras": [
+            "By a decree of Peter I dated 10 October 1723, burials inside towns were restricted — ‘except for notable persons’ — because the churchyards at churches and monasteries had become overcrowded. The same decree ordered the levelling of raised tombs and the replacement of relief images on shrines with painted ones.",
+            "The measure did not last. After Peter’s death in 1725, churchyard burial resumed, and it took the catastrophe of 1771 to produce a durable change. In that year plague in Moscow killed in the tens of thousands, and the new cemetery at Vagankovo was founded to receive them; the first burials there were unnamed Muscovites."
+          ],
+          "level": "documented",
+          "sources": [
+            "pravenc-nadgrobie",
+            "vagankovo"
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "F / 02",
+          "heading": "The cemetery as a municipal object",
+          "paras": [
+            "From the late eighteenth century the cemetery moved out of the parish and into the city’s administration: walls, gates, a plan, a register, a fee. The dead acquired an address. This is the moment at which the Russian cemetery becomes legible as an institution — and the moment at which the difference between a churchyard and a necropolis becomes visible.",
+            "By the nineteenth century the cemetery was also a place of class. The monastery necropolis, the merchant plot, the communal trench and the unconsecrated ground outside the wall were all parts of one landscape, and they were not equally maintained."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "merridale2000",
+            "pravenc-nadgrobie"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "donskoy-1913-duotone",
+          "alt": "A 1913 halftone illustration showing stone tombs and monuments crowded together in a monastery necropolis",
+          "caption": "The Georgian necropolis at Donskoy Monastery, Moscow. Illustration from *Letopis’ Gruzii*, edited by B. Esadze, 1913. Public domain; duotone processing by the atlas.",
+          "credit": "Public domain; derivative processing by the atlas",
+          "level": "documented",
+          "size": "wide",
+          "mask": "torn-02",
+          "state": "plate"
+        },
+        {
+          "type": "figure",
+          "src": "golubets",
+          "alt": "A wooden cross with a small gabled roof, standing in a snowy cemetery among other crosses",
+          "caption": "A roofed cross (*golubets*) at Kazan cemetery, Pushkin, near St Petersburg. Photograph: CC BY-SA 3.0 via Wikimedia Commons. The type is often described as northern; this example is from the outskirts of the imperial capital.",
+          "credit": "Wikimedia Commons, CC BY-SA 3.0",
+          "level": "documented",
+          "size": "narrow",
+          "mask": "torn-04",
+          "state": "document"
+        },
+        {
+          "type": "prose",
+          "kicker": "F / 03",
+          "heading": "The roof over the cross",
+          "paras": [
+            "The *golubets* — a cross sheltered by a small gabled roof, sometimes enclosed as a little house — is one of the most distinctive grave forms recorded in the Russian North and in old cemeteries elsewhere. The roof protects the wood; it also makes the cross into a building, and the grave into a dwelling.",
+            "The atlas does not map its distribution. Published claims about the ‘northern’ range of the form rest on surveys this project has not consulted, and a photograph of one example is not a distribution."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "figure",
+          "src": "cemetery-plan",
+          "alt": "Schematic plan of a walled cemetery with rows of graves, a chapel, a gate and a red route line",
+          "caption": "Schematic cemetery plan: wall, gate, chapel, rows of graves, and the route taken by a funeral. Drawn for this atlas; not a survey of any existing cemetery.",
+          "credit": "Original illustration",
+          "level": "reconstruction",
+          "size": "medium"
+        },
+        {
+          "type": "figure",
+          "src": "cross-typology",
+          "alt": "Four measured elevations of grave crosses: eight-pointed, six-pointed, four-pointed under a roof, and a roofed cross with a plank shelter",
+          "caption": "Four grave-cross types drawn as measured elevations. The proportions are conventional, not taken from a single monument. Drawing: original.",
+          "credit": "Original illustration",
+          "level": "reconstruction",
+          "size": "wide"
+        },
+        {
+          "type": "prose",
+          "kicker": "F / 04",
+          "heading": "Novodevichy: the necropolis as biography",
+          "paras": [
+            "Novodevichy Cemetery in Moscow became, in the Soviet period, the place where the state buried its recognised dead: writers, scientists, generals, cosmonauts. The graves are biographical objects. The stonecutter’s lettering, the portrait, the open book, the ship, the aircraft — each monument is a curriculum vitae in granite.",
+            "Two examples recorded in the photographs used by this atlas: the grave of Ilya Ilf, and a double monument for the writer A. N. Stepanov and his wife, designed — according to the photographer’s description — as two ships on a dark sea. The atlas repeats that description as a description, not as a documented intention of the family."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "merridale2000"
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Unverified",
+          "heading": "Portraits on stone",
+          "items": [
+            "Photographic portraits set into headstones are a familiar feature of late-Soviet and post-Soviet cemeteries. The atlas has not found a scholarly source for their chronology and does not date them here.",
+            "The same caution applies to the enamel photograph, the plastic wreath and the metal fence: visible everywhere, documented in the sources used here almost nowhere."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "figure",
+          "src": "ilf-grave",
+          "alt": "A carved stone monument on the grave of Ilya Ilf at Novodevichy Cemetery",
+          "caption": "The grave of Ilya Ilf, Novodevichy Cemetery, Moscow. Photograph: Ghirlandajo, CC BY 3.0. The monument is biographical: the lettering, the stone and the plot are all part of the state necropolis.",
+          "credit": "Ghirlandajo / Wikimedia Commons, CC BY 3.0",
+          "level": "documented",
+          "size": "narrow",
+          "mask": "torn-01",
+          "state": "document"
+        },
+        {
+          "type": "figure",
+          "src": "ships-grave",
+          "alt": "A grave monument carved as two ships at Novodevichy Cemetery",
+          "caption": "The grave of A. N. Stepanov and M. A. Stepanova, Novodevichy. The monument is carved as two ships; the photographer records the family’s plan as the source of the design, and the atlas repeats that as a description, not as a documented intention.",
+          "credit": "Alexander-Khv / Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "narrow",
+          "mask": "torn-03",
+          "state": "document"
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "letter": "G",
+      "slug": "voice",
+      "nav": "The Voice",
+      "title": "THE VOICE",
+      "subtitle": "Lament, euphemism, and the grammar of address",
+      "dek": "The dead are spoken to. The grammar of that address is one of the most precisely recorded things in Russian ethnography — and one of the least often quoted accurately.",
+      "period": "Recorded 1872–1886, and later",
+      "location": "Olonets province (Karelia) and the Russian North",
+      "tradition": "Folk lament; Orthodox liturgical language",
+      "category": "voice",
+      "layout": "voice",
+      "tone": "dark",
+      "sources": [
+        "barsov1872",
+        "tolstoy1995",
+        "ivanits1989"
+      ],
+      "related": [
+        "c",
+        "h",
+        "j"
+      ],
+      "concepts": [
+        "mourning",
+        "memory",
+        "soul"
+      ],
+      "objects": [
+        "candle"
+      ],
+      "places": [
+        "olonets-karelia"
+      ],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "G / 01",
+          "heading": "Barsov’s north",
+          "paras": [
+            "Between 1872 and 1886 E. V. Barsov published *Prichitaniia Severnogo kraia* — ‘Laments of the Northern Land’ — in three volumes. The collection is the foundational document of Russian lament studies: texts recorded in the Olonets region, with the circumstances of performance, the performers and their repertoires.",
+            "The laments are not spontaneous weeping set to words. They are composed in performance from a stock of formulas, by performers who know the genre and are judged by it. Barsov’s volumes make this visible: the same formulas recur across different deaths, recombined."
+          ],
+          "level": "documented",
+          "sources": [
+            "barsov1872"
+          ]
+        },
+        {
+          "type": "diagram",
+          "src": "soul-path",
+          "alt": "Arc diagram with three stations",
+          "caption": "Placeholder schematic retained for the plate sequence.",
+          "credit": "Original illustration",
+          "level": "reconstruction",
+          "size": "wide",
+          "hidden": true
+        },
+        {
+          "type": "record",
+          "kicker": "G / 02",
+          "heading": "The score of a lament",
+          "meta": {
+            "Genre": "Funeral lament (*prichitanie*)",
+            "Recorded": "Olonets province, 1870s",
+            "Form": "Formulaic, performed, address in the second person"
+          },
+          "paras": [
+            "An analytical reconstruction of the genre’s movement, after Barsov’s volumes: an address to the dead; a question about the journey; a complaint against the household’s new order; self-reproach by the survivor; a description of the grave; a farewell that refuses to be final. The order is not fixed, and the performer may return to any station.",
+            "This is a structural description, not a text. The atlas does not print a lament here because a responsible quotation requires collation against a printed source and a translation the reader can check, and this edition has done neither."
+          ],
+          "level": "reconstruction",
+          "sources": [
+            "barsov1872"
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "G / 03",
+          "heading": "The second person",
+          "paras": [
+            "Russian funerary language keeps the dead in the second person and in the present tense for as long as the ritual lasts. The dead is addressed by kin term — ‘my child’, ‘my master’, ‘my sister’ — and asked questions that presume an answer. The euphemisms that surround death in ordinary speech (*ushel* — ‘he has gone’; *ne stalo* — ‘he is no more’) are suspended in the lament, where the dead is named and spoken to directly.",
+            "The effect is not denial. It is a controlled maintenance of the border: the dead is treated as present for exactly as long as the ritual requires, and then released."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "barsov1872",
+            "ivanits1989"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Lexicon: terms used in this atlas, with register and confidence",
+          "cols": [
+            "Term",
+            "Gloss",
+            "Register",
+            "Used here"
+          ],
+          "rows": [
+            [
+              "pokoinik",
+              "the deceased, the late",
+              "neutral, slightly formal",
+              "as a noun for the dead"
+            ],
+            [
+              "usopshii",
+              "the one who has fallen asleep",
+              "liturgical",
+              "church context only"
+            ],
+            [
+              "konchina",
+              "death, passing (of a person)",
+              "literary / elevated",
+              "as a written register"
+            ],
+            [
+              "prestavlenie",
+              "falling asleep, departure",
+              "theological",
+              "doctrine only"
+            ],
+            [
+              "pominki",
+              "memorial meal, commemoration",
+              "everyday",
+              "the meal and the act"
+            ],
+            [
+              "sorokoviny",
+              "the fortieth day",
+              "everyday / regional",
+              "the fortieth-day rite"
+            ],
+            [
+              "Radonitsa",
+              "spring day of commemoration",
+              "church / regional",
+              "parish calendar"
+            ],
+            [
+              "zalozhnyi",
+              "‘pledged’, unclean dead",
+              "scholarly term",
+              "Zelenin’s category, flagged"
+            ],
+            [
+              "kladbishche",
+              "cemetery",
+              "neutral",
+              "the modern institution"
+            ],
+            [
+              "pogost",
+              "churchyard; village with a church and graveyard",
+              "historical",
+              "the pre-modern form"
+            ],
+            [
+              "golubets",
+              "roofed grave-cross",
+              "regional / descriptive",
+              "one grave type"
+            ],
+            [
+              "smertnoe",
+              "clothing kept for death",
+              "regional",
+              "the death bundle"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Editorial",
+          "heading": "What is not quoted",
+          "items": [
+            "No laments, proverbs or epitaphs are reproduced verbatim in this edition. Every one of them would require a check against a printed text and a defensible translation.",
+            "The atlas prefers an honest silence to a decorative quotation. Where a phrase appears in quotation marks, it is either from a source listed in the bibliography or explicitly marked as editorial."
+          ],
+          "level": "documented"
+        },
+        {
+          "type": "quote",
+          "text": "Причитания Северного края",
+          "attrib": "Bibliographic title: E. V. Barsov, Laments of the Northern Land, Moscow, 1872–1886. Russian title, not a quotation from the laments.",
+          "level": "documented"
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "letter": "H",
+      "slug": "afterlife",
+      "nav": "The Afterlife",
+      "title": "THE AFTERLIFE",
+      "subtitle": "Doctrine, image, and the soul’s itinerary",
+      "dek": "Orthodox teaching about the dead is precise, and it is not the same thing as the crowded cosmology of the icon. The atlas keeps the two apart, then puts them on the same page.",
+      "period": "Iconography 15th–18th c.; doctrine and practice to the present",
+      "location": "Novgorod; the Volga region; Russia",
+      "tradition": "Orthodox Christianity; folk elaboration",
+      "category": "afterlife",
+      "layout": "afterlife",
+      "tone": "dark",
+      "sources": [
+        "skrizhal",
+        "tolstoy1995",
+        "ivanits1989",
+        "merridale2000"
+      ],
+      "related": [
+        "a",
+        "c",
+        "i"
+      ],
+      "concepts": [
+        "soul",
+        "threshold",
+        "remembrance"
+      ],
+      "objects": [
+        "icon",
+        "candle"
+      ],
+      "places": [
+        "novgorod",
+        "volga-region"
+      ],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "H / 01",
+          "heading": "What the Church says",
+          "paras": [
+            "Orthodox teaching holds that the dead are judged and that the living may pray for them. The funeral rites ask for the forgiveness of sins and for a place ‘with the saints’; memorial services repeat the request at intervals. The fortieth day is the last of the appointed commemorations; the annual commemoration continues after it.",
+            "The Church’s language is deliberately restrained about the intermediate state. Where popular literature supplies a detailed itinerary — where the soul goes on which day, what it sees — the atlas marks that as devotional or folk elaboration, not as doctrine."
+          ],
+          "level": "documented",
+          "sources": [
+            "skrizhal"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "last-judgment-volga",
+          "alt": "A large eighteenth-century Russian icon of the Last Judgment, densely painted with registers of saints, angels, scales, a river of fire and compartments of punishment",
+          "caption": "The Last Judgment. Volga region, 1770s–1780s. Tempera on wood, 180 × 137 cm. The icon is dense with inscribed texts and compartments; it is a picture that expects to be read.",
+          "credit": "Public domain, via Wikimedia Commons",
+          "level": "documented",
+          "size": "tall",
+          "mask": "torn-02"
+        },
+        {
+          "type": "prose",
+          "kicker": "H / 02",
+          "heading": "Reading the icon",
+          "paras": [
+            "The Last Judgment icon is a diagram as much as a painting. Christ appears in glory; the scales weigh souls; the righteous move toward the heavenly city; the damned descend into a river of fire; the punishments are arranged in small compartments, each with its own inscription and its own social type — the miser, the adulterer, the usurer, the drunkard.",
+            "The Volga icon used here belongs to the eighteenth century and to the urban artisan milieu: it borrows heavily from printed engravings, including their page-like blocks of text. This is not a remote medieval image. It is a print-derived picture made for people who read with their eyes."
+          ],
+          "level": "documented",
+          "sources": [
+            "tolstoy1995"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "dormition-novgorod",
+          "alt": "A fifteenth-century icon of the Dormition of the Mother of God, with the apostles gathered around a bed and Christ holding her soul",
+          "caption": "The Dormition of the Mother of God. Novgorod, from the Desyatinny Monastery; icon of the fifteenth century. The Dormition is the model of the good death: a death that is also a birth.",
+          "credit": "Public domain, via Wikimedia Commons",
+          "level": "documented",
+          "size": "medium",
+          "mask": "torn-03"
+        },
+        {
+          "type": "table",
+          "caption": "Two registers, kept apart",
+          "cols": [
+            "Question",
+            "Doctrine (documented)",
+            "Folk elaboration (interpretation)"
+          ],
+          "rows": [
+            [
+              "What happens at death?",
+              "The soul is separated from the body and judged; the resurrection is awaited",
+              "The soul lingers, wanders, visits the house, needs to be fed"
+            ],
+            [
+              "Why commemorate on the fortieth day?",
+              "Following the Ascension on the fortieth day",
+              "The soul departs on the fortieth day after a journey"
+            ],
+            [
+              "Can the living help the dead?",
+              "Yes: prayer and almsgiving",
+              "Yes: food, gifts, a place at table"
+            ],
+            [
+              "What is the afterlife like?",
+              "Communion with God; the vision of the divine light",
+              "A landscape with places, roads, boundaries and officials"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "Theology is not a mood",
+          "items": [
+            "The atlas does not use the icon’s punishments as atmosphere. They are evidence of a moral taxonomy, not decoration.",
+            "Where a popular belief contradicts or exceeds the Church’s formulation, the atlas says so rather than harmonising them."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "figure",
+          "src": "last-judgment-halftone",
+          "alt": "The Last Judgment icon reduced to a halftone dot screen",
+          "caption": "The same icon at reproduction scale. The screen is a technology of circulation, not a style: it shows how the image reached viewers in print. Halftone processing by the atlas.",
+          "credit": "Derivative of a public-domain image",
+          "level": "reconstruction",
+          "size": "medium",
+          "mask": "torn-03"
+        },
+        {
+          "type": "figure",
+          "src": "wooden-church",
+          "alt": "A tent-roofed wooden church drawn as a schematic elevation",
+          "caption": "A tent-roofed wooden church, drawn as a schematic elevation. Wooden church architecture is the architectural register of the northern cemetery and parish; the drawing is a type, not a monument.",
+          "credit": "Original illustration",
+          "level": "reconstruction",
+          "size": "wide"
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "letter": "I",
+      "slug": "collective",
+      "nav": "Collective Death",
+      "title": "COLLECTIVE DEATH",
+      "subtitle": "Plague, war, and the state’s arithmetic of the dead",
+      "dek": "Mass death produces two things at once: a hole in the record and an official number. The atlas is interested in the gap between them.",
+      "marginal": "At Piskaryovskoye the count is given as about 470,000 in some accounts and about 520,000 in others. The discrepancy is not a rounding error. It is a difference in what is being counted.",
+      "period": "1771–present",
+      "location": "Moscow, Leningrad/St Petersburg, Volgograd",
+      "tradition": "State commemoration; Orthodox and secular rites",
+      "category": "collective",
+      "layout": "collective",
+      "tone": "dark",
+      "sources": [
+        "vagankovo",
+        "merridale2000",
+        "tumarkin1994",
+        "etkind2013",
+        "mos-ru-unknown",
+        "pmemorial",
+        "rusmuseum"
+      ],
+      "related": [
+        "f",
+        "h",
+        "k",
+        "l"
+      ],
+      "concepts": [
+        "memory",
+        "mourning",
+        "abandonment"
+      ],
+      "objects": [
+        "memorial",
+        "eternal-flame"
+      ],
+      "places": [
+        "moscow",
+        "st-petersburg",
+        "volgograd"
+      ],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "I / 01",
+          "heading": "1771: the pit",
+          "paras": [
+            "The Moscow plague of 1771 killed in the tens of thousands. The dead were buried outside the city, and the new cemetery at Vagankovo received, first of all, unnamed people. The historical account of the cemetery begins with a number it cannot disaggregate.",
+            "Mass death produces this kind of record: a pit, a total, a name for the place, no names for the people. The atlas does not illustrate the pit. It prints the fact of it."
+          ],
+          "level": "documented",
+          "sources": [
+            "vagankovo",
+            "merridale2000"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "piskaryovskoye-flame",
+          "alt": "A long row of low granite blocks with an eternal flame burning in front of a bronze sculpture",
+          "caption": "Piskaryovskoye Memorial Cemetery, St Petersburg. The memorial was opened on 9 May 1960; the flame was lit from the fire on the Field of Mars. The cemetery holds victims of the Leningrad blockade and soldiers of the Leningrad Front.",
+          "credit": "Ijuedt / Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide",
+          "mask": "torn-04"
+        },
+        {
+          "type": "table",
+          "caption": "The arithmetic: what the sources say, and where they disagree",
+          "cols": [
+            "Site",
+            "Figure",
+            "Basis",
+            "Note"
+          ],
+          "rows": [
+            [
+              "Piskaryovskoye",
+              "about 470,000",
+              "museum and reference literature",
+              "blockade victims and soldiers"
+            ],
+            [
+              "Piskaryovskoye",
+              "about 520,000",
+              "alternative figures cited in the same literature",
+              "the discrepancy is not resolved here"
+            ],
+            [
+              "Vagankovo, 1771",
+              "‘thousands’",
+              "historical account of the cemetery",
+              "no reliable total in the sources used"
+            ],
+            [
+              "Leningrad blockade, 1941–44",
+              "military and civilian dead counted separately",
+              "historiography",
+              "totals vary by definition"
+            ],
+            [
+              "Mamayev Kurgan, Volgograd",
+              "Memorial ensemble on the site of the Stalingrad fighting",
+              "Photograph, 2021 (in this plate)",
+              "documented as a site; not surveyed here"
+            ]
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "I / 02",
+          "heading": "The unknown soldier",
+          "paras": [
+            "The Tomb of the Unknown Soldier at the Kremlin wall was opened on 8 May 1967. The monument was designed by the architects Dmitrii Burdin, Vladimir Klimov and Iurii Rabaev, with the sculptor Nikolai Tomskii; the remains had been brought from a mass grave outside Moscow. The eternal flame was lit at the opening and has been maintained since.",
+            "The unknown soldier is a very specific solution to a problem of scale: it converts an unmanageable number into a single body that can be visited. What it gains in ritual focus it loses in information. The state’s memory is built on that trade."
+          ],
+          "level": "documented",
+          "sources": [
+            "mos-ru-unknown",
+            "tumarkin1994"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "unknown-soldier-1979",
+          "alt": "A black-and-white photograph of a crowd laying flowers at the Tomb of the Unknown Soldier, with honour guards",
+          "caption": "Laying flowers at the Tomb of the Unknown Soldier, 9 May 1979. Photograph: I. Burov, Glavarkhiv Moscow; CC BY 4.0.",
+          "credit": "I. Burov / Glavarkhiv Moscow, CC BY 4.0",
+          "level": "documented",
+          "size": "wide",
+          "mask": "torn-02"
+        },
+        {
+          "type": "prose",
+          "kicker": "I / 03",
+          "heading": "Unburied",
+          "paras": [
+            "Alexander Etkind’s *Warped Mourning* argues that Soviet culture was shaped by deaths that were not buried properly — the executed, the disappeared, the dead in unmarked ground — and that literature and memory-work in Russia have repeatedly returned to them as the ‘undead’. The argument is a cultural history, not a survey of graves, and the atlas presents it as an interpretation.",
+            "Catherine Merridale’s *Night of Stone* makes a related point from the side of the living: the twentieth century in Russia produced so much death that mourning itself became a skill that had to be managed, suppressed, or performed in private. Both books are used here for their arguments, not as inventories of fact."
+          ],
+          "level": "interpretation",
+          "sources": [
+            "etkind2013",
+            "merridale2000"
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Restraint",
+          "heading": "Why there are no bodies here",
+          "items": [
+            "This plate uses no photographs of corpses, no photographs of starving people, no images of the blockade dead. The atlas treats these as deaths, not as imagery.",
+            "The monuments are shown because they are what the state built, and because their surfaces are evidence of how memory was organised."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "figure",
+          "src": "mamayev",
+          "alt": "The Motherland Calls statue seen across the Mamayev Kurgan memorial complex",
+          "caption": "Mamayev Kurgan, Volgograd: the memorial complex on the site of the Stalingrad fighting. Photograph: Redboston, CC BY-SA 4.0.",
+          "credit": "Redboston / Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "narrow",
+          "mask": "torn-02"
+        }
+      ]
+    },
+    {
+      "id": "j",
+      "letter": "J",
+      "slug": "art",
+      "nav": "Death in Art",
+      "title": "DEATH IN ART",
+      "subtitle": "The sled, the black square, and the deathbed as an argument",
+      "dek": "Russian art tends to approach death through a single object held at an angle: a coffin on a sled, a square on a wall, a body on a bed.",
+      "period": "1865–1935",
+      "location": "Moscow; Nemchinovka",
+      "tradition": "Painting, literature, the avant-garde",
+      "category": "art",
+      "layout": "art",
+      "tone": "dark",
+      "sources": [
+        "tretyakov-perov",
+        "mk-malevich",
+        "merridale2000"
+      ],
+      "related": [
+        "b",
+        "f",
+        "l"
+      ],
+      "concepts": [
+        "memory",
+        "mourning",
+        "abandonment"
+      ],
+      "objects": [
+        "coffin",
+        "grave-marker"
+      ],
+      "places": [
+        "moscow"
+      ],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "J / 01",
+          "heading": "Perov, 1865",
+          "paras": [
+            "Vasily Perov’s *Seeing Off the Dead* (*Provody pokoinika*, 1865; oil on canvas, 45.3 × 57 cm; Tretyakov Gallery, inv. 5248) is small, and it is composed around a box. A peasant family rides a sled through snow; the coffin is tied behind them; a dog runs alongside. The widow sits with her back to us; the children face us.",
+            "The painting’s subject is not death but transport. The body is being moved through a landscape that does not acknowledge it — the sky is enormous, the snow is flat, the trees are indifferent. Grief here is a fact of weather.",
+            "The Tretyakov Gallery’s own catalogue note connects the painting to Nekrasov’s poem *Frost, Red Nose* (1862–63), which describes a peasant family that has lost its breadwinner. The comparison was made by contemporaries and has been repeated by art historians; it is a documented reception, not a proof of intention."
+          ],
+          "level": "documented",
+          "sources": [
+            "tretyakov-perov"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "perov-funeral",
+          "alt": "Painting: a peasant family in a horse-drawn sled carrying a wooden coffin across a snowy field under a vast grey sky",
+          "caption": "Vasily Perov, *Seeing Off the Dead*, 1865. Oil on canvas, 45.3 × 57 cm. Tretyakov Gallery, inv. 5248. Photographic reproduction: public domain.",
+          "credit": "Public domain, via Wikimedia Commons; collection: Tretyakov Gallery",
+          "level": "documented",
+          "size": "full",
+          "mask": "torn-04",
+          "state": "plate"
+        },
+        {
+          "type": "prose",
+          "kicker": "J / 02",
+          "heading": "The deathbed as a room",
+          "paras": [
+            "Russian prose of the nineteenth century returns again and again to the deathbed as a place where a life is suddenly legible. Tolstoy’s *The Death of Ivan Ilyich* (1886) is built as a corridor: the dying man moves through pain, denial and an unexpected opening at the end. Chekhov’s early story *The Death of a Clerk* (1883) makes the same subject ridiculous: a man dies of embarrassment. Bunin’s *The Gentleman from San Francisco* (1915) puts a wealthy man’s death in a hotel and refuses to grant it dignity.",
+            "The three are not a tradition; they are three positions. Death in Russian literature is a test of the social order, and the results differ."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "prose",
+          "kicker": "J / 03",
+          "heading": "The square that was a gravestone",
+          "paras": [
+            "Kazimir Malevich died in 1935 and was buried, according to the account in the Moscow press, near Nemchinovka outside Moscow, under a lone oak. A white cube with a black square was placed on the grave. The oak was later cut down, the grave was lost, and the cube disappeared.",
+            "What survives is a photograph and a painting. The black square, which had been an argument about painting, became a grave marker and then became nothing at all. It is the cleanest case in this atlas of an object that is both a work of art and a missing grave."
+          ],
+          "level": "documented",
+          "sources": [
+            "mk-malevich"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "perov-funeral-halftone",
+          "alt": "The Perov painting reduced to a high-contrast halftone dot screen",
+          "caption": "The same painting, halftoned. The screen is a reproduction technology, not a style: it is how the image would have reached most viewers in print.",
+          "credit": "Derivative of a public-domain image; halftone processing by the atlas",
+          "level": "reconstruction",
+          "size": "medium",
+          "state": "plate"
+        },
+        {
+          "type": "note",
+          "kicker": "Editorial",
+          "heading": "On not illustrating grief",
+          "items": [
+            "No literary quotations appear on this plate. Passages describing dying are easy to excerpt and hard to excerpt honestly.",
+            "The paintings are shown at their own proportions. Cropping is used once, deliberately, on the halftone detail."
+          ],
+          "level": "interpretation"
+        }
+      ]
+    },
+    {
+      "id": "k",
+      "letter": "K",
+      "slug": "soviet",
+      "nav": "The Soviet and Post-Soviet Afterlife",
+      "title": "THE SOVIET AFTERLIFE",
+      "subtitle": "Cremation, the civil funeral, and the industry that followed",
+      "dek": "The Soviet state did not abolish the funeral. It rebuilt it as a ceremony of the collective, and then the collective dissolved.",
+      "period": "1920s–2020s",
+      "location": "Moscow; St Petersburg; Russia",
+      "tradition": "State secular ritual; Orthodox revival; commercial funeral services",
+      "category": "soviet",
+      "layout": "soviet",
+      "tone": "paper",
+      "sources": [
+        "mospravda-crematorium",
+        "merridale2000",
+        "tumarkin1994",
+        "yurchak2006"
+      ],
+      "related": [
+        "i",
+        "f",
+        "l"
+      ],
+      "concepts": [
+        "memory",
+        "mourning",
+        "remembrance"
+      ],
+      "objects": [
+        "coffin",
+        "memorial",
+        "eternal-flame"
+      ],
+      "places": [
+        "moscow",
+        "st-petersburg"
+      ],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "K / 01",
+          "heading": "A crematorium in a church",
+          "paras": [
+            "In 1925 the Moscow Soviet decided to build a crematorium and chose, as its site, the church of St Seraphim of Sarov and St Anna of Kashin at the Donskoy Monastery. The furnace was made by a German firm; the first cremation took place on 12 January 1927, and the official opening was held on 6 October 1927, without ceremony, according to the Moscow press account.",
+            "The building is the argument. A church, built for the burial of bodies and the prayer for the dead, was converted into a machine for their disappearance. The Soviet state did not need a new architecture for this; it needed a confiscated one."
+          ],
+          "level": "documented",
+          "sources": [
+            "mospravda-crematorium",
+            "merridale2000"
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "K / 02",
+          "heading": "The civil funeral",
+          "paras": [
+            "The Soviet funeral was a ceremony without a priest: a hall, a portrait, an orchestra, a speech, a red coffin, medals carried on cushions, a grave in a designated section. The ritual was designed to be legible, repeatable and secular, and it was administered by the same municipal apparatus that handled housing and sanitation.",
+            "It did not remove grief; it gave grief a script and a timetable. Merridale’s account of the twentieth century is largely about what happened when the script and the experience did not match — and about the private, domestic mourning that continued alongside the public one."
+          ],
+          "level": "documented",
+          "sources": [
+            "merridale2000"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Dates and decisions, with sources",
+          "cols": [
+            "Date",
+            "Event",
+            "Source"
+          ],
+          "rows": [
+            [
+              "10 Oct 1723",
+              "Decree restricting burial inside towns",
+              "Pravenc, ‘Nadgrobie’"
+            ],
+            [
+              "1771",
+              "Plague in Moscow; Vagankovo founded",
+              "Mos.ru, Vagankovo history"
+            ],
+            [
+              "1925",
+              "Moscow Soviet decides to build a crematorium",
+              "Moskovskaia pravda, 2017"
+            ],
+            [
+              "12 Jan 1927",
+              "First cremation at Donskoy",
+              "Moskovskaia pravda, 2017"
+            ],
+            [
+              "6 Oct 1927",
+              "Official opening of the crematorium",
+              "Moskovskaia pravda, 2017"
+            ],
+            [
+              "9 May 1960",
+              "Piskaryovskoye memorial opened",
+              "Piskaryovskoye museum"
+            ],
+            [
+              "8 May 1967",
+              "Tomb of the Unknown Soldier opened",
+              "Mos.ru / Glavarkhiv"
+            ],
+            [
+              "1991–",
+              "End of the state funeral monopoly; commercial services expand",
+              "Interpretation, unsourced here"
+            ]
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "K / 03",
+          "heading": "After 1991",
+          "paras": [
+            "The post-Soviet funeral is a market. Private funeral homes, municipal cemeteries with fee schedules, monument workshops, wreath sellers and, more recently, online memorial pages form an industry that the Soviet system had tried to keep inside the state. Orthodox practice returned in parallel — sometimes inside the same funeral, with the priest arriving after the orchestra.",
+            "The atlas has not found a reliable scholarly account of this transition in the sources used here. This section is therefore marked as an editorial sketch, and the digital memorial is marked as an open question rather than described as a fact."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "note",
+          "kicker": "Open question",
+          "heading": "The digital grave",
+          "items": [
+            "Online memorial pages, QR codes on headstones and social-media profiles of the dead are visible in contemporary Russia, but the atlas has not verified their scale, chronology or legal status.",
+            "They are recorded here as a research task, not as a finding."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "quote",
+          "text": "The state arranged the funeral. It could not arrange the mourning.",
+          "attrib": "Editorial note, after Merridale and Etkind",
+          "level": "interpretation"
+        },
+        {
+          "type": "figure",
+          "src": "post-soviet-plot",
+          "alt": "A contemporary grave plot with fence, granite slab, oval portrait, wreath and bench, drawn as a schematic",
+          "caption": "A contemporary grave plot: metal fence, granite slab with an unreadable oval portrait, a plastic wreath and a bench. Drawn as a measured schematic of a type, not as a photograph of any specific grave.",
+          "credit": "Original illustration",
+          "level": "reconstruction",
+          "size": "wide"
+        }
+      ]
+    },
+    {
+      "id": "l",
+      "letter": "L",
+      "slug": "unfinished",
+      "nav": "The Unfinished Archive",
+      "title": "THE UNFINISHED ARCHIVE",
+      "subtitle": "What is missing, and how to draw it",
+      "dek": "This plate is mostly empty on purpose. An atlas of death that could show everything would be lying about the record.",
+      "marginal": "A register that lists what is missing is still a register. The empty column is the most honest part of this plate.",
+      "period": "1930s–present",
+      "location": "Russia; the former Soviet Union",
+      "tradition": "Archive, ruin, and the digital trace",
+      "category": "archive",
+      "layout": "archive",
+      "tone": "paper",
+      "sources": [
+        "merridale2000",
+        "etkind2013",
+        "mk-malevich"
+      ],
+      "related": [
+        "j",
+        "f",
+        "i"
+      ],
+      "concepts": [
+        "abandonment",
+        "memory",
+        "return"
+      ],
+      "objects": [
+        "photograph",
+        "grave-marker"
+      ],
+      "places": [
+        "moscow",
+        "rostov-on-don"
+      ],
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "L / 01",
+          "heading": "The record has holes",
+          "paras": [
+            "Cemeteries are destroyed for reasons that are rarely stated as destruction: a road, a park, a housing block, a sports facility. The dead are moved, or not moved; the stones are reused as paving or foundation; the register is lost. What remains is a place-name and a photograph taken before.",
+            "This plate collects the forms of absence the atlas has actually encountered: a grave whose monument has disappeared, a cemetery photographed but not surveyed, a photograph whose subject is unidentified, a practice described only in a footnote."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "figure",
+          "src": "abandoned-tomb",
+          "alt": "A weathered stone tomb with a broken cross and overgrown grass in an abandoned cemetery",
+          "caption": "Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don. Photograph released CC0. The tomb is not a monument to anyone in particular; it is a monument to maintenance.",
+          "credit": "Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "narrow",
+          "mask": "torn-02",
+          "state": "ghost"
+        },
+        {
+          "type": "register",
+          "kicker": "L / 02",
+          "heading": "Register of losses",
+          "colhead": [
+            "Object",
+            "Status",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Grave of Kazimir Malevich, Nemchinovka",
+              "lost; the cube disappeared, the oak was cut down",
+              "Moscow press, 2023"
+            ],
+            [
+              "Cemeteries at dissolved monasteries",
+              "partly destroyed in the Soviet period",
+              "general historiography; not itemised here"
+            ],
+            [
+              "Rural cemeteries without a register",
+              "maintained by memory, not by record",
+              "no inventory found"
+            ],
+            [
+              "Grave portraits and enamel photographs",
+              "abundant, undocumented",
+              "observation; no source"
+            ],
+            [
+              "Digital memorial pages",
+              "growing, unstudied",
+              "open question"
+            ],
+            [
+              "Names of the 1771 plague dead at Vagankovo",
+              "not recoverable",
+              "Mos.ru, Vagankovo history"
+            ]
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "L / 03",
+          "heading": "How to draw a hole",
+          "paras": [
+            "The atlas uses three devices for absence: a blank field with a single line of type; a photograph printed too faintly to read; a register in which the status column says ‘lost’ and the evidence column says nothing.",
+            "None of these is a reconstruction. They are honest formats for the limits of the research, and they are the only place in the atlas where the page is allowed to be almost empty."
+          ],
+          "level": "reconstruction"
+        },
+        {
+          "type": "note",
+          "kicker": "Method",
+          "heading": "What would be needed",
+          "items": [
+            "A field survey of at least one provincial cemetery, with photographs, dates and a condition record.",
+            "Access to a municipal burial register, even a fragmentary one.",
+            "A scholarly source on post-Soviet digital memorials.",
+            "The atlas is published with these gaps visible rather than filled."
+          ],
+          "level": "interpretation"
+        },
+        {
+          "type": "quote",
+          "text": "The archive is not incomplete. It is being completed by erosion.",
+          "attrib": "Editorial note",
+          "level": "interpretation"
+        },
+        {
+          "type": "figure",
+          "src": "empty-house",
+          "alt": "A log village house with darkened windows drawn as a sagging elevation",
+          "caption": "The empty house: a log dwelling drawn as a measured elevation. The darkened windows mark the motif of the house emptied by death; a type, not a record of a specific building.",
+          "credit": "Original illustration",
+          "level": "reconstruction",
+          "size": "narrow"
+        }
+      ]
+    }
+  ]
+}

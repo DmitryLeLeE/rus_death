@@ -1,0 +1,146 @@
+{
+  "note": "Geographic index. Only localities with a documented basis in the atlas appear here. Positions are approximate; the map is a working sheet, not a gazetteer. One entry lies outside the Russian Federation and is marked accordingly.",
+  "places": [
+    {
+      "id": "moscow",
+      "name": "Moscow",
+      "region": "Russian Federation",
+      "marker": "moscow",
+      "lat": 55.74,
+      "lon": 37.55,
+      "status": "in-RF",
+      "summary": "Vagankovo (plague dead, 1771); the Donskoy crematorium (1927); Novodevichy, the Soviet state necropolis; the Tomb of the Unknown Soldier (1967).",
+      "entries": [
+        "Vagankovo Cemetery, founded 1771 for victims of plague",
+        "Donskoy Monastery, site of the first Moscow crematorium (1927)",
+        "Novodevichy Cemetery, the elite necropolis",
+        "Tomb of the Unknown Soldier, Alexander Garden (1967)"
+      ],
+      "plates": ["f", "i", "k", "j", "l"],
+      "sources": ["vagankovo", "mospravda-crematorium", "mos-ru-unknown", "merridale2000"]
+    },
+    {
+      "id": "st-petersburg",
+      "name": "St Petersburg",
+      "region": "Russian Federation",
+      "marker": "st-petersburg",
+      "lat": 59.9,
+      "lon": 30.32,
+      "status": "in-RF",
+      "summary": "Smolensk cemetery (the 1881 memorial-meal photograph); Piskaryovskoye Memorial Cemetery (1960); the Field of Mars flame (1957).",
+      "entries": [
+        "Smolensk cemetery — memorial meal photographed in 1881",
+        "Piskaryovskoye Memorial Cemetery — blockade and front-line dead; memorial opened 9 May 1960",
+        "Field of Mars — the flame lit in 1957, from which the Piskaryovskoye flame was taken"
+      ],
+      "plates": ["d", "i", "k"],
+      "sources": ["pmemorial", "rusmuseum", "images"]
+    },
+    {
+      "id": "pushkin",
+      "name": "Pushkin (Tsarskoe Selo)",
+      "region": "Russian Federation",
+      "marker": "st-petersburg",
+      "lat": 59.72,
+      "lon": 30.41,
+      "status": "in-RF",
+      "summary": "Kazan cemetery: a roofed grave-cross (*golubets*) photographed in 2013. Shown with St Petersburg on the map.",
+      "entries": [
+        "Kazan cemetery — roofed cross, photograph by Messir, 2013"
+      ],
+      "plates": ["f"],
+      "sources": ["images"]
+    },
+    {
+      "id": "novgorod",
+      "name": "Novgorod",
+      "region": "Russian Federation",
+      "marker": "novgorod",
+      "lat": 58.52,
+      "lon": 31.27,
+      "status": "in-RF",
+      "summary": "Icons of the Last Judgment from the 1540s, recorded as coming from the Nativity monastery; the Dormition icon from the Desyatinny monastery.",
+      "entries": [
+        "Fragments of a Last Judgment icon, 1540s, from the Nativity monastery (Wikimedia Commons record)",
+        "Dormition icon, 15th century, from the Desyatinny monastery"
+      ],
+      "plates": ["h"],
+      "sources": ["images"]
+    },
+    {
+      "id": "olonets-karelia",
+      "name": "Olonets province (Karelia)",
+      "region": "Russian Federation",
+      "marker": "olonets-karelia",
+      "lat": 61.6,
+      "lon": 33.6,
+      "status": "in-RF",
+      "summary": "The region in which E. V. Barsov recorded the laments published in *Prichitaniia Severnogo kraia* (1872–1886).",
+      "entries": [
+        "Lament texts and performers recorded for Barsov’s three volumes"
+      ],
+      "plates": ["g", "c"],
+      "sources": ["barsov1872"]
+    },
+    {
+      "id": "volga-region",
+      "name": "Volga region",
+      "region": "Russian Federation",
+      "marker": "volga-region",
+      "lat": 53.5,
+      "lon": 47.5,
+      "status": "in-RF",
+      "summary": "Provenance of the eighteenth-century Last Judgment icon (1770s–1780s) used in plate H.",
+      "entries": [
+        "Last Judgment icon, tempera on wood, 180 × 137 cm"
+      ],
+      "plates": ["h"],
+      "sources": ["images"]
+    },
+    {
+      "id": "volgograd",
+      "name": "Volgograd (Stalingrad)",
+      "region": "Russian Federation",
+      "marker": "volgograd",
+      "lat": 48.74,
+      "lon": 44.53,
+      "status": "in-RF",
+      "summary": "Mamayev Kurgan, the memorial complex on the site of the Stalingrad fighting.",
+      "entries": [
+        "Mamayev Kurgan — memorial ensemble (photograph 2021)"
+      ],
+      "plates": ["i"],
+      "sources": ["images"]
+    },
+    {
+      "id": "rostov-on-don",
+      "name": "Rostov-on-Don",
+      "region": "Russian Federation",
+      "marker": "rostov-on-don",
+      "lat": 47.24,
+      "lon": 39.72,
+      "status": "in-RF",
+      "summary": "Nizhne-Gnilovskoye cemetery: a photographed abandoned tomb, released under CC0. Used as the atlas’s single image of abandonment.",
+      "entries": [
+        "Abandoned tomb at Nizhne-Gnilovskoye cemetery"
+      ],
+      "plates": ["l"],
+      "sources": ["images"]
+    },
+    {
+      "id": "tymky-ukraine",
+      "name": "Khutir Tymky",
+      "region": "Ukraine",
+      "marker": "tymky-ukraine",
+      "lat": 50.0,
+      "lon": 34.5,
+      "status": "outside-RF",
+      "summary": "A documented commemoration at graves, photographed in 2014. Included as a regional example and explicitly not as evidence for Russian practice.",
+      "entries": [
+        "Commemoration at graves, 27 April 2014"
+      ],
+      "plates": ["d"],
+      "sources": ["images"]
+    }
+  ]
+}

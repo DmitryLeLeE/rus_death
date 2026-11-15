@@ -1,1 +1,183 @@
-# rus_death
+# ARCHÆOLOGY OF RUSSIAN DEATH
+
+**An Atlas of Death, Memory, Ritual and the Afterlife in Russian Culture.**
+
+A static, self-contained research publication in twelve plates. Experimental editorial design, archival materiality, a working map, a discontinuous chronology and a bibliography with limitations. No frameworks, no build step at runtime, no external services.
+
+---
+
+## What this is
+
+This is not a themed landing page and not an encyclopaedia. It is an atlas: twelve compositions on one problem, connected by an index, a map and a chronology that are not the same route.
+
+The rule of the publication is stated on the cover and enforced in every plate:
+
+> **Documented** facts are separated from **interpretation** and from **reconstruction**. No invented sources, quotations, archive numbers or historical photographs.
+
+The material layer — torn edges, toner, halftone, scanner lines, misregistration — is generated locally and used as an argument about the evidence, not as a filter over it.
+
+## Contents
+
+| Page | File | What it is |
+| --- | --- | --- |
+| Cover | `index.html` | The object: title, collage, the twelve plates |
+| Method | `method.html` | Scope, evidence levels, periodisation, language, limits |
+| Index | `atlas.html` | Card catalogue: plates, objects, concepts, places, filters |
+| Map | `map.html` | Eight documented localities on a working map |
+| Chronology | `chronology.html` | Points and caesuras, filterable by period |
+| Sources | `bibliography.html` | 19 entries with URLs, access dates and limitations; image credits |
+| Colophon | `colophon.html` | Typefaces, materials, technical notes, licensing |
+| Plates A–L | `plates/*.html` | Twelve research plates, each with its own composition |
+| 404 | `404.html` | Missing page |
+
+## Structure of the repository
+
+```
+/
+├── index.html, atlas.html, map.html, chronology.html,
+│   bibliography.html, method.html, colophon.html, 404.html
+├── plates/                 12 plate pages (generated)
+├── css/
+│   ├── core.css            type, paper, navigation, figures, dialogs
+│   ├── plates.css          twelve distinct plate compositions
+│   └── pages.css           cover, index, map, chronology, bibliography, method
+├── js/app.js               catalogue, map, chronology, image dialog, margin notes
+├── data/
+│   ├── plates.json         all plate content, section by section
+│   ├── sources.json        bibliography with what each source can and cannot support
+│   ├── objects.json        object index
+│   ├── concepts.json       concept index
+│   ├── places.json         geographic index
+│   ├── places.geo.json     normalised marker positions (generated)
+│   ├── timeline.json       chronology entries
+│   ├── images.json         image records and licences
+│   └── method.json         method page text
+├── assets/
+│   ├── fonts/              four OFL typefaces + licence texts
+│   ├── images/             photographs, reproductions, processed derivatives
+│   ├── textures/           paper, xerox, scanner, misregistration, ink and wash stains
+│   ├── overlays/           dust, creases
+│   ├── paper/              torn-paper clip path sprite
+│   └── illustrations/      hand marks, diagrams, map
+├── build/
+│   ├── make_assets.py      generates textures and image derivatives
+│   ├── make_svg.py         generates torn edges, hand marks, diagrams
+│   ├── make_map.py         projects Natural Earth data into the map
+│   ├── build.mjs           renders data/*.json into HTML
+│   ├── make_credits.mjs    regenerates ASSET_CREDITS.md from images.json
+│   ├── audit.mjs           headless-browser audit: overflow, console, interactions
+│   ├── check_links.mjs     static check of every local link, anchor and asset
+│   └── shots.mjs           full-page screenshots at four viewports
+├── shots/                  screenshots of the real render
+│   ├── desktop/            1440 × 1000
+│   ├── tablet/             768 × 1024
+│   ├── mobile/             390 × 844
+│   └── small/              320 × 760
+├── SOURCES.md              statement → source registry
+├── ASSET_CREDITS.md        image, texture and font credits
+└── README.md
+```
+
+## Run locally
+
+The site is plain static files, but it must be served over HTTP (relative paths, no build step, no modules):
+
+```bash
+# from this directory
+python -m http.server 8123
+# then open http://127.0.0.1:8123/
+```
+
+Any static server works (`npx serve .`, nginx, GitHub Pages). Opening `index.html` directly with `file://` also works in most browsers, but a local server is recommended.
+
+## Rebuild
+
+The generated HTML is committed, so the site runs with no toolchain. To change content, edit the JSON and re-render:
+
+```bash
+node build/build.mjs          # regenerates all HTML from data/*.json
+```
+
+Regenerating the material layer (Python 3 with Pillow + NumPy, and the Natural Earth files described in `ASSET_CREDITS.md`):
+
+```bash
+python build/make_assets.py   # textures, derivatives, halftone images
+python build/make_svg.py      # torn clip paths, hand marks, diagrams
+python build/make_map.py      # map SVG and marker positions
+```
+
+Verification:
+
+```bash
+node build/check_links.mjs    # every local href, anchor and CSS url
+node build/audit.mjs          # 20 pages × 7 viewports: overflow, console, interactions
+node build/shots.mjs          # full-page screenshots into shots/
+```
+
+The audit report is written to `build/audit-report.json`. External catalogue links are recorded with URLs and access dates; some library catalogues (WorldCat) return HTTP 403 to automated clients while resolving normally in a browser, so external URLs are checked by hand rather than asserted as machine-verified.
+
+## Data model
+
+`data/plates.json` is the source of truth for the plates. Each plate has identity fields (`id`, `letter`, `slug`, `nav`, `title`, `subtitle`, `dek`, `period`, `location`, `tradition`, `category`, `layout`), relations (`related`, `concepts`, `objects`, `places`, `sources`), an optional `marginal` note and a `sections` array.
+
+Section types: `prose`, `record`, `figure`, `diagram`, `table`, `register`, `note`, `quote`. Every section may carry `level` (`documented`, `interpretation`, `reconstruction`) and `sources` (source ids). Adding a plate means adding a record and choosing a `layout`; the renderer has twelve layout classes.
+
+Sources are referenced by stable ids (`merridale2000`, `zelenin1916`, …). The build resolves them into the plate footers and the bibliography, and `SOURCES.md` mirrors the same registry.
+
+## Deploy to GitHub Pages
+
+The site is static and needs no build step, so it is published from a branch.
+
+1. Push this directory to the default branch of a repository.
+2. Publish the same content to a `gh-pages` branch and point Pages at it:
+
+   ```bash
+   git subtree push --prefix . origin gh-pages     # or: git push origin main:gh-pages
+   gh api -X POST "repos/{owner}/{repo}/pages" \
+     -f "source[branch]=gh-pages" -f "source[path]=/"
+   ```
+
+3. The site is published at `https://<user>.github.io/<repo>/`. Relative paths and `.nojekyll` are in place, so subdirectory hosting works with no base-path configuration.
+
+An Actions-based workflow can be added later if the publishing account has the `workflow` scope; the published edition uses branch deployment.
+
+## Accessibility and interaction
+
+- Semantic landmarks, one `h1` per page, correct heading order, skip link.
+- Keyboard: tabs (arrow keys), filters, pins, dialogs (focus trap, Esc), zoom toggle.
+- `aria-live` status for catalogue results and chronology counts.
+- Visible focus rings; contrast checked for body text and controls.
+- `prefers-reduced-motion` disables transitions.
+- Every interaction has a non-hover path; nothing depends on hover.
+- No autoplay audio, no analytics, no cookies, no localStorage, no external requests.
+
+## Licensing
+
+- Original text, data, diagrams, textures and code: **CC BY-SA 4.0**.
+- Third-party images: as recorded in `ASSET_CREDITS.md` and in the bibliography (public domain, CC0, CC BY 3.0/4.0, CC BY-SA 3.0/4.0).
+- Typefaces: SIL Open Font License 1.1 (`assets/fonts/*-OFL.txt`).
+- Map geometry: Natural Earth 1:110m and 1:50m, public domain.
+
+## Known limits
+
+The atlas states its gaps rather than filling them: no field survey, no municipal burial register, no systematic study of post-Soviet commercial funerals or digital memorials, and no verbatim laments, proverbs or epitaphs. See `method.html` and the “Uncertainty register” notes in the plates.
+
+
+
+---
+
+## Artistic statement
+
+**A CHRONICLE OF THE DEAD, WRITTEN BY THE LIVING. A MATERIAL ARCHIVE OF RUSSIAN DEATH, RITUAL AND MEMORY.**
+
+Not Slavic fantasy. Not gothic horror. Not a dark aesthetic. This is Russian cultural memory in its physical condition: the churchyard, the empty house, the cold earth, the absence of the human body.
+
+The publication is assembled to feel like an independent edition found, not made — old cemetery photographs, ethnographic records, religious images, measured drawings of a log house, a tent-roofed wooden church and a contemporary grave plot, a photocopy of a memorial meal, a vanished gravestone. Four photographic states (document, archive, plate, ghost) keep the images from reading as a uniform illustration set, and the one authentic Cyrillic inscription — the bibliographic title of Barsov's *Prichitaniia Severnogo kraia* — is attributed and translated rather than invented.
+
+## Published
+
+- Repository: `DmitryLeLeE/rus_death` (public)
+- Live site: <https://DmitryLeLeE.github.io/rus_death/>
+- Social preview: `social.jpg` (1200 × 630), referenced by the Open Graph tags in every page.
+
+The site is deployed from this repository via a `gh-pages` branch (branch deployment; see above). The source of the social card is `build/social.html`; regenerate it with Chrome at 1200 × 630, or keep the committed `social.jpg`.

@@ -1,0 +1,155 @@
+{
+  "note": "Object index. Each record is a material thing that appears in more than one plate. Evidence levels follow the atlas conventions: documented / interpretation / reconstruction.",
+  "objects": [
+    {
+      "id": "coffin",
+      "name": "Coffin",
+      "term": "grob",
+      "gloss": "The container in which the body is carried and buried.",
+      "description": "Described in the ethnography as plain, made of planks, sometimes hollowed from a single trunk in northern accounts. By the late imperial period it is increasingly a purchased object. It appears in plate B as furniture, in plate C as the centre of the rite, and in plate J as the box that organises Perov’s painting.",
+      "evidence": "documented",
+      "plates": ["b", "c", "j"],
+      "sources": ["zelenin1916", "tretyakov-perov"]
+    },
+    {
+      "id": "cross",
+      "name": "Grave cross",
+      "term": "krest",
+      "gloss": "The cross set on the grave; several formal types are recorded.",
+      "description": "Eight-pointed, six-pointed and four-pointed crosses are all found on Russian graves, with regional and period variation. The roofed cross (*golubets*) shelters the cross under a gable and turns the grave into a small building. The atlas draws four types as measured elevations and marks the drawings as reconstructions.",
+      "evidence": "documented",
+      "plates": ["f", "e"],
+      "sources": ["tolstoy1995", "pravenc-nadgrobie"]
+    },
+    {
+      "id": "candle",
+      "name": "Candle",
+      "term": "svecha",
+      "gloss": "Lit at the funeral, at memorial services and at the grave.",
+      "description": "A small, expendable object with a long life in the sources: it marks the presence of prayer, it is placed in the hand or beside the body in some descriptions, and it is bought and carried by mourners. The atlas uses it as a graphic sign for the presence of ritual time.",
+      "evidence": "documented",
+      "plates": ["a", "c", "h"],
+      "sources": ["ivanits1989", "skrizhal"]
+    },
+    {
+      "id": "grave-marker",
+      "name": "Grave marker",
+      "term": "nadgrobie / pamyatnik",
+      "gloss": "The stone, cross or structure that identifies a grave.",
+      "description": "In the medieval and early modern period the marker might be a stone slab or a wooden cross; from the eighteenth century the monument becomes an architectural object with an inscription, a portrait or a symbol. The atlas keeps the marker and the grave separate: a grave can exist without a marker, and a marker can survive its grave.",
+      "evidence": "documented",
+      "plates": ["f", "l"],
+      "sources": ["pravenc-nadgrobie", "merridale2000"]
+    },
+    {
+      "id": "funeral-cloth",
+      "name": "Funeral cloth",
+      "term": "pokrov / savan",
+      "gloss": "Cloth that covers or wraps the body.",
+      "description": "Regionally variable in form and name: a shroud, a covering, a piece of linen. Its function is to separate the body from the hands that carry it and to present the dead as a figure rather than a corpse. The atlas does not illustrate a specific example because it has not verified one.",
+      "evidence": "documented",
+      "plates": ["b"],
+      "sources": ["zelenin1916"]
+    },
+    {
+      "id": "memorial-bread",
+      "name": "Memorial bread",
+      "term": "pomin-al’nyi khleb; bliny",
+      "gloss": "Bread, pancakes or grain preparations eaten at the memorial meal.",
+      "description": "Bread and bliny recur in descriptions of the memorial table; the grain dish kutya is the most explicitly ritual of the foods. The atlas treats the food as an object with a documented context and an undocumented prehistory.",
+      "evidence": "documented",
+      "plates": ["d", "c"],
+      "sources": ["ivanits1989", "tolstoy1995"]
+    },
+    {
+      "id": "kutia",
+      "name": "Kutya / kolivo",
+      "term": "kut’ia, kolivo",
+      "gloss": "Boiled grain sweetened with honey, eaten at memorial meals and blessed at memorial services.",
+      "description": "Wheat or rice, honey, later raisins. The church dish is called kolivo; household kutya may be richer. The grain is read as a figure of resurrection. The relationship between the two dishes is not settled by the sources used here.",
+      "evidence": "documented",
+      "plates": ["d"],
+      "sources": ["ivanits1989", "tolstoy1995"]
+    },
+    {
+      "id": "ritual-vessel",
+      "name": "Ritual vessel",
+      "term": "posuda",
+      "gloss": "The bowl, cup or dish reserved for the memorial meal or for the dead.",
+      "description": "A place is set for the dead in some accounts, with a cup or a portion. The object is unremarkable in itself; what makes it ritual is the reservation — it is not used for the living.",
+      "evidence": "documented",
+      "plates": ["d"],
+      "sources": ["ivanits1989"]
+    },
+    {
+      "id": "cemetery-gate",
+      "name": "Cemetery gate",
+      "term": "vorota",
+      "gloss": "The formal entrance to a cemetery, with a wall and often a chapel.",
+      "description": "From the late eighteenth century the cemetery is a walled, gated, planned space. The gate is the point at which the funeral procession changes register: from street to enclosure. The atlas draws a schematic plan rather than a survey.",
+      "evidence": "documented",
+      "plates": ["f"],
+      "sources": ["pravenc-nadgrobie", "vagankovo"]
+    },
+    {
+      "id": "photograph",
+      "name": "Photograph",
+      "term": "fotografiia",
+      "gloss": "The image that survives when the grave does not.",
+      "description": "Photographs are the atlas’s main evidence for cemeteries and memorials, and also its main source of error: a photograph documents a moment of maintenance, not a state. The portrait on a headstone is a different object again, and one the atlas has not been able to document.",
+      "evidence": "documented",
+      "plates": ["f", "i", "l", "j"],
+      "sources": ["merridale2000"]
+    },
+    {
+      "id": "icon",
+      "name": "Icon",
+      "term": "ikona",
+      "gloss": "A painted image of a holy figure or feast, used in worship and in the funeral rite.",
+      "description": "The Last Judgment icon is the atlas’s central image of the afterlife: a diagram of judgement with inscribed compartments. The Dormition icon supplies the model of the good death. Both are shown as historical objects, not as illustrations of doctrine.",
+      "evidence": "documented",
+      "plates": ["h"],
+      "sources": ["tolstoy1995"]
+    },
+    {
+      "id": "mirror",
+      "name": "Mirror",
+      "term": "zerkalo",
+      "gloss": "Covered in the house after a death in many recorded accounts.",
+      "description": "The practice is widely reported; the explanation is not stable, and the atlas marks the chronology of the custom as unknown. It is included in the object index because it is the most frequently cited material sign of the threshold.",
+      "evidence": "documented practice; explanation unverified",
+      "plates": ["a"],
+      "sources": ["ivanits1989"]
+    },
+    {
+      "id": "fence",
+      "name": "Grave fence",
+      "term": "ograda",
+      "gloss": "The low metal or wooden fence around a plot.",
+      "description": "A ubiquitous feature of Russian cemeteries in the twentieth century, and almost entirely absent from the sources used here. The atlas notes it as an object that everyone has seen and no one has documented.",
+      "evidence": "unverified",
+      "plates": ["f"],
+      "sources": []
+    },
+    {
+      "id": "memorial",
+      "name": "Memorial complex",
+      "term": "memorial",
+      "gloss": "A state-built ensemble commemorating collective death.",
+      "description": "From the late 1950s the Soviet state built large ensembles — Piskaryovskoye, Mamayev Kurgan, the Tomb of the Unknown Soldier — that combined architecture, sculpture, landscape and ceremony. They are documents of how the state wanted the dead to be seen.",
+      "evidence": "documented",
+      "plates": ["i", "k"],
+      "sources": ["pmemorial", "rusmuseum", "mos-ru-unknown"]
+    },
+    {
+      "id": "eternal-flame",
+      "name": "Eternal flame",
+      "term": "vechnyi ogon’",
+      "gloss": "A continuously burning flame at a memorial.",
+      "description": "The flame on the Field of Mars in Leningrad was lit in 1957; the flame at Piskaryovskoye was lit from it at the memorial’s opening in 1960. The flame is a technology of memory: it requires maintenance, and its maintenance is the state’s promise.",
+      "evidence": "documented",
+      "plates": ["i", "k"],
+      "sources": ["pmemorial"]
+    }
+  ]
+}

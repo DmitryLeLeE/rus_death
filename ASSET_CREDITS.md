@@ -1,0 +1,167 @@
+# ASSET CREDITS
+
+This register covers every external image, every generated material asset, the typefaces and the map geometry used in **ARCHÆOLOGY OF RUSSIAN DEATH**.
+
+Downloaded: **2026-11-15**. Licence names and URLs are copied from the holding record (Wikimedia Commons) and were checked with the Commons API on that date.
+
+---
+
+## 1. Images
+
+| File | Title | Creator | Date | Licence | Source |
+| --- | --- | --- | --- | --- | --- |
+| `assets/images/perov-funeral.jpg` | Seeing Off the Dead (Provody pokoinika) | Vasily Perov (1833–1882) | 1865 | Public domain | https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8B_%D0%BF%D0%BE%D0%BA%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA%D0%B0.jpg |
+| `assets/images/perov-funeral-halftone.png` | Seeing Off the Dead — halftone screen | Derivative made for this atlas from the public-domain reproduction of Perov’s painting | 2026 | Public domain (derived from a public-domain work) | https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8B_%D0%BF%D0%BE%D0%BA%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA%D0%B0.jpg |
+| `assets/images/memorial-meal-1881.jpg` | Memorial meal at Smolensk cemetery | Unknown photographer | 1881 | Public domain | https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%BC%D0%B8%D0%BD%D0%BA%D0%B8_1881.jpg |
+| `assets/images/memorial-meal-xerox.png` | Memorial meal, 1881 — photocopy degradation | Derivative made for this atlas | 2026 | Public domain (derived from a public-domain work) | https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%BC%D0%B8%D0%BD%D0%BA%D0%B8_1881.jpg |
+| `assets/images/last-judgment-volga.jpg` | The Last Judgment | Unknown icon painter | 1770s–1780s | Public domain | https://commons.wikimedia.org/wiki/File:Last_Judgment_(Povolzhie).jpg |
+| `assets/images/last-judgment-halftone.png` | The Last Judgment — halftone screen | Derivative made for this atlas | 2026 | Public domain (derived from a public-domain work) | https://commons.wikimedia.org/wiki/File:Last_Judgment_(Povolzhie).jpg |
+| `assets/images/dormition-novgorod.jpg` | The Dormition of the Mother of God (Dormition Oblatchnoe) | Unknown icon painter | 15th century | Public domain | https://commons.wikimedia.org/wiki/File:Dormition_Oblatchnoe,_an_icon_from_Desyatinny_Monastery_in_Novgorod,_Russia.jpg |
+| `assets/images/donskoy-1913-duotone.jpg` | The Georgian necropolis at Donskoy Monastery — duotone | Derivative made for this atlas | 2026 | Public domain (derived from a public-domain work) | https://commons.wikimedia.org/wiki/File:Georgian_necropolis_in_Donskoy_Monastery_(Esadze,_1913)_33.JPG |
+| `assets/images/golubets.jpg` | Roofed cross at Kazan cemetery, Pushkin | Messir | 2013-06-19 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Golbetz.jpg |
+| `assets/images/piskaryovskoye-flame.jpg` | Eternal flame at Piskaryovskoye Memorial Cemetery | Ijuedt | 2019-08-03 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Piskaryovskoye_Eternal_Flame.jpg |
+| `assets/images/unknown-soldier-1979.jpg` | Laying flowers at the Tomb of the Unknown Soldier, 9 May 1979 | I. Burov / Glavarkhiv Moscow | 1979-05-09 | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Tomb_of_Unknown_Soldier_9_May_1979.jpg |
+| `assets/images/mamayev.jpg` | Mamayev Kurgan, Volgograd | Redboston | 2021-08-15 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Mamayev_Kurgan_2021-08-15.jpg |
+| `assets/images/ilf-grave.jpg` | Grave of Ilya Ilf, Novodevichy Cemetery | Ghirlandajo | 2010-08 | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:03_ilf.JPG |
+| `assets/images/ships-grave.jpg` | Grave of A. N. Stepanov and M. A. Stepanova, Novodevichy Cemetery | Alexander-Khv | 2021-04-14 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:The_grave_of_the_writer_Stepanov_A._N._and_his_wife_Stepanova_M._A._(Novodevichy_Cemetery,_Moscow,_Russia).jpg |
+| `assets/images/abandoned-tomb.jpg` | Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don | Wikimedia Commons contributor (released CC0) | n.d. | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Abandoned_tomb_at_Nizhne-Gnilovskoe_cemetery.jpg |
+| `assets/images/radonitsa-graves.jpg` | Commemoration at graves, Khutir Tymky, Ukraine | Perohanych | 2014-04-27 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG |
+
+### Notes per file
+
+**perov-funeral** — Seeing Off the Dead (Provody pokoinika). Painting (reproduction). Vasily Perov (1833–1882), 1865. Oil on canvas, 45.3 × 57 cm. State Tretyakov Gallery, Moscow, inv. 5248.
+Licence: Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Catalogue record: https://my.tretyakov.ru/app/masterpiece/10888. The reproduction is a photographic copy of a two-dimensional public-domain work.
+
+**perov-funeral-halftone** — Seeing Off the Dead — halftone screen. Derivative image (made for this atlas). Derivative made for this atlas from the public-domain reproduction of Perov’s painting, 2026. Digital halftone (period 6.5 px, screen angle 27°).
+Licence: Public domain (derived from a public-domain work) (https://creativecommons.org/publicdomain/mark/1.0/). Processing by build/make_assets.py.
+
+**memorial-meal-1881** — Memorial meal at Smolensk cemetery. Photograph. Unknown photographer, 1881. Photograph.
+Licence: Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Source description: ‘Smolenskoe cemetery, memorial meal, 1881’. The only copy available to this project is a small file (604 × 401 px).
+
+**memorial-meal-xerox** — Memorial meal, 1881 — photocopy degradation. Derivative image (made for this atlas). Derivative made for this atlas, 2026. Digital toner degradation.
+Licence: Public domain (derived from a public-domain work) (https://creativecommons.org/publicdomain/mark/1.0/). Processing by build/make_assets.py.
+
+**last-judgment-volga** — The Last Judgment. Icon (reproduction). Unknown icon painter, 1770s–1780s. Tempera on wood, 180 × 137 cm. Russian icon collection of the Déjà Vu art gallery (as recorded in the source description).
+Licence: Public domain (https://creativecommons.org/publicdomain/mark/1.0/). The source description states the icon is typical of mid-to-late eighteenth-century iconography and was influenced by printed engravings, which is the basis for the atlas’s remark about printed-page layouts.
+
+**last-judgment-halftone** — The Last Judgment — halftone screen. Derivative image (made for this atlas). Derivative made for this atlas, 2026. Digital halftone.
+Licence: Public domain (derived from a public-domain work) (https://creativecommons.org/publicdomain/mark/1.0/). Processing by build/make_assets.py.
+
+**dormition-novgorod** — The Dormition of the Mother of God (Dormition Oblatchnoe). Icon (reproduction). Unknown icon painter, 15th century. Tempera on wood. From the Desyatinny Monastery, Novgorod (as recorded by the source).
+Licence: Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Desyatinny Monastery attribution is the source’s, not independently verified here.
+
+**donskoy-1913-duotone** — The Georgian necropolis at Donskoy Monastery — duotone. Derivative image (made for this atlas). Derivative made for this atlas, 2026. Digital duotone.
+Licence: Public domain (derived from a public-domain work) (https://creativecommons.org/publicdomain/mark/1.0/). Processing by build/make_assets.py.
+
+**golubets** — Roofed cross at Kazan cemetery, Pushkin. Photograph. Messir, 2013-06-19. Photograph. Kazan cemetery, Pushkin (St Petersburg).
+Licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Attribution required; adaptation (cropping) permitted under the same licence.
+
+**piskaryovskoye-flame** — Eternal flame at Piskaryovskoye Memorial Cemetery. Photograph. Ijuedt, 2019-08-03. Photograph. Piskaryovskoye Memorial Cemetery, St Petersburg.
+Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Attribution required; share-alike applies to adaptations.
+
+**unknown-soldier-1979** — Laying flowers at the Tomb of the Unknown Soldier, 9 May 1979. Photograph. I. Burov / Glavarkhiv Moscow, 1979-05-09. Photograph. Glavnoe arkhivnoe upravlenie goroda Moskvy.
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribution required.
+
+**mamayev** — Mamayev Kurgan, Volgograd. Photograph. Redboston, 2021-08-15. Photograph. Mamayev Kurgan memorial complex, Volgograd.
+Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Attribution required.
+
+**ilf-grave** — Grave of Ilya Ilf, Novodevichy Cemetery. Photograph. Ghirlandajo, 2010-08. Photograph. Novodevichy Cemetery, Moscow.
+Licence: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Attribution required.
+
+**ships-grave** — Grave of A. N. Stepanov and M. A. Stepanova, Novodevichy Cemetery. Photograph. Alexander-Khv, 2021-04-14. Photograph. Novodevichy Cemetery, Moscow.
+Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). The ‘two ships’ reading is the photographer’s description of the family’s plan; the atlas cites it as a description.
+
+**abandoned-tomb** — Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don. Photograph. Wikimedia Commons contributor (released CC0), n.d.. Photograph. Nizhne-Gnilovskoye cemetery, Rostov-on-Don.
+Licence: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). No attribution required; credited anyway.
+
+**radonitsa-graves** — Commemoration at graves, Khutir Tymky, Ukraine. Photograph. Perohanych, 2014-04-27. Photograph. Khutir Tymky, Ukraine.
+Licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Ukrainian practice. Included as a documented regional example and explicitly not as evidence for Russian custom.
+
+### Attribution required
+
+The following files are under CC BY or CC BY-SA and **must** carry the credit printed under every figure:
+
+- `golubets.jpg` — Messir, CC BY-SA 3.0
+- `piskaryovskoye-flame.jpg` — Ijuedt, CC BY-SA 4.0
+- `unknown-soldier-1979.jpg` — I. Burov / Glavarkhiv Moscow, CC BY 4.0
+- `mamayev.jpg` — Redboston, CC BY-SA 4.0
+- `ilf-grave.jpg` — Ghirlandajo, CC BY 3.0
+- `ships-grave.jpg` — Alexander-Khv, CC BY-SA 4.0
+- `radonitsa-graves.jpg` — Perohanych, CC BY-SA 3.0
+
+Adaptations of CC BY-SA photographs (cropping, duotone, halftone) remain under the same licence. The atlas does not alter the licence of any third-party image.
+
+---
+
+## 2. Generated material assets
+
+All files below were produced for this atlas by the scripts in `build/`. They are released under CC BY-SA 4.0 together with the atlas, except where they derive from a third-party image, in which case the original licence applies.
+
+### Textures (`assets/textures/`)
+
+| File | Method | Role in the publication |
+| --- | --- | --- |
+| `paper-grain.jpg` | value noise + fibre strokes + fine grain, generated in `make_assets.py` | base printing paper |
+| `paper-warm.jpg` | multi-scale mottling + foxing specks + edge darkening | aged sheet, used on plate E |
+| `xerox-dirty.jpg` | toner clouds, clustered specks, scanner bands, gutter shadow | dirty photocopy; overlays photographs and the memorial-meal image |
+| `scanner-lines.jpg` | horizontal banding and dust lines | scanner surface; archive plate |
+| `misregistration.png` | offset red/black bands and ghost rules | print registration defect; Soviet plate header |
+| `ink-stain.png` | blurred irregular polygons | ink stains, plate D |
+| `wash-stain.png` | concentric elliptical wash | pale stain, plate G header |
+
+### Overlays (`assets/overlays/`)
+
+| File | Method | Role |
+| --- | --- | --- |
+| `dust-dark.png` | specks and scratches, dark | dust on pale surfaces, map |
+| `dust-light.png` | specks and scratches, light | dust on dark plates |
+| `creases.png` | soft diagonal ridges | folded sheet |
+
+### Torn paper and hand marks (`assets/paper/`, `assets/illustrations/`)
+
+- `torn-masks.svg` — six distinct clip paths (`torn-01` … `torn-06`) plus a strip and a hole, generated as closed polygons with wandering edges; used through `clip-path: url(#…)`.
+- `hand-marks.svg` — symbol sprite: arrows, rings, cross-outs, ticks, brackets, underline, scribble, eye mark, asterisk. Used as editorial marks, in red or in ink.
+- `cross-typology.svg` — four grave-cross elevations, drawn as measured geometry (original).
+- `ritual-sequence.svg` — six line vignettes of the funeral sequence (original).
+- `soul-path.svg` — analytical diagram of the commemorative arc (original).
+- `cemetery-plan.svg` — schematic cemetery plan (original, not a survey).
+- `threshold-diagram.svg` — house / threshold / grave diagram (original).
+- `colophon-mark.svg` — printer's mark (original).
+- `empty-house.svg` — log dwelling as a sagging elevation, darkened windows (original, schematic of a type).
+- `wooden-church.svg` — tent-roofed wooden church, schematic elevation (original).
+- `post-soviet-plot.svg` — contemporary grave plot: fence, granite, unreadable oval portrait, wreath, bench (original, schematic of a type).
+
+Three photographic derivatives were generated: `perov-funeral-halftone.png`, `last-judgment-halftone.png` (halftone), `memorial-meal-xerox.png` (toner degradation) and `donskoy-1913-duotone.jpg` (duotone). They are derived from public-domain works.
+
+---
+
+## 3. Typefaces
+
+| Family | Role | Licence | Files |
+| --- | --- | --- | --- |
+| **Anton** | display, heavy grotesque | SIL OFL 1.1 | `assets/fonts/anton-400-normal.woff2`, `anton-OFL.txt` |
+| **Oswald** | condensed display and navigation | SIL OFL 1.1 | `assets/fonts/oswald-400-normal.woff2`, `oswald-OFL.txt` |
+| **Source Serif 4** | editorial text | SIL OFL 1.1 | `sourceserif4-400-normal.woff2`, `sourceserif4-400-italic.woff2`, `sourceserif4-OFL.txt` |
+| **IBM Plex Mono** | metadata | SIL OFL 1.1 | `plexmono-400-normal.woff2`, `plexmono-600-normal.woff2`, `plexmono-OFL.txt` |
+
+All four are served locally; no font CDN is used. Licence texts are included in the repository.
+
+---
+
+## 4. Map
+
+- Country polygons: **Natural Earth 1:110m Admin 0 Countries**, public domain (<https://www.naturalearthdata.com/>).
+- Rivers: **Natural Earth 1:50m Rivers + Lake Centerlines**, public domain.
+- Lakes: **Natural Earth 1:110m Lakes**, public domain.
+- Projection: plate carrée with latitude-compensated longitude (cos 55°), working window 20°–56° E, 42°–68° N. The projection and the marker layer are original to this atlas.
+- The map is a working sheet: it shows ground geometry and documented localities, not the distribution of customs.
+
+---
+
+## 5. Text and code
+
+Original text, data, diagrams, generated textures and code are released under **CC BY-SA 4.0**. Third-party images remain under the licences recorded above. The atlas’s original work does not relicense any third-party asset.
+
+### Inline attributions
+
+Every photograph under CC BY or CC BY-SA is credited in the caption under the figure and again in the bibliography page. No image is used without a recorded source and licence.
