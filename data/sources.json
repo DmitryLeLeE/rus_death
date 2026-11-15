@@ -1224,6 +1224,20 @@
       "language": "Russian",
       "supports": "Bibliographic data of the first edition: Zelenin, Ocherki russkoi mifologii, vol. 1, Petrograd, A. V. Orlov, 1916, 328 pp.",
       "limitation": "The contents table was not legible in the extract; only the imprint was read."
+    },
+    {
+      "id": "danilov2018",
+      "kind": "article",
+      "author": "Danilov, P. G.",
+      "title": "Погребальная практика русского населения Тобольского Прииртышья в XVIII—XIX веках: случаи отступления от официального законодательства",
+      "title_en": "Burial practice of the Russian population of the Tobolsk Irtysh region in the 18th–19th centuries: cases of deviation from official legislation",
+      "year": "2018",
+      "publisher": "Nauchnyi dialog, no. 12, pp. 338–351 (DOI 10.24224/2227-1295-2018-12-338-351)",
+      "url": "https://www.nauka-dialog.ru/jour/article/download/1035/831",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Legal frame (Senate decree of 24 Dec 1771, extended by the Tobolsk consistory to villages; Synod decree of 12 Apr 1833 on burials in closed cemeteries), two archival cases from the Tobolsk Spiritual Consistory fund (1774, 1815), 19 petitions of 1912–13, and the 2015 excavation of two infant burials at the abandoned village of Yarkova.",
+      "limitation": "Read through a fetched summary of the open-access PDF, not page by page; the article itself is inconsistent about the family in the 1774 case. The infant plot interpretation (a family cemetery of unbaptized children) is the authors’ own (Danilov and Turova 2017), based on two burials only."
     }
   ]
 }

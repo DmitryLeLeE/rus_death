@@ -818,7 +818,8 @@
         "pravenc-nadgrobie",
         "vagankovo",
         "merridale2000",
-        "tolstoy1995"
+        "tolstoy1995",
+        "danilov2018"
       ],
       "related": [
         "b",
@@ -979,6 +980,19 @@
           "size": "narrow",
           "mask": "torn-03",
           "state": "document"
+        },
+        {
+          "type": "prose",
+          "kicker": "F / 11",
+          "heading": "Tobolsk: closed ground, an old man’s request, two infants",
+          "level": "documented",
+          "sources": [
+            "danilov2018"
+          ],
+          "paras": [
+            "The law of the cemetery reached Siberia as paperwork. A Senate decree of 24 December 1771 banned burial at town parish churches and called for new ground outside the town; the Tobolsk consistory applied it to villages of its eparchy, and in 1783 the parish of Abalak was moved to Preobrazhenskoye while the old church complex became a monastery. Lay burial at Abalak stopped. In August 1815, though, a peasant of Abalak volost, Alexey Vakhrushev, was buried inside the monastery enclosure after a service by a priest of the Preobrazhenskaya church, without the knowledge of the local authorities. The abbot said the elderly man, ill with tuberculosis and asthma, had asked for it before he died. The gubernia board wanted exhumation; more than twenty days had passed, and sanitary risk prevented it. A Synod decree of 12 April 1833 later allowed burial in closed cemeteries in exceptional cases, such as priests and large donors, and in 1912–13 the consistory reviewed 19 petitions for burial within church or monastery enclosures and refused one.",
+            "The law also had a smaller edge. Stillborn and unbaptized children could lie in general cemeteries but without rites or commemoration. At the abandoned village of Yarkova, in the Tobolsk district, archaeologists in 2015 opened a 50 m² trench in a garden plot beside a cliff and found two children’s burials of the mid-nineteenth to early twentieth century, in logs, shallow, with twisted cords and some factory cloth. With no other graves nearby, the authors read it as a household plot for unbaptized infants. That is their reading, from two burials, and the sources do not say which of two long-settled families used it."
+          ]
         }
       ],
       "volume": "I"

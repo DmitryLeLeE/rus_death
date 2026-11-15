@@ -654,6 +654,26 @@
       "sources": [
         "meduza2015-polk"
       ]
+    },
+    {
+      "id": "tobolsk",
+      "name": "Tobolsk",
+      "region": "Russian Federation",
+      "marker": "tobolsk",
+      "lat": 58.2,
+      "lon": 68.25,
+      "status": "in-RF",
+      "summary": "Tobolsk consistory files on burial inside closed monastery ground (1815) and an excavated plot of two infant burials near Yarkova.",
+      "entries": [
+        "Burial in a closed monastery enclosure, Abalak, 1815",
+        "Two infant burials at Yarkova, excavated 2015"
+      ],
+      "plates": [
+        "f"
+      ],
+      "sources": [
+        "danilov2018"
+      ]
     }
   ]
 }
