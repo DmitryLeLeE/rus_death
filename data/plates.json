@@ -3060,7 +3060,9 @@
         "ovseichik2022",
         "ryko2025",
         "avdeev2019",
-        "townsend2011"
+        "townsend2011",
+        "zelenin1916",
+        "baiburin1993"
       ],
       "related": [
         "e",
@@ -3096,8 +3098,58 @@
           ]
         },
         {
-          "type": "prose",
+          "type": "register",
           "kicker": "T / 02",
+          "heading": "Five things called the unquiet dead",
+          "colhead": [
+            "Layer",
+            "What it is on this plate",
+            "What it can show",
+            "What it cannot show"
+          ],
+          "rows": [
+            [
+              "Scholarly category",
+              "‘Zalozhnye pokoiniki’ and ‘impure dead’, as grouped by Zelenin (1916) and later authors",
+              "How scholars sorted many reports",
+              "That informants held one concept"
+            ],
+            [
+              "Local term",
+              "‘Zalozhnye’ in the dialect of Vyatka: dead covered with brushwood, boards or stakes",
+              "A word used in one dialect",
+              "A name used everywhere"
+            ],
+            [
+              "Practice",
+              "Burial outside the common cemetery; no washing, meal or service; reports of an aspen stake",
+              "What informants reported, in a named place and period",
+              "How common it was, or what any one burial meant"
+            ],
+            [
+              "Church position",
+              "Avdeev’s reading of epitaphs and hierarchs’ letters (abstract only)",
+              "An argument that the Church did not bar cemetery burial",
+              "That the field reports are wrong; the article was not read"
+            ],
+            [
+              "Literary figure",
+              "The upyr’ and the vampire in Russian fiction (a thesis abstract)",
+              "That the literary figure is a later device",
+              "Anything about belief in the field"
+            ]
+          ],
+          "level": "interpretation",
+          "sources": [
+            "zelenin1916",
+            "ovseichik2022",
+            "avdeev2019",
+            "townsend2011"
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "T / 03",
           "heading": "Three categories in one borderland",
           "level": "documented",
           "sources": [
@@ -3121,7 +3173,7 @@
         },
         {
           "type": "prose",
-          "kicker": "T / 03",
+          "kicker": "T / 04",
           "heading": "Walking dead and literary vampires",
           "level": "interpretation",
           "sources": [
@@ -3135,7 +3187,25 @@
         },
         {
           "type": "prose",
-          "kicker": "T / 04",
+          "kicker": "T / 05",
+          "heading": "Zelenin and his critics",
+          "level": "interpretation",
+          "contested": true,
+          "sources": [
+            "zelenin1916",
+            "ovseichik2022",
+            "avdeev2019",
+            "baiburin1993"
+          ],
+          "paras": [
+            "Zelenin’s 1916 compilation gathered reports from many provinces under one heading and read them together as a single belief: that the earth does not accept the dead of ‘unnatural’ death, who therefore stay among the living. He tied the category to the rusalki. The sources read for this plate raise three objections.",
+            "Ovseichik will not extend the word ‘zalozhnye’ beyond its Vyatka use, because it is absent from Belarusian and other traditions and because burial methods varied. Avdeev, from epitaphs and letters of church hierarchs, argues that the related superstitions are of Christian times and not pagan survivals; only his abstract was read. Baiburin’s critique of reading rites as survivals of an earlier religion is a general objection to the method, not a verdict on Zelenin’s evidence.",
+            "What remains usable is the dated record. The local reports in the compilation, such as the ravine burials on plate N and the Semik citations on plate O, are evidence of what someone wrote down, from whom and where. The unifying belief is Zelenin’s construction. Where the record is read here, it is cited by place."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "T / 06",
           "heading": "A dispute about where the rule came from",
           "level": "interpretation",
           "contested": true,
@@ -3149,7 +3219,7 @@
         },
         {
           "type": "prose",
-          "kicker": "T / 05",
+          "kicker": "T / 07",
           "heading": "A rule remembered, 2018–2019",
           "level": "documented",
           "sources": [
@@ -3162,7 +3232,7 @@
         },
         {
           "type": "register",
-          "kicker": "T / 06",
+          "kicker": "T / 08",
           "heading": "Who lay where, by which source",
           "colhead": [
             "Group",
@@ -3229,7 +3299,8 @@
           "items": [
             "Zelenin’s 1916 essays on those who died ‘unnatural’ deaths and on rusalki, read in the 1995 edition, with his own sources checked.",
             "The full text of Avdeev (2019), and the 2020 historiography by I. Afanasyeva on attitudes to ‘vain’ death in the 15th–17th centuries.",
-            "The records of the Polotsk and Pskov university folklore archives that Ovseichik cites, to separate archive material from his own notes."
+            "The records of the Polotsk and Pskov university folklore archives that Ovseichik cites, to separate archive material from his own notes.",
+            "Whether ‘zalozhnye’ in Vyatka dialect is documented in dialect dictionaries, to confirm the local term independently of Zelenin."
           ],
           "editorial": true
         }
