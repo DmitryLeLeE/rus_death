@@ -2053,6 +2053,23 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Olearius_plach.gif",
       "alt": "A seventeenth-century engraving of a churchyard: a wooden church with a tent roof at left, people kneeling or bent over graves with small crosses, plates of food laid on flat slabs, a man with a censer at right",
       "note": "Commons record read through the Commons API on 2026-11-15: description “Prayer for the dead”, filed under Radonitsa and Wakes in art, credited to a Russian-language edition of Olearius’s account of the journey to Muscovy and Persia. The engraving’s own caption, the engraver and the passage of the text it illustrates were not read, so the day shown is not confirmed by this atlas; the file name suggests a lament (plach) but the record does not say so."
+    },
+    {
+      "id": "astrakhov-gulyanye",
+      "file": "assets/images/astrakhov-gulyanye.jpg",
+      "kind": "painting",
+      "role": "artwork-reproduction",
+      "evidence": "contextual",
+      "title": "Gulyanye v Marinoy Roshche (A fair in Maryina Roshcha)",
+      "creator": "Vasily Astrakhov",
+      "date": "1852",
+      "medium": "Oil painting",
+      "collection": "State Historical Museum, Moscow (as given on Commons)",
+      "license": "Public domain (Commons: PD-Art, PD-old-100-expired)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Астрахов_Гулянье_1852.jpg",
+      "alt": "Oil painting of an outdoor festivity in a birch and pine grove: a striped tent with a wreath and flag at left, a man and a woman in a crinoline dancing, a table with a samovar and tea things at right, a small shrine-like booth, and a dark grave cross among the trees at the far right",
+      "note": "Commons record read through the API on 2026-11-15: title “Гулянье в Марьиной Роще”, ГИМ, 1852, Vasily Astrakhov; filed under Radonitsa, Funfairs in Russia and Wakes in art. The record does not say which feast is shown. The grave cross at the right edge is read off the picture by this atlas, not stated by Commons. A painter’s genre scene of a festivity, not a record of a rite."
     }
   ]
 }

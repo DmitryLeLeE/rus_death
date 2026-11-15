@@ -3983,6 +3983,19 @@
             "c": "1/6",
             "w": 92
           }
+        },
+        {
+          "type": "figure",
+          "src": "astrakhov-gulyanye",
+          "alt": "Oil painting of an outdoor festivity in a birch and pine grove: a striped tent with a wreath and flag at left, a man and a woman in a crinoline dancing, a table with a samovar and tea things at right, a small shrine-like booth, and a dark grave cross among the trees at the far right",
+          "caption": "Vasily Astrakhov, ‘A fair in Maryina Roshcha’, 1852 (State Historical Museum, as given on Commons). Commons files it under Radonitsa but does not say which feast is shown; a grave cross stands at the right edge. A painter’s festivity, used here as context for how a cemetery-side holiday could look to an urban observer, not as evidence of what was done at graves.",
+          "credit": "Vasily Astrakhov, 1852, public domain; via Wikimedia Commons",
+          "level": "interpretation",
+          "at": {
+            "r": 7,
+            "c": "3/10",
+            "w": 96
+          }
         }
       ]
     },

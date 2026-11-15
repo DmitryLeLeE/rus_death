@@ -135,6 +135,7 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/illustrations/diagram-dead-page-procedure-ru.svg` | Страница умершего как процедура («ВКонтакте», по сообщению) | Original diagram made for this atlas | 2026-11-15 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 | `assets/images/semik-lubok.jpg` | Semik. Russian lubok | Unknown author | 19th century (Commons structured date: 1850) | Public domain (Commons: PD-Art, PD-old-100) | https://commons.wikimedia.org/wiki/File:Semik_crop.jpg | archival | contextual |
 | `assets/images/olearius-plach.gif` | Prayer for the dead (engraving from Olearius’s account of Muscovy) | Adam Olearius (as given on Commons) | mid-17th century (as given on Commons) | Public domain | https://commons.wikimedia.org/wiki/File:Olearius_plach.gif | archival | contextual |
+| `assets/images/astrakhov-gulyanye.jpg` | Gulyanye v Marinoy Roshche (A fair in Maryina Roshcha) | Vasily Astrakhov | 1852 | Public domain (Commons: PD-Art, PD-old-100-expired) | https://commons.wikimedia.org/wiki/File:Астрахов_Гулянье_1852.jpg | artwork-reproduction | contextual |
 
 ### Notes per file
 
@@ -506,6 +507,9 @@ Licence: Public domain (Commons: PD-Art, PD-old-100) (https://creativecommons.or
 
 **olearius-plach** — Prayer for the dead (engraving from Olearius’s account of Muscovy). print. Adam Olearius (as given on Commons), mid-17th century (as given on Commons). Engraving, reproduced from a printed edition.
 Licence: Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the Commons API on 2026-11-15: description “Prayer for the dead”, filed under Radonitsa and Wakes in art, credited to a Russian-language edition of Olearius’s account of the journey to Muscovy and Persia. The engraving’s own caption, the engraver and the passage of the text it illustrates were not read, so the day shown is not confirmed by this atlas; the file name suggests a lament (plach) but the record does not say so.
+
+**astrakhov-gulyanye** — Gulyanye v Marinoy Roshche (A fair in Maryina Roshcha). Painting (reproduction). Vasily Astrakhov, 1852. Oil painting. State Historical Museum, Moscow (as given on Commons).
+Licence: Public domain (Commons: PD-Art, PD-old-100-expired) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15: title “Гулянье в Марьиной Роще”, ГИМ, 1852, Vasily Astrakhov; filed under Radonitsa, Funfairs in Russia and Wakes in art. The record does not say which feast is shown. The grave cross at the right edge is read off the picture by this atlas, not stated by Commons. A painter’s genre scene of a festivity, not a record of a rite.
 
 ### Attribution required
 
