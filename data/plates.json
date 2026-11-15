@@ -3643,7 +3643,7 @@
           ],
           "paras": [
             "An encyclopedia article on East Slavic funeral rites says the rite works in two directions: some acts help the dead reach the other world, others protect the living from the dead. Its protective and cleansing acts include washing the house after the coffin is carried out, turning objects over, covering mirrors and washing hands on returning from the cemetery. Its prohibitions include close relatives making the coffin and bringing food back from the cemetery.",
-            "The explanation the article gives is general: the dead can harm the living, and the boundary between worlds stays open from the death until the burial and the fortieth day. It does not give a reason for each separate act, and it does not date its examples. The page does not name an author."
+            "The explanation the article gives is general: the dead can harm the living, and the boundary between worlds stays open from the death until the burial and the fortieth day. It does not give a reason for each separate act, and it does not date its examples. The page does not name an author. The page has no bibliography, but it names its authorities in the text: Baiburin (1993), Razumova (2012), Tolstaya (2009, 2019), Spassky (1877) and an 1890 collection of materials on daily life. Washing as removal of the marks of the living is attributed to Baiburin; the epistolary character of laments in the Russian North to Tolstaya."
           ]
         },
         {
@@ -3791,7 +3791,7 @@
           "heading": "What would turn this plate into a study",
           "level": "interpretation",
           "items": [
-            "The scholars cited by the encyclopedia article (Baiburin, Razumova, Tolstaya) in the original, and the article’s author and edition.",
+            "The authorities named in the encyclopedia article’s text, which has no bibliography: Baiburin 1993, Razumova 2012, Tolstaya 2009 and 2019, Spassky 1877 and an 1890 collection. They were not opened; the article’s author and edition are also still unknown.",
             "Zelenin, Kabakova, Kremleva and Sedakova as cited by Rouhier-Willoughby, to check each custom against its first source and region.",
             "Open-access field studies of funeral prohibitions in other regions, for example the Chuvash study found while searching, as a comparison and not as Russian evidence."
           ],
@@ -3816,7 +3816,8 @@
       "tone": "dark",
       "sources": [
         "krasilnikova2023",
-        "minkin2019"
+        "minkin2019",
+        "bfm2019-estrada"
       ],
       "related": [
         "k",
@@ -3881,10 +3882,12 @@
           "heading": "Curbs on a Moscow embankment, 2019",
           "level": "documented",
           "sources": [
-            "minkin2019"
+            "minkin2019",
+            "bfm2019-estrada"
           ],
           "paras": [
             "A. Minkin reports that gravestones were found used as curbs near the Estrada Theatre on Bersenevskaya Embankment while the curbs were being replaced. The photographs came from a municipal deputy who posted them online, and some stones still showed dates of birth and death. The construction department told the outlet that the work was not under its direction. He also recalls a similar case from 2011 on Bolshaya Polyanka.",
+            "A second report, by BFM (17 October 2019), describes the same find as granite steps of the theatre, not curbs. It quotes A. Frolov of the Arkhnadzor council, who attributed one slab to the gravestone of Colonel Pyotr Beketov from the Novospassky Monastery and read the find as a trace of the clearing of old cemeteries in the 1930s. The two reports differ on what the stones were used as, and the attribution of the slab is one preservationist’s statement, not an inspection record.",
             "The 2019 find is therefore known through a deputy’s photographs and an outlet’s report, not through an inspection record."
           ]
         },
@@ -3946,6 +3949,11 @@
               "Minkin; deputy’s photographs"
             ],
             [
+              "Moscow, Estrada Theatre, 2019 (second report)",
+              "Gravestone fragments described as steps; one slab attributed to Colonel Beketov’s gravestone from the Novospassky Monastery",
+              "BFM quoting Arkhnadzor; one preservationist’s attribution"
+            ],
+            [
               "Moscow, 1920s–1930s",
               "Stone from cemeteries and churches reused for roads and as metro filler",
               "Minkin quoting an architect and ‘Ritual’; UNVERIFIED"
@@ -3953,7 +3961,8 @@
           ],
           "sources": [
             "krasilnikova2023",
-            "minkin2019"
+            "minkin2019",
+            "bfm2019-estrada"
           ]
         },
         {
@@ -4002,7 +4011,8 @@
       "sources": [
         "sergeeva2020",
         "linden-online-death",
-        "hse-digital-grief2025"
+        "hse-digital-grief2025",
+        "rtvi-vk-dead"
       ],
       "related": [
         "g",
@@ -4061,8 +4071,21 @@
           ]
         },
         {
-          "type": "register",
+          "type": "prose",
           "kicker": "X / 04",
+          "heading": "What platforms say they do",
+          "level": "documented",
+          "sources": [
+            "rtvi-vk-dead"
+          ],
+          "paras": [
+            "A news item reports that VKontakte marks or deletes the page of a dead user at the request of relatives, who send a photograph of the death certificate. If the page is kept, the words ‘Страница умершего человека’ appear in place of the last-visit time. The same item says that since 2011 a VK page could be kept unchanged or deleted, that Odnoklassniki adds a black ribbon or turns the photo black and white, and that Facebook has a ‘legacy contact’ and a memorial label.",
+            "This is a report of platform policy as of the item’s date, which the excerpt read does not show. The platforms’ own help pages were not read, and rules of this kind change. What the item shows is that a page of the dead is a category the platform has made a procedure for, with a document as the key."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "X / 05",
           "heading": "Source, material and limits",
           "colhead": [
             "Source",
@@ -4084,12 +4107,18 @@
               "Khusyainov and Urusova (2025)",
               "Researchers’ claims on grief and avatars",
               "News item, not the article"
+            ],
+            [
+              "Press report on VK, Odnoklassniki, Facebook",
+              "Platform procedures for pages of the dead",
+              "News item, year not shown; policies change"
             ]
           ],
           "sources": [
             "sergeeva2020",
             "linden-online-death",
-            "hse-digital-grief2025"
+            "hse-digital-grief2025",
+            "rtvi-vk-dead"
           ]
         },
         {
@@ -4114,7 +4143,8 @@
             "Linden’s full text (linked from the library record), to read her material and her counts.",
             "The article by Khusyainov and Urusova in the journal Chelovek.",
             "A 2011 press report that the first specialised online memorial of the Russian internet launched in Perm; it needs the original report.",
-            "A student qualification paper at HSE on memorialisation on VKontakte, with a classifier for deceased users’ accounts; as a thesis it is a lead, not a source."
+            "A student qualification paper at HSE on memorialisation on VKontakte, with a classifier for deceased users’ accounts; as a thesis it is a lead, not a source.",
+            "The platforms’ own help pages and terms, with the date of each version, and the legal text on inheritance of accounts; the plate does not explain Russian law."
           ],
           "editorial": true
         }

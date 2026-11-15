@@ -726,7 +726,7 @@
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "The two aims of the rite as the article states them (helping the dead reach the other world; protecting the living); cleansing and protective acts (washing the house after the coffin is carried out, turning objects over, covering mirrors, washing hands after the cemetery) and prohibitions (close relatives making the coffin, bringing food back from the cemetery); washing of the body as obligatory; regional variants (hired older women in the Russian North, spruce branches in Arkhangelsk).",
-      "limitation": "No author, date or edition on the page that was read, so it is cited as an anonymous encyclopedia article. It states an explanation in general (the dead can harm the living; the boundary stays open until burial and the fortieth day) and gives none for each act. It does not date its examples."
+      "limitation": "No author, date or edition on the page that was read, so it is cited as an anonymous encyclopedia article. It states an explanation in general (the dead can harm the living; the boundary stays open until burial and the fortieth day) and gives none for each act. It does not date its examples. The page has no bibliography; the authorities it names in the text are Baiburin 1993 (pp. 101, 107–108, 119), Razumova 2012 (p. 44), Tolstaya, ‘Pominki’ 2009 (p. 162), Tolstaya 2019 (pp. 295–297), Spassky 1877 no. 18 (p. 604) and ‘Materialy dlya izucheniya byta…’ 1890 (p. 521), without publication details. None of them was opened."
     },
     {
       "id": "dometian-superstition",
@@ -892,6 +892,36 @@
       "language": "Russian",
       "supports": "Radonitsa as a day of commemoration of the dead falling mostly on the Monday, and in some places on the Tuesday, of the week after Easter week, called Thomas week.",
       "limitation": "A short unsigned entry in a pre-revolutionary reference work, read in a transcription on Azbyka.ru; it gives the variation but names no places."
+    },
+    {
+      "id": "bfm2019-estrada",
+      "kind": "press",
+      "author": "BFM.ru news desk (unsigned in the excerpt)",
+      "title": "Москвичи поднимались в Театр эстрады по могильным плитам",
+      "title_en": "Muscovites climbed to the Estrada Theatre over gravestones",
+      "year": "2019",
+      "publisher": "BFM.ru, 17 October 2019",
+      "extent": "",
+      "url": "https://www.bfm.ru/news/427257",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "That fragments of gravestones with 18th- and 19th-century dates were found at the Estrada Theatre on Bersenevskaya Embankment, described as granite steps taken up for repair; that A. Frolov of the Arkhnadzor council attributed one slab to the gravestone of Colonel Pyotr Beketov from the Novospassky Monastery and read the find as a trace of 1930s clearing of old cemeteries.",
+      "limitation": "A news item read in a search excerpt. The attribution of the slab is one preservationist’s statement, not an inspection record. It describes steps where the 360.ru report (minkin2019) describes curbs, so the two reports differ on what the stones were used as."
+    },
+    {
+      "id": "rtvi-vk-dead",
+      "kind": "press",
+      "author": "RTVI news desk, citing TASS and the VK press service",
+      "title": "«ВКонтакте» начала помечать страницы умерших пользователей по просьбе их родственников",
+      "title_en": "VKontakte has begun marking pages of dead users at their relatives’ request",
+      "year": "n.d.",
+      "publisher": "RTVI, 26 November (year not shown in the excerpt read)",
+      "extent": "",
+      "url": "https://rtvi.com/news/vkontakte-nachala-pomechat-stranitsy-umershikh-polzovateley-po-prosbe-ikh-rodstvennikov/",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "That VK marks or deletes the page of a dead user at relatives’ request on a photograph of the death certificate, the mark ‘Страница умершего человека’ replacing the last-visit time; that since 2011 a page could be kept unchanged or deleted; and, for other services, a black ribbon or black-and-white photo on Odnoklassniki and a ‘legacy contact’ with a memorial label on Facebook.",
+      "limitation": "A news item read in a search excerpt; the year is not shown. It reports a platform policy as of its date. Platform rules change, and the platforms’ own help pages were not read."
     }
   ]
 }
