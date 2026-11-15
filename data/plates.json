@@ -28,12 +28,16 @@
         "baiburin1993",
         "rouhier2007",
         "andryunina-house",
-        "lewkijewskaja2004"
+        "lewkijewskaja2004",
+        "skrizhal"
       ],
       "related": [
         "e",
         "h",
-        "c"
+        "c",
+        "m",
+        "s",
+        "v"
       ],
       "concepts": [
         "threshold",
@@ -44,7 +48,9 @@
         "candle",
         "mirror"
       ],
-      "places": [],
+      "places": [
+        "nizhny-novgorod-oblast"
+      ],
       "sections": [
         {
           "type": "prose",
@@ -80,7 +86,11 @@
             "Russian folk belief, as described by Linda Ivanits and by D. K. Zelenin before her, treats the soul (*dusha*) as a substance closely bound to breath and to the body’s warmth, and simultaneously as a person-like visitor who must be housed, fed and escorted. These are not two beliefs held by different people; they are two grammars used in the same account.",
             "The consequence is a threshold that is both physical and social. The dead remain members of the household for a defined period, are addressed in the second person, and are given food and a place at the table. The border is maintained by small prohibitions rather than by a wall."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "sources": [
+            "ivanits1989",
+            "zelenin1916"
+          ]
         },
         {
           "type": "record",
@@ -108,7 +118,11 @@
             "That a body was always carried out feet first. Reported in some regional descriptions; we did not verify its distribution or age.",
             "That the forty-day period is pre-Christian in origin. The scheme is documented in Orthodox liturgical handbooks; the claim that it continues an older pagan calendar is an interpretation, and a contested one."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "sources": [
+            "skrizhal"
+          ],
+          "editorial": true
         },
         {
           "type": "quote",
@@ -141,7 +155,10 @@
       "related": [
         "c",
         "d",
-        "f"
+        "f",
+        "j",
+        "m",
+        "v"
       ],
       "concepts": [
         "purification",
@@ -245,6 +262,10 @@
               "Church-supplied item in Orthodox burial",
               "not verified here"
             ]
+          ],
+          "sources": [
+            "zelenin1916",
+            "ivanits1989"
           ]
         },
         {
@@ -255,7 +276,8 @@
             "The body leaves no object. What survives is the description of the objects that surrounded it, written down later, often by outsiders.",
             "Ethnographers of the nineteenth century tended to record what they judged to be old. The date of a practice is therefore often the date of its recording, not of its origin."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         }
       ],
       "volume": "I"
@@ -285,7 +307,10 @@
         "a",
         "d",
         "g",
-        "h"
+        "h",
+        "b",
+        "o",
+        "u"
       ],
       "concepts": [
         "threshold",
@@ -366,6 +391,10 @@
               "Meal at the grave; greeting the dead",
               "medium / low"
             ]
+          ],
+          "sources": [
+            "skrizhal",
+            "shevzov2003"
           ]
         },
         {
@@ -408,7 +437,8 @@
             "The dates of commemoration interact with the church calendar (and with the Julian calendar still used by part of the Russian Church). A date given in a source may not correspond to the date a family used.",
             "Memorial days also differ by region and by parish practice. The scheme above is a frame, not a census."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         }
       ],
       "volume": "I"
@@ -521,6 +551,10 @@
               "Reported in many accounts; not universal",
               "medium"
             ]
+          ],
+          "sources": [
+            "ivanits1989",
+            "zelenin1916"
           ]
         },
         {
@@ -556,7 +590,8 @@
             "The atlas treats ‘Russian’ as a language, a state tradition and a set of institutions, not as a synonym for East Slavic. Where a photograph documents a Ukrainian or Belarusian practice, it is labelled as such.",
             "The meal at the grave is widely attested across the region, which makes it exactly the kind of practice that gets mislabelled as ‘Russian’ by default."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "figure",
@@ -595,7 +630,12 @@
       "related": [
         "a",
         "f",
-        "l"
+        "l",
+        "d",
+        "n",
+        "o",
+        "s",
+        "t"
       ],
       "concepts": [
         "return",
@@ -664,7 +704,8 @@
             "The unclean dead mark the limits of the community’s obligation. They are the people for whom the full ritual was not, or could not be, performed — and the fear they provoke is the fear of an obligation left unpaid. In this reading the revenant is less a monster than an unpaid debt with a voice.",
             "That reading is the atlas’s interpretation, offered as such. It does not require the dead to be real; it requires the living to have accounts."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "note",
@@ -674,7 +715,8 @@
             "Russian and Ukrainian records do contain stories of the dead who rise and feed, and the word *upyr’* is attested. It is not the same figure as the nineteenth-century literary vampire, and it should not be used to give this material a familiar costume.",
             "The atlas avoids the vocabulary of horror. ‘Returning’ is a social event in these sources, not a genre."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "quote",
@@ -708,7 +750,13 @@
       "related": [
         "b",
         "i",
-        "l"
+        "l",
+        "e",
+        "j",
+        "k",
+        "r",
+        "t",
+        "u"
       ],
       "concepts": [
         "memory",
@@ -726,7 +774,8 @@
       "places": [
         "moscow",
         "st-petersburg",
-        "pushkin"
+        "pushkin",
+        "petrozavodsk"
       ],
       "sections": [
         {
@@ -787,7 +836,8 @@
             "The *golubets* — a cross sheltered by a small gabled roof, sometimes enclosed as a little house — is one of the most distinctive grave forms recorded in the Russian North and in old cemeteries elsewhere. The roof protects the wood; it also makes the cross into a building, and the grave into a dwelling.",
             "The atlas does not map its distribution. Published claims about the ‘northern’ range of the form rest on surveys this project has not consulted, and a photograph of one example is not a distribution."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "figure",
@@ -831,7 +881,8 @@
             "Photographic portraits set into headstones are a familiar feature of late-Soviet and post-Soviet cemeteries. The atlas has not found a scholarly source for their chronology and does not date them here.",
             "The same caution applies to the enamel photograph, the plastic wreath and the metal fence: visible everywhere, documented in the sources used here almost nowhere."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "figure",
@@ -880,7 +931,8 @@
       "related": [
         "c",
         "h",
-        "j"
+        "j",
+        "x"
       ],
       "concepts": [
         "mourning",
@@ -1031,7 +1083,8 @@
               "regional",
               "the death bundle"
             ]
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -1041,7 +1094,8 @@
             "No laments, proverbs or epitaphs are reproduced verbatim in this edition. Every one of them would require a check against a printed text and a defensible translation.",
             "The atlas prefers an honest silence to a decorative quotation. Where a phrase appears in quotation marks, it is either from a source listed in the bibliography or explicitly marked as editorial."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "quote",
@@ -1075,7 +1129,8 @@
       "related": [
         "a",
         "c",
-        "i"
+        "i",
+        "g"
       ],
       "concepts": [
         "soul",
@@ -1166,6 +1221,10 @@
               "Communion with God; the vision of the divine light",
               "A landscape with places, roads, boundaries and officials"
             ]
+          ],
+          "sources": [
+            "skrizhal",
+            "ivanits1989"
           ]
         },
         {
@@ -1176,7 +1235,8 @@
             "The icon’s punishments are evidence of a moral taxonomy, so the atlas does not use them as atmosphere or decoration.",
             "Where a popular belief contradicts or exceeds the Church’s formulation, the atlas says so rather than harmonising them."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "figure",
@@ -1229,7 +1289,8 @@
         "f",
         "h",
         "k",
-        "l"
+        "l",
+        "q"
       ],
       "concepts": [
         "memory",
@@ -1311,6 +1372,13 @@
               "Photograph, 2021 (in this plate)",
               "documented as a site; not surveyed here"
             ]
+          ],
+          "sources": [
+            "pmemorial",
+            "rusmuseum",
+            "merridale2000",
+            "vagankovo",
+            "mos-ru-unknown"
           ]
         },
         {
@@ -1359,7 +1427,8 @@
             "This plate uses no photographs of corpses, no photographs of starving people, no images of the blockade dead. The atlas treats these as deaths, not as imagery.",
             "The monuments are shown because they are what the state built, and because their surfaces are evidence of how memory was organised."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "figure",
@@ -1396,7 +1465,8 @@
       "related": [
         "b",
         "f",
-        "l"
+        "l",
+        "g"
       ],
       "concepts": [
         "memory",
@@ -1445,7 +1515,8 @@
             "Russian prose of the nineteenth century returns again and again to the deathbed as a place where a life is suddenly legible. Tolstoy’s *The Death of Ivan Ilyich* (1886) is built as a corridor: the dying man moves through pain, denial and an unexpected opening at the end. Chekhov’s early story *The Death of a Clerk* (1883) makes the same subject ridiculous: a man dies of embarrassment. Bunin’s *The Gentleman from San Francisco* (1915) puts a wealthy man’s death in a hotel and refuses to grant it dignity.",
             "Three stories, three verdicts, no common school. Each uses a death to test the social order, and each gets a different result."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "prose",
@@ -1478,7 +1549,8 @@
             "No literary quotations appear on this plate. Passages describing dying are easy to excerpt and hard to excerpt honestly.",
             "The paintings are shown at their own proportions. Cropping is used once, deliberately, on the halftone detail."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         }
       ],
       "volume": "I"
@@ -1501,12 +1573,17 @@
         "mospravda-crematorium",
         "merridale2000",
         "tumarkin1994",
-        "yurchak2006"
+        "yurchak2006",
+        "pravenc-nadgrobie",
+        "vagankovo",
+        "mos-ru-unknown",
+        "pmemorial"
       ],
       "related": [
         "i",
         "f",
-        "l"
+        "l",
+        "w"
       ],
       "concepts": [
         "memory",
@@ -1521,7 +1598,8 @@
       ],
       "places": [
         "moscow",
-        "st-petersburg"
+        "st-petersburg",
+        "petrozavodsk"
       ],
       "sections": [
         {
@@ -1600,6 +1678,13 @@
               "End of the state funeral monopoly; commercial services expand",
               "Interpretation, unsourced here"
             ]
+          ],
+          "sources": [
+            "pravenc-nadgrobie",
+            "vagankovo",
+            "mospravda-crematorium",
+            "mos-ru-unknown",
+            "pmemorial"
           ]
         },
         {
@@ -1610,7 +1695,8 @@
             "The post-Soviet funeral is a market. Private funeral homes, municipal cemeteries with fee schedules, monument workshops, wreath sellers and, more recently, online memorial pages form an industry that the Soviet system had tried to keep inside the state. Orthodox practice returned in parallel — sometimes inside the same funeral, with the priest arriving after the orchestra.",
             "The atlas has not found a reliable scholarly account of this transition in the sources used here. This section is therefore marked as an editorial sketch, and the digital memorial is marked as an open question rather than described as a fact."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "note",
@@ -1620,7 +1706,8 @@
             "Online memorial pages, QR codes on headstones and social-media profiles of the dead are visible in contemporary Russia, but the atlas has not verified their scale, chronology or legal status.",
             "They are recorded here as a research task, not as a finding."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "quote",
@@ -1660,12 +1747,20 @@
       "sources": [
         "merridale2000",
         "etkind2013",
-        "mk-malevich"
+        "mk-malevich",
+        "vagankovo"
       ],
       "related": [
         "j",
         "f",
-        "i"
+        "i",
+        "e",
+        "k",
+        "m",
+        "n",
+        "p",
+        "w",
+        "x"
       ],
       "concepts": [
         "abandonment",
@@ -1678,7 +1773,8 @@
       ],
       "places": [
         "moscow",
-        "rostov-on-don"
+        "rostov-on-don",
+        "tver-oblast"
       ],
       "sections": [
         {
@@ -1689,7 +1785,8 @@
             "Cemeteries are destroyed for reasons that are rarely stated as destruction: a road, a park, a housing block, a sports facility. The dead are moved, or not moved; the stones are reused as paving or foundation; the register is lost. What remains is a place-name and a photograph taken before.",
             "This plate collects the forms of absence the atlas has actually encountered: a grave whose monument has disappeared, a cemetery photographed but not surveyed, a photograph whose subject is unidentified, a practice described only in a footnote."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "figure",
@@ -1742,6 +1839,11 @@
               "not recoverable",
               "Mos.ru, Vagankovo history"
             ]
+          ],
+          "sources": [
+            "mk-malevich",
+            "vagankovo",
+            "etkind2013"
           ]
         },
         {
@@ -1752,7 +1854,8 @@
             "The atlas uses three devices for absence: a blank field with a single line of type; a photograph printed too faintly to read; a register in which the status column says ‘lost’ and the evidence column says nothing.",
             "None of these reconstructs anything. They show where the research stops, and this is the one place in the atlas where a page may stay almost empty."
           ],
-          "level": "reconstruction"
+          "level": "reconstruction",
+          "editorial": true
         },
         {
           "type": "note",
@@ -1764,7 +1867,8 @@
             "Full texts of the scholarly sources on digital memorials, and field material on Russian memorial pages (see plate X).",
             "The atlas is published with these gaps visible rather than filled."
           ],
-          "level": "interpretation"
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "quote",
@@ -1812,7 +1916,10 @@
       "related": [
         "a",
         "b",
-        "l"
+        "l",
+        "n",
+        "q",
+        "s"
       ],
       "concepts": [
         "threshold",
@@ -1825,7 +1932,9 @@
         "mirror",
         "window"
       ],
-      "places": [],
+      "places": [
+        "tver-oblast"
+      ],
       "volume": "II",
       "sections": [
         {
@@ -1918,7 +2027,8 @@
           "items": [
             "A village counted as uninhabited has no registered residents at the census. The figure does not say whether its houses still stand, who owns them or whether anyone returns in summer. The three reports count three different things, and the atlas does not turn them into a number of empty houses. The Rosstat tables were not consulted, only reports of them.",
             "None of the sources used here records beliefs about abandoned houses in Russian regions. The ritual material on this plate concerns houses in which someone has died, not houses that were left. Whether the two connect is a research lead, not a finding."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "figure",
@@ -1940,7 +2050,8 @@
             "Household inventories and probate records for rural homes, where archives allow access.",
             "Oral-history collections on leaving a village house, with consent and attribution settled for any private testimony.",
             "The Rosstat census tables themselves, with the definition of an uninhabited settlement."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -1967,7 +2078,10 @@
       "related": [
         "e",
         "m",
-        "l"
+        "l",
+        "o",
+        "p",
+        "r"
       ],
       "concepts": [
         "threshold",
@@ -2068,7 +2182,8 @@
             "It does not say that Russians generally buried anyone in forests. The one burial report from a Russian-speaking area is a single volost in Simbirsk province, and it is a report of belief about where a particular kind of dead person belonged.",
             "It does not equate the forest spirit with the dead. The sources used here do not make that link, and the plate leaves it alone.",
             "The Orkino report is Mordvin. Putting it on a plate about Russian death is a choice the plate makes openly and does not hide."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -2080,7 +2195,8 @@
             "Regional ethnographic collections that record where drowned, suicides and unbaptised children were buried, village by village.",
             "Archaeological or cemetery records of burials outside churchyards, kept apart from folklore.",
             "Russian-language studies of the road to the other world, read in full."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -2107,7 +2223,9 @@
       "related": [
         "e",
         "n",
-        "c"
+        "c",
+        "p",
+        "q"
       ],
       "concepts": [
         "threshold",
@@ -2117,7 +2235,11 @@
       "objects": [
         "wreath"
       ],
-      "places": [],
+      "places": [
+        "medvezhyegorsk",
+        "vyatka",
+        "smolensk-region"
+      ],
       "volume": "II",
       "sections": [
         {
@@ -2211,7 +2333,8 @@
             "It does not say that all Russians feared swimming or buried the drowned in a particular way. The sources used give isolated regional customs.",
             "The Zelenin line is read from an excerpt, not from the book, and it is a general statement in a compilation; it is not tied to a village here.",
             "Mermaids (rusalki) and the swamp spirits of folklore are not treated as the drowned themselves. That link belongs to plate T, *The Unquiet Dead*."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -2223,7 +2346,8 @@
             "Parish burial registers and police records for drownings, where archives allow it.",
             "Studies of river and lake rites in the Russian North, read in full.",
             "The full text of Zelenin’s chapters on water, with page references."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -2260,7 +2384,10 @@
         "wreath",
         "roadside-sign"
       ],
-      "places": [],
+      "places": [
+        "ivanovo-oblast",
+        "middle-volga"
+      ],
       "volume": "II",
       "sections": [
         {
@@ -2372,7 +2499,8 @@
             "It does not say that today’s roadside crosses descend from the crossroads rite. Neither source argues the link.",
             "The count is of road-death signs on three routes in three republics. The author notes that the findings may not hold elsewhere, that density overstates what a driver sees, and that the idea of the road as a cemetery rests on drivers’ comments.",
             "It does not describe the many other roadside cross traditions of Russia and its neighbours. The sources used here do not cover them."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -2383,7 +2511,8 @@
             "Regional ethnographic records of crossroads burial, with the place, year and collector named.",
             "Studies of wayside and votive crosses at settlement edges, separate from road-death memorials.",
             "A comparable count of roadside memorials in a Russian-majority region, to test whether the Middle Volga pattern holds."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -2413,14 +2542,19 @@
       "related": [
         "m",
         "o",
-        "i"
+        "i",
+        "r",
+        "w"
       ],
       "concepts": [
         "abandonment",
         "memory"
       ],
       "objects": [],
-      "places": [],
+      "places": [
+        "mologa",
+        "cherepovets"
+      ],
       "volume": "II",
       "sections": [
         {
@@ -2536,7 +2670,8 @@
             "It does not give a number of graves or cemeteries lost. No source read here does, and the one claim about cemeteries is unverified.",
             "It does not equate a flooded village with an uninhabited one. A flooded village was removed by decision; an uninhabited village in the census is a statistical status that says nothing about surviving buildings.",
             "It does not retell the legends that grew around Mologa. They are not drawn from sources read here."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -2548,7 +2683,8 @@
             "Parish records and cemetery registers for the flooded parishes, where they survive.",
             "Oral-history collections from resettled families, with consent and attribution settled for private testimony.",
             "The Rosstat census tables, to separate uninhabited villages by cause."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -2583,7 +2719,9 @@
         "memory"
       ],
       "objects": [],
-      "places": [],
+      "places": [
+        "pechory"
+      ],
       "volume": "II",
       "sections": [
         {
@@ -2674,6 +2812,12 @@
               "dp.ru; Rosatom feature",
               "Legend; distance given as 20 km and as 15 km"
             ]
+          ],
+          "sources": [
+            "azbyka-pechory",
+            "anokhin2023",
+            "alexandrov2023",
+            "dp2024"
           ]
         },
         {
@@ -2686,7 +2830,8 @@
             "It does not treat the underground as one subject. Cellars, mines, crypts and tunnels elsewhere are not covered here, and nothing on this plate should be read as a statement about them.",
             "It does not cover the Kyiv Caves or any site outside the Russian Federation.",
             "It does not give a verified number of the dead."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -2697,7 +2842,8 @@
             "The full text of the muography paper, with its own dimensions and error margins.",
             "Burial lists, necrologies or commemoration books kept by the monastery, to test the figure of ten thousand, if they exist and can be consulted.",
             "Source-by-source work on other underground sites, each with a named collector, place and date, before any of them joins this plate."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -2724,7 +2870,9 @@
       "related": [
         "a",
         "e",
-        "m"
+        "m",
+        "t",
+        "v"
       ],
       "concepts": [
         "threshold",
@@ -2733,7 +2881,9 @@
       "objects": [
         "domovoi-offering"
       ],
-      "places": [],
+      "places": [
+        "sivinsky"
+      ],
       "volume": "III",
       "sections": [
         {
@@ -2828,6 +2978,10 @@
               "Not covered by the sources read",
               "Named only as a spirit whose beliefs have faded"
             ]
+          ],
+          "sources": [
+            "ansimova2016",
+            "granova2019"
           ]
         },
         {
@@ -2840,7 +2994,8 @@
             "Belief today is not described. Both articles report reduction, and the 2015 survey sample was mostly students.",
             "The ancestor reading rests on named studies only; Krinichnaya’s earlier work was not read.",
             "Bathhouse, drying barn and mill are left out as places. The sources read say too little about them."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -2851,7 +3006,8 @@
             "The entries on the domovoy, bannik and ovinnik in the dictionary *Slavic Antiquities*, region by region, with the field records they cite.",
             "The Krinichnaya study cited by Ansimova and Golubkova, to see what it rests on.",
             "A claim seen only on a popular portal, which attributes it to N. I. Tolstoy: that houses were built where an ancestor lay and the first of the family to die after the housewarming was buried under the threshold. It needs the original page, a region and a date."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -2879,7 +3035,8 @@
       "related": [
         "e",
         "s",
-        "f"
+        "f",
+        "u"
       ],
       "concepts": [
         "threshold",
@@ -2888,7 +3045,10 @@
       "objects": [
         "aspen-stake"
       ],
-      "places": [],
+      "places": [
+        "smolensk-region",
+        "vitebsk"
+      ],
       "volume": "III",
       "sections": [
         {
@@ -3009,6 +3169,12 @@
               "No obstacle to cemetery burial and commemoration, on the author’s reading",
               "Avdeev; abstract only"
             ]
+          ],
+          "sources": [
+            "ovseichik2022",
+            "townsend2011",
+            "avdeev2019",
+            "ryko2025"
           ]
         },
         {
@@ -3021,7 +3187,8 @@
             "Whether rusalki were dead women, or suicides became them, is not decided here. The older sources that say so are a disputed reading.",
             "Measures against the dead are given only as far as the cited article reports them, and never as instructions.",
             "The drowned of the Volga, the dead of epidemics and war, and the ‘parents’ of Semik are outside this plate and need their own sources."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -3032,7 +3199,8 @@
             "Zelenin’s 1916 essays on those who died ‘unnatural’ deaths and on rusalki, read in the 1995 edition, with his own sources checked.",
             "The full text of Avdeev (2019), and the 2020 historiography by I. Afanasyeva on attitudes to ‘vain’ death in the 15th–17th centuries.",
             "The records of the Polotsk and Pskov university folklore archives that Ovseichik cites, to separate archive material from his own notes."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -3066,7 +3234,11 @@
         "return"
       ],
       "objects": [],
-      "places": [],
+      "places": [
+        "komi-permyak",
+        "kostroma-region",
+        "vladimir-region"
+      ],
       "volume": "III",
       "sections": [
         {
@@ -3167,6 +3339,11 @@
               "Follows regional zones in Kostroma and Vladimir",
               "Chesnokova; fieldwork 2016–2017"
             ]
+          ],
+          "sources": [
+            "gumerov2012",
+            "maltsev2020",
+            "chesnokova-cemetery"
           ]
         },
         {
@@ -3195,7 +3372,8 @@
             "Russian village practice before the twentieth century is not described. The Russian field evidence is from 2016–2017, the older evidence is four Komi-Permyak recordings.",
             "Belarusian Dziady, rusalia, Maslenitsa and the Chuvash Simēk are left to plates with sources of their own.",
             "Dates and customs found only on popular sites are not repeated."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -3207,7 +3385,8 @@
             "E. Iagafova, ‘Simēk in Modern Chuvash Ritual Culture’ (Journal of Ethnology and Folkloristics, 2020, open access), as a comparative study of a semik-type rite.",
             "Chesnokova’s full text, to learn which day she means and where her zones fall.",
             "A source for the claim, seen only on popular sites, that the word Radonitsa is attested from the 14th century."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -3247,7 +3426,9 @@
         "coffin",
         "overturned-furniture"
       ],
-      "places": [],
+      "places": [
+        "smolensk-region"
+      ],
       "volume": "III",
       "sections": [
         {
@@ -3381,6 +3562,12 @@
               "Belief that one will die",
               "Dometian; Church writer’s report"
             ]
+          ],
+          "sources": [
+            "bigenc-funeral",
+            "rouhier2007",
+            "ryko2025",
+            "dometian-superstition"
           ]
         },
         {
@@ -3393,7 +3580,8 @@
             "Dates are missing: the encyclopedia gives none, and the village examples come second hand.",
             "Which customs were common in any one region is not shown. The two sources that name regions do not overlap.",
             "Popular lists of funeral superstitions online are not used, because they cite no fieldwork."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -3404,7 +3592,8 @@
             "The scholars cited by the encyclopedia article (Baiburin, Razumova, Tolstaya) in the original, and the article’s author and edition.",
             "Zelenin, Kabakova, Kremleva and Sedakova as cited by Rouhier-Willoughby, to check each custom against its first source and region.",
             "Open-access field studies of funeral prohibitions in other regions, for example the Chuvash study found while searching, as a comparison and not as Russian evidence."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -3430,7 +3619,8 @@
       "related": [
         "k",
         "l",
-        "q"
+        "q",
+        "x"
       ],
       "concepts": [
         "memory",
@@ -3441,7 +3631,10 @@
         "photograph",
         "reused-gravestone"
       ],
-      "places": [],
+      "places": [
+        "moscow",
+        "keret"
+      ],
       "volume": "IV",
       "sections": [
         {
@@ -3555,6 +3748,10 @@
               "Stone from cemeteries and churches reused for roads and as metro filler",
               "Minkin quoting an architect and ‘Ritual’; UNVERIFIED"
             ]
+          ],
+          "sources": [
+            "krasilnikova2023",
+            "minkin2019"
           ]
         },
         {
@@ -3567,7 +3764,8 @@
             "The remains of the people buried in these places are not described and not shown.",
             "Siberian demolitions are not Soviet cemetery policy as a whole, and not the explanation for village cemeteries abandoned through depopulation.",
             "Stories of single stones in pavements are left out unless a source ties them to a place and a record."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -3579,7 +3777,8 @@
             "City council decisions and construction records for Moscow in the 1930s, to test the metro-filler statement.",
             "A 2015 proposal of the construction ministry to reuse graves judged abandoned, reported in the press, for the legal side of ‘abandoned’ graves; it needs the draft law and its fate.",
             "Studies of village cemeteries abandoned through depopulation, which the sources read here do not cover."
-          ]
+          ],
+          "editorial": true
         }
       ]
     },
@@ -3684,6 +3883,11 @@
               "Researchers’ claims on grief and avatars",
               "News item, not the article"
             ]
+          ],
+          "sources": [
+            "sergeeva2020",
+            "linden-online-death",
+            "hse-digital-grief2025"
           ]
         },
         {
@@ -3696,7 +3900,8 @@
             "Memorial pages and users are not counted: no source read gives a Russian figure.",
             "Russian law on digital inheritance is not explained, because the sources read do not explain it.",
             "War memorial communities are left out. They need their own sources and care."
-          ]
+          ],
+          "editorial": true
         },
         {
           "type": "note",
@@ -3708,7 +3913,8 @@
             "The article by Khusyainov and Urusova in the journal Chelovek.",
             "A 2011 press report that the first specialised online memorial of the Russian internet launched in Perm; it needs the original report.",
             "A student qualification paper at HSE on memorialisation on VKontakte, with a classifier for deceased users’ accounts; as a thesis it is a lead, not a source."
-          ]
+          ],
+          "editorial": true
         }
       ]
     }

@@ -1009,10 +1009,10 @@ function ledgerPage() {
   }
   const count = (l) => rows.filter((r) => r.level === l).length;
   const isTab = (r) => r.s.type === "table" || r.s.type === "register";
-  const noSrc = rows.filter((r) => !isTab(r) && !(r.s.sources || []).length).length;
+  const noSrc = rows.filter((r) => !r.s.editorial && !isTab(r) && !(r.s.sources || []).length).length;
   const chips = [`<button class="chip" type="button" data-level-chip="all" aria-pressed="true">${X.all}</button>`,
     ...Object.keys(T.tags).map((l) => `<button class="chip" type="button" data-level-chip="${l}" aria-pressed="false">${T.tags[l]} · ${count(l)}</button>`)].join("\n");
-  const body = rows.map((r) => `<tr data-level="${r.level}"><td class="mono"><a href="${plateHref(r.p.id, base)}">${r.p.letter}</a></td><td>${esc(plain(r.s.heading || r.s.caption || r.s.kicker || r.s.type))}</td><td>${tag(r.level, r.s.contested)}</td><td class="mono">${srcBadge(r.s.sources, base) || (isTab(r) ? `<span>${X.tableCell}</span>` : `<span class="ledger__none">${X.none}</span>`)}</td></tr>`).join("\n");
+  const body = rows.map((r) => `<tr data-level="${r.level}"><td class="mono"><a href="${plateHref(r.p.id, base)}">${r.p.letter}</a></td><td>${esc(plain(r.s.heading || r.s.caption || r.s.kicker || r.s.type))}</td><td>${tag(r.level, r.s.contested)}</td><td class="mono">${srcBadge(r.s.sources, base) || (r.s.editorial ? `<span>${X.editorial}</span>` : isTab(r) ? `<span>${X.tableCell}</span>` : `<span class="ledger__none">${X.none}</span>`)}</td></tr>`).join("\n");
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "tool-page", page: "ledger", rel: "ledger.html",
     content: `<main id="main">

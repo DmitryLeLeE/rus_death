@@ -193,7 +193,8 @@
         "j"
       ],
       "sources": [],
-      "confidence": "documented (work and date); interpretation (reading)"
+      "confidence": "documented (work and date); interpretation (reading)",
+      "editorial": true
     },
     {
       "id": "t1916",
