@@ -149,7 +149,8 @@
       ],
       "objects": [
         "coffin",
-        "funeral-cloth"
+        "funeral-cloth",
+        "smertnoe"
       ],
       "places": [],
       "sections": [
@@ -293,7 +294,8 @@
       ],
       "objects": [
         "candle",
-        "memorial-bread"
+        "memorial-bread",
+        "coffin"
       ],
       "places": [
         "moscow",
@@ -601,7 +603,8 @@
         "threshold"
       ],
       "objects": [
-        "grave-marker"
+        "grave-marker",
+        "cross"
       ],
       "places": [],
       "sections": [
@@ -716,7 +719,9 @@
         "cross",
         "grave-marker",
         "cemetery-gate",
-        "fence"
+        "fence",
+        "photograph",
+        "wreath"
       ],
       "places": [
         "moscow",
@@ -1233,7 +1238,8 @@
       ],
       "objects": [
         "memorial",
-        "eternal-flame"
+        "eternal-flame",
+        "photograph"
       ],
       "places": [
         "moscow",
@@ -1399,7 +1405,8 @@
       ],
       "objects": [
         "coffin",
-        "grave-marker"
+        "grave-marker",
+        "photograph"
       ],
       "places": [
         "moscow"
@@ -1509,7 +1516,8 @@
       "objects": [
         "coffin",
         "memorial",
-        "eternal-flame"
+        "eternal-flame",
+        "wreath"
       ],
       "places": [
         "moscow",
@@ -1814,7 +1822,8 @@
       "objects": [
         "icon",
         "coffin",
-        "mirror"
+        "mirror",
+        "window"
       ],
       "places": [],
       "volume": "II",
@@ -2105,7 +2114,9 @@
         "return",
         "remembrance"
       ],
-      "objects": [],
+      "objects": [
+        "wreath"
+      ],
       "places": [],
       "volume": "II",
       "sections": [
@@ -2244,7 +2255,11 @@
         "threshold",
         "memory"
       ],
-      "objects": [],
+      "objects": [
+        "cross",
+        "wreath",
+        "roadside-sign"
+      ],
       "places": [],
       "volume": "II",
       "sections": [
@@ -2715,7 +2730,9 @@
         "threshold",
         "return"
       ],
-      "objects": [],
+      "objects": [
+        "domovoi-offering"
+      ],
       "places": [],
       "volume": "III",
       "sections": [
@@ -2868,7 +2885,9 @@
         "threshold",
         "return"
       ],
-      "objects": [],
+      "objects": [
+        "aspen-stake"
+      ],
       "places": [],
       "volume": "III",
       "sections": [
@@ -3222,7 +3241,12 @@
         "threshold",
         "purification"
       ],
-      "objects": [],
+      "objects": [
+        "mirror",
+        "candle",
+        "coffin",
+        "overturned-furniture"
+      ],
       "places": [],
       "volume": "III",
       "sections": [
@@ -3412,7 +3436,11 @@
         "memory",
         "abandonment"
       ],
-      "objects": [],
+      "objects": [
+        "grave-marker",
+        "photograph",
+        "reused-gravestone"
+      ],
       "places": [],
       "volume": "IV",
       "sections": [
@@ -3584,7 +3612,10 @@
         "memory",
         "remembrance"
       ],
-      "objects": [],
+      "objects": [
+        "memorial-account",
+        "ai-avatar"
+      ],
       "places": [],
       "volume": "IV",
       "sections": [

@@ -8,8 +8,18 @@
       "gloss": "The container in which the body is carried and buried.",
       "description": "Described in the ethnography as plain, made of planks, sometimes hollowed from a single trunk in northern accounts. By the late imperial period it is increasingly a purchased object. It appears in plate B as furniture, in plate C as the centre of the rite, and in plate J as the box that organises Perov’s painting.",
       "evidence": "documented",
-      "plates": ["b", "c", "j"],
-      "sources": ["zelenin1916", "tretyakov-perov"]
+      "plates": [
+        "b",
+        "c",
+        "j",
+        "k",
+        "m",
+        "v"
+      ],
+      "sources": [
+        "zelenin1916",
+        "tretyakov-perov"
+      ]
     },
     {
       "id": "cross",
@@ -18,8 +28,15 @@
       "gloss": "The cross set on the grave; several formal types are recorded.",
       "description": "Eight-pointed, six-pointed and four-pointed crosses are all found on Russian graves, with regional and period variation. The roofed cross (*golubets*) shelters the cross under a gable and turns the grave into a small building. The atlas draws four types as measured elevations and marks the drawings as reconstructions.",
       "evidence": "documented",
-      "plates": ["f", "e"],
-      "sources": ["tolstoy1995", "pravenc-nadgrobie"]
+      "plates": [
+        "e",
+        "f",
+        "p"
+      ],
+      "sources": [
+        "tolstoy1995",
+        "pravenc-nadgrobie"
+      ]
     },
     {
       "id": "candle",
@@ -28,8 +45,17 @@
       "gloss": "Lit at the funeral, at memorial services and at the grave.",
       "description": "A small, expendable object with a long life in the sources: it marks the presence of prayer, it is placed in the hand or beside the body in some descriptions, and it is bought and carried by mourners. The atlas uses it as a graphic sign for the presence of ritual time.",
       "evidence": "documented",
-      "plates": ["a", "c", "h"],
-      "sources": ["ivanits1989", "skrizhal"]
+      "plates": [
+        "a",
+        "c",
+        "g",
+        "h",
+        "v"
+      ],
+      "sources": [
+        "ivanits1989",
+        "skrizhal"
+      ]
     },
     {
       "id": "grave-marker",
@@ -38,8 +64,17 @@
       "gloss": "The stone, cross or structure that identifies a grave.",
       "description": "In the medieval and early modern period the marker might be a stone slab or a wooden cross; from the eighteenth century the monument becomes an architectural object with an inscription, a portrait or a symbol. The atlas keeps the marker and the grave separate: a grave can exist without a marker, and a marker can survive its grave.",
       "evidence": "documented",
-      "plates": ["f", "l"],
-      "sources": ["pravenc-nadgrobie", "merridale2000"]
+      "plates": [
+        "e",
+        "f",
+        "j",
+        "l",
+        "w"
+      ],
+      "sources": [
+        "pravenc-nadgrobie",
+        "merridale2000"
+      ]
     },
     {
       "id": "funeral-cloth",
@@ -48,8 +83,12 @@
       "gloss": "Cloth that covers or wraps the body.",
       "description": "Regionally variable in form and name: a shroud, a covering, a piece of linen. Its function is to separate the body from the hands that carry it and to present the dead as a figure rather than a corpse. The atlas does not illustrate a specific example because it has not verified one.",
       "evidence": "documented",
-      "plates": ["b"],
-      "sources": ["zelenin1916"]
+      "plates": [
+        "b"
+      ],
+      "sources": [
+        "zelenin1916"
+      ]
     },
     {
       "id": "memorial-bread",
@@ -58,8 +97,14 @@
       "gloss": "Bread, pancakes or grain preparations eaten at the memorial meal.",
       "description": "Bread and bliny recur in descriptions of the memorial table; the grain dish kutya is the most explicitly ritual of the foods. The atlas treats the food as an object with a documented context and an undocumented prehistory.",
       "evidence": "documented",
-      "plates": ["d", "c"],
-      "sources": ["ivanits1989", "tolstoy1995"]
+      "plates": [
+        "c",
+        "d"
+      ],
+      "sources": [
+        "ivanits1989",
+        "tolstoy1995"
+      ]
     },
     {
       "id": "kutia",
@@ -68,8 +113,13 @@
       "gloss": "Boiled grain sweetened with honey, eaten at memorial meals and blessed at memorial services.",
       "description": "Wheat or rice, honey, later raisins. The church dish is called kolivo; household kutya may be richer. The grain is read as a figure of resurrection. The relationship between the two dishes is not settled by the sources used here.",
       "evidence": "documented",
-      "plates": ["d"],
-      "sources": ["ivanits1989", "tolstoy1995"]
+      "plates": [
+        "d"
+      ],
+      "sources": [
+        "ivanits1989",
+        "tolstoy1995"
+      ]
     },
     {
       "id": "ritual-vessel",
@@ -78,8 +128,12 @@
       "gloss": "The bowl, cup or dish reserved for the memorial meal or for the dead.",
       "description": "A place is set for the dead in some accounts, with a cup or a portion. The object is unremarkable in itself; what makes it ritual is the reservation — it is not used for the living.",
       "evidence": "documented",
-      "plates": ["d"],
-      "sources": ["ivanits1989"]
+      "plates": [
+        "d"
+      ],
+      "sources": [
+        "ivanits1989"
+      ]
     },
     {
       "id": "cemetery-gate",
@@ -88,8 +142,13 @@
       "gloss": "The formal entrance to a cemetery, with a wall and often a chapel.",
       "description": "From the late eighteenth century the cemetery is a walled, gated, planned space. The gate is the point at which the funeral procession changes register: from street to enclosure. The atlas draws a schematic plan rather than a survey.",
       "evidence": "documented",
-      "plates": ["f"],
-      "sources": ["pravenc-nadgrobie", "vagankovo"]
+      "plates": [
+        "f"
+      ],
+      "sources": [
+        "pravenc-nadgrobie",
+        "vagankovo"
+      ]
     },
     {
       "id": "photograph",
@@ -98,8 +157,16 @@
       "gloss": "The image that survives when the grave does not.",
       "description": "Photographs are the atlas’s main evidence for cemeteries and memorials, and also its main source of error: a photograph documents a moment of maintenance, not a state. The portrait on a headstone is a different object again, and one the atlas has not been able to document.",
       "evidence": "documented",
-      "plates": ["f", "i", "l", "j"],
-      "sources": ["merridale2000"]
+      "plates": [
+        "f",
+        "i",
+        "j",
+        "l",
+        "w"
+      ],
+      "sources": [
+        "merridale2000"
+      ]
     },
     {
       "id": "icon",
@@ -108,8 +175,13 @@
       "gloss": "A painted image of a holy figure or feast, used in worship and in the funeral rite.",
       "description": "The Last Judgment icon is the atlas’s central image of the afterlife: a diagram of judgement with inscribed compartments. The Dormition icon supplies the model of the good death. Both are shown as historical objects, not as illustrations of doctrine.",
       "evidence": "documented",
-      "plates": ["h"],
-      "sources": ["tolstoy1995"]
+      "plates": [
+        "h",
+        "m"
+      ],
+      "sources": [
+        "tolstoy1995"
+      ]
     },
     {
       "id": "mirror",
@@ -118,8 +190,14 @@
       "gloss": "Covered in the house after a death in many recorded accounts.",
       "description": "The practice is widely reported; the explanation is not stable, and the atlas marks the chronology of the custom as unknown. It is included in the object index because it is the most frequently cited material sign of the threshold.",
       "evidence": "documented practice; explanation unverified",
-      "plates": ["a"],
-      "sources": ["ivanits1989"]
+      "plates": [
+        "a",
+        "m",
+        "v"
+      ],
+      "sources": [
+        "ivanits1989"
+      ]
     },
     {
       "id": "fence",
@@ -128,7 +206,9 @@
       "gloss": "The low metal or wooden fence around a plot.",
       "description": "A ubiquitous feature of Russian cemeteries in the twentieth century, and almost entirely absent from the sources used here. The atlas notes it as an object that everyone has seen and no one has documented.",
       "evidence": "unverified",
-      "plates": ["f"],
+      "plates": [
+        "f"
+      ],
       "sources": []
     },
     {
@@ -138,8 +218,15 @@
       "gloss": "A state-built ensemble commemorating collective death.",
       "description": "From the late 1950s the Soviet state built large ensembles — Piskaryovskoye, Mamayev Kurgan, the Tomb of the Unknown Soldier — that combined architecture, sculpture, landscape and ceremony. They are documents of how the state wanted the dead to be seen.",
       "evidence": "documented",
-      "plates": ["i", "k"],
-      "sources": ["pmemorial", "rusmuseum", "mos-ru-unknown"]
+      "plates": [
+        "i",
+        "k"
+      ],
+      "sources": [
+        "pmemorial",
+        "rusmuseum",
+        "mos-ru-unknown"
+      ]
     },
     {
       "id": "eternal-flame",
@@ -148,8 +235,163 @@
       "gloss": "A continuously burning flame at a memorial.",
       "description": "The flame on the Field of Mars in Leningrad was lit in 1957; the flame at Piskaryovskoye was lit from it at the memorial’s opening in 1960. The flame is a technology of memory: it requires maintenance, and its maintenance is the state’s promise.",
       "evidence": "documented",
-      "plates": ["i", "k"],
-      "sources": ["pmemorial"]
+      "plates": [
+        "i",
+        "k"
+      ],
+      "sources": [
+        "pmemorial"
+      ]
+    },
+    {
+      "id": "smertnoe",
+      "name": "Death clothes",
+      "term": "smertnoe",
+      "gloss": "The bundle of dress for one’s own burial, prepared in life and stored.",
+      "description": "In many households dress for the dead was prepared during life and stored: linen, a shirt or dress, stockings, sometimes a shroud. It is known by different names in different places. The plate reports the practice as the ethnography describes it, without a count of households.",
+      "evidence": "documented",
+      "plates": [
+        "b"
+      ],
+      "sources": [
+        "ivanits1989",
+        "zelenin1916"
+      ]
+    },
+    {
+      "id": "wreath",
+      "name": "Wreath",
+      "term": "venok",
+      "gloss": "A ring of flowers or branches, thrown into rivers at Semik or set on roadside signs and graves.",
+      "description": "At Semik, wreaths and birches were thrown into rivers, and in some readings whether a wreath floated or sank signalled marriage or death (encyclopedia entry, regions named without original records). On roadside memorial signs Matlin counts wreaths among the cemetery-like forms. The atlas notes that the plastic wreath of the modern cemetery is visible everywhere and documented in its sources almost nowhere.",
+      "evidence": "documented",
+      "plates": [
+        "f",
+        "k",
+        "o",
+        "p"
+      ],
+      "sources": [
+        "bre-semik",
+        "matlin2021"
+      ]
+    },
+    {
+      "id": "window",
+      "name": "Window",
+      "term": "okno",
+      "gloss": "A ritual exit and entrance between this world and the other, in a study of the Eastern Slavs.",
+      "description": "Lewkijewskaja reads the window as the route by which the souls of the dead, and mythological figures, enter and leave the house, and throwing something out of it as a way of disposing of a dangerous or impure thing. Andryunina reports doors and windows opened at a death in western fringe regions. Only the first author’s abstract was read, and her study generalises across all the Eastern Slavs, so it frames the question and does not describe a village.",
+      "evidence": "documented",
+      "plates": [
+        "m"
+      ],
+      "sources": [
+        "lewkijewskaja2004",
+        "andryunina-house"
+      ]
+    },
+    {
+      "id": "roadside-sign",
+      "name": "Roadside memorial sign",
+      "term": "pridorozhnyi znak",
+      "gloss": "A memorial placed where a person died on the road; Matlin counted 299 on three highways.",
+      "description": "Matlin sorts the signs into two families: one imitates the cemetery with crosses, steles, obelisks, fenced plots and wreaths; the other does not, and uses flowerpots, gazebos, decorated trees and car parts. Placement differs by region. The survey covers three routes in three neighbouring republics, and the lifespan of the temporary items could not be established.",
+      "evidence": "documented",
+      "plates": [
+        "p"
+      ],
+      "sources": [
+        "matlin2021"
+      ]
+    },
+    {
+      "id": "domovoi-offering",
+      "name": "Offering for the domovoy",
+      "term": "ugoshchenie domovomu",
+      "gloss": "Food and sweets left for the spirit of the house, and tables not left empty overnight.",
+      "description": "Ansimova and Golubkova report that food was set out for the domovoy at commemorations of dead parents. Granova’s informants in Severny Kommunar say sweets are left for him and tables are not left empty overnight, and a fixed formula is spoken to take him to a new house. Her study rests on one village and gives the beliefs as much reduced.",
+      "evidence": "documented",
+      "plates": [
+        "s"
+      ],
+      "sources": [
+        "ansimova2016",
+        "granova2019"
+      ]
+    },
+    {
+      "id": "aspen-stake",
+      "name": "Aspen stake",
+      "term": "osinovyi kol",
+      "gloss": "A stake reported in borderland records as marking or fixing the grave of a suicide or a sorcerer.",
+      "description": "Ovseichik reports that the body of a suicide was sometimes marked with an aspen stake, and that radical measures against sorcerers included driving an aspen stake through the body; he cites one modern informant for the latter. The atlas gives these as reports from one borderland. They are not instructions and not a general rule.",
+      "evidence": "unverified",
+      "plates": [
+        "t"
+      ],
+      "sources": [
+        "ovseichik2022"
+      ]
+    },
+    {
+      "id": "overturned-furniture",
+      "name": "Overturned tables and benches",
+      "term": "oprokinutye stoly i lavki",
+      "gloss": "Tables and benches turned over before the washing of the body, in an account taken from earlier ethnographers.",
+      "description": "Rouhier-Willoughby writes that the women who washed the body turned tables and benches over before washing them, so that death would enter the soil; she draws this from earlier ethnographers, so it reaches the atlas at second hand. A hieromonk calls turning over tables and chairs a pagan survival with nothing in common with the Orthodox rite.",
+      "evidence": "documented",
+      "plates": [
+        "v"
+      ],
+      "sources": [
+        "rouhier2007",
+        "dometian-superstition"
+      ]
+    },
+    {
+      "id": "reused-gravestone",
+      "name": "Reused gravestone",
+      "term": "povtornoe ispol’zovanie nadgrobiia",
+      "gloss": "A gravestone found serving as a curb or road material, in reports from Moscow.",
+      "description": "Minkin reports gravestones found used as curbs near the Estrada Theatre on Bersenevskaya Embankment in 2019, known through a municipal deputy’s photographs, with some stones still showing dates of birth and death. Statements that granite from cemeteries was reused for roads in the 1920s and 1930s come from a quoted architect and a state enterprise and are marked unverified; no decision or archive is cited.",
+      "evidence": "unverified",
+      "plates": [
+        "w"
+      ],
+      "sources": [
+        "minkin2019",
+        "krasilnikova2023"
+      ]
+    },
+    {
+      "id": "memorial-account",
+      "name": "Memorial page or account",
+      "term": "memorial’naia stranitsa",
+      "gloss": "The online page or account of a dead person, as studied in two abstracts.",
+      "description": "Linden studies online commemoration by virtual ethnography of three memorial sites and social networking sites, and argues that online tools enable communal remembrance. Sergeeva, Gerlit and Krcmar expect services to host more deceased than living users in the coming decades and heirs to find it hard to identify all accounts. Both are abstract-only readings, and no profile or message of a dead person is reproduced in the atlas.",
+      "evidence": "documented",
+      "plates": [
+        "x"
+      ],
+      "sources": [
+        "linden-online-death",
+        "sergeeva2020"
+      ]
+    },
+    {
+      "id": "ai-avatar",
+      "name": "AI avatar of the dead",
+      "term": "ai-avatar",
+      "gloss": "A digital recreation of a dead person’s voice and habits, described by researchers.",
+      "description": "A university news item reports HSE researchers describing AI avatars of the dead, which can recreate voice and habits and can also produce errors, with a comparison to Frankenstein’s creature. They say such tools can support a sense of connection and can also delay acceptance of loss. The atlas has the news item, not the article, and leaves both effects open.",
+      "evidence": "documented",
+      "plates": [
+        "x"
+      ],
+      "sources": [
+        "hse-digital-grief2025"
+      ]
     }
   ]
 }
