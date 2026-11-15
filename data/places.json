@@ -1,5 +1,5 @@
 {
-  "note": "Geographic index. Only localities with a documented basis in the atlas appear here. Positions are approximate; the map is a working sheet, not a gazetteer. One entry lies outside the Russian Federation and is marked accordingly.",
+  "note": "Geographic index. Only localities with a documented basis in the atlas appear here. Positions are approximate; the map is a working sheet, not a gazetteer. Two entries lie outside the Russian Federation and are marked accordingly. Several markers stand at a regional centre; each such entry says so.",
   "places": [
     {
       "id": "moscow",
@@ -14,10 +14,24 @@
         "Vagankovo Cemetery, founded 1771 for victims of plague",
         "Donskoy Monastery, site of the first Moscow crematorium (1927)",
         "Novodevichy Cemetery, the elite necropolis",
-        "Tomb of the Unknown Soldier, Alexander Garden (1967)"
+        "Tomb of the Unknown Soldier, Alexander Garden (1967)",
+        "Bersenevskaya Embankment — gravestones found used as curbs, 2019 (deputy’s photographs as reported)"
       ],
-      "plates": ["f", "i", "k", "j", "l"],
-      "sources": ["vagankovo", "mospravda-crematorium", "mos-ru-unknown", "merridale2000"]
+      "plates": [
+        "f",
+        "i",
+        "j",
+        "k",
+        "l",
+        "w"
+      ],
+      "sources": [
+        "merridale2000",
+        "minkin2019",
+        "mos-ru-unknown",
+        "mospravda-crematorium",
+        "vagankovo"
+      ]
     },
     {
       "id": "st-petersburg",
@@ -33,8 +47,16 @@
         "Piskaryovskoye Memorial Cemetery — blockade and front-line dead; memorial opened 9 May 1960",
         "Field of Mars — the flame lit in 1957, from which the Piskaryovskoye flame was taken"
       ],
-      "plates": ["d", "i", "k"],
-      "sources": ["pmemorial", "rusmuseum", "images"]
+      "plates": [
+        "d",
+        "i",
+        "k"
+      ],
+      "sources": [
+        "pmemorial",
+        "rusmuseum",
+        "images"
+      ]
     },
     {
       "id": "pushkin",
@@ -48,8 +70,12 @@
       "entries": [
         "Kazan cemetery — roofed cross, photograph by Messir, 2013"
       ],
-      "plates": ["f"],
-      "sources": ["images"]
+      "plates": [
+        "f"
+      ],
+      "sources": [
+        "images"
+      ]
     },
     {
       "id": "novgorod",
@@ -64,8 +90,12 @@
         "Fragments of a Last Judgment icon, 1540s, from the Nativity monastery (Wikimedia Commons record)",
         "Dormition icon, 15th century, from the Desyatinny monastery"
       ],
-      "plates": ["h"],
-      "sources": ["images"]
+      "plates": [
+        "h"
+      ],
+      "sources": [
+        "images"
+      ]
     },
     {
       "id": "olonets-karelia",
@@ -79,8 +109,13 @@
       "entries": [
         "Lament texts and performers recorded for Barsov’s three volumes"
       ],
-      "plates": ["g", "c"],
-      "sources": ["barsov1872"]
+      "plates": [
+        "g",
+        "c"
+      ],
+      "sources": [
+        "barsov1872"
+      ]
     },
     {
       "id": "volga-region",
@@ -94,8 +129,12 @@
       "entries": [
         "Last Judgment icon, tempera on wood, 180 × 137 cm"
       ],
-      "plates": ["h"],
-      "sources": ["images"]
+      "plates": [
+        "h"
+      ],
+      "sources": [
+        "images"
+      ]
     },
     {
       "id": "volgograd",
@@ -109,8 +148,12 @@
       "entries": [
         "Mamayev Kurgan — memorial ensemble (photograph 2021)"
       ],
-      "plates": ["i"],
-      "sources": ["images"]
+      "plates": [
+        "i"
+      ],
+      "sources": [
+        "images"
+      ]
     },
     {
       "id": "rostov-on-don",
@@ -124,8 +167,12 @@
       "entries": [
         "Abandoned tomb at Nizhne-Gnilovskoye cemetery"
       ],
-      "plates": ["l"],
-      "sources": ["images"]
+      "plates": [
+        "l"
+      ],
+      "sources": [
+        "images"
+      ]
     },
     {
       "id": "tymky-ukraine",
@@ -139,8 +186,355 @@
       "entries": [
         "Commemoration at graves, 27 April 2014"
       ],
-      "plates": ["d"],
-      "sources": ["images"]
+      "plates": [
+        "d"
+      ],
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "id": "petrozavodsk",
+      "name": "Petrozavodsk",
+      "region": "Russian Federation",
+      "marker": "olonets-karelia",
+      "lat": 61.79,
+      "lon": 34.36,
+      "status": "in-RF",
+      "summary": "Two photographed city cemeteries, Zaretskoe (2019) and Besovets (2022).",
+      "entries": [
+        "Zaretskoe Cemetery — crosses in the snow, photograph, 2019",
+        "Besovets Cemetery — wooden cross, photograph, 2022"
+      ],
+      "plates": [
+        "f",
+        "k"
+      ],
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "id": "medvezhyegorsk",
+      "name": "Medvezhyegorsk district (Lake Lelikozero)",
+      "region": "Russian Federation",
+      "marker": "olonets-karelia",
+      "lat": 62.92,
+      "lon": 34.46,
+      "status": "in-RF",
+      "summary": "A photographed bog in Karelia, used on plate O. The marker stands at the district centre, not at the lake.",
+      "entries": [
+        "Bog by Lake Lelikozero, photograph, 2014"
+      ],
+      "plates": [
+        "o"
+      ],
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "id": "keret",
+      "name": "Sredny Island, Keret Archipelago",
+      "region": "Russian Federation",
+      "marker": "keret",
+      "lat": 66.29,
+      "lon": 33.66,
+      "status": "in-RF",
+      "summary": "A photographed abandoned cemetery on a White Sea island, used on plate W. The marker is the island’s research station.",
+      "entries": [
+        "Graves in an abandoned cemetery, Sredny Island, photograph, 2023"
+      ],
+      "plates": [
+        "w"
+      ],
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "id": "ivanovo-oblast",
+      "name": "Ivanovo Oblast (turn to Reshma)",
+      "region": "Russian Federation",
+      "marker": "ivanovo-oblast",
+      "lat": 57.0,
+      "lon": 40.97,
+      "status": "in-RF",
+      "summary": "A wooden roadside cross photographed at the turn to Reshma, used on plate P. The marker stands at the regional centre; the exact site is not placed here.",
+      "entries": [
+        "Wooden cross at the turn to Reshma, photograph, 2011"
+      ],
+      "plates": [
+        "p"
+      ],
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "id": "nizhny-novgorod-oblast",
+      "name": "Nepogodikha, Nizhny Novgorod Oblast",
+      "region": "Russian Federation",
+      "marker": "nizhny-novgorod-oblast",
+      "lat": 56.33,
+      "lon": 44.0,
+      "status": "in-RF",
+      "summary": "An abandoned log house photographed in 2008, used on plate A. The marker stands at the regional centre; the village is not placed here.",
+      "entries": [
+        "Abandoned house, Nepogodikha, photograph, 2008"
+      ],
+      "plates": [
+        "a"
+      ],
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "id": "tver-oblast",
+      "name": "Tver Oblast",
+      "region": "Russian Federation",
+      "marker": "tver-oblast",
+      "lat": 56.86,
+      "lon": 35.91,
+      "status": "in-RF",
+      "summary": "An abandoned wooden house by a country road, photographed in 2016, used on plates L and M. The site within the oblast is not stated; the marker stands at the regional centre.",
+      "entries": [
+        "Abandoned wooden house by the road, photograph, 2016"
+      ],
+      "plates": [
+        "l",
+        "m"
+      ],
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "id": "pechory",
+      "name": "Pechory (Pskov-Caves Monastery)",
+      "region": "Russian Federation",
+      "marker": "pechory",
+      "lat": 57.82,
+      "lon": 27.62,
+      "status": "in-RF",
+      "summary": "A monastery built over burial caves near the Estonian border; the subject of plate R.",
+      "entries": [
+        "Cave complex: seven accessible underground ‘streets’ over 200 m in all (2023 newspaper account); about ten thousand burials reported, no register named",
+        "2023 muon survey of two objects in the caves; the dimensions given are the team’s estimates",
+        "Legend of a tunnel to Izborsk — unverified folklore, 15 or 20 km depending on the source",
+        "Courtyard in front of the cave church, photograph, 2015"
+      ],
+      "plates": [
+        "r"
+      ],
+      "sources": [
+        "azbyka-pechory",
+        "anokhin2023",
+        "alexandrov2023",
+        "dp2024",
+        "images"
+      ]
+    },
+    {
+      "id": "mologa",
+      "name": "Mologa (flooded)",
+      "region": "Russian Federation",
+      "marker": "mologa",
+      "lat": 58.2,
+      "lon": 38.44,
+      "status": "in-RF",
+      "summary": "A town at the confluence of the Mologa and the Volga, now under the Rybinsk Reservoir. Coordinates are approximate.",
+      "entries": [
+        "Market square, early 20th century (photograph)",
+        "The chapel and the Church of the Ascension, 1901–1910 (photograph)",
+        "Named among the towns flooded with the reservoir in a 2026 planning article",
+        "Reported, unverified: many cemeteries of the Mologa area went under water with their villages"
+      ],
+      "plates": [
+        "q"
+      ],
+      "sources": [
+        "filatova2026",
+        "rapsi2026",
+        "images"
+      ]
+    },
+    {
+      "id": "cherepovets",
+      "name": "Cherepovets district",
+      "region": "Russian Federation",
+      "marker": "cherepovets",
+      "lat": 59.13,
+      "lon": 37.9,
+      "status": "in-RF",
+      "summary": "Resettlement from the flood zone, as described in an article on this district. The marker stands at the city.",
+      "entries": [
+        "Resettlement after the decree of 1 August 1936, with about seven hundred villages and hamlets moved out of the flood zone (article; decree not seen)"
+      ],
+      "plates": [
+        "q"
+      ],
+      "sources": [
+        "tsipileva2014"
+      ]
+    },
+    {
+      "id": "vyatka",
+      "name": "Vyatka (Kirov)",
+      "region": "Russian Federation",
+      "marker": "vyatka",
+      "lat": 58.6,
+      "lon": 49.66,
+      "status": "in-RF",
+      "summary": "The day of Semik given to the drowned in Vyatka, in the encyclopedia’s account. The marker stands at the city, and the province was far larger.",
+      "entries": [
+        "Semik devoted to the drowned; cemetery feasts described as boisterous"
+      ],
+      "plates": [
+        "o"
+      ],
+      "sources": [
+        "bre-semik"
+      ]
+    },
+    {
+      "id": "smolensk-region",
+      "name": "Smolensk region (Khislavichi district)",
+      "region": "Russian Federation",
+      "marker": "smolensk-region",
+      "lat": 54.19,
+      "lon": 32.17,
+      "status": "in-RF",
+      "summary": "Fieldwork on funeral practice in one district, and a Semik custom reported for the province. The marker stands in the district.",
+      "entries": [
+        "Khislavichi district fieldwork, 2018–2019: remembered bans on burying suicides in the common cemetery, neighbours washing the dead, unbaptised infants not ‘unclean’",
+        "Smolensk province: no washing, rinsing or work with water on Semik, so that no one in the family would drown (encyclopedia, regions named without original records)"
+      ],
+      "plates": [
+        "t",
+        "v",
+        "o"
+      ],
+      "sources": [
+        "ryko2025",
+        "bre-semik"
+      ]
+    },
+    {
+      "id": "sivinsky",
+      "name": "Severny Kommunar (Sivinsky district, Perm Krai)",
+      "region": "Russian Federation",
+      "marker": "sivinsky",
+      "lat": 58.37,
+      "lon": 54.0,
+      "status": "in-RF",
+      "summary": "Beliefs about the domovoy recorded in one village in June 2019, one village only.",
+      "entries": [
+        "Domovoy beliefs recorded in Severny Kommunar, June 2019, compared with older university-archive material (Granova)"
+      ],
+      "plates": [
+        "s"
+      ],
+      "sources": [
+        "granova2019"
+      ]
+    },
+    {
+      "id": "komi-permyak",
+      "name": "Komi-Permyak area (Perm Krai)",
+      "region": "Russian Federation",
+      "marker": "komi-permyak",
+      "lat": 59.02,
+      "lon": 54.66,
+      "status": "in-RF",
+      "summary": "Commemoration days recorded for the Komi-Permyaks, a people who are not Russian. Used on plate U only as a regional comparison. The marker stands at Kudymkar.",
+      "entries": [
+        "Radonitsa, Semik, Trinity Saturday and the Saturdays before Pokrov and St. Demetrius — four recordings by one researcher (Maltsev)",
+        "A Kungur saying that those dead by unnatural death are deaf and blind except on Semik"
+      ],
+      "plates": [
+        "u"
+      ],
+      "sources": [
+        "maltsev2020"
+      ]
+    },
+    {
+      "id": "kostroma-region",
+      "name": "Kostroma region",
+      "region": "Russian Federation",
+      "marker": "kostroma-region",
+      "lat": 57.77,
+      "lon": 40.93,
+      "status": "in-RF",
+      "summary": "One of two regions of fieldwork on the main cemetery commemoration. The marker stands at the regional centre.",
+      "entries": [
+        "Fieldwork 2016–2017 (Chesnokova): the main commemoration falls in the Easter or the Trinity period, following regional zones"
+      ],
+      "plates": [
+        "u"
+      ],
+      "sources": [
+        "chesnokova-cemetery"
+      ]
+    },
+    {
+      "id": "vladimir-region",
+      "name": "Vladimir region",
+      "region": "Russian Federation",
+      "marker": "vladimir-region",
+      "lat": 56.13,
+      "lon": 40.41,
+      "status": "in-RF",
+      "summary": "The second region of the same fieldwork. The marker stands at the regional centre.",
+      "entries": [
+        "Fieldwork 2016–2017 (Chesnokova), as in Kostroma region; abstract only"
+      ],
+      "plates": [
+        "u"
+      ],
+      "sources": [
+        "chesnokova-cemetery"
+      ]
+    },
+    {
+      "id": "middle-volga",
+      "name": "Middle Volga highways",
+      "region": "Russian Federation",
+      "marker": "middle-volga",
+      "lat": 55.36,
+      "lon": 47.18,
+      "status": "in-RF",
+      "summary": "Sections of three federal highways in Chuvashia, Tatarstan and Mordovia, surveyed for roadside memorial signs. The marker is the centre of the three republics, not a route.",
+      "entries": [
+        "299 roadside memorial signs documented 2013–2021 (Matlin); signs in Mordovia mostly on slopes, in Tatarstan in the roadside strip, in Chuvashia in or near woodland"
+      ],
+      "plates": [
+        "p"
+      ],
+      "sources": [
+        "matlin2021"
+      ]
+    },
+    {
+      "id": "vitebsk",
+      "name": "Vitebsk region (Belarus)",
+      "region": "Belarus",
+      "marker": "vitebsk",
+      "lat": 55.19,
+      "lon": 30.2,
+      "status": "outside-RF",
+      "summary": "One of the three regions of the borderland material on the ‘impure’ dead. Belarusian, so not evidence for Russian practice by itself.",
+      "entries": [
+        "Records on unbaptised children, suicides and sorcerers, 19th–20th century, with Pskov and Smolensk (Ovseichik)"
+      ],
+      "plates": [
+        "t"
+      ],
+      "sources": [
+        "ovseichik2022"
+      ]
     }
   ]
 }
