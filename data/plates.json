@@ -1523,6 +1523,20 @@
           "paras": [
             "The best-known popular itinerary of the soul in Russia comes from one text: the vision of Theodora in the Life of St Basil the New. In it the dead woman appears to Basil’s disciple Gregory and describes how angels escorted her through a series of trials, at which evil spirits tried to claim her soul for its sins. According to the Orthodox Encyclopedia, as cited in a Russian theological article, the Life was written in Constantinople in the second half of the tenth century and exists in several redactions. The same article states that the toll-house narrative became widely accepted but never acquired the status of a binding dogma of the Church, and reads its images as parable-like language, not as literal topography. The atlas takes the distinction from that article: the narrative is documented as hagiography and widely received; its status as doctrine is disputed in the very source that defends it. The article was read, not the Life itself, so no list of the trials is given here."
           ]
+        },
+        {
+          "type": "figure",
+          "src": "diagram-commemoration-days",
+          "alt": "Timeline from death to day 3, day 9, day 40 and the year, with the Church handbook’s stated reason for each day above the line; below it in dashed boxes, the folk idea that the soul lingers until the fortieth day and then departs; at the bottom, a dashed box for the toll-houses narrative, not placed on the line",
+          "caption": "Editorial diagram. The days are those of the plate’s table: the handbook’s stated reasons above the line, folk elaboration below it. The toll-houses are kept off the line because the sources used here give no day for them.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide",
+          "at": {
+            "r": 10,
+            "c": "2/12",
+            "w": 100
+          }
         }
       ],
       "volume": "I"

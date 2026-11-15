@@ -54,7 +54,8 @@
       "note": "Title and date are the Library of Congress catalogue's; the person is not identified and the place is not given. A funeral portrait of a wealthy man, not evidence of peasant practice. Catalogue record: https://lccn.loc.gov/99615671. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
       "role": "archival",
       "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
-      "mature": true
+      "mature": true,
+      "evidence": "documented"
     },
     {
       "id": "coffin-vyazma",
@@ -71,7 +72,8 @@
       "alt": "Two hewn timber halves of a log coffin, a trough and a lid, on a museum plinth with pots and a model church behind",
       "note": "Released to the public domain (CC0); credit given as courtesy. The date of the object is as stated in the Commons description and has not been checked by the atlas. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
       "role": "contextual",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "contextual"
     },
     {
       "id": "gapon-panikhida",
@@ -87,7 +89,8 @@
       "alt": "Men in dark coats stand bareheaded beside a fenced grave among pines while a priest in vestments conducts a service",
       "note": "Title, place and date are the Commons description's. The file is shown at the size held on Commons (831 × 675 px).",
       "role": "archival",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "perov-drowned",
@@ -103,7 +106,8 @@
       "alt": "Painting: a woman's body lying on a quay beside a boat, a man in a long coat smoking a pipe nearby, a hazy city across the water",
       "note": "The reproduction is a photographic copy of a two-dimensional public-domain work; Commons gives the source as bg-gallery.ru. The English title is a translation of the Russian one on Commons. A painter's urban genre scene, not evidence of how such dead were treated in the village. The file is the Commons original (2048 px).",
       "role": "artwork-reproduction",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "fedosova-1897",
@@ -119,7 +123,8 @@
       "alt": "Engraved portrait of an elderly woman in a headscarf and dark shawl, captioned in Latin letters",
       "note": "Fedosova (died 1899) was the principal performer of laments recorded by E. V. Barsov in the Olonets region. The file is the Commons original (735 px).",
       "role": "archival",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "plattonen-funeral",
@@ -136,7 +141,8 @@
       "alt": "Black-and-white photograph: men, women and children, many in headscarves, stand around an open coffin covered with cloth and heaped with flowers",
       "note": "Credit required: photographer, Finnish Heritage Agency. Suistamo was then in Finland; it lies today in the Republic of Karelia, Russia, and Commons files the photograph under 'Funerals in Russia'. It is shown as a lament-tradition record from the Karelian border, not as the Olonets Russian tradition of Barsov. Catalogue: https://museovirasto.finna.fi/Record/museovirasto.6ADAA1D892C7A07B94BF3347401FB1E9. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
       "role": "archival",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "contextual"
     },
     {
       "id": "donskoy-crematorium",
@@ -153,7 +159,8 @@
       "alt": "A pink building with a small bell tower and an arched entrance behind spruce trees and a lawn",
       "note": "Attribution required; adaptation permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
       "role": "contextual",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "donskoy-columbarium",
@@ -170,7 +177,8 @@
       "alt": "A bright green wall of columbarium niches, some with photographs, plaques and flowers, and the number 1 above",
       "note": "Attribution required; adaptation permitted under the same licence. The niche's occupant is named in the Commons description and is not named here. The file in this repository is a scaled-down copy (long side ≤ 1641 px) of the Commons original.",
       "role": "contextual",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "perov-funeral-halftone",
@@ -457,7 +465,8 @@
       "alt": "A painted village cemetery with a priest and people gathered at a grave for a memorial service",
       "note": "The reproduction is a photographic copy of a two-dimensional public-domain work. The English title is a translation of the Russian title given on Commons. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
       "role": "artwork-reproduction",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "soldatskoe-pascha",
@@ -474,7 +483,8 @@
       "alt": "A fresh sandy grave mound with a blue wooden cross carrying an oval portrait, a small pale cross lying on the mound and artificial pink flowers; fenced plots behind",
       "note": "Attribution required; adaptation (cropping, processing) permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
       "role": "contextual",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "contextual"
     },
     {
       "id": "trifon-cemetery",
@@ -491,7 +501,8 @@
       "alt": "A village cemetery of wooden crosses and fences under trees in the Russian countryside",
       "note": "Released to the public domain (CC0); credit given as courtesy. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
       "role": "contextual",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "contextual"
     },
     {
       "id": "rogozhskoe-oldbelievers",
@@ -508,7 +519,8 @@
       "alt": "Rows of grave crosses at the Old Believer Rogozhskoye Cemetery in Moscow",
       "note": "Attribution required; adaptation permitted under the same licence. Commons names the original uploader at Russian Wikipedia as the source. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
       "role": "contextual",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "contextual"
     },
     {
       "id": "kizhi-ryabinin",
@@ -525,7 +537,8 @@
       "alt": "Small wooden grave crosses with tiny roofs on a grassy slope inside a wooden fence, with a lake and a wooded far shore",
       "note": "Attribution required; adaptation permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
       "role": "contextual",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "contextual"
     },
     {
       "id": "funeral-1941",
@@ -2411,6 +2424,40 @@
       "source_page": "https://www.europeana.eu/en/item/2020711/DR_8411",
       "alt": "Flower beds in concrete kerbs, a cross in the middle, birches and pines behind",
       "note": "Europeana record 2020711/DR_8411 read through the Europeana record API on 2026-11-15: place Piiri village, Piirissaare, Tartu County, Estonia; description “cultural monument 8411, historical monument”, registered in 1997; rights CC0 1.0; photographer and date are not given. The source image (register.muinas.ee, 800–900 px) sits behind a bot check and was not fetched; this is Europeana’s own 400 px cached copy from its thumbnail service. The cemetery is outside Russia and is used only as a present-day comparison, not as evidence of Russian practice."
+    },
+    {
+      "id": "diagram-commemoration-days",
+      "file": "assets/illustrations/diagram-commemoration-days.svg",
+      "kind": "diagram",
+      "role": "original-diagram",
+      "title": "The forty days, in two registers",
+      "creator": "Original diagram made for this atlas",
+      "date": "2026-11-15",
+      "medium": "Vector drawing (SVG), generated by build/make_diagrams2.py",
+      "collection": "—",
+      "license": "CC BY-SA 4.0 (this atlas)",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_page": "—",
+      "alt": "Timeline from death to day 3, day 9, day 40 and the year, with the Church handbook’s stated reason for each day above the line; below it in dashed boxes, the folk idea that the soul lingers until the fortieth day and then departs; at the bottom, a dashed box for the toll-houses narrative, not placed on the line",
+      "evidence": "documented",
+      "note": "Drawn from plate H’s own sourced text and table: the reasons for the third, ninth and fortieth days (Novaia Skrizhal’, 1803, text consulted in a modern online edition), the folk elaboration (Ivanits 1989), and the toll-houses narrative (a Russian theological article citing the Orthodox Encyclopedia; the Life itself not read). The days are the plate’s own table, positions are schematic, and the folk lane is interpretation."
+    },
+    {
+      "id": "diagram-commemoration-days-ru",
+      "file": "assets/illustrations/diagram-commemoration-days-ru.svg",
+      "kind": "diagram",
+      "role": "original-diagram",
+      "title": "Сорок дней в двух регистрах",
+      "creator": "Original diagram made for this atlas",
+      "date": "2026-11-15",
+      "medium": "Vector drawing (SVG), generated by build/make_diagrams2.py",
+      "collection": "—",
+      "license": "CC BY-SA 4.0 (this atlas)",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_page": "—",
+      "alt": "Timeline from death to day 3, day 9, day 40 and the year, with the Church handbook’s stated reason for each day above the line; below it in dashed boxes, the folk idea that the soul lingers until the fortieth day and then departs; at the bottom, a dashed box for the toll-houses narrative, not placed on the line",
+      "evidence": "documented",
+      "note": "Russian version of diagram-commemoration-days."
     }
   ]
 }

@@ -82,3 +82,8 @@ Rule used throughout: an image counts as acquired only when its record, caption 
 - Finna: api.finna.fi is behind the same bot check (HTTP 403); not bypassed. Queries are documented in the Finna API wiki (online images, usage_rights filter) and can be run by a person in an ordinary browser.
 - NLR manuscripts catalogue (nlr.ru/manuscripts/RA1527): reachable; search form only, no API found. Site terms allow personal non-commercial use only, so no scans taken. Query "синодик" with "digital copy" ticked: 23 records, first 10 read (F.I.256, F.I.323, F.I.488, F.I.725, F.I.734, F.I.879, F.IV.561, Q.I.407, Q.I.1152, Вяз. F. 58); the other 13 were not read.
 - Europeana sweep (open reuse, images): "Russian funeral", "Siberia grave", "banya Russia", "Samoyed/Ostyak grave", "Pomor cross", "Karelia cemetery" returned nothing usable for the plates; "кладбище" returned 6164 mostly Jewish and Baltic cemeteries, not Russian rites.
+
+### Update 2026-11-15 (plates G/H/D pass, part 1)
+- Plate H: added original diagram "The forty days, in two registers" (EN + RU). It is an ORIGINAL ILLUSTRATION, not an archival image; it only restates claims already sourced in plate H (Novaia Skrizhal’ 1803, Ivanits 1989, the azbyka article on the toll-houses). Toll-houses are deliberately not placed on the day line.
+- Evidence status was filled in for 13 images that had none (check_credits no longer reports "no evidence status").
+- Not done in this step: plates G and D (no new open-source photographs found yet; no diagram written).

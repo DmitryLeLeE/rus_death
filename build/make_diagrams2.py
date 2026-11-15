@@ -261,8 +261,63 @@ def semik_chain(L):
     return wrap(W, H, S["t"], S["s"], b, S["foot"])
 
 
+# ------------------------------------------------------------------ H: the days, two registers
+def commemoration_days(L):
+    S = {
+      "en": dict(t="THE FORTY DAYS, IN TWO REGISTERS",
+        s="Above the line: the Church handbook’s stated reasons. Below, dashed: what the atlas files as folk elaboration.",
+        ax=["DEATH", "DAY 3", "DAY 9", "DAY 40", "THE YEAR"], lab_d="DOCTRINE · DOCUMENTED", lab_f="FOLK ELABORATION · INTERPRETATION",
+        d=[("THIRD DAY", "Reason given: the Resurrection.", "Novaia Skrizhal’ (1803), as summarised in this atlas."),
+           ("NINTH DAY", "Reason given: the nine ranks of angels.", "Novaia Skrizhal’ (1803)."),
+           ("FORTIETH DAY", "Reason given: the Ascension, on the fortieth day. The last of the appointed commemorations.", "Novaia Skrizhal’ (1803)."),
+           ("THE YEAR", "The annual commemoration continues after the fortieth day.", "Plate H, from the same handbook.")],
+        f1=("UP TO THE FORTIETH DAY", "The soul lingers, wanders, visits the house and needs to be fed.", "Ivanits 1989, as set out in the plate’s table."),
+        f2=("AT THE FORTIETH DAY", "The soul departs, after a journey.", "Ivanits 1989."),
+        tollh=("TOLL-HOUSES · NOT PLACED ON THE LINE", "The vision of Theodora in the Life of St Basil the New: angels lead the dead woman through trials where evil spirits try to claim her soul. A hagiographic narrative, widely received, never a binding dogma. The trials are not listed here because the Life itself was not read.", "Orthodox theological article citing the Orthodox Encyclopedia."),
+        foot="EDITORIAL DIAGRAM  /  ORIGINAL  /  SOURCES: NOVAIA SKRIZHAL’ 1803, IVANITS 1989, AZBYKA ‘MYTARSTVA’ ARTICLE"),
+      "ru": dict(t="СОРОК ДНЕЙ В ДВУХ РЕГИСТРАХ",
+        s="Над линией: причины, названные в церковном требнике. Под линией, пунктиром: то, что атлас относит к народному развитию.",
+        ax=["СМЕРТЬ", "3-Й ДЕНЬ", "9-Й ДЕНЬ", "40-Й ДЕНЬ", "ГОД"], lab_d="ДОКТРИНА · ДОКУМЕНТИРОВАНО", lab_f="НАРОДНОЕ РАЗВИТИЕ · ИНТЕРПРЕТАЦИЯ",
+        d=[("ТРЕТИЙ ДЕНЬ", "Названная причина: Воскресение.", "«Новая скрижаль» (1803), в пересказе атласа."),
+           ("ДЕВЯТЫЙ ДЕНЬ", "Названная причина: девять ангельских чинов.", "«Новая скрижаль» (1803)."),
+           ("СОРОКОВОЙ ДЕНЬ", "Названная причина: Вознесение на сороковой день. Последнее из установленных поминовений.", "«Новая скрижаль» (1803)."),
+           ("ГОД", "Годовое поминовение продолжается после сорокового дня.", "Плита H, по тому же требнику.")],
+        f1=("ДО СОРОКОВОГО ДНЯ", "Душа задерживается, блуждает, навещает дом и нуждается в пище.", "Айваниц 1989, по таблице плиты."),
+        f2=("В СОРОКОВОЙ ДЕНЬ", "Душа уходит после странствия.", "Айваниц 1989."),
+        tollh=("МЫТАРСТВА · НА ЛИНИЮ НЕ ПОСТАВЛЕНЫ", "Видение Феодоры в Житии св. Василия Нового: ангелы ведут умершую женщину через испытания, где злые духи пытаются завладеть её душой. Агиографическое повествование, широко принятое, но никогда не обязательный догмат. Испытания здесь не перечислены: само Житие не читалось.", "Богословская статья, цитирующая «Православную энциклопедию»."),
+        foot="РЕДАКЦИОННАЯ ДИАГРАММА  /  ОРИГИНАЛ  /  ИСТОЧНИКИ: «НОВАЯ СКРИЖАЛЬ» 1803, АЙВАНИЦ 1989, СТАТЬЯ AZBYKA О МЫТАРСТВАХ")}[L]
+    W = 1000
+    xs = [30, 270, 510, 750]; cw = 220
+    b = ""
+    b += T(30, 104, S["lab_d"], 10.5, GREY, weight="bold")
+    chips = []; hmax = 0
+    for x, (h_, b_, s_) in zip(xs, S["d"]):
+        svg, h = chip(x, 116, cw, h_, b_, s_)
+        chips.append(svg); hmax = max(hmax, h)
+    b += "".join(chips)
+    ay = 116 + hmax + 52
+    b += f'<line x1="30" y1="{ay}" x2="970" y2="{ay}" stroke="{INK}" stroke-width="2.4"/>'
+    pts = [60, 380, 620, 860, 940]
+    # death at 60, day3 at xs[0]+cw/2 ...; place ticks under the doctrine chips
+    tick = [60, xs[0] + cw / 2, xs[1] + cw / 2, xs[2] + cw / 2, xs[3] + cw / 2]
+    for x, lab in zip(tick, S["ax"]):
+        b += f'<line x1="{x}" y1="{ay-8}" x2="{x}" y2="{ay+8}" stroke="{INK}" stroke-width="2.4"/>' + T(x, ay + 26, lab, 11, RED, "middle", weight="bold")
+    for x in tick[1:]:
+        b += f'<path d="M{x} {116+hmax} L{x} {ay-8}" stroke="{MID}" stroke-width="1.2"/>'
+    fy = ay + 62
+    b += T(30, fy, S["lab_f"], 10.5, GREY, weight="bold")
+    f1s, h1 = chip(30, fy + 12, 470, S["f1"][0], S["f1"][1], S["f1"][2], dashed=True)
+    f2s, h2 = chip(510, fy + 12, cw, S["f2"][0], S["f2"][1], S["f2"][2], dashed=True)
+    b += f1s + f2s
+    ty = fy + 12 + max(h1, h2) + 30
+    ts, ht = chip(30, ty, 940, S["tollh"][0], S["tollh"][1], S["tollh"][2], dashed=True, accent=RED)
+    b += ts
+    H = int(ty + ht + 62)
+    return wrap(W, H, S["t"], S["s"], b, S["foot"])
+
+
 if __name__ == "__main__":
-    for name, fn in [("diagram-burial-plan", burial_plan), ("diagram-spirit-house-plan", house_plan), ("diagram-semik-chain", semik_chain)]:
+    for name, fn in [("diagram-burial-plan", burial_plan), ("diagram-spirit-house-plan", house_plan), ("diagram-semik-chain", semik_chain), ("diagram-commemoration-days", commemoration_days)]:
         for L in ("en", "ru"):
             save(name, L, fn(L))
     print("ok")
