@@ -1085,6 +1085,34 @@
       "language": "English",
       "supports": "That Malevich died on 15 May 1935; that photographs show his body in an architecton-shaped coffin among his works, and a family photograph beside a cubic gravestone marked with the black square at Nemchinovka (1935); and that Malevich did not design the coffin, a legend the page says is not entirely without foundation.",
       "limitation": "A research log by a museum journal; only the opening was read."
+    },
+    {
+      "id": "razova-belozersk",
+      "kind": "article",
+      "author": "Razova, I. I.",
+      "title": "Похоронный обряд Белозерского района Вологодской области",
+      "title_en": "The funeral rite of Belozersk district, Vologda oblast",
+      "year": "n.d.",
+      "publisher": "booksite.ru/folk (reprint; journal and year not given in the text read)",
+      "url": "https://www.booksite.ru/folk/data/razova.pdf",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Local practice from named informants born 1898–1935 in villages of Belozersk district: mirrors covered for forty days; coins placed on the window and thrown into the grave to ‘buy’ the burial place; the door not bolted for forty days because the dead is believed to return until the fortieth day; the body kept three days on a bench.",
+      "limitation": "No year or journal in the text read; informants’ birth years date the memory to the twentieth century, not the recording. A regional description, not a general rule."
+    },
+    {
+      "id": "bre-eslavic-funeral",
+      "kind": "web",
+      "author": "Great Russian Encyclopedia (entry author not read)",
+      "title": "Восточнославянская похоронная обрядность",
+      "title_en": "East Slavic funeral rite",
+      "year": "n.d.",
+      "publisher": "bigenc.ru",
+      "url": "https://bigenc.ru/c/vostochnoslavianskii-pogrebal-nyi-obriad-11fc86",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "The entry’s statement that the East Slavic funeral rite is on the whole uniform and stable, with local variation touching only surface levels, and that it includes cleansing and protective acts (mirrors covered, objects overturned, hands washed after the cemetery) and prohibitions.",
+      "limitation": "Only the search extract was read, not the whole entry; the extract gives no author."
     }
   ]
 }

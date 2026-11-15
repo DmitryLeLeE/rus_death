@@ -596,6 +596,25 @@
       "sources": [
         "krasilnikova2023"
       ]
+    },
+    {
+      "id": "belozersk",
+      "name": "Belozersk district (Vologda oblast)",
+      "region": "Russian Federation",
+      "marker": "belozersk",
+      "lat": 60.03,
+      "lon": 37.79,
+      "status": "in-RF",
+      "summary": "Funeral practice described from informants in villages of the district, including forty days of covered mirrors and an unbolted door. The marker stands at the district centre.",
+      "entries": [
+        "Georgievskoye, Bekrenevo, Olkino, Klyuchi, Iskrino, Vanyutino, Pyashnitsy and a farmstead near Loyda named as informants’ villages (Razova)"
+      ],
+      "plates": [
+        "a"
+      ],
+      "sources": [
+        "razova-belozersk"
+      ]
     }
   ]
 }

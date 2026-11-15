@@ -29,7 +29,9 @@
         "rouhier2007",
         "andryunina-house",
         "lewkijewskaja2004",
-        "skrizhal"
+        "skrizhal",
+        "razova-belozersk",
+        "bre-eslavic-funeral"
       ],
       "related": [
         "e",
@@ -50,7 +52,8 @@
         "mirror"
       ],
       "places": [
-        "nizhny-novgorod-oblast"
+        "nizhny-novgorod-oblast",
+        "belozersk"
       ],
       "sections": [
         {
@@ -130,6 +133,20 @@
           "text": "The dead person is not yet an ancestor. For forty days he is a guest who has not been given a room.",
           "attrib": "Editorial note, not a quotation from a source",
           "level": "interpretation"
+        },
+        {
+          "type": "prose",
+          "kicker": "A / 07",
+          "heading": "Forty days in one district, and a dissenting encyclopedia",
+          "level": "documented",
+          "contested": true,
+          "sources": [
+            "razova-belozersk",
+            "bre-eslavic-funeral"
+          ],
+          "paras": [
+            "One regional description gives the threshold a length. In Belozersk district, Vologda oblast, informants born between 1898 and 1935 told I. I. Razova that mirrors are covered for forty days; that coins are put on the window of the room where the body lies, then thrown into the grave to ‘buy’ the burial place; and that the door is not bolted for the whole forty days, because the dead are thought to come back until the fortieth day, sometimes as a bird at the window. A laundry beater across the doorway or rowan at the threshold keeps him out. The body lies three days on a bench. Set beside the opened window of the first section, this is the opposite gesture: one practice lets the soul out, the other leaves the way in unbarred and then guards it. Whether these belong to one logic is the atlas’s question, not the informants’. The Great Russian Encyclopedia’s entry on East Slavic funerary rites, read only in extract, takes the other side of the plate’s claim about variants: it calls the rite on the whole uniform and stable, with local differences on the surface. The atlas keeps both statements, and notes that the first is a single district’s account of the 20th century, while the second is a synthesis across a much larger area."
+          ]
         }
       ],
       "volume": "I"
