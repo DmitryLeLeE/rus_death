@@ -19,17 +19,18 @@
     {
       "id": "zelenin1916",
       "kind": "monograph",
-      "author": "Zelenin, Dmitrii Konstantinovich",
-      "title": "Ocherki russkoi mifologii: umershie neestestvennoiu smert’iu i rusalki",
-      "title_en": "Essays on Russian Mythology: Those Who Died an Unnatural Death, and the Rusalki",
+      "author": "Zelenin, Dmitry K.",
+      "title": "Очерки русской мифологии. Вып. 1: Умершие неестественною смертью и русалки",
+      "title_en": "Essays in Russian Mythology, part 1: Those Who Died an Unnatural Death, and Rusalki",
       "year": "1916",
-      "publisher": "Tipografiia A. V. Orlova, Petrograd",
-      "edition_used": "Reprint: Izbrannye trudy, Moscow: Indrik, 1995",
-      "url": "https://openlibrary.org/works/OL33226560W",
+      "publisher": "Tip. A. V. Orlova, Petrograd",
+      "edition_used": "Reprint: Izbrannye trudy, Moscow: Indrik, 1995 (cited by later authors; not opened)",
+      "extent": "312 pp.",
+      "url": "https://elib.rgo.ru/handle/123456789/216718",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "The category of the ‘unclean’ dead (*zalozhnye pokoiniki*), separate burial, and the rusalka hypothesis.",
-      "limitation": "A synthesis of scattered reports; the category is the author's construction. Later scholarship disputes its coherence and the rusalka derivation."
+      "supports": "Zelenin’s compilation of reports that people who died an ‘unnatural’ death were buried away from the churchyard, including the two local cases used on plate N: a forest ravine near Orkino (Saratov uezd) and a ‘deaf forest ravine’ in Silinskaya volost (Simbirsk guberniya); his term ‘zalozhnye’ for the ‘unclean’ dead and his reading of them as rusalki, as the later studies read for this atlas report them.",
+      "limitation": "The book itself was not read. The two local cases were read as excerpts in a web transcription that was not opened, so page numbers are not given; the term, the category and the rusalka reading are taken from later authors who cite him. The Orkino report concerns half-Russified Mordvins, not Russians. The compilation is over a century old; the category is Zelenin’s construction, and later scholarship disputes its coherence and the rusalka derivation."
     },
     {
       "id": "ivanits1989",
@@ -351,21 +352,6 @@
       "language": "English",
       "supports": "Rosstat head Alexander Surinov’s preliminary figures: villages with no population grown from 13,000 to 19,400; 36,200 villages with fewer than ten residents.",
       "limitation": "Preliminary figures reported secondhand, published before the final census report; compare the TASS and OSW records."
-    },
-    {
-      "id": "zelenin1916",
-      "kind": "monograph",
-      "author": "Zelenin, Dmitry K.",
-      "title": "Очерки русской мифологии. Вып. 1: Умершие неестественною смертью и русалки",
-      "title_en": "Essays in Russian Mythology, part 1: Those Who Died an Unnatural Death, and Rusalki",
-      "year": "1916",
-      "publisher": "Tip. A. V. Orlova, Petrograd",
-      "extent": "312 pp.",
-      "url": "https://elib.rgo.ru/handle/123456789/216718",
-      "accessed": "2026-11-15",
-      "language": "Russian",
-      "supports": "Zelenin’s compilation of reports that people who died an ‘unnatural’ death were buried away from the churchyard, including the two local cases used on plate N: a forest ravine near Orkino (Saratov uezd) and a ‘deaf forest ravine’ in Silinskaya volost (Simbirsk guberniya); also his term ‘zalozhnye’.",
-      "limitation": "The book itself was not read. The two cases were read as excerpts shown in a web transcription of the text, which was not opened, so page numbers are not given. The Orkino report concerns half-Russified Mordvins, not Russians. The compilation is over a century old, and its theory of two classes of dead has been revised by later scholarship; this atlas uses only the local reports."
     },
     {
       "id": "koiva2025",
