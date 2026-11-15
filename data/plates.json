@@ -2368,7 +2368,8 @@
       "tone": "dark",
       "sources": [
         "krinichnaya1997",
-        "matlin2021"
+        "matlin2021",
+        "matlin2022"
       ],
       "related": [
         "n",
@@ -2442,11 +2443,13 @@
           "heading": "The roadside today",
           "level": "documented",
           "sources": [
-            "matlin2021"
+            "matlin2021",
+            "matlin2022"
           ],
           "paras": [
-            "M. G. Matlin’s geographical study recorded every roadside memorial sign on sections of three federal highways in the Middle Volga, photographing each, noting its coordinates and asking road workers and residents about it. He drove the routes repeatedly between 2013 and 2021 and documented 299 signs, whose dates of death run from 1965 to 2019.",
-            "He sorts them into two families. One imitates the cemetery with crosses, steles, obelisks, fenced plots and wreaths. The other does not, and uses flowerpots, gazebos, decorated trees and car parts. The boundary between them is loose. Placement differs by region: in Mordovia most signs stand on slopes, in Tatarstan in the roadside strip and in Chuvashia in or near woodland. He argues this differs from the European and North American habit of placing memorials right at the road edge."
+            "M. G. Matlin’s geographical study is a continuous survey: he drove sections of three federal highways in the Middle Volga (362 km in all), photographed every roadside memorial sign, recorded its location and asked road workers and residents about it. The visits fall between July 2013 and April 2021, with repeat passes to follow change; the dates on the 299 signs run from 1965 to 2019.",
+            "He sorts them into two families. One imitates the cemetery with crosses, steles, obelisks, fenced plots and wreaths. The other does not, and uses flowerpots, gazebos, decorated trees and car parts. The boundary between them is loose. Placement differs by region: in Mordovia most signs stand on slopes, in Tatarstan in the roadside strip and in Chuvashia in or near woodland. He argues this differs from the European and North American habit of placing memorials right at the road edge.",
+            "Two limits on the count are the author’s own. Temporary items (live or artificial flowers, wreaths, ribbons, toys) were separated from permanent ones (wood, metal, stone), but the lifespan of the temporary ones could not be established: ten were seen to last one to three years. And the text read does not publish coordinates sign by sign, so this plate does not map them. A second paper by Matlin, read in abstract only, reports that signs giving no information about the dead are 19% of those on R 241, 33% on A 151 and 50% on R 178."
           ]
         },
         {
@@ -2457,32 +2460,37 @@
             "Highway",
             "Region",
             "Section length",
-            "Signs recorded"
+            "Signs recorded",
+            "Dates on the signs"
           ],
           "rows": [
             [
               "A 151",
               "Chuvashia",
               "about 120 km",
-              "132"
+              "132",
+              "1984–2018"
             ],
             [
               "R 241",
               "Tatarstan",
               "about 130 km",
-              "95"
+              "95",
+              "1977–2019"
             ],
             [
               "R 178",
               "Mordovia",
               "about 112 km",
-              "72"
+              "72",
+              "1965–2018"
             ],
             [
               "Total",
               "Three Middle Volga republics",
               "about 362 km",
-              "299"
+              "299",
+              "1965–2019"
             ]
           ],
           "level": "documented",

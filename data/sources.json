@@ -440,8 +440,8 @@
       "url": "https://doi.org/10.17072/2079-7877-2021-4-59-72",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "A field count of 299 roadside memorial signs on sections of three Middle Volga highways (Chuvashia, Tatarstan, Mordovia), recorded 2013–2021; two families of sign, one imitating cemetery forms and one not; differences in placement by region.",
-      "limitation": "Three routes in three neighbouring republics, so the findings may not hold elsewhere. The lifespan of temporary items could not be established; density figures overstate what a driver sees; the claim that drivers read the road as a cemetery rests on comments and density, not on measurement. The signs date from 1965–2019 and mark road deaths, not the older customs on this plate."
+      "supports": "A continuous field survey of roadside memorial signs on three Middle Volga highway sections totalling 362 km (A 151 Chuvashia 120 km, R 241 Tatarstan 130 km, R 178 Mordovia 112 km), visited between July 2013 and April 2021: 299 signs (132, 95 and 72), each photographed and located, dated 1965–2019; two families of sign, one imitating cemetery forms and one not; differences in placement by region; temporary items (flowers, wreaths, ribbons, toys) distinguished from permanent ones (wood, metal, stone).",
+      "limitation": "Three routes in three neighbouring republics, so the findings may not hold elsewhere. The lifespan of temporary items could not be established (ten signs were seen to last one to three years); density figures overstate what a driver sees and the article reports only high-density stretches; the claim that drivers read the road as a cemetery rests on comments and density, not on measurement. Coordinates were recorded (partly from Yandex and Google maps), but the text read does not publish them per sign. The signs mark road deaths of 1965–2019, not the older customs on this plate. Full text read through a summary of the PDF at press.psu.ru, not line by line."
     },
     {
       "id": "filatova2026",
@@ -832,6 +832,21 @@
       "language": "Russian",
       "supports": "A resettled woman's recollection that, before the flooding of the Rybinsk reservoir, even recent cemetery burials were offered for transfer to anyone who wished it (to Topornya or elsewhere).",
       "limitation": "Read only in a search excerpt; the page itself could not be fetched, so the village, the year and the collection's title and date were not confirmed. One person's memory, not an official record; it shows that transfer was offered on request, not how many graves were moved or whether the offer was general."
+    },
+    {
+      "id": "matlin2022",
+      "kind": "article",
+      "author": "Matlin, M. G.",
+      "title": "Personalization and Anonymization of the Place of Death of a Person in an Accident (Using the Example of Federal Highways A 151, P 178, P 241) — Russian title not captured",
+      "title_en": "Personalization and Anonymization of the Place of Death of a Person in an Accident (Using the Example of Federal Highways A 151, P 178, P 241)",
+      "year": "2022",
+      "publisher": "Etnicheskaya kultura (Ethnic Culture), vol. 4, no. 4",
+      "extent": "pp. 51–57",
+      "url": "https://doi.org/10.31483/r-103766",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "From the abstract: signs that give no information about the dead make up 19% of all signs on R 241, 33% on A 151 and 50% on R 178; the author links the higher shares to flowerpots, gazebos and fences without plates, and to old metal signs that have lost photographs and plates.",
+      "limitation": "Abstract only (DOAJ record); the article was not read. The percentages and the explanation are the author's, and the abstract does not give counts."
     }
   ]
 }
