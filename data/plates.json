@@ -1802,7 +1802,8 @@
         "merridale2000",
         "etkind2013",
         "mk-malevich",
-        "vagankovo"
+        "vagankovo",
+        "mertsalova2013"
       ],
       "related": [
         "j",
@@ -1941,6 +1942,53 @@
           "size": "narrow",
           "mask": null,
           "state": null
+        },
+        {
+          "type": "register",
+          "kicker": "L / 08",
+          "heading": "Moscow: cemeteries removed, as a newspaper lists them",
+          "level": "documented",
+          "contested": false,
+          "colhead": [
+            "Cemetery",
+            "What the list says happened",
+            "Relocation of graves"
+          ],
+          "rows": [
+            [
+              "Simonov Monastery cemetery",
+              "liquidated by a decision of 1930; the ZIL culture centre now stands there",
+              "most of the dead not reburied"
+            ],
+            [
+              "Preobrazhenskoe",
+              "liquidated in 1931; remnants and one memorial of 1921 remain",
+              "graves mostly taken outside the city"
+            ],
+            [
+              "Lazarevskoe (Maryina Roshcha)",
+              "burials stopped in the early 1930s; reorganised in 1932; a children’s park now",
+              "only a small part moved"
+            ],
+            [
+              "Dorogomilovskoe",
+              "relatives offered reburial from the early 1940s; remaining graves removed in 1948; an office centre now",
+              "number moved not stated"
+            ],
+            [
+              "Mazilovskoe",
+              "liquidation decided in 1962; housing and a metro station area now",
+              "not stated"
+            ],
+            [
+              "Bratskoe (Peschanaya)",
+              "opened 1915 for First World War dead, closed to burials 1925; a park from 1932",
+              "not stated"
+            ]
+          ],
+          "sources": [
+            "mertsalova2013"
+          ]
         }
       ],
       "volume": "IV"

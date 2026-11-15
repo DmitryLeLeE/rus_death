@@ -991,6 +991,20 @@
       "language": "Russian",
       "supports": "Fedosova (1827–1899), lamenter of the Zaonezhye; Chistov’s long study of her; Agreneva-Slavianskaia’s additional recordings.",
       "limitation": "Abstract and excerpts read; dates differ in some reference works (1827 vs 1831)."
+    },
+    {
+      "id": "mertsalova2013",
+      "kind": "web",
+      "author": "Mertsalova, A.",
+      "title": "12 мест в Москве, на которых раньше были кладбища",
+      "title_en": "12 places in Moscow where cemeteries used to be",
+      "year": "2013",
+      "publisher": "Argumenty i Fakty (aif.ru), 4 February 2013",
+      "url": "https://aif.ru/realty/city/12_mest_v_moskve_na_kotoryh_ranshe_byli_kladbischa",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "A newspaper list of Moscow cemeteries liquidated in the 20th century, with the year of the decision, what stands on the site now and, for some, whether graves were moved (Dorogomilovskoe, Simonov Monastery, Lazarevskoe, Mazilovskoe, Bratskoe and others).",
+      "limitation": "Journalism. No archive or file is cited for any decision or date; relocation is stated only for some entries and left unstated for others, which does not mean nothing was moved."
     }
   ]
 }
