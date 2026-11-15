@@ -49,6 +49,7 @@ export const KEY = {
   r: "pechory-cave-church-faded",
   s: "kustodiev-domovoi-faded",
   t: "makovsky-rusalki-faded",
+  u: "arkhipov-radonitsa-cut",
 };
 
 export const LAYOUT = {

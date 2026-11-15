@@ -681,6 +681,51 @@
       "language": "English",
       "supports": "Only the abstract: the Slavic vampire myth traced to pre-Orthodox belief became a literary device in Russian writing from the 18th century onward.",
       "limitation": "Abstract only; the thesis was not read. It is used for one statement, that the literary vampire is a later device, and for nothing about field belief."
+    },
+    {
+      "id": "gumerov2012",
+      "kind": "web",
+      "author": "Hieromonk Job (Gumerov)",
+      "title": "Why are the Dead Commemorated on Saturdays?",
+      "title_en": "",
+      "year": "2012",
+      "publisher": "Pravoslavie.ru (English translation by OrthoChristian.com), 10 March 2012",
+      "extent": "",
+      "url": "https://pravoslavie.ru/52107.html",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "The Church’s own account of its Saturdays of commemoration: Meat Fare Saturday, the second, third and fourth Saturdays of Great Lent, Trinity Saturday and St. Demetrius Saturday; the reasons given for Saturday; the origin given for Demetrius Saturday after the battle of Kulikovo (1380).",
+      "limitation": "A church instructional text, not a historical study: it states what the Church holds and gives its own dates of institution without footnotes. It says nothing of Radonitsa, Semik or village practice."
+    },
+    {
+      "id": "maltsev2020",
+      "kind": "article",
+      "author": "Maltsev, G. I.",
+      "title": "Пермяцкие поминки и поминовения умерших не своей смертью у коми-пермяков",
+      "title_en": "Permyak memorial rituals and commemorations of those who died an unnatural death among the Komi-Permyaks",
+      "year": "2020",
+      "publisher": "Finno-Ugric studies journal (Udmurt State University), vol. 14, no. 2",
+      "extent": "pp. 279–283",
+      "url": "https://doi.org/10.35634/2224-9443-2020-14-2-279-283",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Commemoration days among the Komi-Permyaks (Radonitsa, Semik, Trinity Saturday, Pokrov and Dmitrievskaya Saturdays); the statement that Semik is absent from the Orthodox calendar, with priests absent from it in the late 19th century and present from the early 20th; the report, after Zelenin, that those dead by unnatural death were commemorated at Semik; a gradual move of that commemoration to funeral Saturdays.",
+      "limitation": "Komi-Permyak, not Russian material, and used only as a regional comparison. Four recordings of the author (1995–2016), one named informant each. The journal title was not given in the text read, and the year and issue are taken from the DOI. The conclusion is hedged by the author."
+    },
+    {
+      "id": "chesnokova-cemetery",
+      "kind": "article",
+      "author": "Chesnokova, E. G.",
+      "title": "Cemetery in the Context of the Contemporary Calendar Holiday",
+      "title_en": "",
+      "year": "n.d.",
+      "publisher": "Almanac (Institute of Ethnology and Anthropology, RAS)",
+      "extent": "",
+      "url": "https://www.trad-culture.ru/en/article/cemetery-context-contemporary-calendar-holiday-0",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "Fieldwork of 2016–2017 in the Kostroma and Vladimir regions: the main commemoration falls in the Easter or the Trinity period according to regional zones; one day of that period holds the main cemetery rites; the structure of that day; family and social character; a held or growing importance.",
+      "limitation": "Year, volume and pages are not stated on the page read; the day itself is not named in the abstract. Respondent and record counts are not given. Read as a web abstract, not in full."
     }
   ]
 }

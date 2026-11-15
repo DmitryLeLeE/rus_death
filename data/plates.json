@@ -3016,6 +3016,181 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u",
+      "letter": "U",
+      "slug": "calendar-of-the-dead",
+      "nav": "Calendar of the Dead",
+      "title": "THE CALENDAR OF THE DEAD",
+      "subtitle": "Church Saturdays, a Thursday the Church lacks and a cemetery day today",
+      "dek": "A table of who named which day of commemoration, with the church account kept apart from regional and field records, and the question of origin left open.",
+      "marginal": "One church text, one Komi-Permyak comparison, one 2016–17 field study. The pagan-origin story is not used.",
+      "period": "Church account; 1995–2016 recordings; fieldwork 2016–2017",
+      "location": "Church calendar; Komi-Permyak districts; Kostroma and Vladimir regions",
+      "tradition": "Orthodox church calendar and regional folk practice",
+      "category": "ritual",
+      "layout": "vanished",
+      "tone": "dark",
+      "sources": [
+        "gumerov2012",
+        "maltsev2020",
+        "chesnokova-cemetery"
+      ],
+      "related": [
+        "c",
+        "t",
+        "f"
+      ],
+      "concepts": [
+        "memory",
+        "return"
+      ],
+      "objects": [],
+      "places": [],
+      "volume": "III",
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "U / 01",
+          "heading": "The Church’s own list",
+          "level": "documented",
+          "sources": [
+            "gumerov2012"
+          ],
+          "paras": [
+            "In a church instructional text, Hieromonk Job (Gumerov) names the Saturdays on which the Church commemorates the dead: Meat Fare Saturday, the second, third and fourth Saturdays of Great Lent, Trinity Saturday and St. Demetrius Saturday. He explains the choice of Saturday by its place as the day of rest, and says the Lenten Saturdays stand in for the daily memorial services that are suspended during the fast.",
+            "He gives St. Demetrius Saturday a precise origin: it was set up after the battle of Kulikovo in 1380, with the blessing of Sergius of Radonezh, first for the soldiers who fell and later for all the departed. This is the Church’s account of itself, written by a churchman; it is evidence for what the Church holds, not for what a village did."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "U / 02",
+          "heading": "A day the church calendar does not have",
+          "level": "documented",
+          "sources": [
+            "maltsev2020"
+          ],
+          "paras": [
+            "G. I. Maltsev records the commemoration days of the Komi-Permyaks: Radonitsa, Semik, Trinity Saturday, and the Saturdays before Pokrov and St. Demetrius. He writes that Semik, the Thursday of the seventh week after Easter, is absent from the Orthodox calendar, that priests took no part in it in the late nineteenth century and did from the early twentieth. After Zelenin he reports that those dead by unnatural death were commemorated at Semik, and quotes a Kungur saying that they are deaf and blind except on that day.",
+            "He also describes a slow move: the Permyaks began to hold this commemoration on the Saturdays of general remembrance, reasoning that prayers would be heard better then. His material is four recordings by one researcher, from a people who are not Russian. The plate uses it only as a regional comparison for a pattern that Russian sources describe."
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "arkhipov-radonitsa",
+          "alt": "Villagers, mostly women, sit on the ground in a sunlit churchyard; a white pillar stands in the foreground, graves and a small chapel behind",
+          "caption": "Arkhipov, Radonitsa: women sitting among the graves of a churchyard. A painting of the day the plate’s table names.",
+          "credit": "Abram Arkhipov, public domain; via Wikimedia Commons",
+          "level": "documented",
+          "size": "wide"
+        },
+        {
+          "type": "prose",
+          "kicker": "U / 03",
+          "heading": "A cemetery day, 2016–2017",
+          "level": "documented",
+          "sources": [
+            "chesnokova-cemetery"
+          ],
+          "paras": [
+            "E. G. Chesnokova’s fieldwork in the Kostroma and Vladimir regions found the main cemetery commemoration falling in either the Easter or the Trinity period, and she says this follows regional zones. Within the period one day carries the main rites, and she divides it into a preparation, a meeting of relatives at the cemetery, a walk among the graves, commemoration at the grave, and a continuation at home.",
+            "She finds these days both family occasions and social ones, with their importance held or growing, and says collective commemoration repairs ties weakened by distance and broken family traditions. The abstract does not name the day, and the counts of respondents are not given."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "U / 04",
+          "heading": "Which day, whose calendar, by which source",
+          "colhead": [
+            "Day",
+            "Where it stands",
+            "Source and status"
+          ],
+          "rows": [
+            [
+              "Meat Fare Saturday",
+              "Church; universal commemoration",
+              "Gumerov; the Church’s own account"
+            ],
+            [
+              "Second, third, fourth Saturdays of Great Lent",
+              "Church; stand in for suspended daily services",
+              "Gumerov; the Church’s own account"
+            ],
+            [
+              "Radonitsa",
+              "Listed among Komi-Permyak days; not treated in Gumerov",
+              "Maltsev; regional comparison"
+            ],
+            [
+              "Semik",
+              "Absent from the Orthodox calendar; priests from the early 20th century",
+              "Maltsev; Komi-Permyak, four recordings"
+            ],
+            [
+              "Trinity Saturday",
+              "Church; universal; also a Permyak day",
+              "Gumerov; Maltsev"
+            ],
+            [
+              "St. Demetrius Saturday",
+              "Church; after Kulikovo, 1380",
+              "Gumerov; the Church’s own account"
+            ],
+            [
+              "Saturday before Pokrov",
+              "Listed among Komi-Permyak days",
+              "Maltsev; regional comparison"
+            ],
+            [
+              "Easter or Trinity period, main cemetery day",
+              "Follows regional zones in Kostroma and Vladimir",
+              "Chesnokova; fieldwork 2016–2017"
+            ]
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "U / 05",
+          "heading": "What the three sources do not settle",
+          "level": "interpretation",
+          "contested": true,
+          "sources": [
+            "gumerov2012",
+            "maltsev2020",
+            "chesnokova-cemetery"
+          ],
+          "paras": [
+            "The sources do not say where the folk days came from. A common account makes Radonitsa and Semik pagan spring feasts of the dead that the Church absorbed, but none of the three read here supports or refutes that, and the one popular essay on the subject that came up in searching was not used. What they show is narrower: two calendars that overlap, one the Church’s and one regional, and a regional practice that was moved toward the Church’s Saturdays.",
+            "The atlas therefore marks the origin question as contested and leaves it open. The calendar here is a table of who named which day, not a history of how the days arose."
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "What this plate does not say",
+          "level": "interpretation",
+          "items": [
+            "It gives no dates for any year; the days move with Easter and the sources do not.",
+            "It does not describe Russian village practice before the twentieth century. The Russian field evidence read is from 2016–2017; the older evidence is Komi-Permyak and four recordings.",
+            "It does not treat Belarusian Dziady, Slavic rusalia, Maslenitsa or the Chuvash Simēk, which need their own sources.",
+            "It does not repeat dates and customs found only on popular sites."
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Research leads",
+          "heading": "What would turn this plate into a study",
+          "level": "interpretation",
+          "items": [
+            "Zelenin’s account of Semik and the commemoration of the unnatural dead, read in the 1995 edition.",
+            "E. Iagafova, ‘Simēk in Modern Chuvash Ritual Culture’ (Journal of Ethnology and Folkloristics, 2020, open access), as a comparative study of a semik-type rite.",
+            "Chesnokova’s full text, to learn which day she means and where her zones fall.",
+            "A source for the claim, seen only on popular sites, that the word Radonitsa is attested from the 14th century."
+          ]
+        }
+      ]
     }
   ]
 }

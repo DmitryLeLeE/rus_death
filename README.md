@@ -5,7 +5,7 @@
 <a href="https://DmitryLeLeE.github.io/rus_death/"><img src="social.jpg" alt="ARCHÆOLOGY OF RUSSIAN DEATH: a roofed grave cross and a sleigh with a coffin, black and white, on torn paper"></a>
 
 **An atlas of death, memory, ritual and the afterlife in Russian culture.**
-Twenty plates in three volumes so far (Volume I complete, Volumes II and III begun), a map, a chronology, a lexicon and a bibliography, in English and Russian. The other plates of the atlas are listed on the [volumes page](https://DmitryLeLeE.github.io/rus_death/volumes.html) as research leads until their sources are checked.
+Twenty-one plates in three volumes so far (Volume I complete, Volumes II and III begun), a map, a chronology, a lexicon and a bibliography, in English and Russian. The other plates of the atlas are listed on the [volumes page](https://DmitryLeLeE.github.io/rus_death/volumes.html) as research leads until their sources are checked.
 
 **Read it:** <https://DmitryLeLeE.github.io/rus_death/> · **По-русски:** <https://DmitryLeLeE.github.io/rus_death/ru/>
 
@@ -54,7 +54,7 @@ There is a *Readable* button in the header (calm paper, no tilt, larger type) an
 
 <a href="https://DmitryLeLeE.github.io/rus_death/ru/"><img src="social-ru.jpg" alt="АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ: крест под крышей и сани с гробом, чёрно-белые, на рваной бумаге"></a>
 
-«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать листов, карта, хронология, словарь и библиография. Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
+«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать один лист, карта, хронология, словарь и библиография. Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
 
 ## Run and rebuild
 

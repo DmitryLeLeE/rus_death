@@ -2,6 +2,7 @@
 
 ## Unreleased — Russian Chthonic Atlas
 
+- Plate U, *The Calendar of the Dead* (Vol. III): a table of who named which commemoration day — the Church's own account, a Komi-Permyak comparison and a 2016–17 Kostroma/Vladimir field study — with the question of origin marked contested and left open. Three new sources.
 - Plate T, *The Unquiet Dead* (Vol. III): impure dead of the Belarusian-Russian borderland, Zelenin's term set apart from informants' words, a church-history dissent marked contested (abstract only), the literary vampire kept out. Four new sources, one Makovsky painting.
 - Plate S, *Household Spirits* (Vol. III): the domovoy read as an ancestor, set against two regional studies and a student survey, with the bannik and kikimora kept out of that story; marked contested. Two new sources, one lead-only portal source, one Kustodiev painting. Volume III now begun.
 - Plate R, *The Underground* (Vol. II): the burial caves of the Pskov-Caves Monastery, the 2023 muon survey and the Izborsk tunnel legend, with four new sources and one photograph. Volume II no longer lists R as a research lead.
