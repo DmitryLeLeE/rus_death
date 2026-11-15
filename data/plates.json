@@ -1897,7 +1897,7 @@
       "nav": "The Empty House",
       "title": "THE EMPTY HOUSE",
       "subtitle": "What the rite does to a house, and what the census says about empty ones",
-      "dek": "In the Eastern Slavic funeral material the house takes part in a death: its windows are opened, its boundaries are said to break. Decades later the state counts villages with no one in them. The two bodies of evidence are different, and this plate keeps them apart.",
+      "dek": "The plate has four parts. Part I: the house at a death. Part II: the coffin as a house. Part III: the state’s count of villages with no one in them. Part IV: what the three can and cannot say together, which is less than the title suggests.",
       "marginal": "The ritual sources describe houses in which someone has died. The census counts villages in which no one lives. Nothing in the sources used here links the two, so the plate does not.",
       "period": "Recorded 19th–20th centuries; census figures 2002–2010",
       "location": "Eastern Slavic traditions (corpus partly outside Russia); Russian Federation (census)",
@@ -1939,7 +1939,7 @@
       "sections": [
         {
           "type": "prose",
-          "kicker": "M / 01",
+          "kicker": "PART I · THE HOUSE AT A DEATH",
           "heading": "A house that has been broken",
           "level": "interpretation",
           "sources": [
@@ -1962,7 +1962,7 @@
         },
         {
           "type": "prose",
-          "kicker": "M / 02",
+          "kicker": "PART I · THE WINDOW",
           "heading": "The window",
           "level": "interpretation",
           "sources": [
@@ -1975,7 +1975,7 @@
         },
         {
           "type": "prose",
-          "kicker": "M / 03",
+          "kicker": "PART II · THE COFFIN AS A HOUSE",
           "heading": "The coffin as a house",
           "level": "interpretation",
           "sources": [
@@ -1988,7 +1988,7 @@
         },
         {
           "type": "register",
-          "kicker": "M / 04",
+          "kicker": "PART III · THE UNINHABITED VILLAGE",
           "heading": "Counting the empty village",
           "colhead": [
             "Report",
@@ -2039,6 +2039,57 @@
           "credit": "Rakoon / Wikimedia Commons, CC0",
           "level": "documented",
           "size": "narrow"
+        },
+        {
+          "type": "register",
+          "kicker": "PART IV · WHAT THE PARTS CAN AND CANNOT SAY",
+          "heading": "Four bodies of evidence, kept apart",
+          "colhead": [
+            "Part",
+            "Evidence",
+            "Corpus",
+            "What it can show",
+            "What it cannot show"
+          ],
+          "rows": [
+            [
+              "I. The house at a death",
+              "Andryunina (abstract); Lewkijewskaja (abstract)",
+              "Ukrainian, Belarusian, western Russian, Polish; Eastern Slavs in general",
+              "That openings of the house were part of a death rite in these traditions",
+              "A single Russian custom; any one village"
+            ],
+            [
+              "II. The coffin as a house",
+              "Plotnikova (excerpt; record incomplete)",
+              "Slavic traditions in general",
+              "That coffin, grave and graveyard are read as a home of the dead",
+              "Which details are recorded for Russian regions"
+            ],
+            [
+              "III. The uninhabited village",
+              "TASS, OSW, RTE reports of the 2010 census",
+              "Russia, statistics, 2002–2010",
+              "That the state counted 19,400 villages with no registered residents",
+              "How many houses stand; what anyone believes about them"
+            ],
+            [
+              "IV. The link",
+              "None found",
+              "—",
+              "Nothing: no source read connects part III to parts I and II",
+              "That empty houses are treated as houses of the dead"
+            ]
+          ],
+          "level": "interpretation",
+          "sources": [
+            "andryunina-house",
+            "lewkijewskaja2004",
+            "plotnikova-loci",
+            "tass2011-census",
+            "osw2011-census",
+            "rte2011-villages"
+          ]
         },
         {
           "type": "note",
