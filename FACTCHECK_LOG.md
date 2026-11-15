@@ -58,3 +58,7 @@ Not checked in this pass: Kulikovo-era Dmitrov Saturday (1380, Church account), 
 ## 4. Counts
 
 Claims with a recorded status: not counted, because this pass did not assign a status to each claim. Corrections: 4 (Malevich; Zelenin origin; Barsov volumes; 1723 decree attribution). Chronology entries given a recorded result in the second pass: 9 of 34. Sources added in this pass: zelenin-preface, zelenin1916-contents, danilov2018, yugai2018.
+
+## 7. Plate F, unsourced sections (2026-11-15)
+- F / "The roof over the cross" (golubets): the claim that it is "one of the most distinctive grave forms recorded in the Russian North and in old cemeteries elsewhere" had no source. Result: INCORRECTLY STATED AS FACT, now removed. Rewritten to what a popular article supports (the form can still be seen in Russian cemeteries; the word also named a box beside the stove), with the limitation stated in the text. Source added: rambler-golubtsy (unsigned popular article; its pagan-origin claims not used). Section stays INTERPRETATION.
+- F / "Portraits on stone": left unsourced on purpose; it only states that no scholarly source for the chronology was found.

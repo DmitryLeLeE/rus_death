@@ -1266,6 +1266,20 @@
       "language": "Russian",
       "supports": "A decree of 12 April 1722 ordering tombstones lowered to ground level; a decree of 10 October 1723 on burial in towns.",
       "limitation": "Only a search snippet of the relevant passage was read; the full text was not read here."
+    },
+    {
+      "id": "rambler-golubtsy",
+      "kind": "popular article",
+      "author": "Kirillitsa (Rambler Weekend, unsigned)",
+      "title": "«Голубцы»: что так называли русские",
+      "title_en": "‘Golubtsy’: what the Russians called them",
+      "year": "n.d.",
+      "publisher": "weekend.rambler.ru",
+      "url": "https://weekend.rambler.ru/other/41891085-golubtsy-chto-tak-nazyvali-russkie/",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "That crosses under small roofs can still be seen in Russian cemeteries; that golubets also named a built-in box beside the stove in a peasant house (the article cites Dal for this).",
+      "limitation": "Popular article without a named author or references. It is used only for the existence of the form and the two meanings of the word; its claims about pagan origins were not used."
     }
   ]
 }

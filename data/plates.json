@@ -878,7 +878,8 @@
         "merridale2000",
         "tolstoy1995",
         "danilov2018",
-        "rozanov-moscow-cemeteries"
+        "rozanov-moscow-cemeteries",
+        "rambler-golubtsy"
       ],
       "related": [
         "b",
@@ -968,11 +969,14 @@
           "kicker": "F / 03",
           "heading": "The roof over the cross",
           "paras": [
-            "The *golubets* — a cross sheltered by a small gabled roof, sometimes enclosed as a little house — is one of the most distinctive grave forms recorded in the Russian North and in old cemeteries elsewhere. The roof protects the wood; it also makes the cross into a building, and the grave into a dwelling.",
-            "The atlas does not map its distribution. Published claims about the ‘northern’ range of the form rest on surveys this project has not consulted, and a photograph of one example is not a distribution."
+            "The *golubets* — a cross sheltered by a small gabled roof, sometimes enclosed as a little house — is a grave form that can still be seen in Russian cemeteries. The word had a second meaning, a built-in box beside the stove in a peasant house. The roof protects the wood; it also makes the cross into a building, and the grave into a dwelling.",
+            "The atlas does not map its distribution and does not call it typical of the North: published claims about a ‘northern’ range rest on surveys this project has not consulted, and a photograph of one example is not a distribution. The only source for the form and the word here is a popular article, which is why this section stays an interpretation."
           ],
           "level": "interpretation",
-          "editorial": true
+          "editorial": true,
+          "sources": [
+            "rambler-golubtsy"
+          ]
         },
         {
           "type": "figure",
