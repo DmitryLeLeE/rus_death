@@ -2614,6 +2614,19 @@
             "Russian-language studies of the road to the other world, read in full."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "nansen-kureika-graves",
+          "alt": "A black-and-white photograph of two weathered wooden crosses on a low overgrown mound under a birch, a wide river behind, and worn curved timbers lying in the grass in the foreground",
+          "caption": "Old graves in the forest of Kureika, Yenisei region, 8 September 1913. Photographed by Fridtjof Nansen on his Siberian journey: two long-abandoned graves with wooden crosses under birches at the edge of a river bluff, worn timbers in the foreground that Nansen reads as the remains of an old sledge. He tentatively took the dead person for a Yenisei Ostyak and read the sledge as laid on the grave so the dead could ride to the other world. Historical note: this is Nansen’s observation and interpretation of one burial site, not evidence of a general Ket or Russian funerary practice.",
+          "credit": "F. Nansen, Gjennem Sibirien, 1914 · National Library of Norway via Wikimedia Commons, public domain",
+          "level": "documented",
+          "at": {
+            "r": 6,
+            "c": "4/10",
+            "w": 78
+          }
         }
       ]
     },
@@ -2792,7 +2805,7 @@
           "type": "figure",
           "src": "pripyat-village-1882",
           "alt": "A nineteenth-century wood engraving of a thatched whitewashed house in a village beside a creek, a woman and a dog in the yard, a flat-bottomed boat at the right edge, birches with a stork’s nest behind",
-          "caption": "A village beside water in the Pinsk Polesye, as an 1882 wood engraving in Picturesque Russia (vol. 3, p. 345). It shows a settlement with a creek, a boat and a stork’s nest, not a ritual. The volume’s illustration list names Dmokhovsky; the block was not checked for a signature.",
+          "caption": "A village beside water in the Pinsk Polesye, as an 1882 wood engraving in Picturesque Russia (vol. 3, p. 345). The place is today in Belarus. It is comparative landscape material on a settlement among marshes, not evidence of Russian funerary rites. The illustration list names Dmokhovsky; the block was not checked for a signature.",
           "credit": "Живописная Россия, т. 3, 1882, с. 345 · Internet Archive, Public Domain Mark",
           "level": "contextual",
           "at": {
@@ -2805,7 +2818,7 @@
           "type": "figure",
           "src": "drained-marsh-1882",
           "alt": "A nineteenth-century wood engraving of a straight embanked road with two wooden railed bridges over cross-channels, two carts, a walker with a basket and a resting group, flat meadow with haystacks and a dark forest beyond",
-          "caption": "‘Осушенные болота’, drained marshes, an 1882 wood engraving from the same volume (p. 353): an embanked road, two bridges and cut channels across flat meadow. It records drainage as drawn then; the caption names no marsh and neither does the atlas.",
+          "caption": "‘Осушенные болота’, drained marshes, an 1882 wood engraving from the same volume (p. 353): an embanked road, two bridges and cut channels across flat meadow. The caption names no marsh and neither does the atlas; the Pripyat valley chapter it illustrates lies today in Belarus. Comparative landscape material, not evidence of Russian funerary rites.",
           "credit": "Живописная Россия, т. 3, 1882, с. 353 · Internet Archive, Public Domain Mark",
           "level": "contextual",
           "size": "wide",

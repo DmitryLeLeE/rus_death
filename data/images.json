@@ -2291,7 +2291,7 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://archive.org/details/3.-.-1-2-1882",
       "alt": "A nineteenth-century wood engraving of a thatched whitewashed house in a village beside a creek, a woman and a dog in the yard, a flat-bottomed boat at the right edge, birches with a stork’s nest behind",
-      "note": "Cropped from the page scan of ‘Живописная Россия’, vol. 3, parts 1–2 (St Petersburg and Moscow: M. O. Wolf, 1882), p. 345, caption “Деревня близь Припети”, in the chapter on the Pripyat valley. The volume’s own list of illustrations, read from the OCR text, gives the artist as Dmokhovsky (OCR ‘Дмоховекаго’); the page itself was not checked for a signature, so the attribution is the list’s, not confirmed on the block. The record’s licence field is the Internet Archive’s Public Domain Mark. Shows a settlement beside water in the Pinsk Polesye, today Belarus; it is not a funeral or burial image."
+      "note": "Cropped from the page scan of ‘Живописная Россия’, vol. 3, parts 1–2 (St Petersburg and Moscow: M. O. Wolf, 1882), p. 345, caption “Деревня близь Припети”, in the chapter on the Pripyat valley. The volume’s own list of illustrations, read from the OCR text, gives the artist as Dmokhovsky (OCR ‘Дмоховекаго’); the page itself was not checked for a signature, so the attribution is the list’s, not confirmed on the block. The record’s licence field is the Internet Archive’s Public Domain Mark. Shows a settlement beside water in the Pinsk Polesye, today Belarus; it is not a funeral or burial image. Placed as comparative landscape material; the area is today in Belarus and the engraving is not evidence of Russian funerary rites."
     },
     {
       "id": "drained-marsh-1882",
@@ -2308,7 +2308,24 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://archive.org/details/3.-.-1-2-1882",
       "alt": "A nineteenth-century wood engraving of a straight embanked road with two wooden railed bridges over cross-channels, two carts, a walker with a basket and a resting group, flat meadow with haystacks and a dark forest beyond",
-      "note": "Cropped from the page scan of ‘Живописная Россия’, vol. 3, parts 1–2 (1882), p. 353, caption “Осушенные болота” (‘drained marshes’), in the chapter on the Pripyat valley. The artist is not named for this block in the part of the OCR list read, so none is given. The caption does not say which marsh or which drainage works; the atlas does not add that. A landscape of 1882 drainage, not a ritual or burial site."
+      "note": "Cropped from the page scan of ‘Живописная Россия’, vol. 3, parts 1–2 (1882), p. 353, caption “Осушенные болота” (‘drained marshes’), in the chapter on the Pripyat valley. The artist is not named for this block in the part of the OCR list read, so none is given. The caption does not say which marsh or which drainage works; the atlas does not add that. A landscape of 1882 drainage, not a ritual or burial site. Placed as comparative landscape material; the area is today in Belarus and the engraving is not evidence of Russian funerary rites."
+    },
+    {
+      "id": "nansen-kureika-graves",
+      "file": "assets/images/nansen-kureika-graves.jpg",
+      "kind": "photograph",
+      "role": "archival",
+      "evidence": "documented",
+      "title": "Old native graves in the forest of Kureika (P201), 8 September 1913",
+      "creator": "Fridtjof Nansen",
+      "date": "1913-09-08 (book published 1914)",
+      "medium": "Halftone photograph from a printed book, reduced",
+      "collection": "National Library of Norway (digitised copy of Gjennem Sibirien, 1914, p. 386)",
+      "license": "Public domain (PD-old-70-1923, as set on Commons)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:P201_Old_native_graves_in_the_forest_of_Kureika.jpg",
+      "alt": "A black-and-white photograph of two weathered wooden crosses on a low overgrown mound under a birch, a wide river behind, and worn curved timbers lying in the grass in the foreground",
+      "note": "Commons record read through the Commons API on 2026-11-15: English caption “Old native graves in the forest of Kureika”, date 1913-09-08, credited to Nansen, source Gjennem Sibirien (Kristiania, 1914). The record quotes the Russian edition (1915, p. 177): a path led to two wooden crosses under birches at the edge of a bluff; long-abandoned graves overgrown with birch scrub; remains of old sledges on one, suggesting someone of the native peoples, most likely a Yenisei Ostyak; a sledge is laid on a grave so the dead can ride to the other world. This is Nansen’s own reading of one site. Commons files it under Ket people; the atlas does not treat it as a Ket or Russian rule. Graves only, no remains shown, so no 18+ gate."
     }
   ]
 }
