@@ -499,12 +499,40 @@ function placeItem(plate, it, i, base) {
 </section>`;
 }
 
+// "flow" layout: sections keep their data order; figures pair with the preceding unpaired prose on the opposite side.
+function flowLayout(p) {
+  const prose = [{ c: "1/8", m: "l", mat: "newsprint", w: 94, rot: -0.5 }, { c: "6/13", m: "r", mat: "plaster", w: 92, rot: 0.8 }, { c: "2/9", m: "c", mat: "linen", w: 94, rot: 0.5 }, { c: "2/12", m: "c", mat: "manila", w: 100, rot: -0.3 }, { c: "7/13", m: "r", mat: "soot", w: 90, rot: 0.9 }, { c: "1/7", m: "l", mat: "newsprint", w: 90, rot: -0.7 }];
+  const items = [];
+  let row = 0, pi = 0, open = null; // open = prose item with no figure yet
+  p.sections.forEach((s, i) => {
+    if (s.hidden) return;
+    if (s.type === "figure") {
+      const wide = s.size === "wide";
+      if (open && !wide) {
+        const left = open.m === "l" || open.m === "c" && open.c.startsWith("2/");
+        items.push({ s: i, r: open.r, c: left ? "8/13" : "1/6", y: 70, rot: left ? 0.9 : -0.8, w: 96, m: left ? "r" : "l", tape: left ? "tr" : "tl" });
+        open = null;
+      } else {
+        row += 1; open = null;
+        items.push({ s: i, r: row, c: wide ? "2/12" : pi % 2 ? "1/7" : "7/13", y: 20, rot: pi % 2 ? -0.5 : 0.6, w: 96, m: wide ? "c" : pi % 2 ? "l" : "r", tape: "tl" });
+      }
+    } else {
+      const t = prose[pi++ % prose.length];
+      row += 1;
+      const it = { s: i, r: row, y: 20, ...t };
+      items.push(it);
+      open = s.type === "prose" ? it : null;
+    }
+  });
+  return { ground: "soot", items };
+}
+
 function renderPlate(p) {
   const base = "../";
   const idx = plates.plates.indexOf(p);
   const prev = plates.plates[idx - 1] || null;
   const next = plates.plates[idx + 1] || null;
-  const lay = LAYOUT[p.layout];
+  const lay = p.layout === "flow" ? flowLayout(p) : LAYOUT[p.layout];
   const placed = new Set(lay.items.filter((i) => i.s !== undefined).map((i) => i.s));
   const items = lay.items.slice();
   const maxRow = Math.max(...lay.items.map((i) => i.r || 1));

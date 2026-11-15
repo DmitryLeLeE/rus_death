@@ -2613,7 +2613,7 @@
       "location": "Rybinsk Reservoir (Yaroslavl, Vologda and Tver oblasts); Russian Federation (census)",
       "tradition": "Soviet infrastructure and rural depopulation",
       "category": "village",
-      "layout": "vanished",
+      "layout": "flow",
       "tone": "dark",
       "sources": [
         "filatova2026",
@@ -2687,6 +2687,23 @@
           "credit": "Unknown photographer / Wikimedia Commons, public domain",
           "level": "documented",
           "size": "wide"
+        },
+        {
+          "type": "figure",
+          "src": "kalyazin-belltower",
+          "alt": "A tall white belltower rising from a small spit of land in open water under a heavy grey sky, with a low shoreline behind it",
+          "caption": "The belltower of St Nicholas Cathedral in Kalyazin, Tver Oblast, standing in the water of the Uglich Reservoir, 7 September 2012. Photograph: Vladimir Pakhomov, CC BY-SA 3.0, via Wikimedia Commons. It is a different reservoir and a different town from Mologa and the Rybinsk Reservoir; it is shown as a sight a flooding leaves behind, not as evidence about Mologa.",
+          "credit": "V. Pakhomov / Wikimedia Commons, CC BY-SA 3.0",
+          "level": "documented"
+        },
+        {
+          "type": "figure",
+          "src": "mologa-sentinel-2021",
+          "alt": "A satellite view of brown-grey water with a pale elongated strip of land and a stamped date in the middle",
+          "caption": "The place of Mologa seen from a Sentinel satellite, image stamped 11 October 2021. Contains modified Copernicus Sentinel data 2021, via Sentinel Hub Playground and Wikimedia Commons. The Commons file only says ‘Place of Mologa city as seen from space’; the atlas does not interpret the shapes.",
+          "credit": "Contains modified Copernicus Sentinel data 2021 / ESA, via Wikimedia Commons",
+          "level": "documented",
+          "size": "narrow"
         },
         {
           "type": "prose",
@@ -2788,7 +2805,7 @@
       "location": "Pechory, Pskov Oblast, Russian Federation",
       "tradition": "Orthodox monastic burial",
       "category": "village",
-      "layout": "vanished",
+      "layout": "flow",
       "tone": "dark",
       "sources": [
         "azbyka-pechory",
@@ -2844,6 +2861,24 @@
           "credit": "Macuser / Wikimedia Commons, CC BY-SA 3.0",
           "level": "unverified",
           "size": "wide"
+        },
+        {
+          "type": "figure",
+          "src": "pechory-epitaph",
+          "alt": "A whitewashed cave wall with an oval recess holding a weathered stone slab covered in lines of old Church Slavonic script",
+          "caption": "A weathered inscribed slab set in a recess in a cave wall at the Pskov-Caves Monastery, July 2026. Photograph: Aleksandr Sigachyov, CC0, via Wikimedia Commons. The Commons file gives no description beyond the place; the inscription has not been read for this atlas.",
+          "credit": "A. Sigachyov / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "tall"
+        },
+        {
+          "type": "figure",
+          "src": "pechory-niches",
+          "alt": "A whitewashed cave passage with two arched niches holding slabs, a lit candle on a brass stand, an icon on the wall and a raised place draped in green cloth",
+          "caption": "A passage in the caves of the Pskov-Caves Monastery, July 2026: two niches with inscribed slabs, a lit candle, an icon and a raised place under green cloth. Photograph: Aleksandr Sigachyov, CC0, via Wikimedia Commons. The covered place shows no remains.",
+          "credit": "A. Sigachyov / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "tall"
         },
         {
           "type": "prose",

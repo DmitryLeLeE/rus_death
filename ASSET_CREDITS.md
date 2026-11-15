@@ -119,6 +119,10 @@ Downloaded: **2026-11-15**. Licence names and URLs are copied from the holding r
 | `assets/derived/keret-graves-faded.webp` | Graves in an abandoned cemetery, Sredny Island, Keret Archipelago (2023) — faded print with scanner banding | Derivative made for this atlas from the original by Cornussuec | 2026 | CC0 1.0 (derived) | https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%8B_%D0%BD%D0%B0_%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC_%D0%BA%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B5.jpg |
 | `assets/derived/mamayev-news.webp` | Mamayev Kurgan, Volgograd — the slope — newsprint dither | Derivative made for this atlas from the original by Redboston | 2026 | CC BY-SA 4.0 (derived) | https://commons.wikimedia.org/wiki/File:Mamayev_Kurgan_2021-08-15.jpg |
 | `assets/illustrations/pskov-caves-plan.svg` | Plan of the caves in Pskov-Caves Monastery | Macuser | 2013-10-14 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Caves_in_Pskov-Caves_Monastery.svg |
+| `assets/images/pechory-epitaph.jpg` | Pskov-Caves Monastery: an inscribed slab set in a cave wall | Александр Сигачёв (Aleksandr Sigachyov) | 2026-07-28 (per Exif) | CC0 1.0 | https://commons.wikimedia.org/wiki/File:In_caves_of_the_Pechory_Monastery_(31330).jpg |
+| `assets/images/pechory-niches.jpg` | Pskov-Caves Monastery: wall niches with inscribed slabs, a lit candle and an icon | Александр Сигачёв (Aleksandr Sigachyov) | 2026-07-28 (per Exif) | CC0 1.0 | https://commons.wikimedia.org/wiki/File:In_caves_of_the_Pechory_Monastery_(31486).jpg |
+| `assets/images/kalyazin-belltower.jpg` | Kalyazin: the belltower of St Nicholas Cathedral standing in the Uglich Reservoir (2012) | Vladimir Pakhomov | 2012-09-07 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D1%8F_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%81%D0%BE%D0%B1%D0%BE%D1%80%D0%B0_-_panoramio.jpg |
+| `assets/images/mologa-sentinel-2021.jpg` | The place of Mologa seen from space (Sentinel, 11 October 2021) | ESA (Copernicus Sentinel data, via Sentinel Hub Playground) | 2021-09-21 (Commons date); image stamped 2021-10-11 | Contains modified Copernicus Sentinel data 2021 (free use with attribution) | https://commons.wikimedia.org/wiki/File:Mologa_2021-10-11_Sentinel.jpg |
 
 ### Notes per file
 
@@ -448,6 +452,18 @@ Licence: CC BY-SA 4.0 (derived) (https://creativecommons.org/licenses/by-sa/4.0/
 
 **pskov-caves-plan** — Plan of the caves in Pskov-Caves Monastery. plan. Macuser, 2013-10-14. Vector drawing (SVG), cleaned of editor metadata for this atlas. Wikimedia Commons.
 Licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Contributor's schematic; no survey source stated on the file page. Only editor metadata and an empty Illustrator foreignObject were removed; geometry and labels are unchanged.
+
+**pechory-epitaph** — Pskov-Caves Monastery: an inscribed slab set in a cave wall. Photograph. Александр Сигачёв (Aleksandr Sigachyov), 2026-07-28 (per Exif). Photograph, reduced to 1920 px on the long side. Pechory, Pskov Oblast.
+Licence: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). Commons title ‘In caves of the Pechory Monastery (31330)’; the description is only ‘in caves of the Pechory Monastery’. The inscription has not been read for this atlas and is not translated.
+
+**pechory-niches** — Pskov-Caves Monastery: wall niches with inscribed slabs, a lit candle and an icon. Photograph. Александр Сигачёв (Aleksandr Sigachyov), 2026-07-28 (per Exif). Photograph, reduced to 1920 px on the long side. Pechory, Pskov Oblast.
+Licence: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). Commons title ‘In caves of the Pechory Monastery (31486)’. The draped raised place is covered; no remains are visible.
+
+**kalyazin-belltower** — Kalyazin: the belltower of St Nicholas Cathedral standing in the Uglich Reservoir (2012). Photograph. Vladimir Pakhomov, 2012-09-07. Photograph (Panoramio), reduced to 1920 px. Kalyazin, Tver Oblast.
+Licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Commons title ‘Колокольня Никольского собора’; the Commons description of a related 1997 file by another author calls it the belltower of a submerged church in the Uglich Reservoir. The reservoir here is the Uglich, not the Rybinsk.
+
+**mologa-sentinel-2021** — The place of Mologa seen from space (Sentinel, 11 October 2021). Photograph. ESA (Copernicus Sentinel data, via Sentinel Hub Playground), 2021-09-21 (Commons date); image stamped 2021-10-11. Satellite image, 658 × 749 px, as uploaded. Wikimedia Commons.
+Licence: Contains modified Copernicus Sentinel data 2021 (free use with attribution) (https://commons.wikimedia.org/wiki/File:Mologa_2021-10-11_Sentinel.jpg). Commons description: ‘Place of Mologa city as seen from space’. Commons gives two dates (upload 21 September 2021, stamp 11 October 2021). The atlas does not interpret the shapes in the image.
 
 ### Attribution required
 
