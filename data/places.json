@@ -615,6 +615,45 @@
       "sources": [
         "razova-belozersk"
       ]
+    },
+    {
+      "id": "butovo",
+      "name": "Butovo firing range (Moscow region)",
+      "region": "Russian Federation",
+      "marker": "butovo",
+      "lat": 55.55,
+      "lon": 37.57,
+      "status": "in-RF",
+      "summary": "Site of mass shootings of 1937–1938, counted from execution lists. Position approximate.",
+      "entries": [
+        "About 20,760 names known; other pages read give slightly different totals"
+      ],
+      "plates": [
+        "i"
+      ],
+      "sources": [
+        "martyr-butovo",
+        "bre-butovo"
+      ]
+    },
+    {
+      "id": "tomsk",
+      "name": "Tomsk",
+      "region": "Russian Federation",
+      "marker": "tomsk",
+      "lat": 56.5,
+      "lon": 84.97,
+      "status": "in-RF",
+      "summary": "Where the procession of portraits began on 9 May 2012, as reported by a news outlet.",
+      "entries": [
+        "Six thousand people with portraits of relatives, 9 May 2012"
+      ],
+      "plates": [
+        "i"
+      ],
+      "sources": [
+        "meduza2015-polk"
+      ]
     }
   ]
 }

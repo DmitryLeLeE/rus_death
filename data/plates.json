@@ -1351,7 +1351,10 @@
         "etkind2013",
         "mos-ru-unknown",
         "pmemorial",
-        "rusmuseum"
+        "rusmuseum",
+        "martyr-butovo",
+        "bre-butovo",
+        "meduza2015-polk"
       ],
       "related": [
         "f",
@@ -1374,7 +1377,9 @@
       "places": [
         "moscow",
         "st-petersburg",
-        "volgograd"
+        "volgograd",
+        "butovo",
+        "tomsk"
       ],
       "sections": [
         {
@@ -1508,6 +1513,32 @@
           "level": "documented",
           "size": "narrow",
           "mask": "torn-02"
+        },
+        {
+          "type": "prose",
+          "kicker": "I / 08",
+          "heading": "Butovo: a count with four numbers",
+          "level": "documented",
+          "contested": true,
+          "sources": [
+            "martyr-butovo",
+            "bre-butovo"
+          ],
+          "paras": [
+            "The Butovo firing range south of Moscow is the plate’s case of mass death that was administered, not suffered by accident. A memorial site run by the church says it is the largest place of mass shootings and burials of victims of Stalinist repression in the Moscow region, that 20,760 names are known, that the shootings fell between August 1937 and October 1938, and that the range worked from 1934 to 1953. The Great Russian Encyclopedia, read only in extract, gives about 20.8 thousand executed and buried in those months, of them 19.9 thousand men, over 80 per cent non-party. Other pages read give 20,761, 20,762 and 20,765. The atlas does not choose among them. The spread is small and the point is not arithmetic: the figure rests on execution lists and case files, so it exists because the state kept books, which is the reverse of the 1771 pit. No remains are shown."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "I / 09",
+          "heading": "The procession of portraits",
+          "level": "documented",
+          "sources": [
+            "meduza2015-polk"
+          ],
+          "paras": [
+            "Collective death is also remembered from below, and the best-documented recent case began in Siberia. According to Meduza, on 9 May 2012 six thousand people in Tomsk walked with portraits of their relatives who fought in the war; the form was taken up in about 140 places in 2013 and about 450 in 2014. The same article is mainly about a dispute over who owns the name and the procession, which this plate does not follow. What matters here is the object: a photograph carried on a stick through a city, one dead person to one living carrier. It is the opposite of the unknown soldier earlier on this plate, which merges many into one; here the many are kept apart, each with a face and a relative."
+          ]
         }
       ],
       "volume": "IV"

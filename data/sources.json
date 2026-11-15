@@ -1113,6 +1113,47 @@
       "language": "Russian",
       "supports": "The entry’s statement that the East Slavic funeral rite is on the whole uniform and stable, with local variation touching only surface levels, and that it includes cleansing and protective acts (mirrors covered, objects overturned, hands washed after the cemetery) and prohibitions.",
       "limitation": "Only the search extract was read, not the whole entry; the extract gives no author."
+    },
+    {
+      "id": "martyr-butovo",
+      "kind": "web",
+      "author": "Butovo Firing Range memorial (martyr.ru, church-run site)",
+      "title": "Butovo — booklet (English)",
+      "year": "n.d.",
+      "publisher": "martyr.ru",
+      "url": "https://martyr.ru/buklet/english",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "The site’s statement that Butovo is the largest place of mass shootings and burials of victims of Stalinist repression in the Moscow region, that 20,760 names are known, that the shootings fell between August 1937 and October 1938, and that the range operated from 1934 to 1953.",
+      "limitation": "A memorial site run by the church; the count is the site’s own and other pages read give 20,761, 20,762 and 20,765, which the atlas does not reconcile."
+    },
+    {
+      "id": "bre-butovo",
+      "kind": "web",
+      "author": "Great Russian Encyclopedia (entry author not read)",
+      "title": "Бутовский полигон",
+      "title_en": "Butovo firing range",
+      "year": "n.d.",
+      "publisher": "bigenc.ru",
+      "url": "https://bigenc.ru/c/butovskii-poligon-a7de44",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "About 20.8 thousand people executed and buried at Butovo from August 1937 to October 1938, of whom 19.9 thousand men, over 80% non-party, and over 2.5 thousand prisoners of Dmitlag.",
+      "limitation": "Only the search extract was read."
+    },
+    {
+      "id": "meduza2015-polk",
+      "kind": "web",
+      "author": "Meduza editors",
+      "title": "«Бессмертный полк» попал в окружение",
+      "title_en": "The Immortal Regiment got surrounded",
+      "year": "2015",
+      "publisher": "Meduza, 30 April 2015",
+      "url": "https://meduza.io/feature/2015/04/30/bessmertnyy-polk-popal-v-okruzhenie",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "On 9 May 2012 six thousand Tomsk residents walked with portraits of their relatives; the action reached about 140 places by 2013 and about 450 by 2014; a dispute over who controls the name.",
+      "limitation": "Journalism with a position on the dispute; only the opening of the article was read."
     }
   ]
 }
