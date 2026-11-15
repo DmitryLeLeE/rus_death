@@ -1148,6 +1148,19 @@
             "c": "7/12",
             "w": 100
           }
+        },
+        {
+          "type": "figure",
+          "src": "rogozhskoe-procession-1907",
+          "alt": "A black-and-white halftone of a dense crowd in a Moscow street under wooden houses, with banners, icons and a canopy held above the heads, and a printed caption beneath",
+          "caption": "Cross procession from the Rogozhskoye Old Believers’ cemetery to the village of Khokhlovka, Moscow, 1907, as printed in a magazine. The printed caption describes a thanksgiving service of 17 June in memory of deliverance from the hurricane of 1904. It is a procession, not a funeral: shown for what the cemetery did for its community above ground. The author is not known, and the caption was read from the digitised file, not the magazine.",
+          "credit": "Unknown photographer, 1907 · via PastVu and Wikimedia Commons, public domain (PD-Russia-expired)",
+          "level": "documented",
+          "at": {
+            "r": 12,
+            "c": "3/11",
+            "w": 100
+          }
         }
       ],
       "volume": "I"
@@ -3719,6 +3732,32 @@
             "c": "2/12",
             "w": 100
           }
+        },
+        {
+          "type": "figure",
+          "src": "peasant-interior-novgorod",
+          "alt": "A log room with embroidered towels hanging from a shelf and a beam, and a small framed icon in the upper left corner",
+          "caption": "Interior of a peasant house with embroidered towels and an icon, Veliky Novgorod, 2019. Context only: this plate’s sources do not put the domovoy in any corner of this room, and the picture shows how a house was furnished, not what was believed to live in it. The uploader calls it typical; the atlas does not.",
+          "credit": "Vidgestr, 2019 · Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "at": {
+            "r": 7,
+            "c": "1/7",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "kobona-banya",
+          "alt": "A small weathered log building with a corrugated-metal roof and a short chimney among trees, a utility pole in front",
+          "caption": "An old banya in the village of Kobona, Leningrad Oblast, July 2026. A photograph of a building, used as context for the bannik, whom the sources on this plate set among the dangerous spirits. No source here dates this banya or reports any belief about it.",
+          "credit": "Yekaterina Borisova, 2026 · Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "at": {
+            "r": 7,
+            "c": "7/13",
+            "w": 100
+          }
         }
       ]
     },
@@ -4858,6 +4897,19 @@
           "at": {
             "r": 6,
             "c": "1/13",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "qr-thorntons-congressional",
+          "alt": "A low whitewashed stone tomb and a taller weathered monument in a cemetery, with two small white QR-code tags on thin metal stakes in the soil",
+          "caption": "QR tags on stakes beside the graves of Ann and William Thornton, Congressional Cemetery, Washington, DC, 2012. A comparison from outside Russia, shown because the atlas has no verified Russian example: plate K lists QR codes on Russian headstones as an unverified research task.",
+          "credit": "Smallbones, 2012 · Wikimedia Commons, CC0 1.0",
+          "level": "interpretation",
+          "at": {
+            "r": 8,
+            "c": "3/11",
             "w": 100
           }
         }

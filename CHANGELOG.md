@@ -3,6 +3,7 @@
 ## Unreleased — Russian Chthonic Atlas
 
 - Illustration expansion and fact-check pass (2026-11-15). Plate F: five Estonian Old Believers' cemeteries (Estonian Heritage Board via Europeana, CC0, 400 px copies) as a present-day comparison from outside Russia; the golubets section rewritten to what its only source supports. Plate N: Nansen's 1913 photograph of old graves at Kureika. Plates G, H, D: three original editorial diagrams (structure of a lament, the forty days in two registers, the hot dinner as an account), EN and RU. Evidence status filled in for 13 images that lacked it.
+- Four more Commons photographs, each record re-read through the API: Rogozhskoye Old Believers’ procession, 1907 (F; a thanksgiving procession, not a funeral); a peasant interior and an old banya (S, context only); QR tags on graves in Washington (X, a comparison from outside Russia). Other verified candidates are listed in `IMAGE_ACQUISITION_REPORT.md` with the reason each was not placed.
 - Chronology, lexicon, object catalogue and routes checked against independent sources: the 1723 burial decree and the order on tombstones are now stated as disputed between sources (Rozanov added), the Barsov volume dates and two lexicon glosses corrected. Details and the list of what was not checked are in `FACTCHECK_LOG.md`.
 - `IMAGE_ACQUISITION_REPORT.md` (new): source-by-source record of the image search, including archives that were blocked and not bypassed. `build/make_visual_audit.py` regenerates `VISUAL_AUDIT.md`.
 - README rewritten for the 24-plate, four-volume edition.

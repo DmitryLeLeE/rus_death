@@ -87,3 +87,18 @@ Rule used throughout: an image counts as acquired only when its record, caption 
 - Plate H: added original diagram "The forty days, in two registers" (EN + RU). It is an ORIGINAL ILLUSTRATION, not an archival image; it only restates claims already sourced in plate H (Novaia Skrizhal’ 1803, Ivanits 1989, the azbyka article on the toll-houses). Toll-houses are deliberately not placed on the day line.
 - Evidence status was filled in for 13 images that had none (check_credits no longer reports "no evidence status").
 - Plates G and D: added two original diagrams (EN + RU): "The movement of a lament" (G; labelled RECONSTRUCTION, structure only, no lament text) and "The hot dinner as an account" (D; DOCUMENTED, restates the plate’s own text and confidence column). No new open-source photographs were found for G or D in this pass.
+
+### Update 2026-11-15 (user's list of finds; every Commons record re-read through the Commons API)
+**Placed (4):**
+- Plate F: cross procession from the Rogozhskoye Old Believers’ cemetery, 1907 (PD-Russia-expired as set on Commons; author unknown, from PastVu). The printed caption on the magazine page describes a thanksgiving service of 17 June in memory of deliverance from the 1904 hurricane, so it is labelled a procession, not a funeral. The caption was read from the digitised file, not the magazine.
+- Plate S: peasant-house interior, Veliky Novgorod, 2019 (CC BY-SA 4.0); old banya in Kobona, 2026 (CC BY-SA 4.0). Context only, no belief claimed for either.
+- Plate X: QR tags at the Thornton graves, Congressional Cemetery, Washington (CC0), labelled as a comparison from outside Russia. The list gave the title “QR Code on a Cenotaph”; the file used is `QR CC both Thorntons.JPG`, picked because its size matches the list and the tags are visible.
+
+**Already in the atlas, not re-added:** Plattonen funeral (G), Nansen at Kureika (N), the 1880 laid-out corpse (B, behind the 18+ gate).
+
+**Verified on Commons, downloaded and looked at, not placed** (no plate has a sourced place for them yet):
+- Chekhov’s funeral, Nikolaevsky station, 1904 (PD-RusEmpire); Tolstoy’s coffin carried out at Astapovo, 1910 (PD-Russia-1996, author unknown, State Historical Museum); Chapaev at his brother’s funeral, Balakovo, 1918 (PD-old-70, I. P. Zefirov); Karl Bulla, funeral of revolution victims on the Field of Mars, 1917 (CC BY 4.0, Finnish Heritage Agency; the file page carries a licence-review template, so check its status before use); banya at Mandrogy (CC BY-SA 4.0, an open-air museum); Old Believers’ house interior, Ulan-Ude (CC BY 2.0, a museum).
+- The Chapaev and Tolstoy pictures show a body in an open coffin, so each would need the 18+ gate. Plate I states that it uses no photographs of corpses, which rules out the Port Arthur stereograph (dead laid on the ground; PD via the Library of Congress copy on Commons) there; it would also need the gate elsewhere.
+- Nansen, “Mode of transporting a corpse through the taiga in the Amur country” (P452a, PD-old-70-1923): a body on a sledge; the list called its licence unconfirmed, but Commons sets PD-old-70-1923. Not placed: no plate discusses transport of the dead, and it would need the gate.
+- Rejected: Pskovo-Pechersky ledger. Commons gives the source as a 1974 book and applies PD-Art to a photograph of a three-dimensional ceramic tile, which is not clearly a flat reproduction; left out until the photographer and the basis are known.
+- Not obtained: Suistamo photographs, corpse boards (Finna, blocked by Cloudflare; not bypassed), and the Fedurino grave (no source given). Open next step: the same files may exist on Commons via the Finnish Heritage Agency; not searched yet.
