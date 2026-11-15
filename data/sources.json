@@ -1005,6 +1005,46 @@
       "language": "Russian",
       "supports": "A newspaper list of Moscow cemeteries liquidated in the 20th century, with the year of the decision, what stands on the site now and, for some, whether graves were moved (Dorogomilovskoe, Simonov Monastery, Lazarevskoe, Mazilovskoe, Bratskoe and others).",
       "limitation": "Journalism. No archive or file is cited for any decision or date; relocation is stated only for some entries and left unstated for others, which does not mean nothing was moved."
+    },
+    {
+      "id": "sokolova2020",
+      "kind": "article",
+      "author": "Sokolova, A. D.",
+      "title": "Крематорий-храм, или кремация в советском похоронном обряде 1920-х годов",
+      "title_en": "Crematorium-Temple, or Cremation in the Soviet Funeral Rite of the 1920s",
+      "year": "2020",
+      "publisher": "Vestnik antropologii, no. 1 (49), pp. 209–224",
+      "url": "https://journals.iea.ras.ru/vestantrop/article/download/94/77/155",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Cremation in the USSR as a civil authorities’ decision driven by sanitation; the first project (Petrograd) framed as a ‘Crematorium-Temple’ meant to create a needed spiritual mood; by the second half of the 1920s, when the Donskoy crematorium was built, the attitude to cremation as technology outweighed the quasi-religious framing.",
+      "limitation": "Abstract and opening paragraphs read; the article’s archival detail was not read."
+    },
+    {
+      "id": "guinness-nikolo",
+      "kind": "web",
+      "author": "Guinness World Records",
+      "title": "Largest crematorium",
+      "year": "n.d.",
+      "publisher": "guinnessworldrecords.com",
+      "url": "https://guinnessworldrecords.com/world-records/69135-largest-crematorium",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "Nikolo-Arkhangelsk Crematorium, east Moscow, completed March 1972: seven twin cremators and six halls of farewell, as the record entry describes it.",
+      "limitation": "A records entry, not a history; it gives no source for the figures."
+    },
+    {
+      "id": "coldwarsites-donskoy",
+      "kind": "web",
+      "author": "coldwarsites.net (editor not named)",
+      "title": "Donskoy Cemetery and Crematorium, Moscow",
+      "year": "n.d.",
+      "publisher": "coldwarsites.net",
+      "url": "https://coldwarsites.net/country/russia/donskoy-cemetery-and-crematorium-moscow/",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "The page’s statement that the Donskoy crematorium, built in 1927, was closed in 1973 and rebuilt as a church in 1990.",
+      "limitation": "A hobbyist site with no citations. Other pages read say the Donskoy crematorium was the only one in Moscow until the mid-1970s; the closing date is therefore unconfirmed."
     }
   ]
 }

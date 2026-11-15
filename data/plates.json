@@ -1630,7 +1630,10 @@
         "pravenc-nadgrobie",
         "vagankovo",
         "mos-ru-unknown",
-        "pmemorial"
+        "pmemorial",
+        "sokolova2020",
+        "guinness-nikolo",
+        "coldwarsites-donskoy"
       ],
       "related": [
         "i",
@@ -1779,6 +1782,21 @@
           "size": "wide",
           "mask": null,
           "state": null
+        },
+        {
+          "type": "prose",
+          "kicker": "K / 08",
+          "heading": "A temple of atheism, then a plant",
+          "level": "documented",
+          "contested": true,
+          "sources": [
+            "sokolova2020",
+            "guinness-nikolo",
+            "coldwarsites-donskoy"
+          ],
+          "paras": [
+            "A.D. Sokolova’s study of 1920s cremation argues that in the USSR the decision on disposing of the dead passed to the civil authorities, who started from sanitation. Even so, the first project, in Petrograd, was called a ‘Crematorium-Temple’ and aimed at creating a spiritual mood in the masses. By the second half of the decade, when the Donskoy crematorium was built in Moscow, her abstract says, the technology had come to matter more than the quasi-religious dress. The later history is thinner. A records entry describes the Nikolo-Arkhangelsk crematorium in east Moscow, completed in March 1972, with seven twin cremators and six halls of farewell. A hobbyist page says the Donskoy furnace closed in 1973 and was rebuilt as a church in 1990, while other pages read say it was the city’s only crematorium until the mid-1970s. The atlas keeps both statements and does not settle the date."
+          ]
         }
       ],
       "volume": "IV"
