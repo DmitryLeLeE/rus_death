@@ -863,7 +863,8 @@
         "vagankovo",
         "merridale2000",
         "tolstoy1995",
-        "danilov2018"
+        "danilov2018",
+        "rozanov-moscow-cemeteries"
       ],
       "related": [
         "b",
@@ -902,12 +903,13 @@
           "kicker": "F / 01",
           "heading": "The decree of 1723",
           "paras": [
-            "By a decree of Peter I dated 10 October 1723, burials inside towns were restricted — ‘except for notable persons’ — because the churchyards at churches and monasteries had become overcrowded. The same decree ordered the levelling of raised tombs and the replacement of relief images on shrines with painted ones.",
+            "By a decree of Peter I dated 10 October 1723, burials inside towns were restricted — ‘except for notable persons’ — because the churchyards at churches and monasteries had become overcrowded. Pravenc reports that the same decree ordered raised tombs levelled and relief images on shrines replaced with painted ones. A nineteenth-century account by N. P. Rozanov instead gives the order to lower tombstones to ground level to an earlier decree of 12 April 1722, and one academic article dates the burial decree 16 October, not 10 October. The atlas keeps 10 October as the date Pravenc and Rozanov give, and treats the tombstone order as unsettled.",
             "The measure did not last. After Peter’s death in 1725, churchyard burial resumed, and it took the catastrophe of 1771 to produce a durable change. In that year plague in Moscow killed in the tens of thousands, and the new cemetery at Vagankovo was founded to receive them; the first burials there were unnamed Muscovites."
           ],
           "level": "documented",
           "sources": [
             "pravenc-nadgrobie",
+            "rozanov-moscow-cemeteries",
             "vagankovo"
           ]
         },

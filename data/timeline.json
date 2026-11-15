@@ -40,13 +40,14 @@
       "era": "imperial",
       "kind": "policy",
       "title": "Peter I restricts burial inside towns",
-      "text": "A decree orders that the overcrowded churchyard cemeteries be moved outside the city, with an exception for ‘notable persons’, and orders raised tombs levelled. After Peter’s death the churchyard burial resumes; the measure is a precedent more than a settlement.",
+      "text": "A decree orders that the overcrowded churchyard cemeteries be moved outside the city, with an exception for ‘notable persons’. Pravenc adds that it ordered raised tombs levelled; Rozanov puts that order in an earlier decree of 12 April 1722, and another article dates the burial decree 16 October. The date given here is Pravenc’s and Rozanov’s. After Peter’s death the churchyard burial resumes; the measure is a precedent more than a settlement.",
       "plates": [
         "f",
         "k"
       ],
       "sources": [
-        "pravenc-nadgrobie"
+        "pravenc-nadgrobie",
+        "rozanov-moscow-cemeteries"
       ],
       "confidence": "documented"
     },
@@ -156,7 +157,7 @@
       "era": "imperial",
       "kind": "scholarship",
       "title": "Barsov publishes the northern laments",
-      "text": "Three volumes of funeral laments recorded in the Olonets region establish lament as a composed, performed genre with named performers and a repertoire. This is the moment the Russian lament becomes an archive.",
+      "text": "Three volumes of laments recorded in the Olonets region (funeral laments in 1872, recruit and soldier laments in 1882, wedding laments in 1886) establish lament as a composed, performed genre with named performers and a repertoire. This is the moment the Russian lament becomes an archive.",
       "plates": [
         "g"
       ],
@@ -260,7 +261,7 @@
         "mospravda-crematorium",
         "merridale2000"
       ],
-      "confidence": "documented (press account; archival check recommended)"
+      "confidence": "documented (press account; the opening in October 1927 is confirmed by several other sources, the 12 January date for the first cremation only by this account; archival check recommended)"
     },
     {
       "id": "t1929",

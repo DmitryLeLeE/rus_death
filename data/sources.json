@@ -1252,6 +1252,20 @@
       "language": "Russian",
       "supports": "Interview and narrative material from Vologda Oblast (Kaduy, Totma, Nikolsk, Belozersk and Vozhega districts; informants mostly women born in the 1920s–1940s): two kinds of lamenter, the paid specialist and the bereaved relative; hidden preparation behind an appearance of spontaneity; the lament’s role in moving the dead into the status of ancestor and in regulating grief; and the author’s contrast with Barsov’s 1872 reading.",
       "limitation": "Read through a fetched summary of the open-access PDF, not page by page. Vologda material only; the article does not speak for other regions. Its argument about Barsov is the author’s reading."
+    },
+    {
+      "id": "rozanov-moscow-cemeteries",
+      "kind": "reference",
+      "author": "N. P. Rozanov",
+      "title": "О московских городских кладбищах",
+      "title_en": "On Moscow city cemeteries",
+      "year": "nineteenth century (edition not established here)",
+      "publisher": "Online edition, azbyka.ru",
+      "url": "https://www.azbyka.ru/otechnik/Nikolaj-Pavlovich-Rozanov/o-moskovskih-gorodskih-kladbishhah/",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "A decree of 12 April 1722 ordering tombstones lowered to ground level; a decree of 10 October 1723 on burial in towns.",
+      "limitation": "Only a search snippet of the relevant passage was read; the full text was not read here."
     }
   ]
 }
