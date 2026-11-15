@@ -1063,6 +1063,71 @@
             "c": "8/13",
             "w": 84
           }
+        },
+        {
+          "type": "figure",
+          "src": "ee-oldbelievers-varnja",
+          "alt": "Wide shot of a grassy clearing among deciduous trees with a few scattered crosses and markers in the distance",
+          "caption": "Present-day comparison from outside Russia: Old Believers’ cemeteries in Estonia, from the Estonian register of cultural monuments. Varnja, Tartu County (no. 4264). The record gives no photographer or date.",
+          "credit": "Estonian National Heritage Board via Europeana, CC0",
+          "level": "documented",
+          "at": {
+            "r": 10,
+            "c": "1/5",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "ee-oldbelievers-piiri-border",
+          "alt": "Cemetery among tall birches: grave plots with low kerbs, stone slabs, a bench, and crosses on the right",
+          "caption": "Piiri, Piirissaare, Tartu County (no. 8410): crosses and stone slabs among birches.",
+          "credit": "Estonian National Heritage Board via Europeana, CC0",
+          "level": "documented",
+          "at": {
+            "r": 10,
+            "c": "5/9",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "ee-oldbelievers-kukita",
+          "alt": "Tall crosses, some of black iron, among flowering plots and pines, with open water on the horizon",
+          "caption": "Kükita, Jõgeva County (no. 5862): tall crosses, some of iron, with open water on the horizon.",
+          "credit": "Estonian National Heritage Board via Europeana, CC0",
+          "level": "documented",
+          "at": {
+            "r": 10,
+            "c": "9/13",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "ee-oldbelievers-tartu-roosi",
+          "alt": "Crosses and dark stone slabs in tall grass under large trees",
+          "caption": "Roosi street 44, Tartu (no. 4327): crosses and dark slabs under tall trees.",
+          "credit": "Estonian National Heritage Board via Europeana, CC0",
+          "level": "documented",
+          "at": {
+            "r": 11,
+            "c": "2/7",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "ee-oldbelievers-piiri-island",
+          "alt": "Flower beds in concrete kerbs, a cross in the middle, birches and pines behind",
+          "caption": "Piiri, on the island of Piirissaare (no. 8411): flower beds in concrete kerbs and a cross among birches and pines.",
+          "credit": "Estonian National Heritage Board via Europeana, CC0",
+          "level": "documented",
+          "at": {
+            "r": 11,
+            "c": "7/12",
+            "w": 100
+          }
         }
       ],
       "volume": "I"

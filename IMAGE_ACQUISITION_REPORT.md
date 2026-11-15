@@ -69,3 +69,16 @@ Rule used throughout: an image counts as acquired only when its record, caption 
 3. Written permission request to the Museum of Ethnography and Kunstkamera, after object-level search so the request names objects.
 4. LoC and Finna: retry later, or write to the institutions.
 5. NLR and RSL digital collections: search for ethnographic albums of the 1890s–1910s.
+
+## Update 2026-11-15 (later pass): open-source sweep
+
+**Acquired**
+- Plate N: Nansen, Old native graves in the forest of Kureika, 8 Sept 1913 (Commons, PD). Caption keeps Nansen's reading apart from the evidence.
+- Plate F: five Old Believers' cemeteries in Estonia (Estonian National Heritage Board register nos. 4264, 8410, 5862, 4327, 8411), rights CC0 1.0 in the Europeana records. Shown as present-day comparison outside Russia, level DOCUMENTED (the cemeteries exist; photographer and date are not given). **These are Europeana's cached 400 px copies**: the 800–900 px source files on register.muinas.ee sit behind a Cloudflare bot check and were not fetched or bypassed.
+
+**Checked and not acquired**
+- Picturesque Russia vol. 3 "Night in the Pripyat valley": landscape only, adds nothing to the funerary theme; not taken. "Pinsk marsh" is the engraving already used (another copy of the book, different leaf numbering).
+- Picturesque Russia vol. 5 (Little Russia) and vol. 10 (Central Asia): out of geographic scope by volume title; the captions "Shchekovitsa and cemetery" and "Tombs of the demons" were not opened. Vol. 12 "Siberian graves": no text says whose graves; not taken. Vols 4, 9, 11 were searched by caption only.
+- Finna: api.finna.fi is behind the same bot check (HTTP 403); not bypassed. Queries are documented in the Finna API wiki (online images, usage_rights filter) and can be run by a person in an ordinary browser.
+- NLR manuscripts catalogue (nlr.ru/manuscripts/RA1527): reachable; search form only, no API found. Site terms allow personal non-commercial use only, so no scans taken. Query "синодик" with "digital copy" ticked: 23 records, first 10 read (F.I.256, F.I.323, F.I.488, F.I.725, F.I.734, F.I.879, F.IV.561, Q.I.407, Q.I.1152, Вяз. F. 58); the other 13 were not read.
+- Europeana sweep (open reuse, images): "Russian funeral", "Siberia grave", "banya Russia", "Samoyed/Ostyak grave", "Pomor cross", "Karelia cemetery" returned nothing usable for the plates; "кладбище" returned 6164 mostly Jewish and Baltic cemeteries, not Russian rites.
