@@ -7,7 +7,7 @@ Started 2026-11-15, as part of the “Illustration expansion and historical fact
 Scanned for the brief’s generalising formulas (traditionally, throughout Russia, ancient Slavs, in Russian folklore, originated in pagan times, pre-Christian, pagan, always meant, universal, people believed, all the dead, never, always, everywhere, every, survival) in the English text of all 24 plates (prose, tables, captions) and in concepts, lexicon, method, objects, timeline, places, routes and prologue data.
 
 - Plates: 16 hits (pagan 5, universal 3, always 2, every 2, everywhere 2, pre-Christian 1, never 1). Each read in context.
-- Other data files: 7 hits (concepts 1, lexicon 1, method 3, objects 3 counting one duplicate).
+- Other data files: 7 hits (concepts 1, lexicon 1, method 3, objects 2, one of them printed twice by the scan).
 - Result: no unsupported generalisation of the kind the brief lists was found by this scan. In every plate hit the formula is either reported as an author’s argument and attributed (the pagan-survival reading on plates C, T, U, V), used inside a table as a limit (“not universal”, “cannot show … a name used everywhere”), used to mean Church-wide (Meat Fare and Trinity Saturdays, from Gumerov) or describes a source’s own method (Ryko, the Middle Volga highway survey).
 - This scan finds wording, not errors of fact. A passing scan does not mean the facts were verified.
 
