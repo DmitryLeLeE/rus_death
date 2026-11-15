@@ -42,7 +42,8 @@
       "concepts": [
         "threshold",
         "soul",
-        "return"
+        "return",
+        "guardian"
       ],
       "objects": [
         "candle",
@@ -316,7 +317,9 @@
       "concepts": [
         "threshold",
         "remembrance",
-        "mourning"
+        "mourning",
+        "debt",
+        "calendar"
       ],
       "objects": [
         "candle",
@@ -472,7 +475,9 @@
       ],
       "concepts": [
         "remembrance",
-        "threshold"
+        "threshold",
+        "debt",
+        "calendar"
       ],
       "objects": [
         "kutia",
@@ -655,7 +660,9 @@
       "concepts": [
         "return",
         "abandonment",
-        "threshold"
+        "threshold",
+        "debt",
+        "unclean-death"
       ],
       "objects": [
         "grave-marker",
@@ -776,7 +783,8 @@
       "concepts": [
         "memory",
         "abandonment",
-        "remembrance"
+        "remembrance",
+        "reuse"
       ],
       "objects": [
         "cross",
@@ -1338,7 +1346,8 @@
       "concepts": [
         "memory",
         "mourning",
-        "abandonment"
+        "abandonment",
+        "substitution"
       ],
       "objects": [
         "memorial",
@@ -1514,7 +1523,8 @@
       "concepts": [
         "memory",
         "mourning",
-        "abandonment"
+        "abandonment",
+        "substitution"
       ],
       "objects": [
         "coffin",
@@ -1631,7 +1641,8 @@
       "concepts": [
         "memory",
         "mourning",
-        "remembrance"
+        "remembrance",
+        "reuse"
       ],
       "objects": [
         "coffin",
@@ -1808,7 +1819,8 @@
       "concepts": [
         "abandonment",
         "memory",
-        "return"
+        "return",
+        "substitution"
       ],
       "objects": [
         "photograph",
@@ -1967,7 +1979,9 @@
       "concepts": [
         "threshold",
         "abandonment",
-        "memory"
+        "memory",
+        "reuse",
+        "guardian"
       ],
       "objects": [
         "icon",
@@ -2179,7 +2193,9 @@
       ],
       "concepts": [
         "threshold",
-        "return"
+        "return",
+        "unclean-death",
+        "underground"
       ],
       "objects": [],
       "places": [],
@@ -2343,7 +2359,10 @@
       "concepts": [
         "threshold",
         "return",
-        "remembrance"
+        "remembrance",
+        "calendar",
+        "unclean-death",
+        "underground"
       ],
       "objects": [
         "wreath"
@@ -2674,7 +2693,9 @@
       ],
       "concepts": [
         "abandonment",
-        "memory"
+        "memory",
+        "substitution",
+        "underground"
       ],
       "objects": [],
       "places": [
@@ -2862,7 +2883,8 @@
       ],
       "concepts": [
         "threshold",
-        "memory"
+        "memory",
+        "underground"
       ],
       "objects": [],
       "places": [
@@ -3064,7 +3086,8 @@
       ],
       "concepts": [
         "threshold",
-        "return"
+        "return",
+        "guardian"
       ],
       "objects": [
         "domovoi-offering"
@@ -3261,7 +3284,9 @@
       ],
       "concepts": [
         "threshold",
-        "return"
+        "return",
+        "debt",
+        "unclean-death"
       ],
       "objects": [
         "aspen-stake"
@@ -3524,7 +3549,8 @@
       ],
       "concepts": [
         "memory",
-        "return"
+        "return",
+        "calendar"
       ],
       "objects": [],
       "places": [
@@ -3737,7 +3763,8 @@
       ],
       "concepts": [
         "threshold",
-        "purification"
+        "purification",
+        "guardian"
       ],
       "objects": [
         "mirror",
@@ -3944,7 +3971,8 @@
       ],
       "concepts": [
         "memory",
-        "abandonment"
+        "abandonment",
+        "reuse"
       ],
       "objects": [
         "grave-marker",

@@ -6,63 +6,184 @@
       "name": "Threshold",
       "gloss": "The border between the living and the dead, maintained by prohibitions rather than by a wall.",
       "description": "Used for the set of small adjustments made around a death: the opened window, the covered mirror, the water thrown out, the body carried out. The term is analytical; the sources describe the practices, not the concept.",
-      "plates": ["a", "c", "h", "e"]
+      "plates": [
+        "a",
+        "c",
+        "h",
+        "e"
+      ]
     },
     {
       "id": "soul",
       "name": "Soul",
       "gloss": "The part of the person that survives death; described in both theological and folk registers.",
       "description": "Orthodox doctrine and folk belief use the same word (*dusha*) for different constructions: a created immortal substance judged by God, and a breath-like presence that lingers near the body and must be fed and escorted. The atlas keeps the registers apart.",
-      "plates": ["a", "h", "g"]
+      "plates": [
+        "a",
+        "h",
+        "g"
+      ]
     },
     {
       "id": "return",
       "name": "Return",
       "gloss": "The dead coming back, or being treated as if they might.",
       "description": "The returning dead are a way of talking about unfinished obligation. The atlas distinguishes the ethnographic reports (documented) from the category built on them (interpretation).",
-      "plates": ["e", "a", "l"]
+      "plates": [
+        "e",
+        "a",
+        "l"
+      ]
     },
     {
       "id": "purification",
       "name": "Purification",
       "gloss": "The washing of the body and the separation of the living from the dead.",
       "description": "Washing is both practical and symbolic. The atlas treats it as a technique for handling the dead at arm’s length, and avoids claims about its pre-Christian origin.",
-      "plates": ["b", "c"]
+      "plates": [
+        "b",
+        "c"
+      ]
     },
     {
       "id": "mourning",
       "name": "Mourning",
       "gloss": "The social and emotional work of loss, performed in public or withheld.",
       "description": "In the Russian twentieth century mourning was repeatedly reorganised: by the Church, by the Soviet state and by the family. The atlas follows the distinction between public commemoration and private grief.",
-      "plates": ["g", "c", "i", "k"]
+      "plates": [
+        "g",
+        "c",
+        "i",
+        "k"
+      ]
     },
     {
       "id": "remembrance",
       "name": "Remembrance",
       "gloss": "The scheduled repetition of prayer, food and naming.",
       "description": "Remembrance in this atlas is a calendar and a set of objects: days three, nine and forty, the annual commemoration, the meal, the name spoken aloud. It is the most documented form of relation with the dead.",
-      "plates": ["c", "d", "h"]
+      "plates": [
+        "c",
+        "d",
+        "h"
+      ]
     },
     {
       "id": "memory",
       "name": "Memory",
       "gloss": "The use of the dead by the living — personal, familial, national.",
       "description": "Memory is treated here as a practice with owners and budgets. The state’s memory is built at memorial complexes; the family’s memory at the table and at the grave.",
-      "plates": ["i", "f", "k", "l"]
+      "plates": [
+        "i",
+        "f",
+        "k",
+        "l"
+      ]
     },
     {
       "id": "abandonment",
       "name": "Abandonment",
       "gloss": "The state of a grave, a cemetery or a name that no one maintains.",
       "description": "Abandonment is what memory turns into when nobody tends it. The atlas documents it as a condition of the material record, and marks its own inability to survey it.",
-      "plates": ["l", "f", "i"]
+      "plates": [
+        "l",
+        "f",
+        "i"
+      ]
     },
     {
       "id": "afterlife",
       "name": "Afterlife",
       "gloss": "The imagined geography of the dead.",
       "description": "The atlas distinguishes the doctrinal claim (judgement, resurrection, communion with God) from the iconographic and folk geography (scales, rivers of fire, roads, places of waiting).",
-      "plates": ["h", "a"]
+      "plates": [
+        "h",
+        "a"
+      ]
+    },
+    {
+      "id": "debt",
+      "name": "Debt",
+      "gloss": "What the living owe the dead, and what an unpaid obligation is believed to produce.",
+      "description": "Used for the reading, offered on plate E and on the table of plate D, that burial, washing, feeding and commemoration are obligations that can be discharged or left unpaid. The term is analytical; plate E marks the \"unpaid debt\" reading as the atlas’s own interpretation, not a folk category.",
+      "plates": [
+        "d",
+        "e",
+        "t",
+        "c"
+      ]
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar of the dead",
+      "gloss": "The fixed days on which the dead are commemorated, and the ways the church and the village count them differently.",
+      "description": "Covers the third, ninth and fortieth days, the parental Saturdays, Radonitsa, Semik and the Saturdays before Pokrov and St Demetrius. Plates C and U separate the church rule from local custom; the term only groups them.",
+      "plates": [
+        "c",
+        "u",
+        "d",
+        "o"
+      ]
+    },
+    {
+      "id": "unclean-death",
+      "name": "Unclean death",
+      "gloss": "A death outside the expected order, and the burial and fear attached to it.",
+      "description": "Zelenin’s category of the \"pledged\" dead and the later dispute over it (plates E and T). It is a scholarly construction on real reports, not a taxonomy the sources show villagers sharing.",
+      "plates": [
+        "e",
+        "t",
+        "o",
+        "n"
+      ]
+    },
+    {
+      "id": "reuse",
+      "name": "Reuse",
+      "gloss": "The afterlife of stone, timber and ground once the dead are no longer tended.",
+      "description": "Gravestones as curbs and foundations, churches as crematoria, houses left standing. Plates K, W and M record cases; reuse here names a pattern across them, not a single policy.",
+      "plates": [
+        "k",
+        "w",
+        "m",
+        "f"
+      ]
+    },
+    {
+      "id": "guardian",
+      "name": "Household guardian",
+      "gloss": "A being tied to a house and its occupants, whose relation to the dead is disputed.",
+      "description": "The domovoy of plate S. Whether it is read as an ancestor is a question the sources answer differently; the atlas keeps the limit of that reading visible.",
+      "plates": [
+        "s",
+        "v",
+        "m",
+        "a"
+      ]
+    },
+    {
+      "id": "substitution",
+      "name": "Substitution",
+      "gloss": "One body, name or place standing in for many that cannot be handled individually.",
+      "description": "The unknown soldier, the mass grave, the memorial that carries a figure instead of a register (plates I and L). The term names the exchange of information for ritual focus.",
+      "plates": [
+        "i",
+        "l",
+        "q",
+        "j"
+      ]
+    },
+    {
+      "id": "underground",
+      "name": "Underground",
+      "gloss": "Burial and passage below the surface, in caves, cellars, tunnels and flooded ground.",
+      "description": "Plates R and Q: the Pechory caves, a legend of a tunnel, drowned settlements. Descriptions of what lies below are marked by whether anything was surveyed or only reported.",
+      "plates": [
+        "r",
+        "q",
+        "o",
+        "n"
+      ]
     }
   ]
 }
