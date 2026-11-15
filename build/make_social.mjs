@@ -32,7 +32,7 @@ for (const lang of ["en", "ru"]) {
       lang, image: ground[p.id], letter: p.letter, title: t.title, subtitle: t.subtitle,
       kicker: lang === "ru" ? `АТЛАС · ЛИСТ ${p.letter}` : `AN ATLAS · PLATE ${p.letter}`,
       meta: t.period,
-      site: lang === "ru" ? "АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ" : "ARCHÆOLOGY OF RUSSIAN DEATH",
+      site: lang === "ru" ? `РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС · ТОМ ${p.volume}` : `RUSSIAN CHTHONIC ATLAS · VOL. ${p.volume}`,
     };
     const pg = await b2.newPage({ viewport: { width: 1200, height: 630 } });
     await pg.goto(pathToFileURL(path.join(root, "build/social_plate.html")).href, { waitUntil: "networkidle" });
@@ -45,4 +45,4 @@ for (const lang of ["en", "ru"]) {
   }
 }
 await b2.close();
-console.log("plate cards: 24");
+console.log("plate cards:", en.length * 2);

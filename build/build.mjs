@@ -99,6 +99,18 @@ function loadLang(lang) {
   CON = byId(conceptsDoc.concepts);
   PLATE = byId(plates.plates);
   VOL = byId(volumesDoc.volumes);
+  // derived counts: tokens {n}, {plates}, {Plates} are filled from the data
+  const n = plates.plates.length;
+  const pl = lang === "ru"
+    ? `${n} ${n % 10 === 1 && n % 100 !== 11 ? "лист" : [2,3,4].includes(n % 10) && ![12,13,14].includes(n % 100) ? "листа" : "листов"}`
+    : `${n} plates`;
+  const fill = (o) => {
+    for (const k of Object.keys(o)) {
+      if (typeof o[k] === "string") o[k] = o[k].replaceAll("{plates}", pl).replaceAll("{Plates}", pl).replaceAll("{n}", String(n));
+      else if (o[k] && typeof o[k] === "object") fill(o[k]);
+    }
+  };
+  fill(T); fill(methodDoc);
 }
 const volPlates = (vid) => plates.plates.filter((p) => p.volume === vid);
 const volPos = (p) => volPlates(p.volume).indexOf(p) + 1;

@@ -48,15 +48,15 @@
   const ru = new URLSearchParams(location.search).get("lang") === "ru";
   document.documentElement.lang = ru ? "ru" : "en";
   const T = ru ? {
-    kicker: "АТЛАС · ДВЕНАДЦАТЬ ЛИСТОВ · ИЗДАНИЕ 2026",
+    kicker: "РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС · ТОМ I",
     title: '<span>Археология</span><span class="r">русской</span><span>смерти</span>',
     sub: "Материальный архив русской смерти, обряда и памяти.",
-    stamp: "ЭКЗЕМПЛЯР<br>АРХИВА 12"
+    stamp: "ЭКЗЕМПЛЯР<br>АРХИВА · ТОМ I"
   } : {
-    kicker: "AN ATLAS · TWELVE PLATES · FIRST EDITION 2026",
+    kicker: "RUSSIAN CHTHONIC ATLAS · VOLUME I",
     title: '<span>Archæology</span><span><i class="of">of</i><b class="r" style="font-weight:400">Russian</b></span><span>Death</span>',
     sub: "A material archive of Russian death, ritual and memory.",
-    stamp: "ARCHIVE<br>COPY 12"
+    stamp: "ARCHIVE<br>VOL. I"
   };
   kicker.textContent = T.kicker; title.innerHTML = T.title; sub.textContent = T.sub; stamp.innerHTML = T.stamp;
   if (ru) title.style.fontSize = "128px";
