@@ -1045,6 +1045,46 @@
       "language": "English",
       "supports": "The page’s statement that the Donskoy crematorium, built in 1927, was closed in 1973 and rebuilt as a church in 1990.",
       "limitation": "A hobbyist site with no citations. Other pages read say the Donskoy crematorium was the only one in Moscow until the mid-1970s; the closing date is therefore unconfirmed."
+    },
+    {
+      "id": "smirnov2015",
+      "kind": "web",
+      "author": "Smirnov, K.",
+      "title": "Казимир Малевич: сенсации 2015 года",
+      "title_en": "Kazimir Malevich: the sensations of 2015",
+      "year": "2015",
+      "publisher": "Novaya Gazeta, 1 December 2015",
+      "url": "https://novayagazeta.ru/articles/2015/12/01/66617-kazimir-malevich-sensatsii-2015-goda",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Account of the Leningrad funeral of 1935 (Suprematist coffin, a truck with a black square on the radiator along Nevsky Prospect, a rail car to Moscow, cremation at the Donskoy crematorium) and of the burial of the urn at Nemchinovka on 21 May 1935 under an oak, with a wooden cube by Suetin bearing a black square.",
+      "limitation": "A science correspondent’s article in a newspaper; no archive is cited for the funeral details, and the claim that Malevich asked for a cross-shaped coffin is the article’s own statement."
+    },
+    {
+      "id": "thyssen-suetin",
+      "kind": "web",
+      "author": "Museo Nacional Thyssen-Bornemisza",
+      "title": "Nikolai Suetin (artist biography)",
+      "year": "n.d.",
+      "publisher": "museothyssen.org",
+      "url": "https://museothyssen.org/en/node/14923",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "That Suetin decorated Malevich’s coffin with Suprematist motifs and organised his funeral in 1935.",
+      "limitation": "A museum biography note; one sentence read."
+    },
+    {
+      "id": "stedelijk-malevich",
+      "kind": "web",
+      "author": "Stedelijk Studies research log",
+      "title": "To Become an Abstraction: Malevich",
+      "year": "n.d.",
+      "publisher": "stedelijkstudies.com",
+      "url": "https://stedelijkstudies.com/to-become-an-abstraction-malevich",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "That Malevich died on 15 May 1935; that photographs show his body in an architecton-shaped coffin among his works, and a family photograph beside a cubic gravestone marked with the black square at Nemchinovka (1935); and that Malevich did not design the coffin, a legend the page says is not entirely without foundation.",
+      "limitation": "A research log by a museum journal; only the opening was read."
     }
   ]
 }

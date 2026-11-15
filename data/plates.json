@@ -1512,7 +1512,10 @@
       "sources": [
         "tretyakov-perov",
         "mk-malevich",
-        "merridale2000"
+        "merridale2000",
+        "smirnov2015",
+        "thyssen-suetin",
+        "stedelijk-malevich"
       ],
       "related": [
         "b",
@@ -1576,7 +1579,7 @@
           "kicker": "J / 03",
           "heading": "The square that was a gravestone",
           "paras": [
-            "Kazimir Malevich died in 1935 and was buried, according to the account in the Moscow press, near Nemchinovka outside Moscow, under a lone oak. A white cube with a black square was placed on the grave. The oak was later cut down, the grave was lost, and the cube disappeared.",
+            "Kazimir Malevich died in Leningrad in 1935. His body was cremated in Moscow, and his ashes were buried, according to the account in the Moscow press, near Nemchinovka outside Moscow, under a lone oak. A white cube with a black square was placed on the grave. The oak was later cut down, the grave was lost, and the cube disappeared.",
             "What survives is a photograph and a painting. The black square began as an argument about painting, turned into a grave marker, and then vanished. Nowhere else in this atlas does an artwork and a missing grave coincide so exactly."
           ],
           "level": "documented",
@@ -1604,6 +1607,21 @@
           ],
           "level": "interpretation",
           "editorial": true
+        },
+        {
+          "type": "prose",
+          "kicker": "J / 07",
+          "heading": "The coffin as an art object",
+          "level": "documented",
+          "contested": true,
+          "sources": [
+            "smirnov2015",
+            "thyssen-suetin",
+            "stedelijk-malevich"
+          ],
+          "paras": [
+            "The funeral that preceded the burial was itself made as art. A Novaya Gazeta article describes a Suprematist coffin, a truck with a black square on its radiator driving along Nevsky Prospect, and a railway car to Moscow, where the body was cremated at the Donskoy crematorium; the urn was buried at Nemchinovka on 21 May 1935. The Thyssen museum credits Nikolai Suetin with decorating the coffin with Suprematist motifs and organising the funeral. A Stedelijk research log adds that Malevich did not design the coffin himself, a belief it calls a legend with some foundation. The article’s further statement that Malevich asked for a cross-shaped coffin rests on the article alone. The atlas therefore separates what three sources agree on, a Suprematist coffin made by his circle, from the details that only one of them reports. Photographs of the body are described in the Stedelijk log; none is reproduced here."
+          ]
         }
       ],
       "volume": "I"
