@@ -60,6 +60,7 @@
 .cvp--j { grid-column: 1 / span 4; --ar: 1.22; --rot: 1.2deg; }
 .cvp--k { grid-column: 5 / span 4; --ar: 1.1; --rot: -1.4deg; --mt: 3vw; }
 .cvp--l { grid-column: 9 / span 4; --ar: 1.05; --rot: 1.6deg; --mt: -1vw; }
+.cvp--m { grid-column: 2 / span 5; --ar: 1.5; --rot: -1deg; --mt: 3vw; }
 
 /* ===================================================== inner page heads */
 .pagehead { position: relative; z-index: 2; max-width: 1760px; margin: 0 auto; padding: clamp(40px, 7vw, 110px) var(--pad) clamp(30px, 5vw, 70px); overflow: hidden; min-height: 40vw; }
@@ -352,3 +353,33 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
 .pin:hover .pin__tip, .pin:focus-visible .pin__tip, .pin.is-active .pin__tip { opacity: 1; }
 .pin:focus-visible { outline: 2px solid var(--red-hot); outline-offset: 2px; }
 .place { cursor: pointer; }
+
+/* ---------------------------------------------------------------- volumes */
+.volumes-page { --band: url("../assets/derived/judgment-saints.webp"); }
+.volumes-page .pagehead { min-height: 24vw; }
+.volumes-page .pagehead::before { opacity: 0.32; mix-blend-mode: multiply; }
+.vols { max-width: 1480px; margin: 0 auto; padding: 0 var(--pad) 90px; position: relative; z-index: 2; }
+.vol { margin: 0 0 clamp(40px, 7vw, 90px); border-top: 3px solid var(--bone); padding-top: 22px; }
+.vol--published { border-top-color: var(--red-hot); }
+.vol__head { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 6px 4vw; align-items: baseline; margin-bottom: 26px; }
+.vol__no { grid-column: 1 / -1; margin: 0 0 4px; color: var(--bone-2); letter-spacing: 0.14em; font-size: 0.78rem; }
+.vol__status { color: var(--red-hot); }
+.vol--planned .vol__status, .vol--in-preparation .vol__status { color: var(--bone-2); }
+.vol__title { margin: 0; font: 400 clamp(2rem, 5vw, 4.4rem)/0.95 var(--f-disp); text-transform: uppercase; letter-spacing: 0.01em; grid-column: 1; }
+.vol__sub { margin: 0; font: italic 400 1.05rem/1.4 var(--f-old); color: var(--bone-2); grid-column: 2; grid-row: 3; }
+.vol__dek { margin: 6px 0 0; font: 400 1rem/1.55 var(--f-read); max-width: 62ch; grid-column: 1; }
+.vol__plates, .vol__leads { list-style: none; margin: 0; padding: 0; display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); }
+.vol__plate a { display: grid; grid-template-columns: 1fr; gap: 6px; text-decoration: none; background: #cdc5ae url("../assets/textures/mat-newsprint.jpg"); color: #1b1814; padding: 0 0 14px; position: relative; height: 100%; }
+.vol__plate a:hover .vol__ptitle, .vol__plate a:focus-visible .vol__ptitle { color: var(--red); }
+.vol__thumb { display: block; aspect-ratio: 4 / 3; overflow: hidden; background: #111; }
+.vol__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(0.4) contrast(1.05); }
+.vol__letter { font: 400 1.7rem/1 var(--f-disp); color: var(--red); padding: 4px 14px 0; }
+.vol__ptitle { font: 400 1.15rem/1.1 var(--f-head); text-transform: uppercase; letter-spacing: 0.03em; padding: 0 14px; }
+.vol__pdek { font: 400 0.86rem/1.45 var(--f-read); padding: 0 14px; }
+.vol__lead { display: grid; gap: 6px; padding: 14px; border: 1px dashed rgba(230, 224, 208, 0.45); align-content: start; }
+.vol__lead .vol__letter, .vol__lead .vol__ptitle, .vol__lead .vol__pdek { padding: 0; }
+.vol__letter--dim { color: rgba(230, 224, 208, 0.5); }
+.vol__flag { font-size: 0.68rem; letter-spacing: 0.12em; color: var(--red-hot); margin-top: 4px; }
+.vols__rule { margin: 0; color: var(--bone-2); font-size: 0.8rem; letter-spacing: 0.06em; max-width: 70ch; }
+.contents__vol { list-style: none; margin: 16px 0 2px; font-size: 0.7rem; letter-spacing: 0.16em; color: var(--red); }
+@media (max-width: 760px) { .vol__head { grid-template-columns: 1fr; } .vol__sub, .vol__dek { grid-column: 1; grid-row: auto; } }

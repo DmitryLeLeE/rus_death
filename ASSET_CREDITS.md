@@ -95,6 +95,8 @@ Downloaded: **2026-11-15**. Licence names and URLs are copied from the holding r
 | `assets/derived/besovets-cross-cut.webp` | Besovets Cemetery, Petrozavodsk (2022) — halftone screen | Derivative made for this atlas from the original by Михаил Семёнов (Mikhail Semyonov) | 2026 | CC BY-SA 4.0 (derived) | https://commons.wikimedia.org/wiki/File:Besovets_Cemetery.jpg |
 | `assets/derived/nepogodikha-house-cut.webp` | Abandoned house, Nepogodikha, Nizhny Novgorod Oblast (2008) — underexposed print | Derivative made for this atlas from the original by Евгений Катышев (Evgeny Katyshev) | 2026 | CC BY-SA 3.0 (derived) | https://commons.wikimedia.org/wiki/File:Abandoned_house_in_Nepogodickha.jpg |
 | `assets/derived/tver-empty-house-cut.webp` | Abandoned wooden house by the road, Tver Oblast (2016) — faded print with scanner banding | Derivative made for this atlas from the original by Rakoon | 2026 | CC0 1.0 (derived) | https://commons.wikimedia.org/wiki/File:0055_August_2016_in_Tver_Oblast.jpg |
+| `assets/derived/izba-red-corner-wide.webp` | Red corner in an izba, Vitoslavlitsy (Veliky Novgorod) — whole frame — faded print with scanner banding | Derivative made for this atlas from the original by Aglav | 2026 | CC BY-SA 3.0 (derived) | https://commons.wikimedia.org/wiki/File:%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D1%83%D0%B3%D0%BE%D0%BB_%D0%B8%D0%B7%D0%B1%D1%8B_%D0%A2%D1%83%D0%BD%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE_%D0%92.%D0%90..JPG |
+| `assets/derived/tver-empty-house-xerox.webp` | Abandoned wooden house by the road, Tver Oblast (2016) — xerox — photocopy (toner threshold, streaks) | Derivative made for this atlas from the original by Rakoon | 2026 | CC0 1.0 (derived) | https://commons.wikimedia.org/wiki/File:0055_August_2016_in_Tver_Oblast.jpg |
 | `assets/derived/mamayev-news.webp` | Mamayev Kurgan, Volgograd — the slope — newsprint dither | Derivative made for this atlas from the original by Redboston | 2026 | CC BY-SA 4.0 (derived) | https://commons.wikimedia.org/wiki/File:Mamayev_Kurgan_2021-08-15.jpg |
 
 ### Notes per file
@@ -352,6 +354,12 @@ Licence: CC BY-SA 4.0 (derived) (https://creativecommons.org/licenses/by-sa/4.0/
 Licence: CC BY-SA 3.0 (derived) (https://creativecommons.org/licenses/by-sa/3.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
 
 **tver-empty-house-cut** — Abandoned wooden house by the road, Tver Oblast (2016) — faded print with scanner banding. Derivative image (made for this atlas). Derivative made for this atlas from the original by Rakoon, 2026. Crop: Whole frame. Processing: faded print with scanner banding, torn edge baked into the alpha channel.
+Licence: CC0 1.0 (derived) (https://creativecommons.org/publicdomain/zero/1.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
+
+**izba-red-corner-wide** — Red corner in an izba, Vitoslavlitsy (Veliky Novgorod) — whole frame — faded print with scanner banding. Derivative image (made for this atlas). Derivative made for this atlas from the original by Aglav, 2026. Crop: Whole frame. Processing: faded print with scanner banding, torn edge baked into the alpha channel.
+Licence: CC BY-SA 3.0 (derived) (https://creativecommons.org/licenses/by-sa/3.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
+
+**tver-empty-house-xerox** — Abandoned wooden house by the road, Tver Oblast (2016) — xerox — photocopy (toner threshold, streaks). Derivative image (made for this atlas). Derivative made for this atlas from the original by Rakoon, 2026. Crop: Whole frame, xerox treatment. Processing: photocopy (toner threshold, streaks), torn edge baked into the alpha channel.
 Licence: CC0 1.0 (derived) (https://creativecommons.org/publicdomain/zero/1.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
 
 **mamayev-news** — Mamayev Kurgan, Volgograd — the slope — newsprint dither. Derivative image (made for this atlas). Derivative made for this atlas from the original by Redboston, 2026. Crop: Lower two-thirds. Processing: newsprint dither, torn edge baked into the alpha channel.

@@ -480,6 +480,26 @@
   "bytes": 130246
  },
  {
+  "id": "izba-red-corner-wide",
+  "parent_file": "izba-red-corner.jpg",
+  "treatment": "faded",
+  "title": "Red corner in an izba, Vitoslavlitsy (Veliky Novgorod) — whole frame",
+  "shows": "Whole frame",
+  "w": 1300,
+  "h": 975,
+  "bytes": 93208
+ },
+ {
+  "id": "tver-empty-house-xerox",
+  "parent_file": "tver-empty-house.jpg",
+  "treatment": "xerox",
+  "title": "Abandoned wooden house by the road, Tver Oblast (2016) — xerox",
+  "shows": "Whole frame, xerox treatment",
+  "w": 1200,
+  "h": 795,
+  "bytes": 270054
+ },
+ {
   "id": "mamayev-news",
   "parent_file": "mamayev.jpg",
   "treatment": "news",

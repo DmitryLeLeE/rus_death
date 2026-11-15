@@ -41,6 +41,7 @@ export const KEY = {
   a: "dormition-face", b: "dormition-bier", c: "perov-sled", d: "meal-engraving",
   e: "tomb-black", f: "golubets-roof", g: "judgment-strip", h: "judgment-top",
   i: "soldier-flowers", j: "perov-full", k: "ilf-stele", l: "tomb-path",
+  m: "tver-empty-house-xerox",
 };
 
 export const LAYOUT = {
@@ -229,6 +230,19 @@ export const LAYOUT = {
       { s: 4, r: 5, c: "7/12", y: 40, rot: 0.8, mat: "linen", w: 88, m: "r" },
       { s: 5, r: 6, c: "2/8", y: 100, rot: -1.0, mat: "none", w: 84, m: "l" },
       { s: 6, r: 7, c: "8/13", y: 20, rot: 0.6, mat: "none", w: 60, m: "r" },
+    ],
+  },
+  emptyhouse: {
+    ground: "soot",
+    items: [
+      { s: 0, r: 1, c: "1/7", y: 20, rot: -0.5, mat: "newsprint", w: 92, m: "l" },
+      { s: 1, r: 1, c: "7/13", y: 90, rot: 0.8, mat: "none", w: 100, m: "r", tape: "tr" },
+      { s: 2, r: 2, c: "3/10", y: 20, rot: 0.4, mat: "plaster", w: 94, m: "c" },
+      { s: 3, r: 3, c: "1/7", y: 30, rot: -0.7, mat: "linen", w: 92, m: "l" },
+      { s: 6, r: 3, c: "8/13", y: 100, rot: 1.1, mat: "none", w: 84, m: "r" },
+      { s: 4, r: 4, c: "2/12", y: 20, rot: -0.3, mat: "manila", w: 100, m: "c" },
+      { s: 5, r: 5, c: "7/13", y: 30, rot: 0.9, mat: "soot", w: 90, m: "r" },
+      { s: 7, r: 5, c: "1/7", y: 60, rot: -0.8, mat: "newsprint", w: 90, m: "l" },
     ],
   },
 };

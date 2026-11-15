@@ -108,7 +108,8 @@
           "attrib": "Editorial note, not a quotation from a source",
           "level": "interpretation"
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "b",
@@ -247,7 +248,8 @@
           ],
           "level": "interpretation"
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "c",
@@ -398,7 +400,8 @@
           ],
           "level": "interpretation"
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "d",
@@ -556,7 +559,8 @@
           "mask": "torn-01",
           "state": "archive"
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "e",
@@ -666,7 +670,8 @@
           "attrib": "Editorial note",
           "level": "interpretation"
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "f",
@@ -836,7 +841,8 @@
           "mask": "torn-03",
           "state": "document"
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "g",
@@ -1029,7 +1035,8 @@
           "attrib": "Bibliographic title: E. V. Barsov, Laments of the Northern Land, Moscow, 1872–1886. Russian title, not a quotation from the laments.",
           "level": "documented"
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "h",
@@ -1177,7 +1184,8 @@
           "size": "wide",
           "hidden": true
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "i",
@@ -1348,7 +1356,8 @@
           "size": "narrow",
           "mask": "torn-02"
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "j",
@@ -1455,7 +1464,8 @@
           ],
           "level": "interpretation"
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "k",
@@ -1612,7 +1622,8 @@
           "mask": null,
           "state": null
         }
-      ]
+      ],
+      "volume": "I"
     },
     {
       "id": "l",
@@ -1754,6 +1765,164 @@
           "size": "narrow",
           "mask": null,
           "state": null
+        }
+      ],
+      "volume": "I"
+    },
+    {
+      "id": "m",
+      "letter": "M",
+      "slug": "empty-house",
+      "nav": "The Empty House",
+      "title": "THE EMPTY HOUSE",
+      "subtitle": "What the rite does to a house, and what the census says about empty ones",
+      "dek": "In the Eastern Slavic funeral material the house takes part in a death: its windows are opened, its boundaries are said to break. Decades later the state counts villages with no one in them. The two bodies of evidence are different, and this plate keeps them apart.",
+      "marginal": "The ritual sources describe houses in which someone has died. The census counts villages in which no one lives. Nothing in the sources used here links the two, so the plate does not.",
+      "period": "Recorded 19th–20th centuries; census figures 2002–2010",
+      "location": "Eastern Slavic traditions (corpus partly outside Russia); Russian Federation (census)",
+      "tradition": "Eastern Slavic folk custom and Orthodox practice",
+      "category": "house",
+      "layout": "emptyhouse",
+      "tone": "dark",
+      "sources": [
+        "andryunina-house",
+        "lewkijewskaja2004",
+        "plotnikova-loci",
+        "tass2011-census",
+        "osw2011-census",
+        "rte2011-villages"
+      ],
+      "related": [
+        "a",
+        "b",
+        "l"
+      ],
+      "concepts": [
+        "threshold",
+        "abandonment",
+        "memory"
+      ],
+      "objects": [
+        "icon",
+        "coffin",
+        "mirror"
+      ],
+      "places": [],
+      "volume": "II",
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "M / 01",
+          "heading": "A house that has been broken",
+          "level": "interpretation",
+          "sources": [
+            "andryunina-house"
+          ],
+          "paras": [
+            "Maria Andryunina’s survey of Ukrainian, Belarusian, western Russian and Polish funeral rites reports that at a death doors and windows were opened and holes made in the roof or ceiling, so that death could come in and the soul go out. By her account the house was then treated as broken. Its sacred boundaries were annulled, and an unsettled soul could haunt it, which made it dangerous for the living.",
+            "The corpus matters. The rites in that article come from the western and southern fringes of the Eastern Slavic world and from Poland, and the plate does not offer them as a single Russian custom. The same article reports the reverse for new buildings: a newly built house counted as incomplete until the first death within it."
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "izba-red-corner",
+          "show": "izba-red-corner-wide",
+          "alt": "The red corner of a wooden izba: icons on a shelf, an embroidered towel and a bench along the log wall",
+          "caption": "The red corner of an izba at Vitoslavlitsy, Veliky Novgorod: icons, a towel, a bench. A museum interior, not the record of any family’s room. Photograph: Aglav, CC BY-SA 3.0.",
+          "credit": "Aglav / Wikimedia Commons, CC BY-SA 3.0",
+          "level": "documented",
+          "size": "wide"
+        },
+        {
+          "type": "prose",
+          "kicker": "M / 02",
+          "heading": "The window",
+          "level": "interpretation",
+          "sources": [
+            "lewkijewskaja2004"
+          ],
+          "paras": [
+            "Jelena Lewkijewskaja’s study of the window in the traditional culture of the Eastern Slavs treats it as a ritual entrance and exit between this world and the other. In funeral rites and in legends about death it is the route by which the souls of the dead, and mythological figures, enter and leave the house. Throwing something out of a window is a way of disposing of a dangerous or impure thing. In the same tradition a house without windows is the dwelling of someone alien, a being from another world.",
+            "Put beside the open windows of the deathbed, this gives a dwelling whose openings are working parts of the rite. The study is five pages long and generalises across all the Eastern Slavs, and only its abstract was available to the atlas. It frames the question; it does not describe any one village."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "M / 03",
+          "heading": "The coffin as a house",
+          "level": "interpretation",
+          "sources": [
+            "plotnikova-loci"
+          ],
+          "paras": [
+            "Anna Plotnikova’s essay on the earthly places of death starts from the Slavic idea of death as a passage to another world, where the dead acquire a home. The coffin, the grave and the graveyard are read as that home’s earthly forms. A coffin is sometimes built like a house, with window openings, and its inside can copy a living home: an icon corner, bedding, everyday things. Funeral laments call it a cold, dark house without windows, and some words for ‘coffin’ derive from the word for ‘house’.",
+            "On the same reading the dead remain tied to the home they left, and funeral customs work at separating them from it, by changing the route out of the house or by removing the dead person’s belongings. The essay covers Slavic traditions broadly. Which of these details are recorded for Russian regions has not yet been traced, and the bibliographic record for the essay is incomplete (see the source note)."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "M / 04",
+          "heading": "Counting the empty village",
+          "colhead": [
+            "Report",
+            "Figure",
+            "What is counted"
+          ],
+          "rows": [
+            [
+              "TASS, 16 Dec 2011, on the official 2010 census report",
+              "19,400 villages without inhabitants, 48% more than at the previous census",
+              "Villages that exist de jure with no registered residents"
+            ],
+            [
+              "OSW, Warsaw, 21 Dec 2011",
+              "134,000 villages in total, 8,500 fewer than in 2002",
+              "Settlements recorded as villages"
+            ],
+            [
+              "RTE, 6 Apr 2011, citing the head of Rosstat",
+              "Uninhabited villages up from 13,000 to 19,400; 36,200 villages with fewer than ten residents",
+              "Residents per village, 2002 and 2010"
+            ]
+          ],
+          "level": "documented",
+          "sources": [
+            "tass2011-census",
+            "osw2011-census",
+            "rte2011-villages"
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "What an uninhabited village is, and is not",
+          "level": "interpretation",
+          "items": [
+            "A village counted as uninhabited has no registered residents at the census. The figure does not say whether its houses still stand, who owns them or whether anyone returns in summer. The three reports count three different things, and the atlas does not turn them into a number of empty houses. The Rosstat tables were not consulted, only reports of them.",
+            "None of the sources used here records beliefs about abandoned houses in Russian regions. The ritual material on this plate concerns houses in which someone has died, not houses that were left. Whether the two connect is a research lead, not a finding."
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "tver-empty-house",
+          "show": "tver-empty-house-xerox",
+          "alt": "A dark wooden house with a sagging roof beside a country road under a pale sky",
+          "caption": "A wooden house beside a road, Tver Oblast, August 2016. Photograph: Rakoon, CC0. The photograph shows a house; it cannot show why the house is empty.",
+          "credit": "Rakoon / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "narrow"
+        },
+        {
+          "type": "note",
+          "kicker": "Research leads",
+          "heading": "What would turn this plate into a study",
+          "level": "interpretation",
+          "items": [
+            "Regional ethnographic records of what was done with a house after a death, with village, year and collector named.",
+            "Household inventories and probate records for rural homes, where archives allow access.",
+            "Oral-history collections on leaving a village house, with consent and attribution settled for any private testimony.",
+            "The Rosstat census tables themselves, with the definition of an uninhabited settlement."
+          ]
         }
       ]
     }

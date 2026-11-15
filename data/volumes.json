@@ -1,0 +1,99 @@
+{
+  "note": "Volumes of the Russian Chthonic Atlas. 'published' volumes list plates through the `volume` field of data/plates.json; 'planned' entries are research leads, not content.",
+  "volumes": [
+    {
+      "id": "I",
+      "numeral": "I",
+      "title": "ARCHÆOLOGY OF RUSSIAN DEATH",
+      "subtitle": "Threshold, body, ritual, table, grave, voice, afterlife, collective death, art, the Soviet afterlife, the archive",
+      "dek": "The first volume: how people in Russia handled the dead, imagined what came after, and tried to keep a record of it. Twelve plates, A–L.",
+      "status": "published",
+      "planned": []
+    },
+    {
+      "id": "II",
+      "numeral": "II",
+      "title": "THE CHTHONIC LANDSCAPE",
+      "subtitle": "Houses, forests, waters, roads, villages and cellars as places where the living and the dead meet",
+      "dek": "The second volume moves from the grave to the ground around it. One plate is written; the rest are listed with their scope and stay unpublished until their sources are checked.",
+      "status": "in-preparation",
+      "planned": [
+        {
+          "letter": "N",
+          "title": "The Forest Edge",
+          "scope": "The forest as a cultural boundary in documented regional narratives; forest paths, forbidden places, disappearance."
+        },
+        {
+          "letter": "O",
+          "title": "Water, Marsh and River",
+          "scope": "Drowning and unnatural death, river crossings, marsh and lake beliefs; practice kept apart from literary motif."
+        },
+        {
+          "letter": "P",
+          "title": "Roads, Crossroads and Borders",
+          "scope": "Roadside memorials, bridges, boundary markers, funeral routes, burial outside ordinary cemeteries."
+        },
+        {
+          "letter": "Q",
+          "title": "The Vanished Village",
+          "scope": "Depopulation, abandoned churchyards, relocated burial grounds, flooded settlements; maps and census records."
+        },
+        {
+          "letter": "R",
+          "title": "The Underground",
+          "scope": "Cellars, caves, mines, crypts and tunnels; documented use kept apart from urban legend."
+        }
+      ]
+    },
+    {
+      "id": "III",
+      "numeral": "III",
+      "title": "THE UNSEEN",
+      "subtitle": "Household spirits, the unquiet dead, the calendar of the dead, taboo and protection",
+      "dek": "Planned. Every figure and custom will carry its region, source, period and terminology, and none will be offered as a unified pantheon.",
+      "status": "planned",
+      "planned": [
+        {
+          "letter": "S",
+          "title": "Household Spirits and Dangerous Spaces",
+          "scope": "Domovoi, bannik, ovinnik and the rules of baths, barns, mills and ovens, recorded region by region."
+        },
+        {
+          "letter": "T",
+          "title": "The Unquiet Dead",
+          "scope": "Zalozhnye pokoiniki, upyr’, unnatural death and unfulfilled funerary obligation; folklore kept apart from later literary vampires."
+        },
+        {
+          "letter": "U",
+          "title": "The Calendar of the Dead",
+          "scope": "Radonitsa, parental Saturdays, Semik, Sviatki; church practice, folk custom and later reinterpretation told apart."
+        },
+        {
+          "letter": "V",
+          "title": "Taboo, Omen and Protection",
+          "scope": "Prohibitions, signs, washing and cleansing, protective objects; what people did and what researchers think it meant."
+        }
+      ]
+    },
+    {
+      "id": "IV",
+      "numeral": "IV",
+      "title": "MEMORY, CATASTROPHE AND MODERNITY",
+      "subtitle": "Abandonment as material process; the digital afterlife",
+      "dek": "Planned, with comparative dossiers on Old Believer, Muslim, Jewish, Buddhist and northern and Siberian Indigenous funerary traditions, each in its own context.",
+      "status": "planned",
+      "planned": [
+        {
+          "letter": "W",
+          "title": "The Materials of Abandonment",
+          "scope": "Ruined houses, neglected cemeteries, demolished churches, reused gravestones; physical decay tied to historical process."
+        },
+        {
+          "letter": "X",
+          "title": "The Digital Afterlife",
+          "scope": "Online memorials, profiles of the dead, digital inheritance; treated as a serious contemporary extension, not a novelty."
+        }
+      ]
+    }
+  ]
+}

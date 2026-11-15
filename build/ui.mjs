@@ -7,11 +7,12 @@ export const UI = {
   en: {
     socialAlt: "ARCHÆOLOGY OF RUSSIAN DEATH — a roofed grave cross and a sleigh with a coffin, in black and white, on torn paper.",
     lang: "en",
-    siteTitle: "ARCHÆOLOGY OF RUSSIAN DEATH",
-    brand: ["ARCHÆOLOGY", "of", "RUSSIAN DEATH"],
+    siteTitle: "RUSSIAN CHTHONIC ATLAS",
+    brand: ["RUSSIAN CHTHONIC", "", "ATLAS"],
+    volumeWord: "VOL.",
     skip: "Skip to the atlas content",
     navLabel: "Atlas sections",
-    nav: { index: "INDEX", map: "MAP", chrono: "CHRONOLOGY", sources: "SOURCES", method: "METHOD", prologue: "PROLOGUE", words: "WORDS" },
+    nav: { volumes: "ATLAS", index: "INDEX", map: "MAP", chrono: "CHRONOLOGY", sources: "SOURCES", method: "METHOD", prologue: "PROLOGUE", words: "WORDS" },
     contents: "CONTENTS", close: "CLOSE", colophon: "COLOPHON", coverWord: "Cover",
     footer: (ed, compiled) => `${ed} · compiled ${compiled}`,
     footColophon: "colophon", footSources: "sources",
@@ -25,7 +26,7 @@ export const UI = {
     apparatusNote: "URLs, access dates and limitations are in the bibliography.",
     pagerPrev: "← previous", pagerNext: "next →", pagerBack: "← back", pagerEnd: "end →", pagerTheIndex: "The index",
     marginalBtn: (l) => `marginal note ${l} ↓`,
-    themes: { threshold: "THRESHOLD", body: "BODY", ritual: "RITUAL", table: "TABLE", returning: "RETURNING", grave: "GRAVE", voice: "VOICE", afterlife: "AFTERLIFE", collective: "COLLECTIVE", art: "ART", soviet: "SOVIET", archive: "ARCHIVE" },
+    themes: { threshold: "THRESHOLD", body: "BODY", ritual: "RITUAL", table: "TABLE", returning: "RETURNING", grave: "GRAVE", voice: "VOICE", afterlife: "AFTERLIFE", collective: "COLLECTIVE", art: "ART", soviet: "SOVIET", archive: "ARCHIVE", house: "HOUSE" },
     evidence: {},
     eras: { "pre-imperial": "PRE-IMPERIAL", imperial: "IMPERIAL", soviet: "SOVIET", "post-soviet": "POST-SOVIET" },
     kinds: { monograph: "MONOGRAPH", primary: "PRIMARY", reference: "REFERENCE", institutional: "INSTITUTIONAL", museum: "MUSEUM", press: "PRESS" },
@@ -35,19 +36,25 @@ export const UI = {
     ruBanner: "Этот проект есть на русском языке.", ruBannerGo: "Читать по-русски →", ruBannerNo: "не нужно",
 
     cover: {
-      title: "ARCHÆOLOGY OF RUSSIAN DEATH — An Atlas",
+      title: "RUSSIAN CHTHONIC ATLAS — Volume I: ARCHÆOLOGY OF RUSSIAN DEATH",
       desc: "An atlas of death, memory, ritual and the afterlife in Russian culture. Twelve research plates, an index, a map, a chronology and sources.",
-      sub: "An atlas of death, memory, ritual and the afterlife in Russian culture",
+      sub: "Volume I of the Russian Chthonic Atlas — death, memory, ritual and the afterlife in Russian culture",
       hand: "roofed cross → plate F", slip: "first edition 2026 · twelve plates",
       lede: "This is not a history of a single tradition. It is an assembly of documents, objects and arguments about how people in Russia buried their dead, imagined what came after, and tried to keep names from disappearing.",
       p2: "Twelve plates move from the room where a death occurs to the archive that cannot hold it. Each plate has its own evidence and its own gaps. Facts are separated from interpretation and from reconstruction wherever they appear.",
       rule: "No invented sources. No invented quotations. No invented archive numbers.",
       navLabel: "Begin", navIndex: "the index", navBegin: "begin at plate A", navMethod: "method", navPrologue: "prologue",
-      platesH: "The twelve plates",
+      platesH: "The plates",
       title1: "ARCHÆOLOGY", title2a: "of", title2b: "RUSSIAN", title3: "DEATH",
     },
+    volumes: {
+      title: "The Atlas — RUSSIAN CHTHONIC ATLAS", desc: "The four volumes of the Russian Chthonic Atlas: what is published, what is in preparation, and what is only a research lead.",
+      kicker: "THE ATLAS — FOUR VOLUMES", h1: "THE<br>VOLUMES", dek: "A plate is published when its sources have been checked. Planned plates are listed so that the scope is visible, and they are marked as research leads, not as content.",
+      published: "PUBLISHED", inPrep: "IN PREPARATION", planned: "PLANNED", lead: "RESEARCH LEAD", leadsLabel: "Plates not yet written",
+      rule: "Nothing here is published as fact until a source has been read, dated and checked against the claim it is meant to support.",
+    },
     index: {
-      title: "The Index — ARCHÆOLOGY OF RUSSIAN DEATH",
+      title: "The Index — RUSSIAN CHTHONIC ATLAS",
       desc: "A non-linear index of plates, objects, concepts and documented places.",
       kicker: "THE INDEX — A WORKING CATALOGUE", h1: "THE<br>INDEX",
       dek: "Twelve plates, and the objects, concepts and places that cross them. The catalogue is not a table of contents. It is a second route through the same material.",
@@ -61,7 +68,7 @@ export const UI = {
       js: { plates: "PLATES", objects: "OBJECTS", concepts: "CONCEPTS", places: "PLACES", of: "of", entries: "ENTRIES", entry: "ENTRY", noMatch: "NO MATCH" },
     },
     map: {
-      title: "Geography — ARCHÆOLOGY OF RUSSIAN DEATH",
+      title: "Geography — RUSSIAN CHTHONIC ATLAS",
       desc: "Documented localities in the atlas, plotted on a working map of European Russia.",
       kicker: "GEOGRAPHY — DOCUMENTED LOCALITIES ONLY", h1: "THE<br>MAP",
       dek: "Eight localities where the atlas has a documented basis for a claim. The map is a working sheet, not a distribution map: a photograph or a record is not a region.",
@@ -77,7 +84,7 @@ export const UI = {
       not2: "Where a source gives a place, the atlas plots the place. Where a source gives only a province or a region, the atlas says so in the entry. A single documented example is not a pattern, and the map is built to prevent that inference rather than to encourage it.",
     },
     chrono: {
-      title: "Chronology — ARCHÆOLOGY OF RUSSIAN DEATH",
+      title: "Chronology — RUSSIAN CHTHONIC ATLAS",
       desc: "A discontinuous chronology of documentation, policy, scholarship and memorial architecture.",
       kicker: "CHRONOLOGY — POINTS, NOT A TRADITION", h1: "THE<br>TIMELINE",
       dek: "This is not a continuous history of Russian death. It is a line of documents, decrees, publications and buildings, with the breaks left visible.",
@@ -88,7 +95,7 @@ export const UI = {
       not2: "Confidence notes appear with every entry. Where a date is a press report rather than an archival record, the entry says so.",
     },
     bib: {
-      title: "Sources — ARCHÆOLOGY OF RUSSIAN DEATH",
+      title: "Sources — RUSSIAN CHTHONIC ATLAS",
       desc: "Bibliography, access dates, limitations, and image licences.",
       kicker: "SOURCES — WITH LIMITATIONS, NOT ONLY TITLES", h1: "THE<br>RECORD",
       dek: "Every factual statement in the atlas points to one of these entries. Each entry records what it supports and what it cannot support. Access dates are the date of compilation.",
@@ -100,16 +107,16 @@ export const UI = {
       not2: "Unverified claims are named in the plates as unverified. The atlas does not have a category of ‘common knowledge’ that exempts a claim from citation.",
     },
     nf: {
-      title: "Not found — ARCHÆOLOGY OF RUSSIAN DEATH", desc: "The page is missing from the archive.",
+      title: "Not found — RUSSIAN CHTHONIC ATLAS", desc: "The page is missing from the archive.",
       kicker: "ERROR 404 — MISSING FROM THE ARCHIVE", h1: "NOT<br>FOUND",
       text: "The plate you asked for is not in this edition. The index is the way back.", index: "THE INDEX", cover: "THE COVER",
     },
     method: {
-      title: "Method — ARCHÆOLOGY OF RUSSIAN DEATH", desc: "Scope, evidence levels, transliteration, and the limits of this atlas.",
+      title: "Method — RUSSIAN CHTHONIC ATLAS", desc: "Scope, evidence levels, transliteration, and the limits of this atlas.",
       kicker: "METHOD — BEFORE THE IMAGES", h1: "HOW TO<br>READ THIS<br>ATLAS", levels: "THE THREE LEVELS", levelsAria: "Evidence levels",
     },
     colo: {
-      title: "Colophon — ARCHÆOLOGY OF RUSSIAN DEATH", desc: "Production notes, typefaces, materials and technical facts.",
+      title: "Colophon — RUSSIAN CHTHONIC ATLAS", desc: "Production notes, typefaces, materials and technical facts.",
       kicker: "COLOPHON", h1: "THE<br>OBJECT", dek: "What this publication is made of, and what it deliberately is not.",
       secs: [
         ["TYPEFACES", `<p><strong>Anton</strong> (heavy condensed display, Latin) and <strong>Fira Sans Extra Condensed</strong> (its Cyrillic counterpart), <strong>Oswald</strong> (condensed headings), <strong>Old Standard TT</strong> (nineteenth-century Russian-style serif, for pull quotes and captions), <strong>Source Serif 4</strong> (reading text), <strong>Special Elite</strong> (typewriter), <strong>Caveat</strong> (hand annotations, Latin and Cyrillic) and <strong>IBM Plex Mono</strong> (data). All except Special Elite are licensed under the SIL Open Font License 1.1; Special Elite is licensed under the Apache License 2.0. All are served from this repository, with licence texts in <code>assets/fonts/</code>.</p>`],
@@ -119,18 +126,19 @@ export const UI = {
         ["LICENSING", `<p>The atlas’s original text, data, diagrams and generated textures are released under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>. Third-party images retain the licences recorded in the bibliography and in <code>ASSET_CREDITS.md</code>. Derived images of CC BY-SA photographs remain CC BY-SA.</p>`],
       ],
     },
-    prologue: { title: "Prologue — ARCHÆOLOGY OF RUSSIAN DEATH", desc: "Before the first plate: what this atlas is, what it refuses to do, and three ways to move through it." },
-    words: { title: "Words — ARCHÆOLOGY OF RUSSIAN DEATH", desc: "A lexicon of the Russian words that carry the atlas, written in Cyrillic with transliteration, register and the plates where each is examined." },
+    prologue: { title: "Prologue — RUSSIAN CHTHONIC ATLAS", desc: "Before the first plate: what this atlas is, what it refuses to do, and three ways to move through it." },
+    words: { title: "Words — RUSSIAN CHTHONIC ATLAS", desc: "A lexicon of the Russian words that carry the atlas, written in Cyrillic with transliteration, register and the plates where each is examined." },
   },
 
   ru: {
     socialAlt: "АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ — крест под крышей и сани с гробом, чёрно-белые, на рваной бумаге.",
     lang: "ru",
-    siteTitle: "АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ",
-    brand: ["АРХЕОЛОГИЯ", "", "РУССКОЙ СМЕРТИ"],
+    siteTitle: "РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС",
+    brand: ["РУССКИЙ ХТОНИЧЕСКИЙ", "", "АТЛАС"],
+    volumeWord: "ТОМ",
     skip: "К содержанию атласа",
     navLabel: "Разделы атласа",
-    nav: { index: "УКАЗАТЕЛЬ", map: "КАРТА", chrono: "ХРОНОЛОГИЯ", sources: "ИСТОЧНИКИ", method: "МЕТОД", prologue: "ПРОЛОГ", words: "СЛОВАРЬ" },
+    nav: { volumes: "АТЛАС", index: "УКАЗАТЕЛЬ", map: "КАРТА", chrono: "ХРОНОЛОГИЯ", sources: "ИСТОЧНИКИ", method: "МЕТОД", prologue: "ПРОЛОГ", words: "СЛОВАРЬ" },
     contents: "СОДЕРЖАНИЕ", close: "ЗАКРЫТЬ", colophon: "КОЛОФОН", coverWord: "Обложка",
     footer: (ed, compiled) => `${ed} · составлено ${compiled}`,
     footColophon: "колофон", footSources: "источники",
@@ -144,7 +152,7 @@ export const UI = {
     apparatusNote: "Ссылки, даты обращения и ограничения — в списке источников.",
     pagerPrev: "← назад", pagerNext: "дальше →", pagerBack: "← назад", pagerEnd: "конец →", pagerTheIndex: "Указатель",
     marginalBtn: (l) => `помета на полях ${l} ↓`,
-    themes: { threshold: "ПОРОГ", body: "ТЕЛО", ritual: "ОБРЯД", table: "СТОЛ", returning: "ВОЗВРАЩЕНИЕ", grave: "МОГИЛА", voice: "ГОЛОС", afterlife: "ЗАГРОБЬЕ", collective: "МАССОВАЯ СМЕРТЬ", art: "ИСКУССТВО", soviet: "СОВЕТСКОЕ", archive: "АРХИВ" },
+    themes: { threshold: "ПОРОГ", body: "ТЕЛО", ritual: "ОБРЯД", table: "СТОЛ", returning: "ВОЗВРАЩЕНИЕ", grave: "МОГИЛА", voice: "ГОЛОС", afterlife: "ЗАГРОБЬЕ", collective: "МАССОВАЯ СМЕРТЬ", art: "ИСКУССТВО", soviet: "СОВЕТСКОЕ", archive: "АРХИВ", house: "ДОМ" },
     evidence: {
       "documented": "документировано",
       "documented practice; explanation unverified": "практика документирована; объяснение не подтверждено",
@@ -158,7 +166,7 @@ export const UI = {
     ruBanner: "", ruBannerGo: "", ruBannerNo: "",
 
     cover: {
-      title: "АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ — Атлас",
+      title: "РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС — Том I: АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ",
       desc: "Атлас смерти, памяти, обряда и загробного мира в русской культуре. Двенадцать исследовательских листов, указатель, карта, хронология и источники.",
       sub: "Атлас смерти, памяти, обряда и загробного мира в русской культуре",
       hand: "голубец → лист F", slip: "первое издание 2026 · двенадцать листов",
@@ -169,8 +177,14 @@ export const UI = {
       platesH: "Двенадцать листов",
       title1: "АРХЕОЛОГИЯ", title2a: "", title2b: "РУССКОЙ", title3: "СМЕРТИ",
     },
+    volumes: {
+      title: "Атлас — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Четыре тома Русского хтонического атласа: что опубликовано, что готовится и что пока только направление поиска.",
+      kicker: "АТЛАС — ЧЕТЫРЕ ТОМА", h1: "ТОМА", dek: "Лист публикуется, когда проверены его источники. Планируемые листы перечислены, чтобы был виден замысел, и помечены как направления поиска, а не как содержание.",
+      published: "ОПУБЛИКОВАН", inPrep: "ГОТОВИТСЯ", planned: "В ПЛАНАХ", lead: "НАПРАВЛЕНИЕ ПОИСКА", leadsLabel: "Листы, которые ещё не написаны",
+      rule: "Ничто здесь не публикуется как факт, пока источник не прочитан, не датирован и не сверен с утверждением, которое он должен подтверждать.",
+    },
     index: {
-      title: "Указатель — АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ",
+      title: "Указатель — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС",
       desc: "Нелинейный указатель листов, предметов, понятий и документированных мест.",
       kicker: "УКАЗАТЕЛЬ — РАБОЧИЙ КАТАЛОГ", h1: "УКАЗАТЕЛЬ",
       dek: "Двенадцать листов и предметы, понятия и места, которые их пересекают. Каталог — не оглавление. Это второй путь через тот же материал.",
@@ -184,7 +198,7 @@ export const UI = {
       js: { plates: "ЛИСТЫ", objects: "ПРЕДМЕТЫ", concepts: "ПОНЯТИЯ", places: "МЕСТА", of: "из", entries: "ЗАПИСЕЙ", entry: "ЗАПИСЬ", noMatch: "НЕТ СОВПАДЕНИЙ" },
     },
     map: {
-      title: "География — АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ",
+      title: "География — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС",
       desc: "Документированные места атласа на рабочей карте европейской России.",
       kicker: "ГЕОГРАФИЯ — ТОЛЬКО ДОКУМЕНТИРОВАННЫЕ МЕСТА", h1: "КАРТА",
       dek: "Восемь мест, для которых у атласа есть документальное основание. Карта — рабочий лист, а не карта распространения: фотография или запись — ещё не регион.",
@@ -200,7 +214,7 @@ export const UI = {
       not2: "Если источник называет место, атлас отмечает место. Если источник называет только губернию или край, атлас так и пишет в записи. Единичный документированный случай — ещё не закономерность, и карта устроена так, чтобы не провоцировать этот вывод.",
     },
     chrono: {
-      title: "Хронология — АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ",
+      title: "Хронология — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС",
       desc: "Прерывистая хронология документов, политики, науки и мемориальной архитектуры.",
       kicker: "ХРОНОЛОГИЯ — ТОЧКИ, А НЕ ТРАДИЦИЯ", h1: "ХРОНОЛОГИЯ",
       dek: "Это не непрерывная история русской смерти. Это линия документов, указов, публикаций и зданий, на которой разрывы оставлены видимыми.",
@@ -211,7 +225,7 @@ export const UI = {
       not2: "К каждой записи приложена оценка достоверности. Если дата взята из газетного сообщения, а не из архивной записи, запись так и говорит.",
     },
     bib: {
-      title: "Источники — АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ",
+      title: "Источники — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС",
       desc: "Библиография, даты обращения, ограничения и лицензии изображений.",
       kicker: "ИСТОЧНИКИ — С ОГРАНИЧЕНИЯМИ, А НЕ ТОЛЬКО С НАЗВАНИЯМИ", h1: "ИСТОЧНИКИ",
       dek: "Каждое фактическое утверждение атласа указывает на одну из этих записей. Каждая запись фиксирует, что она подтверждает и чего подтвердить не может. Даты обращения — дата составления.",
@@ -223,16 +237,16 @@ export const UI = {
       not2: "Непроверенные утверждения названы в листах непроверенными. В атласе нет категории «общеизвестного», освобождающей утверждение от ссылки.",
     },
     nf: {
-      title: "Не найдено — АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ", desc: "Страницы нет в архиве.",
+      title: "Не найдено — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Страницы нет в архиве.",
       kicker: "ОШИБКА 404 — ОТСУТСТВУЕТ В АРХИВЕ", h1: "НЕ<br>НАЙДЕНО",
       text: "Листа, который вы искали, нет в этом издании. Дорога назад — указатель.", index: "УКАЗАТЕЛЬ", cover: "ОБЛОЖКА",
     },
     method: {
-      title: "Метод — АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ", desc: "Границы, уровни доказательности, транслитерация и пределы этого атласа.",
+      title: "Метод — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Границы, уровни доказательности, транслитерация и пределы этого атласа.",
       kicker: "МЕТОД — ПЕРЕД КАРТИНКАМИ", h1: "КАК<br>ЧИТАТЬ<br>АТЛАС", levels: "ТРИ УРОВНЯ", levelsAria: "Уровни доказательности",
     },
     colo: {
-      title: "Колофон — АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ", desc: "Производственные заметки, гарнитуры, материалы и технические сведения.",
+      title: "Колофон — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Производственные заметки, гарнитуры, материалы и технические сведения.",
       kicker: "КОЛОФОН", h1: "ПРЕДМЕТ", dek: "Из чего сделано это издание — и чем оно намеренно не является.",
       secs: [
         ["ГАРНИТУРЫ", `<p><strong>Anton</strong> (плотный узкий акцидентный, латиница) и <strong>Fira Sans Extra Condensed</strong> (его кириллический двойник), <strong>Oswald</strong> (узкие заголовки), <strong>Old Standard TT</strong> (антиква в духе русской печати XIX века — для выносок и подписей), <strong>Source Serif 4</strong> (основной текст), <strong>Special Elite</strong> (пишущая машинка; в кириллице её заменяет IBM Plex Mono), <strong>Caveat</strong> (рукописные пометки, латиница и кириллица) и <strong>IBM Plex Mono</strong> (данные). Все, кроме Special Elite, распространяются по лицензии SIL Open Font License 1.1; Special Elite — по Apache License 2.0. Шрифты отдаются из этого репозитория, тексты лицензий лежат в <code>assets/fonts/</code>.</p>`],
@@ -242,7 +256,7 @@ export const UI = {
         ["ЛИЦЕНЗИЯ", `<p>Оригинальные тексты, данные, схемы и сгенерированные текстуры атласа выпущены под лицензией <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener">CC BY-SA 4.0</a>. Сторонние изображения сохраняют лицензии, указанные в списке источников и в <code>ASSET_CREDITS.md</code>. Производные изображения фотографий под CC BY-SA остаются под CC BY-SA.</p>`],
       ],
     },
-    prologue: { title: "Пролог — АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ", desc: "Перед первым листом: что это за атлас, от чего он отказывается и три способа пройти по нему." },
-    words: { title: "Словарь — АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ", desc: "Словарь русских слов, на которых держится атлас: кириллица, транслитерация, регистр и листы, где слово разбирается." },
+    prologue: { title: "Пролог — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Перед первым листом: что это за атлас, от чего он отказывается и три способа пройти по нему." },
+    words: { title: "Словарь — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Словарь русских слов, на которых держится атлас: кириллица, транслитерация, регистр и листы, где слово разбирается." },
   },
 };

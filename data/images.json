@@ -1317,6 +1317,38 @@
       "made_by": "make_derived.py"
     },
     {
+      "id": "izba-red-corner-wide",
+      "file": "assets/derived/izba-red-corner-wide.webp",
+      "kind": "derivative",
+      "title": "Red corner in an izba, Vitoslavlitsy (Veliky Novgorod) — whole frame — faded print with scanner banding",
+      "creator": "Derivative made for this atlas from the original by Aglav",
+      "date": "2026",
+      "medium": "Crop: Whole frame. Processing: faded print with scanner banding, torn edge baked into the alpha channel",
+      "license": "CC BY-SA 3.0 (derived)",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D1%83%D0%B3%D0%BE%D0%BB_%D0%B8%D0%B7%D0%B1%D1%8B_%D0%A2%D1%83%D0%BD%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE_%D0%92.%D0%90..JPG",
+      "parent": "izba-red-corner",
+      "alt": "A dark log-walled room corner: an icon above a long embroidered towel, a bunch of dried stalks and a wooden vessel below",
+      "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
+      "made_by": "make_derived.py"
+    },
+    {
+      "id": "tver-empty-house-xerox",
+      "file": "assets/derived/tver-empty-house-xerox.webp",
+      "kind": "derivative",
+      "title": "Abandoned wooden house by the road, Tver Oblast (2016) — xerox — photocopy (toner threshold, streaks)",
+      "creator": "Derivative made for this atlas from the original by Rakoon",
+      "date": "2026",
+      "medium": "Crop: Whole frame, xerox treatment. Processing: photocopy (toner threshold, streaks), torn edge baked into the alpha channel",
+      "license": "CC0 1.0 (derived)",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:0055_August_2016_in_Tver_Oblast.jpg",
+      "parent": "tver-empty-house",
+      "alt": "A dark wooden house with a sagging roof stands beside a country road under a pale sky",
+      "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
+      "made_by": "make_derived.py"
+    },
+    {
       "id": "mamayev-news",
       "file": "assets/derived/mamayev-news.webp",
       "kind": "derivative",

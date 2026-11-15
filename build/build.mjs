@@ -28,7 +28,7 @@ const write = (rel, content) => {
 const SITE = "https://DmitryLeLeE.github.io/rus_death/";
 let LANG = "en", T = UI.en, UP = "";
 let plates, sourcesDoc, objectsDoc, conceptsDoc, placesDoc, timelineDoc, imagesDoc, methodDoc, derivedDoc;
-let prologueDoc, lexiconDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, HAND = {};
+let prologueDoc, lexiconDoc, volumesDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
 
 const merge = (target, src) => {
   for (const [k, v] of Object.entries(src)) {
@@ -53,6 +53,7 @@ function loadLang(lang) {
   derivedDoc = readJSON(path.join(DATA, "derived.json"));
   prologueDoc = fileExists(path.join(DATA, "prologue.json")) ? readJSON(path.join(DATA, "prologue.json")) : null;
   lexiconDoc = fileExists(path.join(DATA, "lexicon.json")) ? readJSON(path.join(DATA, "lexicon.json")) : null;
+  volumesDoc = readJSON(path.join(DATA, "volumes.json"));
   HAND = {};
   if (lang === "ru") {
     const ov = (f) => { const p = path.join(DATA, "ru", f); return fileExists(p) ? readJSON(p) : null; };
@@ -87,6 +88,8 @@ function loadLang(lang) {
       for (const e of lexiconDoc.entries) if (lxe && lxe[e.id]) merge(e, lxe[e.id]);
     }
     HAND = ov("hand.json") || {};
+    const vv = ov("volumes.json");
+    if (vv) for (const v of volumesDoc.volumes) if (vv[v.id]) merge(v, vv[v.id]);
   }
   S = byId(sourcesDoc.entries);
   IMG = byId(imagesDoc.images);
@@ -95,7 +98,10 @@ function loadLang(lang) {
   OBJ = byId(objectsDoc.objects);
   CON = byId(conceptsDoc.concepts);
   PLATE = byId(plates.plates);
+  VOL = byId(volumesDoc.volumes);
 }
+const volPlates = (vid) => plates.plates.filter((p) => p.volume === vid);
+const volPos = (p) => volPlates(p.volume).indexOf(p) + 1;
 const hand = (s) => (s && HAND[s]) || s || "";
 
 // ---------------------------------------------------------------- helpers ---
@@ -287,8 +293,8 @@ function photoFig(id, base, { caption = "", credit = "", level = "", alt = "", n
 function figureSection(s, base, item) {
   const src = s.src;
   if (!IMG[src]) return diagramFig(s, base);
-  const show = FIGMAP[src] || src;
-  const keepsOrig = !FIGMAP[src];
+  const show = s.show || FIGMAP[src] || src;
+  const keepsOrig = !s.show && !FIGMAP[src];
   const o = IMG[src];
   const clipSides = keepsOrig ? "tblr" : "tb";
   return photoFig(show, base, {
@@ -378,6 +384,7 @@ ${spriteMarks}
   <a class="brand" href="${base}index.html"><span class="brand__a">${brand[0]}</span>${brand[1] ? ` <span class="brand__of">${brand[1]}</span>` : ""} <span class="brand__r">${brand[2]}</span></a>
   <nav class="topnav" aria-label="${T.navLabel}">
     <a href="${base}prologue.html">${nav.prologue}</a>
+    <a href="${base}volumes.html">${nav.volumes}</a>
     <a href="${base}atlas.html">${nav.index}</a>
     <a href="${base}map.html">${nav.map}</a>
     <a href="${base}chronology.html">${nav.chrono}</a>
@@ -404,10 +411,12 @@ ${content}
     <button class="contents__close" type="button" data-menu-close>${T.close}</button>
   </div>
   <ol class="contents__list">
-    ${plates.plates.map((p) => `<li><a href="${plateHref(p.id, base)}"><span class="contents__letter">${p.letter}</span><span class="contents__title">${esc(p.nav)}</span><span class="contents__pg">${String(plates.plates.indexOf(p) + 1).padStart(2, "0")}</span></a></li>`).join("\n")}
+    ${volumesDoc.volumes.filter((v) => volPlates(v.id).length).map((v) => `<li class="contents__vol mono">${T.volumeWord} ${v.numeral} — ${esc(v.title)}</li>
+    ${volPlates(v.id).map((p) => `<li><a href="${plateHref(p.id, base)}"><span class="contents__letter">${p.letter}</span><span class="contents__title">${esc(p.nav)}</span><span class="contents__pg">${String(plates.plates.indexOf(p) + 1).padStart(2, "0")}</span></a></li>`).join("\n")}`).join("\n")}
   </ol>
   <div class="contents__meta">
     <a href="${base}prologue.html">${nav.prologue}</a>
+    <a href="${base}volumes.html">${nav.volumes}</a>
     <a href="${base}atlas.html">${nav.index}</a>
     <a href="${base}map.html">${nav.map}</a>
     <a href="${base}chronology.html">${nav.chrono}</a>
@@ -494,7 +503,7 @@ function renderPlate(p) {
   const titleHtml = words.map((w, i) => `<span class="w${i + 1}${i === hl ? " hl" : ""}">${esc(w)}</span>`).join(" ");
 
   const head = `<header class="head">
-  <p class="head__tag">${T.plate} ${p.letter} · ${String(idx + 1).padStart(2, "0")} ${T.plateOf}</p>
+  <p class="head__tag">${T.volumeWord} ${p.volume} · ${T.plate} ${p.letter} · ${String(volPos(p)).padStart(2, "0")} / ${String(volPlates(p.volume).length).padStart(2, "0")}</p>
   <h1 class="head__title${lead ? " has-lead" : ""}${words.length === 1 ? " is-one" : ""}">${titleHtml}</h1>
   <p class="head__sub">${esc(p.subtitle)}</p>
   <p class="head__dek">${md(p.dek)}</p>
@@ -629,7 +638,7 @@ ${pagehead("", X.kicker, X.h1, X.dek)}
   <h2 id="catalog-title" class="visually-hidden">${X.catalogue}</h2>
   <div class="catalog__controls">
     <div class="tabs" role="tablist" aria-label="${X.tabsLabel}">
-      <button role="tab" id="tab-plate" aria-controls="panel-plate" aria-selected="true" class="tab mono" data-tab="plate">${X.tabPlates} <span>12</span></button>
+      <button role="tab" id="tab-plate" aria-controls="panel-plate" aria-selected="true" class="tab mono" data-tab="plate">${X.tabPlates} <span>${plates.plates.length}</span></button>
       <button role="tab" id="tab-object" aria-controls="panel-object" aria-selected="false" class="tab mono" data-tab="object">${X.tabObjects} <span>${objectsDoc.objects.length}</span></button>
       <button role="tab" id="tab-concept" aria-controls="panel-concept" aria-selected="false" class="tab mono" data-tab="concept">${X.tabConcepts} <span>${conceptsDoc.concepts.length}</span></button>
       <button role="tab" id="tab-place" aria-controls="panel-place" aria-selected="false" class="tab mono" data-tab="place">${X.tabPlaces} <span>${placesDoc.places.length}</span></button>
@@ -646,7 +655,7 @@ ${pagehead("", X.kicker, X.h1, X.dek)}
     <button class="chip chip--reset mono" type="button" data-reset>${X.all}</button>
   </div>
 
-  <p class="catalog__status mono" role="status" aria-live="polite" id="status">12 ${X.js.plates}</p>
+  <p class="catalog__status mono" role="status" aria-live="polite" id="status">${plates.plates.length} ${X.js.plates}</p>
 
   <div role="tabpanel" id="panel-plate" aria-labelledby="tab-plate" class="panel" data-panel="plate">
     <ol class="cards" id="cards-plate">${cards}</ol>
@@ -923,6 +932,41 @@ ${pagehead("pagehead--words", esc(d.kicker), esc(d.title).replace(/\n/g, "<br>")
 }
 
 // ----------------------------------------------------------------- cover ---
+// ------------------------------------------------------------- volumes -----
+function volumesPage() {
+  const base = "", X = T.volumes;
+  const statusLabel = { published: X.published, "in-preparation": X.inPrep, planned: X.planned };
+  const blocks = volumesDoc.volumes.map((v) => {
+    const pub = volPlates(v.id);
+    const cards = pub.map((p) => `<li class="vol__plate"><a href="${plateHref(p.id, base)}">
+        <span class="vol__thumb" aria-hidden="true"><img src="${thumbFile(KEY[p.id])}" alt="" loading="lazy" decoding="async"></span>
+        <span class="vol__letter">${p.letter}</span>
+        <span class="vol__ptitle">${esc(p.nav)}</span>
+        <span class="vol__pdek">${esc(p.dek.replace(/[*`]/g, ""))}</span>
+      </a></li>`).join("\n");
+    const lead = (v.planned || []).map((q) => `<li class="vol__lead"><span class="vol__letter vol__letter--dim">${q.letter}</span><span class="vol__ptitle">${esc(q.title)}</span><span class="vol__pdek">${esc(q.scope)}</span><span class="vol__flag mono">${X.lead}</span></li>`).join("\n");
+    return `<section class="vol vol--${v.status}" aria-labelledby="vol-${v.id}">
+    <header class="vol__head">
+      <p class="vol__no mono">${T.volumeWord} ${v.numeral} · <span class="vol__status">${statusLabel[v.status]}</span></p>
+      <h2 id="vol-${v.id}" class="vol__title">${esc(v.title)}</h2>
+      <p class="vol__sub">${esc(v.subtitle)}</p>
+      <p class="vol__dek">${esc(v.dek)}</p>
+    </header>
+    ${pub.length ? `<ol class="vol__plates">${cards}</ol>` : ""}
+    ${lead ? `<ol class="vol__leads" aria-label="${X.leadsLabel}">${lead}</ol>` : ""}
+  </section>`;
+  }).join("\n");
+  return shell({
+    title: X.title, description: X.desc, base, bodyClass: "volumes-page", page: "volumes", rel: "volumes.html",
+    content: `<main id="main">
+${pagehead("", X.kicker, X.h1, X.dek)}
+<div class="vols">${blocks}
+  <p class="vols__rule mono">${X.rule}</p>
+</div>
+</main>`,
+  });
+}
+
 function coverPage() {
   const base = "", X = T.cover;
   const keyThumb = (p) => {
@@ -980,7 +1024,7 @@ function coverPage() {
 }
 
 // ------------------------------------------------------------------ run ----
-const PAGES = ["index.html", "prologue.html", "atlas.html", "map.html", "chronology.html", "words.html", "bibliography.html", "method.html", "colophon.html"];
+const PAGES = ["index.html", "prologue.html", "volumes.html", "atlas.html", "map.html", "chronology.html", "words.html", "bibliography.html", "method.html", "colophon.html"];
 const sitemapRel = [];
 console.log("building");
 for (const lang of ["en", "ru"]) {
@@ -989,6 +1033,7 @@ for (const lang of ["en", "ru"]) {
   console.log(` [${lang}]`);
   write(`${pre}index.html`, coverPage());
   write(`${pre}method.html`, methodPage());
+  write(`${pre}volumes.html`, volumesPage());
   write(`${pre}atlas.html`, indexPage());
   write(`${pre}map.html`, mapPage());
   write(`${pre}chronology.html`, chronologyPage());
