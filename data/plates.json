@@ -2787,6 +2787,33 @@
             "c": "1/13",
             "w": 100
           }
+        },
+        {
+          "type": "figure",
+          "src": "pripyat-village-1882",
+          "alt": "A nineteenth-century wood engraving of a thatched whitewashed house in a village beside a creek, a woman and a dog in the yard, a flat-bottomed boat at the right edge, birches with a stork’s nest behind",
+          "caption": "A village beside water in the Pinsk Polesye, as an 1882 wood engraving in Picturesque Russia (vol. 3, p. 345). It shows a settlement with a creek, a boat and a stork’s nest, not a ritual. The volume’s illustration list names Dmokhovsky; the block was not checked for a signature.",
+          "credit": "Живописная Россия, т. 3, 1882, с. 345 · Internet Archive, Public Domain Mark",
+          "level": "contextual",
+          "at": {
+            "r": 2,
+            "c": "9/13",
+            "w": 92
+          }
+        },
+        {
+          "type": "figure",
+          "src": "drained-marsh-1882",
+          "alt": "A nineteenth-century wood engraving of a straight embanked road with two wooden railed bridges over cross-channels, two carts, a walker with a basket and a resting group, flat meadow with haystacks and a dark forest beyond",
+          "caption": "‘Осушенные болота’, drained marshes, an 1882 wood engraving from the same volume (p. 353): an embanked road, two bridges and cut channels across flat meadow. It records drainage as drawn then; the caption names no marsh and neither does the atlas.",
+          "credit": "Живописная Россия, т. 3, 1882, с. 353 · Internet Archive, Public Domain Mark",
+          "level": "contextual",
+          "size": "wide",
+          "at": {
+            "r": 3,
+            "c": "1/6",
+            "w": 100
+          }
         }
       ]
     },

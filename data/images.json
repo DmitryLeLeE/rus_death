@@ -2275,6 +2275,40 @@
       "alt": "Таблица пяти сообщений о поминовении на Семик из Хлынова, Котельнича, Смоленска, Ледова и Смоленской губернии, у каждого указана работа, которую цитирует Зеленин, все читаются через одно переиздание, и пунктирная рамка для обычаев с водой, известных только из анонимной статьи энциклопедии",
       "evidence": "documented",
       "note": "Drawn from the plate’s own sourced text (Zelenin 1916, 1995 reprint, ch. 4; Great Russian Encyclopedia online entry, anonymous). Original reports were not seen. Russian-language version of diagram-semik-chain."
+    },
+    {
+      "id": "pripyat-village-1882",
+      "file": "assets/images/pripyat-village-1882.jpg",
+      "kind": "print",
+      "role": "archival",
+      "evidence": "contextual",
+      "title": "Деревня близь Припети (engraving, Picturesque Russia, vol. 3, p. 345)",
+      "creator": "Dmokhovsky, per the volume’s own list of illustrations (OCR); not checked on the block",
+      "date": "1882",
+      "medium": "Wood engraving cropped from a page scan (leaf n368)",
+      "collection": "Internet Archive; scan of the volume held by the Russian National Library (stamp “РНБ Русский фонд” on the last page)",
+      "license": "Public domain (Public Domain Mark 1.0, as set on the Internet Archive record; 1882 publication)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://archive.org/details/3.-.-1-2-1882",
+      "alt": "A nineteenth-century wood engraving of a thatched whitewashed house in a village beside a creek, a woman and a dog in the yard, a flat-bottomed boat at the right edge, birches with a stork’s nest behind",
+      "note": "Cropped from the page scan of ‘Живописная Россия’, vol. 3, parts 1–2 (St Petersburg and Moscow: M. O. Wolf, 1882), p. 345, caption “Деревня близь Припети”, in the chapter on the Pripyat valley. The volume’s own list of illustrations, read from the OCR text, gives the artist as Dmokhovsky (OCR ‘Дмоховекаго’); the page itself was not checked for a signature, so the attribution is the list’s, not confirmed on the block. The record’s licence field is the Internet Archive’s Public Domain Mark. Shows a settlement beside water in the Pinsk Polesye, today Belarus; it is not a funeral or burial image."
+    },
+    {
+      "id": "drained-marsh-1882",
+      "file": "assets/images/drained-marsh-1882.jpg",
+      "kind": "print",
+      "role": "archival",
+      "evidence": "contextual",
+      "title": "Осушенные болота (engraving, Picturesque Russia, vol. 3, p. 353)",
+      "creator": "Wood engraving in the volume; artist not named in the part of the list read",
+      "date": "1882",
+      "medium": "Wood engraving cropped from a page scan (leaf n376)",
+      "collection": "Internet Archive; scan of the volume held by the Russian National Library (stamp “РНБ Русский фонд” on the last page)",
+      "license": "Public domain (Public Domain Mark 1.0, as set on the Internet Archive record; 1882 publication)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://archive.org/details/3.-.-1-2-1882",
+      "alt": "A nineteenth-century wood engraving of a straight embanked road with two wooden railed bridges over cross-channels, two carts, a walker with a basket and a resting group, flat meadow with haystacks and a dark forest beyond",
+      "note": "Cropped from the page scan of ‘Живописная Россия’, vol. 3, parts 1–2 (1882), p. 353, caption “Осушенные болота” (‘drained marshes’), in the chapter on the Pripyat valley. The artist is not named for this block in the part of the OCR list read, so none is given. The caption does not say which marsh or which drainage works; the atlas does not add that. A landscape of 1882 drainage, not a ritual or burial site."
     }
   ]
 }
