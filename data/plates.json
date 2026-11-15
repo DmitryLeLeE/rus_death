@@ -15,7 +15,7 @@
       "title": "THE THRESHOLD",
       "subtitle": "The room, the moment, and the border that is not drawn",
       "dek": "The ethnography of death in Russia is rarely an account of dying. It is an account of what the living do in the room afterwards — and of how quickly that room becomes a border.",
-      "marginal": "The mirror, the clock and the open window are the three objects most often repeated in the literature and the least often dated. None of them appears in a source earlier than the nineteenth century in the material used here.",
+      "marginal": "The mirror and the water are documented in the sources read for this edition. The open window is documented for Eastern Slavic rites in general. The stopped clock is repeated in the literature, but none of those sources records it.",
       "period": "Documented mainly 19th–20th centuries",
       "location": "European Russia; unevenly recorded",
       "tradition": "Orthodox Christian practice; local folk custom",
@@ -25,7 +25,10 @@
       "sources": [
         "ivanits1989",
         "zelenin1916",
-        "baiburin1993"
+        "baiburin1993",
+        "rouhier2007",
+        "andryunina-house",
+        "lewkijewskaja2004"
       ],
       "related": [
         "e",
@@ -48,10 +51,15 @@
           "kicker": "A / 01",
           "heading": "A room with the window open",
           "paras": [
-            "In the accounts collected by ethnographers in Russian villages from the middle of the nineteenth century onward, death is registered less as an event than as a series of adjustments to a house. A window is opened. A mirror is covered. A clock is stopped. Water standing in a vessel is covered or carried out. The body is washed and laid on a bench or table, head toward the icons, and the household is rearranged around it.",
+            "In the accounts collected by ethnographers in Russian villages from the middle of the nineteenth century onward, death is registered less as an event than as a series of adjustments to a house. Mirrors are covered. Water standing in the house is thrown out or covered. The body is washed and laid on a table under the icons, head toward them, and the household is rearranged around it. Across Eastern Slavic rites a window or door is opened for the soul to leave; the Russian-specific evidence read here for that is thinner. A stopped clock is often named, but no source read for this edition records it, so it is not asserted.",
             "These are the practices most often repeated in the literature, and they are the ones most often flattened into a single ‘Russian custom’. The sources do not support that flattening. They record variants; they record disagreement between villages a day’s walk apart; and they record the informant’s own uncertainty about why a thing was done."
           ],
-          "level": "documented"
+          "level": "documented",
+          "sources": [
+            "rouhier2007",
+            "andryunina-house",
+            "lewkijewskaja2004"
+          ]
         },
         {
           "type": "figure",
