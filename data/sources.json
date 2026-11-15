@@ -952,6 +952,45 @@
       "language": "Russian",
       "supports": "For the Kargopol area (Arkhangelsk Oblast): the domovoy as a helpful ‘master’ of the household who looks like the head of the family and cares for livestock; names such as khozyain and the euphemisms zapechnik and podpolnik; the baennik of the bathhouse, the ovinnik of the threshing barn and the dvorovoy of the yard as separate spirits; and the author’s statement that the domovoy is closely tied to the ancestor cult although the text does not say he is a dead person.",
       "limitation": "A short piece by a student, from the expedition of the Russian State University for the Humanities; the years of the expeditions, the collection and the year of publication are not given on the page read. The relation to the dead is a general statement of the author, not an informant’s report. Read in a machine summary of the PDF."
+    },
+    {
+      "id": "azbyka-mytarstva",
+      "kind": "web",
+      "author": "Neskuchny Sad (journal), expert: Archpriest Boris Levshenko",
+      "title": "Mytarstva: bogoslovskoe modelirovanie (Toll-houses: theological modelling)",
+      "year": "n.d.",
+      "publisher": "Azbyka.ru",
+      "url": "https://azbyka.ru/mytarstva-bogoslovskoe-modelirovanie",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "The Life of St Basil the New as source of the Theodora vision (10th c., Constantinople, per the Orthodox Encyclopedia as cited there); the statement that the toll-house narrative never became binding dogma.",
+      "limitation": "A popular theological article; not a primary text of the Life."
+    },
+    {
+      "id": "azbyka-parent-saturdays",
+      "kind": "web",
+      "author": "Azbyka.ru editors",
+      "title": "Roditelskie subboty (Parental Saturdays)",
+      "year": "n.d.",
+      "publisher": "Azbyka.ru",
+      "url": "https://azbyka.ru/roditelskie-subboty",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Rule that 3rd/9th/40th-day commemorations falling in Great Lent are moved to the nearest Saturday; church rules do not regulate the memorial meal.",
+      "limitation": "Reference page without a named author."
+    },
+    {
+      "id": "loiter2017",
+      "kind": "article",
+      "author": "Loiter, S. M.",
+      "title": "Irina Fedosova v issledovaniyakh K. V. Chistova (Irina Fedosova in the work of K. V. Chistov)",
+      "year": "2017",
+      "publisher": "Uchenye zapiski Petrozavodskogo gosudarstvennogo universiteta, no. 1 (162), pp. 61–66",
+      "url": "https://elibrary.petrsu.ru/books/show/31000",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Fedosova (1827–1899), lamenter of the Zaonezhye; Chistov’s long study of her; Agreneva-Slavianskaia’s additional recordings.",
+      "limitation": "Abstract and excerpts read; dates differ in some reference works (1827 vs 1831)."
     }
   ]
 }

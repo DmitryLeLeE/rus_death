@@ -83,7 +83,7 @@
           "kicker": "A / 02",
           "heading": "The soul as breath, and as a guest",
           "paras": [
-            "Russian folk belief, as described by Linda Ivanits and by D. K. Zelenin before her, treats the soul (*dusha*) as a substance closely bound to breath and to the body’s warmth, and simultaneously as a person-like visitor who must be housed, fed and escorted. These are not two beliefs held by different people; they are two grammars used in the same account.",
+            "Russian folk belief, as described by Linda Ivanits and by D. K. Zelenin before her, treats the soul (*dusha*) as a substance closely bound to breath and to the body’s warmth, and simultaneously as a person-like visitor who must be housed, fed and escorted. The same informants use both descriptions in a single account.",
             "The consequence is a threshold that is both physical and social. The dead remain members of the household for a defined period, are addressed in the second person, and are given food and a place at the table. The border is maintained by small prohibitions rather than by a wall."
           ],
           "level": "interpretation",
@@ -462,7 +462,8 @@
       "sources": [
         "ivanits1989",
         "zelenin1916",
-        "tolstoy1995"
+        "tolstoy1995",
+        "azbyka-parent-saturdays"
       ],
       "related": [
         "c",
@@ -605,6 +606,18 @@
           "size": "narrow",
           "mask": "torn-01",
           "state": "archive"
+        },
+        {
+          "type": "prose",
+          "kicker": "Lent",
+          "heading": "When the table has to wait",
+          "level": "documented",
+          "sources": [
+            "azbyka-parent-saturdays"
+          ],
+          "paras": [
+            "The table follows the church calendar. A reference page on the parental Saturdays states that when someone died before or during Great Lent, the commemorations on the third, ninth and fortieth days were not held in mid-week, when there is no full Liturgy, but moved to the nearest Saturday. The same page says that church rules do not regulate the memorial meal at all and offers a single guideline, moderation. The meal is therefore a custom set inside a calendar, not a rite with its own canon; the household negotiates between the two. The page names no author and describes the rule in the past tense, so the atlas uses it as a statement of the rule, not as evidence of how many households followed it."
+          ]
         }
       ],
       "volume": "I"
@@ -928,7 +941,8 @@
       "sources": [
         "barsov1872",
         "tolstoy1995",
-        "ivanits1989"
+        "ivanits1989",
+        "loiter2017"
       ],
       "related": [
         "c",
@@ -954,7 +968,7 @@
           "heading": "Barsov’s north",
           "paras": [
             "Between 1872 and 1886 E. V. Barsov published *Prichitaniia Severnogo kraia* — ‘Laments of the Northern Land’ — in three volumes. The collection is the foundational document of Russian lament studies: texts recorded in the Olonets region, with the circumstances of performance, the performers and their repertoires.",
-            "Laments are not spontaneous weeping set to words; they are composed in performance from a stock of formulas, by performers who know the genre and are judged by it. Barsov’s volumes make this visible: the same formulas recur across different deaths, recombined."
+            "Laments are composed in performance from a stock of formulas, by performers who know the genre and are judged by it, rather than being spontaneous weeping set to words. Barsov’s volumes make this visible: the same formulas recur across different deaths, recombined."
           ],
           "level": "documented",
           "sources": [
@@ -1104,6 +1118,19 @@
           "text": "Причитания Северного края",
           "attrib": "Bibliographic title: E. V. Barsov, Laments of the Northern Land, Moscow, 1872–1886. Russian title, not a quotation from the laments.",
           "level": "documented"
+        },
+        {
+          "type": "prose",
+          "kicker": "The performer",
+          "heading": "Fedosova, and the question of the author",
+          "level": "documented",
+          "sources": [
+            "barsov1872",
+            "loiter2017"
+          ],
+          "paras": [
+            "Most of the laments in Barsov’s volumes were recorded from one woman, Irina Andreevna Fedosova (1827–1899), a lamenter from the Zaonezhye north of Lake Onega; a few were added later from her by O. Kh. Agreneva-Slavianskaia. Reference works disagree on her birth year, 1827 or 1831, and this atlas follows the 1827 given in the scholarly articles read. The consequence for the plate is concrete. A genre described above as formulaic and communal reaches us largely through a single, exceptionally skilled voice, recorded by outsiders, in a setting that was not a funeral. Philologists have debated how much of the printed text is the tradition and how much is the performer. The sources read here do not allow the atlas to settle that, and it does not."
+          ]
         }
       ],
       "volume": "I"
@@ -1126,7 +1153,8 @@
         "skrizhal",
         "tolstoy1995",
         "ivanits1989",
-        "merridale2000"
+        "merridale2000",
+        "azbyka-mytarstva"
       ],
       "related": [
         "a",
@@ -1259,6 +1287,19 @@
           "level": "reconstruction",
           "size": "wide",
           "hidden": true
+        },
+        {
+          "type": "prose",
+          "kicker": "The toll-houses",
+          "heading": "A narrative that is not a dogma",
+          "level": "documented",
+          "contested": true,
+          "sources": [
+            "azbyka-mytarstva"
+          ],
+          "paras": [
+            "The best-known popular itinerary of the soul in Russia comes from one text: the vision of Theodora in the Life of St Basil the New. In it the dead woman appears to Basil’s disciple Gregory and describes how angels escorted her through a series of trials, at which evil spirits tried to claim her soul for its sins. According to the Orthodox Encyclopedia, as cited in a Russian theological article, the Life was written in Constantinople in the second half of the tenth century and exists in several redactions. The same article states that the toll-house narrative became widely accepted but never acquired the status of a binding dogma of the Church, and reads its images as parable-like language, not as literal topography. The atlas takes the distinction from that article: the narrative is documented as hagiography and widely received; its status as doctrine is disputed in the very source that defends it. The article was read, not the Life itself, so no list of the trials is given here."
+          ]
         }
       ],
       "volume": "I"
