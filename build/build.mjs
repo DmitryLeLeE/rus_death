@@ -120,6 +120,11 @@ function loadLang(lang) {
   fill(T); fill(methodDoc);
 }
 const volPlates = (vid) => plates.plates.filter((p) => p.volume === vid);
+const letterRange = (vp) => {
+  const cs = vp.map((p) => p.letter.charCodeAt(0)).sort((a, b) => a - b), out = [];
+  for (let i = 0; i < cs.length; ) { let j = i; while (j + 1 < cs.length && cs[j + 1] === cs[j] + 1) j++; out.push(j > i ? `${String.fromCharCode(cs[i])}–${String.fromCharCode(cs[j])}` : String.fromCharCode(cs[i])); i = j + 1; }
+  return out.join(", ");
+};
 const volPos = (p) => volPlates(p.volume).indexOf(p) + 1;
 const hand = (s) => (s && HAND[s]) || s || "";
 
@@ -1202,7 +1207,7 @@ function coverPage() {
           <span class="cv-vol__no mono">${T.volumeWord} ${v.numeral}</span>
           <span class="cv-vol__title">${esc(v.title)}</span>
           <span class="cv-vol__sub">${esc(v.subtitle)}</span>
-          <span class="cv-vol__n mono">${X.volPlates(vp.length, vp[0].letter, vp[vp.length - 1].letter)}</span>
+          <span class="cv-vol__n mono">${X.volPlates(vp.length, letterRange(vp))}</span>
           <span class="cv-vol__go mono">${X.volOpen}</span></span></span></a></li>`;
       }).join("\n      ")}
     </ol>
