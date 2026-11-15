@@ -32,6 +32,7 @@ export const UI = {
     kinds: { monograph: "MONOGRAPH", primary: "PRIMARY", reference: "REFERENCE", institutional: "INSTITUTIONAL", museum: "MUSEUM", press: "PRESS" },
     langToggle: "RU", langToggleTitle: "Read in Russian", langToggleAria: "Read this project in Russian", footLang: "Read in Russian",
     sound: "SOUND", soundOn: "SOUND ON", soundTitle: "Optional room sound, synthesised in the browser. Off by default.",
+    soundNoteAsk: "This atlas has an optional soundscape: room tone, wind and far bells, with a small sound for every control and every object. It is made in your browser; nothing is downloaded or recorded.", soundNoteYes: "SOUND ON", soundNoteNo: "NO SOUND", soundNoteResume: "Sound is on. Your browser needs one touch or key press to let it through.", soundNoteResumeBtn: "RESUME",
     readable: "READABLE", readableTitle: "Plain reading mode: no tilt, no texture, larger text", readableOn: "ORIGINAL",
     ruBanner: "A Russian edition is available.", ruBannerGo: "READ IN RUSSIAN →", ruBannerNo: "dismiss",
 
@@ -188,6 +189,7 @@ export const UI = {
     kinds: { monograph: "МОНОГРАФИЯ", primary: "ПЕРВОИСТОЧНИК", reference: "СПРАВОЧНОЕ", institutional: "ИНСТИТУЦИОНАЛЬНОЕ", museum: "МУЗЕЙНОЕ", press: "ПРЕССА" },
     langToggle: "EN", langToggleTitle: "Read in English", langToggleAria: "Read this project in English", footLang: "English",
     sound: "ЗВУК", soundOn: "ЗВУК ВКЛ", soundTitle: "Необязательный звук помещения, синтезируется в браузере. По умолчанию выключен.",
+    soundNoteAsk: "У атласа есть необязательный звук: шум помещения, ветер и далёкие колокола, а у каждого элемента управления и каждого предмета свой короткий звук. Он создаётся в вашем браузере, ничего не скачивается и не записывается.", soundNoteYes: "ВКЛЮЧИТЬ ЗВУК", soundNoteNo: "БЕЗ ЗВУКА", soundNoteResume: "Звук включён. Браузеру нужно одно касание или нажатие клавиши, чтобы его пропустить.", soundNoteResumeBtn: "ПРОДОЛЖИТЬ",
     readable: "ЧИТАТЬ ЛЕГКО", readableTitle: "Режим спокойного чтения: без наклонов и текстур, крупнее шрифт", readableOn: "КАК В ИЗДАНИИ",
     ruBanner: "", ruBannerGo: "", ruBannerNo: "",
 

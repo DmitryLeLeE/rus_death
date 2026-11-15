@@ -460,8 +460,9 @@ ${content}
     <p data-credit></p>
   </div>
 </dialog>
-<button class="sound-btn" type="button" data-sound aria-pressed="false" title="${esc(T.soundTitle)}" data-on="${esc(T.soundOn)}" data-off="${esc(T.sound)}">${T.sound}</button>
+<button class="sound-btn" type="button" data-sound aria-pressed="false" title="${esc(T.soundTitle)}" data-on="${esc(T.soundOn)}" data-off="${esc(T.sound)}" data-note-ask="${esc(T.soundNoteAsk)}" data-note-yes="${esc(T.soundNoteYes)}" data-note-no="${esc(T.soundNoteNo)}" data-note-resume="${esc(T.soundNoteResume)}" data-note-resume-btn="${esc(T.soundNoteResumeBtn)}">${T.sound}</button>
 <script src="${A}js/app.js" defer></script>
+<script src="${A}js/nav.js" defer></script>
 <script src="${A}js/sound.js" defer></script>
 </body>
 </html>`;

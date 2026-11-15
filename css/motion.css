@@ -68,4 +68,11 @@ html.is-plain * { animation: none !important; transition: none !important; }
 .sound-btn:hover, .sound-btn:focus-visible { border-color: var(--red-hot); }
 .sound-btn[aria-pressed="true"] { background: var(--bone); color: var(--ink); }
 .sound-btn[hidden] { display: none; }
+.sound-note { position: fixed; left: 12px; bottom: 54px; z-index: 41; max-width: min(34rem, calc(100vw - 24px)); background: #0d0c0bf2; color: var(--bone); border: 1px solid var(--red-hot); padding: 12px 14px; font: 0.72rem/1.55 var(--f-type); box-shadow: 0 6px 24px #000a; }
+.sound-note p { margin: 0 0 10px; }
+.sound-note__row { display: flex; flex-wrap: wrap; gap: 8px; }
+.sound-note button { font: 0.68rem var(--f-type); letter-spacing: 0.12em; text-transform: uppercase; color: var(--bone); background: transparent; border: 1px solid #5a554c; padding: 6px 10px; cursor: pointer; }
+.sound-note button:hover, .sound-note button:focus-visible { border-color: var(--red-hot); }
+.sound-note button.is-primary { background: var(--bone); color: var(--ink); }
+@media print { .sound-note { display: none !important; } }
 @media print { .sound-btn { display: none !important; } }
