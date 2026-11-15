@@ -396,6 +396,36 @@
       "language": "English",
       "supports": "An interpretation that the hut of Baba-Yaga, set at the edge of the forest or in a clearing, marks a threshold to the Other World, with its owner as guardian of that passage.",
       "limitation": "Only the abstract and the passage on the hut’s location were read. The corpus is Afanasyev’s published folktales, so this is a reading of narrative, not a record of burial or belief practice."
+    },
+    {
+      "id": "lavrenova2022",
+      "kind": "article",
+      "author": "Lavrenova, Olga",
+      "title": "On the Borderline of the Worlds: Swamps in the Mythopoetic World Picture of the Peoples of Russia",
+      "title_en": "",
+      "year": "2022",
+      "publisher": "Shima: The International Journal of Research into Island Cultures 16(2)",
+      "extent": "",
+      "url": "https://doi.org/10.21463/shima.168",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "Swamps treated as a liminal space between water and land and between worlds; accounts of swamps as places the dead go and of swamp spirits that drag people down, including kikimoras described as girls drowned in a swamp.",
+      "limitation": "An interpretive essay built on secondary sources (folklore collections, dictionaries, scholarly summaries) with no stated sampling method, so its examples are illustrative, not representative. It covers many peoples, among them Russians, Komi, Khanty, Tungus and Yakut, so a given example is not automatically Russian. It says little about burial."
+    },
+    {
+      "id": "bre-semik",
+      "kind": "reference",
+      "author": "Bolshaya rossiiskaya entsiklopediya (online edition), unsigned entry",
+      "title": "Семик",
+      "title_en": "Semik",
+      "year": "n.d.",
+      "publisher": "bigenc.ru",
+      "extent": "",
+      "url": "https://bigenc.ru/c/semik-978336",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Semik as a time to remember people who died without repentance or burial, among them the drowned; a Vyatka day dedicated to the drowned; a Smolensk ban on washing and water work at Semik so that no one in the family would drown; wreaths and birches thrown into rivers; communal pits (skudelnitsy) for unidentified bodies until Semik, and an 1771 ban on burial in them.",
+      "limitation": "The page shows no author, year or volume, so the entry cannot be fully cited; it names regional examples without giving their original records. Read through a summary of the page, not line by line."
     }
   ]
 }

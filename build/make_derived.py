@@ -376,6 +376,8 @@ SPECS = [
      "Abandoned wooden house by the road, Tver Oblast (2016)", "Whole frame"),
     ("forest-edge-wide", "forest-edge-domodedovo.jpg", None, "faded", 1500, "tblr",
      "Forest edge by the railway, Domodedovo (2022)", "Whole frame"),
+    ("swamp-karelia-xerox", "swamp-karelia.jpg", None, "xerox", 1400, "tblr",
+     "Bog by Lake Lelikozero, Karelia (2014)", "Whole frame, xerox treatment"),
     ("izba-red-corner-wide", "izba-red-corner.jpg", None, "faded", 1300, "tblr",
      "Red corner in an izba, Vitoslavlitsy (Veliky Novgorod) — whole frame", "Whole frame"),
     ("tver-empty-house-xerox", "tver-empty-house.jpg", None, "xerox", 1200, "tblr",

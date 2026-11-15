@@ -2065,6 +2065,147 @@
           ]
         }
       ]
+    },
+    {
+      "id": "o",
+      "letter": "O",
+      "slug": "water-marsh-river",
+      "nav": "Water, Marsh and River",
+      "title": "WATER, MARSH AND RIVER",
+      "subtitle": "Where the drowned were remembered, and where the swamp stood between worlds",
+      "dek": "In the sources read for this plate, water is the place of the drowned, and the swamp is a border. A calendar day remembered those who died by water; an essay reads swamps as a threshold. The plate keeps the dated custom and the interpretation apart.",
+      "marginal": "The calendar custom is reported by regions. The swamp essay spans many peoples and is not a Russian survey. The two do not prove each other.",
+      "period": "Customs recorded 19th–20th centuries; essay 2022",
+      "location": "Vyatka, Smolensk and other provinces (Semik reports); Russia and neighbouring peoples (essay)",
+      "tradition": "Eastern Slavic folk custom; comparative mythology",
+      "category": "water",
+      "layout": "waters",
+      "tone": "dark",
+      "sources": [
+        "bre-semik",
+        "lavrenova2022",
+        "zelenin1916"
+      ],
+      "related": [
+        "e",
+        "n",
+        "c"
+      ],
+      "concepts": [
+        "threshold",
+        "return",
+        "remembrance"
+      ],
+      "objects": [],
+      "places": [],
+      "volume": "II",
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "O / 01",
+          "heading": "A landscape in between",
+          "level": "interpretation",
+          "sources": [
+            "lavrenova2022"
+          ],
+          "paras": [
+            "Olga Lavrenova’s essay reads swamps in the mythopoetic picture of the peoples of Russia as a border landscape. A swamp joins water and land without being either, and in many of her examples it is also a place where souls go and where the living are in danger. Swamp spirits drag people down or lure them into the mire, and the kikimora of some accounts is a girl who drowned in a swamp.",
+            "The essay is a humanities argument built on secondary collections and has no stated way of choosing its examples. It ranges across Slavic, Finno-Ugric, Tungus, Turkic and other peoples, so a single detail cannot be assumed to be Russian. It tells us what a swamp can mean in these traditions. It does not tell us what any family did when someone drowned."
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "swamp-karelia",
+          "show": "swamp-karelia-xerox",
+          "alt": "A wet bog with low pines and pools of standing water under a cloudy sky",
+          "caption": "A bog by Lake Lelikozero, Medvezhyegorsk district, Karelia, August 2014. Photograph: Evgenii Ievlev, CC BY-SA 4.0. A present-day landscape in the Russian North, shown to give the word ‘swamp’ a place. It is not tied to any rite.",
+          "credit": "Evgenii Ievlev / Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide"
+        },
+        {
+          "type": "prose",
+          "kicker": "O / 02",
+          "heading": "The drowned at Semik",
+          "level": "documented",
+          "sources": [
+            "bre-semik"
+          ],
+          "paras": [
+            "The Great Russian Encyclopedia’s online entry on Semik, the Thursday of the seventh week after Easter, describes it as a time to remember people who died without repentance or a funeral: the drowned, the hanged, victims of violence and the unidentified. In Vyatka the day was given to the drowned, and cemetery feasts there turned boisterous. In Smolensk province people avoided washing, rinsing or any work with water on that day so that no one in the family would drown. Wreaths and birches were thrown into rivers, and in some readings whether a wreath floated or sank signalled marriage or death.",
+            "The entry is anonymous and undated, and it names its regions without quoting the original records. The plate takes them as reports to be checked, not as a finished survey."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "O / 03",
+          "heading": "Pits for the unclaimed",
+          "level": "documented",
+          "sources": [
+            "bre-semik"
+          ],
+          "paras": [
+            "The same entry says that unidentified and unclaimed bodies were once placed in open communal pits, skudelnitsy, and buried together at Semik. Commemoration took place at cemeteries and at the sites of these ‘poor houses’. It adds that Catherine II banned burial in them in 1771.",
+            "That is a record of an institution, a place and a date. It is useful here because it shows the calendar custom attached to a physical arrangement for the dead who had no family to bury them. It says nothing about rivers."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "O / 04",
+          "heading": "Water in three kinds of source",
+          "colhead": [
+            "Source",
+            "Kind of evidence",
+            "What it can support"
+          ],
+          "rows": [
+            [
+              "Encyclopedia entry on Semik",
+              "Regional reports of calendar custom",
+              "That some places remembered the drowned on a set day and avoided water on it"
+            ],
+            [
+              "Lavrenova, 2022",
+              "Interpretive essay, many peoples",
+              "That swamps can be read as a border and a route for the dead in these traditions"
+            ],
+            [
+              "Zelenin, 1916 (excerpt)",
+              "Report in a century-old compilation",
+              "That the afterlife of those who died by ‘unnatural’ death was placed on earth, in waters, bogs and forest thickets"
+            ]
+          ],
+          "level": "documented",
+          "sources": [
+            "bre-semik",
+            "lavrenova2022",
+            "zelenin1916"
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "What this plate does not say",
+          "level": "interpretation",
+          "items": [
+            "It does not say that all Russians feared swimming or buried the drowned in a particular way. The sources used give isolated regional customs.",
+            "The Zelenin line is read from an excerpt, not from the book, and it is a general statement in a compilation; it is not tied to a village here.",
+            "Mermaids (rusalki) and the swamp spirits of folklore are not treated as the drowned themselves. That link belongs to a plate on the unquiet dead, which is not yet written."
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Research leads",
+          "heading": "What would turn this plate into a study",
+          "level": "interpretation",
+          "items": [
+            "The original regional records behind the Semik entry, with collector, place and year.",
+            "Parish burial registers and police records for drownings, where archives allow it.",
+            "Studies of river and lake rites in the Russian North, read in full.",
+            "The full text of Zelenin’s chapters on water, with page references."
+          ]
+        }
+      ]
     }
   ]
 }

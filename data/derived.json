@@ -490,6 +490,16 @@
   "bytes": 251704
  },
  {
+  "id": "swamp-karelia-xerox",
+  "parent_file": "swamp-karelia.jpg",
+  "treatment": "xerox",
+  "title": "Bog by Lake Lelikozero, Karelia (2014)",
+  "shows": "Whole frame, xerox treatment",
+  "w": 1400,
+  "h": 933,
+  "bytes": 413788
+ },
+ {
   "id": "izba-red-corner-wide",
   "parent_file": "izba-red-corner.jpg",
   "treatment": "faded",
