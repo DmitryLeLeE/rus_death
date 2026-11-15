@@ -137,6 +137,9 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/images/olearius-plach.gif` | Prayer for the dead (engraving from Olearius’s account of Muscovy) | Adam Olearius (as given on Commons) | mid-17th century (as given on Commons) | Public domain | https://commons.wikimedia.org/wiki/File:Olearius_plach.gif | archival | contextual |
 | `assets/images/astrakhov-gulyanye.jpg` | Gulyanye v Marinoy Roshche (A fair in Maryina Roshcha) | Vasily Astrakhov | 1852 | Public domain (Commons: PD-Art, PD-old-100-expired) | https://commons.wikimedia.org/wiki/File:Астрахов_Гулянье_1852.jpg | artwork-reproduction | contextual |
 | `assets/images/klever-forgotten-cemetery.jpg` | Zabytoe kladbishche (The forgotten cemetery) | Julius Sergius von Klever | 1890 | Public domain (Commons: PD-Art, PD-old-100-expired) | https://commons.wikimedia.org/wiki/File:1890._Забытое_кладбище.jpg | artwork-reproduction | contextual |
+| `assets/images/pomor-domoviny.jpg` | Old Believer cemetery with domoviny and post markers on the White Sea shore | Unknown photographer | before 1917 (as given on Commons) | Public domain (Commons: PD-RusEmpire) | https://commons.wikimedia.org/wiki/File:Кладбище_с_домовинами.jpg | archival | contextual |
+| `assets/images/north-carved-markers.jpg` | Old Believers, Russian North (carved wooden markers) | Unknown photographer | late 19th – early 20th century (as given on Commons) | Public domain (Commons: PD-RusEmpire) | https://commons.wikimedia.org/wiki/File:Старообрядцы_Русский-север.jpg | archival | contextual |
+| `assets/images/ukhta-lamenter-1894.jpg` | Ukhta Karelians: a woman lamenter (prichital’shchitsa) | Unknown photographer | 1894 (as given on Commons) | Public domain (Commons: PD-RusEmpire) | https://commons.wikimedia.org/wiki/File:Ухтинские_карелы_-_причитальщица.jpg | archival | contextual |
 
 ### Notes per file
 
@@ -514,6 +517,15 @@ Licence: Public domain (Commons: PD-Art, PD-old-100-expired) (https://creativeco
 
 **klever-forgotten-cemetery** — Zabytoe kladbishche (The forgotten cemetery). Painting (reproduction). Julius Sergius von Klever, 1890. Oil painting. Not stated in the Commons record.
 Licence: Public domain (Commons: PD-Art, PD-old-100-expired) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15: title “Забытое кладбище”, Julius von Klever, 1890, filed under Paintings of cemeteries, Russian cemeteries and 1890 exhibitions in Saint Petersburg. The cemetery shown is not identified; the picture is a romantic landscape, not a record of any real burial ground. Used only as context for how the nineteenth century pictured a neglected cemetery.
+
+**pomor-domoviny** — Old Believer cemetery with domoviny and post markers on the White Sea shore. Photograph. Unknown photographer, before 1917 (as given on Commons). Photographic print, reproduced.
+Licence: Public domain (Commons: PD-RusEmpire) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15; author, photographer and exact place are not given there. Licence tag PD-RusEmpire, date given as before 1917. The description is Commons’s: “Old Believer cemetery with domoviny and post markers on the shore of the White Sea”. The place is not named more closely.
+
+**north-carved-markers** — Old Believers, Russian North (carved wooden markers). Photograph. Unknown photographer, late 19th – early 20th century (as given on Commons). Photographic print, reproduced.
+Licence: Public domain (Commons: PD-RusEmpire) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15; author, photographer and exact place are not given there. Licence tag PD-RusEmpire, date given as before 1917. The description is Commons’s: “Old Believers. Russian North. End of the 19th – beginning of the 20th century”; the file is filed under Golbets and Wakes in Russia. What the woman holds in her hand is not described.
+
+**ukhta-lamenter-1894** — Ukhta Karelians: a woman lamenter (prichital’shchitsa). Photograph. Unknown photographer, 1894 (as given on Commons). Photographic print, reproduced.
+Licence: Public domain (Commons: PD-RusEmpire) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15: title “Ухтинские карелы - причитальщица”, date 1894, filed under Keening, Lament and Karelians; credited to a Kalevala history web page; photographer not given; licence tag PD-RusEmpire. Karelian, not Russian; the picture shows posture and setting, not the words or the occasion of the lament.
 
 ### Attribution required
 

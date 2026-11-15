@@ -1037,6 +1037,32 @@
             "The law of the cemetery reached Siberia as paperwork. A Senate decree of 24 December 1771 banned burial at town parish churches and called for new ground outside the town; the Tobolsk consistory applied it to villages of its eparchy, and in 1783 the parish of Abalak was moved to Preobrazhenskoye while the old church complex became a monastery. Lay burial at Abalak stopped. In August 1815, though, a peasant of Abalak volost, Alexey Vakhrushev, was buried inside the monastery enclosure after a service by a priest of the Preobrazhenskaya church, without the knowledge of the local authorities. The abbot said the elderly man, ill with tuberculosis and asthma, had asked for it before he died. The gubernia board wanted exhumation; more than twenty days had passed, and sanitary risk prevented it. A Synod decree of 12 April 1833 later allowed burial in closed cemeteries in exceptional cases, such as priests and large donors, and in 1912–13 the consistory reviewed 19 petitions for burial within church or monastery enclosures and refused one.",
             "The law also had a smaller edge. Stillborn and unbaptized children could lie in general cemeteries but without rites or commemoration. At the abandoned village of Yarkova, in the Tobolsk district, archaeologists in 2015 opened a 50 m² trench in a garden plot beside a cliff and found two children’s burials of the mid-nineteenth to early twentieth century, in logs, shallow, with twisted cords and some factory cloth. With no other graves nearby, the authors read it as a household plot for unbaptized infants. That is their reading, from two burials, and the sources do not say which of two long-settled families used it."
           ]
+        },
+        {
+          "type": "figure",
+          "src": "pomor-domoviny",
+          "alt": "Black-and-white photograph of a cemetery on open ground: two women stand beside long low grave covers with sloping plank roofs, with carved post markers, a fence and wooden houses behind",
+          "caption": "A cemetery on the White Sea shore, before 1917: long roofed grave covers (domoviny), carved post markers, a fence and wooden houses. Commons describes it as an Old Believer cemetery; photographer and exact place are not given. It shows what the roofed form looked like on one site, and is not a map of where it occurred.",
+          "credit": "Unknown photographer, before 1917, public domain; via Wikimedia Commons",
+          "level": "documented",
+          "at": {
+            "r": 9,
+            "c": "1/8",
+            "w": 96
+          }
+        },
+        {
+          "type": "figure",
+          "src": "north-carved-markers",
+          "alt": "Black-and-white photograph of a woman in a headscarf and long skirt standing in profile before two tall carved wooden markers with small roofs, a river with a boat and wooden houses behind",
+          "caption": "A woman before two carved wooden markers with small roofs, in a northern village by a river. Commons titles it ‘Old Believers. Russian North’, late nineteenth or early twentieth century, files it under golbets, and does not say what she is doing or holds. Author unknown.",
+          "credit": "Unknown photographer, late 19th–early 20th c., public domain; via Wikimedia Commons",
+          "level": "documented",
+          "at": {
+            "r": 9,
+            "c": "8/13",
+            "w": 84
+          }
         }
       ],
       "volume": "I"
@@ -1248,6 +1274,19 @@
           "paras": [
             "Most of the laments in Barsov’s volumes were recorded from one woman, Irina Andreevna Fedosova (1827–1899), a lamenter from the Zaonezhye north of Lake Onega; a few were added later from her by O. Kh. Agreneva-Slavianskaia. Reference works disagree on her birth year, 1827 or 1831, and this atlas follows the 1827 given in the scholarly articles read. The consequence for the plate is concrete. A genre described above as formulaic and communal reaches us largely through a single, exceptionally skilled voice, recorded by outsiders, in a setting that was not a funeral. Philologists have debated how much of the printed text is the tradition and how much is the performer. The sources read here do not allow the atlas to settle that, and it does not."
           ]
+        },
+        {
+          "type": "figure",
+          "src": "ukhta-lamenter-1894",
+          "alt": "Sepia photograph of a log room: a woman in a headscarf sits in the middle of the floor with her hands over her face, and a row of women and a child sit along the wall behind her",
+          "caption": "Ukhta Karelians, 1894: Commons titles the photograph ‘a woman lamenter’. A woman sits in the middle of a log room with her hands over her face, other women along the wall. Photographer not given. Karelian, not Russian; it shows posture and setting, and says nothing of the words or the occasion.",
+          "credit": "Unknown photographer, 1894, public domain; via Wikimedia Commons",
+          "level": "documented",
+          "at": {
+            "r": 6,
+            "c": "3/10",
+            "w": 94
+          }
         }
       ],
       "volume": "I"

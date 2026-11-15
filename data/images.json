@@ -2088,6 +2088,57 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:1890._Забытое_кладбище.jpg",
       "alt": "Oil painting of a snow-covered cemetery at dusk: two brick gate piers with snow caps and an iron arch at left, a bare tree, a low wall, a leaning wooden cross in the snow in the foreground and a stone cross at the right edge, a crow in flight",
       "note": "Commons record read through the API on 2026-11-15: title “Забытое кладбище”, Julius von Klever, 1890, filed under Paintings of cemeteries, Russian cemeteries and 1890 exhibitions in Saint Petersburg. The cemetery shown is not identified; the picture is a romantic landscape, not a record of any real burial ground. Used only as context for how the nineteenth century pictured a neglected cemetery."
+    },
+    {
+      "id": "pomor-domoviny",
+      "file": "assets/images/pomor-domoviny.jpg",
+      "kind": "photograph",
+      "role": "archival",
+      "evidence": "contextual",
+      "title": "Old Believer cemetery with domoviny and post markers on the White Sea shore",
+      "creator": "Unknown photographer",
+      "date": "before 1917 (as given on Commons)",
+      "medium": "Photographic print, reproduced",
+      "collection": "—",
+      "license": "Public domain (Commons: PD-RusEmpire)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Кладбище_с_домовинами.jpg",
+      "alt": "Black-and-white photograph of a cemetery on open ground: two women stand beside long low grave covers with sloping plank roofs, with carved post markers, a fence and wooden houses behind",
+      "note": "Commons record read through the API on 2026-11-15; author, photographer and exact place are not given there. Licence tag PD-RusEmpire, date given as before 1917. The description is Commons’s: “Old Believer cemetery with domoviny and post markers on the shore of the White Sea”. The place is not named more closely."
+    },
+    {
+      "id": "north-carved-markers",
+      "file": "assets/images/north-carved-markers.jpg",
+      "kind": "photograph",
+      "role": "archival",
+      "evidence": "contextual",
+      "title": "Old Believers, Russian North (carved wooden markers)",
+      "creator": "Unknown photographer",
+      "date": "late 19th – early 20th century (as given on Commons)",
+      "medium": "Photographic print, reproduced",
+      "collection": "—",
+      "license": "Public domain (Commons: PD-RusEmpire)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Старообрядцы_Русский-север.jpg",
+      "alt": "Black-and-white photograph of a woman in a headscarf and long skirt standing in profile before two tall carved wooden markers with small roofs, a river with a boat and wooden houses behind",
+      "note": "Commons record read through the API on 2026-11-15; author, photographer and exact place are not given there. Licence tag PD-RusEmpire, date given as before 1917. The description is Commons’s: “Old Believers. Russian North. End of the 19th – beginning of the 20th century”; the file is filed under Golbets and Wakes in Russia. What the woman holds in her hand is not described."
+    },
+    {
+      "id": "ukhta-lamenter-1894",
+      "file": "assets/images/ukhta-lamenter-1894.jpg",
+      "kind": "photograph",
+      "role": "archival",
+      "evidence": "contextual",
+      "title": "Ukhta Karelians: a woman lamenter (prichital’shchitsa)",
+      "creator": "Unknown photographer",
+      "date": "1894 (as given on Commons)",
+      "medium": "Photographic print, reproduced",
+      "collection": "—",
+      "license": "Public domain (Commons: PD-RusEmpire)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ухтинские_карелы_-_причитальщица.jpg",
+      "alt": "Sepia photograph of a log room: a woman in a headscarf sits in the middle of the floor with her hands over her face, and a row of women and a child sit along the wall behind her",
+      "note": "Commons record read through the API on 2026-11-15: title “Ухтинские карелы - причитальщица”, date 1894, filed under Keening, Lament and Karelians; credited to a Kalevala history web page; photographer not given; licence tag PD-RusEmpire. Karelian, not Russian; the picture shows posture and setting, not the words or the occasion of the lament."
     }
   ]
 }
