@@ -136,6 +136,7 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/images/semik-lubok.jpg` | Semik. Russian lubok | Unknown author | 19th century (Commons structured date: 1850) | Public domain (Commons: PD-Art, PD-old-100) | https://commons.wikimedia.org/wiki/File:Semik_crop.jpg | archival | contextual |
 | `assets/images/olearius-plach.gif` | Prayer for the dead (engraving from Olearius’s account of Muscovy) | Adam Olearius (as given on Commons) | mid-17th century (as given on Commons) | Public domain | https://commons.wikimedia.org/wiki/File:Olearius_plach.gif | archival | contextual |
 | `assets/images/astrakhov-gulyanye.jpg` | Gulyanye v Marinoy Roshche (A fair in Maryina Roshcha) | Vasily Astrakhov | 1852 | Public domain (Commons: PD-Art, PD-old-100-expired) | https://commons.wikimedia.org/wiki/File:Астрахов_Гулянье_1852.jpg | artwork-reproduction | contextual |
+| `assets/images/klever-forgotten-cemetery.jpg` | Zabytoe kladbishche (The forgotten cemetery) | Julius Sergius von Klever | 1890 | Public domain (Commons: PD-Art, PD-old-100-expired) | https://commons.wikimedia.org/wiki/File:1890._Забытое_кладбище.jpg | artwork-reproduction | contextual |
 
 ### Notes per file
 
@@ -510,6 +511,9 @@ Licence: Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Com
 
 **astrakhov-gulyanye** — Gulyanye v Marinoy Roshche (A fair in Maryina Roshcha). Painting (reproduction). Vasily Astrakhov, 1852. Oil painting. State Historical Museum, Moscow (as given on Commons).
 Licence: Public domain (Commons: PD-Art, PD-old-100-expired) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15: title “Гулянье в Марьиной Роще”, ГИМ, 1852, Vasily Astrakhov; filed under Radonitsa, Funfairs in Russia and Wakes in art. The record does not say which feast is shown. The grave cross at the right edge is read off the picture by this atlas, not stated by Commons. A painter’s genre scene of a festivity, not a record of a rite.
+
+**klever-forgotten-cemetery** — Zabytoe kladbishche (The forgotten cemetery). Painting (reproduction). Julius Sergius von Klever, 1890. Oil painting. Not stated in the Commons record.
+Licence: Public domain (Commons: PD-Art, PD-old-100-expired) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15: title “Забытое кладбище”, Julius von Klever, 1890, filed under Paintings of cemeteries, Russian cemeteries and 1890 exhibitions in Saint Petersburg. The cemetery shown is not identified; the picture is a romantic landscape, not a record of any real burial ground. Used only as context for how the nineteenth century pictured a neglected cemetery.
 
 ### Attribution required
 

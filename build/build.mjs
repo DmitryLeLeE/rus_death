@@ -299,9 +299,12 @@ function photoFig(id, base, { caption = "", credit = "", level = "", alt = "", n
   const file = fileOf(id, base);
   const c = clip || torn(id, "tblr", 7);
   const cap = caption || (DER[id] ? DER[id].title : IMG[id].title);
-  return `<div class="photo${ghost ? " photo--ghost" : ""}">
+  const parentOfDer = DER[id] ? Object.values(IMG).find((x) => x.file && x.file.endsWith("/" + DER[id].parent_file)) : null;
+  const mature = !!((origOf(id) || IMG[id] || parentOfDer || {}).mature || (parentOfDer || {}).mature);
+  return `<div class="photo${ghost ? " photo--ghost" : ""}${mature ? " photo--mature" : ""}"${mature ? " data-mature" : ""}>
     <div class="photo__img${baked ? " is-baked" : " is-clip"}"${baked ? "" : ` style="--ca:${c.a};--cb:${c.b}"`}>
       <img src="${file}" alt="${esc(alt || (origOf(id) || IMG[id] || {}).alt || "")}"${dims(id)} loading="lazy" decoding="async">
+      ${mature ? `<button class="gate" type="button" data-gate aria-label="${esc(T.gateAria)}"><span class="gate__a">18+</span><span class="gate__t">${T.gateText}</span><span class="gate__b">${T.gateBtn}</span></button>` : ""}
     </div>
     ${tape ? `<span class="tape tape--${tape}" aria-hidden="true"></span>` : ""}
     <figcaption class="slip">

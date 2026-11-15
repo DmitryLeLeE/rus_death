@@ -68,6 +68,14 @@
       menu.addEventListener("keydown", (e) => trapTab(e, menu));
     }
 
+    /* ------------------------------------------------------------ 18+ gate -- */
+    $$("[data-gate]").forEach((g) =>
+      g.addEventListener("click", () => {
+        const ph = g.closest("[data-mature]");
+        if (ph) ph.classList.add("is-revealed");
+      })
+    );
+
     /* --------------------------------------------------------------- figure -- */
     const fv = $("#figureview");
     if (fv) {

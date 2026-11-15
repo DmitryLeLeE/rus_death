@@ -53,7 +53,8 @@
       "alt": "Sepia carte-de-visite photograph of a dead man lying dressed in a coffin among sprigs and small flowers, one hand resting on his chest",
       "note": "Title and date are the Library of Congress catalogue's; the person is not identified and the place is not given. A funeral portrait of a wealthy man, not evidence of peasant practice. Catalogue record: https://lccn.loc.gov/99615671. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
       "role": "archival",
-      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "mature": true
     },
     {
       "id": "coffin-vyazma",
@@ -2070,6 +2071,23 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Астрахов_Гулянье_1852.jpg",
       "alt": "Oil painting of an outdoor festivity in a birch and pine grove: a striped tent with a wreath and flag at left, a man and a woman in a crinoline dancing, a table with a samovar and tea things at right, a small shrine-like booth, and a dark grave cross among the trees at the far right",
       "note": "Commons record read through the API on 2026-11-15: title “Гулянье в Марьиной Роще”, ГИМ, 1852, Vasily Astrakhov; filed under Radonitsa, Funfairs in Russia and Wakes in art. The record does not say which feast is shown. The grave cross at the right edge is read off the picture by this atlas, not stated by Commons. A painter’s genre scene of a festivity, not a record of a rite."
+    },
+    {
+      "id": "klever-forgotten-cemetery",
+      "file": "assets/images/klever-forgotten-cemetery.jpg",
+      "kind": "painting",
+      "role": "artwork-reproduction",
+      "evidence": "contextual",
+      "title": "Zabytoe kladbishche (The forgotten cemetery)",
+      "creator": "Julius Sergius von Klever",
+      "date": "1890",
+      "medium": "Oil painting",
+      "collection": "Not stated in the Commons record",
+      "license": "Public domain (Commons: PD-Art, PD-old-100-expired)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:1890._Забытое_кладбище.jpg",
+      "alt": "Oil painting of a snow-covered cemetery at dusk: two brick gate piers with snow caps and an iron arch at left, a bare tree, a low wall, a leaning wooden cross in the snow in the foreground and a stone cross at the right edge, a crow in flight",
+      "note": "Commons record read through the API on 2026-11-15: title “Забытое кладбище”, Julius von Klever, 1890, filed under Paintings of cemeteries, Russian cemeteries and 1890 exhibitions in Saint Petersburg. The cemetery shown is not identified; the picture is a romantic landscape, not a record of any real burial ground. Used only as context for how the nineteenth century pictured a neglected cemetery."
     }
   ]
 }

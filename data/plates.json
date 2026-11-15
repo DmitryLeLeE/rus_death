@@ -4416,6 +4416,19 @@
             "Studies of village cemeteries abandoned through depopulation, which the sources read here do not cover."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "klever-forgotten-cemetery",
+          "alt": "Oil painting of a snow-covered cemetery at dusk: two brick gate piers with snow caps and an iron arch at left, a bare tree, a low wall, a leaning wooden cross in the snow in the foreground and a stone cross at the right edge, a crow in flight",
+          "caption": "Julius von Klever, ‘The forgotten cemetery’, 1890 (Commons record; collection not stated). A painter’s neglected cemetery: snow on the gate piers, a leaning wooden cross. No real place is identified, and nothing on this plate’s cases depends on it. Context for how abandonment was pictured, not evidence of any cemetery named here.",
+          "credit": "Julius von Klever, 1890, public domain; via Wikimedia Commons",
+          "level": "interpretation",
+          "at": {
+            "r": 6,
+            "c": "8/13",
+            "w": 80
+          }
         }
       ]
     },

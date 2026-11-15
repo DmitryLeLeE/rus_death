@@ -86,3 +86,7 @@ The atlas states its gaps rather than filling them: no field survey, no municipa
 - Statement → source registry: [`SOURCES.md`](SOURCES.md).
 
 No analytics, no cookies, no external requests. The only things stored in the browser are your language, *Readable* and *Sound* choices.
+
+## Images of the dead
+
+A photograph of a deceased person is shown only behind an 18+ gate: it stays blurred, with the original view hidden, until the reader confirms. Without JavaScript it stays closed. The gate is set per image with `"mature": true` in `data/images.json` (a derived crop inherits it from its parent). Currently one image carries it: the carte-de-visite photograph of a dead man laid out for burial (plate B). Remains are otherwise not shown.

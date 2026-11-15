@@ -286,3 +286,16 @@ dialog::backdrop { background: rgba(6, 5, 4, 0.82); }
   .drawing--wide { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .drawing--wide img { min-width: 640px; }
 }
+
+/* 18+ gate: images of a deceased person stay blurred until the reader confirms */
+.photo--mature:not(.is-revealed) .photo__img img { filter: blur(34px) grayscale(1) brightness(0.45); transform: scale(1.08); }
+.photo--mature .photo__img { overflow: hidden; }
+.photo--mature:not(.is-revealed) .examine { display: none; }
+.gate { position: absolute; inset: 0; z-index: 3; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.7rem; padding: 1rem; border: 0; cursor: pointer; background: rgba(8, 8, 8, 0.55); color: #ebe5d4; text-align: center; font-family: inherit; }
+.gate__a { font: 700 clamp(2.2rem, 6vw, 3.6rem)/1 "Anton", "Oswald", Impact, sans-serif; letter-spacing: 0.04em; color: #B00000; text-shadow: 0 0 1px #000; }
+.gate__t { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; }
+.gate__b { font-size: 0.7rem; letter-spacing: 0.14em; border: 1px solid #ebe5d4; padding: 0.4rem 0.7rem; }
+.gate:hover .gate__b, .gate:focus-visible .gate__b { background: #ebe5d4; color: #0a0a0a; }
+.gate:focus-visible { outline: 2px solid #B00000; outline-offset: -4px; }
+.photo--mature.is-revealed .gate { display: none; }
+@media print { .photo--mature:not(.is-revealed) .photo__img img { display: none !important; } .gate { position: static; background: none; color: #000; } }
