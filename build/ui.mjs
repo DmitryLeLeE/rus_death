@@ -26,7 +26,7 @@ export const UI = {
     apparatusNote: "URLs, access dates and limitations are in the bibliography.",
     pagerPrev: "← previous", pagerNext: "next →", pagerBack: "← back", pagerEnd: "end →", pagerTheIndex: "The index",
     marginalBtn: (l) => `marginal note ${l} ↓`,
-    themes: { threshold: "THRESHOLD", body: "BODY", ritual: "RITUAL", table: "TABLE", returning: "RETURNING", grave: "GRAVE", voice: "VOICE", afterlife: "AFTERLIFE", collective: "COLLECTIVE", art: "ART", soviet: "SOVIET", archive: "ARCHIVE", house: "HOUSE", forest: "FOREST", water: "WATER" },
+    themes: { threshold: "THRESHOLD", body: "BODY", ritual: "RITUAL", table: "TABLE", returning: "RETURNING", grave: "GRAVE", voice: "VOICE", afterlife: "AFTERLIFE", collective: "COLLECTIVE", art: "ART", soviet: "SOVIET", archive: "ARCHIVE", house: "HOUSE", forest: "FOREST", water: "WATER", road: "ROAD", village: "VILLAGE" },
     evidence: {},
     eras: { "pre-imperial": "PRE-IMPERIAL", imperial: "IMPERIAL", soviet: "SOVIET", "post-soviet": "POST-SOVIET" },
     kinds: { monograph: "MONOGRAPH", primary: "PRIMARY", reference: "REFERENCE", institutional: "INSTITUTIONAL", museum: "MUSEUM", press: "PRESS" },
@@ -152,7 +152,7 @@ export const UI = {
     apparatusNote: "Ссылки, даты обращения и ограничения — в списке источников.",
     pagerPrev: "← назад", pagerNext: "дальше →", pagerBack: "← назад", pagerEnd: "конец →", pagerTheIndex: "Указатель",
     marginalBtn: (l) => `помета на полях ${l} ↓`,
-    themes: { threshold: "ПОРОГ", body: "ТЕЛО", ritual: "ОБРЯД", table: "СТОЛ", returning: "ВОЗВРАЩЕНИЕ", grave: "МОГИЛА", voice: "ГОЛОС", afterlife: "ЗАГРОБЬЕ", collective: "МАССОВАЯ СМЕРТЬ", art: "ИСКУССТВО", soviet: "СОВЕТСКОЕ", archive: "АРХИВ", house: "ДОМ", forest: "ЛЕС", water: "ВОДА" },
+    themes: { threshold: "ПОРОГ", body: "ТЕЛО", ritual: "ОБРЯД", table: "СТОЛ", returning: "ВОЗВРАЩЕНИЕ", grave: "МОГИЛА", voice: "ГОЛОС", afterlife: "ЗАГРОБЬЕ", collective: "МАССОВАЯ СМЕРТЬ", art: "ИСКУССТВО", soviet: "СОВЕТСКОЕ", archive: "АРХИВ", house: "ДОМ", forest: "ЛЕС", water: "ВОДА", road: "ДОРОГА", village: "ДЕРЕВНЯ" },
     evidence: {
       "documented": "документировано",
       "documented practice; explanation unverified": "практика документирована; объяснение не подтверждено",

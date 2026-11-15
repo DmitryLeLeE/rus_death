@@ -500,6 +500,26 @@
   "bytes": 413788
  },
  {
+  "id": "reshma-cross-faded",
+  "parent_file": "reshma-cross.jpg",
+  "treatment": "faded",
+  "title": "Wooden cross at the turn to Reshma (2011)",
+  "shows": "Whole frame",
+  "w": 1300,
+  "h": 886,
+  "bytes": 218040
+ },
+ {
+  "id": "mologa-market-news",
+  "parent_file": "mologa-market.jpg",
+  "treatment": "faded",
+  "title": "Market square of Mologa, early 20th century",
+  "shows": "Whole frame",
+  "w": 1500,
+  "h": 943,
+  "bytes": 227560
+ },
+ {
   "id": "izba-red-corner-wide",
   "parent_file": "izba-red-corner.jpg",
   "treatment": "faded",

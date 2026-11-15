@@ -44,6 +44,8 @@ export const KEY = {
   m: "tver-empty-house-xerox",
   n: "forest-edge-wide",
   o: "swamp-karelia-xerox",
+  p: "reshma-cross-faded",
+  q: "mologa-market-news",
 };
 
 export const LAYOUT = {
@@ -266,6 +268,30 @@ export const LAYOUT = {
       { s: 1, r: 1, c: "8/13", y: 70, rot: -0.9, mat: "none", w: 96, m: "r", tape: "tr" },
       { s: 2, r: 2, c: "2/9", y: 30, rot: -0.4, mat: "newsprint", w: 94, m: "c" },
       { s: 3, r: 3, c: "6/13", y: 20, rot: 0.8, mat: "plaster", w: 92, m: "r" },
+      { s: 4, r: 4, c: "2/12", y: 20, rot: -0.3, mat: "manila", w: 100, m: "c" },
+      { s: 5, r: 5, c: "7/13", y: 30, rot: 0.9, mat: "soot", w: 90, m: "r" },
+      { s: 6, r: 5, c: "1/7", y: 50, rot: -0.7, mat: "newsprint", w: 90, m: "l" },
+    ],
+  },
+  roads: {
+    ground: "soot",
+    items: [
+      { s: 0, r: 1, c: "1/8", y: 20, rot: -0.5, mat: "newsprint", w: 94, m: "l" },
+      { s: 1, r: 1, c: "8/13", y: 80, rot: 0.9, mat: "none", w: 96, m: "r", tape: "tr" },
+      { s: 2, r: 2, c: "2/9", y: 30, rot: 0.5, mat: "linen", w: 94, m: "c" },
+      { s: 3, r: 3, c: "6/13", y: 20, rot: -0.8, mat: "plaster", w: 92, m: "r" },
+      { s: 4, r: 4, c: "2/12", y: 20, rot: -0.3, mat: "manila", w: 100, m: "c" },
+      { s: 5, r: 5, c: "7/13", y: 30, rot: 0.9, mat: "soot", w: 90, m: "r" },
+      { s: 6, r: 5, c: "1/7", y: 50, rot: -0.7, mat: "newsprint", w: 90, m: "l" },
+    ],
+  },
+  vanished: {
+    ground: "soot",
+    items: [
+      { s: 0, r: 1, c: "1/8", y: 20, rot: -0.5, mat: "newsprint", w: 94, m: "l" },
+      { s: 1, r: 1, c: "8/13", y: 80, rot: 0.9, mat: "none", w: 96, m: "r", tape: "tr" },
+      { s: 2, r: 2, c: "2/9", y: 30, rot: 0.5, mat: "linen", w: 94, m: "c" },
+      { s: 3, r: 3, c: "6/13", y: 20, rot: -0.8, mat: "plaster", w: 92, m: "r" },
       { s: 4, r: 4, c: "2/12", y: 20, rot: -0.3, mat: "manila", w: 100, m: "c" },
       { s: 5, r: 5, c: "7/13", y: 30, rot: 0.9, mat: "soot", w: 90, m: "r" },
       { s: 6, r: 5, c: "1/7", y: 50, rot: -0.7, mat: "newsprint", w: 90, m: "l" },
