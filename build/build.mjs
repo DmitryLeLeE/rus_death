@@ -1,15 +1,17 @@
 // ARCHÆOLOGY OF RUSSIAN DEATH — static generator.
 // Reads /data/*.json and writes the atlas as plain HTML for GitHub Pages.
 // No runtime dependencies. Run: node build/build.mjs
+// (Derived images and textures: python3 build/make_derived.py)
 
 import fs from "node:fs";
 import path from "node:path";
 import url from "node:url";
+import { FIGMAP, KEY, LAYOUT } from "./layouts.mjs";
 
 const here = path.dirname(url.fileURLToPath(import.meta.url));
 const ROOT = path.resolve(here, "..");
 const DATA = path.join(ROOT, "data");
-const read = (p) => fs.readFileSync(p, "utf8");
+const read = (p) => fs.readFileSync(p, "utf8").replace(/^﻿/, "");
 const readJSON = (p) => JSON.parse(read(p));
 const write = (rel, content) => {
   const p = path.join(ROOT, rel);
@@ -27,9 +29,11 @@ const placesDoc = readJSON(path.join(DATA, "places.json"));
 const timelineDoc = readJSON(path.join(DATA, "timeline.json"));
 const imagesDoc = readJSON(path.join(DATA, "images.json"));
 const methodDoc = readJSON(path.join(DATA, "method.json"));
+const derivedDoc = readJSON(path.join(DATA, "derived.json"));
 
 const S = Object.fromEntries(sourcesDoc.entries.map((s) => [s.id, s]));
 const IMG = Object.fromEntries(imagesDoc.images.map((i) => [i.id, i]));
+const DER = Object.fromEntries(derivedDoc.map((d) => [d.id, d]));
 const PLACE = Object.fromEntries(placesDoc.places.map((p) => [p.id, p]));
 const OBJ = Object.fromEntries(objectsDoc.objects.map((o) => [o.id, o]));
 const CON = Object.fromEntries(conceptsDoc.concepts.map((c) => [c.id, c]));
@@ -55,152 +59,202 @@ const tag = (level) => {
   return `<span class="tag tag--${cls}">${label}</span>`;
 };
 
-const srcList = (ids = []) =>
-  ids.filter((id) => S[id]).map((id) => `<a class="srcref" href="#src-${id}">${S[id].author.split(",")[0].split(" (")[0]}</a>`).join(", ");
-
-let figMasks = 0;
-const nextMask = () => ["torn-02", "torn-03", "torn-04", "torn-05", "torn-06", "torn-01"][figMasks++ % 6];
-
-const spriteClip = read(path.join(ROOT, "assets/paper/torn-masks.svg"));
-const spriteMarks = read(path.join(ROOT, "assets/illustrations/hand-marks.svg"));
-
-const mark = (id, cls = "") => `<svg class="mark ${cls}" aria-hidden="true" focusable="false"><use href="#${id}"/></svg>`;
-
 const plateHref = (id, base) => `${base}plates/${id}-${PLATE[id].slug}.html`;
 const srcHref = (id, base) => `${base}bibliography.html#src-${id}`;
-
 const srcBadge = (ids = [], base = "") =>
   ids.filter((i) => S[i]).map((i) => `<a class="badge-src mono" href="${base}bibliography.html#src-${i}" title="${esc(S[i].title)}">${esc(i)}</a>`).join(" ");
 
-// ------------------------------------------------------------- fragments ---
-function metaDL(pair, cls = "metaline") {
-  const rows = Object.entries(pair).filter(([, v]) => v).map(([k, v]) =>
-    `<div class="${cls}"><dt>${esc(k)}</dt><dd>${md(v)}</dd></div>`).join("");
-  return `<dl class="meta">${rows}</dl>`;
-}
+const spriteMarks = read(path.join(ROOT, "assets/illustrations/hand-marks.svg"));
+const mark = (id, cls = "") => `<svg class="mark ${cls}" aria-hidden="true" focusable="false"><use href="#${id}"/></svg>`;
 
-function figure(section, base) {
-  const src = section.src;
-  const isImage = !!IMG[src];
-  if (!isImage) {
-    return `<section class="slot slot--figure" data-kind="figure">
-  <figure class="diagram">
-    <img src="${base}assets/illustrations/${src}.svg" alt="${esc(section.alt || "")}" loading="lazy" decoding="async">
-    <figcaption class="mono">${md(section.caption)} ${section.credit ? esc(section.credit) + " · " : ""}${section.level ? tag(section.level) : ""}</figcaption>
-  </figure>
-</section>`;
+// -------------------------------------------------- procedural torn paper ---
+// Seeded fractal edges: one unique outline per sheet, an outer (fibre rim)
+// and an inner (paper face) polygon, so every sheet is torn differently.
+function mulberry(a) {
+  return function () {
+    a |= 0; a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+const hash = (str) => { let h = 2166136261; for (const c of String(str)) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
+function wob(n, r) {
+  const out = new Array(n).fill(0);
+  let amp = 1, step = Math.max(2, Math.floor(n / 3));
+  for (let o = 0; o < 4; o++) {
+    const k = Math.ceil(n / step) + 2;
+    const pts = Array.from({ length: k }, () => r() * 2 - 1);
+    for (let i = 0; i < n; i++) {
+      const x = i / step, i0 = Math.floor(x), f = x - i0, t = f * f * (3 - 2 * f);
+      out[i] += amp * (pts[i0] * (1 - t) + pts[i0 + 1] * t);
+    }
+    amp *= 0.55; step = Math.max(1, Math.floor(step / 2));
   }
-  const file = `${base}${IMG[src].file}`;
-  const full = file;
-  const title = IMG[src].title;
-  const mask = section.mask || nextMask();
-  const size = section.size || "medium";
-  const state = section.state || "document";
-  return `<section class="slot slot--figure" data-kind="figure">
-  <figure class="figure figure--${size} figure--state-${state}">
-    <div class="figure__frame ${mask}">
-      <img src="${file}" alt="${esc(section.alt || "")}" loading="lazy" decoding="async">
-      <span class="figure__regn" aria-hidden="true"></span>
-    </div>
-    <figcaption class="figure__cap">
-      <span class="figure__txt">${md(section.caption)}</span>
-      <span class="figure__credit mono">${esc(section.credit || "")} ${section.level ? tag(section.level) : ""}</span>
-      <button class="figure__zoom mono" type="button" data-examine
-        data-full="${esc(full)}" data-title="${esc(title)}" data-cap="${esc(section.caption)}"
-        data-credit="${esc(section.credit || "")}" data-src="${esc(src)}"
-        aria-label="Examine image: ${esc(title).slice(0, 90)}">EXAMINE</button>
-    </figcaption>
-  </figure>
-</section>`;
+  return out;
+}
+function torn(seed, sides = "tb", amp = 8) {
+  const r = mulberry(hash(seed));
+  const N = 30, M = 12;
+  const mk = (len, on) => (on ? wob(len + 1, r).map((v) => Math.max(1.5, amp * 0.9 + v * amp * 0.7 + r() * amp * 0.5)) : new Array(len + 1).fill(0));
+  const T = mk(N, sides.includes("t")), B = mk(N, sides.includes("b")), L = mk(M, sides.includes("l")), R = mk(M, sides.includes("r"));
+  const rim = Math.max(3, amp * 0.55);
+  const f = (n) => +n.toFixed(1);
+  const poly = (inset) => {
+    const o = [];
+    for (let i = 0; i <= N; i++) o.push(`${f((i / N) * 100)}% ${f(T[i] + (T[i] > 0 ? inset : 0))}px`);
+    for (let j = 1; j <= M; j++) o.push(`calc(100% - ${f(R[j] + (R[j] > 0 ? inset : 0))}px) ${f((j / M) * 100)}%`);
+    for (let i = N; i >= 0; i--) o.push(`${f((i / N) * 100)}% calc(100% - ${f(B[i] + (B[i] > 0 ? inset : 0))}px)`);
+    for (let j = M - 1; j >= 1; j--) o.push(`${f(L[j] + (L[j] > 0 ? inset : 0))}px ${f((j / M) * 100)}%`);
+    return `polygon(${o.join(",")})`;
+  };
+  return { a: poly(0), b: poly(rim) };
 }
 
-function prose(section, base) {
-  return `<section class="slot slot--prose" data-kind="prose">
-  <header class="slot__head">
-    <p class="kicker mono">${esc(section.kicker || "")}</p>
-    <h2 class="slot__title">${md(section.heading)}</h2>
-  </header>
-  <div class="slot__text">${section.paras.map((p) => `<p>${md(p)}</p>`).join("\n")}</div>
-  <p class="slot__foot mono">${section.level ? tag(section.level) : ""} ${srcBadge(section.sources, base)}</p>
-</section>`;
+// ----------------------------------------------------------------- images ---
+const origOf = (id) => {
+  const im = IMG[id];
+  if (!im) return null;
+  return im.parent && IMG[im.parent] ? IMG[im.parent] : im;
+};
+const creditOf = (id) => {
+  const o = origOf(id);
+  if (!o) return "";
+  const lic = (o.license || "").replace(/ \(derived.*\)/, "");
+  return `${o.creator.replace(/^Derivative made for this atlas( from the .*?)?$/, "Derivative processing by the atlas")} · ${lic}`;
+};
+const dims = (id) => (DER[id] ? ` width="${DER[id].w}" height="${DER[id].h}"` : "");
+const fileOf = (id, base) => `${base}${IMG[id] ? IMG[id].file : `assets/derived/${id}.webp`}`;
+const isBaked = (id) => !!DER[id];
+
+function examineBtn(id, base, caption) {
+  const o = origOf(id) || IMG[id];
+  const full = `${base}${o.file}`;
+  return `<button class="examine" type="button" data-examine data-full="${esc(full)}" data-title="${esc(o.title)}" data-cap="${esc(caption)}" data-credit="${esc(creditOf(id))}" data-src="${esc(id)}" aria-label="Examine the unprocessed original: ${esc(o.title).slice(0, 80)}">EXAMINE ORIGINAL</button>`;
 }
 
-function record(section, base) {
-  return `<section class="slot slot--record" data-kind="record">
-  <p class="kicker mono">${esc(section.kicker || "")}</p>
-  <h2 class="slot__title">${md(section.heading)}</h2>
-  ${section.meta ? metaDL(section.meta, "metal") : ""}
-  <div class="slot__text">${(section.paras || []).map((p) => `<p>${md(p)}</p>`).join("\n")}</div>
-  <p class="slot__foot mono">${section.level ? tag(section.level) : ""} ${srcBadge(section.sources, base)}</p>
-</section>`;
+// ------------------------------------------------------------- fragments ---
+const kick = (t) => (t ? `<p class="k">${esc(t)}</p>` : "");
+const foot = (s, base) => {
+  const badges = srcBadge(s.sources, base);
+  if (!s.level && !badges) return "";
+  return `<footer class="ft">${s.level ? tag(s.level) : ""}${badges ? `<details class="src"><summary>sources</summary><p>${badges}</p></details>` : ""}</footer>`;
+};
+
+function prose(s, base) {
+  return `<article class="prose">
+  ${kick(s.kicker)}
+  <h2>${md(s.heading)}</h2>
+  <div class="tx">${s.paras.map((p) => `<p>${md(p)}</p>`).join("\n")}</div>
+  ${foot(s, base)}
+</article>`;
 }
 
-function note(section) {
-  return `<aside class="slot slot--note" data-kind="note">
-  <p class="kicker mono">${esc(section.kicker || "Note")}</p>
-  <h2 class="note__title">${md(section.heading)}</h2>
-  <ul class="note__list">${(section.items || []).map((i) => `<li>${md(i)}</li>`).join("")}</ul>
-  ${section.level ? `<p class="slot__foot mono">${tag(section.level)}</p>` : ""}
+function record(s, base) {
+  const meta = s.meta ? `<dl class="rec__meta">${Object.entries(s.meta).filter(([, v]) => v).map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${md(v)}</dd></div>`).join("")}</dl>` : "";
+  return `<article class="prose rec">
+  ${kick(s.kicker)}
+  <h2>${md(s.heading)}</h2>
+  ${meta}
+  <div class="tx">${(s.paras || []).map((p) => `<p>${md(p)}</p>`).join("\n")}</div>
+  ${foot(s, base)}
+</article>`;
+}
+
+function note(s) {
+  return `<aside class="note">
+  ${kick(s.kicker || "Note")}
+  <h2>${md(s.heading)}</h2>
+  <ul>${(s.items || []).map((i) => `<li>${md(i)}</li>`).join("")}</ul>
+  ${s.level ? `<footer class="ft">${tag(s.level)}</footer>` : ""}
 </aside>`;
 }
 
-function table(section) {
-  return `<section class="slot slot--table" data-kind="table">
-  <div class="tablewrap" tabindex="0" role="region" aria-label="${esc(section.caption || "Data table")}">
+function table(s) {
+  return `<div class="tbl">
+  <div class="tablewrap" tabindex="0" role="region" aria-label="${esc(s.caption || "Data table")}">
   <table class="datatable">
-    <caption>${md(section.caption || "")}</caption>
-    <thead><tr>${section.cols.map((c) => `<th scope="col">${esc(c)}</th>`).join("")}</tr></thead>
-    <tbody>${section.rows.map((r) => `<tr>${r.map((c, i) => i === 0 ? `<th scope="row">${md(c)}</th>` : `<td>${md(c)}</td>`).join("")}</tr>`).join("\n")}</tbody>
+    <caption>${md(s.caption || "")}</caption>
+    <thead><tr>${s.cols.map((c) => `<th scope="col">${esc(c)}</th>`).join("")}</tr></thead>
+    <tbody>${s.rows.map((r) => `<tr>${r.map((c, i) => (i === 0 ? `<th scope="row">${md(c)}</th>` : `<td>${md(c)}</td>`)).join("")}</tr>`).join("\n")}</tbody>
   </table>
   </div>
-</section>`;
+</div>`;
 }
 
-function register(section) {
-  return `<section class="slot slot--register" data-kind="register">
-  <p class="kicker mono">${esc(section.kicker || "")}</p>
-  <h2 class="slot__title">${md(section.heading)}</h2>
-  <div class="tablewrap" tabindex="0" role="region" aria-label="${esc(section.heading || "Register")}">
+function register(s) {
+  return `<div class="tbl reg">
+  ${kick(s.kicker)}
+  <h2>${md(s.heading)}</h2>
+  <div class="tablewrap" tabindex="0" role="region" aria-label="${esc(s.heading || "Register")}">
   <table class="registertable">
-    <thead><tr>${section.colhead.map((c) => `<th scope="col">${esc(c)}</th>`).join("")}</tr></thead>
-    <tbody>${section.rows.map((r) => `<tr>${r.map((c, i) => i === 0 ? `<th scope="row">${md(c)}</th>` : `<td>${md(c)}</td>`).join("")}</tr>`).join("\n")}</tbody>
+    <thead><tr>${s.colhead.map((c) => `<th scope="col">${esc(c)}</th>`).join("")}</tr></thead>
+    <tbody>${s.rows.map((r) => `<tr>${r.map((c, i) => (i === 0 ? `<th scope="row">${md(c)}</th>` : `<td>${md(c)}</td>`)).join("")}</tr>`).join("\n")}</tbody>
   </table>
   </div>
-</section>`;
+</div>`;
 }
 
-function quote(section) {
-  return `<figure class="slot slot--quote" data-kind="quote">
-  <blockquote>${md(section.text)}</blockquote>
-  <figcaption class="mono">${esc(section.attrib || "")} ${section.level ? tag(section.level) : ""}</figcaption>
+function quote(s) {
+  return `<figure class="q">
+  <blockquote>${md(s.text)}</blockquote>
+  <figcaption>${esc(s.attrib || "")} ${s.level ? tag(s.level) : ""}</figcaption>
 </figure>`;
 }
 
-function diagram(section) {
-  if (section.hidden) return "";
-  return `<section class="slot slot--diagram" data-kind="diagram">
-  <figure class="diagram">
-    <img src="../assets/illustrations/${section.src}.svg" alt="${esc(section.alt || "")}" loading="lazy" decoding="async">
-    <figcaption class="mono">${md(section.caption)} ${section.level ? tag(section.level) : ""}</figcaption>
-  </figure>
-</section>`;
+function diagramFig(s, base) {
+  return `<figure class="drawing">
+  <img src="${base}assets/illustrations/${s.src}.svg" alt="${esc(s.alt || "")}" loading="lazy" decoding="async">
+  <figcaption class="cap">${md(s.caption)} ${s.credit ? `<span class="cap__credit">${esc(s.credit)}</span>` : ""} ${s.level ? tag(s.level) : ""}</figcaption>
+</figure>`;
 }
 
-function renderSection(s, base, idx) {
-  let html = "";
+// A photographic figure: the image carries its own torn edge (baked) or gets a CSS tear.
+function photoFig(id, base, { caption = "", credit = "", level = "", alt = "", note: hnote = "", tr = "", tape = "", ghost = false, clip = null }) {
+  const baked = isBaked(id);
+  const file = fileOf(id, base);
+  const c = clip || torn(id, "tblr", 7);
+  const cap = caption || (DER[id] ? DER[id].title : IMG[id].title);
+  return `<div class="photo${ghost ? " photo--ghost" : ""}">
+    <div class="photo__img${baked ? " is-baked" : " is-clip"}"${baked ? "" : ` style="--ca:${c.a};--cb:${c.b}"`}>
+      <img src="${file}" alt="${esc(alt || (origOf(id) || IMG[id] || {}).alt || "")}"${dims(id)} loading="lazy" decoding="async">
+    </div>
+    ${tape ? `<span class="tape tape--${tape}" aria-hidden="true"></span>` : ""}
+    <figcaption class="slip">
+      <span class="slip__t">${md(cap)}</span>
+      ${tr ? `<span class="slip__tr">${esc(tr)}</span>` : ""}
+      <span class="slip__c">${esc(credit || creditOf(id))} ${level ? tag(level) : ""}</span>
+      ${examineBtn(id, base, cap)}
+    </figcaption>
+    ${hnote ? `<span class="hnote" aria-hidden="true">${esc(hnote)}</span>` : ""}
+  </div>`;
+}
+
+function figureSection(s, base, item) {
+  const src = s.src;
+  if (!IMG[src]) return diagramFig(s, base);
+  const show = FIGMAP[src] || src;
+  const keepsOrig = !FIGMAP[src];
+  const o = IMG[src];
+  const clipSides = keepsOrig ? "tblr" : "tb";
+  return photoFig(show, base, {
+    caption: s.caption, credit: s.credit, level: s.level, alt: s.alt,
+    tape: item.tape, ghost: item.ghost,
+    clip: keepsOrig ? torn(src, clipSides, 7) : null,
+  });
+}
+
+function renderSection(s, base, item) {
   switch (s.type) {
-    case "prose": html = prose(s, base); break;
-    case "record": html = record(s, base); break;
-    case "note": html = note(s); break;
-    case "table": html = table(s); break;
-    case "register": html = register(s); break;
-    case "quote": html = quote(s); break;
-    case "figure": html = figure(s, base); break;
-    case "diagram": html = diagram(s); break;
-    default: html = "";
+    case "prose": return prose(s, base);
+    case "record": return record(s, base);
+    case "note": return note(s);
+    case "table": return table(s);
+    case "register": return register(s);
+    case "quote": return quote(s);
+    case "figure": return figureSection(s, base, item);
+    default: return "";
   }
-  if (!html) return "";
-  return html.replace('class="slot', `class="slot slot--i${idx} slot`).replace("<section", `<section data-slot="${idx}"`).replace("<aside", `<aside data-slot="${idx}"`).replace("<figure", `<figure data-slot="${idx}"`);
 }
 
 // --------------------------------------------------------------- shell -----
@@ -218,8 +272,9 @@ function shell({ title, description, base, bodyClass = "", page = "", content, e
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:image" content="https://DmitryLeLeE.github.io/rus_death/social.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="dark">
 <link rel="icon" href="${base}assets/illustrations/colophon-mark.svg" type="image/svg+xml">
+<link rel="preload" href="${base}assets/fonts/anton-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${base}css/core.css">
 <link rel="stylesheet" href="${base}css/plates.css">
 <link rel="stylesheet" href="${base}css/pages.css">
@@ -227,12 +282,9 @@ ${extraHead}
 </head>
 <body class="${bodyClass}" data-page="${page}">
 <a class="skip" href="#main">Skip to the atlas content</a>
-${spriteClip}
 ${spriteMarks}
 <header class="masthead">
-  <a class="brand" href="${base}index.html">
-    <span class="brand__name">ARCHÆOLOGY</span><span class="brand__of">of</span><span class="brand__name">RUSSIAN DEATH</span>
-  </a>
+  <a class="brand" href="${base}index.html"><span class="brand__a">ARCHÆOLOGY</span> <span class="brand__of">of</span> <span class="brand__r">RUSSIAN DEATH</span></a>
   <nav class="topnav" aria-label="Atlas sections">
     <a href="${base}atlas.html">INDEX</a>
     <a href="${base}map.html">MAP</a>
@@ -246,19 +298,16 @@ ${spriteMarks}
 </header>
 ${content}
 <footer class="sitefoot">
-  <div class="sitefoot__row">
-    <p class="mono">ARCHÆOLOGY OF RUSSIAN DEATH — ${esc(plates.meta.edition)}</p>
-    <p class="mono">COMPILED ${esc(plates.meta.compiled)} · <a href="${base}colophon.html">COLOPHON</a> · <a href="${base}bibliography.html">SOURCES</a></p>
-  </div>
-  <p class="sitefoot__note">A research publication in twelve plates. Documentation is separated from interpretation and reconstruction throughout.</p>
+  <p class="sitefoot__a">ARCHÆOLOGY OF RUSSIAN DEATH</p>
+  <p class="sitefoot__b">${esc(plates.meta.edition)} · compiled ${esc(plates.meta.compiled)} · <a href="${base}colophon.html">colophon</a> · <a href="${base}bibliography.html">sources</a></p>
 </footer>
 <dialog id="contents-dialog" class="contents" aria-labelledby="contents-title">
   <div class="contents__head">
     <h2 id="contents-title">CONTENTS</h2>
-    <button class="contents__close mono" type="button" data-menu-close>CLOSE</button>
+    <button class="contents__close" type="button" data-menu-close>CLOSE</button>
   </div>
   <ol class="contents__list">
-    ${plates.plates.map((p) => `<li><a href="${plateHref(p.id, base)}"><span class="contents__letter mono">${p.letter}</span><span class="contents__title">${esc(p.nav)}</span><span class="contents__pg mono">${String(plates.plates.indexOf(p) + 1).padStart(2, "0")}</span></a></li>`).join("\n")}
+    ${plates.plates.map((p) => `<li><a href="${plateHref(p.id, base)}"><span class="contents__letter">${p.letter}</span><span class="contents__title">${esc(p.nav)}</span><span class="contents__pg">${String(plates.plates.indexOf(p) + 1).padStart(2, "0")}</span></a></li>`).join("\n")}
   </ol>
   <div class="contents__meta">
     <a href="${base}atlas.html">THE INDEX</a>
@@ -271,7 +320,7 @@ ${content}
 </dialog>
 <dialog id="figureview" class="figureview" aria-labelledby="fv-title">
   <div class="figureview__bar">
-    <p id="fv-title" class="mono">IMAGE</p>
+    <p id="fv-title">IMAGE</p>
     <div class="figureview__tools">
       <button type="button" data-zoom-toggle aria-pressed="false">ZOOM</button>
       <button type="button" data-close>CLOSE</button>
@@ -280,7 +329,7 @@ ${content}
   <div class="figureview__stage"><img alt="" src=""></div>
   <div class="figureview__cap">
     <p data-cap></p>
-    <p class="mono" data-credit></p>
+    <p data-credit></p>
   </div>
 </dialog>
 <script src="${base}js/app.js" defer></script>
@@ -289,108 +338,114 @@ ${content}
 }
 
 // ------------------------------------------------------------- plate page --
-const LAYOUT_NOTE = {
-  threshold: ["DARK FIELD", "One column, pushed right. The title is cut by the page edge."],
-  body: ["CONTACT STRIP", "The sequence runs as a band of operations, then a dossier."],
-  ritual: ["DOSSIER", "A long vertical rule, a calendar, and notes in the margin."],
-  table: ["LEDGER", "A meal laid out as a record: table, plate, photograph."],
-  returning: ["FRAGMENTS", "Notes pinned over one another; nothing resolves."],
-  grave: ["ELEVATION", "Measured drawings, a plan, and photographs at their own scale."],
-  voice: ["TYPE", "Almost no image. The page is a score."],
-  afterlife: ["ICON", "A tall image with annotations; doctrine in the margins."],
-  collective: ["SLAB", "Heavy bands, numbers, and one photograph at full width."],
-  art: ["EXHIBITION", "Wide margins, wall labels, one full-bleed reproduction."],
-  soviet: ["DOCUMENT", "Dense strips; a state file reconstructed from public dates."],
-  archive: ["VOID", "Mostly empty. The emptiness is the content."],
+const styleOf = (it) => {
+  const v = [`--c:${it.c || "1/-1"}`, `--r:${it.r || "auto"}`, `--y:${it.y || 0}px`, `--rot:${it.rot || 0}deg`, `--mw:${it.w || 100}%`];
+  if (it.z) v.push(`--z:${it.z}`);
+  return v.join(";");
 };
+
+function placeItem(plate, it, i, base) {
+  const side = `m-${it.m || "c"}`;
+  if (it.a) {
+    const id = it.a;
+    const html = photoFig(id, base, { note: it.note, tr: it.tr, tape: it.tape, caption: it.cap || "" });
+    return `<figure class="ph ph--art ${side}${it.c === "1/-1" ? " bleed" : ""}" style="${styleOf(it)}" data-art="${id}">${html}</figure>`;
+  }
+  const s = plate.sections[it.s];
+  if (!s || s.hidden) return "";
+  const inner = renderSection(s, base, it);
+  const kind = s.type;
+  if (kind === "figure" && IMG[s.src]) {
+    return `<figure class="ph ph--art ${side}${it.c === "1/-1" ? " bleed" : ""}" style="${styleOf(it)}" data-slot="${it.s}">${inner}</figure>`;
+  }
+  const mat = it.mat || "newsprint";
+  if (mat === "none") {
+    return `<section class="ph ph--bare ph--${kind} ${side}" style="${styleOf(it)}" data-slot="${it.s}">${inner}${it.tape ? `<span class="tape tape--${it.tape}" aria-hidden="true"></span>` : ""}</section>`;
+  }
+  const t = torn(`${plate.id}-${it.s}`, it.tear || "tb", it.amp || 9);
+  return `<section class="ph ph--sheet ph--${kind} ${side}" style="${styleOf(it)}" data-slot="${it.s}">
+  <div class="sw" style="--ca:${t.a};--cb:${t.b}"><div class="sheet mat-${mat}">${inner}</div></div>
+  ${it.tape ? `<span class="tape tape--${it.tape}" aria-hidden="true"></span>` : ""}
+</section>`;
+}
 
 function renderPlate(p) {
   const base = "../";
   const idx = plates.plates.indexOf(p);
   const prev = plates.plates[idx - 1] || null;
   const next = plates.plates[idx + 1] || null;
-  const visible = p.sections.filter((s) => !s.hidden);
-  const sections = visible.map((s, i) => renderSection(s, base, i)).join("\n");
-  const marginal = p.marginal ? `<aside class="marginal">
-    <button class="marginal__btn mono" type="button" data-marginal aria-controls="marg-${p.id}" aria-expanded="false">MARGINAL NOTE ${p.letter}</button>
+  const lay = LAYOUT[p.layout];
+  const placed = new Set(lay.items.filter((i) => i.s !== undefined).map((i) => i.s));
+  const items = lay.items.slice();
+  const maxRow = Math.max(...lay.items.map((i) => i.r || 1));
+  p.sections.forEach((s, i) => { if (!placed.has(i) && !s.hidden) items.push({ s: i, r: maxRow + 1 + i, c: "2/12", mat: "newsprint", m: "c" }); });
+  const body = items.map((it, i) => placeItem(p, it, i, base)).join("\n");
+
+  const marginal = p.marginal ? `<aside class="ph marginal m-r" style="--c:8/13;--r:${maxRow + p.sections.length + 2};--y:0px;--rot:-1deg;--mw:90%">
+    <button class="marginal__btn" type="button" data-marginal aria-controls="marg-${p.id}" aria-expanded="false">marginal note ${p.letter} ↓</button>
     <p class="marginal__note" id="marg-${p.id}" tabindex="-1" hidden>${md(p.marginal)}</p>
   </aside>` : "";
-  const allSrc = [...new Set([...(p.sources || []), ...p.sections.flatMap((s) => s.sources || [])])].filter((id) => S[id]);
-  const layoutNote = LAYOUT_NOTE[p.layout] || ["PLATE", ""];
 
-  const head = `<header class="plate__head">
-  <div class="plate__letter" aria-hidden="true">${p.letter}</div>
-  <p class="plate__kicker mono">PLATE ${p.letter} — ${esc(p.category.toUpperCase())} — ${String(idx + 1).padStart(2, "0")}/12</p>
-  <div class="plate__head-main">
-    <h1 class="plate__title">${esc(p.title)}</h1>
-    <p class="plate__subtitle">${esc(p.subtitle)}</p>
-  </div>
-  <div class="plate__head-side">
-    <p class="plate__dek">${md(p.dek)}</p>
-    <div class="plate__meta">
-      ${metaDL({ Period: p.period, Geography: p.location, Tradition: p.tradition })}
-      <p class="plate__legend mono">${tag("documented")} ${tag("interpretation")} ${tag("reconstruction")}</p>
-    </div>
-    <p class="plate__laynote mono">COMPOSITION ${String(idx + 1).padStart(2, "0")} — ${layoutNote[0]}. ${esc(layoutNote[1])}</p>
-  </div>
+  const allSrc = [...new Set([...(p.sources || []), ...p.sections.flatMap((s) => s.sources || [])])].filter((id) => S[id]);
+  const words = p.title.split(" ");
+  const titleHtml = words.map((w) => `<span>${esc(w)}</span>`).join(" ");
+
+  const head = `<header class="head">
+  <p class="head__tag">PLATE ${p.letter} · ${String(idx + 1).padStart(2, "0")} / 12</p>
+  <h1 class="head__title">${titleHtml}</h1>
+  <p class="head__sub">${esc(p.subtitle)}</p>
+  <p class="head__dek">${md(p.dek)}</p>
+  <p class="head__lab">${esc(p.period)} · ${esc(p.location)} · ${esc(p.tradition)}</p>
+  <span class="head__letter" aria-hidden="true">${p.letter}</span>
 </header>`;
 
-  const foot = `<footer class="plate__foot">
-  <div class="plate__foot-col">
-    <h2 class="mono">SOURCES FOR THIS PLATE</h2>
-    <ol class="platesrc">
-      ${allSrc.map((id) => `<li><a href="${srcHref(id, base)}"><span class="mono">${esc(id)}</span> ${esc(S[id].author)} — <em>${esc(S[id].title)}</em> (${esc(S[id].year)})</a></li>`).join("")}
-    </ol>
-    <p class="plate__srcnote mono">All URLs and access dates are listed in the bibliography.</p>
+  const apparatus = `<details class="apparatus">
+  <summary><span>Apparatus</span> sources · related plates · terms</summary>
+  <div class="apparatus__cols">
+    <div>
+      <h2>Sources for this plate</h2>
+      <ol class="platesrc">
+        ${allSrc.map((id) => `<li><a href="${srcHref(id, base)}"><span class="mono">${esc(id)}</span> ${esc(S[id].author)} — <em>${esc(S[id].title)}</em> (${esc(S[id].year)})</a></li>`).join("")}
+      </ol>
+      <p class="apparatus__note">URLs, access dates and limitations are in the bibliography.</p>
+    </div>
+    <div>
+      <h2>Related plates</h2>
+      <ul class="related">
+        ${(p.related || []).filter((r) => PLATE[r]).map((r) => `<li><a href="${plateHref(r, base)}"><span class="mono">${PLATE[r].letter}</span> ${esc(PLATE[r].nav)}</a></li>`).join("")}
+      </ul>
+      <h2>Terms in this plate</h2>
+      <ul class="related related--terms">
+        ${(p.concepts || []).filter((c) => CON[c]).map((c) => `<li><a href="${base}atlas.html#concept-${c}">${esc(CON[c].name)}</a></li>`).join("")}
+        ${(p.objects || []).filter((o) => OBJ[o]).map((o) => `<li><a href="${base}atlas.html#object-${o}">${esc(OBJ[o].name)}</a></li>`).join("")}
+      </ul>
+    </div>
   </div>
-  <div class="plate__foot-col">
-    <h2 class="mono">RELATED PLATES</h2>
-    <ul class="related">
-      ${(p.related || []).filter((r) => PLATE[r]).map((r) => `<li><a href="${plateHref(r, base)}"><span class="mono">${PLATE[r].letter}</span> ${esc(PLATE[r].nav)}</a></li>`).join("")}
-    </ul>
-    <h2 class="mono">TERMS IN THIS PLATE</h2>
-    <ul class="related related--terms">
-      ${(p.concepts || []).filter((c) => CON[c]).map((c) => `<li><a href="${base}atlas.html#concept-${c}">${esc(CON[c].name)}</a></li>`).join("")}
-      ${(p.objects || []).filter((o) => OBJ[o]).map((o) => `<li><a href="${base}atlas.html#object-${o}">${esc(OBJ[o].name)}</a></li>`).join("")}
-    </ul>
-  </div>
-  <nav class="plate__pager" aria-label="Plates">
-    ${prev ? `<a href="${plateHref(prev.id, base)}" class="pager pager--prev"><span class="mono">PREVIOUS</span><span>${prev.letter} — ${esc(prev.nav)}</span></a>` : `<a href="${base}index.html" class="pager pager--prev"><span class="mono">BACK</span><span>Cover</span></a>`}
-    ${next ? `<a href="${plateHref(next.id, base)}" class="pager pager--next"><span class="mono">NEXT</span><span>${next.letter} — ${esc(next.nav)}</span></a>` : `<a href="${base}atlas.html" class="pager pager--next"><span class="mono">END</span><span>The index</span></a>`}
-  </nav>
-</footer>`;
+</details>`;
 
-  const deco = {
-    threshold: `<div class="deco deco--rule" aria-hidden="true"></div>`,
-    returning: `<div class="deco deco--stamp mono" aria-hidden="true">UNFILED<br>E / 1916</div>`,
-    grave: `<div class="deco deco--scale mono" aria-hidden="true">0 — 1 — 2 M</div>`,
-    archive: `<div class="deco deco--missing mono" aria-hidden="true">MISSING</div>`,
-    voice: `<div class="deco deco--quote" aria-hidden="true">“”</div>`,
-    collective: `<div class="deco deco--count mono" aria-hidden="true">470 000 / 520 000</div>`,
-    soviet: `<div class="deco deco--stamp2 mono" aria-hidden="true">1927</div>`,
-    art: `<div class="deco deco--label mono" aria-hidden="true">INV. 5248</div>`,
-    afterlife: `<div class="deco deco--marks" aria-hidden="true">${mark("ring-a", "mark--red")}${mark("arrow-long", "mark--red")}</div>`,
-    table: `<div class="deco deco--ink" aria-hidden="true"></div>`,
-    body: `<div class="deco deco--tick" aria-hidden="true">${mark("underline-double")}</div>`,
-    ritual: `<div class="deco deco--bracket" aria-hidden="true">${mark("bracket")}</div>`,
-  }[p.layout] || "";
+  const pager = `<nav class="pager" aria-label="Plates">
+  ${prev ? `<a href="${plateHref(prev.id, base)}" class="pager__a pager__a--prev"><span class="pager__d">← previous</span><span class="pager__l">${prev.letter}</span><span class="pager__t">${esc(prev.nav)}</span></a>` : `<a href="${base}index.html" class="pager__a pager__a--prev"><span class="pager__d">← back</span><span class="pager__l">∅</span><span class="pager__t">Cover</span></a>`}
+  ${next ? `<a href="${plateHref(next.id, base)}" class="pager__a pager__a--next"><span class="pager__d">next →</span><span class="pager__l">${next.letter}</span><span class="pager__t">${esc(next.nav)}</span></a>` : `<a href="${base}atlas.html" class="pager__a pager__a--next"><span class="pager__d">end →</span><span class="pager__l">∞</span><span class="pager__t">The index</span></a>`}
+</nav>`;
+
+  const marks = (lay.marks || []).map((m) => `<span class="hm" style="left:${m.x};top:${m.y};width:${m.w};--rot:${m.rot || 0}deg" aria-hidden="true">${mark(m.id, "mark--red")}</span>`).join("");
 
   return shell({
     title: `${p.title} — Plate ${p.letter} — ARCHÆOLOGY OF RUSSIAN DEATH`,
     description: p.dek,
     base,
-    bodyClass: `plate-page plate-page--${p.layout}`,
+    bodyClass: `plate-page g-${lay.ground}`,
     page: `plate-${p.id}`,
     content: `<main id="main">
-  <div class="plate__rule" aria-hidden="true"></div>
-  <article class="plate plate--${p.layout}" data-plate="${p.id}">
-    ${deco}
+  <article class="plate p-${p.layout}" data-plate="${p.id}">
     ${head}
     <div class="plate__body">
-      ${sections}
+      ${body}
       ${marginal}
+      ${marks}
     </div>
-    ${foot}
+    ${apparatus}
+    ${pager}
   </article>
 </main>`,
   });
@@ -404,6 +459,7 @@ function indexPage() {
     return `<li class="card" data-kind="plate" data-theme="${theme}" data-concepts="${(p.concepts || []).join(" ")}" data-objects="${(p.objects || []).join(" ")}" data-places="${(p.places || []).join(" ")}"
       data-search="${esc(`${p.title} ${p.nav} ${p.dek} ${p.subtitle} ${p.period} ${p.location} ${p.tradition}`.toLowerCase())}">
       <a class="card__link" href="${plateHref(p.id, base)}">
+        <span class="card__thumb" aria-hidden="true"><img src="${IMG[KEY[p.id]] ? IMG[KEY[p.id]].file : "assets/derived/" + KEY[p.id] + ".webp"}" alt="" loading="lazy" decoding="async"></span>
         <span class="card__stamp mono" aria-hidden="true">${p.letter}</span>
         <span class="card__no mono">${String(i + 1).padStart(2, "0")}</span>
         <span class="card__title">${esc(p.nav)}</span>
@@ -759,12 +815,12 @@ function colophonPage() {
 <div class="colophon">
   <section class="colo-sec">
     <h2 class="mono">TYPEFACES</h2>
-    <p><strong>Anton</strong> (display, heavy), <strong>Oswald</strong> (condensed, display and navigation), <strong>Source Serif 4</strong> (editorial text), <strong>IBM Plex Mono</strong> (metadata). All four are licensed under the SIL Open Font License 1.1 and are served from this repository. Licence texts are in <code>assets/fonts/</code>.</p>
+    <p><strong>Anton</strong> (heavy condensed display), <strong>Oswald</strong> (condensed headings), <strong>Old Standard TT</strong> (nineteenth-century Russian-style serif, for pull quotes and captions), <strong>Source Serif 4</strong> (reading text), <strong>Special Elite</strong> (typewriter), <strong>Caveat</strong> (hand annotations, Latin and Cyrillic) and <strong>IBM Plex Mono</strong> (data). Anton, Oswald, Old Standard TT, Source Serif 4, Caveat and IBM Plex Mono are licensed under the SIL Open Font License 1.1; Special Elite is licensed under the Apache License 2.0. All are served from this repository, with licence texts in <code>assets/fonts/</code>.</p>
   </section>
   <section class="colo-sec">
     <h2 class="mono">MATERIALS</h2>
-    <p>Seven textures and two overlays were generated for this edition — paper grain, aged paper, dirty photocopy, scanner lines, misregistration, ink stain, wash stain, dust and creases — together with six torn-paper clip paths, two tape shapes, a hand-mark sprite and six diagrams. Halftone, duotone and photocopy degradation are applied as real image derivatives, not as CSS filters: the files are raster and vector assets generated by the scripts in <code>build/</code>.</p>
-    <p>Photographs and reproductions come from Wikimedia Commons under public domain, CC0, CC BY or CC BY-SA licences. Every file is credited under its figure and in the bibliography. Four photographic derivatives (two halftones, one xerox, one duotone) are declared as derivatives.</p>
+    <p>Every photograph in this edition is a separate derivative file, not a CSS filter: each has its own crop, its own degradation (photocopy threshold and toner streaks, halftone screen, newsprint dither, faded print with scanner banding, deep black, underexposed) and, where it is a loose sheet, a torn edge baked into the alpha channel. Seven material textures — concrete, granite, newsprint, linen, soot, wet plaster and grease-stained manila — were generated procedurally for this edition, together with the paper and dust overlays of the first edition. Text sheets are torn by seeded fractal outlines computed at build time, so no two sheets share an edge. Scripts: <code>build/make_derived.py</code>, <code>build/build.mjs</code>.</p>
+    <p>Photographs and reproductions come from Wikimedia Commons under public domain, CC0, CC BY or CC BY-SA licences. Every file is credited under its figure and in the bibliography. Every derivative is declared in the bibliography and in <code>ASSET_CREDITS.md</code> and inherits the licence of its original; the original author is credited under each figure, and each figure has an EXAMINE ORIGINAL control that opens the unprocessed file.</p>
   </section>
   <section class="colo-sec">
     <h2 class="mono">TECHNICAL</h2>
@@ -788,55 +844,58 @@ function colophonPage() {
 // ----------------------------------------------------------------- cover ---
 function coverPage() {
   const base = "";
+  const keyThumb = (p) => {
+    const id = KEY[p.id];
+    const d = DER[id];
+    const file = IMG[id] ? IMG[id].file : `assets/derived/${id}.webp`;
+    return `<img src="${file}" alt="" width="${d ? d.w : 800}" height="${d ? d.h : 600}" loading="lazy" decoding="async">`;
+  };
   return shell({
     title: "ARCHÆOLOGY OF RUSSIAN DEATH — An Atlas",
     description: "An atlas of death, memory, ritual and the afterlife in Russian culture. Twelve research plates, an index, a map, a chronology and sources.",
     base,
-    bodyClass: "cover-page",
+    bodyClass: "cover-page g-soot",
     page: "cover",
     content: `<main id="main" class="cover">
-  <section class="cover__top">
-    <p class="mono cover__kicker">AN ATLAS · TWELVE PLATES · FIRST EDITION 2026</p>
-    <h1 class="cover__title">
-      <span class="cover__line cover__line--1">ARCHÆOLOGY</span>
-      <span class="cover__line cover__line--2"><span class="cover__of">OF</span> <span class="cover__red">RUSSIAN</span></span>
-      <span class="cover__line cover__line--3">DEATH</span>
+  <section class="cv" aria-label="Cover">
+    <figure class="cv__ground">${photoFig("hero-tomb", base, { tape: "", note: "" })}</figure>
+    <h1 class="cv__title">
+      <span class="cv__t1">ARCHÆOLOGY</span>
+      <span class="cv__t2"><i>of</i> <b>RUSSIAN</b></span>
+      <span class="cv__t3">DEATH</span>
     </h1>
-    <p class="cover__sub">An Atlas of Death, Memory, Ritual and the Afterlife in Russian Culture</p>
-    <p class="cover__statement mono">A CHRONICLE OF THE DEAD, WRITTEN BY THE LIVING · NOT SLAVIC FANTASY · NOT GOTHIC HORROR · A MATERIAL ARCHIVE OF RUSSIAN DEATH</p>
+    <figure class="cv__cross">${photoFig("golubets-roof", base, { tape: "tr" })}<span class="hm cv__ring" aria-hidden="true">${mark("ring-a", "mark--red")}</span></figure>
+    <figure class="cv__sled">${photoFig("perov-sled", base, { tape: "tl" })}</figure>
+    <p class="cv__sub">An atlas of death, memory, ritual and the afterlife in Russian culture</p>
+    <p class="cv__hand" aria-hidden="true">roofed cross → plate F</p>
+    <span class="hm cv__arrow" aria-hidden="true">${mark("arrow-long", "mark--red")}</span>
+    <p class="cv__slip">first edition 2026 · twelve plates</p>
   </section>
 
-  <section class="cover__body">
-    <div class="cover__collage" aria-hidden="true">
-      <figure class="cover__fig cover__fig--a torn-03"><img src="assets/images/last-judgment-volga.jpg" alt="" loading="eager" decoding="async"></figure>
-      <figure class="cover__fig cover__fig--b torn-02"><img src="assets/images/perov-funeral.jpg" alt="" loading="lazy" decoding="async"></figure>
-      <span class="cover__tape tape-1"></span>
-      <span class="cover__slip mono">PLATE H — THE AFTERLIFE — 1770s–1780s</span>
-      <span class="cover__stamp mono">ARCHIVE<br>COPY 12</span>
+  <section class="cv-intro">
+    <div class="cv-intro__sheet sw" style="--ca:${torn("cover-intro", "tb", 11).a};--cb:${torn("cover-intro", "tb", 11).b}">
+      <div class="sheet mat-newsprint">
+        <p class="cv-intro__lede">This is not a history of a single tradition. It is an assembly of documents, objects and arguments about how people in Russia buried their dead, imagined what came after, and tried to keep names from disappearing.</p>
+        <p>Twelve plates move from the room where a death occurs to the archive that cannot hold it. Each plate has its own evidence and its own gaps. Facts are separated from interpretation and from reconstruction wherever they appear.</p>
+        <p class="cv-intro__rule">No invented sources. No invented quotations. No invented archive numbers.</p>
+        <nav class="cv-intro__nav" aria-label="Begin">
+          <a href="atlas.html">the index</a>
+          <a href="plates/a-threshold.html">begin at plate A</a>
+          <a href="method.html">method</a>
+        </nav>
+      </div>
     </div>
-    <div class="cover__intro">
-      <p class="cover__lede">This is not a history of a single tradition. It is an assembly of documents, objects and arguments about how people in Russia buried their dead, imagined what came after, and tried to keep names from disappearing.</p>
-      <p>Twelve plates move from the room where a death occurs to the archive that cannot hold it. Each plate has its own composition, its own evidence and its own gaps. Facts are separated from interpretation and from reconstruction wherever they appear.</p>
-      <p class="mono cover__warn">NO INVENTED SOURCES · NO INVENTED QUOTATIONS · NO INVENTED ARCHIVE NUMBERS</p>
-      <nav class="cover__nav" aria-label="Begin">
-        <a class="btn btn--red" href="atlas.html">ENTER THE INDEX</a>
-        <a class="btn" href="plates/a-threshold.html">BEGIN AT PLATE A</a>
-        <a class="btn btn--ghost" href="method.html">READ THE METHOD</a>
-      </nav>
-    </div>
   </section>
 
-  <section class="cover__strip">
-    <p class="mono">DOCUMENTED</p><span class="cover__bar"></span>
-    <p class="mono">INTERPRETATION</p><span class="cover__bar"></span>
-    <p class="mono">RECONSTRUCTION</p><span class="cover__bar"></span>
-    <p class="mono">UNVERIFIED</p>
-  </section>
-
-  <section class="cover__plates">
-    <h2 class="mono">THE TWELVE PLATES</h2>
+  <section class="cv-plates" aria-labelledby="cvp">
+    <h2 id="cvp" class="visually-hidden">The twelve plates</h2>
     <ol>
-      ${plates.plates.map((p, i) => `<li><a href="${plateHref(p.id, base)}"><span class="mono">${p.letter}</span><span class="cover__pl-title">${esc(p.nav)}</span><span class="mono cover__pl-no">${String(i + 1).padStart(2, "0")}</span></a></li>`).join("")}
+      ${plates.plates.map((p, i) => `<li class="cvp cvp--${p.letter.toLowerCase()}"><a href="${plateHref(p.id, base)}">
+        <span class="cvp__img">${keyThumb(p)}</span>
+        <span class="cvp__l">${p.letter}</span>
+        <span class="cvp__t">${esc(p.nav)}</span>
+        <span class="cvp__n">${String(i + 1).padStart(2, "0")}</span>
+      </a></li>`).join("")}
     </ol>
   </section>
 </main>`,
@@ -855,7 +914,3 @@ write("colophon.html", colophonPage());
 write("404.html", notFound());
 for (const p of plates.plates) write(`plates/${p.id}-${p.slug}.html`, renderPlate(p));
 console.log("done");
-
-
-
-

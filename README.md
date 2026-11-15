@@ -14,7 +14,7 @@ The rule of the publication is stated on the cover and enforced in every plate:
 
 > **Documented** facts are separated from **interpretation** and from **reconstruction**. No invented sources, quotations, archive numbers or historical photographs.
 
-The material layer — torn edges, toner, halftone, scanner lines, misregistration — is generated locally and used as an argument about the evidence, not as a filter over it.
+The material layer is made of real files: every photograph is a separate derivative (own crop, own degradation, torn edge baked into alpha) produced by `build/make_derived.py`; text sheets are torn by seeded fractal outlines computed in `build/build.mjs`; per-plate compositions live in `build/layouts.mjs`. Originals stay one click away (EXAMINE ORIGINAL).
 
 ## Contents
 
