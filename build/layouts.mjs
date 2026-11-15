@@ -51,6 +51,8 @@ export const KEY = {
   t: "makovsky-rusalki-faded",
   u: "arkhipov-radonitsa-cut",
   v: "izba-red-corner-wide",
+  w: "keret-graves-faded",
+  x: "tver-empty-house-xerox",
 };
 
 export const LAYOUT = {

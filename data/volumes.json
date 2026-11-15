@@ -15,8 +15,8 @@
       "numeral": "II",
       "title": "THE CHTHONIC LANDSCAPE",
       "subtitle": "Houses, forests, waters, roads, villages and cellars as places where the living and the dead meet",
-      "dek": "The second volume moves from the grave to the ground around it. Plates are published one at a time; the rest are listed with their scope and stay unpublished until their sources are checked.",
-      "status": "in-preparation",
+      "dek": "The second volume moves from the grave to the ground around it: houses, forests, waters, roads, villages and cellars as places where the living and the dead meet. Each plate keeps what is documented apart from what is reconstructed.",
+      "status": "published",
       "planned": []
     },
     {
@@ -33,20 +33,9 @@
       "numeral": "IV",
       "title": "MEMORY, CATASTROPHE AND MODERNITY",
       "subtitle": "Abandonment as material process; the digital afterlife",
-      "dek": "Planned, with comparative dossiers on Old Believer, Muslim, Jewish, Buddhist and northern and Siberian Indigenous funerary traditions, each in its own context.",
-      "status": "planned",
-      "planned": [
-        {
-          "letter": "W",
-          "title": "The Materials of Abandonment",
-          "scope": "Ruined houses, neglected cemeteries, demolished churches, reused gravestones; physical decay tied to historical process."
-        },
-        {
-          "letter": "X",
-          "title": "The Digital Afterlife",
-          "scope": "Online memorials, profiles of the dead, digital inheritance; treated as a serious contemporary extension, not a novelty."
-        }
-      ]
+      "dek": "The fourth volume: how death leaves material traces and online ones. Each plate says which statements are documented and which are not.",
+      "status": "published",
+      "planned": []
     }
   ]
 }

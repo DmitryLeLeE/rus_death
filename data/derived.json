@@ -590,6 +590,16 @@
   "bytes": 125134
  },
  {
+  "id": "keret-graves-faded",
+  "parent_file": "keret-graves.jpg",
+  "treatment": "faded",
+  "title": "Graves in an abandoned cemetery, Sredny Island, Keret Archipelago (2023)",
+  "shows": "Whole frame",
+  "w": 1500,
+  "h": 1125,
+  "bytes": 522548
+ },
+ {
   "id": "mamayev-news",
   "parent_file": "mamayev.jpg",
   "treatment": "news",

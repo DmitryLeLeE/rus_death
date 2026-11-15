@@ -3220,7 +3220,7 @@
       ],
       "concepts": [
         "threshold",
-        "ritual"
+        "purification"
       ],
       "objects": [],
       "places": [],
@@ -3380,6 +3380,303 @@
             "The scholars cited by the encyclopedia article (Baiburin, Razumova, Tolstaya) in the original, and the article’s author and edition.",
             "Zelenin, Kabakova, Kremleva and Sedakova as cited by Rouhier-Willoughby, to check each custom against its first source and region.",
             "Open-access field studies of funeral prohibitions in other regions, for example the Chuvash study found while searching, as a comparison and not as Russian evidence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w",
+      "letter": "W",
+      "slug": "materials-of-abandonment",
+      "nav": "Materials of Abandonment",
+      "title": "THE MATERIALS OF ABANDONMENT",
+      "subtitle": "Demolished cemeteries, gravestones as curbs and what is documented",
+      "dek": "Dated decisions reported from Siberia and a 2019 find in Moscow, with the larger historical claims marked unverified because the articles cite no documents.",
+      "marginal": "Two articles, one interview. The dates are reported, the motives are one reading, the metro filler is unverified.",
+      "period": "1920–1930s; 1950s; 2005; 2019",
+      "location": "Novosibirsk, Barnaul, Omsk; Moscow",
+      "tradition": "Soviet and post-Soviet treatment of cemeteries",
+      "category": "grave",
+      "layout": "vanished",
+      "tone": "dark",
+      "sources": [
+        "krasilnikova2023",
+        "minkin2019"
+      ],
+      "related": [
+        "k",
+        "l",
+        "q"
+      ],
+      "concepts": [
+        "memory",
+        "abandonment"
+      ],
+      "objects": [],
+      "places": [],
+      "volume": "IV",
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "W / 01",
+          "heading": "Novosibirsk: dated decisions, as reported",
+          "level": "documented",
+          "sources": [
+            "krasilnikova2023"
+          ],
+          "paras": [
+            "In a 2023 interview, E. Krasilnikova of Novosibirsk State Technical University dates a run of local decisions. A 1920 decision concerned cutting the grove at the cemetery. In 1929 the Voskresenskaya church was ordered closed, and in April 1930 a crowd of about a thousand protested and was dispersed by the militia. The old cemetery became a garden and later part of a park; the church went to the park administration, held a planetarium and burned in the 1970s.",
+            "She places the start of such demolitions in Siberia in the mid-1920s. The interview states the dates as facts but cites no file or archive for them, so they stand here as the interviewee’s report."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "W / 02",
+          "heading": "Barnaul and Omsk",
+          "level": "documented",
+          "sources": [
+            "krasilnikova2023"
+          ],
+          "paras": [
+            "In her account two large cemeteries in Barnaul were destroyed in the 1930s, graves were opened for valuables and remains left scattered. She calls Barnaul the most radical case in Siberia; that comparison is her judgement.",
+            "Omsk went another way. She says its historic necropolis survived until the 1950s, was recorded and photographed by a museum director before its demolition, and in 2005 fragments of its stones were gathered into a memorial square. Novosibirsk has no comparable memorial, she adds."
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "keret-graves",
+          "show": "keret-graves-faded",
+          "alt": "A rusted iron grave fence and a fallen pale wooden cross among young birch and spruce, with blueberry scrub covering the ground and a collapsed wooden structure at the right",
+          "caption": "A fence and a fallen cross in an abandoned cemetery on Sredny Island, Keret Archipelago, 2023. The plate does not say why it was abandoned.",
+          "credit": "Cornussuec, CC0, via Wikimedia Commons",
+          "level": "documented",
+          "size": "wide"
+        },
+        {
+          "type": "prose",
+          "kicker": "W / 03",
+          "heading": "Curbs on a Moscow embankment, 2019",
+          "level": "documented",
+          "sources": [
+            "minkin2019"
+          ],
+          "paras": [
+            "A. Minkin reports that gravestones were found used as curbs near the Estrada Theatre on Bersenevskaya Embankment while the curbs were being replaced. The photographs came from a municipal deputy who posted them online, and some stones still showed dates of birth and death. The construction department told the outlet that the work was not under its direction. He also recalls a similar case from 2011 on Bolshaya Polyanka.",
+            "The 2019 find is therefore known through a deputy’s photographs and an outlet’s report, not through an inspection record."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "W / 04",
+          "heading": "Claims with no document behind them",
+          "level": "unverified",
+          "sources": [
+            "minkin2019"
+          ],
+          "paras": [
+            "The same article quotes an architect, S. Tkachenko, who says that reuse of granite for roads was normal in the 1920s and 1930s, that many stone buildings were demolished in 1934 and the rubble used as metro filler or concrete. The state enterprise ‘Ritual’ is quoted as saying the practice was common, that many cemeteries were cleared in the first half of the twentieth century for the metro and roads, with curbs at Sokolniki, Tverskoy Boulevard and Novaya Basmannaya Street, and that unused slabs were crushed into rubble.",
+            "No decision, order or archive is cited for any of this. The atlas keeps the statements and marks them UNVERIFIED: they are plausible, they come from named speakers, and they are not documented here."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "W / 05",
+          "heading": "Why the cemeteries went",
+          "level": "interpretation",
+          "contested": true,
+          "sources": [
+            "krasilnikova2023"
+          ],
+          "paras": [
+            "Krasilnikova gives four kinds of motive for the demolitions: ideological (shedding pre-revolutionary culture and building a socialist city), practical (neglected graves after the Civil War, typhus burials, no relatives left to tend them), symbolic (local notables buried there whom the new authorities saw no need to remember) and emotional (funerals used to mobilise people, revolutionary rites replacing religious ones).",
+            "These are her interpretations of Siberian cases and are not sourced in the interview. The atlas lists them as one reading, and does not give them as the cause of abandoned cemeteries elsewhere, including the one in the photograph."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "W / 06",
+          "heading": "Place, what is reported, how it is known",
+          "colhead": [
+            "Place",
+            "What is reported",
+            "Source and status"
+          ],
+          "rows": [
+            [
+              "Novosibirsk, 1920–1930",
+              "Decisions on the cemetery grove and the church; a protest dispersed by the militia; cemetery turned to garden and park",
+              "Krasilnikova interview; dated, no file cited"
+            ],
+            [
+              "Barnaul, 1930s",
+              "Two large cemeteries destroyed; graves opened; remains left scattered",
+              "Krasilnikova interview; her account"
+            ],
+            [
+              "Omsk, to the 1950s",
+              "Necropolis recorded and photographed; stones gathered into a memorial square in 2005",
+              "Krasilnikova interview"
+            ],
+            [
+              "Moscow, Bersenevskaya Embankment, 2019",
+              "Gravestones used as curbs",
+              "Minkin; deputy’s photographs"
+            ],
+            [
+              "Moscow, 1920s–1930s",
+              "Stone from cemeteries and churches reused for roads and as metro filler",
+              "Minkin quoting an architect and ‘Ritual’; UNVERIFIED"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "What this plate does not say",
+          "level": "interpretation",
+          "items": [
+            "It does not give a total of cemeteries destroyed or gravestones reused. No source read gives one.",
+            "It does not describe the remains of the people buried in these places, and it shows none.",
+            "It does not treat Siberian demolitions as the whole of Soviet cemetery policy, or as the explanation for rural cemeteries abandoned through depopulation.",
+            "It does not repeat tales of individual stones found in pavements that the sources do not tie to a place and a record."
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Research leads",
+          "heading": "What would turn this plate into a study",
+          "level": "interpretation",
+          "items": [
+            "Krasilnikova’s book on the subject, to see which archives stand behind the dates.",
+            "City council decisions and construction records for Moscow in the 1930s, to test the metro-filler statement.",
+            "A 2015 proposal of the construction ministry to reuse graves judged abandoned, reported in the press, for the legal side of ‘abandoned’ graves; it needs the draft law and its fate.",
+            "Studies of village cemeteries abandoned through depopulation, which the sources read here do not cover."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "letter": "X",
+      "slug": "digital-afterlife",
+      "nav": "The Digital Afterlife",
+      "title": "THE DIGITAL AFTERLIFE",
+      "subtitle": "Online memorials, accounts of the dead and what sources claim",
+      "dek": "Three sources on dead users’ accounts, online mourning and avatars of the dead, all read at the level of an abstract or a news item and stated as such.",
+      "marginal": "Three abstracts. A projection, an argument and a pair of claims, none of them a count.",
+      "period": "2020–2025",
+      "location": "Russian-language internet",
+      "tradition": "Online commemoration in Russia",
+      "category": "archive",
+      "layout": "vanished",
+      "tone": "dark",
+      "sources": [
+        "sergeeva2020",
+        "linden-online-death",
+        "hse-digital-grief2025"
+      ],
+      "related": [
+        "g",
+        "l",
+        "w"
+      ],
+      "concepts": [
+        "memory",
+        "remembrance"
+      ],
+      "objects": [],
+      "places": [],
+      "volume": "IV",
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "X / 01",
+          "heading": "More dead than living",
+          "level": "documented",
+          "sources": [
+            "sergeeva2020"
+          ],
+          "paras": [
+            "A. Sergeeva, R. Gerlit and H. Krcmar analysed 33 social networks and online services, surveyed 173 internet users and interviewed experts, taking Russia as their example. Their abstract expects services to host more deceased than living users in the coming decades, accounts and data to persist, the deceased to keep receiving invitations and birthday greetings, and heirs to find it hard to identify all accounts and reach the data.",
+            "This plate has the abstract only. The ‘more dead than living’ line is a projection, and the survey’s sample is not known here."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "X / 02",
+          "heading": "A dissertation on mourning online",
+          "level": "interpretation",
+          "sources": [
+            "linden-online-death"
+          ],
+          "paras": [
+            "K. Linden’s doctoral dissertation at Uppsala studies online commemoration in the Russian-speaking world by virtual ethnography of three memorial sites, among them one on Soviet repressions and one on the Nord-Ost siege, together with social networking sites. She argues that online tools enable communal remembrance, that this has three sides (between the living and the dead, among mourners, and as motive for action), and that digitalisation may challenge a political culture of forgetting.",
+            "She also argues that the ‘right to be forgotten’ is not necessarily the answer, because difficulty in forgetting online could help repair a broken memory culture. This is an argument within her theoretical framework. The atlas has the library abstract only and treats it as her claim."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "X / 03",
+          "heading": "Avatars and grief",
+          "level": "interpretation",
+          "contested": true,
+          "sources": [
+            "hse-digital-grief2025"
+          ],
+          "paras": [
+            "Researchers from HSE University in Nizhny Novgorod, T. Khusyainov and E. Urusova, are reported as saying that digital footprints can support grief by sustaining a sense of connection, and that the same tools can raise anxiety, delay acceptance of loss and increase the risk of retraumatisation. They describe AI avatars of the dead, which can recreate voice and habits and can also produce errors, with a comparison to Frankenstein’s creature.",
+            "The two effects are put forward together by the researchers themselves, and the atlas leaves both open. The plate has a university news item, not the article. The item does not discuss Russian law."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "X / 04",
+          "heading": "Source, material and limits",
+          "colhead": [
+            "Source",
+            "Material",
+            "Limit"
+          ],
+          "rows": [
+            [
+              "Sergeeva, Gerlit, Krcmar (2020)",
+              "33 services, 173 users, expert interviews",
+              "Abstract only; sample unknown"
+            ],
+            [
+              "Linden (dissertation)",
+              "Three memorial sites; virtual ethnography",
+              "Abstract only; year not shown; theoretical claims"
+            ],
+            [
+              "Khusyainov and Urusova (2025)",
+              "Researchers’ claims on grief and avatars",
+              "News item, not the article"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "What this plate does not say",
+          "level": "interpretation",
+          "items": [
+            "It does not reproduce any profile, page or message of a dead person.",
+            "It does not count memorial pages or users. No source read gives a Russian figure.",
+            "It does not explain Russian law on digital inheritance; the sources read do not.",
+            "It does not cover war memorial communities, which need their own sources and care."
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Research leads",
+          "heading": "What would turn this plate into a study",
+          "level": "interpretation",
+          "items": [
+            "Linden’s full text (linked from the library record), to read her material and her counts.",
+            "The article by Khusyainov and Urusova in the journal Chelovek.",
+            "A 2011 press report that the first specialised online memorial of the Russian internet launched in Perm; it needs the original report.",
+            "A student qualification paper at HSE on memorialisation on VKontakte, with a classifier for deceased users’ accounts; as a thesis it is a lead, not a source."
           ]
         }
       ]
