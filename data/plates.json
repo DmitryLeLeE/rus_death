@@ -2955,7 +2955,7 @@
       "nav": "Household Spirits",
       "title": "HOUSEHOLD SPIRITS",
       "subtitle": "The domovoy, the dead and the limits of the ancestor reading",
-      "dek": "A spirit of the house who is sometimes read as a dead ancestor. The plate sets two regional studies side by side, says what each can and cannot carry, and keeps the bannik and the kikimora out of the ancestor story.",
+      "dek": "A spirit of the house who is sometimes read as a dead ancestor. The plate sets regional studies side by side (Perm, Arkhangelsk, Kargopol and a multi-region survey), says what each can and cannot carry, and keeps the bannik and the kikimora out of the ancestor story.",
       "marginal": "One scholarly reading, two studies, one village, and a survey of students that did not find the belief. The reading is marked contested.",
       "period": "Field records 1999–2019; recollections from the 1950s",
       "location": "Russia: Perm Krai and the regions of the 1999–2015 field collections",
@@ -2966,7 +2966,9 @@
       "sources": [
         "ansimova2016",
         "granova2019",
-        "culture-house-spirits"
+        "culture-house-spirits",
+        "drannikova-north",
+        "denisevich-kargopol"
       ],
       "related": [
         "a",
@@ -3015,6 +3017,22 @@
           ]
         },
         {
+          "type": "prose",
+          "kicker": "S / 03",
+          "heading": "Two northern accounts that disagree",
+          "level": "documented",
+          "contested": true,
+          "sources": [
+            "drannikova-north",
+            "denisevich-kargopol"
+          ],
+          "paras": [
+            "For Arkhangelsk Oblast, N. Drannikova writes that the domovoy is usually considered a deceased member of the family and the first ancestor of the clan; in one formulation he is a man who died unrepentant, and he may look like a dead grandfather. She lists about twenty-three names for him and reports that a groan or a knock from him often foreshadows a death in the family. Her field material comes from expeditions of 1990–2012 and earlier collections, and no count of records is given.",
+            "For the Kargopol area of the same oblast, K. Denisevich, a student, describes a helpful ‘master’ of the household who looks like the head of the family and cares for horses and cows. Her text does not say that he is a dead person. It says only, in a general statement, that he is closely tied to the ancestor cult. In the same account the baennik of the bathhouse, the ovinnik of the threshing barn and the dvorovoy of the yard are separate spirits, none of them linked here to the dead.",
+            "The two accounts are from one oblast and give different degrees of the ancestor link. This is the plate’s reason for keeping the link as a regional report, source by source, and not as a trait of the domovoy."
+          ]
+        },
+        {
           "type": "figure",
           "src": "kustodiev-domovoi",
           "show": "kustodiev-domovoi-faded",
@@ -3026,7 +3044,7 @@
         },
         {
           "type": "prose",
-          "kicker": "S / 03",
+          "kicker": "S / 04",
           "heading": "Not every spirit of the house is an ancestor",
           "level": "interpretation",
           "contested": true,
@@ -3040,7 +3058,7 @@
         },
         {
           "type": "register",
-          "kicker": "S / 04",
+          "kicker": "S / 05",
           "heading": "Who is linked to the dead, by which source",
           "colhead": [
             "Spirit",
@@ -3062,10 +3080,22 @@
               "Granova; a possibility, one village"
             ],
             [
-              "Bannik, obderikha",
+              "Domovoy (Arkhangelsk Oblast)",
+              "House",
+              "Usually a deceased family member, first ancestor of the clan; in one formulation a man who died unrepentant",
+              "Drannikova; fieldwork 1990–2012, no count"
+            ],
+            [
+              "Domovoy (Kargopol)",
+              "House and barn",
+              "Closely tied to the ancestor cult in a general statement; not said to be a dead person",
+              "Denisevich; student work"
+            ],
+            [
+              "Bannik, obderikha; baennik (Kargopol)",
               "Bathhouse",
               "Set apart as the most dangerous; no ancestor link stated",
-              "Ansimova and Golubkova"
+              "Ansimova and Golubkova; Denisevich (baennik)"
             ],
             [
               "Kikimora",
@@ -3076,13 +3106,15 @@
             [
               "Ovinnik",
               "Drying barn",
-              "Not covered by the sources read",
-              "Named only as a spirit whose beliefs have faded"
+              "Spirit of the threshing barn; no link to the dead stated",
+              "Denisevich (Kargopol)"
             ]
           ],
           "sources": [
             "ansimova2016",
-            "granova2019"
+            "granova2019",
+            "drannikova-north",
+            "denisevich-kargopol"
           ]
         },
         {
@@ -3094,7 +3126,7 @@
             "No pantheon, and no list of spirits found everywhere: the sources are regional and of different kinds.",
             "Belief today is not described. Both articles report reduction, and the 2015 survey sample was mostly students.",
             "The ancestor reading rests on named studies only; Krinichnaya’s earlier work was not read.",
-            "Bathhouse, drying barn and mill are left out as places. The sources read say too little about them."
+            "Bathhouse, drying barn and mill are not treated as places. The bathhouse and barn spirits appear only as names, with a role, in one short Kargopol account."
           ],
           "editorial": true
         },
