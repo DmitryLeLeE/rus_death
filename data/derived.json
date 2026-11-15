@@ -280,6 +280,66 @@
   "bytes": 707950
  },
  {
+  "id": "arkhipov-radonitsa-cut",
+  "parent_file": "arkhipov-radonitsa.jpg",
+  "treatment": "faded",
+  "title": "Radonitsa, painting by Abram Arkhipov",
+  "shows": "Whole picture",
+  "w": 1500,
+  "h": 748,
+  "bytes": 177838
+ },
+ {
+  "id": "nevrev-panikhida-cut",
+  "parent_file": "nevrev-panikhida.jpg",
+  "treatment": "news",
+  "title": "Requiem at a village cemetery, painting by Nikolai Nevrev (1865)",
+  "shows": "Whole picture",
+  "w": 900,
+  "h": 1223,
+  "bytes": 286300
+ },
+ {
+  "id": "soldatskoe-pascha-cut",
+  "parent_file": "soldatskoe-pascha.jpg",
+  "treatment": "dormant",
+  "title": "Village cemetery at Easter, Soldatskoye (Belgorod Oblast, 2014)",
+  "shows": "Cropped to the cross and the grave mound",
+  "w": 880,
+  "h": 1008,
+  "bytes": 230042
+ },
+ {
+  "id": "trifon-cemetery-cut",
+  "parent_file": "trifon-cemetery.jpg",
+  "treatment": "black",
+  "title": "Village cemetery, Trifon (Kostroma Oblast, 2019)",
+  "shows": "Whole frame",
+  "w": 1400,
+  "h": 718,
+  "bytes": 368282
+ },
+ {
+  "id": "rogozhskoe-oldbelievers-cut",
+  "parent_file": "rogozhskoe-oldbelievers.jpg",
+  "treatment": "halftone",
+  "title": "Graves of Old Believers, Rogozhskoye Cemetery, Moscow",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 700,
+  "bytes": 331718
+ },
+ {
+  "id": "kizhi-ryabinin-cut",
+  "parent_file": "kizhi-ryabinin.jpg",
+  "treatment": "xerox",
+  "title": "Kizhi churchyard — the grave of the storyteller T. G. Ryabinin (2021)",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 731,
+  "bytes": 300950
+ },
+ {
   "id": "mamayev-news",
   "parent_file": "mamayev.jpg",
   "treatment": "news",

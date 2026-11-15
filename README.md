@@ -179,6 +179,10 @@ The atlas states its gaps rather than filling them: no field survey, no municipa
 
 
 
+## Photographs added on 15 November 2026
+
+Six images from Wikimedia Commons were added through the Commons API (licences and authors read from each file page): Arkhipov, *Radonitsa* (public domain) and Nevrev, *Requiem at a village cemetery*, 1865 (public domain) as paintings; photographs of a village cemetery at Easter in Soldatskoye, Belgorod Oblast (CC BY-SA 3.0), the cemetery in Trifon, Kostroma Oblast (CC0), Old Believer graves at Rogozhskoye Cemetery, Moscow (CC BY-SA 3.0), and the Kizhi churchyard, Karelia (CC BY-SA 4.0). They stand on plates D, F and J as processed derivatives; each carries its author, licence and an EXAMINE ORIGINAL button. The repository holds scaled-down copies of the Commons originals (long side ≤ 2880 px). Captions state only what the file page and the picture show; dates and collections that Commons does not give are not asserted. The single Ukrainian photograph remains on plate D, labelled as Ukrainian.
+
 ---
 
 ## Artistic statement

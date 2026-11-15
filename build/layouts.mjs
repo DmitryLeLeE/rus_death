@@ -22,6 +22,12 @@ export const FIGMAP = {
   "piskaryovskoye-flame": "piskaryov-flame",
   "unknown-soldier-1979": "soldier-flowers",
   "mamayev": "mamayev-news",
+  "arkhipov-radonitsa": "arkhipov-radonitsa-cut",
+  "nevrev-panikhida": "nevrev-panikhida-cut",
+  "soldatskoe-pascha": "soldatskoe-pascha-cut",
+  "trifon-cemetery": "trifon-cemetery-cut",
+  "rogozhskoe-oldbelievers": "rogozhskoe-oldbelievers-cut",
+  "kizhi-ryabinin": "kizhi-ryabinin-cut",
 };
 
 // Image that stands for each plate on the cover and in the index.
@@ -83,6 +89,8 @@ export const LAYOUT = {
       { s: 4, r: 4, c: "2/8", y: 0, rot: -1.2, mat: "none", w: 86, m: "l", tape: "tl" },
       { s: 5, r: 4, c: "8/13", y: 60, rot: 0.7, mat: "soot", w: 92, m: "r" },
       { s: 6, r: 5, c: "5/10", y: -20, rot: 1.0, mat: "none", w: 60, m: "c" },
+      { a: "arkhipov-radonitsa-cut", r: 6, c: "2/9", y: 10, rot: -0.8, w: 100, m: "c", tape: "tl" },
+      { a: "soldatskoe-pascha-cut", r: 6, c: "9/12", y: 50, rot: 1.6, w: 70, m: "r", tape: "tr" },
     ],
   },
   returning: {
@@ -116,6 +124,9 @@ export const LAYOUT = {
       { s: 8, r: 6, c: "1/6", y: 20, rot: 1.1, mat: "soot", w: 90, m: "l" },
       { s: 10, r: 6, c: "6/10", y: 70, rot: -1.0, mat: "none", w: 66, m: "c" },
       { a: "ships-flowers", r: 6, c: "10/13", y: 0, rot: 2.0, w: 66, m: "r", tear: "t" },
+      { a: "trifon-cemetery-cut", r: 7, c: "1/8", y: 20, rot: -0.7, w: 100, m: "c", tape: "tl" },
+      { a: "kizhi-ryabinin-cut", r: 7, c: "8/13", y: 70, rot: 1.1, w: 88, m: "r", tape: "tr" },
+      { a: "rogozhskoe-oldbelievers-cut", r: 8, c: "3/10", y: 0, rot: -0.5, w: 94, m: "c" },
     ],
   },
   voice: {
@@ -174,6 +185,7 @@ export const LAYOUT = {
       { s: 3, r: 3, c: "7/13", y: 70, rot: -0.7, mat: "plaster", w: 94, m: "r" },
       { s: 4, r: 4, c: "3/10", y: 0, rot: -0.4, mat: "none", w: 100, m: "c" },
       { s: 5, r: 4, c: "10/13", y: 60, rot: 1.5, mat: "soot", w: 90, m: "r" },
+      { a: "nevrev-panikhida-cut", r: 5, c: "4/9", y: 20, rot: -1.0, w: 78, m: "c", tape: "tc" },
     ],
   },
   soviet: {
