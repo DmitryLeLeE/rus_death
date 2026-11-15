@@ -46,6 +46,7 @@ export const KEY = {
   o: "swamp-karelia-xerox",
   p: "reshma-cross-faded",
   q: "mologa-market-news",
+  r: "pechory-cave-church-faded",
 };
 
 export const LAYOUT = {

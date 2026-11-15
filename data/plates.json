@@ -2528,6 +2528,155 @@
           ]
         }
       ]
+    },
+    {
+      "id": "r",
+      "letter": "R",
+      "slug": "underground",
+      "nav": "The Underground",
+      "title": "THE UNDERGROUND",
+      "subtitle": "A monastery cut into a ravine, a physics survey, and a tunnel nobody has shown",
+      "dek": "The plate starts from one documented place: the burial caves of the Pskov-Caves Monastery. It sets what the sources record beside a 2023 muon survey and a legend of a tunnel to Izborsk, and marks which is which. Other underground places stay leads.",
+      "marginal": "One monastery. One reported figure with no register behind it. One legend, marked as one.",
+      "period": "Caves in use since the fifteenth century; survey 2023",
+      "location": "Pechory, Pskov Oblast, Russian Federation",
+      "tradition": "Orthodox monastic burial",
+      "category": "village",
+      "layout": "vanished",
+      "tone": "dark",
+      "sources": [
+        "azbyka-pechory",
+        "anokhin2023",
+        "alexandrov2023",
+        "dp2024"
+      ],
+      "related": [
+        "f",
+        "q",
+        "n"
+      ],
+      "concepts": [
+        "threshold",
+        "memory"
+      ],
+      "objects": [],
+      "places": [],
+      "volume": "II",
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "R / 01",
+          "heading": "A cemetery cut into a ravine",
+          "level": "documented",
+          "sources": [
+            "azbyka-pechory",
+            "anokhin2023"
+          ],
+          "paras": [
+            "The Pskov-Caves Monastery at Pechory, near the Estonian border, is built over a system of burial caves. A pilgrim reference describes the near caves as the monastery cemetery, used at first only to bury monks. A 2023 newspaper account counts seven accessible underground ‘streets’ with a combined length of more than 200 metres.",
+            "The figure repeated everywhere is about ten thousand burials. The pilgrim reference gives it as a total and the newspaper as a report; neither names a register. The plate carries the number as a reported size, not as a count."
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "pechory-cave-church",
+          "show": "pechory-cave-church-faded",
+          "alt": "A hillside monastery courtyard with painted yellow and red buildings, blue domes and a green-roofed well house, with visitors on the steps",
+          "caption": "The courtyard of the Pskov-Caves Monastery in front of the cave church, Pechory, 2015. Photograph: Lobusov D., CC BY-SA 4.0, via Wikimedia Commons. It shows the buildings above ground. The caves and the burials in them are not visible, and the atlas does not show them.",
+          "credit": "Lobusov D. / Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide"
+        },
+        {
+          "type": "prose",
+          "kicker": "R / 02",
+          "heading": "Looking behind the walls",
+          "level": "documented",
+          "sources": [
+            "alexandrov2023",
+            "anokhin2023"
+          ],
+          "paras": [
+            "In 2023 a team of physicists, led according to the newspaper by N. G. Polukhina, laid nuclear-emulsion detectors in the caves to record atmospheric muons, which pass through rock and leave tracks where the rock is thinner or hollow. The method is non-destructive. A paper in the *Bulletin of the Lebedev Physics Institute* reports it for two objects in the cave complex.",
+            "The newspaper account gives the results as reported by the team: a hidden passage about 12 m long behind a walled crypt, the continuation of Trinity Street into the hill beyond a barrier, and an unidentified cavity of roughly 3 × 6 × 3 m between two streets. These dimensions are the team’s estimates as quoted, not measurements anyone has opened up and checked.",
+            "The same account says it is hard to know who dug the spaces, when and why. The question of what lies behind the walls is open, and the plate leaves it open."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "R / 03",
+          "heading": "The tunnel to Izborsk",
+          "level": "unverified",
+          "sources": [
+            "dp2024",
+            "anokhin2023"
+          ],
+          "paras": [
+            "Both a 2024 business-newspaper article and the 2023 Rosatom feature repeat the legend that the caves run underground from Pechory to Izborsk. The first puts the distance at about 20 km, the second at about 15 km. The Rosatom feature calls the tunnel legends unverified folklore and attributes them to the monastery’s abbot.",
+            "The legend is kept here because it is told, not because it is true. The survey described above looked at two dead ends; it does not bear on a tunnel of that length."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "R / 04",
+          "heading": "What the sources let us say",
+          "colhead": [
+            "Claim",
+            "Source",
+            "Status"
+          ],
+          "rows": [
+            [
+              "The caves served as a burial place, at first for monks",
+              "Azbyka.ru",
+              "Reference page; no register named"
+            ],
+            [
+              "About 10,000 burials",
+              "Azbyka.ru; Rosatom feature",
+              "Reported total; not a count"
+            ],
+            [
+              "Seven accessible streets, over 200 m",
+              "Rosatom feature",
+              "Reported"
+            ],
+            [
+              "Hidden passage about 12 m long behind a crypt",
+              "Rosatom feature, from the survey team",
+              "Team estimate; the paper was not read in full"
+            ],
+            [
+              "The caves run to Izborsk",
+              "dp.ru; Rosatom feature",
+              "Legend; distance given as 20 km and as 15 km"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "What this plate does not say",
+          "level": "interpretation",
+          "items": [
+            "It does not describe any individual burial or show human remains. The caves are a working monastery and a place of veneration.",
+            "It does not treat the underground as one subject. Cellars, mines, crypts and tunnels elsewhere are not covered here, and nothing on this plate should be read as a statement about them.",
+            "It does not cover the Kyiv Caves or any site outside the Russian Federation.",
+            "It does not give a verified number of the dead."
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Research leads",
+          "heading": "What would turn this plate into a study",
+          "level": "interpretation",
+          "items": [
+            "The full text of the muography paper, with its own dimensions and error margins.",
+            "Burial lists, necrologies or commemoration books kept by the monastery, to test the figure of ten thousand, if they exist and can be consulted.",
+            "Source-by-source work on other underground sites, each with a named collector, place and date, before any of them joins this plate."
+          ]
+        }
+      ]
     }
   ]
 }

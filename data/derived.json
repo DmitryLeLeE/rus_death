@@ -560,6 +560,16 @@
   "bytes": 113646
  },
  {
+  "id": "pechory-cave-church-faded",
+  "parent_file": "pechory-cave-church.jpg",
+  "treatment": "faded",
+  "title": "Pskov-Caves Monastery: the courtyard in front of the cave church (2015)",
+  "shows": "Whole frame",
+  "w": 1500,
+  "h": 1000,
+  "bytes": 320722
+ },
+ {
   "id": "mamayev-news",
   "parent_file": "mamayev.jpg",
   "treatment": "news",

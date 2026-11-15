@@ -2,6 +2,9 @@
 
 ## Unreleased — Russian Chthonic Atlas
 
+- Plate R, *The Underground* (Vol. II): the burial caves of the Pskov-Caves Monastery, the 2023 muon survey and the Izborsk tunnel legend, with four new sources and one photograph. Volume II no longer lists R as a research lead.
+- New evidence level UNVERIFIED and a CONTESTED flag, shown on plates, in the ledger and in the method page.
+
 - Two more images on Vol. II: Vasnetsov's *Knight at the Crossroads* (plate P, painted epic image, labelled as such) and a pre-1910 photograph of Mologa (plate Q). Both public domain via Wikimedia Commons.
 
 - Search page over the whole atlas (client-side, prebuilt JSON index, EN/RU), a claim ledger generated from plate data (every section, evidence level, sources), and five reading routes.
