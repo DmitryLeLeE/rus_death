@@ -23,16 +23,18 @@ This register covers every external image, every generated material asset, the t
 
 Downloaded: **2026-11-15**. Licence names and URLs are copied from the holding record (Wikimedia Commons) and were checked with the Commons API on that date.
 
+Columns **Role** and **Evidence**: for original diagrams both are set by hand. For photographs, paintings and icons, **Role** was assigned provisionally by kind and date (archival if dated 1955 or earlier, otherwise contextual) and has not yet been checked image by image. **Evidence** is copied from the label the image carries on its plate; “not recorded” means the image is placed through a plate layout and no label has been transferred yet. Check with `node build/check_credits.mjs`.
+
 ---
 
 ## 1. Images
 
-| File | Title | Creator | Date | Licence | Source |
-| --- | --- | --- | --- | --- | --- |
+| File | Title | Creator | Date | Licence | Source | Role | Evidence |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 `;
 
 for (const im of data.images) {
-  md += `| \`${im.file}\` | ${esc(im.title)} | ${esc(im.creator)} | ${esc(im.date)} | ${esc(im.license)} | ${esc(im.source_page)} |\n`;
+  md += `| \`${im.file}\` | ${esc(im.title)} | ${esc(im.creator)} | ${esc(im.date)} | ${esc(im.license)} | ${esc(im.source_page)} | ${esc(im.role || "—")} | ${esc(im.evidence || "not recorded")} |\n`;
 }
 
 md += `\n### Notes per file\n\n`;

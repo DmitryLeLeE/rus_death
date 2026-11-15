@@ -15,7 +15,10 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8B_%D0%BF%D0%BE%D0%BA%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA%D0%B0.jpg",
       "catalogue": "https://my.tretyakov.ru/app/masterpiece/10888",
       "alt": "A peasant family in a horse-drawn sled carrying a wooden coffin across a snowy field under a vast grey sky",
-      "note": "The reproduction is a photographic copy of a two-dimensional public-domain work."
+      "note": "The reproduction is a photographic copy of a two-dimensional public-domain work.",
+      "role": "artwork-reproduction",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "izba-red-corner",
@@ -30,7 +33,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D1%83%D0%B3%D0%BE%D0%BB_%D0%B8%D0%B7%D0%B1%D1%8B_%D0%A2%D1%83%D0%BD%D0%B8%D1%86%D0%BA%D0%BE%D0%B3%D0%BE_%D0%92.%D0%90..JPG",
       "alt": "A dark log-walled room corner: an icon above a long embroidered towel, a bunch of dried stalks and a wooden vessel below",
-      "note": "Attribution required; adaptation permitted under the same licence. A relocated building, not the original village setting. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original."
+      "note": "Attribution required; adaptation permitted under the same licence. A relocated building, not the original village setting. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "corpse-laid-out",
@@ -45,7 +51,9 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:The_corpse_of_a_rich_Russian_man_laid_out_for_burial_LCCN99615671.jpg",
       "alt": "Sepia carte-de-visite photograph of a dead man lying dressed in a coffin among sprigs and small flowers, one hand resting on his chest",
-      "note": "Title and date are the Library of Congress catalogue's; the person is not identified and the place is not given. A funeral portrait of a wealthy man, not evidence of peasant practice. Catalogue record: https://lccn.loc.gov/99615671. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original."
+      "note": "Title and date are the Library of Congress catalogue's; the person is not identified and the place is not given. A funeral portrait of a wealthy man, not evidence of peasant practice. Catalogue record: https://lccn.loc.gov/99615671. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
+      "role": "archival",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "coffin-vyazma",
@@ -60,7 +68,9 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Coffin_-_1299_-_Vyazma_Local_Museum.jpg",
       "alt": "Two hewn timber halves of a log coffin, a trough and a lid, on a museum plinth with pots and a model church behind",
-      "note": "Released to the public domain (CC0); credit given as courtesy. The date of the object is as stated in the Commons description and has not been checked by the atlas. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original."
+      "note": "Released to the public domain (CC0); credit given as courtesy. The date of the object is as stated in the Commons description and has not been checked by the atlas. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "gapon-panikhida",
@@ -74,7 +84,9 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Gapon_Panikhida.JPG",
       "alt": "Men in dark coats stand bareheaded beside a fenced grave among pines while a priest in vestments conducts a service",
-      "note": "Title, place and date are the Commons description's. The file is shown at the size held on Commons (831 × 675 px)."
+      "note": "Title, place and date are the Commons description's. The file is shown at the size held on Commons (831 × 675 px).",
+      "role": "archival",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "perov-drowned",
@@ -88,7 +100,9 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%80%D0%BE%D0%B2_%D0%A3%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D1%86%D0%B0.jpg",
       "alt": "Painting: a woman's body lying on a quay beside a boat, a man in a long coat smoking a pipe nearby, a hazy city across the water",
-      "note": "The reproduction is a photographic copy of a two-dimensional public-domain work; Commons gives the source as bg-gallery.ru. The English title is a translation of the Russian one on Commons. A painter's urban genre scene, not evidence of how such dead were treated in the village. The file is the Commons original (2048 px)."
+      "note": "The reproduction is a photographic copy of a two-dimensional public-domain work; Commons gives the source as bg-gallery.ru. The English title is a translation of the Russian one on Commons. A painter's urban genre scene, not evidence of how such dead were treated in the village. The file is the Commons original (2048 px).",
+      "role": "artwork-reproduction",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "fedosova-1897",
@@ -102,7 +116,9 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Irina_Andreyevna_Fedosova_1897.jpg",
       "alt": "Engraved portrait of an elderly woman in a headscarf and dark shawl, captioned in Latin letters",
-      "note": "Fedosova (died 1899) was the principal performer of laments recorded by E. V. Barsov in the Olonets region. The file is the Commons original (735 px)."
+      "note": "Fedosova (died 1899) was the principal performer of laments recorded by E. V. Barsov in the Olonets region. The file is the Commons original (735 px).",
+      "role": "archival",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "plattonen-funeral",
@@ -117,7 +133,9 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Arvostetun_itkij%C3%A4n_Matjoi_Plattosen_hautajaiset.tif",
       "alt": "Black-and-white photograph: men, women and children, many in headscarves, stand around an open coffin covered with cloth and heaped with flowers",
-      "note": "Credit required: photographer, Finnish Heritage Agency. Suistamo was then in Finland; it lies today in the Republic of Karelia, Russia, and Commons files the photograph under 'Funerals in Russia'. It is shown as a lament-tradition record from the Karelian border, not as the Olonets Russian tradition of Barsov. Catalogue: https://museovirasto.finna.fi/Record/museovirasto.6ADAA1D892C7A07B94BF3347401FB1E9. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original."
+      "note": "Credit required: photographer, Finnish Heritage Agency. Suistamo was then in Finland; it lies today in the Republic of Karelia, Russia, and Commons files the photograph under 'Funerals in Russia'. It is shown as a lament-tradition record from the Karelian border, not as the Olonets Russian tradition of Barsov. Catalogue: https://museovirasto.finna.fi/Record/museovirasto.6ADAA1D892C7A07B94BF3347401FB1E9. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
+      "role": "archival",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "donskoy-crematorium",
@@ -132,7 +150,9 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BD%D1%81%D0%BA%D0%BE%D0%B9_1-%D0%B9_%D0%BA%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%B9.jpg",
       "alt": "A pink building with a small bell tower and an arched entrance behind spruce trees and a lawn",
-      "note": "Attribution required; adaptation permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original."
+      "note": "Attribution required; adaptation permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 1920 px) of the Commons original.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "donskoy-columbarium",
@@ -147,7 +167,9 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:9_%D0%BA%D0%BE%D0%BB%D1%83%D0%BC%D0%B1%D0%B0%D1%80%D0%B8%D0%B9%2C_1_%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D1%8F.jpg",
       "alt": "A bright green wall of columbarium niches, some with photographs, plaques and flowers, and the number 1 above",
-      "note": "Attribution required; adaptation permitted under the same licence. The niche's occupant is named in the Commons description and is not named here. The file in this repository is a scaled-down copy (long side ≤ 1641 px) of the Commons original."
+      "note": "Attribution required; adaptation permitted under the same licence. The niche's occupant is named in the Commons description and is not named here. The file in this repository is a scaled-down copy (long side ≤ 1641 px) of the Commons original.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "perov-funeral-halftone",
@@ -176,7 +198,10 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%BC%D0%B8%D0%BD%D0%BA%D0%B8_1881.jpg",
       "alt": "A degraded photocopy of a nineteenth-century photograph showing people seated at a table outdoors",
-      "note": "Source description: ‘Smolenskoe cemetery, memorial meal, 1881’. The only copy available to this project is a small file (604 × 401 px)."
+      "note": "Source description: ‘Smolenskoe cemetery, memorial meal, 1881’. The only copy available to this project is a small file (604 × 401 px).",
+      "role": "archival",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "memorial-meal-xerox",
@@ -205,7 +230,10 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Last_Judgment_(Povolzhie).jpg",
       "alt": "A large eighteenth-century Russian icon of the Last Judgment with registers of saints, angels, scales, a river of fire and scenes of punishment",
-      "note": "The source description states the icon is typical of mid-to-late eighteenth-century iconography and was influenced by printed engravings, which is the basis for the atlas’s remark about printed-page layouts."
+      "note": "The source description states the icon is typical of mid-to-late eighteenth-century iconography and was influenced by printed engravings, which is the basis for the atlas’s remark about printed-page layouts.",
+      "role": "artwork-reproduction",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "last-judgment-halftone",
@@ -234,7 +262,10 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Dormition_Oblatchnoe,_an_icon_from_Desyatinny_Monastery_in_Novgorod,_Russia.jpg",
       "alt": "A fifteenth-century icon of the Dormition with the apostles around a bed and Christ holding the soul of the Mother of God",
-      "note": "Desyatinny Monastery attribution is the source’s, not independently verified here."
+      "note": "Desyatinny Monastery attribution is the source’s, not independently verified here.",
+      "role": "artwork-reproduction",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "donskoy-1913-duotone",
@@ -263,7 +294,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Golbetz.jpg",
       "alt": "A wooden cross with a small gabled roof standing in snow among other crosses",
-      "note": "Attribution required; adaptation (cropping) permitted under the same licence."
+      "note": "Attribution required; adaptation (cropping) permitted under the same licence.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "piskaryovskoye-flame",
@@ -278,7 +312,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Piskaryovskoye_Eternal_Flame.jpg",
       "alt": "A long row of granite blocks with an eternal flame burning in front of a bronze sculpture",
-      "note": "Attribution required; share-alike applies to adaptations."
+      "note": "Attribution required; share-alike applies to adaptations.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "unknown-soldier-1979",
@@ -293,7 +330,10 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Tomb_of_Unknown_Soldier_9_May_1979.jpg",
       "alt": "A crowd laying flowers at the Tomb of the Unknown Soldier with honour guards",
-      "note": "Attribution required."
+      "note": "Attribution required.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "mamayev",
@@ -308,7 +348,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Mamayev_Kurgan_2021-08-15.jpg",
       "alt": "The Motherland Calls statue seen across the Mamayev Kurgan complex",
-      "note": "Attribution required."
+      "note": "Attribution required.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "ilf-grave",
@@ -323,7 +366,10 @@
       "license_url": "https://creativecommons.org/licenses/by/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:03_ilf.JPG",
       "alt": "A carved stone monument on the grave of Ilya Ilf",
-      "note": "Attribution required."
+      "note": "Attribution required.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "ships-grave",
@@ -338,7 +384,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:The_grave_of_the_writer_Stepanov_A._N._and_his_wife_Stepanova_M._A._(Novodevichy_Cemetery,_Moscow,_Russia).jpg",
       "alt": "A grave monument carved as two ships",
-      "note": "The ‘two ships’ reading is the photographer’s description of the family’s plan; the atlas cites it as a description."
+      "note": "The ‘two ships’ reading is the photographer’s description of the family’s plan; the atlas cites it as a description.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "abandoned-tomb",
@@ -353,7 +402,10 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Abandoned_tomb_at_Nizhne-Gnilovskoe_cemetery.jpg",
       "alt": "A weathered stone tomb with a damaged cross in overgrown grass",
-      "note": "No attribution required; credited anyway."
+      "note": "No attribution required; credited anyway.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "radonitsa-graves",
@@ -368,7 +420,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG",
       "alt": "People standing among graves with food and cloths laid on them",
-      "note": "Ukrainian practice. Included as a documented regional example and explicitly not as evidence for Russian custom."
+      "note": "Ukrainian practice. Included as a documented regional example and explicitly not as evidence for Russian custom.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "arkhipov-radonitsa",
@@ -382,7 +437,10 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Arhipov_radonica.jpg",
       "alt": "Villagers, mostly women, sit on the ground in a sunlit churchyard; a white pillar stands in the foreground, graves and a small chapel behind",
-      "note": "The reproduction is a photographic copy of a two-dimensional public-domain work (the author died in 1930). Commons gives no date or collection; none is asserted here. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original."
+      "note": "The reproduction is a photographic copy of a two-dimensional public-domain work (the author died in 1930). Commons gives no date or collection; none is asserted here. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
+      "role": "artwork-reproduction",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "nevrev-panikhida",
@@ -396,7 +454,9 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BD%D0%B8%D1%85%D0%B8%D0%B4%D0%B0_%D0%BD%D0%B0_%D1%81%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%BC_%D0%BA%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B5.jpg",
       "alt": "A painted village cemetery with a priest and people gathered at a grave for a memorial service",
-      "note": "The reproduction is a photographic copy of a two-dimensional public-domain work. The English title is a translation of the Russian title given on Commons. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original."
+      "note": "The reproduction is a photographic copy of a two-dimensional public-domain work. The English title is a translation of the Russian title given on Commons. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
+      "role": "artwork-reproduction",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "soldatskoe-pascha",
@@ -411,7 +471,9 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B5_%D1%81%D0%B5%D0%BB%D0%B0_%D0%A1%D0%BE%D0%BB%D0%B4%D0%B0%D1%82%D1%81%D0%BA%D0%BE%D0%B5_%D0%BD%D0%B0_%D0%9F%D0%B0%D1%81%D1%85%D1%83_2014_14.JPG",
       "alt": "A fresh sandy grave mound with a blue wooden cross carrying an oval portrait, a small pale cross lying on the mound and artificial pink flowers; fenced plots behind",
-      "note": "Attribution required; adaptation (cropping, processing) permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original."
+      "note": "Attribution required; adaptation (cropping, processing) permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "trifon-cemetery",
@@ -426,7 +488,9 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Trifon%2C_Antropovsky_District_%286%29.jpg",
       "alt": "A village cemetery of wooden crosses and fences under trees in the Russian countryside",
-      "note": "Released to the public domain (CC0); credit given as courtesy. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original."
+      "note": "Released to the public domain (CC0); credit given as courtesy. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "rogozhskoe-oldbelievers",
@@ -441,7 +505,9 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Mogily-starowerow-Moskwa-Rogozhskoe_Kladbische.jpg",
       "alt": "Rows of grave crosses at the Old Believer Rogozhskoye Cemetery in Moscow",
-      "note": "Attribution required; adaptation permitted under the same licence. Commons names the original uploader at Russian Wikipedia as the source. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original."
+      "note": "Attribution required; adaptation permitted under the same licence. Commons names the original uploader at Russian Wikipedia as the source. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "kizhi-ryabinin",
@@ -456,7 +522,9 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:DSC06589_2021_%D0%9A%D0%B8%D0%B6%D0%B8%2C_%D0%9A%D0%B8%D0%B6%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BE%D0%B3%D0%BE%D1%81%D1%82%2C_%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%A2.%D0%93.%D0%A0%D1%8F%D0%B1%D0%B8%D0%BD%D0%B8%D0%BD%D0%B0%2C_%D1%81%D0%BA%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8F.jpg",
       "alt": "Small wooden grave crosses with tiny roofs on a grassy slope inside a wooden fence, with a lake and a wooded far shore",
-      "note": "Attribution required; adaptation permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original."
+      "note": "Attribution required; adaptation permitted under the same licence. The file in this repository is a scaled-down copy (long side ≤ 2880 px) of the Commons original.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image"
     },
     {
       "id": "funeral-1941",
@@ -471,7 +539,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
       "source_page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_169-0339,_Russland,_Beerdigung_eines_Russen.jpg",
       "alt": "Mourners stand around an open grave among cut branches, a plain wooden coffin on the ground beside them",
-      "note": "The archive’s own caption is kept as is; place of the burial is uncertain (Commons files it under both Russia and Ukraine)."
+      "note": "The archive’s own caption is kept as is; place of the burial is uncertain (Commons files it under both Russia and Ukraine).",
+      "role": "archival",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "theodora-lubok",
@@ -486,7 +557,10 @@
       "license_url": "",
       "source_page": "https://commons.wikimedia.org/wiki/File:Death_of_Theodora.jpg",
       "alt": "A coloured print of a staircase rising through clouds, with demons and angels on the steps and a deathbed at the lower left",
-      "note": "Subject after the Commons title and category (aerial toll-houses)."
+      "note": "Subject after the Commons title and category (aerial toll-houses).",
+      "role": "archival",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "zaret-crosses",
@@ -501,7 +575,10 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Petrozavodsk_01-2019_img01_Zaretskoe_Cemetery.jpg",
       "alt": "Crosses of different shapes standing in deep snow among bare trees in a city cemetery",
-      "note": "No attribution required; credited anyway."
+      "note": "No attribution required; credited anyway.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "besovets-cross",
@@ -516,7 +593,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Besovets_Cemetery.jpg",
       "alt": "A black cast-iron cross with an oval enamel portrait, plastic flowers in front, black granite stelae among pines",
-      "note": ""
+      "note": "",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "nepogodikha-house",
@@ -531,7 +611,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Abandoned_house_in_Nepogodickha.jpg",
       "alt": "A log house with carved window frames and a rusted iron roof, empty windows, tall grass in front",
-      "note": ""
+      "note": "",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "tver-empty-house",
@@ -546,7 +629,10 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:0055_August_2016_in_Tver_Oblast.jpg",
       "alt": "A dark wooden house with a sagging roof stands beside a country road under a pale sky",
-      "note": "No attribution required; credited anyway."
+      "note": "No attribution required; credited anyway.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "forest-edge-domodedovo",
@@ -561,7 +647,10 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Domodedovo_forest_2022-05.jpg",
       "alt": "A wide view along the edge of a mixed forest beside a railway line under open sky",
-      "note": "No attribution required; credited anyway. The file is a very wide panorama; the atlas uses a 1920 px reduction. It documents a present-day forest edge near Moscow, not any burial site."
+      "note": "No attribution required; credited anyway. The file is a very wide panorama; the atlas uses a 1920 px reduction. It documents a present-day forest edge near Moscow, not any burial site.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "swamp-karelia",
@@ -576,7 +665,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Swamp_in_Karelia.jpg",
       "alt": "A wet bog with low pines and pools of standing water under a cloudy sky",
-      "note": "Reduced to 1920 px. A present-day landscape in the Russian North, not a place linked to any rite."
+      "note": "Reduced to 1920 px. A present-day landscape in the Russian North, not a place linked to any rite.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "reshma-cross",
@@ -591,7 +683,10 @@
       "license_url": "https://creativecommons.org/licenses/by/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%82_%D0%BD%D0%B0_%D0%A0%D0%B5%D1%88%D0%BC%D1%83_-_panoramio.jpg",
       "alt": "A tall wooden Orthodox cross beside a snowy road junction, with a pine wood behind and a blue sign reading Reshma",
-      "note": "Commons title ‘Поворот на Решму’. The file does not say what the cross commemorates, and the atlas does not guess."
+      "note": "Commons title ‘Поворот на Решму’. The file does not say what the cross commemorates, and the atlas does not guess.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "mologa-market",
@@ -606,7 +701,10 @@
       "license_url": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B0%D0%B7%D0%B0%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%9C%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8._%D0%9D%D0%B0%D1%87._XX_%D0%B2.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B0%D0%B7%D0%B0%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_%D0%9C%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8._%D0%9D%D0%B0%D1%87._XX_%D0%B2.jpg",
       "alt": "A broad market square seen from above, with horse carts, trading rows, a two-storey stone building and a church with a bell tower in the distance",
-      "note": "Commons gives the photograph as early 20th century by an unknown author. The date and the public-domain status rest on that page and have not been checked independently."
+      "note": "Commons gives the photograph as early 20th century by an unknown author. The date and the public-domain status rest on that page and have not been checked independently.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "vasnetsov-vityaz",
@@ -621,7 +719,10 @@
       "license_url": "",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D1%82%D1%8F%D0%B7%D1%8C_%D0%BD%D0%B0_%D1%80%D0%B0%D1%81%D0%BF%D1%83%D1%82%D1%8C%D0%B5_(1878).jpg",
       "alt": "A mounted warrior in mail stands before a tall inscribed stone on an open plain at dusk, with bones, a skull and ravens in the grass",
-      "note": "Commons title ‘Витязь на распутье’. A painted epic scene. It is not a record of any crossroads, and it is not evidence of burial there."
+      "note": "Commons title ‘Витязь на распутье’. A painted epic scene. It is not a record of any crossroads, and it is not evidence of burial there.",
+      "role": "artwork-reproduction",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "interpretation"
     },
     {
       "id": "mologa-ascension",
@@ -636,7 +737,10 @@
       "license_url": "",
       "source_page": "https://commons.wikimedia.org/wiki/File:Mologa._View_of_the_chapel_and_the_Church_of_Ascension.JPG",
       "alt": "A small wooden chapel topped with a cross and a white bell-towered church on a bare rise, with a few figures between them",
-      "note": "Date range is Commons’ estimate. The photographer is unknown."
+      "note": "Date range is Commons’ estimate. The photographer is unknown.",
+      "role": "archival",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "pechory-cave-church",
@@ -651,7 +755,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D1%8F%CC%81%D1%82%D0%BE-%D0%A3%D1%81%D0%BF%D0%B5%CC%81%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9F%D1%81%D0%BA%D0%BE%CC%81%D0%B2%D0%BE-%D0%9F%D0%B5%D1%87%D0%B5%CC%81%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%CC%81%D1%80%D1%8C._%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%B5%D1%89%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%85%D1%80%D0%B0%D0%BC.jpg",
       "alt": "A hillside monastery courtyard with painted yellow and red buildings, blue domes and a green-roofed well house, with visitors on the steps",
-      "note": "Commons title ‘Успенский пещерный храм’. The photograph shows the buildings above the ground, not the caves."
+      "note": "Commons title ‘Успенский пещерный храм’. The photograph shows the buildings above the ground, not the caves.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "kustodiev-domovoi",
@@ -666,7 +773,10 @@
       "license_url": "",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D0%BF%D1%87%D0%B8%D1%85%D0%B0_%D0%B8_%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%D0%BE%D0%B9.jpg",
       "alt": "A painted interior: a plump merchant wife in a cream dress sits at a table with tea, and a small hairy figure with a beard peers from beneath a draped sideboard behind her",
-      "note": "Commons title ‘Купчиха и домовой’. A 1922 genre painting, not a record of belief; it shows how the domovoy was pictured by an urban artist."
+      "note": "Commons title ‘Купчиха и домовой’. A 1922 genre painting, not a record of belief; it shows how the domovoy was pictured by an urban artist.",
+      "role": "artwork-reproduction",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "makovsky-rusalki",
@@ -681,7 +791,10 @@
       "license_url": "",
       "source_page": "https://commons.wikimedia.org/wiki/File:Rusalki.jpg",
       "alt": "A moonlit stream at night with nude women among the brush on the bank, others in a ring-dance along the water toward a church and a thatched house in mist",
-      "note": "Commons title ‘Rusalki’. A salon painting by an academic artist, not a record of belief. The link between rusalki and the unquiet dead is itself disputed in the scholarship."
+      "note": "Commons title ‘Rusalki’. A salon painting by an academic artist, not a record of belief. The link between rusalki and the unquiet dead is itself disputed in the scholarship.",
+      "role": "artwork-reproduction",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "keret-graves",
@@ -696,7 +809,10 @@
       "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%8B_%D0%BD%D0%B0_%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC_%D0%BA%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B5.jpg",
       "alt": "A rusted iron grave fence and a fallen pale wooden cross among young birch and spruce, with blueberry scrub covering the ground and a collapsed wooden structure at the right",
-      "note": "Commons title ‘Могилы на заброшенном кладбище’. A fence and a fallen cross; no remains are shown. The plate does not state why this cemetery was abandoned."
+      "note": "Commons title ‘Могилы на заброшенном кладбище’. A fence and a fallen cross; no remains are shown. The plate does not state why this cemetery was abandoned.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "hero-radonitsa",
@@ -1687,7 +1803,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:Caves_in_Pskov-Caves_Monastery.svg",
       "alt": "Schematic plan of cave corridors",
-      "note": "Contributor's schematic; no survey source stated on the file page. Only editor metadata and an empty Illustrator foreignObject were removed; geometry and labels are unchanged."
+      "note": "Contributor's schematic; no survey source stated on the file page. Only editor metadata and an empty Illustrator foreignObject were removed; geometry and labels are unchanged.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "unverified"
     },
     {
       "id": "pechory-epitaph",
@@ -1703,7 +1822,10 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:In_caves_of_the_Pechory_Monastery_(31330).jpg",
       "alt": "A whitewashed cave wall with an oval recess holding a weathered stone slab covered in lines of old Church Slavonic script",
-      "note": "Commons title ‘In caves of the Pechory Monastery (31330)’; the description is only ‘in caves of the Pechory Monastery’. The inscription has not been read for this atlas and is not translated."
+      "note": "Commons title ‘In caves of the Pechory Monastery (31330)’; the description is only ‘in caves of the Pechory Monastery’. The inscription has not been read for this atlas and is not translated.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "pechory-niches",
@@ -1719,7 +1841,10 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:In_caves_of_the_Pechory_Monastery_(31486).jpg",
       "alt": "A whitewashed cave passage with two arched niches holding slabs, a lit candle on a brass stand, an icon on the wall and a raised place draped in green cloth",
-      "note": "Commons title ‘In caves of the Pechory Monastery (31486)’. The draped raised place is covered; no remains are visible."
+      "note": "Commons title ‘In caves of the Pechory Monastery (31486)’. The draped raised place is covered; no remains are visible.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "kalyazin-belltower",
@@ -1735,7 +1860,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D1%8F_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%81%D0%BE%D0%B1%D0%BE%D1%80%D0%B0_-_panoramio.jpg",
       "alt": "A tall white belltower rising from a small spit of land in open water under a heavy grey sky, with a low shoreline behind it",
-      "note": "Commons title ‘Колокольня Никольского собора’; the Commons description of a related 1997 file by another author calls it the belltower of a submerged church in the Uglich Reservoir. The reservoir here is the Uglich, not the Rybinsk."
+      "note": "Commons title ‘Колокольня Никольского собора’; the Commons description of a related 1997 file by another author calls it the belltower of a submerged church in the Uglich Reservoir. The reservoir here is the Uglich, not the Rybinsk.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "mologa-sentinel-2021",
@@ -1751,7 +1879,10 @@
       "license_url": "https://commons.wikimedia.org/wiki/File:Mologa_2021-10-11_Sentinel.jpg",
       "source_page": "https://commons.wikimedia.org/wiki/File:Mologa_2021-10-11_Sentinel.jpg",
       "alt": "A satellite view of brown-grey water with a pale elongated strip of land and a stamped date in the middle",
-      "note": "Commons description: ‘Place of Mologa city as seen from space’. Commons gives two dates (upload 21 September 2021, stamp 11 October 2021). The atlas does not interpret the shapes in the image."
+      "note": "Commons description: ‘Place of Mologa city as seen from space’. Commons gives two dates (upload 21 September 2021, stamp 11 October 2021). The atlas does not interpret the shapes in the image.",
+      "role": "contextual",
+      "role_basis": "provisional: assigned by kind and date, not yet checked image by image",
+      "evidence": "documented"
     },
     {
       "id": "diagram-zelenin-timeline",
