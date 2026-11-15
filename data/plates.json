@@ -438,7 +438,7 @@
           "heading": "The hot dinner",
           "paras": [
             "On the day of burial the household feeds everyone who came. In the ethnography this meal has a name in each region — ‘hot dinner’, ‘hot table’ — and a fixed grammar: a first course that is eaten before anything else, a place kept for the dead, a portion set aside, food carried to the grave.",
-            "The meal is not only commemoration. It is also accounting: those who washed, dug, carried, read and cooked are fed, and the household’s obligation is discharged in food. To refuse to sit at the table is to refuse the account."
+            "The meal is commemoration, and it is also accounting: those who washed, dug, carried, read and cooked are fed, and the household’s obligation is discharged in food. To refuse to sit at the table is to refuse the account."
           ],
           "level": "documented",
           "sources": [
@@ -656,7 +656,7 @@
         },
         {
           "type": "quote",
-          "text": "A bad death is not a death that hurts. It is a death that leaves something owing.",
+          "text": "A bad death is the one that leaves something owing, not the one that hurts most.",
           "attrib": "Editorial note",
           "level": "interpretation"
         }
@@ -871,7 +871,7 @@
           "heading": "Barsov’s north",
           "paras": [
             "Between 1872 and 1886 E. V. Barsov published *Prichitaniia Severnogo kraia* — ‘Laments of the Northern Land’ — in three volumes. The collection is the foundational document of Russian lament studies: texts recorded in the Olonets region, with the circumstances of performance, the performers and their repertoires.",
-            "The laments are not spontaneous weeping set to words. They are composed in performance from a stock of formulas, by performers who know the genre and are judged by it. Barsov’s volumes make this visible: the same formulas recur across different deaths, recombined."
+            "Laments are not spontaneous weeping set to words; they are composed in performance from a stock of formulas, by performers who know the genre and are judged by it. Barsov’s volumes make this visible: the same formulas recur across different deaths, recombined."
           ],
           "level": "documented",
           "sources": [
@@ -912,7 +912,7 @@
           "heading": "The second person",
           "paras": [
             "Russian funerary language keeps the dead in the second person and in the present tense for as long as the ritual lasts. The dead is addressed by kin term — ‘my child’, ‘my master’, ‘my sister’ — and asked questions that presume an answer. The euphemisms that surround death in ordinary speech (*ushel* — ‘he has gone’; *ne stalo* — ‘he is no more’) are suspended in the lament, where the dead is named and spoken to directly.",
-            "The effect is not denial. It is a controlled maintenance of the border: the dead is treated as present for exactly as long as the ritual requires, and then released."
+            "Death is not denied here. The border is held by hand: the dead person counts as present for exactly as long as the ritual lasts, and is then let go."
           ],
           "level": "interpretation",
           "sources": [
@@ -1090,7 +1090,7 @@
           "heading": "Reading the icon",
           "paras": [
             "The Last Judgment icon is a diagram as much as a painting. Christ appears in glory; the scales weigh souls; the righteous move toward the heavenly city; the damned descend into a river of fire; the punishments are arranged in small compartments, each with its own inscription and its own social type — the miser, the adulterer, the usurer, the drunkard.",
-            "The Volga icon used here belongs to the eighteenth century and to the urban artisan milieu: it borrows heavily from printed engravings, including their page-like blocks of text. This is not a remote medieval image. It is a print-derived picture made for people who read with their eyes."
+            "The Volga icon used here belongs to the eighteenth century and to the urban artisan milieu: it borrows heavily from printed engravings, including their page-like blocks of text. This is no remote medieval image but a picture grown out of print, made for people used to reading with their eyes."
           ],
           "level": "documented",
           "sources": [
@@ -1143,7 +1143,7 @@
           "kicker": "Caution",
           "heading": "Theology is not a mood",
           "items": [
-            "The atlas does not use the icon’s punishments as atmosphere. They are evidence of a moral taxonomy, not decoration.",
+            "The icon’s punishments are evidence of a moral taxonomy, so the atlas does not use them as atmosphere or decoration.",
             "Where a popular belief contradicts or exceeds the Church’s formulation, the atlas says so rather than harmonising them."
           ],
           "level": "interpretation"
@@ -1177,7 +1177,7 @@
       "title": "COLLECTIVE DEATH",
       "subtitle": "Plague, war, and the state’s arithmetic of the dead",
       "dek": "Mass death produces two things at once: a hole in the record and an official number. The atlas is interested in the gap between them.",
-      "marginal": "At Piskaryovskoye the count is given as about 470,000 in some accounts and about 520,000 in others. The discrepancy is not a rounding error. It is a difference in what is being counted.",
+      "marginal": "At Piskaryovskoye the count is given as about 470,000 in some accounts and about 520,000 in others. The gap is no rounding error: the two figures count different things.",
       "period": "1771–present",
       "location": "Moscow, Leningrad/St Petersburg, Volgograd",
       "tradition": "State commemoration; Orthodox and secular rites",
@@ -1454,7 +1454,7 @@
       "nav": "The Soviet and Post-Soviet Afterlife",
       "title": "THE SOVIET AFTERLIFE",
       "subtitle": "Cremation, the civil funeral, and the industry that followed",
-      "dek": "The Soviet state did not abolish the funeral. It rebuilt it as a ceremony of the collective, and then the collective dissolved.",
+      "dek": "The Soviet state kept the funeral and rebuilt it as a ceremony of the collective; then the collective dissolved.",
       "period": "1920s–2020s",
       "location": "Moscow; St Petersburg; Russia",
       "tradition": "State secular ritual; Orthodox revival; commercial funeral services",
