@@ -2773,6 +2773,20 @@
             "The full text of Zelenin’s chapters on water, with page references."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "diagram-semik-chain",
+          "alt": "Table of five reports on Semik commemoration from Khlynov, Kotelnich, Smolensk, Ledovo and Smolensk province, each with the work Zelenin cites, all read through one reprint, and a dashed box for the water customs found only in an anonymous encyclopedia entry",
+          "caption": "Editorial diagram. Each row is a report as cited by Zelenin; the originals were not seen. The water customs below the line come only from the anonymous encyclopedia entry.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide",
+          "at": {
+            "r": 6,
+            "c": "1/13",
+            "w": 100
+          }
         }
       ]
     },
@@ -3538,6 +3552,20 @@
             "A claim seen only on a popular portal, which attributes it to N. I. Tolstoy: that houses were built where an ancestor lay and the first of the family to die after the housewarming was buried under the threshold. It needs the original page, a region and a date."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "diagram-spirit-house-plan",
+          "alt": "Schematic farmstead with house, cellar, threshing barn, bathhouse and yard, nine numbered markers for house spirits, each marked by whether its source links it to the dead",
+          "caption": "Editorial diagram, not a plan of any village. Markers show only what each source says about a link to the dead; where a source is silent the mark is empty.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide",
+          "at": {
+            "r": 6,
+            "c": "2/12",
+            "w": 100
+          }
         }
       ]
     },
@@ -3805,6 +3833,20 @@
             "Whether ‘zalozhnye’ in Vyatka dialect is documented in dialect dictionaries, to confirm the local term independently of Zelenin."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "diagram-burial-plan",
+          "alt": "Schematic cemetery plan with the common cemetery in the centre and six numbered notes: unbaptised infants and violent death inside, sorcerers at the fence, suicides at crossroads, swamp, ditch, hills and forest, and two reports that give no place",
+          "caption": "Editorial diagram. Zones are schematic. Solid frames are practices recorded in sources read; dashed frames rest on informants’ memory or on an abstract only. The sources disagree and the plate does not reconcile them.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide",
+          "at": {
+            "r": 6,
+            "c": "2/12",
+            "w": 100
+          }
         }
       ]
     },
