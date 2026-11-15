@@ -695,8 +695,8 @@
       "url": "https://doi.org/10.35634/2224-9443-2020-14-2-279-283",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "Commemoration days among the Komi-Permyaks (Radonitsa, Semik, Trinity Saturday, Pokrov and Dmitrievskaya Saturdays); the statement that Semik is absent from the Orthodox calendar, with priests absent from it in the late 19th century and present from the early 20th; the report, after Zelenin, that those dead by unnatural death were commemorated at Semik; a gradual move of that commemoration to funeral Saturdays.",
-      "limitation": "Komi-Permyak, not Russian material, and used only as a regional comparison. Four recordings of the author (1995–2016), one named informant each. The journal title was not given in the text read, and the year and issue are taken from the DOI. The conclusion is hedged by the author."
+      "supports": "Commemoration days among the Komi-Permyaks (Radonitsa, Semik, Trinity Saturday, Pokrov and Dmitrievskaya Saturdays); the statement that Semik is absent from the Orthodox calendar, with priests absent from it in the late 19th century and present from the early 20th; the report, after Zelenin, that those dead by unnatural death were commemorated at Semik; a gradual move of that commemoration to funeral Saturdays. Also, from the same reading: the day is called dzollun or sharlun; the commemorated are mainly suicides, the drowned and those described as ‘poisoned’; it is held at the cemetery, where such dead were often buried at the edge, and suicides were also remembered at home with food set on a water barrel or the threshold; families bring pancakes, pies and bread; priests joined in the early 20th century and a memorial service is held today in the Kudymkar diocese; fieldwork in the Yusva, Gayny and Kosa districts (1995–2016) with Kungur and Komi Zyuzda published material.",
+      "limitation": "Komi-Permyak, not Russian material, and used only as a regional comparison. Four recordings of the author (1995–2016), one named informant each. The journal title was not given in the text read, and the year and issue are taken from the DOI. The conclusion is hedged by the author. The printed title on the PDF is given as ‘Поминки и поминовения умерших не своей смертью у коми-пермяков’ in one reading and with ‘Пермяцкие’ in front in the record above; check against the journal page."
     },
     {
       "id": "chesnokova-cemetery",
@@ -862,6 +862,36 @@
       "language": "English",
       "supports": "Method and results of the 2023 muon survey: 13 nuclear-emulsion detectors (two in the Assumption Church attic for background, eleven underground), exposed 112 days; two objects. A crypt behind a large icon at the cave entrance, about 2.5 × 2.5 m, with a corridor 1–3 m wide and up to 12 m long perpendicular to Main Street; a cavity at Trinity Street about 2 m high and roughly 3 × 6 m, at 77–79 m altitude, and the street continuing along its direction. No formal error margins; dimensions are rough estimates. The paper gives no number of burials and says only that the caves were used as a necropolis from the monastery's founding.",
       "limitation": "An earlier, non-peer-reviewed version of the journal paper (the published title differs). Read through a summary of the preprint page, not line by line; the figures themselves were not inspected."
+    },
+    {
+      "id": "azbyka-radonitsa2024",
+      "kind": "press",
+      "author": "Azbyka.ru news desk (unsigned)",
+      "title": "В России православные отмечают Радоницу",
+      "title_en": "In Russia Orthodox Christians mark Radonitsa",
+      "year": "2024",
+      "publisher": "Azbyka.ru, 14 May 2024",
+      "extent": "",
+      "url": "https://azbyka.ru/news/v-rossii-pravoslavnye-otmechajut-radonicu",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "The Church’s present rule that Radonitsa always falls on the ninth day after Easter, the Tuesday of Thomas week, and falls on 14 May in 2024; the reasons given from the typikon for placing it there.",
+      "limitation": "A church news item read in a search excerpt, not in full; it states the Church’s current rule, not older or local practice."
+    },
+    {
+      "id": "bogoslov1913",
+      "kind": "reference",
+      "author": "Soikin, P. P. (publisher); entry unsigned",
+      "title": "Радоница (in: Полный православный богословский энциклопедический словарь)",
+      "title_en": "Radonitsa (in: Complete Orthodox Theological Encyclopaedic Dictionary)",
+      "year": "[1913]",
+      "publisher": "P. P. Soikin, St Petersburg, vol. 2",
+      "extent": "",
+      "url": "https://www.azbyka.ru/otechnik/Spravochniki/polnyj-pravoslavnyj-bogoslovsko-entsiklopedicheskij-slovar/2467",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Radonitsa as a day of commemoration of the dead falling mostly on the Monday, and in some places on the Tuesday, of the week after Easter week, called Thomas week.",
+      "limitation": "A short unsigned entry in a pre-revolutionary reference work, read in a transcription on Azbyka.ru; it gives the variation but names no places."
     }
   ]
 }

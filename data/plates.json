@@ -301,7 +301,8 @@
         "skrizhal",
         "baiburin1993",
         "shevzov2003",
-        "barsov1872"
+        "barsov1872",
+        "azbyka-radonitsa2024"
       ],
       "related": [
         "a",
@@ -387,14 +388,15 @@
             ],
             [
               "Radonitsa",
-              "A fixed day of parish commemoration in spring",
+              "Tied to Easter: in the Church’s present rule, the Tuesday of the second week after it",
               "Meal at the grave; greeting the dead",
               "medium / low"
             ]
           ],
           "sources": [
             "skrizhal",
-            "shevzov2003"
+            "shevzov2003",
+            "azbyka-radonitsa2024"
           ]
         },
         {
@@ -3382,7 +3384,7 @@
       "nav": "Calendar of the Dead",
       "title": "THE CALENDAR OF THE DEAD",
       "subtitle": "Church Saturdays, a Thursday the Church lacks and a cemetery day today",
-      "dek": "A table of who named which day of commemoration, with the church account kept apart from regional and field records, and the question of origin left open.",
+      "dek": "A table of who named which day of commemoration, in registers kept apart: the Church, the movable Easter calendar, the Komi-Permyak region and today’s cemetery. The parish is an open gap, and the question of origin is left open.",
       "marginal": "One church text, one Komi-Permyak comparison, one 2016–17 field study. The pagan-origin story is not used.",
       "period": "Church account; 1995–2016 recordings; fieldwork 2016–2017",
       "location": "Church calendar; Komi-Permyak districts; Kostroma and Vladimir regions",
@@ -3393,7 +3395,10 @@
       "sources": [
         "gumerov2012",
         "maltsev2020",
-        "chesnokova-cemetery"
+        "chesnokova-cemetery",
+        "azbyka-radonitsa2024",
+        "bogoslov1913",
+        "bre-semik"
       ],
       "related": [
         "c",
@@ -3414,7 +3419,7 @@
       "sections": [
         {
           "type": "prose",
-          "kicker": "U / 01",
+          "kicker": "PART I · THE CHURCH",
           "heading": "The Church’s own list",
           "level": "documented",
           "sources": [
@@ -3427,7 +3432,24 @@
         },
         {
           "type": "prose",
-          "kicker": "U / 02",
+          "kicker": "PART II · WHY THE DAYS MOVE",
+          "heading": "A day counted from Easter",
+          "level": "documented",
+          "sources": [
+            "azbyka-radonitsa2024",
+            "bogoslov1913",
+            "bre-semik",
+            "maltsev2020"
+          ],
+          "paras": [
+            "Easter moves from year to year, and the days of commemoration counted from it move with it. A source that says ‘Radonitsa’ or ‘Semik’ is giving a weekday and a week after Easter, not a date of the month. The Church now places Radonitsa on the Tuesday of Thomas week, the ninth day after Easter; that was 14 May in 2024. A reference work of 1913 describes it as falling mostly on the Monday of that week and in some places on the Tuesday, so the day itself varied by place and period.",
+            "Semik is the Thursday of the seventh week after Easter. Counting from Easter Sunday, that is the forty-fifth day, and Trinity Saturday falls three days later; the counting is this plate’s arithmetic, not a statement in the sources. Semik has no place in the Church’s calendar, which is why Maltsev’s Komi-Permyak material and the encyclopedia treat it as a folk day.",
+            "Julian and Gregorian reckoning add a second layer: a family’s date for the same day can differ from the date in a modern table. This plate gives no dates for any year."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "PART III · REGIONAL: THE KOMI-PERMYAKS",
           "heading": "A day the church calendar does not have",
           "level": "documented",
           "sources": [
@@ -3435,7 +3457,8 @@
           ],
           "paras": [
             "G. I. Maltsev records the commemoration days of the Komi-Permyaks: Radonitsa, Semik, Trinity Saturday, and the Saturdays before Pokrov and St. Demetrius. He writes that Semik, the Thursday of the seventh week after Easter, is absent from the Orthodox calendar, that priests took no part in it in the late nineteenth century and did from the early twentieth. After Zelenin he reports that those dead by unnatural death were commemorated at Semik, and quotes a Kungur saying that they are deaf and blind except on that day.",
-            "He also describes a slow move: the Permyaks began to hold this commemoration on the Saturdays of general remembrance, reasoning that prayers would be heard better then. His material is four recordings by one researcher, from a people who are not Russian. The plate uses it only as a regional comparison for a pattern that Russian sources describe."
+            "He also describes a slow move: the Permyaks began to hold this commemoration on the Saturdays of general remembrance, reasoning that prayers would be heard better then. His material is four recordings by one researcher, from a people who are not Russian. The plate uses it only as a regional comparison for a pattern that Russian sources describe.",
+            "Read more fully, Maltsev’s article describes a day called dzollun or sharlun, held at the cemetery, where such dead were often buried at the edge. Suicides were also remembered at home, with food set on a water barrel or on the threshold. Families bring pancakes, pies and bread, which may be left on graves or given away. Priests joined in the early twentieth century, and a memorial service is held today in the Kudymkar diocese. The article rests on published sources, on material from the Kungur and Komi Zyuzda districts, and on the author’s own fieldwork in the Yusva, Gayny and Kosa districts between 1995 and 2016."
           ]
         },
         {
@@ -3449,7 +3472,7 @@
         },
         {
           "type": "prose",
-          "kicker": "U / 03",
+          "kicker": "PART IV · TODAY: KOSTROMA AND VLADIMIR",
           "heading": "A cemetery day, 2016–2017",
           "level": "documented",
           "sources": [
@@ -3486,6 +3509,11 @@
               "Maltsev; regional comparison"
             ],
             [
+              "Radonitsa (the Church’s present rule)",
+              "Tuesday of Thomas week, the ninth day after Easter",
+              "Azbyka news, 2024; the 1913 dictionary gives Monday, in places Tuesday"
+            ],
+            [
               "Semik",
               "Absent from the Orthodox calendar; priests from the early 20th century",
               "Maltsev; Komi-Permyak, four recordings"
@@ -3514,7 +3542,9 @@
           "sources": [
             "gumerov2012",
             "maltsev2020",
-            "chesnokova-cemetery"
+            "chesnokova-cemetery",
+            "azbyka-radonitsa2024",
+            "bogoslov1913"
           ]
         },
         {
@@ -3552,6 +3582,7 @@
           "heading": "What would turn this plate into a study",
           "level": "interpretation",
           "items": [
+            "No parish record, such as a parish chronicle or a priest’s register, was read for this plate, so the parish level is only the difference between the Church’s present rule and the 1913 reference work. A study of parish chronicles of Smolensk province (I. Pashkova, Vestnik antropologii, 2022) came up in searching and is a lead, not a source used here.",
             "Zelenin’s account of Semik and the commemoration of the unnatural dead, read in the 1995 edition.",
             "E. Iagafova, ‘Simēk in Modern Chuvash Ritual Culture’ (Journal of Ethnology and Folkloristics, 2020, open access), as a comparative study of a semik-type rite.",
             "Chesnokova’s full text, to learn which day she means and where her zones fall.",
