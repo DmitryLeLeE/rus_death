@@ -134,6 +134,7 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/illustrations/diagram-dead-page-procedure.svg` | A page of the dead as a procedure (VKontakte, as reported) | Original diagram made for this atlas | 2026-11-15 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 | `assets/illustrations/diagram-dead-page-procedure-ru.svg` | Страница умершего как процедура («ВКонтакте», по сообщению) | Original diagram made for this atlas | 2026-11-15 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 | `assets/images/semik-lubok.jpg` | Semik. Russian lubok | Unknown author | 19th century (Commons structured date: 1850) | Public domain (Commons: PD-Art, PD-old-100) | https://commons.wikimedia.org/wiki/File:Semik_crop.jpg | archival | contextual |
+| `assets/images/olearius-plach.gif` | Prayer for the dead (engraving from Olearius’s account of Muscovy) | Adam Olearius (as given on Commons) | mid-17th century (as given on Commons) | Public domain | https://commons.wikimedia.org/wiki/File:Olearius_plach.gif | archival | contextual |
 
 ### Notes per file
 
@@ -502,6 +503,9 @@ Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4
 
 **semik-lubok** — Semik. Russian lubok. print. Unknown author, 19th century (Commons structured date: 1850). Hand-coloured popular print, reproduced from a scan.
 Licence: Public domain (Commons: PD-Art, PD-old-100) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the Commons API on 2026-11-15: author unknown, “Semik. Russian lubok. XIX century”, source file Semik.jpg (the cropped version used here is 1222 × 772 px). The record gives no printer, place or collection. The image shows a festive scene, not a rite at graves.
+
+**olearius-plach** — Prayer for the dead (engraving from Olearius’s account of Muscovy). print. Adam Olearius (as given on Commons), mid-17th century (as given on Commons). Engraving, reproduced from a printed edition.
+Licence: Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the Commons API on 2026-11-15: description “Prayer for the dead”, filed under Radonitsa and Wakes in art, credited to a Russian-language edition of Olearius’s account of the journey to Muscovy and Persia. The engraving’s own caption, the engraver and the passage of the text it illustrates were not read, so the day shown is not confirmed by this atlas; the file name suggests a lament (plach) but the record does not say so.
 
 ### Attribution required
 

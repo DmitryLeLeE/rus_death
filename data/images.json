@@ -2036,6 +2036,23 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Semik_crop.jpg",
       "alt": "A hand-coloured print: young women and men in village dress stand around a birch tree hung with ribbons; one holds up a wreath, and at right a woman sits at a table plaiting wreaths under a striped awning",
       "note": "Commons record read through the Commons API on 2026-11-15: author unknown, “Semik. Russian lubok. XIX century”, source file Semik.jpg (the cropped version used here is 1222 × 772 px). The record gives no printer, place or collection. The image shows a festive scene, not a rite at graves."
+    },
+    {
+      "id": "olearius-plach",
+      "file": "assets/images/olearius-plach.gif",
+      "kind": "print",
+      "role": "archival",
+      "evidence": "contextual",
+      "title": "Prayer for the dead (engraving from Olearius’s account of Muscovy)",
+      "creator": "Adam Olearius (as given on Commons)",
+      "date": "mid-17th century (as given on Commons)",
+      "medium": "Engraving, reproduced from a printed edition",
+      "collection": "—",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Olearius_plach.gif",
+      "alt": "A seventeenth-century engraving of a churchyard: a wooden church with a tent roof at left, people kneeling or bent over graves with small crosses, plates of food laid on flat slabs, a man with a censer at right",
+      "note": "Commons record read through the Commons API on 2026-11-15: description “Prayer for the dead”, filed under Radonitsa and Wakes in art, credited to a Russian-language edition of Olearius’s account of the journey to Muscovy and Persia. The engraving’s own caption, the engraver and the passage of the text it illustrates were not read, so the day shown is not confirmed by this atlas; the file name suggests a lament (plach) but the record does not say so."
     }
   ]
 }
