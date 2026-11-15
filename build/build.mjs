@@ -107,9 +107,13 @@ function loadLang(lang) {
   const pl = lang === "ru"
     ? `${n} ${n % 10 === 1 && n % 100 !== 11 ? "лист" : [2,3,4].includes(n % 10) && ![12,13,14].includes(n % 100) ? "листа" : "листов"}`
     : `${n} plates`;
+  const nv = volumesDoc.volumes.filter((v) => plates.plates.some((p) => p.volume === v.id)).length;
+  const vl = lang === "ru"
+    ? `${nv} ${nv % 10 === 1 && nv % 100 !== 11 ? "том" : [2,3,4].includes(nv % 10) && ![12,13,14].includes(nv % 100) ? "тома" : "томов"}`
+    : `${nv} volume${nv === 1 ? "" : "s"}`;
   const fill = (o) => {
     for (const k of Object.keys(o)) {
-      if (typeof o[k] === "string") o[k] = o[k].replaceAll("{plates}", pl).replaceAll("{Plates}", pl).replaceAll("{n}", String(n));
+      if (typeof o[k] === "string") o[k] = o[k].replaceAll("{plates}", pl).replaceAll("{Plates}", pl).replaceAll("{volumes}", vl).replaceAll("{n}", String(n));
       else if (o[k] && typeof o[k] === "object") fill(o[k]);
     }
   };
@@ -345,7 +349,7 @@ function shell({ title, description, base, bodyClass = "", page = "", rel = "ind
   const socialFile = social || (LANG === "ru" ? "social-ru.jpg" : "social.jpg");
   const sAlt = socialAlt || T.socialAlt;
   const nav = T.nav;
-  const ruBanner = LANG === "en" ? `<div class="rubanner" data-rubanner hidden lang="ru"><p>${UI.en.ruBanner}</p><a href="${toRu}" hreflang="ru" data-lang-pick="ru">${UI.en.ruBannerGo}</a><button type="button" data-rubanner-close>${UI.en.ruBannerNo}</button></div>` : "";
+  const ruBanner = LANG === "en" ? `<div class="rubanner" data-rubanner hidden lang="en"><p>${UI.en.ruBanner}</p><a href="${toRu}" hreflang="ru" data-lang-pick="ru">${UI.en.ruBannerGo}</a><button type="button" data-rubanner-close>${UI.en.ruBannerNo}</button></div>` : "";
   return `<!doctype html>
 <html lang="${LANG}">
 <head>
@@ -419,7 +423,7 @@ ${spriteMarks}
 ${content}
 <footer class="sitefoot">
   <p class="sitefoot__a">${T.siteTitle}</p>
-  <p class="sitefoot__b">${esc(T.footer(plates.meta.edition, plates.meta.compiled))} · <a href="${base}colophon.html">${T.footColophon}</a> · <a href="${base}bibliography.html">${T.footSources}</a> · <a href="${other}" hreflang="${OTHER[LANG]}" lang="${OTHER[LANG]}" data-lang-pick="${OTHER[LANG]}">${LANG === "en" ? "по-русски" : "English"}</a></p>
+  <p class="sitefoot__b">${esc(T.footer(plates.meta.edition, plates.meta.compiled))} · <a href="${base}colophon.html">${T.footColophon}</a> · <a href="${base}bibliography.html">${T.footSources}</a> · <a href="${other}" hreflang="${OTHER[LANG]}" lang="${OTHER[LANG]}" data-lang-pick="${OTHER[LANG]}">${T.footLang}</a></p>
 </footer>
 <dialog id="contents-dialog" class="contents" aria-labelledby="contents-title">
   <div class="contents__head">
@@ -1108,26 +1112,48 @@ function coverPage() {
         <p class="cv-intro__lede">${X.lede}</p>
         <p>${X.p2}</p>
         <p class="cv-intro__rule">${X.rule}</p>
-        <nav class="cv-intro__nav" aria-label="${X.navLabel}">
+        <nav class="cv-intro__nav" aria-label="${X.waysH}">
           <a href="prologue.html">${X.navPrologue}</a>
           <a href="plates/a-threshold.html">${X.navBegin}</a>
+          <a href="volumes.html">${X.navVolumes}</a>
           <a href="atlas.html">${X.navIndex}</a>
+          <a href="map.html">${X.navMap}</a>
+          <a href="chronology.html">${X.navChrono}</a>
+          <a href="words.html">${X.navWords}</a>
+          <a href="bibliography.html">${X.navSources}</a>
+          <a href="ledger.html">${X.navLedger}</a>
           <a href="method.html">${X.navMethod}</a>
         </nav>
       </div>
     </div>
   </section>
 
+  <section class="cv-vols" aria-labelledby="cvv">
+    <h2 id="cvv" class="cv-vols__h mono">${X.volsH}</h2>
+    <ol class="cv-vols__list">
+      ${volumesDoc.volumes.filter((v) => volPlates(v.id).length).map((v) => {
+        const vp = volPlates(v.id), t = torn(`cover-vol-${v.id}`, "tblr", 8);
+        return `<li class="cv-vol"><a href="volumes.html#vol-${v.id}"><span class="sw" style="--ca:${t.a};--cb:${t.b}"><span class="sheet mat-${["newsprint", "manila", "plaster", "linen"][volumesDoc.volumes.indexOf(v) % 4]}">
+          <span class="cv-vol__no mono">${T.volumeWord} ${v.numeral}</span>
+          <span class="cv-vol__title">${esc(v.title)}</span>
+          <span class="cv-vol__sub">${esc(v.subtitle)}</span>
+          <span class="cv-vol__n mono">${X.volPlates(vp.length, vp[0].letter, vp[vp.length - 1].letter)}</span>
+          <span class="cv-vol__go mono">${X.volOpen}</span></span></span></a></li>`;
+      }).join("\n      ")}
+    </ol>
+  </section>
+
   <section class="cv-plates" aria-labelledby="cvp">
     <h2 id="cvp" class="visually-hidden">${X.platesH}</h2>
+    ${volumesDoc.volumes.filter((v) => volPlates(v.id).length).map((v) => `<h3 class="cv-plates__vol mono">${T.volumeWord} ${v.numeral} — ${esc(v.title)}</h3>
     <ol>
-      ${plates.plates.map((p, i) => `<li class="cvp cvp--${p.letter.toLowerCase()}"><a href="${plateHref(p.id, base)}">
+      ${volPlates(v.id).map((p) => `<li class="cvp cvp--${p.letter.toLowerCase()}"><a href="${plateHref(p.id, base)}">
         <span class="cvp__img">${keyThumb(p)}</span>
         <span class="cvp__l">${p.letter}</span>
         <span class="cvp__t">${esc(p.nav)}</span>
-        <span class="cvp__n">${String(i + 1).padStart(2, "0")}</span>
+        <span class="cvp__n">${String(plates.plates.indexOf(p) + 1).padStart(2, "0")}</span>
       </a></li>`).join("")}
-    </ol>
+    </ol>`).join("\n")}
   </section>
 </main>`,
   });
