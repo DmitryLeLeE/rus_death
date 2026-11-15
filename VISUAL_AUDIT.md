@@ -9,7 +9,7 @@ Generated 2026-11-15 by `build/make_visual_audit.py` from the built English plat
 | C | THE RITUAL | I | 8 | 3 | 0 | 1 | 0 | 4 | 0 |
 | D | THE TABLE | I | 10 | 1 | 2 | 1 | 1 | 5 | 0 |
 | E | THE RETURNING DEAD | I | 8 | 0 | 2 | 1 | 1 | 4 | 0 |
-| F | THE GRAVE | I | 24 | 2 | 12 | 0 | 0 | 10 | 0 |
+| F | THE GRAVE | I | 25 | 2 | 13 | 0 | 0 | 10 | 0 |
 | G | THE VOICE | I | 8 | 3 | 0 | 1 | 1 | 3 | 0 |
 | H | THE AFTERLIFE | I | 9 | 0 | 0 | 2 | 1 | 6 | 0 |
 | I | COLLECTIVE DEATH | IV | 8 | 0 | 3 | 0 | 0 | 5 | 0 |
@@ -22,19 +22,19 @@ Generated 2026-11-15 by `build/make_visual_audit.py` from the built English plat
 | P | ROADS, CROSSROADS AND BORDERS | II | 4 | 0 | 1 | 1 | 0 | 2 | 0 |
 | Q | THE VANISHED VILLAGE | II | 6 | 1 | 3 | 0 | 0 | 2 | 0 |
 | R | THE UNDERGROUND | II | 5 | 0 | 4 | 0 | 0 | 1 | 0 |
-| S | HOUSEHOLD SPIRITS | III | 3 | 0 | 0 | 1 | 1 | 1 | 0 |
+| S | HOUSEHOLD SPIRITS | III | 5 | 0 | 2 | 1 | 1 | 1 | 0 |
 | T | THE UNQUIET DEAD | III | 3 | 0 | 0 | 1 | 1 | 1 | 0 |
 | U | THE CALENDAR OF THE DEAD | III | 5 | 1 | 0 | 2 | 1 | 1 | 0 |
 | V | TABOO, OMEN AND PROTECTION | III | 1 | 0 | 0 | 0 | 1 | 0 | 0 |
 | W | THE MATERIALS OF ABANDONMENT | IV | 3 | 0 | 1 | 1 | 0 | 1 | 0 |
-| X | THE DIGITAL AFTERLIFE | IV | 1 | 0 | 0 | 0 | 1 | 0 | 0 |
+| X | THE DIGITAL AFTERLIFE | IV | 2 | 0 | 1 | 0 | 1 | 0 | 0 |
 
-Total file references over 24 plates: 156.
+Total file references over 24 plates: 160.
 
 ## Plates under three files
 
 - V TABOO, OMEN AND PROTECTION: 1
-- X THE DIGITAL AFTERLIFE: 1
+- X THE DIGITAL AFTERLIFE: 2
 
 ## Plates with no original diagram
 
