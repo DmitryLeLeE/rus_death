@@ -1154,6 +1154,48 @@
       "language": "Russian",
       "supports": "On 9 May 2012 six thousand Tomsk residents walked with portraits of their relatives; the action reached about 140 places by 2013 and about 450 by 2014; a dispute over who controls the name.",
       "limitation": "Journalism with a position on the dispute; only the opening of the article was read."
+    },
+    {
+      "id": "culture-sukhona",
+      "kind": "web",
+      "author": "Culture.ru object overview (compiler not named in the extract read)",
+      "title": "Похоронный обряд в традиции Средней Сухоны",
+      "title_en": "The funeral rite in the tradition of the Middle Sukhona",
+      "year": "n.d.",
+      "publisher": "culture.ru/objects/2105",
+      "url": "https://www.culture.ru/objects/2105",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Middle Sukhona (eastern Vologda oblast): elders preparing death clothes in advance; water after washing poured out in a special way at the house corner, in the yard and at crossroads; bench or table lined and covered with white cloth torn by hand; soap from the washing used to calm a restless family member or animal; a towel hung at the house corner until the fortieth day.",
+      "limitation": "Only extracts from search results were read; the page could not be fetched. The compiler and fieldwork dates are not known to the atlas."
+    },
+    {
+      "id": "adonyeva2026",
+      "kind": "web",
+      "author": "Adonyeva, S. (interview)",
+      "title": "«Ух, был да и нету, был да и нету»: антрополог — о русских традициях похорон",
+      "title_en": "‘He was and now he’s gone’: an anthropologist on Russian funeral traditions",
+      "year": "2026",
+      "publisher": "T—J (t-j.ru), 14 August 2026",
+      "url": "https://t-j.ru/antropolog-o-pohoronah/",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "S. Adonyeva’s description, from the Vologda tradition recorded in the late 20th and early 21st centuries, that the water, washcloth and soap used to wash the dead are destroyed so that they cannot be used in harmful magic.",
+      "limitation": "A popular interview; one fact was read from a fetched summary, not from the full page."
+    },
+    {
+      "id": "bre-eslavic-funeral-washing",
+      "kind": "web",
+      "author": "Great Russian Encyclopedia (entry author not read)",
+      "title": "Восточнославянская похоронная обрядность",
+      "title_en": "East Slavic funeral rite",
+      "year": "n.d.",
+      "publisher": "bigenc.ru",
+      "url": "https://bigenc.ru/c/vostochnoslavianskii-pogrebal-nyi-obriad-11fc86",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "That washing is an obligatory element of the funeral-memorial rite, that the dead are dressed in the best or in prepared death clothes, and that specially hired people may wash and dress the body and make the coffin.",
+      "limitation": "Only the search extract was read."
     }
   ]
 }

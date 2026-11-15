@@ -168,7 +168,10 @@
       "sources": [
         "zelenin1916",
         "ivanits1989",
-        "tolstoy1995"
+        "tolstoy1995",
+        "culture-sukhona",
+        "adonyeva2026",
+        "bre-eslavic-funeral-washing"
       ],
       "related": [
         "c",
@@ -296,6 +299,21 @@
           ],
           "level": "interpretation",
           "editorial": true
+        },
+        {
+          "type": "prose",
+          "kicker": "B / 06",
+          "heading": "Where the water goes, and what the soap keeps",
+          "level": "documented",
+          "contested": true,
+          "sources": [
+            "culture-sukhona",
+            "adonyeva2026",
+            "bre-eslavic-funeral-washing"
+          ],
+          "paras": [
+            "Two Vologda descriptions give the disposal of washing water a purpose, and the purposes differ. For the Middle Sukhona, an overview page says the water was poured out in a special way, with a swing, at the corner of the house, in the yard and at crossroads, and that soap used in the washing was afterwards used to calm a restless family member or a restless animal, with a formula likening them to the dead who no longer kick. S. Adonyeva, speaking of the Vologda tradition recorded in the late twentieth and early twenty-first centuries, says that the water, washcloth and soap are destroyed so that they cannot be used in harmful magic. In one account the leftovers are a remedy, in the other a danger. The Great Russian Encyclopedia, read only in extract, calls washing an obligatory part of the rite and notes that the washing, dressing and making of the coffin may be done by specially hired people. The atlas does not decide whether the two Vologda accounts describe two beliefs or one belief told twice; it keeps both and treats the plate’s earlier statement about a prohibition around disposal as the common ground."
+          ]
         }
       ],
       "volume": "I"
