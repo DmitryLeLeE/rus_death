@@ -2886,13 +2886,12 @@
         },
         {
           "type": "figure",
-          "src": "pechory-cave-church",
-          "show": "pechory-cave-church-faded",
-          "alt": "A hillside monastery courtyard with painted yellow and red buildings, blue domes and a green-roofed well house, with visitors on the steps",
-          "caption": "The courtyard of the Pskov-Caves Monastery in front of the cave church, Pechory, 2015. Photograph: Lobusov D., CC BY-SA 4.0, via Wikimedia Commons. It shows the buildings above ground. The caves and the burials in them are not visible, and the atlas does not show them.",
-          "credit": "Lobusov D. / Wikimedia Commons, CC BY-SA 4.0",
+          "src": "pechory-niches",
+          "alt": "A whitewashed cave passage with two arched niches holding slabs, a lit candle on a brass stand, an icon on the wall and a raised place draped in green cloth",
+          "caption": "A passage in the caves of the Pskov-Caves Monastery, July 2026: two niches with inscribed slabs, a lit candle, an icon and a raised place under green cloth. Photograph: Aleksandr Sigachyov, CC0, via Wikimedia Commons. The covered place shows no remains.",
+          "credit": "A. Sigachyov / Wikimedia Commons, CC0",
           "level": "documented",
-          "size": "wide"
+          "size": "tall"
         },
         {
           "type": "figure",
@@ -2914,12 +2913,13 @@
         },
         {
           "type": "figure",
-          "src": "pechory-niches",
-          "alt": "A whitewashed cave passage with two arched niches holding slabs, a lit candle on a brass stand, an icon on the wall and a raised place draped in green cloth",
-          "caption": "A passage in the caves of the Pskov-Caves Monastery, July 2026: two niches with inscribed slabs, a lit candle, an icon and a raised place under green cloth. Photograph: Aleksandr Sigachyov, CC0, via Wikimedia Commons. The covered place shows no remains.",
-          "credit": "A. Sigachyov / Wikimedia Commons, CC0",
+          "src": "pechory-cave-church",
+          "show": "pechory-cave-church-faded",
+          "alt": "A hillside monastery courtyard with painted yellow and red buildings, blue domes and a green-roofed well house, with visitors on the steps",
+          "caption": "The courtyard of the Pskov-Caves Monastery in front of the cave church, Pechory, 2015. Photograph: Lobusov D., CC BY-SA 4.0, via Wikimedia Commons. It shows the buildings above ground. The caves and the burials in them are not visible, and the atlas does not show them.",
+          "credit": "Lobusov D. / Wikimedia Commons, CC BY-SA 4.0",
           "level": "documented",
-          "size": "tall"
+          "size": "wide"
         },
         {
           "type": "prose",
