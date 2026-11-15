@@ -316,8 +316,84 @@ def commemoration_days(L):
     return wrap(W, H, S["t"], S["s"], b, S["foot"])
 
 
+# ------------------------------------------------------------------ G: the movement of a lament
+def lament_score(L):
+    S = {
+      "en": dict(t="THE MOVEMENT OF A LAMENT, AFTER THE PLATE’S OWN DESCRIPTION",
+        s="Six stations named on plate G. The order is not fixed: the performer may return to any station. A structure, not a text.",
+        st=[("1","AN ADDRESS TO THE DEAD"),("2","A QUESTION ABOUT THE JOURNEY"),("3","A COMPLAINT AGAINST THE HOUSEHOLD’S NEW ORDER"),("4","SELF-REPROACH BY THE SURVIVOR"),("5","A DESCRIPTION OF THE GRAVE"),("6","A FAREWELL THAT REFUSES TO BE FINAL")],
+        ret="Return to any station", lab="RECONSTRUCTION",
+        n1="No lament is printed here: quoting one would need collation against a printed source and a checkable translation, which this edition has not done.",
+        foot="EDITORIAL DIAGRAM  /  ORIGINAL  /  AFTER BARSOV 1872–1886 AS DESCRIBED ON PLATE G"),
+      "ru": dict(t="ДВИЖЕНИЕ ПРИЧИТАНИЯ ПО ОПИСАНИЮ САМОЙ ПЛИТЫ",
+        s="Шесть станций, названных на плите G. Порядок не закреплён: исполнительница может вернуться к любой станции. Структура, а не текст.",
+        st=[("1","ОБРАЩЕНИЕ К УМЕРШЕМУ"),("2","ВОПРОС О ДОРОГЕ"),("3","ЖАЛОБА НА НОВЫЙ ПОРЯДОК В ДОМЕ"),("4","УПРЁК СЕБЕ ОТ ОСТАВШЕГОСЯ"),("5","ОПИСАНИЕ МОГИЛЫ"),("6","ПРОЩАНИЕ, КОТОРОЕ НЕ ХОЧЕТ БЫТЬ ОКОНЧАТЕЛЬНЫМ")],
+        ret="Возврат к любой станции", lab="РЕКОНСТРУКЦИЯ",
+        n1="Ни одно причитание здесь не приводится: цитата потребовала бы сверки с печатным источником и проверяемого перевода, чего это издание не делало.",
+        foot="РЕДАКЦИОННАЯ ДИАГРАММА  /  ОРИГИНАЛ  /  ПО БАРСОВУ 1872–1886 В ОПИСАНИИ ПЛИТЫ G")}[L]
+    W = 1000
+    b = T(30, 104, S["lab"], 10.5, GREY, weight="bold")
+    xs = [30, 190, 350, 510, 670, 830]; cw = 140
+    hm = 0; out = ""
+    for x, (n, label) in zip(xs, S["st"]):
+        sv, h = chip(x, 116, cw, n, label, "", dashed=True)
+        out += sv; hm = max(hm, h)
+    b += out
+    y = 116 + hm + 26
+    for i in range(5):
+        x1 = xs[i] + cw; x2 = xs[i + 1]
+        b += f'<path d="M{x1+2} {116+hm/2} L{x2-2} {116+hm/2}" stroke="{INK}" stroke-width="2"/><path d="M{x2-8} {116+hm/2-5} L{x2-2} {116+hm/2} L{x2-8} {116+hm/2+5}" fill="none" stroke="{INK}" stroke-width="2"/>'
+    b += f'<path d="M{xs[5]+cw/2} {116+hm+4} L{xs[5]+cw/2} {y+14} L{xs[0]+cw/2} {y+14} L{xs[0]+cw/2} {116+hm+8}" fill="none" stroke="{RED}" stroke-width="1.6" stroke-dasharray="6 4"/>'
+    b += T(500, y + 34, S["ret"], 11, RED, "middle", weight="bold")
+    ns, hn = chip(30, y + 56, 940, "", S["n1"], "", dashed=True)
+    b += ns
+    H = int(y + 56 + hn + 62)
+    return wrap(W, H, S["t"], S["s"], b, S["foot"])
+
+# ------------------------------------------------------------------ D: the account of the hot dinner
+def hot_dinner(L):
+    S = {
+      "en": dict(t="THE HOT DINNER AS AN ACCOUNT",
+        s="Plate D’s description of the burial-day meal: who is fed, the fixed grammar of the table, what it settles.",
+        who="WHO IS FED", whol=["Those who washed", "Those who dug", "Those who carried", "Those who read", "Those who cooked"],
+        mid="THE MEAL", gr=["A first course, eaten before anything else","A place kept for the dead","A portion set aside","Food carried to the grave"],
+        out="THE ACCOUNT", outt="The household’s obligation is discharged in food. To refuse the table is to refuse the account.",
+        lab="DOCUMENTED · IVANITS 1989", n1="Not every element is universal. The plate’s own table rates the place for the dead and vodka at the graveside as ‘medium’: reported in many accounts, origin or universality not established.",
+        foot="EDITORIAL DIAGRAM  /  ORIGINAL  /  AFTER IVANITS 1989 AS SET OUT ON PLATE D"),
+      "ru": dict(t="ПОМИНАЛЬНЫЙ ОБЕД КАК РАСЧЁТ",
+        s="Обед в день похорон по плите D: кого кормят, устойчивая грамматика стола, что он закрывает.",
+        who="КОГО КОРМЯТ", whol=["Кто омывал", "Кто копал", "Кто нёс", "Кто читал", "Кто готовил"],
+        mid="ОБЕД", gr=["Первое блюдо, которое едят прежде всего","Место, оставленное умершему","Отложенная порция","Еда, которую относят на могилу"],
+        out="РАСЧЁТ", outt="Обязательство дома закрывается едой. Отказаться сесть за стол значит отказаться от расчёта.",
+        lab="ДОКУМЕНТИРОВАНО · АЙВАНИЦ 1989", n1="Не всё универсально. В таблице плиты место для умершего и водка у могилы оценены как «средняя» уверенность: описано во многих источниках, происхождение и распространённость не установлены.",
+        foot="РЕДАКЦИОННАЯ ДИАГРАММА  /  ОРИГИНАЛ  /  ПО АЙВАНИЦ 1989 В ИЗЛОЖЕНИИ ПЛИТЫ D")}[L]
+    W = 1000
+    b = T(30, 104, S["lab"], 10.5, GREY, weight="bold")
+    # left column
+    b += T(30, 130, S["who"], 10.5, RED, weight="bold")
+    y = 142; ys = []
+    for t_ in S["whol"]:
+        sv, h = chip(30, y, 250, "", t_, ""); b += sv; ys.append(y + h / 2); y += h + 8
+    ly = y
+    # middle
+    b += T(380, 130, S["mid"], 10.5, RED, weight="bold")
+    y2 = 142
+    for t_ in S["gr"]:
+        sv, h = chip(380, y2, 260, "", t_, ""); b += sv; y2 += h + 8
+    # right
+    b += T(740, 130, S["out"], 10.5, RED, weight="bold")
+    sv, h3 = chip(740, 142, 230, "", S["outt"], "", accent=RED); b += sv
+    midy = 142 + (max(ly, y2) - 142) / 2 - 8
+    b += f'<path d="M284 {midy} L376 {midy}" stroke="{INK}" stroke-width="2"/><path d="M370 {midy-5} L376 {midy} L370 {midy+5}" fill="none" stroke="{INK}" stroke-width="2"/>'
+    b += f'<path d="M644 {midy} L736 {midy}" stroke="{INK}" stroke-width="2"/><path d="M730 {midy-5} L736 {midy} L730 {midy+5}" fill="none" stroke="{INK}" stroke-width="2"/>'
+    ty = max(ly, y2, 142 + h3) + 14
+    ns, hn = chip(30, ty, 940, "", S["n1"], "", dashed=True); b += ns
+    H = int(ty + hn + 62)
+    return wrap(W, H, S["t"], S["s"], b, S["foot"])
+
+
 if __name__ == "__main__":
-    for name, fn in [("diagram-burial-plan", burial_plan), ("diagram-spirit-house-plan", house_plan), ("diagram-semik-chain", semik_chain), ("diagram-commemoration-days", commemoration_days)]:
+    for name, fn in [("diagram-burial-plan", burial_plan), ("diagram-spirit-house-plan", house_plan), ("diagram-semik-chain", semik_chain), ("diagram-commemoration-days", commemoration_days), ("diagram-lament-score", lament_score), ("diagram-hot-dinner", hot_dinner)]:
         for L in ("en", "ru"):
             save(name, L, fn(L))
     print("ok")

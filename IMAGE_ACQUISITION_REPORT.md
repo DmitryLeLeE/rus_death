@@ -86,4 +86,4 @@ Rule used throughout: an image counts as acquired only when its record, caption 
 ### Update 2026-11-15 (plates G/H/D pass, part 1)
 - Plate H: added original diagram "The forty days, in two registers" (EN + RU). It is an ORIGINAL ILLUSTRATION, not an archival image; it only restates claims already sourced in plate H (Novaia Skrizhal’ 1803, Ivanits 1989, the azbyka article on the toll-houses). Toll-houses are deliberately not placed on the day line.
 - Evidence status was filled in for 13 images that had none (check_credits no longer reports "no evidence status").
-- Not done in this step: plates G and D (no new open-source photographs found yet; no diagram written).
+- Plates G and D: added two original diagrams (EN + RU): "The movement of a lament" (G; labelled RECONSTRUCTION, structure only, no lament text) and "The hot dinner as an account" (D; DOCUMENTED, restates the plate’s own text and confidence column). No new open-source photographs were found for G or D in this pass.

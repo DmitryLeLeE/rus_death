@@ -688,6 +688,20 @@
           "paras": [
             "The table follows the church calendar. A reference page on the parental Saturdays states that when someone died before or during Great Lent, the commemorations on the third, ninth and fortieth days were not held in mid-week, when there is no full Liturgy, but moved to the nearest Saturday. The same page says that church rules do not regulate the memorial meal at all and offers a single guideline, moderation. The meal is therefore a custom set inside a calendar, not a rite with its own canon; the household negotiates between the two. The page names no author and describes the rule in the past tense, so the atlas uses it as a statement of the rule, not as evidence of how many households followed it."
           ]
+        },
+        {
+          "type": "figure",
+          "src": "diagram-hot-dinner",
+          "alt": "Three columns: five groups who are fed (those who washed, dug, carried, read and cooked), four elements of the meal (a first course, a place for the dead, a set-aside portion, food carried to the grave), and a box saying the household’s obligation is discharged in food; a dashed note says not every element is universal",
+          "caption": "Editorial diagram of the meal as described in D / 01 and the table below it. The ‘medium’ items follow the plate’s own confidence column.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide",
+          "at": {
+            "r": 10,
+            "c": "2/12",
+            "w": 100
+          }
         }
       ],
       "volume": "I"
@@ -1353,6 +1367,20 @@
             "r": 6,
             "c": "3/10",
             "w": 94
+          }
+        },
+        {
+          "type": "figure",
+          "src": "diagram-lament-score",
+          "alt": "Six dashed boxes in a row, from an address to the dead through a question about the journey, a complaint against the household’s new order, self-reproach, a description of the grave, to a farewell that refuses to be final, with a dashed arrow returning from the last to the first and the label ‘return to any station’",
+          "caption": "Editorial diagram of the structure described in G / 02. It is a reconstruction of the genre’s movement, not a text, and the order is not fixed.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "reconstruction",
+          "size": "wide",
+          "at": {
+            "r": 10,
+            "c": "2/12",
+            "w": 100
           }
         }
       ],
