@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Builds the atlas working map from Natural Earth 1:110m data (public domain).
 Projection: equirectangular with latitude-compensated longitude (plate carrée, cos 55°).
@@ -11,27 +11,27 @@ Output: assets/illustrations/map-eurasia.svg
 import json, os, math, io
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-NE_DIR = r"C:\Users\news-\OneDrive\Документы\deepseek-harness\default-workspace"
-COUNTRIES = os.path.join(NE_DIR, "_ne110.geojson")
-RIVERS = os.path.join(NE_DIR, "_ne50_rivers.geojson")
-LAKES = os.path.join(NE_DIR, "_ne110_lakes.geojson")
+# Natural Earth GeoJSON (public domain): github.com/nvkelso/natural-earth-vector, folder geojson/.
+NE_DIR = os.environ.get("NE_DIR", "/tmp/ne")
+COUNTRIES = os.path.join(NE_DIR, "ne_110m_admin_0_countries.geojson")
+RIVERS = os.path.join(NE_DIR, "ne_50m_rivers_lake_centerlines.geojson")
+LAKES = os.path.join(NE_DIR, "ne_110m_lakes.geojson")
 
-W, H = 880, 1080
+W, H = 1400, 900
 PAD = 26
-LON_MIN, LON_MAX = 20.0, 56.0
+LON_MIN, LON_MAX = 20.0, 92.0
 LAT_MIN, LAT_MAX = 42.0, 68.0
 KX = math.cos(math.radians(55.0))
 
-PLACES = {
-    "moscow": (37.55, 55.74),
-    "st-petersburg": (30.32, 59.90),
-    "novgorod": (31.27, 58.52),
-    "olonets-karelia": (33.6, 61.6),
-    "volga-region": (47.5, 53.5),
-    "volgograd": (44.53, 48.74),
-    "rostov-on-don": (39.72, 47.24),
-    "tymky-ukraine": (34.5, 50.0),
-}
+def load_places():
+    doc = json.load(open(os.path.join(ROOT, "data", "places.json"), encoding="utf-8"))
+    out = {}
+    for pl in doc["places"]:
+        out.setdefault(pl["marker"], (pl["lon"], pl["lat"]))
+    return out
+
+
+PLACES = load_places()
 NEIGHBOURS = ["Ukraine", "Belarus", "Kazakhstan", "Finland", "Norway", "Mongolia",
               "China", "Georgia", "Azerbaijan", "Latvia", "Estonia", "Lithuania",
               "Poland", "Turkey", "Japan"]
@@ -148,7 +148,7 @@ def main():
     body = []
     # graticule
     body.append('<g class="graticule" stroke="#111111" stroke-width="0.7" opacity="0.22" fill="none">')
-    for lon in range(20, 57, 5):
+    for lon in range(20, 93, 10):
         x0, y0 = tx(proj(lon, LAT_MIN))
         x1, y1 = tx(proj(lon, LAT_MAX))
         body.append(f'<line x1="{x0:.1f}" y1="{y0:.1f}" x2="{x1:.1f}" y2="{y1:.1f}" stroke-dasharray="3 5"/>')

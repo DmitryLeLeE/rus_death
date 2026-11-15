@@ -537,6 +537,63 @@
       "sources": [
         "ovseichik2022"
       ]
+    },
+    {
+      "id": "novosibirsk",
+      "name": "Novosibirsk",
+      "marker": "novosibirsk",
+      "lat": 55.03,
+      "lon": 82.92,
+      "summary": "Cemetery demolition as reported in a 2023 interview: dated local decisions of 1920, 1929 and 1930 (the old cemetery became a garden, later a park). Interviewee’s account, no archive cited.",
+      "entries": [
+        "Cemetery grove (1920), closure of the Voskresenskaya church (1929), a protest dispersed in April 1930 — all as reported by the interviewee"
+      ],
+      "region": "Russian Federation",
+      "status": "in-RF",
+      "plates": [
+        "w"
+      ],
+      "sources": [
+        "krasilnikova2023"
+      ]
+    },
+    {
+      "id": "barnaul",
+      "name": "Barnaul",
+      "marker": "barnaul",
+      "lat": 53.35,
+      "lon": 83.77,
+      "summary": "Two large cemeteries reported destroyed in the 1930s; the interviewee calls Barnaul the most radical Siberian case, which is her comparison, not a surveyed fact.",
+      "entries": [
+        "Two large cemeteries destroyed in the 1930s, graves opened for valuables, as reported"
+      ],
+      "region": "Russian Federation",
+      "status": "in-RF",
+      "plates": [
+        "w"
+      ],
+      "sources": [
+        "krasilnikova2023"
+      ]
+    },
+    {
+      "id": "omsk",
+      "name": "Omsk",
+      "marker": "omsk",
+      "lat": 54.99,
+      "lon": 73.37,
+      "summary": "The historic necropolis is reported to have survived until the 1950s; fragments were gathered into a memorial square in 2005, as reported in the same interview.",
+      "entries": [
+        "Necropolis recorded by a museum director before the 1950s losses; memorial square of 2005, as reported"
+      ],
+      "region": "Russian Federation",
+      "status": "in-RF",
+      "plates": [
+        "w"
+      ],
+      "sources": [
+        "krasilnikova2023"
+      ]
     }
   ]
 }
