@@ -282,7 +282,7 @@ function quote(s) {
 }
 
 function diagramFig(s, base) {
-  return `<figure class="drawing">
+  return `<figure class="drawing${/\.svg$/.test((IMG[s.src] || {}).file || "") ? " drawing--sheet" : ""}">
   <img src="${UP}${base}assets/illustrations/${s.src}.svg" alt="${esc(s.alt || "")}" loading="lazy" decoding="async">
   <figcaption class="cap">${md(s.caption)} ${s.credit ? `<span class="cap__credit">${esc(s.credit)}</span>` : ""} ${s.level ? tag(s.level) : ""}</figcaption>
 </figure>`;
@@ -311,7 +311,7 @@ function photoFig(id, base, { caption = "", credit = "", level = "", alt = "", n
 
 function figureSection(s, base, item) {
   const src = s.src;
-  if (!IMG[src]) return diagramFig(s, base);
+  if (!IMG[src] || /\.svg$/.test(IMG[src].file || "")) return diagramFig(s, base);
   const show = s.show || FIGMAP[src] || src;
   const keepsOrig = !s.show && !FIGMAP[src];
   const o = IMG[src];

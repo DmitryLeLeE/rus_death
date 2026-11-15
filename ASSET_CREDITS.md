@@ -118,6 +118,7 @@ Downloaded: **2026-11-15**. Licence names and URLs are copied from the holding r
 | `assets/derived/makovsky-rusalki-faded.webp` | Konstantin Makovsky, Rusalki (1879) — faded print with scanner banding | Derivative made for this atlas from the original by Konstantin Makovsky | 2026 | Public domain (derived) | https://commons.wikimedia.org/wiki/File:Rusalki.jpg |
 | `assets/derived/keret-graves-faded.webp` | Graves in an abandoned cemetery, Sredny Island, Keret Archipelago (2023) — faded print with scanner banding | Derivative made for this atlas from the original by Cornussuec | 2026 | CC0 1.0 (derived) | https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%8B_%D0%BD%D0%B0_%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC_%D0%BA%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B5.jpg |
 | `assets/derived/mamayev-news.webp` | Mamayev Kurgan, Volgograd — the slope — newsprint dither | Derivative made for this atlas from the original by Redboston | 2026 | CC BY-SA 4.0 (derived) | https://commons.wikimedia.org/wiki/File:Mamayev_Kurgan_2021-08-15.jpg |
+| `assets/illustrations/pskov-caves-plan.svg` | Plan of the caves in Pskov-Caves Monastery | Macuser | 2013-10-14 | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Caves_in_Pskov-Caves_Monastery.svg |
 
 ### Notes per file
 
@@ -444,6 +445,9 @@ Licence: CC0 1.0 (derived) (http://creativecommons.org/publicdomain/zero/1.0/dee
 
 **mamayev-news** — Mamayev Kurgan, Volgograd — the slope — newsprint dither. Derivative image (made for this atlas). Derivative made for this atlas from the original by Redboston, 2026. Crop: Lower two-thirds. Processing: newsprint dither, torn edge baked into the alpha channel.
 Licence: CC BY-SA 4.0 (derived) (https://creativecommons.org/licenses/by-sa/4.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
+
+**pskov-caves-plan** — Plan of the caves in Pskov-Caves Monastery. plan. Macuser, 2013-10-14. Vector drawing (SVG), cleaned of editor metadata for this atlas. Wikimedia Commons.
+Licence: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Contributor's schematic; no survey source stated on the file page. Only editor metadata and an empty Illustrator foreignObject were removed; geometry and labels are unchanged.
 
 ### Attribution required
 

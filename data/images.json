@@ -1673,6 +1673,21 @@
       "alt": "The Motherland Calls statue seen across the Mamayev Kurgan complex",
       "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
       "made_by": "make_derived.py"
+    },
+    {
+      "id": "pskov-caves-plan",
+      "file": "assets/illustrations/pskov-caves-plan.svg",
+      "kind": "plan",
+      "title": "Plan of the caves in Pskov-Caves Monastery",
+      "creator": "Macuser",
+      "date": "2013-10-14",
+      "medium": "Vector drawing (SVG), cleaned of editor metadata for this atlas",
+      "collection": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Caves_in_Pskov-Caves_Monastery.svg",
+      "alt": "Schematic plan of cave corridors",
+      "note": "Contributor's schematic; no survey source stated on the file page. Only editor metadata and an empty Illustrator foreignObject were removed; geometry and labels are unchanged."
     }
   ]
 }

@@ -210,6 +210,9 @@ a { color: inherit; }
 
 .drawing { margin: 0; }
 .drawing img { display: block; width: 100%; height: auto; mix-blend-mode: multiply; }
+.drawing--sheet { max-width: 34rem; background: #e6dec3; padding: 1rem; box-shadow: 0 2px 10px rgba(0,0,0,.45); }
+.drawing--sheet img { mix-blend-mode: normal; background: #f4efdd; }
+.drawing--sheet .cap { color: #1a1814; }
 .cap { margin: 10px 0 0; font: 0.7rem/1.45 var(--f-type); }
 .cap__credit { opacity: 0.8; }
 

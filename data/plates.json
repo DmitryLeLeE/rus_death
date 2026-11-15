@@ -2837,6 +2837,15 @@
           "size": "wide"
         },
         {
+          "type": "figure",
+          "src": "pskov-caves-plan",
+          "alt": "A schematic black-and-white plan of cave corridors numbered 1 to 7, with labelled niches, the entrance, the Dormition Cathedral and a church above the corridors",
+          "caption": "Schematic plan of the caves of the Pskov-Caves Monastery, with niches labelled in Russian and a 10 m scale bar. Drawing: Macuser, CC BY-SA 3.0, via Wikimedia Commons. It is a contributor's schematic with no survey source stated on the file page, so corridor lengths and positions are indicative only. The plan shows no remains.",
+          "credit": "Macuser / Wikimedia Commons, CC BY-SA 3.0",
+          "level": "unverified",
+          "size": "wide"
+        },
+        {
           "type": "prose",
           "kicker": "R / 02",
           "heading": "Looking behind the walls",
