@@ -2019,6 +2019,23 @@
       "alt": "Три блока со стрелками: родственники обращаются, фото свидетельства о смерти, решает ВК; ниже два исхода: сохранить страницу с пометкой или удалить",
       "evidence": "documented",
       "note": "Drawn from the plate’s own sourced text (RTVI news item). No screenshot of any platform is used. Russian-language version of diagram-dead-page-procedure."
+    },
+    {
+      "id": "semik-lubok",
+      "file": "assets/images/semik-lubok.jpg",
+      "kind": "print",
+      "role": "archival",
+      "evidence": "contextual",
+      "title": "Semik. Russian lubok",
+      "creator": "Unknown author",
+      "date": "19th century (Commons structured date: 1850)",
+      "medium": "Hand-coloured popular print, reproduced from a scan",
+      "collection": "—",
+      "license": "Public domain (Commons: PD-Art, PD-old-100)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Semik_crop.jpg",
+      "alt": "A hand-coloured print: young women and men in village dress stand around a birch tree hung with ribbons; one holds up a wreath, and at right a woman sits at a table plaiting wreaths under a striped awning",
+      "note": "Commons record read through the Commons API on 2026-11-15: author unknown, “Semik. Russian lubok. XIX century”, source file Semik.jpg (the cropped version used here is 1222 × 772 px). The record gives no printer, place or collection. The image shows a festive scene, not a rite at graves."
     }
   ]
 }
