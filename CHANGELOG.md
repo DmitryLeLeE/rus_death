@@ -2,6 +2,8 @@
 
 ## Unreleased — Russian Chthonic Atlas
 
+- Two more images on Vol. II: Vasnetsov's *Knight at the Crossroads* (plate P, painted epic image, labelled as such) and a pre-1910 photograph of Mologa (plate Q). Both public domain via Wikimedia Commons.
+
 - Search page over the whole atlas (client-side, prebuilt JSON index, EN/RU), a claim ledger generated from plate data (every section, evidence level, sources), and five reading routes.
 
 - The site is now the *Russian Chthonic Atlas*. *Archæology of Russian Death* is Volume I (plates A–L).

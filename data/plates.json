@@ -2276,6 +2276,16 @@
           ]
         },
         {
+          "type": "figure",
+          "src": "vasnetsov-vityaz",
+          "show": "vasnetsov-vityaz-faded",
+          "alt": "A mounted warrior in mail stands before a tall inscribed stone on an open plain at dusk, with bones, a skull and ravens in the grass",
+          "caption": "*Knight at the Crossroads*, oil painting by Viktor Vasnetsov, 1878. Public domain, via Wikimedia Commons. The crossroads as an epic image: a stone with a warning, bones in the grass. It shows how the place was imagined in a painted bylina, not what was buried at any real crossing.",
+          "credit": "Viktor Vasnetsov / Wikimedia Commons, public domain",
+          "level": "interpretation",
+          "size": "wide"
+        },
+        {
           "type": "prose",
           "kicker": "P / 03",
           "heading": "The roadside today",
@@ -2424,6 +2434,16 @@
             "I. Tsipileva’s article, written on Cherepovets district, states that resettlement followed a decree of the All-Russian Central Executive Committee and the Council of People’s Commissars of 1 August 1936, and that the residents of about seven hundred villages and hamlets were moved from the flood zone.",
             "Only the opening of the article was seen, and its year of first publication is not shown. The decree is a dated document that a reader can look for. The article’s own focus is one district."
           ]
+        },
+        {
+          "type": "figure",
+          "src": "mologa-ascension",
+          "show": "mologa-ascension-news",
+          "alt": "A small wooden chapel topped with a cross and a white bell-towered church on a bare rise, with a few figures between them",
+          "caption": "Mologa: a chapel and the Church of the Ascension, between 1901 and 1910 by Commons’ estimate. Photographer unknown; public domain, via Wikimedia Commons (the file credits the Runivers project). A view of what was above ground before the water. It does not show the cemeteries, and it says nothing about what was done with them.",
+          "credit": "Unknown photographer / Wikimedia Commons, public domain",
+          "level": "documented",
+          "size": "wide"
         },
         {
           "type": "prose",

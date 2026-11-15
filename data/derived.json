@@ -540,6 +540,26 @@
   "bytes": 270054
  },
  {
+  "id": "vasnetsov-vityaz-faded",
+  "parent_file": "vasnetsov-vityaz.jpg",
+  "treatment": "faded",
+  "title": "Knight at the Crossroads (1878)",
+  "shows": "Whole frame",
+  "w": 1500,
+  "h": 800,
+  "bytes": 131848
+ },
+ {
+  "id": "mologa-ascension-news",
+  "parent_file": "mologa-ascension.jpg",
+  "treatment": "faded",
+  "title": "Mologa: the chapel and the Church of the Ascension (1901–1910)",
+  "shows": "Whole frame",
+  "w": 1300,
+  "h": 814,
+  "bytes": 113646
+ },
+ {
   "id": "mamayev-news",
   "parent_file": "mamayev.jpg",
   "treatment": "news",

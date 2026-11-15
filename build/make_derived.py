@@ -386,6 +386,10 @@ SPECS = [
      "Red corner in an izba, Vitoslavlitsy (Veliky Novgorod) — whole frame", "Whole frame"),
     ("tver-empty-house-xerox", "tver-empty-house.jpg", None, "xerox", 1200, "tblr",
      "Abandoned wooden house by the road, Tver Oblast (2016) — xerox", "Whole frame, xerox treatment"),
+    ("vasnetsov-vityaz-faded", "vasnetsov-vityaz.jpg", None, "faded", 1500, "tblr",
+     "Knight at the Crossroads (1878)", "Whole frame"),
+    ("mologa-ascension-news", "mologa-ascension.jpg", None, "faded", 1300, "tblr",
+     "Mologa: the chapel and the Church of the Ascension (1901–1910)", "Whole frame"),
     ("mamayev-news", "mamayev.jpg", (0, 300, 1600, 1200), "news", 1400, "tb",
      "Mamayev Kurgan, Volgograd — the slope", "Lower two-thirds"),
 ]
