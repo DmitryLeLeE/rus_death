@@ -1161,6 +1161,71 @@
             "c": "3/11",
             "w": 100
           }
+        },
+        {
+          "type": "figure",
+          "src": "suistamo-grobu-1935",
+          "alt": "A small log house with a collapsing gabled roof on a grassy mound among spruce trees, a lake behind",
+          "caption": "A log grave chamber, a grobu, in the village cemetery at Piensarka, Suistamo, 1935. Historic Karelian Suistamo (since 1944 on the Russian side of the border): a regional record, not evidence for all Russian cemeteries.",
+          "credit": "Auvo Hirsjärvi, 1935 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "at": {
+            "r": 13,
+            "c": "1/7",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "suistamo-tsasouna-1935",
+          "alt": "A log chapel with a shingled roof, a small belfry and an open porch in dark spruce forest",
+          "caption": "A tsasouna, the Karelian Orthodox chapel, in the village cemetery at Piensarka, Suistamo, 1935. Historic Karelian Suistamo (since 1944 on the Russian side of the border): a regional record, not evidence for all Russian cemeteries.",
+          "credit": "Auvo Hirsjärvi, 1935 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "at": {
+            "r": 13,
+            "c": "7/13",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "suistamo-muuanto-cemetery-1935",
+          "alt": "Two men standing in a spruce wood beside an old cross, a lake showing through the trunks",
+          "caption": "In the shade of the village cemetery at Muuanto, Suistamo, 1935; two men stand among old crosses. Historic Karelian Suistamo (since 1944 on the Russian side of the border): a regional record, not evidence for all Russian cemeteries.",
+          "credit": "Auvo Hirsjärvi, 1935 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "at": {
+            "r": 14,
+            "c": "1/6",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "suistamo-bird-cross-1935",
+          "alt": "A tall wooden grave cross with a small roof at the top and carved birds on its arms, in pine forest",
+          "caption": "A grave cross decorated with wooden birds at the new shared cemetery of the villages of Uuksu and Muuanto, 1935. Historic Karelian Suistamo (since 1944 on the Russian side of the border): a regional record, not evidence for all Russian cemeteries.",
+          "credit": "Auvo Hirsjärvi, 1935 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "at": {
+            "r": 14,
+            "c": "6/10",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "suistamo-piensarka-islet-1935",
+          "alt": "A lake landscape with a dense island of spruce and birch, reeds in front and farm buildings on the far shore",
+          "caption": "The wooded islet of the Piensarka village cemetery in a lake landscape, 1935; the graves are not visible at this scale. Historic Karelian Suistamo (since 1944 on the Russian side of the border): a regional record, not evidence for all Russian cemeteries.",
+          "credit": "Auvo Hirsjärvi, 1935 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "at": {
+            "r": 14,
+            "c": "10/13",
+            "w": 100
+          }
         }
       ],
       "volume": "I"
@@ -1397,6 +1462,45 @@
           "at": {
             "r": 10,
             "c": "2/12",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "plattonen-funeral-road",
+          "alt": "People in dark coats and headscarves moving along a village street beside wooden houses",
+          "caption": "Funeral of the respected lamenter Matjoi Plattonen, Suistamo, 1928: people on the village road. The records give no more than the title; Suistamo is historic Karelia, not a general Russian case.",
+          "credit": "A. O. Väisänen, 1928 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "at": {
+            "r": 12,
+            "c": "1/7",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "plattonen-funeral-crowd",
+          "alt": "Mourners gathered on a village road between wooden houses, a woman with a headscarf at the right and a child beside her",
+          "caption": "The same funeral, 1928: mourners gathered on the road. The records give no more than the title; Suistamo is historic Karelia, not a general Russian case.",
+          "credit": "A. O. Väisänen, 1928 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "at": {
+            "r": 12,
+            "c": "7/13",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "plattonen-funeral-coffin",
+          "alt": "A coffin covered with flowers and ribbons in a bright hall with mourners standing behind it",
+          "caption": "The same funeral, 1928: the coffin, covered with flowers and ribbons, inside a hall. The coffin is closed. The records give no more than the title; Suistamo is historic Karelia, not a general Russian case.",
+          "credit": "A. O. Väisänen, 1928 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "at": {
+            "r": 15,
+            "c": "3/11",
             "w": 100
           }
         }
@@ -2146,6 +2250,87 @@
           "paras": [
             "A.D. Sokolova’s study of 1920s cremation argues that in the USSR the decision on disposing of the dead passed to the civil authorities, who started from sanitation. Even so, the first project, in Petrograd, was called a ‘Crematorium-Temple’ and aimed at creating a spiritual mood in the masses. By the second half of the decade, when the Donskoy crematorium was built in Moscow, her abstract says, the technology had come to matter more than the quasi-religious dress. The later history is thinner. A records entry describes the Nikolo-Arkhangelsk crematorium in east Moscow, completed in March 1972, with seven twin cremators and six halls of farewell. A hobbyist page says the Donskoy furnace closed in 1973 and was rebuilt as a church in 1990, while other pages read say it was the city’s only crematorium until the mid-1970s. The atlas keeps both statements and does not settle the date."
           ]
+        },
+        {
+          "type": "figure",
+          "src": "chekhov-funeral-1904",
+          "alt": "Crowd on a station platform around a coffin carried out of a wagon, wreaths above, priests among the people",
+          "caption": "Anton Chekhov’s coffin carried out of the railway wagon at the Nikolaevsky station, Moscow, July 1904, as printed in the magazine Iskry. Credited to Gribov.",
+          "credit": "Gribov, 1904 · Iskry, via Wikimedia Commons, public domain (PD-RusEmpire)",
+          "level": "documented",
+          "at": {
+            "r": 10,
+            "c": "1/6",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "tolstoy-astapovo-1910",
+          "alt": "A crowd before a wooden station building, men carrying a coffin lid above their shoulders and a coffin with flowers in the middle",
+          "caption": "Removal of Leo Tolstoy’s body at Astapovo, 1910, from the album “Yasnaya Polyana. The Life of L. N. Tolstoy”. Photographer unknown. Behind the 18+ gate because a coffin with flowers is open to view.",
+          "credit": "Unknown, 1910 · State Historical Museum via Wikimedia Commons, public domain (PD-Russia-1996)",
+          "level": "documented",
+          "at": {
+            "r": 10,
+            "c": "6/13",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "chapaev-funeral-1918",
+          "alt": "Men in coats and caps standing in rows behind an open white coffin on stools, wreaths and a banner above them",
+          "caption": "Vasily Chapaev at the funeral of his brother, Balakovo, 1918. Photograph by I. P. Zefirov, from the National Military History Museum of Ukraine. Behind the 18+ gate because the dead person lies in an open coffin.",
+          "credit": "I. P. Zefirov, 1918 · via Wikimedia Commons, public domain (PD-old-70)",
+          "level": "documented",
+          "at": {
+            "r": 11,
+            "c": "1/7",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "bulla-revolution-funeral-1917",
+          "alt": "A view into an open grave pit with two rows of closed dark coffins side by side, flowers on some, planks around the edge",
+          "caption": "A revolution funeral in Petrograd, 5 April 1917: earth thrown on the coffins in the grave on the Field of Mars, in the Finnish Heritage Agency’s description. The coffins are closed. Photograph by Karl Bulla.",
+          "credit": "Karl Bulla, 1917 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "at": {
+            "r": 11,
+            "c": "7/13",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "port-arthur-funeral-1905",
+          "alt": "A sepia stereograph pair of a bare field with rows of dark shapes on the ground, crosses and groups of men along them, hills behind",
+          "caption": "“Hasty funeral rites — last honors to the dead Russian heroes — in besieged Port Arthur”, 1905, a stereograph by Underwood & Underwood. Behind the 18+ gate because the dead lie on the ground.",
+          "credit": "Underwood & Underwood, 1905 · Library of Congress copy via Wikimedia Commons, public domain",
+          "level": "documented",
+          "at": {
+            "r": 12,
+            "c": "3/11",
+            "w": 100
+          }
+        },
+        {
+          "type": "note",
+          "kicker": "Added as images, not argument",
+          "heading": "Public funerals, 1904–1918",
+          "items": [
+            "The five photographs above record the funerals of two writers, a Civil War commander’s brother, the dead of a revolution burial and soldiers killed at Port Arthur. They are public funerals, not village practice, and they sit beside the Soviet funeral for its setting and scale only.",
+            "The sources of this plate do not say how these ceremonies relate to the civil funeral, and the atlas does not draw a line from one to the other. Three of the five show an open coffin or the dead and are behind the 18+ gate."
+          ],
+          "level": "interpretation",
+          "editorial": true,
+          "at": {
+            "r": 13,
+            "c": "2/12",
+            "w": 100
+          }
         }
       ],
       "volume": "IV"
@@ -2752,6 +2937,19 @@
             "r": 6,
             "c": "4/10",
             "w": 78
+          }
+        },
+        {
+          "type": "figure",
+          "src": "nansen-amur-corpse-1913",
+          "alt": "A horse hitched to a long sledge carrying a wrapped body on a village road, people standing by, log houses and a hill behind",
+          "caption": "Nansen’s caption: “Mode of transporting a corpse through the taiga in the Amur country”, 12 August 1913. A body on a sledge drawn by a horse; the Russian note on Commons adds the large ice-house for summer provisions in the middle. Behind the 18+ gate because it shows remains. One scene seen by one traveller on the Amur, not a rule, and no plate source here describes the transport of the dead.",
+          "credit": "F. Nansen, Gjennem Sibirien, 1914, p. 386 · National Library of Norway via Wikimedia Commons, public domain (PD-old-70-1923)",
+          "level": "documented",
+          "at": {
+            "r": 7,
+            "c": "1/9",
+            "w": 90
           }
         }
       ]
@@ -3521,6 +3719,19 @@
             "Source-by-source work on other underground sites, each with a named collector, place and date, before any of them joins this plate."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "pechory-grave-tile",
+          "alt": "A dark ceramic relief plaque with an arched top, a cross above and four lines of Church Slavonic lettering, set in a rough cave wall",
+          "caption": "A ceramic grave plaque in a cave of the Pskovo-Pechersky Monastery, 16th century, as reproduced in Zemlya Pskovskaya (Moscow, 1974). The inscription records the death of a named man; the atlas does not transcribe it. The photographer is not named.",
+          "credit": "Reproduction in Zemlya Pskovskaya, 1974 · via Wikimedia Commons, public domain (PD-Art)",
+          "level": "documented",
+          "at": {
+            "r": 11,
+            "c": "3/10",
+            "w": 90
+          }
         }
       ]
     },
@@ -3757,6 +3968,32 @@
             "r": 7,
             "c": "7/13",
             "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "mandrogy-banya",
+          "alt": "A weathered log banya with a plank roof and short chimney beside a lake, a log ladder at its door and stacked firewood",
+          "caption": "A traditional northern Russian banya in the Mandrogy open-air museum, 2015. A museum building, set beside the Kobona banya as context only; no source here ties either to a belief.",
+          "credit": "Janelop, 2015 · Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "at": {
+            "r": 8,
+            "c": "1/7",
+            "w": 100
+          }
+        },
+        {
+          "type": "figure",
+          "src": "ulan-ude-oldbelievers-interior",
+          "alt": "A bright wooden room with a small window, painted wall decoration, a bench, a bed with a patterned quilt and round rag rugs",
+          "caption": "Interior of an Old Believers’ house in the Ethnographic Museum, Ulan-Ude, 2014. A museum interior, a staged arrangement and not a recorded household; shown only as another house furnished around its icons and textiles.",
+          "credit": "amanderson2, 2014 · Flickr via Wikimedia Commons, CC BY 2.0",
+          "level": "documented",
+          "at": {
+            "r": 8,
+            "c": "7/13",
+            "w": 90
           }
         }
       ]

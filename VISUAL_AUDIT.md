@@ -9,27 +9,27 @@ Generated 2026-11-15 by `build/make_visual_audit.py` from the built English plat
 | C | THE RITUAL | I | 8 | 3 | 0 | 1 | 0 | 4 | 0 |
 | D | THE TABLE | I | 10 | 1 | 2 | 1 | 1 | 5 | 0 |
 | E | THE RETURNING DEAD | I | 8 | 0 | 2 | 1 | 1 | 4 | 0 |
-| F | THE GRAVE | I | 25 | 2 | 13 | 0 | 0 | 10 | 0 |
-| G | THE VOICE | I | 8 | 3 | 0 | 1 | 1 | 3 | 0 |
+| F | THE GRAVE | I | 30 | 7 | 13 | 0 | 0 | 10 | 0 |
+| G | THE VOICE | I | 11 | 6 | 0 | 1 | 1 | 3 | 0 |
 | H | THE AFTERLIFE | I | 9 | 0 | 0 | 2 | 1 | 6 | 0 |
 | I | COLLECTIVE DEATH | IV | 8 | 0 | 3 | 0 | 0 | 5 | 0 |
 | J | DEATH IN ART | I | 8 | 2 | 0 | 2 | 0 | 4 | 0 |
-| K | THE SOVIET AFTERLIFE | IV | 12 | 0 | 6 | 0 | 0 | 6 | 0 |
+| K | THE SOVIET AFTERLIFE | IV | 17 | 5 | 6 | 0 | 0 | 6 | 0 |
 | L | THE UNFINISHED ARCHIVE | IV | 4 | 0 | 2 | 0 | 0 | 2 | 0 |
 | M | THE EMPTY HOUSE | II | 4 | 0 | 2 | 0 | 0 | 2 | 0 |
-| N | THE FOREST EDGE | II | 3 | 1 | 1 | 0 | 0 | 1 | 0 |
+| N | THE FOREST EDGE | II | 4 | 2 | 1 | 0 | 0 | 1 | 0 |
 | O | WATER, MARSH AND RIVER | II | 5 | 2 | 1 | 0 | 1 | 1 | 0 |
 | P | ROADS, CROSSROADS AND BORDERS | II | 4 | 0 | 1 | 1 | 0 | 2 | 0 |
 | Q | THE VANISHED VILLAGE | II | 6 | 1 | 3 | 0 | 0 | 2 | 0 |
-| R | THE UNDERGROUND | II | 5 | 0 | 4 | 0 | 0 | 1 | 0 |
-| S | HOUSEHOLD SPIRITS | III | 5 | 0 | 2 | 1 | 1 | 1 | 0 |
+| R | THE UNDERGROUND | II | 6 | 0 | 4 | 1 | 0 | 1 | 0 |
+| S | HOUSEHOLD SPIRITS | III | 7 | 0 | 4 | 1 | 1 | 1 | 0 |
 | T | THE UNQUIET DEAD | III | 3 | 0 | 0 | 1 | 1 | 1 | 0 |
 | U | THE CALENDAR OF THE DEAD | III | 5 | 1 | 0 | 2 | 1 | 1 | 0 |
 | V | TABOO, OMEN AND PROTECTION | III | 1 | 0 | 0 | 0 | 1 | 0 | 0 |
 | W | THE MATERIALS OF ABANDONMENT | IV | 3 | 0 | 1 | 1 | 0 | 1 | 0 |
 | X | THE DIGITAL AFTERLIFE | IV | 2 | 0 | 1 | 0 | 1 | 0 | 0 |
 
-Total file references over 24 plates: 160.
+Total file references over 24 plates: 177.
 
 ## Plates under three files
 

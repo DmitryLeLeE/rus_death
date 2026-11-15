@@ -102,3 +102,14 @@ Rule used throughout: an image counts as acquired only when its record, caption 
 - Nansen, “Mode of transporting a corpse through the taiga in the Amur country” (P452a, PD-old-70-1923): a body on a sledge; the list called its licence unconfirmed, but Commons sets PD-old-70-1923. Not placed: no plate discusses transport of the dead, and it would need the gate.
 - Rejected: Pskovo-Pechersky ledger. Commons gives the source as a 1974 book and applies PD-Art to a photograph of a three-dimensional ceramic tile, which is not clearly a flat reproduction; left out until the photographer and the basis are known.
 - Not obtained: Suistamo photographs, corpse boards (Finna, blocked by Cloudflare; not bypassed), and the Fedurino grave (no source given). Open next step: the same files may exist on Commons via the Finnish Heritage Agency; not searched yet.
+
+### Update 2026-11-15 (second pass on the user's list: "add everything that can be added")
+On the owner's instruction that licence links to Commons are enough, the verified candidates from the previous entry were placed, and the Finnish files turned out to be on Commons (CC BY 4.0, Finnish Heritage Agency), so Finna was not needed for them.
+- Plate F: five Suistamo photographs by Auvo Hirsjärvi, 1935 (log grave chamber, chapel, wooded islet, Muuanto cemetery, cross with wooden birds). Historic Karelian setting, stated in every caption.
+- Plate G: three more frames of the Plattonen funeral, 1928 (A. O. Väisänen); the coffin in the hall is closed and covered with flowers, so no gate.
+- Plate K: Chekhov 1904, Tolstoy 1910, Chapaev 1918, Bulla 1917, Port Arthur 1905, with an editorial note that says they are public funerals and that the plate’s sources give no link to the civil funeral. Tolstoy, Chapaev and Port Arthur are behind the 18+ gate.
+- Plate N: Nansen, a corpse carried on a sledge, Amur country, 1913 (behind the gate).
+- Plate R: the 16th-century ceramic grave plaque from the Pskov Caves, as reproduced in a 1974 book. The licence tags on Commons are PD-Art and PD-old-100-expired; the status of the 1974 photograph itself was not established, and the record says so.
+- Plate S: the Mandrogy banya (museum) and the Ulan-Ude museum interior.
+- Bulla’s file page carries a licence-review template, and so do the Suistamo pages (Finna review); their review status was not checked.
+- Not added: the second QR photograph (`QR CC cenotaphs Tip and Hale`, a duplicate of the subject on plate X). Not found anywhere on Commons by title search: the two corpse-board photographs and the Fedurino grave; the Finna originals of the boards remain blocked.
