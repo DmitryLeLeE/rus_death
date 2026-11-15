@@ -1801,6 +1801,32 @@
           "paras": [
             "The funeral that preceded the burial was itself made as art. A Novaya Gazeta article describes a Suprematist coffin, a truck with a black square on its radiator driving along Nevsky Prospect, and a railway car to Moscow, where the body was cremated at the Donskoy crematorium; the urn was buried at Nemchinovka on 21 May 1935. The Thyssen museum credits Nikolai Suetin with decorating the coffin with Suprematist motifs and organising the funeral. A Stedelijk research log adds that Malevich did not design the coffin himself, a belief it calls a legend with some foundation. The article’s further statement that Malevich asked for a cross-shaped coffin rests on the article alone. The atlas therefore separates what three sources agree on, a Suprematist coffin made by his circle, from the details that only one of them reports. Photographs of the body are described in the Stedelijk log; none is reproduced here."
           ]
+        },
+        {
+          "type": "figure",
+          "src": "anika-death-lubok",
+          "alt": "Hand-coloured woodcut: a warrior with a sword and spear on a blue horse, a fallen figure beneath the horse, and at the right a thin figure with a scythe and a quiver of arrows, with lines of Slavonic text above",
+          "caption": "‘Anika the Warrior and Death’, a hand-coloured woodcut lubok, 17th century (State Historical Museum, as given on Commons). Death appears as a thin figure with a scythe and a quiver, facing a mounted warrior; a figure lies under the horse. A popular tale in pictures, not a record of any rite, and an early case of how death was drawn for a wide public.",
+          "credit": "Unknown author, 17th c., public domain; via Wikimedia Commons",
+          "level": "interpretation",
+          "at": {
+            "r": 6,
+            "c": "1/7",
+            "w": 94
+          }
+        },
+        {
+          "type": "figure",
+          "src": "mice-burying-cat",
+          "alt": "Black-and-white printed plate of a long lubok in three strips: rows of mice with sticks, carts and drums lead a procession in which a large cat lies on a sledge, with numbered scenes and several columns of printed text below",
+          "caption": "‘Mice bury the cat’, plate 219 in Rovinsky’s catalogue of Russian folk pictures (1900): the fullest, three-sheet eighteenth-century version, in winter. Mice lead a funeral procession with the cat on a sledge. It is a joke in the form of a funeral, so it shows what a procession looked like to the people who bought it, not how any burial was done. What it mocks is not discussed here.",
+          "credit": "Unknown author, 18th c., public domain; via Rovinsky (1900), Wikimedia Commons",
+          "level": "interpretation",
+          "at": {
+            "r": 7,
+            "c": "1/13",
+            "w": 100
+          }
         }
       ],
       "volume": "I"

@@ -140,6 +140,8 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/images/pomor-domoviny.jpg` | Old Believer cemetery with domoviny and post markers on the White Sea shore | Unknown photographer | before 1917 (as given on Commons) | Public domain (Commons: PD-RusEmpire) | https://commons.wikimedia.org/wiki/File:Кладбище_с_домовинами.jpg | archival | contextual |
 | `assets/images/north-carved-markers.jpg` | Old Believers, Russian North (carved wooden markers) | Unknown photographer | late 19th – early 20th century (as given on Commons) | Public domain (Commons: PD-RusEmpire) | https://commons.wikimedia.org/wiki/File:Старообрядцы_Русский-север.jpg | archival | contextual |
 | `assets/images/ukhta-lamenter-1894.jpg` | Ukhta Karelians: a woman lamenter (prichital’shchitsa) | Unknown photographer | 1894 (as given on Commons) | Public domain (Commons: PD-RusEmpire) | https://commons.wikimedia.org/wiki/File:Ухтинские_карелы_-_причитальщица.jpg | archival | contextual |
+| `assets/images/anika-death-lubok.jpg` | Anika the Warrior and Death (lubok woodcut) | Unknown author | 17th century (as given on Commons) | Public domain (Commons: PD-old-100-expired) | https://commons.wikimedia.org/wiki/File:Аника-воин_и_смерть.png | archival | contextual |
+| `assets/images/mice-burying-cat.jpg` | Mice burying the cat (lubok, Rovinsky’s catalogue, no. 219) | Unknown author; catalogued by D. A. Rovinsky | 18th century lubok (as given on Commons); plate printed 1900 | Public domain (Commons: PD-Art, PD-old-100-expired) | https://commons.wikimedia.org/wiki/File:Мыши_кота_погребают.jpg | archival | contextual |
 
 ### Notes per file
 
@@ -526,6 +528,12 @@ Licence: Public domain (Commons: PD-RusEmpire) (https://creativecommons.org/publ
 
 **ukhta-lamenter-1894** — Ukhta Karelians: a woman lamenter (prichital’shchitsa). Photograph. Unknown photographer, 1894 (as given on Commons). Photographic print, reproduced.
 Licence: Public domain (Commons: PD-RusEmpire) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15: title “Ухтинские карелы - причитальщица”, date 1894, filed under Keening, Lament and Karelians; credited to a Kalevala history web page; photographer not given; licence tag PD-RusEmpire. Karelian, not Russian; the picture shows posture and setting, not the words or the occasion of the lament.
+
+**anika-death-lubok** — Anika the Warrior and Death (lubok woodcut). print. Unknown author, 17th century (as given on Commons). Hand-coloured woodcut. State Historical Museum, Moscow (as given on Commons).
+Licence: Public domain (Commons: PD-old-100-expired) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15: “The warrior Anica and the death, woodcut, 17th century, State Historical Museum”, filed under Lubok and Anika the Warrior; scan credited to a LiveJournal post. Reproduction from a print source, not from the museum. A tale in picture form, not a record of a rite.
+
+**mice-burying-cat** — Mice burying the cat (lubok, Rovinsky’s catalogue, no. 219). print. Unknown author; catalogued by D. A. Rovinsky, 18th century lubok (as given on Commons); plate printed 1900. Woodcut lubok, reproduced as a printed plate in a catalogue. Rovinsky, Russkie narodnye kartinki, vol. 1 (St Petersburg, 1900).
+Licence: Public domain (Commons: PD-Art, PD-old-100-expired) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the API on 2026-11-15: “The Mice are burying the Cat… An 18th-century Russian lubok”, credited to Rovinsky, Russkie narodnye kartinki, vol. 1, 1900. The printed plate caption reads “219. Mice bury the cat — winter; three-sheet; the fullest, edition of the 18th century”. The file in this repository is a greyscale copy scaled to 2400 px wide from the Commons original (5245 px). A satire in picture form; the lubok’s own captions were not read in full and are not transcribed.
 
 ### Attribution required
 

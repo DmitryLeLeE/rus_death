@@ -2139,6 +2139,40 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Ухтинские_карелы_-_причитальщица.jpg",
       "alt": "Sepia photograph of a log room: a woman in a headscarf sits in the middle of the floor with her hands over her face, and a row of women and a child sit along the wall behind her",
       "note": "Commons record read through the API on 2026-11-15: title “Ухтинские карелы - причитальщица”, date 1894, filed under Keening, Lament and Karelians; credited to a Kalevala history web page; photographer not given; licence tag PD-RusEmpire. Karelian, not Russian; the picture shows posture and setting, not the words or the occasion of the lament."
+    },
+    {
+      "id": "anika-death-lubok",
+      "file": "assets/images/anika-death-lubok.jpg",
+      "kind": "print",
+      "role": "archival",
+      "evidence": "contextual",
+      "title": "Anika the Warrior and Death (lubok woodcut)",
+      "creator": "Unknown author",
+      "date": "17th century (as given on Commons)",
+      "medium": "Hand-coloured woodcut",
+      "collection": "State Historical Museum, Moscow (as given on Commons)",
+      "license": "Public domain (Commons: PD-old-100-expired)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Аника-воин_и_смерть.png",
+      "alt": "Hand-coloured woodcut: a warrior with a sword and spear on a blue horse, a fallen figure beneath the horse, and at the right a thin figure with a scythe and a quiver of arrows, with lines of Slavonic text above",
+      "note": "Commons record read through the API on 2026-11-15: “The warrior Anica and the death, woodcut, 17th century, State Historical Museum”, filed under Lubok and Anika the Warrior; scan credited to a LiveJournal post. Reproduction from a print source, not from the museum. A tale in picture form, not a record of a rite."
+    },
+    {
+      "id": "mice-burying-cat",
+      "file": "assets/images/mice-burying-cat.jpg",
+      "kind": "print",
+      "role": "archival",
+      "evidence": "contextual",
+      "title": "Mice burying the cat (lubok, Rovinsky’s catalogue, no. 219)",
+      "creator": "Unknown author; catalogued by D. A. Rovinsky",
+      "date": "18th century lubok (as given on Commons); plate printed 1900",
+      "medium": "Woodcut lubok, reproduced as a printed plate in a catalogue",
+      "collection": "Rovinsky, Russkie narodnye kartinki, vol. 1 (St Petersburg, 1900)",
+      "license": "Public domain (Commons: PD-Art, PD-old-100-expired)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Мыши_кота_погребают.jpg",
+      "alt": "Black-and-white printed plate of a long lubok in three strips: rows of mice with sticks, carts and drums lead a procession in which a large cat lies on a sledge, with numbered scenes and several columns of printed text below",
+      "note": "Commons record read through the API on 2026-11-15: “The Mice are burying the Cat… An 18th-century Russian lubok”, credited to Rovinsky, Russkie narodnye kartinki, vol. 1, 1900. The printed plate caption reads “219. Mice bury the cat — winter; three-sheet; the fullest, edition of the 18th century”. The file in this repository is a greyscale copy scaled to 2400 px wide from the Commons original (5245 px). A satire in picture form; the lubok’s own captions were not read in full and are not transcribed."
     }
   ]
 }
