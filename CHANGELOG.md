@@ -2,6 +2,8 @@
 
 ## Unreleased — Russian Chthonic Atlas
 
+- Search page over the whole atlas (client-side, prebuilt JSON index, EN/RU), a claim ledger generated from plate data (every section, evidence level, sources), and five reading routes.
+
 - The site is now the *Russian Chthonic Atlas*. *Archæology of Russian Death* is Volume I (plates A–L).
 - New volumes page (`volumes.html`, EN and RU): four volumes, published plates as cards, planned plates as research leads. Nothing planned is presented as content.
 - Plate M, *The Empty House* (Volume II), EN and RU, with six new sources whose limitations are recorded in the bibliography (two have incomplete bibliographic records).

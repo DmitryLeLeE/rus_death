@@ -28,7 +28,7 @@ const write = (rel, content) => {
 const SITE = "https://DmitryLeLeE.github.io/rus_death/";
 let LANG = "en", T = UI.en, UP = "";
 let plates, sourcesDoc, objectsDoc, conceptsDoc, placesDoc, timelineDoc, imagesDoc, methodDoc, derivedDoc;
-let prologueDoc, lexiconDoc, volumesDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
+let prologueDoc, lexiconDoc, volumesDoc, routesDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
 
 const merge = (target, src) => {
   for (const [k, v] of Object.entries(src)) {
@@ -54,6 +54,7 @@ function loadLang(lang) {
   prologueDoc = fileExists(path.join(DATA, "prologue.json")) ? readJSON(path.join(DATA, "prologue.json")) : null;
   lexiconDoc = fileExists(path.join(DATA, "lexicon.json")) ? readJSON(path.join(DATA, "lexicon.json")) : null;
   volumesDoc = readJSON(path.join(DATA, "volumes.json"));
+  routesDoc = readJSON(path.join(DATA, "routes.json"));
   HAND = {};
   if (lang === "ru") {
     const ov = (f) => { const p = path.join(DATA, "ru", f); return fileExists(p) ? readJSON(p) : null; };
@@ -88,6 +89,8 @@ function loadLang(lang) {
       for (const e of lexiconDoc.entries) if (lxe && lxe[e.id]) merge(e, lxe[e.id]);
     }
     HAND = ov("hand.json") || {};
+    const rr = ov("routes.json");
+    if (rr) for (const r of routesDoc.routes) if (rr[r.id]) { const q = rr[r.id]; if (q.title) r.title = q.title; if (q.dek) r.dek = q.dek; (q.steps || []).forEach((w, i) => { if (r.steps[i] && w) r.steps[i].why = w; }); }
     const vv = ov("volumes.json");
     if (vv) for (const v of volumesDoc.volumes) if (vv[v.id]) merge(v, vv[v.id]);
   }
@@ -403,6 +406,7 @@ ${spriteMarks}
     <a href="${base}words.html">${nav.words}</a>
     <a href="${base}bibliography.html">${nav.sources}</a>
     <a href="${base}method.html">${nav.method}</a>
+    <a href="${base}search.html">${nav.search}</a>
   </nav>
   <div class="masthead__tools">
     <button class="readable-btn" type="button" data-readable aria-pressed="false" title="${esc(T.readableTitle)}" data-on="${esc(T.readableOn)}" data-off="${esc(T.readable)}">${T.readable}</button>
@@ -910,7 +914,7 @@ function prologuePage() {
   ${blocks}
   <section class="pro-routes" aria-labelledby="pro-routes-h">
     <h2 id="pro-routes-h" class="pro-routes__h">${esc(d.routes.head)}</h2>
-    <ul class="routes">${routes}</ul>
+    <ul class="route-list">${routes}</ul>
   </section>
   <p class="pro-close"><span>${md(d.closing)}</span></p>
 </main>`,
@@ -939,6 +943,99 @@ function wordsPage() {
 ${pagehead("pagehead--words", esc(d.kicker), esc(d.title).replace(/\n/g, "<br>"), md(d.dek))}
 <ol class="wordwall">${slips}</ol>
 <section class="map-note"><h2 class="mono">${esc(d.noteH)}</h2><div class="index-note__cols"><p>${md(d.note1)}</p><p>${md(d.note2)}</p></div></section>
+</main>`,
+  });
+}
+
+
+// ---------------------------------------------- search, ledger, routes ------
+const plain = (t) => String(t).replace(/[*`_]/g, "").replace(/\s+/g, " ").trim();
+const collect = (v, out = []) => {
+  if (typeof v === "string") out.push(plain(v));
+  else if (Array.isArray(v)) v.forEach((x) => collect(x, out));
+  else if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) if (!["type", "level", "sources", "src", "credit", "hidden", "size", "show"].includes(k)) collect(x, out);
+  return out;
+};
+function searchIndex() {
+  const rows = [];
+  for (const p of plates.plates) {
+    for (const s of p.sections) {
+      if (s.hidden || s.type === "figure") continue;
+      const text = collect(s).join(" ");
+      if (!text) continue;
+      rows.push(["section", `${p.letter} · ${plain(s.heading || s.kicker || p.nav)}`, `plates/${p.id}-${p.slug}.html`, text]);
+    }
+  }
+  if (lexiconDoc) for (const e of lexiconDoc.entries) rows.push(["word", `${e.ru} · ${e.tr}`, `words.html#word-${e.id}`, plain(e.gloss)]);
+  for (const e of timelineDoc.entries) rows.push(["time", `${e.display} · ${plain(e.title)}`, "chronology.html", plain(e.text)]);
+  for (const o of objectsDoc.objects) rows.push(["object", `${o.name} · ${o.term}`, `atlas.html#object-${o.id}`, plain(`${o.gloss} ${o.description}`)]);
+  for (const c of conceptsDoc.concepts) rows.push(["object", c.name, `atlas.html#concept-${c.id}`, plain(`${c.gloss} ${c.description}`)]);
+  for (const pl of placesDoc.places) rows.push(["place", `${pl.name} · ${pl.region}`, `atlas.html#place-${pl.id}`, plain(pl.summary)]);
+  for (const s of sourcesDoc.entries) rows.push(["source", `${s.author} · ${plain(s.title)}`, `bibliography.html#src-${s.id}`, plain(`${s.title_en || ""} ${s.publisher} ${s.year} ${s.supports} ${s.limitation}`)]);
+  return rows;
+}
+
+function searchPage() {
+  const base = "", X = T.search;
+  const chips = Object.entries(X.kinds).map(([k, v]) => `<button class="chip" type="button" data-kind-chip="${k}" aria-pressed="true">${v}</button>`).join("\n");
+  return shell({
+    title: X.title, description: X.desc, base, bodyClass: "tool-page", page: "search", rel: "search.html",
+    content: `<main id="main">
+${pagehead("pagehead--bib", X.kicker, X.h1, X.dek)}
+<section class="tool" data-search-app data-index="search-index.json" data-idle="${esc(X.idle)}" data-empty="${esc(X.empty)}" data-found="${esc(X.found)}" data-kinds="${esc(JSON.stringify(X.kinds))}">
+  <label class="tool__label mono" for="sq">${X.label}</label>
+  <input class="tool__input" id="sq" type="search" placeholder="${esc(X.placeholder)}" autocomplete="off" spellcheck="false">
+  <div class="tool__chips" role="group" aria-label="${esc(X.kindsLabel)}">${chips}</div>
+  <p class="catalog__status mono" id="sstatus" role="status" aria-live="polite">${X.idle}</p>
+  <ol class="sres-list" id="sresults"></ol>
+  <noscript><p>${X.noscript}</p></noscript>
+</section>
+<section class="map-note"><h2 class="mono">${X.toolsH}</h2><div class="index-note__cols"><p><a href="ledger.html">${X.ledger}</a></p><p><a href="routes.html">${X.routes}</a></p></div></section>
+</main>
+<script src="js/search.js" defer></script>`.replace('src="js/search.js"', `src="${UP}js/search.js"`),
+  });
+}
+
+function ledgerPage() {
+  const base = "", X = T.ledger;
+  const rows = [];
+  for (const p of plates.plates) for (const s of p.sections) {
+    if (s.hidden || s.type === "figure") continue;
+    rows.push({ p, s, level: s.level || "interpretation" });
+  }
+  const count = (l) => rows.filter((r) => r.level === l).length;
+  const noSrc = rows.filter((r) => !(r.s.sources || []).length).length;
+  const chips = [`<button class="chip" type="button" data-level-chip="all" aria-pressed="true">${X.all}</button>`,
+    ...Object.keys(T.tags).map((l) => `<button class="chip" type="button" data-level-chip="${l}" aria-pressed="false">${T.tags[l]} · ${count(l)}</button>`)].join("\n");
+  const body = rows.map((r) => `<tr data-level="${r.level}"><td class="mono"><a href="${plateHref(r.p.id, base)}">${r.p.letter}</a></td><td>${esc(plain(r.s.heading || r.s.kicker || r.s.type))}</td><td>${tag(r.level)}</td><td class="mono">${srcBadge(r.s.sources, base) || `<span class="ledger__none">${X.none}</span>`}</td></tr>`).join("\n");
+  return shell({
+    title: X.title, description: X.desc, base, bodyClass: "tool-page", page: "ledger", rel: "ledger.html",
+    content: `<main id="main">
+${pagehead("pagehead--bib", X.kicker, X.h1, X.dek)}
+<section class="tool">
+  <div class="tool__chips" role="group" aria-label="${esc(X.filterLabel)}">${chips}</div>
+  <p class="catalog__status mono" id="lstatus" role="status" aria-live="polite" data-of="${X.of}">${rows.length} ${X.counts}</p>
+  <p class="mono">${rows.length} ${X.counts} · ${noSrc} ${X.none}</p>
+  <div class="ledger__wrap"><table class="ledger" data-ledger><thead><tr><th>${X.plate}</th><th>${X.section}</th><th>${X.level}</th><th>${X.sources}</th></tr></thead><tbody>
+${body}
+</tbody></table></div>
+</section>
+${noteSec(X.noteH, X.note1, X.note2)}
+</main>
+<script src="${UP}js/search.js" defer></script>`,
+  });
+}
+
+function routesPage() {
+  const base = "", X = T.routes;
+  const list = routesDoc.routes.map((r, i) => `<li class="route"><h2 class="route__title">${esc(r.title)}</h2><p class="route__dek">${esc(r.dek)}</p>
+<ol class="route__steps">${r.steps.filter((st) => PLATE[st.plate]).map((st, j) => `<li><a class="route__plate" href="${plateHref(st.plate, base)}"><span class="route__letter">${PLATE[st.plate].letter}</span><span class="route__name">${esc(PLATE[st.plate].nav)}</span></a><span class="route__why">${esc(st.why)}</span></li>`).join("")}</ol></li>`).join("\n");
+  return shell({
+    title: X.title, description: X.desc, base, bodyClass: "tool-page", page: "routes", rel: "routes.html",
+    content: `<main id="main">
+${pagehead("pagehead--bib", X.kicker, X.h1, X.dek)}
+<section class="tool"><ol class="route-list">${list}</ol></section>
+${noteSec(X.noteH, X.note1, X.note2)}
 </main>`,
   });
 }
@@ -1036,7 +1133,7 @@ function coverPage() {
 }
 
 // ------------------------------------------------------------------ run ----
-const PAGES = ["index.html", "prologue.html", "volumes.html", "atlas.html", "map.html", "chronology.html", "words.html", "bibliography.html", "method.html", "colophon.html"];
+const PAGES = ["index.html", "prologue.html", "volumes.html", "search.html", "ledger.html", "routes.html", "atlas.html", "map.html", "chronology.html", "words.html", "bibliography.html", "method.html", "colophon.html"];
 const sitemapRel = [];
 console.log("building");
 for (const lang of ["en", "ru"]) {
@@ -1046,6 +1143,10 @@ for (const lang of ["en", "ru"]) {
   write(`${pre}index.html`, coverPage());
   write(`${pre}method.html`, methodPage());
   write(`${pre}volumes.html`, volumesPage());
+  write(`${pre}search.html`, searchPage());
+  write(`${pre}ledger.html`, ledgerPage());
+  write(`${pre}routes.html`, routesPage());
+  write(`${pre}search-index.json`, JSON.stringify(searchIndex()));
   write(`${pre}atlas.html`, indexPage());
   write(`${pre}map.html`, mapPage());
   write(`${pre}chronology.html`, chronologyPage());

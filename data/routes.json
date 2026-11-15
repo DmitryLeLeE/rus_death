@@ -1,0 +1,115 @@
+{
+  "routes": [
+    {
+      "id": "room-to-grave",
+      "title": "From the room to the grave",
+      "dek": "The order of a death as people handled it: the threshold, the body, the rite, then the ground.",
+      "steps": [
+        {
+          "plate": "a",
+          "why": "Start where the death occurs."
+        },
+        {
+          "plate": "b",
+          "why": "The body as something that has to be handled."
+        },
+        {
+          "plate": "c",
+          "why": "The rite that follows, with its scheme and its misattributions."
+        },
+        {
+          "plate": "f",
+          "why": "Where the dead are put, and who decides."
+        },
+        {
+          "plate": "k",
+          "why": "How the state took over the funeral and what remains of it."
+        }
+      ]
+    },
+    {
+      "id": "outside-the-fence",
+      "title": "Outside the churchyard",
+      "dek": "Places where the sources put the dead who were not laid in the usual ground. Each plate says how thin its evidence is.",
+      "steps": [
+        {
+          "plate": "e",
+          "why": "The returning dead and the argument about who counts as one."
+        },
+        {
+          "plate": "n",
+          "why": "Reports of burial in forest ravines, with their provenance."
+        },
+        {
+          "plate": "o",
+          "why": "Water and the calendar day for the drowned."
+        },
+        {
+          "plate": "p",
+          "why": "Crossroads, and a modern count of roadside memorials."
+        }
+      ]
+    },
+    {
+      "id": "gaps-and-records",
+      "title": "What the record cannot hold",
+      "dek": "Plates that are mostly about the limits of their own evidence.",
+      "steps": [
+        {
+          "plate": "l",
+          "why": "The plate that is empty on purpose."
+        },
+        {
+          "plate": "m",
+          "why": "A rite that concerns houses and a census that counts villages."
+        },
+        {
+          "plate": "q",
+          "why": "A flooded town and a claim about cemeteries that stays unverified."
+        },
+        {
+          "plate": "i",
+          "why": "Mass death and the gap between the record and the official number."
+        }
+      ]
+    },
+    {
+      "id": "images-of-death",
+      "title": "Images of the dead",
+      "dek": "How death was painted, printed and photographed.",
+      "steps": [
+        {
+          "plate": "h",
+          "why": "The Last Judgment as a picture to be read."
+        },
+        {
+          "plate": "j",
+          "why": "Russian painting and the dead body."
+        },
+        {
+          "plate": "k",
+          "why": "Memorial architecture and the photographs left by the Soviet funeral."
+        }
+      ]
+    },
+    {
+      "id": "table-and-voice",
+      "title": "The table and the voice",
+      "dek": "Feeding and addressing the dead.",
+      "steps": [
+        {
+          "plate": "d",
+          "why": "The memorial meal."
+        },
+        {
+          "plate": "g",
+          "why": "The laments and the address to the dead."
+        },
+        {
+          "plate": "c",
+          "why": "Back to the rite that frames both."
+        }
+      ]
+    }
+  ]
+}

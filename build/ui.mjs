@@ -12,7 +12,7 @@ export const UI = {
     volumeWord: "VOL.",
     skip: "Skip to the atlas content",
     navLabel: "Atlas sections",
-    nav: { volumes: "ATLAS", index: "INDEX", map: "MAP", chrono: "CHRONOLOGY", sources: "SOURCES", method: "METHOD", prologue: "PROLOGUE", words: "WORDS" },
+    nav: { volumes: "ATLAS", index: "INDEX", map: "MAP", chrono: "CHRONOLOGY", sources: "SOURCES", method: "METHOD", prologue: "PROLOGUE", words: "WORDS", search: "SEARCH" },
     contents: "CONTENTS", close: "CLOSE", colophon: "COLOPHON", coverWord: "Cover",
     footer: (ed, compiled) => `${ed} · compiled ${compiled}`,
     footColophon: "colophon", footSources: "sources",
@@ -52,6 +52,30 @@ export const UI = {
       kicker: "THE ATLAS — FOUR VOLUMES", h1: "THE<br>VOLUMES", dek: "A plate is published when its sources have been checked. Planned plates are listed so that the scope is visible, and they are marked as research leads, not as content.",
       published: "PUBLISHED", inPrep: "IN PREPARATION", planned: "PLANNED", lead: "RESEARCH LEAD", leadsLabel: "Plates not yet written",
       rule: "Nothing here is published as fact until a source has been read, dated and checked against the claim it is meant to support.",
+    },
+    search: {
+      title: "Search — RUSSIAN CHTHONIC ATLAS", desc: "Search the whole atlas: plate text, lexicon, chronology, objects, places and sources.",
+      kicker: "SEARCH THE ATLAS", h1: "FIND<br>A TRACE",
+      dek: "Plate sections, lexicon entries, chronology entries, objects, places and sources, in one place. Searching runs in your browser and needs no server.",
+      label: "Search the atlas", placeholder: "a word, a place, a source", kindsLabel: "Limit to", all: "ALL",
+      kinds: { section: "PLATE TEXT", word: "WORDS", time: "CHRONOLOGY", object: "OBJECTS", place: "PLACES", source: "SOURCES" },
+      empty: "Nothing found. Try a shorter word or another spelling.", idle: "Type at least two letters.", found: "RESULTS", noscript: "Search needs JavaScript. The index, words, chronology and sources pages work without it.",
+      toolsH: "OTHER WAYS IN", ledger: "Claim ledger: every section, its evidence level and its sources", routes: "Reading routes through the plates"
+    },
+    ledger: {
+      title: "Claim ledger — RUSSIAN CHTHONIC ATLAS", desc: "Every section of every plate with its evidence level and sources.",
+      kicker: "CLAIM LEDGER", h1: "WHAT IS<br>CLAIMED",
+      dek: "One row for each section of each plate, built from the plate data. It shows how much of the atlas is documented, how much is interpretation and how much is reconstruction, and which sections have no source attached.",
+      filterLabel: "Filter by evidence level", all: "ALL", plate: "PLATE", section: "SECTION", level: "LEVEL", sources: "SOURCES", none: "none attached",
+      counts: "SECTIONS", of: "of", noteH: "HOW TO READ THIS",
+      note1: "A section is a block on a plate: a passage, a table, a record or a note. Figures and quotations are not counted as claims. The level is the one the plate itself gives the section.",
+      note2: "A section with no source is not necessarily wrong, but it is where a reader should ask what it rests on. The ledger is generated at every build, so it cannot drift from the plates."
+    },
+    routes: {
+      title: "Reading routes — RUSSIAN CHTHONIC ATLAS", desc: "Five ways through the plates, by question rather than by letter.",
+      kicker: "READING ROUTES", h1: "FIVE WAYS<br>THROUGH",
+      dek: "The plates are lettered, but they are not meant to be read in order. Each route follows one question across several plates.",
+      step: "STEP", noteH: "ABOUT THE ROUTES", note1: "Routes are only paths of attention. They do not add evidence, and no route claims that the plates on it prove one another.", note2: "A plate may appear on several routes."
     },
     index: {
       title: "The Index — RUSSIAN CHTHONIC ATLAS",
@@ -138,7 +162,7 @@ export const UI = {
     volumeWord: "ТОМ",
     skip: "К содержанию атласа",
     navLabel: "Разделы атласа",
-    nav: { volumes: "АТЛАС", index: "УКАЗАТЕЛЬ", map: "КАРТА", chrono: "ХРОНОЛОГИЯ", sources: "ИСТОЧНИКИ", method: "МЕТОД", prologue: "ПРОЛОГ", words: "СЛОВАРЬ" },
+    nav: { volumes: "АТЛАС", index: "УКАЗАТЕЛЬ", map: "КАРТА", chrono: "ХРОНОЛОГИЯ", sources: "ИСТОЧНИКИ", method: "МЕТОД", prologue: "ПРОЛОГ", words: "СЛОВАРЬ", search: "ПОИСК" },
     contents: "СОДЕРЖАНИЕ", close: "ЗАКРЫТЬ", colophon: "КОЛОФОН", coverWord: "Обложка",
     footer: (ed, compiled) => `${ed} · составлено ${compiled}`,
     footColophon: "колофон", footSources: "источники",
@@ -182,6 +206,30 @@ export const UI = {
       kicker: "АТЛАС — ЧЕТЫРЕ ТОМА", h1: "ТОМА", dek: "Лист публикуется, когда проверены его источники. Планируемые листы перечислены, чтобы был виден замысел, и помечены как направления поиска, а не как содержание.",
       published: "ОПУБЛИКОВАН", inPrep: "ГОТОВИТСЯ", planned: "В ПЛАНАХ", lead: "НАПРАВЛЕНИЕ ПОИСКА", leadsLabel: "Листы, которые ещё не написаны",
       rule: "Ничто здесь не публикуется как факт, пока источник не прочитан, не датирован и не сверен с утверждением, которое он должен подтверждать.",
+    },
+    search: {
+      title: "Поиск — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Поиск по всему атласу: текст листов, словарь, хронология, предметы, места и источники.",
+      kicker: "ПОИСК ПО АТЛАСУ", h1: "НАЙТИ<br>СЛЕД",
+      dek: "Разделы листов, статьи словаря, записи хронологии, предметы, места и источники в одном месте. Поиск работает в браузере и сервера не требует.",
+      label: "Поиск по атласу", placeholder: "слово, место, источник", kindsLabel: "Ограничить", all: "ВСЁ",
+      kinds: { section: "ТЕКСТ ЛИСТОВ", word: "СЛОВА", time: "ХРОНОЛОГИЯ", object: "ПРЕДМЕТЫ", place: "МЕСТА", source: "ИСТОЧНИКИ" },
+      empty: "Ничего не найдено. Попробуйте слово короче или другое написание.", idle: "Введите не меньше двух букв.", found: "НАЙДЕНО", noscript: "Поиску нужен JavaScript. Указатель, словарь, хронология и источники работают без него.",
+      toolsH: "ДРУГИЕ ХОДЫ", ledger: "Журнал утверждений: каждый раздел, его уровень доказательности и источники", routes: "Маршруты чтения по листам"
+    },
+    ledger: {
+      title: "Журнал утверждений — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Каждый раздел каждого листа с уровнем доказательности и источниками.",
+      kicker: "ЖУРНАЛ УТВЕРЖДЕНИЙ", h1: "ЧТО<br>УТВЕРЖДАЕТСЯ",
+      dek: "Одна строка на каждый раздел каждого листа, собранная из данных листов. Видно, сколько в атласе документировано, сколько интерпретации и сколько реконструкции и у каких разделов нет источника.",
+      filterLabel: "Фильтр по уровню доказательности", all: "ВСЕ", plate: "ЛИСТ", section: "РАЗДЕЛ", level: "УРОВЕНЬ", sources: "ИСТОЧНИКИ", none: "не привязаны",
+      counts: "РАЗДЕЛОВ", of: "из", noteH: "КАК ЧИТАТЬ",
+      note1: "Раздел — блок на листе: отрывок, таблица, запись или примечание. Иллюстрации и цитаты утверждениями не считаются. Уровень — тот, который сам лист присвоил разделу.",
+      note2: "Раздел без источника не обязательно неверен, но именно тут читателю стоит спросить, на чём он держится. Журнал собирается при каждой сборке, поэтому не может разойтись с листами."
+    },
+    routes: {
+      title: "Маршруты чтения — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Пять путей по листам — по вопросу, а не по букве.",
+      kicker: "МАРШРУТЫ ЧТЕНИЯ", h1: "ПЯТЬ ПУТЕЙ",
+      dek: "Листы обозначены буквами, но читать их по порядку не обязательно. Каждый маршрут ведёт один вопрос через несколько листов.",
+      step: "ШАГ", noteH: "О МАРШРУТАХ", note1: "Маршруты — лишь пути внимания. Они не добавляют доказательств, и ни один маршрут не утверждает, что листы на нём доказывают друг друга.", note2: "Лист может входить в несколько маршрутов."
     },
     index: {
       title: "Указатель — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС",
