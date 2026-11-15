@@ -410,6 +410,8 @@ ${spriteMarks}
     <a href="${base}words.html">${nav.words}</a>
     <a href="${base}bibliography.html">${nav.sources}</a>
     <a href="${base}method.html">${nav.method}</a>
+    <a href="${base}routes.html">${nav.routes}</a>
+    <a href="${base}archive.html">${nav.archive}</a>
     <a href="${base}search.html">${nav.search}</a>
   </nav>
   <div class="masthead__tools">
@@ -441,6 +443,8 @@ ${content}
     <a href="${base}map.html">${nav.map}</a>
     <a href="${base}chronology.html">${nav.chrono}</a>
     <a href="${base}words.html">${nav.words}</a>
+    <a href="${base}routes.html">${nav.routes}</a>
+    <a href="${base}archive.html">${nav.archive}</a>
     <a href="${base}bibliography.html">${nav.sources}</a>
     <a href="${base}method.html">${nav.method}</a>
     <a href="${base}colophon.html">${T.colophon}</a>
@@ -1060,6 +1064,38 @@ ${noteSec(X.noteH, X.note1, X.note2)}
   });
 }
 
+function archivePage() {
+  const base = "", X = T.archive;
+  const originals = imagesDoc.images.filter((i) => i.kind !== "derivative");
+  const usedBy = {};
+  for (const p of plates.plates) {
+    const ids = new Set();
+    const hay = JSON.stringify(p.sections.map((q) => q.src || null)) + JSON.stringify(LAYOUT[p.layout] || "") + " " + (KEY[p.id] || "");
+    for (const im of imagesDoc.images) if (hay.includes(`"${im.id}"`) || hay.includes(`a:"${im.id}"`) || (KEY[p.id] === im.id)) ids.add(origOf(im.id).id);
+    for (const [k, v] of Object.entries(FIGMAP)) if (hay.includes(`"${k}"`) && IMG[v]) ids.add(origOf(v).id);
+    for (const id of ids) (usedBy[id] = usedBy[id] || []).push(p.id);
+  }
+  const kinds = ["photograph", "painting", "icon", "print", "plate", "plan"];
+  const derivs = (id) => imagesDoc.images.filter((i) => i.parent === id).length;
+  const card = (im) => `<li class="arch" id="arch-${im.id}"><h3 class="arch__t">${esc((LANG === "ru" && im.title_ru) || im.title)}</h3>
+  <p class="arch__m mono">${esc(im.creator || "")} · ${esc(im.date || "")}${im.collection ? ` · ${esc(im.collection)}` : ""}</p>
+  <p class="arch__m mono">${esc(im.medium || "")}${im.class ? ` · ${esc(X.classes[im.class] || im.class)}` : ""}</p>
+  <p class="arch__n">${esc(im.note || "")}</p>
+  <p class="arch__l mono">${im.license_url ? `<a href="${im.license_url}" rel="noopener">${esc(im.license)}</a>` : esc(im.license || "")} · <a href="${im.source_page}" rel="noopener">${X.source}</a>${derivs(im.id) ? ` · ${derivs(im.id)} ${X.derived}` : ""}</p>
+  <p class="arch__p mono">${(usedBy[im.id] || []).map((id) => `<a href="${plateHref(id, base)}">${PLATE[id].letter}</a>`).join(" · ") || X.unused}</p></li>`;
+  const groups = kinds.map((k) => ({ k, items: originals.filter((i) => i.kind === k) })).filter((g) => g.items.length)
+    .map((g) => `<section class="arch-group"><h2 class="mono arch-group__h">${X.kinds[g.k]} · ${g.items.length}</h2><ol class="arch-list">${g.items.map(card).join("\n")}</ol></section>`).join("\n");
+  return shell({
+    title: X.title, description: X.desc, base, bodyClass: "tool-page", page: "archive", rel: "archive.html",
+    content: `<main id="main">
+${pagehead("pagehead--bib", X.kicker, X.h1, X.dek)}
+<section class="tool"><p class="mono">${originals.length} ${X.count} · ${imagesDoc.images.length - originals.length} ${X.derivedAll}</p>
+${groups}</section>
+${noteSec(X.noteH, X.note1, X.note2)}
+</main>`,
+  });
+}
+
 function routesPage() {
   const base = "", X = T.routes;
   const list = routesDoc.routes.map((r, i) => `<li class="route"><h2 class="route__title">${esc(r.title)}</h2><p class="route__dek">${esc(r.dek)}</p>
@@ -1189,7 +1225,7 @@ function coverPage() {
 }
 
 // ------------------------------------------------------------------ run ----
-const PAGES = ["index.html", "prologue.html", "volumes.html", "search.html", "ledger.html", "routes.html", "atlas.html", "map.html", "chronology.html", "words.html", "bibliography.html", "method.html", "colophon.html"];
+const PAGES = ["index.html", "prologue.html", "volumes.html", "search.html", "ledger.html", "routes.html", "archive.html", "atlas.html", "map.html", "chronology.html", "words.html", "bibliography.html", "method.html", "colophon.html"];
 const sitemapRel = [];
 console.log("building");
 for (const lang of ["en", "ru"]) {
@@ -1202,6 +1238,7 @@ for (const lang of ["en", "ru"]) {
   write(`${pre}search.html`, searchPage());
   write(`${pre}ledger.html`, ledgerPage());
   write(`${pre}routes.html`, routesPage());
+  write(`${pre}archive.html`, archivePage());
   write(`${pre}search-index.json`, JSON.stringify(searchIndex()));
   write(`${pre}atlas.html`, indexPage());
   write(`${pre}map.html`, mapPage());

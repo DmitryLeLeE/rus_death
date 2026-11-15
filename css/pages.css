@@ -445,3 +445,13 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
 @media (max-width: 640px) { .route__steps li { grid-template-columns: 1fr; } }
 .tool .tag--doc, .ledger .tag--doc { background: #1a1714; color: #e6e0d0; border-color: #1a1714; }
 .tool .tag--int { color: #17140f; }
+
+/* field archive */
+.arch-group__h { margin: 2.4rem 0 0.8rem; letter-spacing: 0.08em; }
+.arch-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 1rem; }
+.arch { background: rgba(26, 24, 20, 0.05); border: 1px solid rgba(26, 24, 20, 0.35); color: #1a1814; padding: 0.9rem 1rem; }
+.arch a { color: #8a1a14; }
+.arch__t { margin: 0 0 0.4rem; font: 700 1rem/1.25 var(--f-head, inherit); }
+.arch__m, .arch__l, .arch__p { margin: 0.2rem 0; font-size: 0.68rem; line-height: 1.45; letter-spacing: 0.04em; overflow-wrap: anywhere; }
+.arch__n { margin: 0.5rem 0; font-size: 0.85rem; line-height: 1.45; }
+.arch__p a { margin-right: 0.3rem; }

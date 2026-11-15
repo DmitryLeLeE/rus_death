@@ -12,7 +12,7 @@ export const UI = {
     volumeWord: "VOL.",
     skip: "Skip to the atlas content",
     navLabel: "Atlas sections",
-    nav: { volumes: "ATLAS", index: "INDEX", map: "MAP", chrono: "CHRONOLOGY", sources: "SOURCES", method: "METHOD", prologue: "PROLOGUE", words: "WORDS", search: "SEARCH" },
+    nav: { volumes: "ATLAS", index: "INDEX", map: "MAP", chrono: "CHRONOLOGY", sources: "SOURCES", method: "METHOD", prologue: "PROLOGUE", words: "WORDS", routes: "ROUTES", archive: "FIELD ARCHIVE", search: "SEARCH" },
     contents: "CONTENTS", close: "CLOSE", colophon: "COLOPHON", coverWord: "Cover",
     footer: (ed, compiled) => `${ed} · compiled ${compiled}`,
     footColophon: "colophon", footSources: "sources",
@@ -73,6 +73,16 @@ export const UI = {
       counts: "SECTIONS", of: "of", noteH: "HOW TO READ THIS",
       note1: "A section is a block on a plate: a passage, a table, a record or a note. Figures and quotations are not counted as claims. The level is the one the plate itself gives the section.",
       note2: "A section with no source is not necessarily wrong, but it is where a reader should ask what it rests on. The ledger is generated at every build, so it cannot drift from the plates."
+    },
+    archive: {
+      title: "Field archive — RUSSIAN CHTHONIC ATLAS", desc: "Every source image in the atlas: creator, date, collection, licence, link to the original and the plates that use it.",
+      kicker: "FIELD ARCHIVE", h1: "THE<br>IMAGES",
+      dek: "One card for each source image used in the atlas, with its maker, date, holding collection, licence and a link to the original file page. The plates show processed copies; this page names what they were made from.",
+      count: "SOURCE IMAGES", derivedAll: "PROCESSED COPIES MADE FROM THEM", source: "original file page", derived: "processed copies", unused: "not placed on a plate",
+      classes: { "contemporary documentation": "contemporary documentation" },
+      kinds: { photograph: "PHOTOGRAPHS", painting: "PAINTINGS", icon: "ICONS", print: "PRINTS", plate: "PLATES", plan: "PLANS" },
+      noteH: "HOW TO READ THIS", note1: "Dates are those the source file gives; where a file page gives none, the card says so. A processed copy keeps the credit of its original.",
+      note2: "The list is generated from the image register at each build. A card says what an image is, not what it proves."
     },
     routes: {
       title: "Reading routes — RUSSIAN CHTHONIC ATLAS", desc: "Five ways through the plates, by question rather than by letter.",
@@ -165,7 +175,7 @@ export const UI = {
     volumeWord: "ТОМ",
     skip: "К содержанию атласа",
     navLabel: "Разделы атласа",
-    nav: { volumes: "АТЛАС", index: "УКАЗАТЕЛЬ", map: "КАРТА", chrono: "ХРОНОЛОГИЯ", sources: "ИСТОЧНИКИ", method: "МЕТОД", prologue: "ПРОЛОГ", words: "СЛОВАРЬ", search: "ПОИСК" },
+    nav: { volumes: "АТЛАС", index: "УКАЗАТЕЛЬ", map: "КАРТА", chrono: "ХРОНОЛОГИЯ", sources: "ИСТОЧНИКИ", method: "МЕТОД", prologue: "ПРОЛОГ", words: "СЛОВАРЬ", routes: "МАРШРУТЫ", archive: "ПОЛЕВОЙ АРХИВ", search: "ПОИСК" },
     contents: "СОДЕРЖАНИЕ", close: "ЗАКРЫТЬ", colophon: "КОЛОФОН", coverWord: "Обложка",
     footer: (ed, compiled) => `${ed} · составлено ${compiled}`,
     footColophon: "колофон", footSources: "источники",
@@ -230,6 +240,16 @@ export const UI = {
       counts: "РАЗДЕЛОВ", of: "из", noteH: "КАК ЧИТАТЬ",
       note1: "Раздел — блок на листе: отрывок, таблица, запись или примечание. Иллюстрации и цитаты утверждениями не считаются. Уровень — тот, который сам лист присвоил разделу.",
       note2: "Раздел без источника не обязательно неверен, но именно тут читателю стоит спросить, на чём он держится. Журнал собирается при каждой сборке, поэтому не может разойтись с листами."
+    },
+    archive: {
+      title: "Полевой архив — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Все исходные изображения атласа: автор, дата, собрание, лицензия, ссылка на оригинал и листы, где они используются.",
+      kicker: "ПОЛЕВОЙ АРХИВ", h1: "ИЗОБРА-<br>ЖЕНИЯ",
+      dek: "Карточка на каждое исходное изображение атласа: автор, дата, собрание, лицензия и ссылка на страницу оригинала. На листах показаны обработанные копии; здесь названо то, из чего они сделаны.",
+      count: "ИСХОДНЫХ ИЗОБРАЖЕНИЙ", derivedAll: "ОБРАБОТАННЫХ КОПИЙ ИЗ НИХ", source: "страница оригинала", derived: "обработанных копий", unused: "на лист не поставлено",
+      classes: { "contemporary documentation": "современная документация" },
+      kinds: { photograph: "ФОТОГРАФИИ", painting: "КАРТИНЫ", icon: "ИКОНЫ", print: "ГРАВЮРЫ", plate: "ТАБЛИЦЫ", plan: "ПЛАНЫ" },
+      noteH: "КАК ЧИТАТЬ", note1: "Даты — те, что указаны в файле-источнике; если страница файла их не даёт, это видно на карточке. Обработанная копия сохраняет указание авторства оригинала.",
+      note2: "Список строится из реестра изображений при каждой сборке. Карточка говорит, что это за изображение, а не что оно доказывает."
     },
     routes: {
       title: "Маршруты чтения — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Пять путей по листам — по вопросу, а не по букве.",
