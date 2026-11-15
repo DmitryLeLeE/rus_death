@@ -287,7 +287,7 @@ function quote(s) {
 }
 
 function diagramFig(s, base) {
-  return `<figure class="drawing${/\.svg$/.test((IMG[s.src] || {}).file || "") ? " drawing--sheet" : ""}">
+  return `<figure class="drawing${/\.svg$/.test((IMG[s.src] || {}).file || "") ? " drawing--sheet" : ""}${s.size === "wide" ? " drawing--wide" : ""}">
   <img src="${UP}${base}assets/illustrations/${s.src}.svg" alt="${esc(s.alt || "")}" loading="lazy" decoding="async">
   <figcaption class="cap">${md(s.caption)} ${s.credit ? `<span class="cap__credit">${esc(s.credit)}</span>` : ""} ${s.level ? tag(s.level) : ""}</figcaption>
 </figure>`;
@@ -546,7 +546,7 @@ function renderPlate(p) {
   const placed = new Set(lay.items.filter((i) => i.s !== undefined).map((i) => i.s));
   const items = lay.items.slice();
   const maxRow = Math.max(...lay.items.map((i) => i.r || 1));
-  p.sections.forEach((s, i) => { if (!placed.has(i) && !s.hidden) items.push({ s: i, r: maxRow + 1 + i, c: "2/12", mat: "newsprint", m: "c" }); });
+  p.sections.forEach((s, i) => { if (!placed.has(i) && !s.hidden) items.push({ s: i, r: s.at?.r ?? maxRow + 1 + i, c: s.at?.c || "2/12", mat: s.at?.mat || "newsprint", m: "c", ...(s.at?.w ? { w: s.at.w } : {}) }); });
   const body = items.map((it, i) => placeItem(p, it, i, base)).join("\n");
 
   const marginal = p.marginal ? `<aside class="ph marginal m-r" style="--c:8/13;--r:${maxRow + p.sections.length + 2};--y:0px;--rot:-1deg;--mw:90%">
@@ -1080,7 +1080,7 @@ function archivePage() {
     for (const [k, v] of Object.entries(FIGMAP)) if (hay.includes(`"${k}"`) && IMG[v]) ids.add(origOf(v).id);
     for (const id of ids) (usedBy[id] = usedBy[id] || []).push(p.id);
   }
-  const kinds = ["photograph", "painting", "icon", "print", "plate", "plan"];
+  const kinds = ["photograph", "painting", "icon", "print", "plate", "plan", "diagram"];
   const derivs = (id) => imagesDoc.images.filter((i) => i.parent === id).length;
   const card = (im) => `<li class="arch" id="arch-${im.id}"><h3 class="arch__t">${esc((LANG === "ru" && im.title_ru) || im.title)}</h3>
   <p class="arch__m mono">${esc(im.creator || "")} · ${esc(im.date || "")}${im.collection ? ` · ${esc(im.collection)}` : ""}</p>

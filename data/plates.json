@@ -812,6 +812,20 @@
           "paras": [
             "In the preface read here, Zelenin says the study did not start in a Russian village. In the summer of 1909 he surveyed the Besermyans, a small people of Vyatka province, and noted a rite he calls kuyas’kon: an offering thrown with contempt, fear and hatred to people who had died young by unnatural death, among them a miller’s wife killed in a fall from a tree, miscarried infants and murdered families of an unknown people. Seeking the same beliefs among Russians and their neighbours led him to an article of 1911 in Zhivaya starina on the cult of those dead by unnatural death among Russians and Finns, and then to the book of 1916 (Petrograd, A. V. Orlov, 328 pages). The origin matters for the plate’s dispute. The category of the ‘pledged’ dead was assembled in the first place from a non-Russian rite and extended to Russian reports, which, in the atlas’s reading, adds a reason for the caution recorded above. Only the preface was read, in a modern reissue whose editing differs from the first edition, so the atlas does not judge how far Zelenin’s extension holds."
           ]
+        },
+        {
+          "type": "figure",
+          "src": "diagram-zelenin-timeline",
+          "alt": "Timeline with three red points: 1909, 1911 and 1916, each with a short note on the fieldwork, the article and the book",
+          "caption": "Editorial diagram: the three steps Zelenin’s preface gives for the category of the ‘pledged’ dead. The plate reads the order as one reason for caution; it is not evidence that the category fails.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "interpretation",
+          "size": "wide",
+          "at": {
+            "r": 7,
+            "c": "1/13",
+            "w": 100
+          }
         }
       ],
       "volume": "I"
@@ -3928,6 +3942,20 @@
             "A source for the claim, seen only on popular sites, that the word Radonitsa is attested from the 14th century."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "diagram-calendar-from-easter",
+          "alt": "A horizontal axis from Easter day 0 to day 49 with red points for Radonitsa at day 9, Semik at day 45 and Trinity Saturday at day 48",
+          "caption": "Editorial diagram of the movable days on the plate. The day numbers are the plate’s arithmetic, not a statement in the sources; Semik is a folk day that the Church calendar does not have.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "interpretation",
+          "size": "wide",
+          "at": {
+            "r": 6,
+            "c": "1/13",
+            "w": 100
+          }
         }
       ]
     },
@@ -4136,6 +4164,20 @@
             "Open-access field studies of funeral prohibitions in other regions, for example the Chuvash study found while searching, as a comparison and not as Russian evidence."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "diagram-two-aims",
+          "alt": "A red bar from death to burial to the fortieth day labelled as the open boundary, with two lists beneath: protective acts and prohibitions",
+          "caption": "Editorial diagram of one encyclopedia article’s general account. The article gives no date or reason for each act, so the acts are listed beside the bar, not placed on it.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide",
+          "at": {
+            "r": 6,
+            "c": "1/13",
+            "w": 100
+          }
         }
       ]
     },
@@ -4491,6 +4533,20 @@
             "The platforms’ own help pages and terms, with the date of each version, and the legal text on inheritance of accounts; the plate does not explain Russian law."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "diagram-dead-page-procedure",
+          "alt": "Three boxes joined by red arrows: relatives ask, photo of a death certificate, VK decides; two outcomes below: keep the page with a label, or delete it",
+          "caption": "Editorial diagram of the procedure a news item reports. The item’s date is not shown in the excerpt read, platform help pages were not read, and rules of this kind change.",
+          "credit": "Original diagram for this atlas, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "wide",
+          "at": {
+            "r": 6,
+            "c": "1/13",
+            "w": 100
+          }
         }
       ]
     }

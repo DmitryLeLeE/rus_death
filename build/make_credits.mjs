@@ -13,6 +13,7 @@ const kindLabel = {
   icon: "Icon (reproduction)",
   photograph: "Photograph",
   plate: "Printed illustration",
+  diagram: "Original editorial diagram (not a historical document)",
   derivative: "Derivative image (made for this atlas)",
 };
 

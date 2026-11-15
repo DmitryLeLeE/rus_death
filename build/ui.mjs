@@ -80,7 +80,7 @@ export const UI = {
       dek: "One card for each source image used in the atlas, with its maker, date, holding collection, licence and a link to the original file page. The plates show processed copies; this page names what they were made from.",
       count: "SOURCE IMAGES", derivedAll: "PROCESSED COPIES MADE FROM THEM", source: "original file page", derived: "processed copies", unused: "not placed on a plate",
       classes: { "contemporary documentation": "contemporary documentation" },
-      kinds: { photograph: "PHOTOGRAPHS", painting: "PAINTINGS", icon: "ICONS", print: "PRINTS", plate: "PLATES", plan: "PLANS" },
+      kinds: { photograph: "PHOTOGRAPHS", painting: "PAINTINGS", icon: "ICONS", print: "PRINTS", plate: "PLATES", plan: "PLANS", diagram: "DIAGRAMS" },
       noteH: "HOW TO READ THIS", note1: "Dates are those the source file gives; where a file page gives none, the card says so. A processed copy keeps the credit of its original.",
       note2: "The list is generated from the image register at each build. A card says what an image is, not what it proves."
     },
@@ -247,7 +247,7 @@ export const UI = {
       dek: "Карточка на каждое исходное изображение атласа: автор, дата, собрание, лицензия и ссылка на страницу оригинала. На листах показаны обработанные копии; здесь названо то, из чего они сделаны.",
       count: "ИСХОДНЫХ ИЗОБРАЖЕНИЙ", derivedAll: "ОБРАБОТАННЫХ КОПИЙ ИЗ НИХ", source: "страница оригинала", derived: "обработанных копий", unused: "на лист не поставлено",
       classes: { "contemporary documentation": "современная документация" },
-      kinds: { photograph: "ФОТОГРАФИИ", painting: "КАРТИНЫ", icon: "ИКОНЫ", print: "ГРАВЮРЫ", plate: "ТАБЛИЦЫ", plan: "ПЛАНЫ" },
+      kinds: { photograph: "ФОТОГРАФИИ", painting: "КАРТИНЫ", icon: "ИКОНЫ", print: "ГРАВЮРЫ", plate: "ТАБЛИЦЫ", plan: "ПЛАНЫ", diagram: "ДИАГРАММЫ" },
       noteH: "КАК ЧИТАТЬ", note1: "Даты — те, что указаны в файле-источнике; если страница файла их не даёт, это видно на карточке. Обработанная копия сохраняет указание авторства оригинала.",
       note2: "Список строится из реестра изображений при каждой сборке. Карточка говорит, что это за изображение, а не что оно доказывает."
     },

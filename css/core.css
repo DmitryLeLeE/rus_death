@@ -277,3 +277,12 @@ dialog::backdrop { background: rgba(6, 5, 4, 0.82); }
 .mat-soot .tag--unv, .mat-granite .tag--unv { color: #e0604f; }
 .tag--con { border-style: solid; background: var(--red); color: #f3ece0; border-color: var(--red); }
 .tool .tag--unv { color: #8c1c13; }
+
+/* diagram sheets: readable level tag on the light sheet, wider format for editorial diagrams */
+.drawing--sheet .tag--doc { background: #1a1714; color: #e6e0d0; border-color: #1a1714; }
+.drawing--sheet .tag--int { color: #1a1714; }
+.drawing--wide { max-width: 62rem; }
+@media (max-width: 700px) {
+  .drawing--wide { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .drawing--wide img { min-width: 640px; }
+}
