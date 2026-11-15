@@ -49,6 +49,7 @@ export const LAYOUT = {
       { s: 3, r: 3, c: "8/13", y: 90, rot: 0.9, mat: "manila", w: 92, m: "r" },
       { s: 4, r: 4, c: "3/9", y: 40, rot: -1.1, mat: "soot", w: 90, m: "l" },
       { s: 5, r: 4, c: "9/13", y: -10, rot: 1.4, mat: "none", w: 86, m: "r" },
+      { a: "izba-red-corner-cut", r: 5, c: "3/11", y: 20, rot: -0.6, w: 100, m: "c", tape: "tl" },
     ],
   },
   body: {
@@ -62,6 +63,8 @@ export const LAYOUT = {
       { s: 3, r: 3, c: "1/5", y: 60, rot: 1.2, mat: "manila", w: 90, m: "l" },
       { s: 4, r: 4, c: "2/12", y: 10, rot: -0.3, mat: "newsprint", w: 100, m: "c" },
       { s: 5, r: 5, c: "7/13", y: -10, rot: 1.0, mat: "concrete", w: 88, m: "r" },
+      { a: "corpse-laid-out-cut", r: 6, c: "1/8", y: 10, rot: -0.6, w: 96, m: "l", tape: "tl" },
+      { a: "coffin-vyazma-cut", r: 6, c: "8/13", y: 70, rot: 1.2, w: 90, m: "r", tape: "tr" },
     ],
   },
   ritual: {
@@ -75,6 +78,7 @@ export const LAYOUT = {
       { s: 3, r: 4, c: "6/12", y: 80, rot: -0.5, mat: "manila", w: 94, m: "r" },
       { s: 4, r: 5, c: "2/8", y: 0, rot: 0.8, mat: "linen", w: 92, m: "l" },
       { s: 5, r: 5, c: "9/13", y: 60, rot: -1.3, mat: "soot", w: 90, m: "r" },
+      { a: "gapon-panikhida-cut", r: 6, c: "3/10", y: 20, rot: -0.8, w: 96, m: "c", tape: "tc" },
     ],
   },
   table: {
@@ -105,6 +109,7 @@ export const LAYOUT = {
       { s: 3, r: 4, c: "4/10", y: 40, rot: -0.3, mat: "soot", w: 94, m: "c" },
       { s: 4, r: 5, c: "2/7", y: 0, rot: 1.0, mat: "granite", w: 88, m: "l" },
       { s: 5, r: 5, c: "8/13", y: 80, rot: -1.0, mat: "none", w: 90, m: "r" },
+      { a: "perov-drowned-cut", r: 6, c: "2/11", y: 10, rot: 0.5, w: 100, m: "c" },
     ],
   },
   grave: {
@@ -140,6 +145,8 @@ export const LAYOUT = {
       { s: 4, r: 3, c: "2/12", y: 10, rot: -0.2, mat: "plaster", w: 100, m: "c" },
       { s: 5, r: 4, c: "6/12", y: 0, rot: 1.0, mat: "soot", w: 90, m: "r" },
       { s: 6, r: 4, c: "1/6", y: 80, rot: -1.5, mat: "none", w: 84, m: "l" },
+      { a: "fedosova-cut", r: 5, c: "1/5", y: 20, rot: -1.4, w: 100, m: "l", tape: "tl" },
+      { a: "plattonen-funeral-cut", r: 5, c: "5/13", y: 60, rot: 0.8, w: 96, m: "r" },
     ],
   },
   afterlife: {
@@ -202,6 +209,8 @@ export const LAYOUT = {
       { s: 4, r: 5, c: "2/8", y: 0, rot: 0.9, mat: "soot", w: 90, m: "l" },
       { s: 5, r: 5, c: "8/13", y: 60, rot: -1.2, mat: "none", w: 88, m: "r" },
       { s: 6, r: 6, c: "2/12", y: 0, rot: 0.3, mat: "plaster", w: 100, m: "c" },
+      { a: "donskoy-crematorium-cut", r: 7, c: "1/8", y: 20, rot: -0.6, w: 98, m: "l", tape: "tl" },
+      { a: "donskoy-columbarium-cut", r: 7, c: "9/13", y: 60, rot: 1.4, w: 90, m: "r" },
     ],
   },
   archive: {

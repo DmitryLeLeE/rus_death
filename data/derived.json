@@ -1,342 +1,432 @@
 [
-  {
-    "id": "hero-radonitsa",
-    "parent_file": "radonitsa-graves.jpg",
-    "treatment": "black",
-    "title": "Commemoration at graves, Khutir Tymky, Ukraine (2014; not evidence for Russian custom)",
-    "shows": "Whole frame, cropped to a wide band",
-    "w": 1600,
-    "h": 940,
-    "bytes": 268772
-  },
-  {
-    "id": "hero-tomb",
-    "parent_file": "abandoned-tomb.jpg",
-    "treatment": "black",
-    "title": "Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don",
-    "shows": "Wide crop of the path and the tomb",
-    "w": 1600,
-    "h": 1040,
-    "bytes": 269100
-  },
-  {
-    "id": "radonitsa-table",
-    "parent_file": "radonitsa-graves.jpg",
-    "treatment": "faded",
-    "title": "Commemoration at graves, Khutir Tymky, Ukraine — the table (2014)",
-    "shows": "Table with cloth and food, right of centre",
-    "w": 900,
-    "h": 690,
-    "bytes": 100374
-  },
-  {
-    "id": "golubets-cut",
-    "parent_file": "golubets.jpg",
-    "treatment": "xerox",
-    "title": "Roofed cross, Kazan cemetery, Pushkin (St Petersburg)",
-    "shows": "Whole frame",
-    "w": 682,
-    "h": 1024,
-    "bytes": 194462
-  },
-  {
-    "id": "golubets-roof",
-    "parent_file": "golubets.jpg",
-    "treatment": "black",
-    "title": "Roofed cross, Kazan cemetery, Pushkin — roof and niche",
-    "shows": "Roof and the niche under the gable",
-    "w": 900,
-    "h": 672,
-    "bytes": 46754
-  },
-  {
-    "id": "ilf-stele",
-    "parent_file": "ilf-grave.jpg",
-    "treatment": "faded",
-    "title": "Grave of Ilya Ilf, Novodevichy Cemetery — the inscription",
-    "shows": "Name and dates on the stone",
-    "w": 900,
-    "h": 810,
-    "bytes": 125444
-  },
-  {
-    "id": "ilf-site",
-    "parent_file": "ilf-grave.jpg",
-    "treatment": "black",
-    "title": "Grave of Ilya Ilf, Novodevichy Cemetery, Moscow",
-    "shows": "Whole frame",
-    "w": 1000,
-    "h": 1333,
-    "bytes": 311452
-  },
-  {
-    "id": "ships-xerox",
-    "parent_file": "ships-grave.jpg",
-    "treatment": "xerox",
-    "title": "Grave of A. N. Stepanov and M. A. Stepanova, Novodevichy Cemetery",
-    "shows": "Whole frame",
-    "w": 864,
-    "h": 1152,
-    "bytes": 289888
-  },
-  {
-    "id": "ships-flowers",
-    "parent_file": "ships-grave.jpg",
-    "treatment": "halftone",
-    "title": "Grave of A. N. Stepanov and M. A. Stepanova — the plot and its flowers",
-    "shows": "Lower half",
-    "w": 900,
-    "h": 616,
-    "bytes": 243554
-  },
-  {
-    "id": "tomb-black",
-    "parent_file": "abandoned-tomb.jpg",
-    "treatment": "dormant",
-    "title": "Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don",
-    "shows": "Whole frame",
-    "w": 1200,
-    "h": 1600,
-    "bytes": 267540
-  },
-  {
-    "id": "tomb-path",
-    "parent_file": "abandoned-tomb.jpg",
-    "treatment": "faded",
-    "title": "Abandoned tomb, Nizhne-Gnilovskoye cemetery — the path and the bench",
-    "shows": "Lower path with the bench",
-    "w": 900,
-    "h": 853,
-    "bytes": 206652
-  },
-  {
-    "id": "dormition-bier",
-    "parent_file": "dormition-novgorod.jpg",
-    "treatment": "halftone",
-    "title": "The Dormition (Novgorod school, 15th c.) — the bier and mourners",
-    "shows": "Lower register of the icon",
-    "w": 1332,
-    "h": 750,
-    "bytes": 454752
-  },
-  {
-    "id": "dormition-face",
-    "parent_file": "dormition-novgorod.jpg",
-    "treatment": "black",
-    "title": "The Dormition (Novgorod school, 15th c.) — the laid-out body",
-    "shows": "Central group",
-    "w": 900,
-    "h": 831,
-    "bytes": 231110
-  },
-  {
-    "id": "judgment-top",
-    "parent_file": "last-judgment-volga.jpg",
-    "treatment": "xerox",
-    "title": "The Last Judgment (1770s–1780s icon) — upper registers",
-    "shows": "Heavenly registers",
-    "w": 1149,
-    "h": 560,
-    "bytes": 211594
-  },
-  {
-    "id": "judgment-hell",
-    "parent_file": "last-judgment-volga.jpg",
-    "treatment": "black",
-    "title": "The Last Judgment (1770s–1780s icon) — the red lower field",
-    "shows": "Hell and the way of the souls",
-    "w": 1149,
-    "h": 620,
-    "bytes": 124634
-  },
-  {
-    "id": "judgment-strip",
-    "parent_file": "last-judgment-volga.jpg",
-    "treatment": "xerox",
-    "title": "The Last Judgment (1770s–1780s icon) — inscription column",
-    "shows": "Narrow vertical strip with Slavonic text",
-    "w": 190,
-    "h": 1511,
-    "bytes": 89680
-  },
-  {
-    "id": "judgment-saints",
-    "parent_file": "last-judgment-volga.jpg",
-    "treatment": "faded",
-    "title": "The Last Judgment (1770s–1780s icon) — lower row of scenes",
-    "shows": "Bottom register",
-    "w": 1149,
-    "h": 261,
-    "bytes": 48314
-  },
-  {
-    "id": "perov-sled",
-    "parent_file": "perov-funeral.jpg",
-    "treatment": "black",
-    "title": "Seeing Off the Dead (Perov, 1865) — the sled and the coffin",
-    "shows": "Central group",
-    "w": 1000,
-    "h": 1000,
-    "bytes": 150436
-  },
-  {
-    "id": "perov-dog",
-    "parent_file": "perov-funeral.jpg",
-    "treatment": "faded",
-    "title": "Seeing Off the Dead (Perov, 1865) — the dog and the snow",
-    "shows": "Lower left",
-    "w": 700,
-    "h": 719,
-    "bytes": 63656
-  },
-  {
-    "id": "meal-engraving",
-    "parent_file": "memorial-meal-1881.jpg",
-    "treatment": "halftone",
-    "title": "Memorial meal at Smolensk cemetery, 1881 — the table",
-    "shows": "Right half, enlarged ×3 (the only copy is 604 × 401 px)",
-    "w": 1100,
-    "h": 882,
-    "bytes": 402822
-  },
-  {
-    "id": "piskaryov-band",
-    "parent_file": "piskaryovskoye-flame.jpg",
-    "treatment": "black",
-    "title": "Piskaryovskoye Memorial Cemetery, St Petersburg — granite and flowers",
-    "shows": "Long horizontal band",
-    "w": 1600,
-    "h": 360,
-    "bytes": 71110
-  },
-  {
-    "id": "piskaryov-flame",
-    "parent_file": "piskaryovskoye-flame.jpg",
-    "treatment": "xerox",
-    "title": "Piskaryovskoye Memorial Cemetery — the Eternal Flame",
-    "shows": "Central slab",
-    "w": 900,
-    "h": 547,
-    "bytes": 126720
-  },
-  {
-    "id": "soldier-flowers",
-    "parent_file": "unknown-soldier-1979.jpg",
-    "treatment": "black",
-    "title": "Laying flowers at the Tomb of the Unknown Soldier, Moscow, 9 May 1979",
-    "shows": "Whole frame",
-    "w": 1600,
-    "h": 1053,
-    "bytes": 182724
-  },
-  {
-    "id": "soldier-name",
-    "parent_file": "unknown-soldier-1979.jpg",
-    "treatment": "xerox",
-    "title": "Tomb of the Unknown Soldier, 1979 — incised lettering on the slab",
-    "shows": "Lower right",
-    "w": 800,
-    "h": 458,
-    "bytes": 105298
-  },
-  {
-    "id": "perov-full",
-    "parent_file": "perov-funeral.jpg",
-    "treatment": "black",
-    "title": "Seeing Off the Dead (Perov, 1865)",
-    "shows": "Whole painting",
-    "w": 1200,
-    "h": 983,
-    "bytes": 196208
-  },
-  {
-    "id": "judgment-full",
-    "parent_file": "last-judgment-volga.jpg",
-    "treatment": "xerox",
-    "title": "The Last Judgment (1770s–1780s icon)",
-    "shows": "Whole icon",
-    "w": 1149,
-    "h": 1511,
-    "bytes": 528494
-  },
-  {
-    "id": "dormition-full",
-    "parent_file": "dormition-novgorod.jpg",
-    "treatment": "black",
-    "title": "The Dormition (Novgorod school, 15th c.)",
-    "shows": "Whole icon",
-    "w": 1332,
-    "h": 1600,
-    "bytes": 707950
-  },
-  {
-    "id": "arkhipov-radonitsa-cut",
-    "parent_file": "arkhipov-radonitsa.jpg",
-    "treatment": "faded",
-    "title": "Radonitsa, painting by Abram Arkhipov",
-    "shows": "Whole picture",
-    "w": 1500,
-    "h": 748,
-    "bytes": 177838
-  },
-  {
-    "id": "nevrev-panikhida-cut",
-    "parent_file": "nevrev-panikhida.jpg",
-    "treatment": "news",
-    "title": "Requiem at a village cemetery, painting by Nikolai Nevrev (1865)",
-    "shows": "Whole picture",
-    "w": 900,
-    "h": 1223,
-    "bytes": 286300
-  },
-  {
-    "id": "soldatskoe-pascha-cut",
-    "parent_file": "soldatskoe-pascha.jpg",
-    "treatment": "dormant",
-    "title": "Village cemetery at Easter, Soldatskoye (Belgorod Oblast, 2014)",
-    "shows": "Cropped to the cross and the grave mound",
-    "w": 880,
-    "h": 1008,
-    "bytes": 230042
-  },
-  {
-    "id": "trifon-cemetery-cut",
-    "parent_file": "trifon-cemetery.jpg",
-    "treatment": "black",
-    "title": "Village cemetery, Trifon (Kostroma Oblast, 2019)",
-    "shows": "Whole frame",
-    "w": 1400,
-    "h": 718,
-    "bytes": 368282
-  },
-  {
-    "id": "rogozhskoe-oldbelievers-cut",
-    "parent_file": "rogozhskoe-oldbelievers.jpg",
-    "treatment": "halftone",
-    "title": "Graves of Old Believers, Rogozhskoye Cemetery, Moscow",
-    "shows": "Whole frame",
-    "w": 1200,
-    "h": 700,
-    "bytes": 331718
-  },
-  {
-    "id": "kizhi-ryabinin-cut",
-    "parent_file": "kizhi-ryabinin.jpg",
-    "treatment": "xerox",
-    "title": "Kizhi churchyard — the grave of the storyteller T. G. Ryabinin (2021)",
-    "shows": "Whole frame",
-    "w": 1100,
-    "h": 731,
-    "bytes": 300950
-  },
-  {
-    "id": "mamayev-news",
-    "parent_file": "mamayev.jpg",
-    "treatment": "news",
-    "title": "Mamayev Kurgan, Volgograd — the slope",
-    "shows": "Lower two-thirds",
-    "w": 1400,
-    "h": 787,
-    "bytes": 256930
-  }
+ {
+  "id": "hero-radonitsa",
+  "parent_file": "radonitsa-graves.jpg",
+  "treatment": "black",
+  "title": "Commemoration at graves, Khutir Tymky, Ukraine (2014; not evidence for Russian custom)",
+  "shows": "Whole frame, cropped to a wide band",
+  "w": 1600,
+  "h": 940,
+  "bytes": 268772
+ },
+ {
+  "id": "hero-tomb",
+  "parent_file": "abandoned-tomb.jpg",
+  "treatment": "black",
+  "title": "Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don",
+  "shows": "Wide crop of the path and the tomb",
+  "w": 1600,
+  "h": 1040,
+  "bytes": 269100
+ },
+ {
+  "id": "radonitsa-table",
+  "parent_file": "radonitsa-graves.jpg",
+  "treatment": "faded",
+  "title": "Commemoration at graves, Khutir Tymky, Ukraine — the table (2014)",
+  "shows": "Table with cloth and food, right of centre",
+  "w": 900,
+  "h": 690,
+  "bytes": 100374
+ },
+ {
+  "id": "golubets-cut",
+  "parent_file": "golubets.jpg",
+  "treatment": "xerox",
+  "title": "Roofed cross, Kazan cemetery, Pushkin (St Petersburg)",
+  "shows": "Whole frame",
+  "w": 682,
+  "h": 1024,
+  "bytes": 194462
+ },
+ {
+  "id": "golubets-roof",
+  "parent_file": "golubets.jpg",
+  "treatment": "black",
+  "title": "Roofed cross, Kazan cemetery, Pushkin — roof and niche",
+  "shows": "Roof and the niche under the gable",
+  "w": 900,
+  "h": 672,
+  "bytes": 46754
+ },
+ {
+  "id": "ilf-stele",
+  "parent_file": "ilf-grave.jpg",
+  "treatment": "faded",
+  "title": "Grave of Ilya Ilf, Novodevichy Cemetery — the inscription",
+  "shows": "Name and dates on the stone",
+  "w": 900,
+  "h": 810,
+  "bytes": 125444
+ },
+ {
+  "id": "ilf-site",
+  "parent_file": "ilf-grave.jpg",
+  "treatment": "black",
+  "title": "Grave of Ilya Ilf, Novodevichy Cemetery, Moscow",
+  "shows": "Whole frame",
+  "w": 1000,
+  "h": 1333,
+  "bytes": 311452
+ },
+ {
+  "id": "ships-xerox",
+  "parent_file": "ships-grave.jpg",
+  "treatment": "xerox",
+  "title": "Grave of A. N. Stepanov and M. A. Stepanova, Novodevichy Cemetery",
+  "shows": "Whole frame",
+  "w": 864,
+  "h": 1152,
+  "bytes": 289888
+ },
+ {
+  "id": "ships-flowers",
+  "parent_file": "ships-grave.jpg",
+  "treatment": "halftone",
+  "title": "Grave of A. N. Stepanov and M. A. Stepanova — the plot and its flowers",
+  "shows": "Lower half",
+  "w": 900,
+  "h": 616,
+  "bytes": 243554
+ },
+ {
+  "id": "tomb-black",
+  "parent_file": "abandoned-tomb.jpg",
+  "treatment": "dormant",
+  "title": "Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 1600,
+  "bytes": 267540
+ },
+ {
+  "id": "tomb-path",
+  "parent_file": "abandoned-tomb.jpg",
+  "treatment": "faded",
+  "title": "Abandoned tomb, Nizhne-Gnilovskoye cemetery — the path and the bench",
+  "shows": "Lower path with the bench",
+  "w": 900,
+  "h": 853,
+  "bytes": 206652
+ },
+ {
+  "id": "dormition-bier",
+  "parent_file": "dormition-novgorod.jpg",
+  "treatment": "halftone",
+  "title": "The Dormition (Novgorod school, 15th c.) — the bier and mourners",
+  "shows": "Lower register of the icon",
+  "w": 1332,
+  "h": 750,
+  "bytes": 454752
+ },
+ {
+  "id": "dormition-face",
+  "parent_file": "dormition-novgorod.jpg",
+  "treatment": "black",
+  "title": "The Dormition (Novgorod school, 15th c.) — the laid-out body",
+  "shows": "Central group",
+  "w": 900,
+  "h": 831,
+  "bytes": 231110
+ },
+ {
+  "id": "judgment-top",
+  "parent_file": "last-judgment-volga.jpg",
+  "treatment": "xerox",
+  "title": "The Last Judgment (1770s–1780s icon) — upper registers",
+  "shows": "Heavenly registers",
+  "w": 1149,
+  "h": 560,
+  "bytes": 211594
+ },
+ {
+  "id": "judgment-hell",
+  "parent_file": "last-judgment-volga.jpg",
+  "treatment": "black",
+  "title": "The Last Judgment (1770s–1780s icon) — the red lower field",
+  "shows": "Hell and the way of the souls",
+  "w": 1149,
+  "h": 620,
+  "bytes": 124634
+ },
+ {
+  "id": "judgment-strip",
+  "parent_file": "last-judgment-volga.jpg",
+  "treatment": "xerox",
+  "title": "The Last Judgment (1770s–1780s icon) — inscription column",
+  "shows": "Narrow vertical strip with Slavonic text",
+  "w": 190,
+  "h": 1511,
+  "bytes": 89680
+ },
+ {
+  "id": "judgment-saints",
+  "parent_file": "last-judgment-volga.jpg",
+  "treatment": "faded",
+  "title": "The Last Judgment (1770s–1780s icon) — lower row of scenes",
+  "shows": "Bottom register",
+  "w": 1149,
+  "h": 261,
+  "bytes": 48314
+ },
+ {
+  "id": "perov-sled",
+  "parent_file": "perov-funeral.jpg",
+  "treatment": "black",
+  "title": "Seeing Off the Dead (Perov, 1865) — the sled and the coffin",
+  "shows": "Central group",
+  "w": 1000,
+  "h": 1000,
+  "bytes": 150436
+ },
+ {
+  "id": "perov-dog",
+  "parent_file": "perov-funeral.jpg",
+  "treatment": "faded",
+  "title": "Seeing Off the Dead (Perov, 1865) — the dog and the snow",
+  "shows": "Lower left",
+  "w": 700,
+  "h": 719,
+  "bytes": 63656
+ },
+ {
+  "id": "meal-engraving",
+  "parent_file": "memorial-meal-1881.jpg",
+  "treatment": "halftone",
+  "title": "Memorial meal at Smolensk cemetery, 1881 — the table",
+  "shows": "Right half, enlarged ×3 (the only copy is 604 × 401 px)",
+  "w": 1100,
+  "h": 882,
+  "bytes": 402822
+ },
+ {
+  "id": "piskaryov-band",
+  "parent_file": "piskaryovskoye-flame.jpg",
+  "treatment": "black",
+  "title": "Piskaryovskoye Memorial Cemetery, St Petersburg — granite and flowers",
+  "shows": "Long horizontal band",
+  "w": 1600,
+  "h": 360,
+  "bytes": 71110
+ },
+ {
+  "id": "piskaryov-flame",
+  "parent_file": "piskaryovskoye-flame.jpg",
+  "treatment": "xerox",
+  "title": "Piskaryovskoye Memorial Cemetery — the Eternal Flame",
+  "shows": "Central slab",
+  "w": 900,
+  "h": 547,
+  "bytes": 126720
+ },
+ {
+  "id": "soldier-flowers",
+  "parent_file": "unknown-soldier-1979.jpg",
+  "treatment": "black",
+  "title": "Laying flowers at the Tomb of the Unknown Soldier, Moscow, 9 May 1979",
+  "shows": "Whole frame",
+  "w": 1600,
+  "h": 1053,
+  "bytes": 182724
+ },
+ {
+  "id": "soldier-name",
+  "parent_file": "unknown-soldier-1979.jpg",
+  "treatment": "xerox",
+  "title": "Tomb of the Unknown Soldier, 1979 — incised lettering on the slab",
+  "shows": "Lower right",
+  "w": 800,
+  "h": 458,
+  "bytes": 105298
+ },
+ {
+  "id": "perov-full",
+  "parent_file": "perov-funeral.jpg",
+  "treatment": "black",
+  "title": "Seeing Off the Dead (Perov, 1865)",
+  "shows": "Whole painting",
+  "w": 1200,
+  "h": 983,
+  "bytes": 196208
+ },
+ {
+  "id": "judgment-full",
+  "parent_file": "last-judgment-volga.jpg",
+  "treatment": "xerox",
+  "title": "The Last Judgment (1770s–1780s icon)",
+  "shows": "Whole icon",
+  "w": 1149,
+  "h": 1511,
+  "bytes": 528494
+ },
+ {
+  "id": "dormition-full",
+  "parent_file": "dormition-novgorod.jpg",
+  "treatment": "black",
+  "title": "The Dormition (Novgorod school, 15th c.)",
+  "shows": "Whole icon",
+  "w": 1332,
+  "h": 1600,
+  "bytes": 707950
+ },
+ {
+  "id": "arkhipov-radonitsa-cut",
+  "parent_file": "arkhipov-radonitsa.jpg",
+  "treatment": "faded",
+  "title": "Radonitsa, painting by Abram Arkhipov",
+  "shows": "Whole picture",
+  "w": 1500,
+  "h": 748,
+  "bytes": 177838
+ },
+ {
+  "id": "nevrev-panikhida-cut",
+  "parent_file": "nevrev-panikhida.jpg",
+  "treatment": "news",
+  "title": "Requiem at a village cemetery, painting by Nikolai Nevrev (1865)",
+  "shows": "Whole picture",
+  "w": 900,
+  "h": 1223,
+  "bytes": 286300
+ },
+ {
+  "id": "soldatskoe-pascha-cut",
+  "parent_file": "soldatskoe-pascha.jpg",
+  "treatment": "dormant",
+  "title": "Village cemetery at Easter, Soldatskoye (Belgorod Oblast, 2014)",
+  "shows": "Cropped to the cross and the grave mound",
+  "w": 880,
+  "h": 1008,
+  "bytes": 230042
+ },
+ {
+  "id": "trifon-cemetery-cut",
+  "parent_file": "trifon-cemetery.jpg",
+  "treatment": "black",
+  "title": "Village cemetery, Trifon (Kostroma Oblast, 2019)",
+  "shows": "Whole frame",
+  "w": 1400,
+  "h": 718,
+  "bytes": 368282
+ },
+ {
+  "id": "rogozhskoe-oldbelievers-cut",
+  "parent_file": "rogozhskoe-oldbelievers.jpg",
+  "treatment": "halftone",
+  "title": "Graves of Old Believers, Rogozhskoye Cemetery, Moscow",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 700,
+  "bytes": 331718
+ },
+ {
+  "id": "kizhi-ryabinin-cut",
+  "parent_file": "kizhi-ryabinin.jpg",
+  "treatment": "xerox",
+  "title": "Kizhi churchyard — the grave of the storyteller T. G. Ryabinin (2021)",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 731,
+  "bytes": 300950
+ },
+ {
+  "id": "izba-red-corner-cut",
+  "parent_file": "izba-red-corner.jpg",
+  "treatment": "halftone",
+  "title": "Red corner in an izba, Vitoslavlitsy (Veliky Novgorod)",
+  "shows": "Cropped to the icon, the towel and the corner",
+  "w": 1100,
+  "h": 859,
+  "bytes": 219614
+ },
+ {
+  "id": "corpse-laid-out-cut",
+  "parent_file": "corpse-laid-out.jpg",
+  "treatment": "faded",
+  "title": "The corpse of a rich Russian man laid out for burial (carte de visite)",
+  "shows": "Whole print on its mount",
+  "w": 1300,
+  "h": 787,
+  "bytes": 100104
+ },
+ {
+  "id": "coffin-vyazma-cut",
+  "parent_file": "coffin-vyazma.jpg",
+  "treatment": "faded",
+  "title": "Coffin, Vyazma Museum of History and Local Lore",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 798,
+  "bytes": 126444
+ },
+ {
+  "id": "gapon-panikhida-cut",
+  "parent_file": "gapon-panikhida.jpg",
+  "treatment": "faded",
+  "title": "Panikhida at the grave of Georgy Gapon, Uspenskoye cemetery (1906 or 1907)",
+  "shows": "Whole frame",
+  "w": 831,
+  "h": 675,
+  "bytes": 175146
+ },
+ {
+  "id": "perov-drowned-cut",
+  "parent_file": "perov-drowned.jpg",
+  "treatment": "dormant",
+  "title": "Drowned Woman, painting by Vasily Perov (1867)",
+  "shows": "Whole picture",
+  "w": 1400,
+  "h": 926,
+  "bytes": 175838
+ },
+ {
+  "id": "fedosova-cut",
+  "parent_file": "fedosova-1897.jpg",
+  "treatment": "xerox",
+  "title": "Portrait of the lamenter Irina Fedosova (engraving, 1897)",
+  "shows": "Whole engraving",
+  "w": 735,
+  "h": 841,
+  "bytes": 192618
+ },
+ {
+  "id": "plattonen-funeral-cut",
+  "parent_file": "plattonen-funeral.jpg",
+  "treatment": "dormant",
+  "title": "Funeral of the lamenter Matjoi Plattonen, Suistamo (1928)",
+  "shows": "Whole frame",
+  "w": 1400,
+  "h": 797,
+  "bytes": 95094
+ },
+ {
+  "id": "donskoy-crematorium-cut",
+  "parent_file": "donskoy-crematorium.jpg",
+  "treatment": "black",
+  "title": "First crematorium, Donskoye Cemetery, Moscow (2023)",
+  "shows": "Whole frame",
+  "w": 1300,
+  "h": 975,
+  "bytes": 209024
+ },
+ {
+  "id": "donskoy-columbarium-cut",
+  "parent_file": "donskoy-columbarium.jpg",
+  "treatment": "halftone",
+  "title": "Columbarium 9, section 1, Donskoye Cemetery (2023)",
+  "shows": "Whole frame",
+  "w": 900,
+  "h": 1153,
+  "bytes": 477194
+ },
+ {
+  "id": "mamayev-news",
+  "parent_file": "mamayev.jpg",
+  "treatment": "news",
+  "title": "Mamayev Kurgan, Volgograd — the slope",
+  "shows": "Lower two-thirds",
+  "w": 1400,
+  "h": 787,
+  "bytes": 256930
+ }
 ]

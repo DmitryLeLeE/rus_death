@@ -20,7 +20,7 @@ await b.close();
 
 // ---- one card per plate, EN and RU: social/plate-a.jpg, social/ru-plate-a.jpg ----
 import fs from "node:fs";
-const ground = { a: "tomb-path", b: "dormition-bier", c: "rogozhskoe-oldbelievers-cut", d: "radonitsa-table", e: "hero-radonitsa", f: "golubets-cut", g: "nevrev-panikhida-cut", h: "judgment-full", i: "piskaryov-flame", j: "perov-full", k: "mamayev-news", l: "tomb-black" };
+const ground = { a: "izba-red-corner-cut", b: "coffin-vyazma-cut", c: "gapon-panikhida-cut", d: "radonitsa-table", e: "perov-drowned-cut", f: "golubets-cut", g: "plattonen-funeral-cut", h: "judgment-full", i: "piskaryov-flame", j: "perov-full", k: "donskoy-crematorium-cut", l: "tomb-black" };
 const en = JSON.parse(fs.readFileSync(path.join(root, "data/plates.json"), "utf8")).plates;
 const ruP = JSON.parse(fs.readFileSync(path.join(root, "data/ru/plates.json"), "utf8")).plates;
 fs.mkdirSync(path.join(root, "social"), { recursive: true });
