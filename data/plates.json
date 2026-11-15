@@ -2523,7 +2523,7 @@
       "nav": "The Vanished Village",
       "title": "THE VANISHED VILLAGE",
       "subtitle": "Flooded towns, uncounted graves and the villages that simply empty",
-      "dek": "Villages leave the map in two ways: the state floods them, or people leave. The Rybinsk Reservoir covered a town and hundreds of villages; the census records thousands of villages with no residents at all. The plate puts the two side by side and says what is and is not known about the dead who stayed.",
+      "dek": "Villages leave the map in two ways: the state floods them, or people leave. The Rybinsk Reservoir covered a town and hundreds of villages; the census records thousands of villages with no residents at all. The plate puts the two side by side and says what is and is not documented about the cemeteries in the flood zone.",
       "marginal": "Figures for the flooded area come from a planning proposal. The claim about cemeteries under the water comes from a news feature seen only in an excerpt. Both are marked as such.",
       "period": "Flooding 1937–1947; census 2002–2010",
       "location": "Rybinsk Reservoir (Yaroslavl, Vologda and Tver oblasts); Russian Federation (census)",
@@ -2537,7 +2537,8 @@
         "rapsi2026",
         "tass2011-census",
         "osw2011-census",
-        "rte2011-villages"
+        "rte2011-villages",
+        "skorodumova-mariinka"
       ],
       "related": [
         "m",
@@ -2609,11 +2610,13 @@
           "heading": "The cemeteries under the water",
           "level": "unverified",
           "sources": [
-            "rapsi2026"
+            "rapsi2026",
+            "skorodumova-mariinka"
           ],
           "paras": [
             "A news feature published by RAPSI on 13 July 2026 says that the sanitary preparation of the reservoir bed was meant to include moving cemeteries, that in practice only some churchyards were moved in the 1930s and 1940s, and that many cemeteries of the Mologa area went under the water with their villages. It adds that estimates of the number resettled run from 100,000 to 130,000 and that historians dispute how they were counted.",
-            "This is unverified. The page could not be fetched, the lines were read in a search excerpt, and the excerpt cites no records. The plate treats it as a lead: the transfer of burials in the flood zone should be in archival files, and it is not in the sources read for this plate."
+            "This is unverified. The page could not be fetched, the lines were read in a search excerpt, and the excerpt cites no records. The plate treats it as a lead: the transfer of burials in the flood zone should be in archival files, and it is not in the sources read for this plate.",
+            "A second, personal strand: in a resettled woman's recollection, R. P. Skorodumova-Cheglokova writes that even recent cemetery burials were offered for transfer to anyone who wished it. It is one memory, read in a search excerpt only. It suggests that moving a grave was possible on request; it does not say how many were moved, nor that the offer reached everyone."
           ],
           "contested": true
         },

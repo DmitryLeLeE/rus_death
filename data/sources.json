@@ -817,6 +817,21 @@
       "language": "English",
       "supports": "The researchers’ claims as relayed by a university news item: digital footprints and virtual memorials; AI avatars of the dead that recreate voice and habits and can contain errors; a possible support for grief by sustained connection and a possible delay of acceptance and retraumatisation; platforms as de facto data owners.",
       "limitation": "A news item, not the article; the article itself and its title were not read. The item does not discuss Russia’s own law. Claims about grief are the researchers’ claims."
+    },
+    {
+      "id": "skorodumova-mariinka",
+      "kind": "memoir",
+      "author": "Skorodumova-Cheglokova, R. P.",
+      "title": "Все понимали, что переезд неизбежен",
+      "title_en": "Everyone understood that the move was unavoidable",
+      "year": "n.d.",
+      "publisher": "Web edition of a local-history collection, Vologda Regional Universal Research Library (booksite.ru, section «mariinka»)",
+      "extent": "",
+      "url": "https://booksite.ru/mariinka/st-36.html",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "A resettled woman's recollection that, before the flooding of the Rybinsk reservoir, even recent cemetery burials were offered for transfer to anyone who wished it (to Topornya or elsewhere).",
+      "limitation": "Read only in a search excerpt; the page itself could not be fetched, so the village, the year and the collection's title and date were not confirmed. One person's memory, not an official record; it shows that transfer was offered on request, not how many graves were moved or whether the offer was general."
     }
   ]
 }
