@@ -49,6 +49,12 @@ Method: for each dated entry that states a checkable date, author, size or place
 
 Not checked in this pass: Kulikovo-era Dmitrov Saturday (1380, Church account), the two Last Judgment icons and their dates, Plague of 1771 and Vagankovo, the 1771 ban on communal pits, Skrizhal’ (1803), Afanasyev (1855–1863), Death of Ivan Ilyich (1886), Zelenin (1916), Malevich (1935), the Krasilnikova entries, the Moscow gravestone-curb find (2019), the muon survey (2023), and the fieldwork entries. Their confidence lines in the data stay as they were.
 
+## 6. Lexicon, object catalogue and reading routes (second pass)
+
+- **Lexicon (46 entries):** read entry by entry for register and gloss. Two changes. *usopshii*: the register line said “church context only”; Ushakov, Ozhegov and Efremova mark the word as church-book, obsolete or bookish, so the line now says that (dictionary entries seen through dic.academic.ru). *skudelnitsa*: the 1771 ban is now attributed to the anonymous encyclopedia entry that is the only source for it. *semik* (Thursday of the seventh week after Easter) checked by arithmetic on the Easter date: consistent. Etymologies and dialect forms were not checked against dictionaries beyond these.
+- **Object catalogue (25 entries):** read against the sources listed. The eternal-flame entry agrees with the Presidential Library note (flame lit 6 Nov 1957, torch carried to Piskaryovskoye 9 May 1960). Evidence labels already say UNVERIFIED for fence, aspen stake and reused gravestone; no change. The sources cited for some entries (for example Tolstoy 1995 for the icon entry) were not re-read.
+- **Reading routes (5):** navigation, no new factual claims. Route “Outside the churchyard” now mentions the Kureika photograph on plate N.
+
 ## 4. Counts
 
 Claims with a recorded status: not counted, because this pass did not assign a status to each claim. Corrections: 4 (Malevich; Zelenin origin; Barsov volumes; 1723 decree attribution). Chronology entries given a recorded result in the second pass: 9 of 34. Sources added in this pass: zelenin-preface, zelenin1916-contents, danilov2018, yugai2018.
