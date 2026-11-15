@@ -2837,6 +2837,185 @@
           ]
         }
       ]
+    },
+    {
+      "id": "t",
+      "letter": "T",
+      "slug": "unquiet-dead",
+      "nav": "The Unquiet Dead",
+      "title": "THE UNQUIET DEAD",
+      "subtitle": "Impure dead, a scholar’s term and a dispute over its origin",
+      "dek": "Who was kept out of the common cemetery, by which source and in which decade, with a scholar’s term set apart from what informants said and a church-history challenge to the pagan-survival reading.",
+      "marginal": "One borderland, one district, one abstract-only dissent. The vampire of fiction is kept out.",
+      "period": "Records of the 19th–early 20th century; fieldwork 1990s–2019",
+      "location": "Belarusian-Russian borderland: Vitebsk, Pskov and Smolensk regions",
+      "tradition": "Russian and Belarusian folk belief about ‘impure’ dead",
+      "category": "grave",
+      "layout": "vanished",
+      "tone": "dark",
+      "sources": [
+        "ovseichik2022",
+        "ryko2025",
+        "avdeev2019",
+        "townsend2011"
+      ],
+      "related": [
+        "e",
+        "s",
+        "f"
+      ],
+      "concepts": [
+        "threshold",
+        "return"
+      ],
+      "objects": [],
+      "places": [],
+      "volume": "III",
+      "sections": [
+        {
+          "type": "prose",
+          "kicker": "T / 01",
+          "heading": "A name made by a scholar",
+          "level": "documented",
+          "sources": [
+            "ovseichik2022"
+          ],
+          "paras": [
+            "‘Zalozhnye pokoiniki’ is a scholar’s term. Dmitry Zelenin brought it into use in 1916, taking it from the dialect of Vyatka, where it meant dead who were ‘covered over’ with brushwood, boards or stakes instead of being laid in the earth. He understood it to reflect a belief that the earth does not receive such dead, and he used it for all the ‘impure’ dead.",
+            "V. E. Ovseichik, working on the Belarusian-Russian borderland, declines to extend the word to the whole category: it does not occur in Belarusian or other traditions, and burial methods varied. The plate therefore uses ‘unquiet dead’ and ‘impure dead’ for the category and keeps ‘zalozhnye’ for what Zelenin meant by it."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "T / 02",
+          "heading": "Three categories in one borderland",
+          "level": "documented",
+          "sources": [
+            "ovseichik2022"
+          ],
+          "paras": [
+            "Ovseichik’s material, from the Vitebsk, Pskov and Smolensk regions, centres on three groups. Unbaptised children were thought unable to enter paradise and to fly at night asking to be baptised; a symbolic baptism or naming after death is widespread. They were kept out of common cemeteries, a ban the author calls strictly enforced in the first half of the twentieth century. Later records mostly call such children angels.",
+            "Suicides, in the same material, were thought to go to the devil, not to the ancestors. In the nineteenth and early twentieth centuries the body was often not washed, was buried in the clothes it died in, with no funeral meal and no church service, and sometimes marked with an aspen stake. Reported burial places include crossroads, swamps, a ditch by the cemetery, hills and forest. Respondents expected drought and storms if a suicide lay in the common cemetery.",
+            "Sorcerers were ‘impure’ whatever the manner of death, because the devil was thought to take the soul. They were buried outside the cemetery or by its fence. Radical measures are reported: exhuming the body, cutting off the head and setting it between the legs, driving an aspen stake through the body. The author cites one modern informant for this."
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "makovsky-rusalki",
+          "show": "makovsky-rusalki-faded",
+          "alt": "A moonlit stream at night with nude women among the brush on the bank, others in a ring-dance along the water toward a church and a thatched house in mist",
+          "caption": "Makovsky, 1879. A salon picture of rusalki beside a village; the link between rusalki and the unquiet dead is itself in dispute.",
+          "credit": "Konstantin Makovsky, public domain; via Wikimedia Commons",
+          "level": "documented",
+          "size": "medium"
+        },
+        {
+          "type": "prose",
+          "kicker": "T / 03",
+          "heading": "Walking dead and literary vampires",
+          "level": "interpretation",
+          "sources": [
+            "ovseichik2022",
+            "townsend2011"
+          ],
+          "paras": [
+            "Ovseichik reports that sorcerers were believed to walk after death, harming people and drinking their blood, and adds that this is rare in the East Slavic area and more typical of South Slavic vampire lore. The borderland material is mostly about where and how the impure dead were buried, not about what they did once they rose.",
+            "The upyr’ of nineteenth-century Russian fiction is another matter. One thesis abstract places the literary vampire as a device used in Russian writing from the eighteenth century on, built on older belief. The atlas keeps the two apart: the field records read for this plate do not describe a figure like the literary vampire, and nothing here is evidence for one."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "T / 04",
+          "heading": "A dispute about where the rule came from",
+          "level": "interpretation",
+          "contested": true,
+          "sources": [
+            "avdeev2019"
+          ],
+          "paras": [
+            "Ethnographers of the late nineteenth and twentieth centuries took such burial customs for pagan survivals. A. Avdeev argues the opposite for Muscovite Russia: from sixteenth to early eighteenth-century epitaphs and letters of church hierarchs he finds no obstacle to cemetery burial or regular commemoration of those who died violent deaths, and he holds that the related superstitions arose in Christian times.",
+            "This plate has the abstract only. It cannot say how strong Avdeev’s evidence is or how far his conclusion reaches beyond the Muscovite sources. It is placed here so that the pagan-survival reading is not left standing alone."
+          ]
+        },
+        {
+          "type": "prose",
+          "kicker": "T / 05",
+          "heading": "A rule remembered, 2018–2019",
+          "level": "documented",
+          "sources": [
+            "ryko2025"
+          ],
+          "paras": [
+            "A. Ryko’s fieldwork in the Khislavichi district of the Smolensk region found only remnants of such beliefs. Informants born in the 1930s remember that those who hanged or drowned themselves were not taken to the common cemetery; younger people say they know nothing of it and that the drowned lay in the cemetery. Unbaptised infants were not counted as ‘unclean’ there. No one now says that certain dead can return and harm the living.",
+            "Set beside Ovseichik, the two studies cover neighbouring districts and different decades of the same century, and they do not agree on unbaptised children. The author says the findings rest on memory and that it is not clear whether the trend is local."
+          ]
+        },
+        {
+          "type": "register",
+          "kicker": "T / 06",
+          "heading": "Who lay where, by which source",
+          "colhead": [
+            "Group",
+            "Burial reported",
+            "Source and status"
+          ],
+          "rows": [
+            [
+              "Suicides",
+              "Outside the common cemetery: crossroads, swamp, ditch by the cemetery, hills, forest; no funeral meal or service",
+              "Ovseichik; 19th–early 20th century, borderland"
+            ],
+            [
+              "Sorcerers",
+              "Outside the cemetery or by the fence; reported stake and severed head",
+              "Ovseichik; one modern informant for the measures"
+            ],
+            [
+              "Unbaptised children",
+              "Kept out of common cemeteries in the Polotsk-Pskov zone",
+              "Ovseichik; first half of the 20th century"
+            ],
+            [
+              "Unbaptised infants (Smolensk, 2018–19)",
+              "Common cemetery; not ‘unclean’",
+              "Ryko; informants’ memory"
+            ],
+            [
+              "Hanged and drowned (Smolensk)",
+              "Former ban on the common cemetery, remembered by those born in the 1930s",
+              "Ryko; one district"
+            ],
+            [
+              "Violent death, Muscovite Russia",
+              "No obstacle to cemetery burial and commemoration, on the author’s reading",
+              "Avdeev; abstract only"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Caution",
+          "heading": "What this plate does not say",
+          "level": "interpretation",
+          "items": [
+            "It does not describe the whole of Russia. The field studies are from one borderland and one district.",
+            "It does not say rusalki were dead women, or that suicides became them. The picture and the older sources that say so are a disputed reading.",
+            "It gives no detail of the measures against the dead beyond what the cited article reports, and it gives none as instructions.",
+            "It does not cover the drowned of the Volga, the dead of epidemics or war, or the ‘parents’ and ‘ancestors’ commemorated at Semik. Those need their own sources."
+          ]
+        },
+        {
+          "type": "note",
+          "kicker": "Research leads",
+          "heading": "What would turn this plate into a study",
+          "level": "interpretation",
+          "items": [
+            "Zelenin’s 1916 essays on those who died ‘unnatural’ deaths and on rusalki, read in the 1995 edition, with his own sources checked.",
+            "The full text of Avdeev (2019), and the 2020 historiography by I. Afanasyeva on attitudes to ‘vain’ death in the 15th–17th centuries.",
+            "The records of the Polotsk and Pskov university folklore archives that Ovseichik cites, to separate archive material from his own notes."
+          ]
+        }
+      ]
     }
   ]
 }

@@ -48,6 +48,7 @@ export const KEY = {
   q: "mologa-market-news",
   r: "pechory-cave-church-faded",
   s: "kustodiev-domovoi-faded",
+  t: "makovsky-rusalki-faded",
 };
 
 export const LAYOUT = {

@@ -621,6 +621,66 @@
       "language": "Russian",
       "supports": "Only as a lead: the page, citing the academician N. I. Tolstoy, says it was a custom to build a house where an ancestor’s remains lay, and sometimes to bury the first member of the family to die after the housewarming under the threshold.",
       "limitation": "A popular portal read in a search excerpt; the passage is not traced to a page of Tolstoy’s book, and no region or period is given. It is not used to support any statement on the plate."
+    },
+    {
+      "id": "ovseichik2022",
+      "kind": "article",
+      "author": "Ovseichik, V. E. (Auseichyk, U.)",
+      "title": "«Нечистые» покойники в представлениях населения белорусско-русского (Полоцко-Псковского и Витебско-Смоленского) пограничья",
+      "title_en": "‘Impure’ dead in the perceptions of the population of the Belarusian-Russian (Polotsk-Pskov and Vitebsk-Smolensk) borderland",
+      "year": "2022",
+      "publisher": "Studia mythologica Slavica, vol. 25",
+      "extent": "pp. 141–163",
+      "url": "https://doi.org/10.3986/SMS20222507",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Categories of ‘impure’ dead in the Vitebsk, Pskov and Smolensk border region (unbaptised children, suicides, sorcerers); burial of suicides and sorcerers away from the common cemetery in the 19th and early 20th centuries; the reported measures against sorcerers (stake, severed head); Zelenin’s 1916 term ‘zalozhnye’ from Vyatka dialect and the author’s refusal to extend it to the whole category; walking dead rare in East Slavic material.",
+      "limitation": "Number of informants, number of records and sampling are not stated. Archive records (Polotsk and Pskov university archives), published collections, 19th-century publications and the author’s own notes are not always told apart. Other categories, such as women who died in childbirth, are said to be too scattered to reconstruct. Read in a machine summary of the open PDF, not page by page."
+    },
+    {
+      "id": "ryko2025",
+      "kind": "article",
+      "author": "Ryko, A.",
+      "title": "Funeral Rites in the Russian-Belarusian Borderland: Traditions and Innovations",
+      "title_en": "",
+      "year": "2025",
+      "publisher": "Chinese Journal of Slavic Studies, vol. 5, no. 1",
+      "extent": "pp. 114–129",
+      "url": "https://doi.org/10.1515/cjss-2025-0001",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "Khislavichi district, Smolensk region, fieldwork 2018–2019: a former ban on burying those who hanged or drowned themselves in the common cemetery, remembered by informants born in the 1930s; younger people say the drowned lay in the common cemetery; unbaptised infants not treated as ‘unclean’; no one now says such dead return.",
+      "limitation": "Informant and record counts not stated. The author says the findings rest on informants’ memories, which often diverge, and that it is unclear whether the trend is local or general. Read in a publisher’s abstract and summary, not in full."
+    },
+    {
+      "id": "avdeev2019",
+      "kind": "article",
+      "author": "Avdeev, A.",
+      "title": "Суеверия, погребальные обряды и древнерусская эпиграфика",
+      "title_en": "Superstitions, funeral ceremonies, and old Russian epigraphy",
+      "year": "2019",
+      "publisher": "Vestnik Pravoslavnogo Svyato-Tikhonovskogo gumanitarnogo universiteta, Seriya II, no. 86",
+      "extent": "pp. 61–80",
+      "url": "https://doi.org/10.15382/sturii201986.61-80",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Only the abstract: from 16th–early 18th-century epitaphs and letters of hierarchs, the author finds no obstacle to cemetery burial or regular commemoration of those who died violent ‘vain’ deaths, and argues the related superstitions are not pagan survivals but arose in Christian times.",
+      "limitation": "Abstract only; the article itself was not read, so its evidence and its limits are not checked here. The conclusion is one author’s and runs against the earlier ethnographic reading."
+    },
+    {
+      "id": "townsend2011",
+      "kind": "thesis",
+      "author": "Townsend, D. A.",
+      "title": "From Upyr' to Vampire: The Slavic Vampire Myth in Russian Literature",
+      "title_en": "",
+      "year": "2011",
+      "publisher": "University of New South Wales (thesis)",
+      "extent": "",
+      "url": "https://unsworks.unsw.edu.au/entities/publication/80028c0b-77ad-4250-a037-ea95a082b44a/full",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "Only the abstract: the Slavic vampire myth traced to pre-Orthodox belief became a literary device in Russian writing from the 18th century onward.",
+      "limitation": "Abstract only; the thesis was not read. It is used for one statement, that the literary vampire is a later device, and for nothing about field belief."
     }
   ]
 }

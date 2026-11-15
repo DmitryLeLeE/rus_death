@@ -580,6 +580,16 @@
   "bytes": 197134
  },
  {
+  "id": "makovsky-rusalki-faded",
+  "parent_file": "makovsky-rusalki.jpg",
+  "treatment": "faded",
+  "title": "Konstantin Makovsky, Rusalki (1879)",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 842,
+  "bytes": 125134
+ },
+ {
   "id": "mamayev-news",
   "parent_file": "mamayev.jpg",
   "treatment": "news",

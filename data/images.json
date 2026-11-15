@@ -669,6 +669,21 @@
       "note": "Commons title ‘Купчиха и домовой’. A 1922 genre painting, not a record of belief; it shows how the domovoy was pictured by an urban artist."
     },
     {
+      "id": "makovsky-rusalki",
+      "file": "assets/images/makovsky-rusalki.jpg",
+      "kind": "painting",
+      "title": "Konstantin Makovsky, Rusalki (1879)",
+      "creator": "Konstantin Makovsky",
+      "date": "1879",
+      "medium": "Painting (State Russian Museum, per Commons), as held on Commons (800 px)",
+      "collection": "Via Commons; credit given there to bibliotekar.ru",
+      "license": "Public domain",
+      "license_url": "",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rusalki.jpg",
+      "alt": "A moonlit stream at night with nude women among the brush on the bank, others in a ring-dance along the water toward a church and a thatched house in mist",
+      "note": "Commons title ‘Rusalki’. A salon painting by an academic artist, not a record of belief. The link between rusalki and the unquiet dead is itself disputed in the scholarship."
+    },
+    {
       "id": "hero-radonitsa",
       "file": "assets/derived/hero-radonitsa.webp",
       "kind": "derivative",
@@ -1593,6 +1608,22 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D0%BF%D1%87%D0%B8%D1%85%D0%B0_%D0%B8_%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%D0%BE%D0%B9.jpg",
       "parent": "kustodiev-domovoi",
       "alt": "A painted interior: a plump merchant wife in a cream dress sits at a table with tea, and a small hairy figure with a beard peers from beneath a draped sideboard behind her",
+      "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
+      "made_by": "make_derived.py"
+    },
+    {
+      "id": "makovsky-rusalki-faded",
+      "file": "assets/derived/makovsky-rusalki-faded.webp",
+      "kind": "derivative",
+      "title": "Konstantin Makovsky, Rusalki (1879) — faded print with scanner banding",
+      "creator": "Derivative made for this atlas from the original by Konstantin Makovsky",
+      "date": "2026",
+      "medium": "Crop: Whole frame. Processing: faded print with scanner banding, torn edge baked into the alpha channel",
+      "license": "Public domain (derived)",
+      "license_url": "",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rusalki.jpg",
+      "parent": "makovsky-rusalki",
+      "alt": "A moonlit stream at night with nude women among the brush on the bank, others in a ring-dance along the water toward a church and a thatched house in mist",
       "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
       "made_by": "make_derived.py"
     },
