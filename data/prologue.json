@@ -1,0 +1,73 @@
+{
+ "kicker": "PROLOGUE",
+ "title": "BEFORE\nTHE FIRST\nPLATE",
+ "dek": "A short note on what this atlas is, what it will not do, and how to move through it.",
+ "blocks": [
+  {
+   "k": "01 · A NAME, NOT AN ESSENCE",
+   "head": "Russian death is not **one thing.**",
+   "paras": [
+    "The title names a field of evidence, not a national character. What survives is a set of documents about particular places and times: a village recorded by a folklorist, a parish regulated by a synod, a cemetery administered by a city, a memorial built by a state.",
+    "These documents overlap and they disagree. The atlas keeps the disagreement on the page instead of averaging it into a custom."
+   ],
+   "art": "judgment-strip",
+   "mat": "newsprint",
+   "side": "l",
+   "tape": "tl",
+   "note": "",
+   "tr": "Printed Slavonic text on a Last Judgment icon — writing in an image, not a lament"
+  },
+  {
+   "k": "02 · MATTER AS DOCUMENT",
+   "head": "A coffin, a cloth, a bowl of grain, **a stone.**",
+   "paras": [
+    "The plates treat things as documents: what they were made of, who handled them, what they were for and who wrote about them. A photograph is a record of someone’s decision to photograph as much as it is a record of a grave.",
+    "Every image carries its credit and its licence. Every image also carries a button that shows the file as it was before the atlas touched it: the damage you see is ours, and it is declared."
+   ],
+   "art": "ilf-stele",
+   "mat": "manila",
+   "side": "r",
+   "tape": "tr",
+   "note": "",
+   "tr": ""
+  },
+  {
+   "k": "03 · THE EMPTY SHEET",
+   "head": "Where the evidence stops, **the sheet stays empty.**",
+   "paras": [
+    "Plate L is almost white on purpose. It lists what is missing — a field survey of a provincial cemetery, a municipal burial register, a scholarly account of post-Soviet digital memorials — and draws the gap instead of filling it.",
+    "Nothing here is invented to close a hole: no quotations, no archive numbers, no photographs staged as history. One photograph from Ukraine appears once, and is labelled as Ukrainian."
+   ],
+   "art": "tomb-path",
+   "mat": "plaster",
+   "side": "l",
+   "tape": "",
+   "note": "",
+   "tr": ""
+  }
+ ],
+ "routes": {
+  "head": "Three ways in",
+  "items": [
+   {
+    "n": "A→L",
+    "head": "In a line",
+    "text": "Plates A to L, from the room where a death occurs to the archive that cannot hold it.",
+    "href": "plates/a-threshold.html"
+   },
+   {
+    "n": "✳",
+    "head": "In a net",
+    "text": "The index crosses plates with objects, concepts and places; the words page lists the vocabulary.",
+    "href": "atlas.html"
+   },
+   {
+    "n": "◎",
+    "head": "On the ground",
+    "text": "The map and the chronology pin each claim to a place or a date — or refuse to.",
+    "href": "map.html"
+   }
+  ]
+ },
+ "closing": "The aesthetic is not darkness. **It is Russian death, remembered through matter.**"
+}

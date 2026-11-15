@@ -256,6 +256,7 @@ Three photographic derivatives were generated: `perov-funeral-halftone.png`, `la
 | Family | Role | Licence | Files |
 | --- | --- | --- | --- |
 | **Anton** | display, heavy grotesque | SIL OFL 1.1 | `assets/fonts/anton-400-normal.woff2`, `anton-OFL.txt` |
+| **Fira Sans Extra Condensed** | Cyrillic display (stands in for Anton) | SIL OFL 1.1 | `assets/fonts/anton-cyr-fira-900.woff2`, `firasans-OFL.txt` |
 | **Oswald** | condensed display and navigation | SIL OFL 1.1 | `assets/fonts/oswald-400-normal.woff2`, `oswald-OFL.txt` |
 | **Source Serif 4** | editorial text | SIL OFL 1.1 | `sourceserif4-400-normal.woff2`, `sourceserif4-400-italic.woff2`, `sourceserif4-OFL.txt` |
 | **IBM Plex Mono** | metadata | SIL OFL 1.1 | `plexmono-400-normal.woff2`, `plexmono-600-normal.woff2`, `plexmono-OFL.txt` |

@@ -3,6 +3,7 @@
 (() => {
   "use strict";
 
+  const RU = document.documentElement.lang === "ru";
   const $ = (sel, ctx = document) => ctx.querySelector(sel);
   const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
 
@@ -74,7 +75,7 @@
       btn.addEventListener("click", () => {
         const b = btn.dataset;
         img.src = b.full || "";
-        img.alt = b.title || "Archive image";
+        img.alt = b.title || (RU ? "Архивное изображение" : "Archive image");
         title.textContent = b.title || "IMAGE";
         cap.textContent = b.cap || "";
         credit.textContent = b.credit || "";
@@ -259,7 +260,7 @@
           it.hidden = !show;
           if (show) n += 1;
         });
-        if (status) status.textContent = n + " ENTRIES";
+        if (status) status.textContent = RU ? n + " ЗАПИС" + (n % 10 === 1 && n % 100 !== 11 ? "Ь" : (n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? "И" : "ЕЙ")) : n + " ENTRIES";
       });
     });
   }
@@ -277,4 +278,61 @@
       }
     });
   });
+
+  /* ------------------------------------------------------- language, reading -- */
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* private mode */ } },
+  };
+  $$("[data-lang-pick]").forEach((a) => a.addEventListener("click", () => store.set("rd-lang", a.dataset.langPick)));
+
+  // Russian-language visitors on the English page are offered the Russian edition once.
+  const banner = $("[data-rubanner]");
+  if (banner && !store.get("rd-lang")) {
+    const langs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ""]).map((l) => String(l).toLowerCase());
+    if (langs.some((l) => l.startsWith("ru"))) banner.hidden = false;
+    $("[data-rubanner-close]", banner).addEventListener("click", () => { banner.hidden = true; store.set("rd-lang", "en"); });
+  }
+
+  const readBtn = $("[data-readable]");
+  if (readBtn) {
+    const root = document.documentElement;
+    const paint = () => {
+      const on = root.classList.contains("is-plain");
+      readBtn.setAttribute("aria-pressed", String(on));
+      readBtn.textContent = on ? readBtn.dataset.on : readBtn.dataset.off;
+    };
+    paint();
+    readBtn.addEventListener("click", () => {
+      root.classList.toggle("is-plain");
+      store.set("rd-plain", root.classList.contains("is-plain") ? "1" : "0");
+      paint();
+    });
+  }
+
+  /* ----------------------------------------------------------- motion layer -- */
+  const still = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const thread = $(".thread");
+  if (thread && !still) {
+    let tick = false;
+    const upd = () => {
+      const h = document.documentElement.scrollHeight - innerHeight;
+      thread.style.setProperty("--read", h > 0 ? Math.min(1, scrollY / h).toFixed(4) : 0);
+      tick = false;
+    };
+    addEventListener("scroll", () => { if (!tick) { tick = true; requestAnimationFrame(upd); } }, { passive: true });
+    upd();
+  } else if (thread) thread.hidden = true;
+
+  if (!still && "IntersectionObserver" in window) {
+    const targets = $$(".photo img, figure.photo, .pro__art img").filter((el) => el.tagName === "IMG");
+    const io = new IntersectionObserver((es) => es.forEach((e) => {
+      if (e.isIntersecting) { e.target.classList.add("is-in"); io.unobserve(e.target); }
+    }), { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    targets.forEach((img) => {
+      if (img.getBoundingClientRect().top < innerHeight) return; // already on screen: no flash
+      img.classList.add("devel");
+      io.observe(img);
+    });
+  }
 })();

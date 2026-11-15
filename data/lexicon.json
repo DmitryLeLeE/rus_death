@@ -1,0 +1,313 @@
+{
+ "kicker": "WORDS — A LEXICON OF THE ATLAS",
+ "title": "THE\nWORDS",
+ "dek": "Russian words that carry the argument of the atlas, written as they are written in Russian, with transliteration and the plates where each is examined. The English edition uses the transliteration in running text; this page is its key.",
+ "noteH": "HOW TO READ THE WORDS",
+ "note1": "Register is the kind of speech a word belongs to: liturgical, everyday, scholarly, regional. A word used in one register in one source is not thereby used in another.",
+ "note2": "The list is not a dictionary of Russian death. It contains only words the atlas uses, and where the atlas calls a category a scholarly construction (*zalozhnye*, *rusalka*) the entry says so.",
+ "entries": [
+  {
+   "id": "pokoinik",
+   "ru": "покойник",
+   "tr": "pokoinik",
+   "gloss": "the deceased, the late — the plain noun for the dead",
+   "register": "neutral, slightly formal",
+   "plates": [
+    "a",
+    "b",
+    "c"
+   ]
+  },
+  {
+   "id": "usopshii",
+   "ru": "усопший",
+   "tr": "usopshii",
+   "gloss": "the one who has fallen asleep",
+   "register": "liturgical; church context only",
+   "plates": [
+    "g"
+   ]
+  },
+  {
+   "id": "konchina",
+   "ru": "кончина",
+   "tr": "konchina",
+   "gloss": "death, the passing of a person",
+   "register": "literary, elevated",
+   "plates": [
+    "g"
+   ]
+  },
+  {
+   "id": "prestavlenie",
+   "ru": "преставление",
+   "tr": "prestavlenie",
+   "gloss": "falling asleep, departure — the theological word for a death",
+   "register": "theological",
+   "plates": [
+    "g",
+    "h"
+   ]
+  },
+  {
+   "id": "pominki",
+   "ru": "поминки",
+   "tr": "pominki",
+   "gloss": "memorial meal and commemoration — the meal and the act",
+   "register": "everyday",
+   "plates": [
+    "c",
+    "d"
+   ]
+  },
+  {
+   "id": "sorokoviny",
+   "ru": "сороковины",
+   "tr": "sorokoviny",
+   "gloss": "the fortieth day, and the rite held on it",
+   "register": "everyday, regional",
+   "plates": [
+    "a",
+    "c",
+    "h"
+   ]
+  },
+  {
+   "id": "godoviny",
+   "ru": "годовины",
+   "tr": "godoviny",
+   "gloss": "the annual commemoration",
+   "register": "everyday, regional",
+   "plates": [
+    "c"
+   ]
+  },
+  {
+   "id": "radonitsa",
+   "ru": "Радоница",
+   "tr": "Radonitsa",
+   "gloss": "the spring day of commemoration at the grave",
+   "register": "church, regional",
+   "plates": [
+    "c",
+    "d"
+   ]
+  },
+  {
+   "id": "kutia",
+   "ru": "кутья",
+   "tr": "kut’ia · kolivo",
+   "gloss": "boiled grain sweetened with honey; in its church form, kolivo",
+   "register": "ritual food",
+   "plates": [
+    "d"
+   ]
+  },
+  {
+   "id": "bliny",
+   "ru": "блины",
+   "tr": "bliny",
+   "gloss": "pancakes: a funerary and commemorative food as well as a calendar food",
+   "register": "ritual food",
+   "plates": [
+    "d"
+   ]
+  },
+  {
+   "id": "smertnoe",
+   "ru": "смертное",
+   "tr": "smertnoe",
+   "gloss": "clothing kept in the house for one’s own death",
+   "register": "regional",
+   "plates": [
+    "b"
+   ]
+  },
+  {
+   "id": "obmyvanie",
+   "ru": "обмывание",
+   "tr": "obmyvanie",
+   "gloss": "the washing of the body before it is dressed",
+   "register": "ethnographic",
+   "plates": [
+    "b"
+   ]
+  },
+  {
+   "id": "grob",
+   "ru": "гроб",
+   "tr": "grob",
+   "gloss": "coffin: the box the body is carried and buried in",
+   "register": "neutral",
+   "plates": [
+    "b",
+    "c",
+    "j"
+   ]
+  },
+  {
+   "id": "zalozhnye",
+   "ru": "заложные покойники",
+   "tr": "zalozhnye pokoiniki",
+   "gloss": "Zelenin’s category of the ‘unclean’ dead — a scholarly construction on real reports",
+   "register": "scholarly term",
+   "plates": [
+    "e"
+   ]
+  },
+  {
+   "id": "rusalka",
+   "ru": "русалка",
+   "tr": "rusalka",
+   "gloss": "a female figure of folk belief that Zelenin linked to the unclean dead; the link is an interpretation",
+   "register": "folk and scholarly",
+   "plates": [
+    "e"
+   ]
+  },
+  {
+   "id": "upyr",
+   "ru": "упырь",
+   "tr": "upyr’",
+   "gloss": "in some records, a dead person who rises and feeds; not the literary vampire",
+   "register": "folk; attested",
+   "plates": [
+    "e"
+   ]
+  },
+  {
+   "id": "kladbishche",
+   "ru": "кладбище",
+   "tr": "kladbishche",
+   "gloss": "cemetery: the modern institution of walls, gates, a plan and a register",
+   "register": "neutral",
+   "plates": [
+    "f",
+    "i"
+   ]
+  },
+  {
+   "id": "pogost",
+   "ru": "погост",
+   "tr": "pogost",
+   "gloss": "churchyard; a village with a church and a graveyard",
+   "register": "historical",
+   "plates": [
+    "f"
+   ]
+  },
+  {
+   "id": "golubets",
+   "ru": "голубец",
+   "tr": "golubets",
+   "gloss": "a grave-cross under a small gabled roof",
+   "register": "regional, descriptive",
+   "plates": [
+    "f"
+   ]
+  },
+  {
+   "id": "prichitanie",
+   "ru": "причитание",
+   "tr": "prichitanie",
+   "gloss": "funeral lament: a composed and performed genre addressed to the dead",
+   "register": "folk; performed",
+   "plates": [
+    "c",
+    "g"
+   ]
+  },
+  {
+   "id": "dusha",
+   "ru": "душа",
+   "tr": "dusha",
+   "gloss": "soul: in folk belief a breath-like presence and a guest; in doctrine a created immortal substance",
+   "register": "doctrinal and folk",
+   "plates": [
+    "a",
+    "h"
+   ]
+  },
+  {
+   "id": "porog",
+   "ru": "порог",
+   "tr": "porog",
+   "gloss": "threshold: the set of prohibitions around a death; the atlas’s analytical term",
+   "register": "analytical",
+   "plates": [
+    "a"
+   ]
+  },
+  {
+   "id": "ikona",
+   "ru": "икона",
+   "tr": "ikona",
+   "gloss": "icon: a painted image used in worship and in the funeral rite",
+   "register": "liturgical",
+   "plates": [
+    "h"
+   ]
+  },
+  {
+   "id": "strashnyi-sud",
+   "ru": "Страшный суд",
+   "tr": "Strashnyi sud",
+   "gloss": "the Last Judgment: an icon type organised as a diagram of judgement",
+   "register": "doctrinal, iconographic",
+   "plates": [
+    "h"
+   ]
+  },
+  {
+   "id": "uspenie",
+   "ru": "Успение",
+   "tr": "Uspenie",
+   "gloss": "the Dormition of the Mother of God; the model of the good death",
+   "register": "liturgical, iconographic",
+   "plates": [
+    "h"
+   ]
+  },
+  {
+   "id": "vechnyi-ogon",
+   "ru": "вечный огонь",
+   "tr": "vechnyi ogon’",
+   "gloss": "eternal flame: a flame kept burning at a memorial",
+   "register": "Soviet, commemorative",
+   "plates": [
+    "i",
+    "k"
+   ]
+  },
+  {
+   "id": "neizvestnyi-soldat",
+   "ru": "Неизвестный Солдат",
+   "tr": "Neizvestnyi Soldat",
+   "gloss": "the Unknown Soldier: one body that stands for a number no one can count",
+   "register": "state commemorative",
+   "plates": [
+    "i"
+   ]
+  },
+  {
+   "id": "krematorii",
+   "ru": "крематорий",
+   "tr": "krematorii",
+   "gloss": "crematorium: in 1927, a church converted into a furnace",
+   "register": "Soviet, institutional",
+   "plates": [
+    "k"
+   ]
+  },
+  {
+   "id": "zabroshennost",
+   "ru": "заброшенность",
+   "tr": "zabroshennost’",
+   "gloss": "abandonment: the state of a grave no one maintains",
+   "register": "analytical",
+   "plates": [
+    "l"
+   ]
+  }
+ ]
+}
