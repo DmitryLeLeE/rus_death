@@ -5,6 +5,7 @@
 
 export const UI = {
   en: {
+    socialAlt: "ARCHÆOLOGY OF RUSSIAN DEATH — a roofed grave cross and a sleigh with a coffin, in black and white, on torn paper.",
     lang: "en",
     siteTitle: "ARCHÆOLOGY OF RUSSIAN DEATH",
     brand: ["ARCHÆOLOGY", "of", "RUSSIAN DEATH"],
@@ -122,6 +123,7 @@ export const UI = {
   },
 
   ru: {
+    socialAlt: "АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ — крест под крышей и сани с гробом, чёрно-белые, на рваной бумаге.",
     lang: "ru",
     siteTitle: "АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ",
     brand: ["АРХЕОЛОГИЯ", "", "РУССКОЙ СМЕРТИ"],

@@ -341,8 +341,18 @@ function shell({ title, description, base, bodyClass = "", page = "", rel = "ind
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${self}">
-<meta property="og:image" content="${SITE}social.jpg">
+<meta property="og:image" content="${SITE}${LANG === "ru" ? "social-ru.jpg" : "social.jpg"}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(T.socialAlt)}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(description)}">
+<meta name="twitter:image" content="${SITE}${LANG === "ru" ? "social-ru.jpg" : "social.jpg"}">
+<meta name="twitter:image:alt" content="${esc(T.socialAlt)}">
+<meta name="theme-color" content="#0d0c0b">
+<meta name="author" content="Dmitry Papilin">
 <meta name="color-scheme" content="dark">
 <link rel="icon" href="${A}assets/illustrations/colophon-mark.svg" type="image/svg+xml">
 <link rel="preload" href="${A}assets/fonts/anton-400-normal.woff2" as="font" type="font/woff2" crossorigin>

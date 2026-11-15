@@ -77,6 +77,8 @@ New pages in this release: **Prologue** (`prologue.html`), **Words** (`words.htm
 │   ├── make_map.py         projects Natural Earth data into the map
 │   ├── build.mjs           renders data/*.json into HTML
 │   ├── make_credits.mjs    regenerates ASSET_CREDITS.md from images.json
+│   ├── make_social.mjs     renders social.jpg / social-ru.jpg from social.html
+│   ├── ui.mjs              interface strings, EN and RU
 │   ├── audit.mjs           headless-browser audit: overflow, console, interactions
 │   ├── check_links.mjs     static check of every local link, anchor and asset
 │   └── shots.mjs           full-page screenshots at four viewports
@@ -116,6 +118,7 @@ Regenerating the material layer (Python 3 with Pillow + NumPy, and the Natural E
 python build/make_assets.py   # textures, derivatives, halftone images
 python build/make_svg.py      # torn clip paths, hand marks, diagrams
 python build/make_map.py      # map SVG and marker positions
+node build/make_social.mjs    # social.jpg and social-ru.jpg (needs Chrome)
 ```
 
 Verification:
@@ -190,6 +193,6 @@ The publication is assembled to feel like an independent edition found, not made
 
 - Repository: `DmitryLeLeE/rus_death` (public)
 - Live site: <https://DmitryLeLeE.github.io/rus_death/>
-- Social preview: `social.jpg` (1200 × 630), referenced by the Open Graph tags in every page.
+- Social previews: `social.jpg` (English) and `social-ru.jpg` (Russian), both 1200 × 630. Every page carries `og:image` (with type, size and alt text), `twitter:card=summary_large_image`, `twitter:title/description/image/alt`, `theme-color`, canonical and `hreflang`; Russian pages point to `social-ru.jpg`.
 
-The site is deployed from this repository via a `gh-pages` branch (branch deployment; see above). The source of the social card is `build/social.html`; regenerate it with Chrome at 1200 × 630, or keep the committed `social.jpg`.
+The site is deployed from this repository via a `gh-pages` branch (branch deployment; see above). The social cards are rendered from `build/social.html` (`?lang=ru` for the Russian one) by `node build/make_social.mjs`, which needs `playwright-core` and Chrome (`CHROME=/path/to/chrome`). Re-run it after changing the cover images, then commit both JPEGs.
