@@ -129,9 +129,9 @@ const md = (s = "") =>
     .replace(/\*([^*]+)\*/g, "<em>$1</em>")
     .replace(/`([^`]+)`/g, "<code>$1</code>");
 
-const tag = (level) => {
-  const cls = { documented: "doc", interpretation: "int", reconstruction: "rec" }[level] || "int";
-  return `<span class="tag tag--${cls}">${T.tags[level] || T.tags.interpretation}</span>`;
+const tag = (level, contested) => {
+  const cls = { documented: "doc", interpretation: "int", reconstruction: "rec", unverified: "unv" }[level] || "int";
+  return `<span class="tag tag--${cls}">${T.tags[level] || T.tags.interpretation}</span>${contested ? ` <span class="tag tag--con">${T.contested}</span>` : ""}`;
 };
 
 const plateHref = (id, base) => `${base}plates/${id}-${PLATE[id].slug}.html`;
@@ -213,7 +213,7 @@ const kick = (t) => (t ? `<p class="k">${esc(t)}</p>` : "");
 const foot = (s, base) => {
   const badges = srcBadge(s.sources, base);
   if (!s.level && !badges) return "";
-  return `<footer class="ft">${s.level ? tag(s.level) : ""}${badges ? `<details class="src"><summary>${T.sourcesWord}</summary><p>${badges}</p></details>` : ""}</footer>`;
+  return `<footer class="ft">${s.level ? tag(s.level, s.contested) : ""}${badges ? `<details class="src"><summary>${T.sourcesWord}</summary><p>${badges}</p></details>` : ""}</footer>`;
 };
 
 function prose(s, base) {
@@ -241,7 +241,7 @@ function note(s) {
   ${kick(s.kicker || T.noteDefault)}
   <h2>${md(s.heading)}</h2>
   <ul>${(s.items || []).map((i) => `<li>${md(i)}</li>`).join("")}</ul>
-  ${s.level ? `<footer class="ft">${tag(s.level)}</footer>` : ""}
+  ${s.level ? `<footer class="ft">${tag(s.level, s.contested)}</footer>` : ""}
 </aside>`;
 }
 
@@ -617,7 +617,7 @@ function indexPage() {
       <span class="card__no mono">${X.obj}</span>
       <h3 class="card__title">${esc(o.name)} <span class="card__term">${esc(o.term)}</span></h3>
       <p class="card__dek">${md(o.gloss)}</p>
-      <p class="card__meta mono">${tag(o.evidence.startsWith("unverified") ? "interpretation" : "documented")} ${esc(evLabel(o))}</p>
+      <p class="card__meta mono">${tag(o.evidence.startsWith("unverified") ? "unverified" : "documented")} ${esc(evLabel(o))}</p>
       <p class="card__links mono">${plateLinks(o.plates, base).join(" ")}</p>
     </div>
   </li>`).join("\n");
@@ -1000,14 +1000,14 @@ function ledgerPage() {
   const base = "", X = T.ledger;
   const rows = [];
   for (const p of plates.plates) for (const s of p.sections) {
-    if (s.hidden || s.type === "figure") continue;
+    if (s.hidden || s.type === "figure" || s.type === "quote") continue;
     rows.push({ p, s, level: s.level || "interpretation" });
   }
   const count = (l) => rows.filter((r) => r.level === l).length;
   const noSrc = rows.filter((r) => !(r.s.sources || []).length).length;
   const chips = [`<button class="chip" type="button" data-level-chip="all" aria-pressed="true">${X.all}</button>`,
     ...Object.keys(T.tags).map((l) => `<button class="chip" type="button" data-level-chip="${l}" aria-pressed="false">${T.tags[l]} · ${count(l)}</button>`)].join("\n");
-  const body = rows.map((r) => `<tr data-level="${r.level}"><td class="mono"><a href="${plateHref(r.p.id, base)}">${r.p.letter}</a></td><td>${esc(plain(r.s.heading || r.s.kicker || r.s.type))}</td><td>${tag(r.level)}</td><td class="mono">${srcBadge(r.s.sources, base) || `<span class="ledger__none">${X.none}</span>`}</td></tr>`).join("\n");
+  const body = rows.map((r) => `<tr data-level="${r.level}"><td class="mono"><a href="${plateHref(r.p.id, base)}">${r.p.letter}</a></td><td>${esc(plain(r.s.heading || r.s.caption || r.s.kicker || r.s.type))}</td><td>${tag(r.level, r.s.contested)}</td><td class="mono">${srcBadge(r.s.sources, base) || `<span class="ledger__none">${X.none}</span>`}</td></tr>`).join("\n");
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "tool-page", page: "ledger", rel: "ledger.html",
     content: `<main id="main">

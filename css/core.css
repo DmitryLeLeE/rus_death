@@ -269,3 +269,8 @@ dialog::backdrop { background: rgba(6, 5, 4, 0.82); }
 
 .slip .tag--doc { background: #1a1714; color: #e6e0d0; border-color: #1a1714; }
 .slip .tag--int { color: #1a1714; }
+
+.tag--unv { border-style: dotted; border-width: 2px; background: transparent; color: var(--red); }
+.mat-soot .tag--unv, .mat-granite .tag--unv { color: #e0604f; }
+.tag--con { border-style: solid; background: var(--red); color: #f3ece0; border-color: var(--red); }
+.tool .tag--unv { color: #8c1c13; }

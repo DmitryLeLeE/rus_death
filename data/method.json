@@ -15,6 +15,11 @@
       "level": "reconstruction",
       "name": "A drawing, diagram, sequence or layout made for this atlas.",
       "text": "Reconstructions are never presented as historical photographs. Diagrams of ritual sequences, cross types and cemetery plans are analytical drawings, not records of a specific event."
+    },
+    {
+      "level": "unverified",
+      "name": "A claim carried only as a research lead.",
+      "text": "The atlas has seen it reported but could not check the source, or the source gives no record. It is kept so that it can be tested, and it is never used to support another claim. A section marked CONTESTED is one where the sources or the scholars cited disagree."
     }
   ],
   "sections": [
