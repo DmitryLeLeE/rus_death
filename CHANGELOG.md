@@ -2,6 +2,11 @@
 
 ## Unreleased — Russian Chthonic Atlas
 
+- Illustration expansion and fact-check pass (2026-11-15). Plate F: five Estonian Old Believers' cemeteries (Estonian Heritage Board via Europeana, CC0, 400 px copies) as a present-day comparison from outside Russia; the golubets section rewritten to what its only source supports. Plate N: Nansen's 1913 photograph of old graves at Kureika. Plates G, H, D: three original editorial diagrams (structure of a lament, the forty days in two registers, the hot dinner as an account), EN and RU. Evidence status filled in for 13 images that lacked it.
+- Chronology, lexicon, object catalogue and routes checked against independent sources: the 1723 burial decree and the order on tombstones are now stated as disputed between sources (Rozanov added), the Barsov volume dates and two lexicon glosses corrected. Details and the list of what was not checked are in `FACTCHECK_LOG.md`.
+- `IMAGE_ACQUISITION_REPORT.md` (new): source-by-source record of the image search, including archives that were blocked and not bypassed. `build/make_visual_audit.py` regenerates `VISUAL_AUDIT.md`.
+- README rewritten for the 24-plate, four-volume edition.
+
 - Volume IV: plate W, *The Materials of Abandonment* (reported dated decisions on Siberian cemeteries, 2019 gravestone curbs in Moscow; the larger claims marked UNVERIFIED) and plate X, *The Digital Afterlife* (three sources read at abstract or news level, stated as such). Seven new sources and one CC0 photograph. All four volumes are now published.
 - Plate V, *Taboo, Omen and Protection* (Vol. III): funeral prohibitions and protective acts as reported by an encyclopedia article, a review of village and urban rites, a 2018–19 Smolensk field study and a church polemic; the reasons for covering mirrors are listed as contested. Two new sources. Volume III (S–V) is now complete.
 - Plate U, *The Calendar of the Dead* (Vol. III): a table of who named which commemoration day — the Church's own account, a Komi-Permyak comparison and a 2016–17 Kostroma/Vladimir field study — with the question of origin marked contested and left open. Three new sources.
