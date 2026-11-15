@@ -1196,6 +1196,34 @@
       "language": "Russian",
       "supports": "That washing is an obligatory element of the funeral-memorial rite, that the dead are dressed in the best or in prepared death clothes, and that specially hired people may wash and dress the body and make the coffin.",
       "limitation": "Only the search extract was read."
+    },
+    {
+      "id": "zelenin-preface",
+      "kind": "web",
+      "author": "Zelenin, D. K. (preface), in a 2024 Eksmo reissue read online",
+      "title": "Мертвецы и русалки. Очерки славянской мифологии (предисловие)",
+      "title_en": "Corpses and Rusalkas: Essays on Slavic Mythology (preface)",
+      "year": "2024 reissue; text first published 1916",
+      "publisher": "Eksmo, via Yandex Books online reader",
+      "url": "https://books.yandex.ru/books/NTeTXr72/read-online",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Zelenin’s own account of how the study began: fieldwork among the Besermyans of Vyatka province in summer 1909, the offering called kuyas’kon made with contempt and fear to people dead prematurely by unnatural death, a first article of 1911 in Zhivaya starina, and its growth into the book.",
+      "limitation": "Only the preface extract in the online reader was read. The reissue’s title and editing differ from the 1916 edition (Petrograd, A. V. Orlov), which was not consulted directly."
+    },
+    {
+      "id": "zelenin1916-contents",
+      "kind": "web",
+      "author": "Wikisource contributors",
+      "title": "Умершие неестественной смертью и русалки (Зеленин) — оглавление",
+      "title_en": "Zelenin, The Dead by Unnatural Death and Rusalki — contents",
+      "year": "n.d.",
+      "publisher": "ru.wikisource.org",
+      "url": "https://ru.wikisource.org/wiki/Умершие_неестественной_смертью_и_русалки_(Зеленин)/ДО",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Bibliographic data of the first edition: Zelenin, Ocherki russkoi mifologii, vol. 1, Petrograd, A. V. Orlov, 1916, 328 pp.",
+      "limitation": "The contents table was not legible in the extract; only the imprint was read."
     }
   ]
 }
