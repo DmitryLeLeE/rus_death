@@ -61,6 +61,7 @@
 .cvp--k { grid-column: 5 / span 4; --ar: 1.1; --rot: -1.4deg; --mt: 3vw; }
 .cvp--l { grid-column: 9 / span 4; --ar: 1.05; --rot: 1.6deg; --mt: -1vw; }
 .cvp--p { grid-column: 8 / span 5; --ar: 1.45; --rot: 1.8deg; --mt: -2vw; }
+.cvp--s { grid-column: 2 / span 5; --ar: 1.5; --rot: -1.2deg; --mt: 2vw; }
 .cvp--r { grid-column: 7 / span 5; --ar: 1.5; --rot: 1.4deg; --mt: 3vw; }
 .cvp--q { grid-column: 3 / span 5; --ar: 1.6; --rot: -1.1deg; --mt: 2vw; }
 .cvp--o { grid-column: 1 / span 4; --ar: 1.4; --rot: -1.4deg; --mt: 1vw; }

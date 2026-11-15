@@ -654,6 +654,21 @@
       "note": "Commons title ‘Успенский пещерный храм’. The photograph shows the buildings above the ground, not the caves."
     },
     {
+      "id": "kustodiev-domovoi",
+      "file": "assets/images/kustodiev-domovoi.jpg",
+      "kind": "painting",
+      "title": "Boris Kustodiev, The Merchant Wife and the Domovoi (1922)",
+      "creator": "Boris Kustodiev",
+      "date": "1922",
+      "medium": "Painting, as held on Commons (1622 px)",
+      "collection": "Via Commons; credit given there to art-catalog.ru and bibliotekar.ru",
+      "license": "Public domain",
+      "license_url": "",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D0%BF%D1%87%D0%B8%D1%85%D0%B0_%D0%B8_%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%D0%BE%D0%B9.jpg",
+      "alt": "A painted interior: a plump merchant wife in a cream dress sits at a table with tea, and a small hairy figure with a beard peers from beneath a draped sideboard behind her",
+      "note": "Commons title ‘Купчиха и домовой’. A 1922 genre painting, not a record of belief; it shows how the domovoy was pictured by an urban artist."
+    },
+    {
       "id": "hero-radonitsa",
       "file": "assets/derived/hero-radonitsa.webp",
       "kind": "derivative",
@@ -1562,6 +1577,22 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D1%8F%CC%81%D1%82%D0%BE-%D0%A3%D1%81%D0%BF%D0%B5%CC%81%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%9F%D1%81%D0%BA%D0%BE%CC%81%D0%B2%D0%BE-%D0%9F%D0%B5%D1%87%D0%B5%CC%81%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%CC%81%D1%80%D1%8C._%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%B5%D1%89%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%85%D1%80%D0%B0%D0%BC.jpg",
       "parent": "pechory-cave-church",
       "alt": "A hillside monastery courtyard with painted yellow and red buildings, blue domes and a green-roofed well house, with visitors on the steps",
+      "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
+      "made_by": "make_derived.py"
+    },
+    {
+      "id": "kustodiev-domovoi-faded",
+      "file": "assets/derived/kustodiev-domovoi-faded.webp",
+      "kind": "derivative",
+      "title": "Boris Kustodiev, The Merchant Wife and the Domovoi (1922) — faded print with scanner banding",
+      "creator": "Derivative made for this atlas from the original by Boris Kustodiev",
+      "date": "2026",
+      "medium": "Crop: Whole frame. Processing: faded print with scanner banding, torn edge baked into the alpha channel",
+      "license": "Public domain (derived)",
+      "license_url": "",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D0%BF%D1%87%D0%B8%D1%85%D0%B0_%D0%B8_%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%D0%BE%D0%B9.jpg",
+      "parent": "kustodiev-domovoi",
+      "alt": "A painted interior: a plump merchant wife in a cream dress sits at a table with tea, and a small hairy figure with a beard peers from beneath a draped sideboard behind her",
       "note": "Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.",
       "made_by": "make_derived.py"
     },

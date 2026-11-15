@@ -47,6 +47,7 @@ export const KEY = {
   p: "reshma-cross-faded",
   q: "mologa-market-news",
   r: "pechory-cave-church-faded",
+  s: "kustodiev-domovoi-faded",
 };
 
 export const LAYOUT = {

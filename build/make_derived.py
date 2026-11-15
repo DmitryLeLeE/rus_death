@@ -392,6 +392,8 @@ SPECS = [
      "Mologa: the chapel and the Church of the Ascension (1901–1910)", "Whole frame"),
     ("pechory-cave-church-faded", "pechory-cave-church.jpg", None, "faded", 1500, "tblr",
      "Pskov-Caves Monastery: the courtyard in front of the cave church (2015)", "Whole frame"),
+    ("kustodiev-domovoi-faded", "kustodiev-domovoi.jpg", None, "faded", 1500, "tblr",
+     "Boris Kustodiev, The Merchant Wife and the Domovoi (1922)", "Whole frame"),
     ("mamayev-news", "mamayev.jpg", (0, 300, 1600, 1200), "news", 1400, "tb",
      "Mamayev Kurgan, Volgograd — the slope", "Lower two-thirds"),
 ]

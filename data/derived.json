@@ -570,6 +570,16 @@
   "bytes": 320722
  },
  {
+  "id": "kustodiev-domovoi-faded",
+  "parent_file": "kustodiev-domovoi.jpg",
+  "treatment": "faded",
+  "title": "Boris Kustodiev, The Merchant Wife and the Domovoi (1922)",
+  "shows": "Whole frame",
+  "w": 1500,
+  "h": 832,
+  "bytes": 197134
+ },
+ {
   "id": "mamayev-news",
   "parent_file": "mamayev.jpg",
   "treatment": "news",

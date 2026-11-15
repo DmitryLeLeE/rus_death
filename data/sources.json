@@ -576,6 +576,51 @@
       "language": "English",
       "supports": "For the traditional village, citing Zelenin, Baiburin, Kabakova, Kremleva and Sedakova: all mirrors covered at a death, all water in the house thrown out, the body laid for three days on the table under the icon corner with the head beneath the icons. For Soviet urban practice, shiny surfaces covered. It also records the coffin leaving by a back door or window at burial.",
       "limitation": "A review that draws on earlier ethnographers and on interviews about urban practice, so the village customs come at second hand. It does not mention opening a window at death or stopping clocks. Read in an automated extract, not in the original pages."
+    },
+    {
+      "id": "ansimova2016",
+      "kind": "article",
+      "author": "Ansimova, O. K.; Golubkova, O. V.",
+      "title": "Mythological Characters of the Domestic Space in Russian Folk Beliefs: Lexicographic and Ethnographic Aspects",
+      "title_en": "",
+      "year": "2016",
+      "publisher": "Archaeology, Ethnology and Anthropology of Eurasia, vol. 44, no. 3",
+      "extent": "pp. 130–138",
+      "url": "https://doi.org/10.17746/1563-0110.2016.44.3.130-138",
+      "accessed": "2026-11-15",
+      "language": "English",
+      "supports": "The domovoy described as a home spirit and generic ancestor, citing Krinichnaya (2004) for the ancestor's soul that became the soul of the house; field materials of 1999–2015 from the Novosibirsk, Omsk, Tyumen, Leningrad, Pskov, Novgorod, Vologda, Kirov and Altai regions; offerings of food; the domovoy as a possible restless soul of a relative that may knock before a death; the bannik and obderikha set apart as the most dangerous; the kikimora linked to unbaptised dead infants, not to ancestors.",
+      "limitation": "No archives named and no count of field records; the only count is a 2015 questionnaire of 317 respondents, mostly students aged 17–25, which did not show the ancestor-soul belief. Some rural material is informants’ recollection, some tied to the 1950s. The lexicographic part rests on a dictionary the authors built. The ancestor reading is cited to an earlier work, not shown here."
+    },
+    {
+      "id": "granova2019",
+      "kind": "article",
+      "author": "Granova, M. A.",
+      "title": "Мифологическая традиция поселка Северный Коммунар Сивинского района Пермского края: представления о домовом",
+      "title_en": "Mythological Tradition of the Settlement of Severny Kommunar, Sivinsky District, Perm Krai: Ideas about the Domovoy",
+      "year": "2019",
+      "publisher": "Vestnik Permskogo universiteta. Rossiiskaia i zarubezhnaia filologiia, vol. 11, no. 3",
+      "extent": "pp. 27–37",
+      "url": "https://doi.org/10.17072/2073-6681-2019-3-27-37",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "One village’s domovoy beliefs recorded in June 2019: names such as domovoy and dedushka-domovoy, read as possibly pointing to a family ancestor; forms (a small hairy old man, a cat, a weasel; visible only to small children and animals); food left for him and a set formula for taking him to a new house; a belief in a second, harmful female spirit in the cellar; and a marked reduction of the beliefs, with media influence.",
+      "limitation": "One village; the number of informants and records is not stated. The ancestor link is offered as a possibility in the names, not as a statement by informants. The media and reduction conclusions are given as tendencies. Read in an automated extract."
+    },
+    {
+      "id": "culture-house-spirits",
+      "kind": "web",
+      "author": "Culture.ru (state cultural portal), author not shown",
+      "title": "Какие духи дома почитались на Руси?",
+      "title_en": "Which house spirits were venerated in Rus?",
+      "year": "n.d.",
+      "publisher": "culture.ru",
+      "extent": "",
+      "url": "https://culture.ru/s/vopros/dukhi-doma",
+      "accessed": "2026-11-15",
+      "language": "Russian",
+      "supports": "Only as a lead: the page, citing the academician N. I. Tolstoy, says it was a custom to build a house where an ancestor’s remains lay, and sometimes to bury the first member of the family to die after the housewarming under the threshold.",
+      "limitation": "A popular portal read in a search excerpt; the passage is not traced to a page of Tolstoy’s book, and no region or period is given. It is not used to support any statement on the plate."
     }
   ]
 }
