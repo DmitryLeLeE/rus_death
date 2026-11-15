@@ -66,7 +66,7 @@ export const UI = {
       title: "Claim ledger — RUSSIAN CHTHONIC ATLAS", desc: "Every section of every plate with its evidence level and sources.",
       kicker: "CLAIM LEDGER", h1: "WHAT IS<br>CLAIMED",
       dek: "One row for each section of each plate, built from the plate data. It shows how much of the atlas is documented, how much is interpretation and how much is reconstruction, and which sections have no source attached.",
-      filterLabel: "Filter by evidence level", all: "ALL", plate: "PLATE", section: "SECTION", level: "LEVEL", sources: "SOURCES", none: "none attached",
+      filterLabel: "Filter by evidence level", all: "ALL", plate: "PLATE", section: "SECTION", level: "LEVEL", sources: "SOURCES", none: "none attached", tableCell: "in the table",
       counts: "SECTIONS", of: "of", noteH: "HOW TO READ THIS",
       note1: "A section is a block on a plate: a passage, a table, a record or a note. Figures and quotations are not counted as claims. The level is the one the plate itself gives the section.",
       note2: "A section with no source is not necessarily wrong, but it is where a reader should ask what it rests on. The ledger is generated at every build, so it cannot drift from the plates."
@@ -220,7 +220,7 @@ export const UI = {
       title: "Журнал утверждений — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Каждый раздел каждого листа с уровнем доказательности и источниками.",
       kicker: "ЖУРНАЛ УТВЕРЖДЕНИЙ", h1: "ЧТО<br>УТВЕРЖДАЕТСЯ",
       dek: "Одна строка на каждый раздел каждого листа, собранная из данных листов. Видно, сколько в атласе документировано, сколько интерпретации и сколько реконструкции и у каких разделов нет источника.",
-      filterLabel: "Фильтр по уровню доказательности", all: "ВСЕ", plate: "ЛИСТ", section: "РАЗДЕЛ", level: "УРОВЕНЬ", sources: "ИСТОЧНИКИ", none: "не привязаны",
+      filterLabel: "Фильтр по уровню доказательности", all: "ВСЕ", plate: "ЛИСТ", section: "РАЗДЕЛ", level: "УРОВЕНЬ", sources: "ИСТОЧНИКИ", none: "не привязаны", tableCell: "в таблице",
       counts: "РАЗДЕЛОВ", of: "из", noteH: "КАК ЧИТАТЬ",
       note1: "Раздел — блок на листе: отрывок, таблица, запись или примечание. Иллюстрации и цитаты утверждениями не считаются. Уровень — тот, который сам лист присвоил разделу.",
       note2: "Раздел без источника не обязательно неверен, но именно тут читателю стоит спросить, на чём он держится. Журнал собирается при каждой сборке, поэтому не может разойтись с листами."
