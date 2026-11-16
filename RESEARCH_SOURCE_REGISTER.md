@@ -159,3 +159,4 @@ Stage 2, 2026-11-16 (updated after the second reading round). One row per entry 
 | zhigaltsova2018 | article | Zhigaltsova, T. V. | Obrazno-emotsional'noe vospriiatie zhiteliami pozhilogo vozrasta zabroshennogo lesnogo poselka (Arkticheskaia territoriia Arkhangel'skoi oblasti) | 2018 | M | RELEVANT EXTRACT READ |
 | balabeikina2023 | article | Balabeikina, O. A.; Korobushchenko, V. Yu.; Mazurenko, A. A. | Uprazdnennye poseleniia severo-vostochnykh raionov Respubliki Kareliia (1938–2005 gg.) | 2023 | M | RELEVANT EXTRACT READ |
 | samoilova-figures | article | Samoilova, Elena | Antropomorfnye figury v kontekste pokhoronno-pominal’noi obriadnosti severnorusskoi derevni | n.d. | C | RELEVANT EXTRACT READ |
+| barsov1872 (pp. 303–313, VIII–IX, 326–327) | primary | Barsov, E. V. | Prichitaniia Severnogo kraia, vol. 1 | 1872 | A, B, D, E, F, G, T, V | RELEVANT EXTRACT READ (page images from the owner’s archive) |

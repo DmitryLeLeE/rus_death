@@ -32,7 +32,9 @@
         "skrizhal",
         "razova-belozersk",
         "bre-eslavic-funeral",
-        "zelenin1927"
+        "zelenin1927",
+        "barsov1872",
+        "derzhavin1779"
       ],
       "related": [
         "e",
@@ -63,14 +65,16 @@
           "heading": "A room with the window open",
           "paras": [
             "In the accounts collected by ethnographers in Russian villages from the middle of the nineteenth century onward, death is registered less as an event than as a series of adjustments to a house. Mirrors are covered. Water standing in the house is thrown out or covered. The body is washed and laid on a bench, feet toward the door, men to the right of the entrance and women to the left; the table is a recent habit, chiefly Belarusian, and some Russian Old Believers lay the dead with the feet toward the icons (Zelenin 1991, pp. 347–348). At the moment of death the stove flues or a small window are opened and a piece of linen or a towel is hung out of the window; Zelenin reports three popular readings: the soul wipes itself with it, wipes its tears, or rests on it (p. 346). A stopped clock is often named, but no source read for this edition records it, so it is not asserted.",
-            "These are the practices most often repeated in the literature, and they are the ones most often flattened into a single ‘Russian custom’. The sources do not support that flattening. They record variants; they record disagreement between villages a day’s walk apart; and they record the informant’s own uncertainty about why a thing was done."
+            "These are the practices most often repeated in the literature, and they are the ones most often flattened into a single ‘Russian custom’. The sources do not support that flattening. They record variants; they record disagreement between villages a day’s walk apart; and they record the informant’s own uncertainty about why a thing was done.",
+            "Barsov’s first volume (1872), from the Olonets North, describes the same room with differences. The dead person is laid on straw spread on the bench in the front corner, head toward the icons, with copper coins on the eyes; the house is kept quiet and is either not swept or swept toward the dead, so that others do not die (p. 303). Zelenin’s account above has the feet toward the door, so the two sources disagree on orientation and neither makes a rule. Barsov also says that a piece of linen was hung outside the window, or toward the outer front corner, for forty days after a death, and calls the custom general in Novgorod province; in Korela, when the priest was seen approaching, the window frame was taken out and a patterned towel hung there, because the dead were believed to enter a house through the window, not the door (p. 308). At Chimkinichi a pupil of his saw the frame taken out so that the dead could be carried out through the window, though the usual way out was by the door and the stairs (p. 305)."
           ],
           "level": "documented",
           "sources": [
             "rouhier2007",
             "andryunina-house",
             "lewkijewskaja2004",
-            "zelenin1927"
+            "zelenin1927",
+            "barsov1872"
           ]
         },
         {
@@ -149,6 +153,24 @@
           "paras": [
             "One regional description gives the threshold a length. In Belozersk district, Vologda oblast, informants born between 1898 and 1935 told I. I. Razova that mirrors are covered for forty days; that coins are put on the window of the room where the body lies, then thrown into the grave to ‘buy’ the burial place; and that the door is not bolted for the whole forty days, because the dead are thought to come back until the fortieth day, sometimes as a bird at the window. A laundry beater across the doorway or rowan at the threshold keeps him out. The body lies three days on a bench. Set beside the opened window of the first section, this is the opposite gesture: one practice lets the soul out, the other leaves the way in unbarred and then guards it. Whether these belong to one logic is the atlas’s question, not the informants’. The Great Russian Encyclopedia’s entry on East Slavic funerary rites, read only in extract, takes the other side of the plate’s claim about variants: it calls the rite on the whole uniform and stable, with local differences on the surface. The atlas keeps both statements, and notes that the first is a single district’s account of the 20th century, while the second is a synthesis across a much larger area."
           ]
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "barsov-widow-opening",
+          "level": "documented",
+          "sources": [
+            "barsov1872"
+          ]
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "derzhavin-meshchersky",
+          "level": "documented",
+          "sources": [
+            "derzhavin1779"
+          ]
         }
       ],
       "volume": "I"
@@ -174,7 +196,8 @@
         "culture-sukhona",
         "adonyeva2026",
         "bre-eslavic-funeral-washing",
-        "zelenin1927"
+        "zelenin1927",
+        "barsov1872"
       ],
       "related": [
         "c",
@@ -202,11 +225,13 @@
           "paras": [
             "Zelenin’s survey of East Slavic funeral rites puts the washing first: the body is washed in warm water and dressed in new clothes, and in many places this was once done while the dying person was still alive, because people believed one appears in the next world in the clothes in which one died. Since the moment of death is hard to catch, he suggests, washing the already dead became usual. A vessel of water stood beside the dying person for the soul to bathe in; some said they had seen the water stir. It stayed on the table or the windowsill for forty days, and some held that the soul drank from it (Zelenin 1991, pp. 345–346).",
             "For Russians he lists what happened to everything used in the last washing: the vessel, the washcloth, the straw on which the person died, sometimes the boards. These were carried to the field or beyond the village edge, and the vessel was usually smashed. In spring they could be thrown into a river in flood; if the master of the house had died they were often buried in the yard ‘so that the domovoi should not die out’ (citing Zavoiko, p. 91). The place where they lay inspired dread. Water that happened to be standing in the house at the moment of death was not drunk but poured out. A pregnant woman must not wash the dead, or her child will die. Ukrainians, he adds, poured the water where neither people nor animals walk, between two outbuildings or under a maize drier; that is a comparison, not Russian evidence (p. 346).",
-            "Zelenin’s details come from the archive of the Russian Geographical Society and from regional collectors, cited by volume and number, and the book is a synthesis of Russian, Ukrainian and Belarusian material. This edition read his passage; it did not see the archive files behind it. An earlier version of this section said the washers were commonly older women from outside the family and were paid in soap, towels or money. The passage read here says nothing of the kind, and the statement is withdrawn until a source is found."
+            "Zelenin’s details come from the archive of the Russian Geographical Society and from regional collectors, cited by volume and number, and the book is a synthesis of Russian, Ukrainian and Belarusian material. This edition read his passage; it did not see the archive files behind it. An earlier version of this section said the washers were commonly older women from outside the family and were paid in soap, towels or money. The passage read here says nothing of the kind, and the statement is withdrawn until a source is found.",
+            "Barsov gives a compact Olonets version of the same sequence. The dead person is usually washed with warm water on straw, opposite the chimney, from a clay vessel and rubbed twice with soap; in some places, Kondushi among them, a dead woman’s hair is cut and put in the coffin. The soap is then thrown into the river and the water poured out there, though sometimes both are kept: he says that sorcerers use the water to harm newly-weds, that a person made to drink it will waste away, and that the soap is used against fever (1872, p. 303). The sorcery beliefs are reported, not observed; the passage does not name an informant or say who did the washing."
           ],
           "level": "documented",
           "sources": [
-            "zelenin1927"
+            "zelenin1927",
+            "barsov1872"
           ]
         },
         {
@@ -226,11 +251,13 @@
           "heading": "Dress, and the ban on iron",
           "paras": [
             "Many old people sewed their own death clothes in advance and put them on before major feasts and in violent thunderstorms; the clothes were mostly white. If they were sewn for someone already dead, the seams were made with the needle pointing away from the sewer and toward the dead, in places with the left hand, and an old shirt was torn off, not unbuttoned. No outer garment was put on the dead; its place was taken by a *savan*, which could be a white shirt closed like a sack, or a length of cloth wrapped round and bound with a long strip. Modern or smart clothes were not used. Instead of boots, bast shoes or soft cloth footwear (*kaligi*); if the dead were already in boots, the iron nails were pulled out (Zelenin 1991, pp. 346–347).",
-            "Cross and belt were strictly required, a copper cross, since silver was not allowed, sometimes a wooden one. A woman never wore an apron; a man always had a hat, laid beside the body if the priest objected. A girl who died unmarried was dressed as for a wedding, with a ring on the middle finger of the right hand, gifts distributed by her kin as at a wedding and a wedding loaf on the coffin lid; for her, and sometimes for a young man, a bachelor could be chosen as ‘groom’ to walk behind the coffin. Zelenin generalises these practices for the East Slavs; he does not date them or separate Russians from the others in every detail, so each belongs here to the region and group he names, where he names one."
+            "Cross and belt were strictly required, a copper cross, since silver was not allowed, sometimes a wooden one. A woman never wore an apron; a man always had a hat, laid beside the body if the priest objected. A girl who died unmarried was dressed as for a wedding, with a ring on the middle finger of the right hand, gifts distributed by her kin as at a wedding and a wedding loaf on the coffin lid; for her, and sometimes for a young man, a bachelor could be chosen as ‘groom’ to walk behind the coffin. Zelenin generalises these practices for the East Slavs; he does not date them or separate Russians from the others in every detail, so each belongs here to the region and group he names, where he names one.",
+            "Barsov (1872, p. 303) says that in some places the dying person was asked beforehand what he wished to wear. For the Petrozavodsk, Olonets and Povenets districts he lists white boots or shoes sewn with one waxed thread, a shirt with a belt and a bone comb, a white *balakhon* with a sash over it, and a length of linen as a cover; in many Kargopol parishes a shroud was put on over a plain shirt. A cross on a woollen thread was always added, and for an Old Believer a prayer rope as well. Clothes for the dead were sewn ‘inside out’, the needle pointing away from the sewer, which agrees with the seam rule above. His white boots or shoes differ from the bast shoes and soft footwear that Zelenin gives; the two describe different places and are not made to agree here."
           ],
           "level": "documented",
           "sources": [
-            "zelenin1927"
+            "zelenin1927",
+            "barsov1872"
           ]
         },
         {
@@ -343,7 +370,8 @@
         "azbyka-radonitsa2024",
         "yugai2018",
         "zelenin1927",
-        "samoilova-figures"
+        "samoilova-figures",
+        "nekrasov1863"
       ],
       "related": [
         "a",
@@ -526,6 +554,15 @@
             "c": "2/10",
             "w": 96
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "nekrasov-moroz",
+          "level": "documented",
+          "sources": [
+            "nekrasov1863"
+          ]
         }
       ],
       "volume": "I"
@@ -550,7 +587,8 @@
         "tolstoy1995",
         "azbyka-parent-saturdays",
         "zelenin1927",
-        "skrizhal"
+        "skrizhal",
+        "barsov1872"
       ],
       "related": [
         "c",
@@ -672,11 +710,13 @@
           "heading": "Forty days, and the table for the way home",
           "level": "documented",
           "sources": [
-            "zelenin1927"
+            "zelenin1927",
+            "barsov1872"
           ],
           "paras": [
             "Zelenin (1927, § 136) ties several dishes to the dead person’s journey. In south Russian practice a ‘ladder’ (*lesenka*) was baked for the fortieth day, an oblong flat cake with 3, 24 or 40 cross-stripes like the steps of a stair, taken as the dead person’s climb to heaven. It was set on a bench at the gate, a requiem was sung, and the cake was then eaten with honey. Some people on that day ate bliny at the nearest crossroads, which was meant to keep the dead from finding the way home. The fortieth day is the ‘seeing off’ of the soul, and in the North a special bed was made up for the dead in the corner under the icons on the eve, so that they would rest before the long road.",
-            "Zelenin adds three items that are not Russian and are kept here as comparison. In Volhynia a bonfire was lit at the cemetery on the spring day for the dead and a common dinner cooked for all present. Belarusians on the ‘grandfathers’ days (*dziady*), the Saturdays before Maslenitsa and before St Demetrius’s day, set aside a little of each dish in a bowl by the window and poured out the first spoonful and glass with the words ‘Grandfather, come to dinner!’. Grain was scattered for birds on graves and sometimes at crossroads, which he links to the soul seen as a bird. The days of the calendar are on plate U."
+            "Zelenin adds three items that are not Russian and are kept here as comparison. In Volhynia a bonfire was lit at the cemetery on the spring day for the dead and a common dinner cooked for all present. Belarusians on the ‘grandfathers’ days (*dziady*), the Saturdays before Maslenitsa and before St Demetrius’s day, set aside a little of each dish in a bowl by the window and poured out the first spoonful and glass with the words ‘Grandfather, come to dinner!’. Grain was scattered for birds on graves and sometimes at crossroads, which he links to the soul seen as a bird. The days of the calendar are on plate U.",
+            "Barsov’s Olonets passages put some of these items in named districts. At the funeral dinner in Ladeinopol district an empty place is left at the table in the front corner, a spoon is laid under the tablecloth and bread on top of it (1872, p. 307). On the fortieth day the relatives go out of the house to meet the priest, fully believing that the dead person is coming with him; in Brusnoe (Petrozavodsk district) a bed is made up beside the priest’s, if he arrives on the eve, for the unseen guest, and at the dinner a separate empty place with its own setting is left in the front corner while the dead person’s favourite dish is named (p. 308; the page gives no locality for the last detail). In Ladeinopol district a table with cutlery and dishes is also set on the stove for the dead, who after forty days in a cold country is said to have grown chilled and needs to warm himself (p. 309). These are local practices, and Barsov does not say how widespread any of them was."
           ]
         },
         {
@@ -762,7 +802,8 @@
         "baiburin1993",
         "zelenin-preface",
         "zelenin1916-contents",
-        "tolstaya2024"
+        "tolstaya2024",
+        "barsov1872"
       ],
       "related": [
         "a",
@@ -822,12 +863,14 @@
           "heading": "Invited, fed and sent off: the dead on memorial days",
           "level": "documented",
           "sources": [
-            "tolstaya2024"
+            "tolstaya2024",
+            "barsov1872"
           ],
           "paras": [
             "Svetlana Tolstaya’s 2024 article draws on published and archive collections of the nineteenth and twentieth centuries and on field recordings made by her and her colleagues in Polesie (the Belarus–Ukraine borderland) in the 1960s–80s and in the Russian North and the Carpathians in the 1990s. It describes contact between the living and the dead as regulated by time, place and means, and as largely one-sided: the living perform actions, the dead are invisible and are known only by indirect signs, sounds and footprints (pp. 6–7). Her material is pan-Slavic, so the places are given below, and the Belarusian, Serbian and Slovene items are comparisons, not evidence about Russians.",
             "For the East Slavs she lists how the dead were called on memorial days: at the gate, porch, window or door, with treats, in a high-pitched voice. A place was left at the table with a glass; a little of each dish was put aside or poured on a plate or under the table; food stayed on the table overnight; a towel was hung out so they could wash their hands; doors were not shut at night; clothes were hung in the yard for them (Slavic Antiquities, vol. 4, pp. 269–272, and her own field archive). Where the souls were not fed they were said to weep that they were hungry (vol. 2, p. 43). In Mogilev province, Belarus, people prepared a bath for the dead and, after the meal, poured water from the table to the door and told them to fly back to their place (Shein 1890, pp. 597, 609). In Polesie, on the day after the funeral, relatives took food from the memorial meal to the grave, which was called ‘waking the dead’ (field archive). In the Russian North, at the wake on the fortieth day, small children were carried round the table and asked whether they could see their father, uncle or aunt (Barsov 1997, p. 251) (pp. 6–7).",
-            "The main channel she names is dreams. The dead come to complain that the wrong clothes were put in the coffin, or that they are hungry because no memorial meal was held, or that the grave is full of water because the living wept too much, and the living respond: in one pan-Slavic account they dug up the grave to see whether the coffin was really floating (p. 8). Greetings and news for the dead could be passed in the text of a lament, which she says was common in the Russian North (Barsov 1997). She argues that this whole pattern does not sit comfortably with the usual notion of an ‘ancestor cult’: the dead are both honoured and feared, and the living feel dependent on them and anxious to keep the boundary between the two worlds (abstract, p. 1). She is one scholar, writing for a mixed Slavic sample."
+            "The main channel she names is dreams. The dead come to complain that the wrong clothes were put in the coffin, or that they are hungry because no memorial meal was held, or that the grave is full of water because the living wept too much, and the living respond: in one pan-Slavic account they dug up the grave to see whether the coffin was really floating (p. 8). Greetings and news for the dead could be passed in the text of a lament, which she says was common in the Russian North (Barsov 1997). She argues that this whole pattern does not sit comfortably with the usual notion of an ‘ancestor cult’: the dead are both honoured and feared, and the living feel dependent on them and anxious to keep the boundary between the two worlds (abstract, p. 1). She is one scholar, writing for a mixed Slavic sample.",
+            "Barsov records signs by which the living told whether the dead had come to a fortieth-day meal. In Samozero parish, where a table with dishes is set on the stove, they look afterwards to see whether the spoon is wet or dry. In some places in Ladeinopol district someone climbs onto the stove beforehand and looks at the table through a horse collar; a footnote from a correspondent has a close relative do this in a fur coat, looking through a sieve, and calls a sight of the dead a good sign. At Ezhessel small children are carried round the table and asked whether they see father, uncle or aunt, and if they repeat the last words, they see the unseen guest; if a bed was made up the night before, it is examined next day for creases (1872, p. 310). The next passage is a comparison, and Barsov labels it as such: among the Mordvins of two districts of Penza province, the family spreads a featherbed with the dead man’s favourite clothes in the front corner and waits for him; when he does not appear, at dawn one of his favourites goes to the grave, calls him, comes back in his likeness, bows on all sides and sits at the table, and old women ask him with deep bows whether life is good in the next world (pp. 310–311). This is a Mordvin rite, not a Russian one. The package that suggested the passage left its locality unmarked; the page does not."
           ]
         },
         {
@@ -929,7 +972,10 @@
         "danilov2018",
         "rozanov-moscow-cemeteries",
         "rambler-golubtsy",
-        "novodevichy-encyclopedia"
+        "novodevichy-encyclopedia",
+        "barsov1872",
+        "pushkin1830",
+        "suvorov-epitaph"
       ],
       "related": [
         "b",
@@ -1020,12 +1066,14 @@
           "heading": "The roof over the cross",
           "paras": [
             "The *golubets* — a cross sheltered by a small gabled roof, sometimes enclosed as a little house — is a grave form that can still be seen in Russian cemeteries. The word had a second meaning, a built-in box beside the stove in a peasant house. The roof protects the wood; it also makes the cross into a building, and the grave into a dwelling.",
-            "The atlas does not map its distribution and does not call it typical of the North: published claims about a ‘northern’ range rest on surveys this project has not consulted, and a photograph of one example is not a distribution. The only source for the form and the word here is a popular article, which is why this section stays an interpretation."
+            "The atlas does not map its distribution and does not call it typical of the North: published claims about a ‘northern’ range rest on surveys this project has not consulted, and a photograph of one example is not a distribution. The word and the form come from a popular article, which is why this section stays an interpretation; Barsov’s note below is separate evidence for a small house over a grave, not for the word.",
+            "Barsov saw small houses with a roof and windows over some graves in his childhood, and in Novgorod province, in Cherepovets district, for example at Prechistaya in Andoga (1872, p. 307). The same page records that those who took part in a burial touched the stove with a hand on coming home. His note is one district; it does not give the word *golubets* and does not say how common the houses were."
           ],
           "level": "interpretation",
           "editorial": true,
           "sources": [
-            "rambler-golubtsy"
+            "rambler-golubtsy",
+            "barsov1872"
           ]
         },
         {
@@ -1277,6 +1325,24 @@
             "c": "10/13",
             "w": 100
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "pushkin-brozhu",
+          "level": "documented",
+          "sources": [
+            "pushkin1830"
+          ]
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "suvorov-epitaph",
+          "level": "documented",
+          "sources": [
+            "suvorov-epitaph"
+          ]
         }
       ],
       "volume": "I"
@@ -1342,12 +1408,14 @@
           "heading": "A funeral day in laments, as Vologda performers describe it",
           "level": "documented",
           "sources": [
-            "iugai-letter"
+            "iugai-letter",
+            "barsov1872"
           ],
           "paras": [
             "Elena Iugai’s study draws on funeral laments of the eastern part of Vologda province, published by B. Efimenkova (1980) and by Iugai herself (2011), and begins with a warning: the Olonets laments of Barsov’s volumes are not representative of all Russian laments, because his informants Fedosova, Bogdanova and Pashkova were not ordinary lament-singers, their texts being very long and rich; a fair picture needs a large corpus of smaller texts, such as those from the Novgorod region (Berdyaeva 2015) and the South Urals (Rozhkova and Moiseeva 2008) (p. 166). She says that in pre-revolutionary Russia laments were an obligatory part of the funeral, with different types for different stages, and that the genre has since lost that role (p. 167).",
             "The performers’ own names for laments mark moments: ‘when he is lying on the bench’, ‘when they carry the coffin’, ‘in the cemetery’, the last covering laments at the digging of the grave, at the anniversary and on visits to the cemetery on Trinity Saturday. On the day of burial, as she describes it, relatives lament in the house of the dead while guests lament on their way to it. The text narrates a search: the performer wakes, washes, looks for the dead person in the yard and the house, finds him in the red corner and reproaches his silence. When the helpers close the coffin she laments again, asking them not to. The full ‘parting in the house’ can run to hundreds of lines. On the way to the cemetery the dead says farewell to the house, the street, the village, the forests and the whole world; at the cemetery the lament soothes the dead, whose relatives are waiting for him; a last lament is sung on the way back (pp. 167–168).",
-            "Informants separate these from commemoration laments, which are more symbolic, less improvised and closer to lyrical songs, and which can be sung within the first 39 days (on the ninth or twentieth), on the fortieth day, at the anniversary, on feast days or on any day. The soul is thought to come to the commemoration feast: in some Vologda villages a table is laid for the souls and a clean towel hung out for them to wash their hands, and a lament invites them. In the west of the province there is a lament inviting the dead to the bath; in the east the bath is prepared but no lament belongs to it. Today, she says, a performer often knows only one short lament, built from the traditional formulas, and uses it both at funerals and at commemorations (pp. 168–169). This is one author’s description of one region; it does not say how widely the same sequence held elsewhere."
+            "Informants separate these from commemoration laments, which are more symbolic, less improvised and closer to lyrical songs, and which can be sung within the first 39 days (on the ninth or twentieth), on the fortieth day, at the anniversary, on feast days or on any day. The soul is thought to come to the commemoration feast: in some Vologda villages a table is laid for the souls and a clean towel hung out for them to wash their hands, and a lament invites them. In the west of the province there is a lament inviting the dead to the bath; in the east the bath is prepared but no lament belongs to it. Today, she says, a performer often knows only one short lament, built from the traditional formulas, and uses it both at funerals and at commemorations (pp. 168–169). This is one author’s description of one region; it does not say how widely the same sequence held elsewhere.",
+            "Barsov’s own note on the funeral dinner shows the laments as an order of performance. In the Olonets passage that puts the dead person’s table on the stove (Ladeinopol district), the lamenters begin at the first dish, first lamenting to the priest and the clergy, then to relatives, neighbours and outsiders present; they walk through the house, bow to the four corners and lament at every place where the dead person sat, lay and walked, then go out to the barn, the yard and, if near, the fields. The sequence repeats after the second and third dishes, the lamenters change after each, and the priest is seen off with tears in the belief that the dead goes back to the cemetery with him (1872, p. 309). Barsov’s introduction also records what church and state made of lamenting. It quotes the Stoglav Council of 1551, which complained that on Trinity Saturday men and women at the graves wept with great shouting and, when buffoons and musicians began to play, stopped weeping to dance and sing ‘satanic songs’, and told priests to turn their flocks from these ‘pagan customs’ (ch. 4, q. 23); and a decree of 1715 in which Peter I, on the death of Tsaritsa Marfa Matveevna, ordered that no one should give such indecent howling over her or over any other dead person. Barsov says the decree touched the Westernised upper layer and had no influence on the mass of the people, and adds that Peter’s own coffin was lamented in a folk lament (pp. VIII–IX). Both are quoted at second hand, and ‘pagan’ is the Council’s word, not a finding."
           ]
         },
         {
@@ -1383,7 +1451,7 @@
           "kicker": "G / 03",
           "heading": "The second person",
           "paras": [
-            "Russian funerary language keeps the dead in the second person and in the present tense for as long as the ritual lasts. The dead is addressed by kin term — ‘my child’, ‘my master’, ‘my sister’ — and asked questions that presume an answer. The euphemisms that surround death in ordinary speech (*ushel* — ‘he has gone’; *ne stalo* — ‘he is no more’) are suspended in the lament, where the dead is named and spoken to directly. This is an interpretive reading carried over from the earlier edition. It has not yet been checked against lament texts and stands as unverified until it is."
+            "Russian funerary language keeps the dead in the second person and in the present tense for as long as the ritual lasts. The dead is addressed by kin term — ‘my child’, ‘my master’, ‘my sister’ — and asked questions that presume an answer. The euphemisms that surround death in ordinary speech (*ushel* — ‘he has gone’; *ne stalo* — ‘he is no more’) are suspended in the lament, where the dead is named and spoken to directly. One printed text bears this out in its grammar: the Tver lament for a sister printed on this plate (Barsov 1872, no. XI) addresses the dead in the second person and the present tense, by the kin term ‘sister’. One text supports the grammatical observation; it does not make a rule for the genre."
           ],
           "level": "interpretation",
           "sources": [
@@ -1479,13 +1547,14 @@
         {
           "type": "note",
           "kicker": "Editorial",
-          "heading": "Verse not printed here",
-          "items": [
-            "No lament text is printed on this plate. The references above (volume 1, printed pages 1, 252, 271, 293) are given so that the texts can be read in the scan of the 1872 volume at the Internet Archive, which is public domain.",
-            "Proverbs and epitaphs on other plates are quoted only where a source read for this edition gives them."
-          ],
+          "heading": "The text printed here",
           "level": "interpretation",
-          "editorial": true
+          "editorial": true,
+          "items": [
+            "The lament at the end of this plate is a complete text from Barsov’s first volume (no. XI, pp. 162–164), not a reconstruction. It was checked line by line against page images of the 1872 scan.",
+            "The pre-1918 orthography and line breaks are kept. The translation is the atlas’s own and keeps repetitions and diminutives where English allows.",
+            "Barsov’s footnote to the last line prints a variant of the closing movement. It is not combined with the main text and is not reproduced here."
+          ]
         },
         {
           "type": "quote",
@@ -1507,7 +1576,8 @@
             "kuznetsova-kovyrshina2000"
           ],
           "paras": [
-            "Most of the laments in Barsov’s volumes were recorded from one woman, Irina Andreevna Fedosova (1827–1899), a lamenter from the Zaonezhye north of Lake Onega; a few were added later from her by O. Kh. Agreneva-Slavianskaia. Kuznetsova and Kovyrshina place her birth in a village of the Vyrozero district (née Yulina) and her later life at Kuzarand; her melodies were noted between 1886 and 1895 by Agreneva-Slavianskaia, S. G. Rybakov and N. A. Rimsky-Korsakov, and a phonograph recording of 1896 by Yu. I. Blok was transcribed and published much later. Reference works disagree on her birth year, 1827 or 1831, and this atlas follows the 1827 given in the scholarly articles read. The consequence for the plate is concrete. A genre described above as formulaic and communal reaches us largely through a single, exceptionally skilled voice, recorded by outsiders, in a setting that was not a funeral. Philologists have debated how much of the printed text is the tradition and how much is the performer. The sources read here do not allow the atlas to settle that, and it does not."
+            "Most of the laments in Barsov’s volumes were recorded from one woman, Irina Andreevna Fedosova (1827–1899), a lamenter from the Zaonezhye north of Lake Onega; a few were added later from her by O. Kh. Agreneva-Slavianskaia. Kuznetsova and Kovyrshina place her birth in a village of the Vyrozero district (née Yulina) and her later life at Kuzarand; her melodies were noted between 1886 and 1895 by Agreneva-Slavianskaia, S. G. Rybakov and N. A. Rimsky-Korsakov, and a phonograph recording of 1896 by Yu. I. Blok was transcribed and published much later. Reference works disagree on her birth year, 1827 or 1831, and this atlas follows the 1827 given in the scholarly articles read. The consequence for the plate is concrete. A genre described above as formulaic and communal reaches us largely through a single, exceptionally skilled voice, recorded by outsiders, in a setting that was not a funeral. Philologists have debated how much of the printed text is the tradition and how much is the performer. The sources read here do not allow the atlas to settle that, and it does not.",
+            "Fedosova was not the only named voice. In the register of performers that closes the first volume, Barsov lists five women, and the lament printed there as No. XI comes from a peasant woman of the village of Tverdilovo, Kalyazin uyezd, Tver province, Klavdiya Momokova, who by his account learned to lament in her own village while still unmarried and was living in Moscow when he wrote. Another, Anna Perventseva, was a priest’s daughter who learned at the churchyard on Sundays and feast days; a third, Marya Fedorova of Kargopol, a deacon’s daughter, learned from an old lamenter who had taken shelter in her parents’ house. The portraits are Barsov’s own, selective and at times unfriendly, and give no recording dates; they show that the collection rests on named women of different standing, not on an anonymous “people”."
           ]
         },
         {
@@ -1575,6 +1645,15 @@
             "c": "3/11",
             "w": 100
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "barsov-sister",
+          "level": "documented",
+          "sources": [
+            "barsov1872"
+          ]
         }
       ],
       "volume": "I"
@@ -1598,7 +1677,8 @@
         "tolstoy1995",
         "ivanits1989",
         "merridale2000",
-        "azbyka-mytarstva"
+        "azbyka-mytarstva",
+        "funeral-sticheron"
       ],
       "related": [
         "a",
@@ -1758,6 +1838,15 @@
             "c": "2/12",
             "w": 100
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "funeral-sticheron",
+          "level": "documented",
+          "sources": [
+            "funeral-sticheron"
+          ]
         }
       ],
       "volume": "I"
@@ -1789,7 +1878,10 @@
         "bre-butovo",
         "meduza2015-polk",
         "nikolaev2012",
-        "koroleva2015"
+        "koroleva2015",
+        "nekrasov1856",
+        "surikov-step",
+        "cherny-voron"
       ],
       "related": [
         "f",
@@ -2002,6 +2094,33 @@
           "paras": [
             "Collective death is also remembered from below, and the best-documented recent case began in Siberia. According to Meduza, on 9 May 2012 six thousand people in Tomsk walked with portraits of their relatives who fought in the war; the form was taken up in about 140 places in 2013 and about 450 in 2014. The same article is mainly about a dispute over who owns the name and the procession, which this plate does not follow. What matters here is the object: a photograph carried on a stick through a city, one dead person to one living carrier. It is the opposite of the unknown soldier earlier on this plate, which merges many into one; here the many are kept apart, each with a face and a relative."
           ]
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "nekrasov-vnimaya",
+          "level": "documented",
+          "sources": [
+            "nekrasov1856"
+          ]
+        },
+        {
+          "type": "text",
+          "voice": "surikov-step",
+          "level": "documented",
+          "sources": [
+            "surikov-step"
+          ],
+          "kicker": "Song"
+        },
+        {
+          "type": "text",
+          "voice": "cherny-voron",
+          "level": "documented",
+          "sources": [
+            "cherny-voron"
+          ],
+          "kicker": "Song"
         }
       ],
       "volume": "IV"
@@ -2028,7 +2147,8 @@
         "thyssen-suetin",
         "stedelijk-malevich",
         "azbyka-perov",
-        "svoboda-malevich-grave"
+        "svoboda-malevich-grave",
+        "lermontov1843"
       ],
       "related": [
         "b",
@@ -2166,6 +2286,15 @@
             "c": "1/13",
             "w": 100
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "lermontov-vyhozhu",
+          "level": "documented",
+          "sources": [
+            "lermontov1843"
+          ]
         }
       ],
       "volume": "I"
@@ -3186,7 +3315,9 @@
         "lavrenova2022",
         "zelenin1916",
         "zelenin1927",
-        "maksimov1903"
+        "maksimov1903",
+        "barsov1872",
+        "sadovnikov-volga"
       ],
       "related": [
         "e",
@@ -3379,6 +3510,24 @@
             "c": "1/6",
             "w": 100
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Text",
+          "voice": "barsov-drowning",
+          "level": "documented",
+          "sources": [
+            "barsov1872"
+          ]
+        },
+        {
+          "type": "text",
+          "voice": "sadovnikov-volga",
+          "level": "documented",
+          "sources": [
+            "sadovnikov-volga"
+          ],
+          "kicker": "Song"
         }
       ]
     },
@@ -3579,7 +3728,8 @@
         "rte2011-villages",
         "skorodumova-mariinka",
         "yankovskaya2021",
-        "yakubov2009"
+        "yakubov2009",
+        "po-dikim-stepyam"
       ],
       "related": [
         "m",
@@ -3774,6 +3924,15 @@
             "The Rosstat census tables, to separate uninhabited villages by cause."
           ],
           "editorial": true
+        },
+        {
+          "type": "text",
+          "voice": "po-dikim-stepyam",
+          "level": "documented",
+          "sources": [
+            "po-dikim-stepyam"
+          ],
+          "kicker": "Song"
         }
       ]
     },
@@ -4300,7 +4459,8 @@
         "sedakova2020",
         "dynin1994",
         "tolstaya2024",
-        "maksimov1903"
+        "maksimov1903",
+        "barsov1872"
       ],
       "related": [
         "e",
@@ -4464,12 +4624,14 @@
           "heading": "What Maksimov wrote about suicides and the drowned",
           "level": "documented",
           "sources": [
-            "maksimov1903"
+            "maksimov1903",
+            "barsov1872"
           ],
           "paras": [
             "Sergei Maksimov’s *Nechistaia, nevedomaia i krestnaia sila*, published in 1903 by Prince Tenishev’s Ethnographic Bureau after Maksimov’s death, is a general book on spirits by a writer and collector; it gives few sources for individual items and the editors say they completed the manuscript. It is used here for statements that are short and concrete, not as a survey of practice.",
             "On suicides he writes that pious and strict people judged one who laid hands on himself to be ‘the devil’s ram’ (*chertu baran*), and that the drowned and the hanged were buried, where possible, on the very spot where they had committed the sin, in a bare mound, without a cross and outside the cemetery fence, ‘so that they fall more surely into the power of the unclean’ (pp. 16–17, as marked in the online copy of the 1994 reprint). On water, he says that bruises and scratches on a drowned body showed that the person had been in the *vodyanoi*’s paws, and that to find a body one set a wooden bowl with three wax candles afloat, and it stopped over the place (pp. 77–78, 83–84). On the wandering of such souls he adds that the girls who died by suicide cannot turn back from the state of a rusalka, and that children smothered by their mothers in sleep passed to the ‘secret people’ and were counted lost unless the mother saved them by forty days of prayer and strict fasting (pp. 20–21, 89).",
-            "The three items agree with what the plate gets from Zelenin, Dronova and Tolstaya: a burial away from the churchyard for the self-killed and the belief that the water kept its dead. They add no place and no informant, so each is evidence for what an educated collector of the 1890s held to be the common belief, and not for a named village."
+            "The three items agree with what the plate gets from Zelenin, Dronova and Tolstaya: a burial away from the churchyard for the self-killed and the belief that the water kept its dead. They add no place and no informant, so each is evidence for what an educated collector of the 1890s held to be the common belief, and not for a named village.",
+            "Barsov, writing about the Olonets North in 1872, records that miscarried and unbaptised children were buried outside the cemetery fence in a swamp, and sometimes under the floor of the house; that a suicide in Voezersky parish, Kargopol district, was buried five versts from the church, where passers-by usually laid stones or sticks, burning the sticks when many had gathered (a footnote credits this report to L. Malinovsky); and that those who had hanged themselves in Andoma were buried on a hill among fir trees, face down (pp. 312–313). These are two or three places, not a map, and the Church did not prescribe the acts. They match in kind what the plate has from other regions: a site apart, stones or sticks left by passers-by, a turned body."
           ]
         },
         {
@@ -4938,7 +5100,8 @@
         "rouhier2007",
         "ryko2025",
         "dometian-superstition",
-        "zelenin1927"
+        "zelenin1927",
+        "barsov1872"
       ],
       "related": [
         "a",
@@ -4967,11 +5130,13 @@
           "heading": "Two aims, and the acts that serve them",
           "level": "documented",
           "sources": [
-            "bigenc-funeral"
+            "bigenc-funeral",
+            "barsov1872"
           ],
           "paras": [
             "An encyclopedia article on East Slavic funeral rites says the rite works in two directions: some acts help the dead reach the other world, others protect the living from the dead. Its protective and cleansing acts include washing the house after the coffin is carried out, turning objects over, covering mirrors and washing hands on returning from the cemetery. Its prohibitions include close relatives making the coffin and bringing food back from the cemetery.",
-            "The explanation the article gives is general: the dead can harm the living, and the boundary between worlds stays open from the death until the burial and the fortieth day. It does not give a reason for each separate act, and it does not date its examples. The page does not name an author. The page has no bibliography, but it names its authorities in the text: Baiburin (1993), Razumova (2012), Tolstaya (2009, 2019), Spassky (1877) and an 1890 collection of materials on daily life. Washing as removal of the marks of the living is attributed to Baiburin; the epistolary character of laments in the Russian North to Tolstaya."
+            "The explanation the article gives is general: the dead can harm the living, and the boundary between worlds stays open from the death until the burial and the fortieth day. It does not give a reason for each separate act, and it does not date its examples. The page does not name an author. The page has no bibliography, but it names its authorities in the text: Baiburin (1993), Razumova (2012), Tolstaya (2009, 2019), Spassky (1877) and an 1890 collection of materials on daily life. Washing as removal of the marks of the living is attributed to Baiburin; the epistolary character of laments in the Russian North to Tolstaya.",
+            "Barsov (1872, p. 312) lists acts done so as not to fear the dead: touching the dead man’s heels, kissing him hard at the farewell, looking at the legs of the horse that carries him from under the shafts on the way to the cemetery, touching the house stove with the fingers on returning, and, if he still disturbs the living with apparitions, driving him off with a bridle on the Svir. He gives them as known customs from different places, not as one rite, and attaches no reason to any act beyond the stated aim. He adds that when someone dies without repentance, his relatives bow at the feet of everyone who comes to church, and sometimes of anyone they meet within two or three weeks, asking forgiveness of the dead person’s sins, in the belief that the sins pass to the living who take part in the singing or are bowed to; and that some Kargopol parishes have no custom of commemoration at all, with a saying that one does not stir a dead bone."
           ]
         },
         {

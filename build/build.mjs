@@ -28,6 +28,7 @@ const write = (rel, content) => {
 const SITE = "https://DmitryLeLeE.github.io/rus_death/";
 let LANG = "en", T = UI.en, UP = "";
 let plates, sourcesDoc, objectsDoc, conceptsDoc, placesDoc, timelineDoc, imagesDoc, methodDoc, derivedDoc;
+let VOICES = [], VOICE = {};
 let prologueDoc, lexiconDoc, volumesDoc, routesDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
 
 const merge = (target, src) => {
@@ -40,6 +41,35 @@ const merge = (target, src) => {
 const byId = (arr) => Object.fromEntries(arr.map((x) => [x.id, x]));
 const fileExists = (p) => fs.existsSync(p);
 
+// Public-domain texts and songs. The data files are optional: with neither present
+// the text sections render nothing and the build is unchanged.
+function loadVoices(lang) {
+  const list = [];
+  const vp = path.join(DATA, "voices.json");
+  if (fileExists(vp)) list.push(...readJSON(vp).voices);
+  const sp = path.join(DATA, "songs.json");
+  if (fileExists(sp)) {
+    for (const x of readJSON(sp).songs) {
+      list.push({
+        id: x.id, title: x.title_en, title_ru: x.title_ru, first_line: x.first_line, genre: x.genre, genre_ru: x.genre_ru,
+        place: "", author: x.author, date_published: x.published, source_detail: x.source_detail, source_url: x.source_url,
+        rights: x.rights, rights_evidence: x.rights_evidence, status: x.status, excerpt_note: x.excerpt_note,
+        plate: Array.isArray(x.plate) ? String(x.plate[0]).toLowerCase() : x.plate,
+        original: x.original, translation: x.translation, context: x.context, notes: x.notes, language: "Russian",
+      });
+    }
+  }
+  if (lang === "ru") {
+    for (const f of ["voices.json", "songs.json"]) {
+      const p = path.join(DATA, "ru", f);
+      if (!fileExists(p)) continue;
+      const ovl = readJSON(p);
+      for (const v of list) if (ovl[v.id]) merge(v, ovl[v.id]);
+    }
+  }
+  return list;
+}
+
 function loadLang(lang) {
   LANG = lang; T = UI[lang]; UP = lang === "ru" ? "../" : "";
   plates = readJSON(path.join(DATA, "plates.json"));
@@ -51,6 +81,7 @@ function loadLang(lang) {
   imagesDoc = readJSON(path.join(DATA, "images.json"));
   methodDoc = readJSON(path.join(DATA, "method.json"));
   derivedDoc = readJSON(path.join(DATA, "derived.json"));
+  VOICES = loadVoices(lang); VOICE = byId(VOICES);
   prologueDoc = fileExists(path.join(DATA, "prologue.json")) ? readJSON(path.join(DATA, "prologue.json")) : null;
   lexiconDoc = fileExists(path.join(DATA, "lexicon.json")) ? readJSON(path.join(DATA, "lexicon.json")) : null;
   volumesDoc = readJSON(path.join(DATA, "volumes.json"));
@@ -118,6 +149,8 @@ function loadLang(lang) {
     }
   };
   fill(T); fill(methodDoc);
+  // A text section whose data file is not present is dropped, so no empty sheet is drawn.
+  for (const pl of plates.plates) pl.sections = pl.sections.filter((x) => !(x.type === "text" && !VOICE[x.voice]));
 }
 const volPlates = (vid) => plates.plates.filter((p) => p.volume === vid);
 const letterRange = (vp) => {
@@ -331,6 +364,52 @@ function figureSection(s, base, item) {
   });
 }
 
+const RIGHTS = { PUBLIC_DOMAIN_VERIFIED: { en: "Public domain", ru: "Общественное достояние" } };
+
+function textSection(s, base) {
+  const v = VOICE[s.voice];
+  if (!v) return "";
+  const stanzas = (arr) => (typeof arr[0] === "string" ? [arr] : arr).map((st) =>
+    `<div class="voice__st">${st.map((line) => `<span class="voice__l">${esc(line)}</span>`).join("")}</div>`).join("");
+  const trans = LANG === "en" ? v.translation : (v.translation_ru || null);
+  const transLabel = LANG === "en" ? T.voice.translationEn : T.voice.translationRu;
+  const genre = LANG === "ru" ? (v.genre_ru || v.genre) : v.genre;
+  const meta = {
+    [T.voice.genre]: genre, [T.voice.recorded]: v.date_recorded, [T.voice.published]: v.date_published,
+    [T.voice.locality]: v.place, [T.voice.collector]: v.collector, [T.voice.performer]: v.performer,
+    [T.voice.author]: v.author, [T.voice.status]: v.status === "complete" ? T.voice.complete : T.voice.excerpt,
+  };
+  const metaHtml = `<dl class="rec__meta">${Object.entries(meta).filter(([, x]) => x)
+    .map(([k, x]) => `<div><dt>${esc(k)}</dt><dd>${md(x)}</dd></div>`).join("")}</dl>`;
+  const notes = (v.notes || []).length
+    ? `<dl class="voice__notes">${v.notes.map((n) => `<div><dt>${esc(n.term)}</dt><dd>${md(n.gloss)}</dd></div>`).join("")}</dl>` : "";
+  const excerpt = v.status !== "complete" && v.excerpt_note
+    ? `<p class="voice__ex"><span class="voice__lab">${T.voice.excerpt}</span> ${esc(v.excerpt_note)}</p>` : "";
+  const rights = (RIGHTS[v.rights] || {})[LANG] || v.rights;
+  return `<article class="prose voice" id="voice-${v.id}">
+  ${kick(s.kicker || "")}
+  <h2>${md(v.title)}</h2>
+  ${LANG === "en" ? `<p class="voice__orig">${esc(v.title_ru)}</p>` : ""}
+  <div class="voice__grid${trans ? "" : " voice__grid--single"}">
+    <div class="voice__col" lang="ru">
+      <p class="voice__lab">${T.voice.original}</p>
+      ${stanzas(v.original)}
+    </div>
+    ${trans ? `<div class="voice__col" lang="${LANG === "en" ? "en" : "ru"}">
+      <p class="voice__lab">${transLabel}</p>
+      ${stanzas(trans)}
+    </div>` : ""}
+  </div>
+  ${excerpt}
+  ${metaHtml}
+  <div class="tx">${(s.framing || v.context || []).map((p) => `<p>${md(p)}</p>`).join("")}</div>
+  ${notes}
+  <p class="voice__src"><span class="voice__lab">${T.voice.source}</span> ${esc(v.source_detail)}${v.source_url ? ` · <a href="${esc(v.source_url)}" rel="noopener">${T.voice.open}</a>` : ""}</p>
+  <p class="voice__rights"><span class="voice__lab">${T.voice.rights}</span> ${esc(rights)}. ${esc(v.rights_evidence || "")}</p>
+  ${foot(s, base)}
+</article>`;
+}
+
 function renderSection(s, base, item) {
   switch (s.type) {
     case "prose": return prose(s, base);
@@ -339,6 +418,7 @@ function renderSection(s, base, item) {
     case "table": return table(s);
     case "register": return register(s);
     case "quote": return quote(s);
+    case "text": return textSection(s, base);
     case "figure": return figureSection(s, base, item);
     default: return "";
   }
@@ -1005,11 +1085,17 @@ function searchIndex() {
   const rows = [];
   for (const p of plates.plates) {
     for (const s of p.sections) {
-      if (s.hidden || s.type === "figure") continue;
+      if (s.hidden || s.type === "figure" || s.type === "text") continue;
       const text = collect(s).join(" ");
       if (!text) continue;
       rows.push(["section", `${p.letter} · ${plain(s.heading || s.kicker || p.nav)}`, `plates/${p.id}-${p.slug}.html`, text]);
     }
+  }
+  for (const v of VOICES) {
+    const p = plates.plates.find((x) => x.id === v.plate);
+    if (!p) continue;
+    rows.push(["voice", `${v.title} · ${v.title_ru}`, `plates/${p.id}-${p.slug}.html#voice-${v.id}`,
+      plain(`${v.first_line || ""} ${v.genre || ""} ${v.place || ""} ${(v.context || []).join(" ")} ${(LANG === "en" ? v.translation : v.translation_ru || []).flat().join(" ")} ${v.original.flat().join(" ")}`)]);
   }
   if (lexiconDoc) for (const e of lexiconDoc.entries) rows.push(["word", `${e.ru} · ${e.tr}`, `words.html#word-${e.id}`, plain(e.gloss)]);
   for (const e of timelineDoc.entries) rows.push(["time", `${e.display} · ${plain(e.title)}`, "chronology.html", plain(e.text)]);

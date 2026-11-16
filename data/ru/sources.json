@@ -25,7 +25,7 @@
     "publisher": "Москва",
     "extent": "3 тома",
     "supports": "Основополагающее собрание русских похоронных причитаний, записанных в Олонецком крае: расположение причитаний по родству умершего, роль профессиональной плакальщицы (вопленицы), поводы исполнения.",
-    "limitation": "Прочитан том 1 (1872) по распознанному тексту Internet Archive: оглавление, введение с. I–III и места, на которые ссылается лист G. Статус чтения: ПРОЧИТАН ИЗВЛЕЧЁННЫЙ ФРАГМЕНТ; тома 2–3 и сами тексты причитаний не читались. Распознавание не сверено; номера страниц оглавления взяты из него и могут быть неточны. Ни одного стиха в атласе не печатается."
+    "limitation": "Том 1 (1872): оглавление и введение с. I–III прочитаны по распознанному тексту Internet Archive; описание похоронных обычаев с. 303–313, введение с. VIII–IX и список исполнительниц с. 313–327 сверены по изображениям страниц (изображения из архива владельца проекта, здесь не скачивались). Заголовок с именем исполнительницы на с. 326 в скане размыт: фамилия читается как Момокова по распознанному слою, написание «Момонова» не исключено. Статус чтения: ПРОЧИТАН ИЗВЛЕЧЁННЫЙ ФРАГМЕНТ; тома 2–3 и сами тексты причитаний не читались. Распознавание не сверено; номера страниц оглавления взяты из него и могут быть неточны. Тексты причитаний печатаются в атласе только там, где в секции текста указана страница тома 1."
   },
   "baiburin1993": {
     "author": "Байбурин, Альберт Кашфуллович",
@@ -809,5 +809,79 @@
     "supports": "Что в июне 2012 года глава московского департамента торговли и услуг заявил о передаче коммерческих функций погребения от муниципальной компании «Ритуал» частным фирмам; рынок оценён более чем в 12 млрд рублей; кремация — 44 % московских погребений; в Москве 71 кладбище, два открыты для новых захоронений.",
     "limitation": "ТОЛЬКО МАШИННЫЙ ПЕРЕСКАЗ (веб-загрузка). Официальные заявления и оценки в пересказе газеты; только Москва.",
     "year": "2012"
+  },
+  "derzhavin1779": {
+    "supports": "The opening of the ode (lines 1–16), printed in Plate A as a literary text.",
+    "limitation": "A court ode, not a funeral text. The Wikisource transcription follows a modern edition; the 1779 publication and line count were checked. Текст проверялся в пакете текстов владельца проекта (TEXTUAL_ADDITIONS); в этом издании источник заново не читался.",
+    "publisher": "первая публикация, 1779",
+    "extent": "88 строк"
+  },
+  "pushkin1830": {
+    "supports": "The complete lyric on the grave, mortality and indifferent nature, printed in Plate F.",
+    "limitation": "A literary meditation, not a cemetery inscription or ritual text. Modern-spelling edition; pre-reform variants on the source page. Текст проверялся в пакете текстов владельца проекта (TEXTUAL_ADDITIONS); в этом издании источник заново не читался.",
+    "publisher": "«Литературная газета», Санкт-Петербург",
+    "extent": "32 строки"
+  },
+  "lermontov1843": {
+    "supports": "The complete lyric on solitude, rest and the rejection of the cold sleep of the grave, printed in Plate J.",
+    "limitation": "A literary meditation, not a funeral text. Text follows the 1989 edition named on the source page. Текст проверялся в пакете текстов владельца проекта (TEXTUAL_ADDITIONS); в этом издании источник заново не читался.",
+    "publisher": "«Отечественные записки»",
+    "extent": "20 строк"
+  },
+  "nekrasov1856": {
+    "supports": "The complete lyric on war, mothers’ grief and the one memory that does not forget, printed in Plate I.",
+    "limitation": "A literary generalization, not a soldier’s song or recorded lament. Text follows the cited complete works. Текст проверялся в пакете текстов владельца проекта (TEXTUAL_ADDITIONS); в этом издании источник заново не читался.",
+    "publisher": "первая публикация, 1856",
+    "extent": "17 строк"
+  },
+  "nekrasov1863": {
+    "supports": "The laying out of the peasant Prokl, printed in Plate C as a literary image of the ritual; the poem named in the Tretyakov Gallery’s note on Perov’s painting.",
+    "limitation": "A narrative poem, not an ethnographic record. Its funeral lament is Nekrasov’s literary composition and is not printed as folklore. Текст проверялся в пакете текстов владельца проекта (TEXTUAL_ADDITIONS); в этом издании источник заново не читался.",
+    "publisher": "первая публикация, 1863–64",
+    "extent": "ч. I, гл. VIII, строки 260–275"
+  },
+  "suvorov-epitaph": {
+    "supports": "The three-word inscription, printed in Plate F as a gravestone text.",
+    "limitation": "A short inscription, not a literary poem. The attribution to Derzhavin rests on an anecdote in the commentary to Gnedich’s poem. Текст проверялся в пакете текстов владельца проекта (TEXTUAL_ADDITIONS); в этом издании источник заново не читался.",
+    "publisher": "Благовещенская церковь, Александро-Невская лавра, Санкт-Петербург",
+    "extent": "одно предложение"
+  },
+  "funeral-sticheron": {
+    "supports": "The Slavonic funeral sticheron, printed in Plate H; English translation by the atlas.",
+    "limitation": "A liturgical text, not a folk spiritual verse. The modern Russian translation on the source page was not used. Текст проверялся в пакете текстов владельца проекта (TEXTUAL_ADDITIONS); в этом издании источник заново не читался.",
+    "publisher": "православный чин погребения мирян",
+    "extent": "стихира, глас 8"
+  },
+  "surikov-step": {
+    "author": "Суриков, Иван Захарович",
+    "title": "В степи («Кони мчат-несут…»)",
+    "publisher": "Транскрипция Викитеки (издание библиотеки Мошкова)",
+    "year": "1869; новая редакция 1877",
+    "supports": "Текст песни, напечатанный на листе как литературная или народная песня, а не как запись похорон.",
+    "limitation": "Песня литературного происхождения, а не записанное причитание; текст проверялся в пакете владельца проекта."
+  },
+  "sadovnikov-volga": {
+    "author": "Садовников, Дмитрий Николаевич",
+    "title": "Из-за острова на стрежень…",
+    "publisher": "Транскрипция Викитеки (Поэты-демократы 1870–1880-х годов, 1968)",
+    "year": "1883",
+    "supports": "Текст песни, напечатанный на листе как литературная или народная песня, а не как запись похорон.",
+    "limitation": "Литературный текст, а не свидетельство обряда; текст проверялся в пакете владельца проекта."
+  },
+  "po-dikim-stepyam": {
+    "author": "Народная (каторжная песня)",
+    "title": "По диким степям Забайкалья",
+    "publisher": "Транскрипция Викитеки песенника 1908 года",
+    "year": "песенник 1908",
+    "supports": "Текст песни, напечатанный на листе как литературная или народная песня, а не как запись похорон.",
+    "limitation": "Не похоронный текст; использован вариант дореволюционного песенника, издание 1950 года — только для сверки. Текст проверялся в пакете владельца проекта."
+  },
+  "cherny-voron": {
+    "author": "Народная (казачья песня); литературный источник — Н. Ф. Верёвкин, 1831",
+    "title": "Чёрный ворон (вар. 1)",
+    "publisher": "Транскрипция Викитеки, песенник не назван",
+    "year": "народная; исходное стихотворение 1831",
+    "supports": "Текст песни, напечатанный на листе как литературная или народная песня, а не как запись похорон.",
+    "limitation": "Песенник этого варианта не установлен и не сверялся, поэтому издание отмечено как частичное; текст проверялся в пакете владельца проекта."
   }
 }

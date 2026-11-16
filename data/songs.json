@@ -1,0 +1,669 @@
+{
+  "songs": [
+    {
+      "id": "surikov-step",
+      "title_ru": "Степь да степь кругом",
+      "title_en": "The steppe, and steppe all around",
+      "first_line": "Кони мчат-несут,",
+      "genre": "Literary song / folk song",
+      "genre_ru": "Литературная песня, ставшая народной",
+      "author": "Ivan Zakharovich Surikov (1841–1880)",
+      "date": "1869, 1877",
+      "published": "first version 1869; revised 1877; folk-song version widely printed later",
+      "source_id": "surikov-step",
+      "source_detail": "I. Z. Surikov, «В степи» («Кони мчат-несут…»), 1869/1877. Text: Wikisource, based on the Moshkov Library edition.",
+      "source_url": "https://ru.wikisource.org/wiki/В_степи_(Суриков)",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Surikov died in 1880; the poem was written in 1869 and revised in 1877. Public domain in Russia and the United States. The folk-song version is a traditional reworking and is not a modern arrangement.",
+      "plate": [
+        "I",
+        "C",
+        "F"
+      ],
+      "status": "complete",
+      "original": [
+        [
+          "Кони мчат-несут,",
+          "Степь всё вдаль бежит;",
+          "Вьюга снежная",
+          "На степи гудит."
+        ],
+        [
+          "Снег да снег кругом;",
+          "Сердце грусть берет;",
+          "Про моздокскую",
+          "Степь ямщик поет…"
+        ],
+        [
+          "Как простор степной",
+          "Широко-велик;",
+          "Как в степи глухой",
+          "Умирал ямщик;"
+        ],
+        [
+          "Как в последний свой",
+          "Передсмертный час",
+          "Он товарищу",
+          "Отдавал приказ:"
+        ],
+        [
+          "«Вижу, смерть меня",
+          "Здесь, в степи, сразит, —",
+          "Не попомни, друг,",
+          "Злых моих обид."
+        ],
+        [
+          "Злых моих обид,",
+          "Да и глупостей,",
+          "Неразумных слов,",
+          "Прежней грубости."
+        ],
+        [
+          "Схорони меня",
+          "Здесь, в степи глухой;",
+          "Вороных коней",
+          "Отведи домой."
+        ],
+        [
+          "Отведи домой,",
+          "Сдай их батюшке;",
+          "Отнеси поклон",
+          "Старой матушке."
+        ],
+        [
+          "Молодой жене",
+          "Ты скажи, друг мой,",
+          "Чтоб меня она",
+          "Не ждала домой…"
+        ],
+        [
+          "Кстати ей ещё",
+          "Не забудь сказать:",
+          "Тяжело вдовой",
+          "Мне её кидать!"
+        ],
+        [
+          "Передай словцо",
+          "Ей прощальное",
+          "И отдай кольцо",
+          "Обручальное."
+        ],
+        [
+          "Пусть о мне она",
+          "Не печалится;",
+          "С тем, кто по сердцу,",
+          "Обвенчается!»"
+        ],
+        [
+          "Замолчал ямщик,",
+          "Слеза катится…",
+          "А в степи глухой",
+          "Вьюга плачется."
+        ],
+        [
+          "Голосит она,",
+          "В степи стон стоит,",
+          "Та же песня в ней",
+          "Ямщика звучит:"
+        ],
+        [
+          "«Как простор степной",
+          "Широко-велик;",
+          "Как в степи глухой",
+          "Умирал ямщик»."
+        ]
+      ],
+      "translation": [
+        [
+          "The horses race and carry me on,",
+          "The steppe runs far away;",
+          "The snowy storm",
+          "Hums over the steppe."
+        ],
+        [
+          "Snow and snow all around;",
+          "Grief takes the heart;",
+          "Of the Mozdok",
+          "Steppe the coachman sings…"
+        ],
+        [
+          "How wide and great",
+          "The steppe's expanse;",
+          "How in the deaf steppe",
+          "A coachman was dying;"
+        ],
+        [
+          "How in his last",
+          "Hour before death",
+          "He gave his command",
+          "To his comrade:"
+        ],
+        [
+          "“I see death will strike me",
+          "Here, in the steppe—",
+          "Do not remember, friend,",
+          "My evil offences."
+        ],
+        [
+          "My evil offences,",
+          "And my follies,",
+          "Unreasonable words,",
+          "Former rudeness."
+        ],
+        [
+          "Bury me",
+          "Here, in the deaf steppe;",
+          "Take my black horses",
+          "Home."
+        ],
+        [
+          "Take them home,",
+          "Give them to my father;",
+          "Carry a bow",
+          "To my old mother."
+        ],
+        [
+          "To my young wife",
+          "You say, my friend,",
+          "That she should not wait",
+          "For me at home…"
+        ],
+        [
+          "By the way, do not forget",
+          "To tell her:",
+          "It is hard for me to leave her",
+          "A widow!"
+        ],
+        [
+          "Give her a parting word,",
+          "A word of farewell,",
+          "And give her the ring,",
+          "The betrothal ring."
+        ],
+        [
+          "Let her not grieve for me;",
+          "Let her not be sad;",
+          "With the one her heart loves,",
+          "Let her be married!”"
+        ],
+        [
+          "The coachman fell silent,",
+          "A tear rolls…",
+          "And in the deaf steppe",
+          "The snowstorm weeps."
+        ],
+        [
+          "It wails,",
+          "A groan stands in the steppe,",
+          "The same song in it",
+          "Sounds of the coachman:"
+        ],
+        [
+          "“How wide and great",
+          "The steppe's expanse;",
+          "How in the deaf steppe",
+          "A coachman was dying.”"
+        ]
+      ],
+      "context": [
+        "Surikov's poem was written in 1869 and revised in 1877. It became one of the most widely sung Russian songs about a death on the road: a coachman dying in the steppe gives his comrade instructions for burial, for the horses, for his parents and for his young wife. The poem does not name a province; the ‘Mozdok steppe’ locates it in the North Caucasus, on the road, not in a village.",
+        "The song is literary in origin, not a recorded folk lament. Its instructions — bury me here, take the horses home, tell my wife not to wait — are close to the formulas of a death on the road, but they are Surikov's composition. Use it as a literary song, not as a transcript of a peasant funeral."
+      ],
+      "notes": [
+        {
+          "term": "ямщик",
+          "gloss": "A coachman, a driver of a horse-drawn carriage or sled."
+        },
+        {
+          "term": "Моздокская степь",
+          "gloss": "The steppe around Mozdok, in the North Caucasus; a named route, not a generic ‘Russian’ landscape."
+        },
+        {
+          "term": "обручальное кольцо",
+          "gloss": "Betrothal/wedding ring; the dying man returns it so that his wife is free to marry."
+        }
+      ]
+    },
+    {
+      "id": "sadovnikov-volga",
+      "title_ru": "Из-за острова на стрежень",
+      "title_en": "From behind the island, into the reach",
+      "first_line": "Из-за острова на стрежень,",
+      "genre": "Literary song / folk song",
+      "genre_ru": "Литературная песня, ставшая народной",
+      "author": "Dmitrii Nikolaevich Sadovnikov (1847–1883)",
+      "date": "1883",
+      "published": "Volzhskii vestnik, 1883, no. 12, p. 261",
+      "source_id": "sadovnikov-volga",
+      "source_detail": "D. N. Sadovnikov, «Из-за острова на стрежень…» (1883). Text: Wikisource, based on Poety-demokraty 1870–1880-kh godov (1968).",
+      "source_url": "https://ru.wikisource.org/wiki/Из-за_острова_на_стрежень_(Садовников)/СО",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Sadovnikov died in 1883; the poem was published in 1883. Public domain in Russia and the United States. The folk-song version is a traditional reworking, not a modern arrangement.",
+      "plate": [
+        "O",
+        "E",
+        "D"
+      ],
+      "status": "complete",
+      "original": [
+        [
+          "Из-за острова на стрежень,",
+          "На простор речной волны",
+          "Выбегают расписные,",
+          "Острогрудые челны."
+        ],
+        [
+          "На переднем Стенька Разин,",
+          "Обнявшись с своей княжной,",
+          "Свадьбу новую справляет",
+          "И веселый и хмельной."
+        ],
+        [
+          "А княжна, склонивши очи,",
+          "Ни жива и ни мертва,",
+          "Робко слушает хмельные,",
+          "Неразумные слова."
+        ],
+        [
+          "«Ничего не пожалею!",
+          "Буйну голову отдам!» —",
+          "Раздается по окрестным…",
+          "Берегам и островам."
+        ],
+        [
+          "«Ишь ты, братцы, атаман-то",
+          "Нас на бабу променял!",
+          "Ночку с нею повозился —",
+          "Сам наутро бабой стал…"
+        ],
+        [
+          "Ошалел…» Насмешки, шепот",
+          "Слышит пьяный атаман —",
+          "Персиянки полоненной",
+          "Крепче обнял полный стан;"
+        ],
+        [
+          "Гневно кровью налилися",
+          "Атамановы глаза,",
+          "Брови черные нависли,",
+          "Собирается гроза."
+        ],
+        [
+          "«Эх, кормилица родная,",
+          "Волга, матушка-река!",
+          "Не видала ты подарков",
+          "От донского казака!.."
+        ],
+        [
+          "Чтобы не было зазорно",
+          "Перед вольными людьми,",
+          "Перед вольною рекою, —",
+          "На, кормилица… возьми!»"
+        ],
+        [
+          "Мощным взмахом поднимает",
+          "Полоненную княжну",
+          "И, не глядя, прочь кидает",
+          "В набежавшую волну…"
+        ],
+        [
+          "«Что затихли, удалые?..",
+          "Эй ты, Фролка-черт, пляши!..",
+          "Грянь, ребята, хоровую",
+          "За помин ее души!..»"
+        ]
+      ],
+      "translation": [
+        [
+          "From behind the island, into the reach,",
+          "Onto the broad river wave,",
+          "Out run the painted,",
+          "Sharp-prowed boats."
+        ],
+        [
+          "In the front boat Stenka Razin,",
+          "Embracing his princess,",
+          "Celebrates a new wedding,",
+          "Merry and drunk."
+        ],
+        [
+          "And the princess, lowering her eyes,",
+          "Neither alive nor dead,",
+          "Timidly listens to the drunken,",
+          "Unreasonable words."
+        ],
+        [
+          "“I will spare nothing!",
+          "I will give my wild head!”—",
+          "It rings over the surrounding…",
+          "Banks and islands."
+        ],
+        [
+          "“Look, brothers, the ataman",
+          "Has traded us for a woman!",
+          "He spent a night with her—",
+          "By morning he has become a woman…"
+        ],
+        [
+          "He has gone mad…” The mockery, the whisper",
+          "The drunken ataman hears—",
+          "The captive Persian woman",
+          "He embraces more tightly, her full waist;"
+        ],
+        [
+          "His eyes filled angrily with blood,",
+          "The ataman’s eyes,",
+          "His black brows lowered,",
+          "A storm is gathering."
+        ],
+        [
+          "“Eh, my native nurse,",
+          "Volga, mother-river!",
+          "You have not seen gifts",
+          "From a Don Cossack!.."
+        ],
+        [
+          "So that there be no shame",
+          "Before free people,",
+          "Before the free river—",
+          "Here, nurse… take her!”"
+        ],
+        [
+          "With a mighty swing he lifts",
+          "The captive princess",
+          "And, without looking, throws her",
+          "Into the onrushing wave…"
+        ],
+        [
+          "“Why have you fallen silent, brave ones?..",
+          "Hey, Frolka-devil, dance!..",
+          "Strike up, lads, a chorus",
+          "For the repose of her soul!..”"
+        ]
+      ],
+      "context": [
+        "Sadovnikov's poem was published in 1883 and became a folk song in the 1890s. It retells an episode from Kostomarov's study of Stenka Razin: the ataman throws his captive Persian princess into the Volga to stop his men's mockery. The last line is a command to sing ‘for the repose of her soul’ — a memorial formula used over a woman who has just been drowned.",
+        "The poem is literary, not a recorded song. It uses the river as a grave and the chorus as a memorial. It is relevant to the water plate and to the plates on the returning dead, but it is not evidence for a ritual. The ‘Persian princess’ is a literary figure; the poem gives no source for her."
+      ],
+      "notes": [
+        {
+          "term": "стрежень",
+          "gloss": "The deep, fast part of a river's channel."
+        },
+        {
+          "term": "Стенька Разин",
+          "gloss": "Stepan Razin, the seventeenth-century Cossack leader of a major uprising; a figure of song and legend."
+        },
+        {
+          "term": "за помин души",
+          "gloss": "For the repose of the soul; a memorial formula, here used over a drowned woman."
+        }
+      ]
+    },
+    {
+      "id": "po-dikim-stepyam",
+      "title_ru": "По диким степям Забайкалья",
+      "title_en": "Along the wild steppes of Transbaikalia",
+      "first_line": "По диким степям Забайкалья,",
+      "genre": "Folk song / convict song",
+      "genre_ru": "Народная песня, каторжанская",
+      "author": "Anonymous (folk)",
+      "date": "published in lubok songbooks 1908–1917",
+      "published": "lubok songbooks, 1908–1917; later songbooks 1927–1948",
+      "source_id": "po-dikim-stepyam",
+      "source_detail": "«По диким степям Забайкалья», no. 225 in Russkie narodnye pesni, zapisannye v Leningradskoi oblasti 1931–1949 gg., ed. V. A. Kravchinskaia and P. G. Shiriaeva (Leningrad–Moscow, 1950), p. 149. Text also in the 1908 songbook version on Wikisource.",
+      "source_url": "https://ru.wikisource.org/wiki/По_диким_степям_Забайкалья/1908",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "A folk song published in lubok songbooks from 1908 to 1917; the text is traditional and public domain. The 1950 edition is a modern transcription; the atlas used the pre-1929 1908 version and the 1950 text only for collation.",
+      "plate": [
+        "Q",
+        "P",
+        "M"
+      ],
+      "status": "complete",
+      "original": [
+        [
+          "По диким степям Забайкалья,",
+          "Где золото роют в горах,",
+          "Бродяга, судьбу проклиная,",
+          "Тащился с сумой на плечах."
+        ],
+        [
+          "Идет он густою тайгою,",
+          "Где пташки одни лишь поют,",
+          "Котел его сбоку тревожит,",
+          "Сухие коты ноги бьют."
+        ],
+        [
+          "На нем рубашонка худая",
+          "Со множеством разных заплат,",
+          "Шапчонка на нем арестанта",
+          "И серый тюремный халат."
+        ],
+        [
+          "Бежал из тюрьмы темной ночью,",
+          "В тюрьме он за правду страдал —",
+          "Идти дальше нет больше мочи,",
+          "Пред ним расстилался Байкал."
+        ],
+        [
+          "Бродяга к Байкалу подходит,",
+          "Рыбацкую лодку берет",
+          "И грустную песню заводит —",
+          "Про родину что-то поет:"
+        ],
+        [
+          "«Оставил жену молодую,",
+          "Оставил я малых детей,",
+          "Теперь я иду наудачу,",
+          "Бог знает, увижусь ли с ней!»"
+        ],
+        [
+          "Бродяга Байкал переехал,",
+          "Навстречу родимая мать.",
+          "«Ах, здравствуй, ах, здравствуй, мамаша,",
+          "Здоров ли отец, хочу знать?»"
+        ],
+        [
+          "— «Отец твой давно уж в могиле,",
+          "Сырою землею зарыт,",
+          "А брат твой давно уж в Сибири,",
+          "Давно кандалами гремит."
+        ],
+        [
+          "Пойдем же, пойдем, мой сыночек,",
+          "Пойдем же в курень наш родной,",
+          "Жена там по мужу скучает,",
+          "И плачут детишки гурьбой»."
+        ]
+      ],
+      "translation": [
+        [
+          "Along the wild steppes of Transbaikalia,",
+          "Where they dig gold in the mountains,",
+          "A vagrant, cursing his fate,",
+          "Dragged himself with a sack on his shoulders."
+        ],
+        [
+          "He walks through the dense taiga,",
+          "Where only the little birds sing,",
+          "His kettle troubles his side,",
+          "Dry leather shoes beat his feet."
+        ],
+        [
+          "On him a poor shirt",
+          "With many different patches,",
+          "A convict's cap on him",
+          "And a grey prison robe."
+        ],
+        [
+          "He fled from prison on a dark night,",
+          "In prison he suffered for the truth—",
+          "He can go no further,",
+          "Lake Baikal spread before him."
+        ],
+        [
+          "The vagrant approaches Baikal,",
+          "Takes a fisherman's boat",
+          "And begins a sad song—",
+          "About his homeland he sings:"
+        ],
+        [
+          "“I left my young wife,",
+          "I left my little children,",
+          "Now I go at random,",
+          "God knows whether I shall see her!”"
+        ],
+        [
+          "The vagrant crossed Baikal,",
+          "His dear mother comes to meet him.",
+          "“Ah, hello, hello, mother,",
+          "Is father well, I want to know?”"
+        ],
+        [
+          "“Your father has long been in the grave,",
+          "Buried in the damp earth,",
+          "And your brother has long been in Siberia,",
+          "Long has he rattled his chains."
+        ],
+        [
+          "Let us go, let us go, my son,",
+          "Let us go to our native hut,",
+          "Your wife there pines for her husband,",
+          "And the children weep in a crowd.”"
+        ]
+      ],
+      "context": [
+        "A convict song known in many variants. The text printed here follows the pre-1929 songbook version; the 1950 Leningrad collection is cited for the song's later recorded form. The plot is a return: a man escapes across Baikal, meets his mother, and learns that his father is dead and his brother is in Siberia. The grave is not shown; it is reported in speech.",
+        "The song is relevant to the plates on roads, vanished villages and the empty house, but it is not a funeral text. It shows how the grave enters a family narrative at the moment of return. The ‘truth’ for which the prisoner suffered is a literary-political formula, not a documented charge."
+      ],
+      "notes": [
+        {
+          "term": "Забайкалье",
+          "gloss": "Transbaikalia, the region east of Lake Baikal."
+        },
+        {
+          "term": "тайга",
+          "gloss": "Dense Siberian forest."
+        },
+        {
+          "term": "курень",
+          "gloss": "A hut or cottage; in Siberian and Cossack usage, a home."
+        },
+        {
+          "term": "каторга",
+          "gloss": "Penal servitude; the song's ‘prison’ and chains belong to that world."
+        }
+      ]
+    },
+    {
+      "id": "cherny-voron",
+      "title_ru": "Чёрный ворон",
+      "title_en": "Black raven",
+      "first_line": "Чёрный ворон, чёрный ворон,",
+      "genre": "Folk song / Cossack song",
+      "genre_ru": "Народная казачья песня",
+      "author": "Anonymous (folk); literary source attributed to Nikolai Veryovkin, 1831",
+      "date": "literary source 1831; folk variant recorded later",
+      "published": "the Wikisource variant names no songbook; the literary source was published in 1831",
+      "source_id": "cherny-voron",
+      "source_detail": "«Чёрный ворон» (var. 1), Wikisource. The literary source is N. F. Veryovkin, «Под зелёною ракитой» (1831). The exact songbook of this variant is not named on the page.",
+      "source_url": "https://ru.wikisource.org/wiki/Чёрный_ворон_(вар._1)",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "The literary source was published in 1831 and its author died in the nineteenth century; the folk variant is traditional. Public domain. The exact songbook of this variant was not collated, so the edition is marked partial even though the text is public domain.",
+      "plate": [
+        "I",
+        "T",
+        "A"
+      ],
+      "status": "complete",
+      "verification": "text public domain; edition not named",
+      "original": [
+        [
+          "Чёрный ворон, чёрный ворон,",
+          "Что ты вьёшься надо мной?",
+          "Ты добычи не дождёшься,",
+          "Чёрный ворон, я не твой!",
+          "Ты добычи не дождёшься,",
+          "Чёрный ворон, я не твой!"
+        ],
+        [
+          "Что ж ты когти распускаешь",
+          "Над моею головой?",
+          "Иль добычу себе чаешь?",
+          "Чёрный ворон, я не твой!",
+          "Иль добычу себе чаешь?",
+          "Чёрный ворон, я не твой!"
+        ],
+        [
+          "Отнеси платок кровавый",
+          "К милой любушке моей.",
+          "Ей скажи — она свободна,",
+          "Я женился на другой.",
+          "Ей скажи — она свободна,",
+          "Я женился на другой."
+        ],
+        [
+          "Калена стрела венчала",
+          "Среди битвы роковой.",
+          "Вижу, смерть моя приходит, —",
+          "Чёрный ворон, я не твой!",
+          "Вижу, смерть моя приходит, —",
+          "Чёрный ворон, весь я твой…"
+        ]
+      ],
+      "translation": [
+        [
+          "Black raven, black raven,",
+          "Why do you circle above me?",
+          "You will not get your prey,",
+          "Black raven, I am not yours!",
+          "You will not get your prey,",
+          "Black raven, I am not yours!"
+        ],
+        [
+          "Why do you spread your claws",
+          "Above my head?",
+          "Do you think to make me your prey?",
+          "Black raven, I am not yours!",
+          "Do you think to make me your prey?",
+          "Black raven, I am not yours!"
+        ],
+        [
+          "Carry the bloody handkerchief",
+          "To my dear love.",
+          "Tell her—she is free,",
+          "I have married another.",
+          "Tell her—she is free,",
+          "I have married another."
+        ],
+        [
+          "A tempered arrow married me",
+          "In the midst of the fatal battle.",
+          "I see my death is coming—",
+          "Black raven, I am not yours!",
+          "I see my death is coming—",
+          "Black raven, I am all yours…"
+        ]
+      ],
+      "context": [
+        "A Cossack song about a wounded man who answers the raven circling over him. The first three stanzas refuse the bird its prey; the last accepts it. The ‘marriage’ is to an arrow in battle, and the bloody handkerchief is to be carried to the beloved. The song is built on a single address and a reversal, not on a narrative.",
+        "The literary source is usually identified as Veryovkin's poem of 1831, but the text printed here is a folk variant. The Wikisource page names no songbook. Use it as a song text, not as a record of a specific funeral; the raven is an image of death, not a belief."
+      ],
+      "notes": [
+        {
+          "term": "калена стрела",
+          "gloss": "A tempered arrow; ‘калёная’ means hardened by heat."
+        },
+        {
+          "term": "любушка",
+          "gloss": "Dear love, sweetheart; a folk diminutive."
+        },
+        {
+          "term": "венчала",
+          "gloss": "Married (in the church rite); here used metaphorically of the arrow that kills him."
+        }
+      ]
+    }
+  ]
+}

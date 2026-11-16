@@ -1,7 +1,9 @@
 // Data validator: node build/validate.mjs  (exit 1 on any error)
 import fs from "node:fs";
+import { fileURLToPath } from "node:url";
 const J = (f) => JSON.parse(fs.readFileSync(new URL("../data/" + f, import.meta.url), "utf8"));
-const root = new URL("../", import.meta.url).pathname;
+// fileURLToPath decodes %20 and the drive letter, so a path such as "E:\\WORK\\rus death" works on Windows.
+const root = fileURLToPath(new URL("../", import.meta.url));
 const src = J("sources.json").entries, SID = new Set([...src.map((s) => s.id), "images"]); // "images" = credited in images.json
 const plates = J("plates.json").plates, PID = new Set(plates.map((p) => p.id));
 const images = J("images.json").images, IID = new Set(images.map((i) => i.id));

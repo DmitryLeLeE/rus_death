@@ -88,3 +88,5 @@ Searches were run in the built-in browser; the site’s search handles short que
 | P | none | Krinichnaya in full |
 
 Text pass: a first sweep for AI-voice phrases rewrote four sentences (C, E, H, I). Paragraph openings and the “does not say” sections were checked and kept.
+
+Package pass: photographs P, V, T, L, M, W from the owner’s kit not placed (Commons unreachable, licences unchecked); Barsov p. 306 and the lament texts not re-collated here; the songs’ text variants (especially «Чёрный ворон», songbook not named) need a collated edition before they are called verified.

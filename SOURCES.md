@@ -113,7 +113,7 @@ Popular websites were used only to locate primary descriptions (for example, the
 | The texts were recorded in the Olonets region with performers, circumstances and repertoires. | D | `barsov1872` |
 | Laments are composed in performance from formulaic stock and judged as performances. | I | `barsov1872` |
 | The movement of a lament described in this plate is an analytical reconstruction, not a text. | R | `barsov1872` |
-| No laments, proverbs or epitaphs are quoted verbatim in this edition. | — | editorial policy |
+| A small number of public-domain laments, poems, songs, epitaphs and liturgical texts are printed in full or as marked excerpts, each from the edition named beside it. Nothing else is quoted verbatim. | — | editorial policy |
 
 ### Plate H — The Afterlife
 

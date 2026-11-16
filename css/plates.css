@@ -214,3 +214,87 @@
   .p-threshold .head__title span { display: block; }
   .p-threshold .head__title span:last-child { margin-right: -8vw; }
 }
+/* Text sections inside a newsprint sheet.
+   The section renders as <article class="prose voice">, so it inherits the
+   plate's paper and prose styles. These rules only add the bilingual grid. */
+
+.voice__orig {
+  margin: -6px 0 16px;
+  font: italic 400 0.92rem/1.4 var(--f-old);
+  opacity: 0.72;
+}
+.voice__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(16px, 2.6vw, 38px);
+  align-items: start;
+  margin: 0 0 18px;
+}
+.voice__col { min-width: 0; }
+.voice__col + .voice__col {
+  border-left: 1px solid currentColor;
+  padding-left: clamp(14px, 2.2vw, 30px);
+}
+.voice__l {
+  display: block;
+  font: 400 clamp(0.92rem, 0.2vw + 0.88rem, 1.02rem)/1.52 var(--f-old);
+  overflow-wrap: break-word;
+}
+.voice__col[lang="en"] .voice__l { opacity: 0.82; }
+.voice__st { margin: 0 0 12px; }
+.voice__st:last-child { margin-bottom: 0; }
+.voice__lab {
+  display: block;
+  margin: 0 0 8px;
+  font: 0.62rem/1.4 var(--f-type);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+.voice__ex {
+  margin: 0 0 14px;
+  padding-left: 10px;
+  border-left: 2px solid var(--red);
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+.voice__notes {
+  margin: 14px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid currentColor;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+.voice__notes div {
+  display: grid;
+  grid-template-columns: minmax(7rem, 0.32fr) minmax(0, 1fr);
+  gap: 10px;
+  padding: 4px 0;
+}
+.voice__notes dt { font: 0.7rem/1.4 var(--f-mono); }
+.voice__notes dd { margin: 0; opacity: 0.82; }
+.voice__src,
+.voice__rights {
+  margin: 10px 0 0;
+  font: 0.7rem/1.5 var(--f-type);
+  opacity: 0.82;
+}
+.voice__src a { text-decoration: underline; text-underline-offset: 2px; }
+.voice__rights { border-left: 2px solid currentColor; padding-left: 8px; }
+
+@media (max-width: 760px) {
+  .voice__grid { grid-template-columns: 1fr; }
+  .voice__col + .voice__col {
+    border-left: 0;
+    border-top: 1px solid currentColor;
+    padding-left: 0;
+    padding-top: 14px;
+  }
+  .voice__notes div { grid-template-columns: 1fr; gap: 2px; }
+}
+
+@media print {
+  .voice__grid { grid-template-columns: 1fr 1fr; }
+  .voice__col + .voice__col { border-left: 1px solid #999; }
+  .voice__l { font-size: 9pt; line-height: 1.35; }
+}

@@ -217,3 +217,18 @@ Stage 2, pass 1, 2026-11-16. This file covers **plate G only** (the plate fully 
 | K-R7 | Soviet funeral: hall, portrait, orchestra, medals on cushions, municipal apparatus | REJECTED (no source read) |
 | K-R8 | Post-Soviet funeral is a market; Orthodox practice returned, priest after the orchestra | REJECTED as written (unsourced); replaced by Moscow 2012 figures (Moscow Times, MACHINE SUMMARY) |
 | K-R9 | Donskoy furnace closed in 1973 | CONTESTED (one hobbyist page; a guide page says only ‘from the 1970s’) |
+
+## Barsov 1872 passages added in the package pass
+| ID | Claim | Status |
+| --- | --- | --- |
+| BP-1 | Dead laid on straw on the bench, head to the icons, coins on the eyes (Olonets) | DOCUMENTED (Barsov p. 303, page image); differs from Zelenin on orientation, both kept |
+| BP-2 | Washing on straw, soap twice, hair of women cut in Kondushi, water and soap to the river or kept; sorcerer and fever beliefs | DOCUMENTED (p. 303); beliefs reported, not observed |
+| BP-3 | Grave clothes: white boots/shoes in three Olonets districts, savan in Kargopol parishes; sewn inside out | DOCUMENTED (p. 303) |
+| BP-4 | Water splashed along the route; Chimkinichi window exit; towel at the window 40 days (Novgorod), Korela | DOCUMENTED (pp. 305, 308) |
+| BP-5 | Empty place, spoon under the cloth (Ladeinopol); bed for the unseen guest (Brusnoe); table on the stove (Ladeinopol) | DOCUMENTED (pp. 307–309); locality of the “favourite dish” sentence not stated on the page |
+| BP-6 | Signs of the dead’s presence (spoon, stove, collar, children, bed) in Samozero, Ladeinopol, Ezhessel | DOCUMENTED (p. 310) |
+| BP-7 | Role-play of the dead man by a favourite: Mordvins of Penza province | DOCUMENTED as Mordvin (pp. 310–311); package label “not localized” REJECTED |
+| BP-8 | Grave-houses with roof and windows, Cherepovets district | DOCUMENTED (p. 307); single district |
+| BP-9 | Unbaptised children outside the fence; suicides at Voezersky parish (Kargopol) and Andoma | DOCUMENTED (pp. 312–313), second-hand (footnote to L. Malinovsky) |
+| BP-10 | Stoglav 1551 on Trinity Saturday; decree of 1715; Barsov on its effect | DOCUMENTED as quoted by Barsov (pp. VIII–IX); not collated with the Stoglav or PSZ |
+| BP-11 | Momokova, Perventseva, Fedorova as named performers | DOCUMENTED (pp. 324–327); surname spelling on p. 326 uncertain |

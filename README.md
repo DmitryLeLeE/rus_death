@@ -100,7 +100,7 @@ The image derivatives, textures, map, original diagrams and social cards have th
 
 ## Limits
 
-The atlas states its gaps rather than filling them: no field survey, no municipal burial register, no systematic study of post-Soviet commercial funerals or digital memorials, and no verbatim laments, proverbs or epitaphs. Most sources were read through open-access texts, abstracts or summaries, not page by page, and each bibliography entry states what was and was not read. The fact-check pass covered the chronology, lexicon, object catalogue and routes against independent sources; it did not cover every plate sentence. What was not tested in a browser: keyboard use, the console, audio, Safari and iOS, and widths other than 1440 px for the pages checked. See the Method page and the uncertainty notes in the plates.
+The atlas states its gaps rather than filling them: no field survey, no municipal burial register, no systematic study of post-Soviet commercial funerals or digital memorials, and only a small number of public-domain laments, poems, songs, epitaphs and liturgical texts, printed from the cited editions and not as an anthology. Most sources were read through open-access texts, abstracts or summaries, not page by page, and each bibliography entry states what was and was not read. The fact-check pass covered the chronology, lexicon, object catalogue and routes against independent sources; it did not cover every plate sentence. What was not tested in a browser: keyboard use, the console, audio, Safari and iOS, and widths other than 1440 px for the pages checked. See the Method page and the uncertainty notes in the plates.
 
 ## Licensing and credits
 

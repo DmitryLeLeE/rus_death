@@ -1,0 +1,1058 @@
+{
+  "meta": {
+    "compiled": "2026-11-16",
+    "note": "Original texts, English translations and source metadata for the atlas. Russian originals retain the orthography of the cited edition. Translations are the atlas's own unless stated otherwise. Every complete text reproduced here is public domain; see RIGHTS_CLEARANCE_LOG.md."
+  },
+  "voices": [
+    {
+      "id": "barsov-widow-opening",
+      "title_ru": "Плачъ вдовы по мужѣ (начало)",
+      "title": "A widow's lament for her husband (opening)",
+      "first_line": "Укатилося красное солнышко",
+      "genre": "Funeral lament",
+      "genre_ru": "Похоронное причитание",
+      "category": "oral",
+      "region": "Olonets province, Russian North",
+      "place": "Petrozavodsk (recorded); Olonets province",
+      "date_recorded": "1867–1868",
+      "date_published": "1872",
+      "collector": "Elpidifor Vasilyevich Barsov",
+      "performer": "Irina Andreevna Fedosova",
+      "performer_note": "Barsov identifies Fedosova, of Kuzaranda in Zaonezhye, as the performer of laments I, IV, VI–X, XIII–XVII and XX–XXIII in volume 1. He recorded her in Petrozavodsk in 1867–68.",
+      "author": "",
+      "language": "Russian (pre-1918 orthography)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Barsov died in 1917; the volume was published in 1872. The text is public domain in Russia (70 years p.m.a.) and in the United States (published before 1929). The transcription was checked line by line against the Internet Archive scan of the 1872 edition.",
+      "source_id": "barsov1872",
+      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), pp. 1–2, lines 1–15.",
+      "source_url": "https://archive.org/details/prichitanjasevernogokrajasobrannyeev91",
+      "status": "excerpt",
+      "excerpt_note": "Lines 1–15 of a lament that continues for several pages. The excerpt stops before a dialect form that Barsov does not gloss.",
+      "plate": "a",
+      "themes": [
+        "threshold",
+        "orphanhood",
+        "cosmic imagery",
+        "formula"
+      ],
+      "original": [
+        [
+          "Укатилося красное солнышко",
+          "За горы оно да за высокія,",
+          "За лѣсушка оно да за дремучіи,",
+          "За облачка оно да за ходячіи,",
+          "За часты звѣзды да подвосточныя!",
+          "Покидать меня побѣдную головушку",
+          "Со стадушкомъ оно да со дѣтиною;",
+          "Оставлять меня горюшу горегорькую",
+          "На вѣки-то меня да вѣковѣчныи!",
+          "Нѣ-какъ ростить-то сиротныхъ мнѣ-ка дѣтушекъ:",
+          "Будутъ по міру оны да вѣдь скитатися,",
+          "По подоконью оны да столыпатися;",
+          "Будетъ уличка-ходить да не широкая,",
+          "Путь дорожинька вотъ имъ да не торнешенька:",
+          "Безъ своего родителя, безъ батюшка"
+        ]
+      ],
+      "translation": [
+        [
+          "The red sun has rolled away",
+          "Beyond the mountains, beyond the high ones,",
+          "Beyond the forests, beyond the dense ones,",
+          "Beyond the clouds, beyond the wandering ones,",
+          "Beyond the frequent stars, the eastern ones!",
+          "He is leaving me, a poor woman,",
+          "With his little flock, with his children;",
+          "He is abandoning me, a grieving woman,",
+          "For all ages, for ever and ever!",
+          "How am I to raise the orphaned children?",
+          "They will wander through the world,",
+          "They will knock at strangers' windows;",
+          "The street they walk will not be wide,",
+          "The path before them will not be trodden:",
+          "Without their parent, without their father…"
+        ]
+      ],
+      "context": [
+        "Barsov prints this as the first lament in the collection. It opens not with the deathbed but with the sun going down behind mountains, forests, clouds and stars; the dead man's departure is described as a cosmic disappearance before it is described as a household loss. The second movement turns to the widow's children: they will wander, knock at strangers' windows, and walk a road that is not wide or trodden. The formula «победная головушка» (poor, wretched woman) is a genre marker, not a personal epithet.",
+        "Fedosova dictated her laments to Barsov in Petrozavodsk in 1867–68. Barsov notes that she dictated slowly and that he wrote down each word; the text is a transcription of a repertoire, not a recording of a funeral. The atlas prints the first fifteen lines. The following line in the printed text contains a dialect form whose sense is not certain, and the excerpt stops before it."
+      ],
+      "notes": [
+        {
+          "term": "победная головушка",
+          "gloss": "Formulaic self-designation: the poor, wretched woman. Not a literal reference to the head."
+        },
+        {
+          "term": "горюша",
+          "gloss": "A grieving woman; a genre term for the mourner."
+        },
+        {
+          "term": "стадушко",
+          "gloss": "Little flock; a collective image for the children."
+        },
+        {
+          "term": "дѣтиною",
+          "gloss": "Collective form: the children, the little ones."
+        }
+      ]
+    },
+    {
+      "id": "barsov-sister",
+      "title_ru": "Плачъ по сестрѣ",
+      "title": "A lament for a sister",
+      "first_line": "Голубушка мила—сестрица!",
+      "genre": "Funeral lament",
+      "genre_ru": "Похоронное причитание",
+      "category": "oral",
+      "region": "Tver province, Kalyazin uyezd",
+      "place": "Selo Tverdilovo, Kalyazin uyezd, Tver province",
+      "date_recorded": "before 1872",
+      "date_published": "1872",
+      "collector": "Elpidifor Vasilyevich Barsov",
+      "performer": "Klavdiya Momokova (Клавдия Момокова)",
+      "performer_note": "Barsov's register of performers (vol. 1, pp. 326–327) identifies her: a peasant of Selo Tverdilovo, Kalyazin uyezd, Tver province; she learned to lament in her village as a girl; she married a widower, lived with him twelve years and had been widowed six years when Barsov wrote; four daughters were born, one survived; she was then living in Moscow. Barsov records that Lament XI was taken from her.",
+      "author": "",
+      "language": "Russian (pre-1918 orthography)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Barsov died in 1917; the volume was published in 1872. Public domain in Russia and in the United States. The transcription was checked line by line against the Internet Archive scan, pp. 162–164.",
+      "source_id": "barsov1872",
+      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), pp. 162–164, no. XI, lines 1–42.",
+      "source_url": "https://archive.org/details/prichitanjasevernogokrajasobrannyeev91",
+      "status": "complete",
+      "excerpt_note": "",
+      "plate": "g",
+      "themes": [
+        "sister",
+        "empty house",
+        "invocation",
+        "farewell"
+      ],
+      "original": [
+        [
+          "Голубушка мила—сестрица!",
+          "Ужъ куды ты сурядилася,",
+          "Ужъ куды да ты сподобилася?",
+          "Во котору путь дороженьку,",
+          "Въ каки гости незнакомыи,",
+          "Незнакомыи да нежеланныи?",
+          "Сурядилась ты сподобилась",
+          "На вѣчное житье безконечное.",
+          "Безъ тія да мила сестрица",
+          "Нонь пустымъ у насъ пустешенько,",
+          "Опустѣлъ широкъ теремъ",
+          "Во широкое подворье;",
+          "Безъ тія да мила сестрица",
+          "Не работница я, не трудница,",
+          "Напринимаюсь всякой всячины",
+          "И холоду и голоду",
+          "И осудушки великія;",
+          "Голубушка мила сестрица!",
+          "Не окрикнешь меня не обговоришь,",
+          "Ты во снѣ нонь не покажешься",
+          "На яву мнѣ не привидишься;",
+          "Потеряла я думу крѣпкую",
+          "Словцо тайное—не проносное",
+          "И великую заступущку.",
+          "Подыми-тко-тесь вѣтры буйныи",
+          "Со тонкимъ-те вѣхорёчками!",
+          "Разнеси-тко-тесь желты пески,",
+          "Желты пески—мелки камышки!",
+          "Разступи-тко-сь ты матушка сыра земля,",
+          "Раскрой-ко-ся гробова доска,",
+          "Размахни-тко-ся тонкой, бѣлъ саванъ!",
+          "Воскинь ты мила сестрица",
+          "Свои очи ясныи",
+          "Стань-ко ты мила сестрица",
+          "На свои скоры ноженьки",
+          "Возвей ко-ся мелкой пташечкой",
+          "Во свое-то ли тепло гнѣздо;",
+          "Сойдем-ко-ся близко наблизко",
+          "Поклоним-ко-ся низко нанизко",
+          "Подумаемъ мы посовѣтуемъ",
+          "Какъ коротать мнѣ дѣвочій вѣкъ",
+          "Не давай-ко мнѣ долго маяться."
+        ]
+      ],
+      "translation": [
+        [
+          "Little dove, my dear sister!",
+          "Where have you gone and arrayed yourself,",
+          "Where have you gone and made yourself ready?",
+          "On what road, on what pathway,",
+          "To what guests, unknown,",
+          "Unknown and unwanted?",
+          "You have arrayed yourself, made yourself ready",
+          "For eternal life, without end.",
+          "Without you, my dear sister,",
+          "Now everything here is empty, quite empty,",
+          "The wide tower has grown empty,",
+          "In the wide courtyard;",
+          "Without you, my dear sister,",
+          "I am no worker, no labourer,",
+          "I take upon myself every kind of thing,",
+          "Both cold and hunger",
+          "And great reproach;",
+          "Little dove, my dear sister!",
+          "You will not call out to me, will not speak to me,",
+          "You will not appear to me in a dream,",
+          "You will not show yourself to me awake;",
+          "I have lost my firm thought,",
+          "A secret word—not to be carried abroad,",
+          "And my great protection.",
+          "Rise up, you wild winds,",
+          "With your fine little whirlwinds!",
+          "Scatter the yellow sands,",
+          "The yellow sands—the small stones!",
+          "Open up, mother moist earth,",
+          "Open, coffin lid,",
+          "Unfold, fine white shroud!",
+          "Lift up, my dear sister,",
+          "Your bright eyes",
+          "Stand up, my dear sister,",
+          "On your swift little legs",
+          "Fly up as a small bird",
+          "To your own warm nest;",
+          "Let us come together, close, very close",
+          "Let us bow low, very low",
+          "Let us think and take counsel",
+          "How I am to pass my maiden's life",
+          "Do not let me languish long."
+        ]
+      ],
+      "context": [
+        "This is one of the few complete laments in Barsov's first volume. It was recorded in Kalyazin uyezd, Tver province, not in the Olonets North, and printed as No. XI. Barsov's register of performers (pp. 326–327) identifies the performer as Klavdiya Momokova, a peasant of Selo Tverdilovo; she learned to lament in the village as a girl and was living in Moscow when Barsov wrote. The text is short enough to print in full.",
+        "The sister's lament moves from the dead woman's departure to «unknown guests» to the emptiness of the house, the survivor's loss of a «secret word» and «protection», and then to the invocation of wind, earth, coffin lid and shroud. The request that the dead sister rise and speak is a conventional motif. The closing line asks not for resurrection but for the grief to be shortened. The text is printed in the original pre-1918 orthography; line breaks and repetitions are retained."
+      ],
+      "notes": [
+        {
+          "term": "сурядилася / сподобилася",
+          "gloss": "Arrayed herself, made herself ready; the verbs belong to the ritual language of departure."
+        },
+        {
+          "term": "теремъ",
+          "gloss": "The upper room or tower of a house; here the whole household."
+        },
+        {
+          "term": "заступущка",
+          "gloss": "Protection, intercession; the sister was the mourner's defender."
+        },
+        {
+          "term": "маяться",
+          "gloss": "To languish, to suffer without relief."
+        }
+      ]
+    },
+    {
+      "id": "barsov-drowning",
+      "title_ru": "Плачъ о потопшихъ (отрывокъ)",
+      "title": "Lament for the drowned (excerpt)",
+      "first_line": "Собаки ихъ кости не волочатъ-ли?",
+      "genre": "Funeral lament for the unburied dead",
+      "genre_ru": "Плач о потопших",
+      "category": "oral",
+      "region": "Olonets province, Russian North",
+      "place": "Lake Onega / Petrozavodsk",
+      "date_recorded": "1867–1868",
+      "date_published": "1872",
+      "collector": "Elpidifor Vasilyevich Barsov",
+      "performer": "Irina Andreevna Fedosova",
+      "performer_note": "No. XVII in volume 1. Barsov lists it among the laments recorded from Fedosova.",
+      "author": "",
+      "language": "Russian (pre-1918 orthography)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Barsov died in 1917; the volume was published in 1872. Public domain in Russia and in the United States. The transcription was checked line by line against the Internet Archive scan, pp. 258–259.",
+      "source_id": "barsov1872",
+      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), pp. 252–259, no. XVII, lines 177–194.",
+      "source_url": "https://archive.org/details/prichitanjasevernogokrajasobrannyeev91",
+      "status": "excerpt",
+      "excerpt_note": "Lines 177–194 of a lament of more than 220 lines. The excerpt stops before a dialect verb whose sense is uncertain.",
+      "plate": "o",
+      "themes": [
+        "drowning",
+        "unburied dead",
+        "Lake Onega",
+        "good death"
+      ],
+      "original": [
+        [
+          "Собаки ихъ кости не волочатъ-ли?",
+          "Во тяжкихъ грѣхахъ—безъ покаянія,",
+          "Они приняли смерётушку напрасную;",
+          "Тѣлеса у ихъ пойдутъ безъ погребенія,",
+          "Не приданы ко матушкѣ сырой землѣ;",
+          "Призавьё буйнымъ вѣтрышкомъ,",
+          "Призагрѣё краснымъ солнышкомъ,",
+          "Западётъ тѣло снѣжечкомъ перистымъ;",
+          "Не знаемъ мы побѣдныя головушки—",
+          "Не умершей мы ихной тамъ могилушки!",
+          "Лучше далъ бы Господь скорую смерётушку,",
+          "На своей бѣлой, брусовой имъ на лавочкѣ,",
+          "Во своемъ домѣ крестьянской-бы во жирушкѣ;",
+          "Мы поповъ отцевъ вѣдь тутъ да попросили-бы,",
+          "Въ Божью церковь посвященну мы сносили-бы,",
+          "Честно-именно вѣдь ихъ похоронили-бы;",
+          "Мы-бы знали, гдѣ могилушка умершая,",
+          "На Владычной Божій праздничекъ сходили-бы,"
+        ]
+      ],
+      "translation": [
+        [
+          "Do the dogs not drag their bones?",
+          "In grave sins—without repentance,",
+          "They have received an untimely death;",
+          "Their bodies will lie without burial,",
+          "Not given over to mother moist earth;",
+          "The wild wind will wrap them,",
+          "The red sun will warm them,",
+          "Snow will fall on the body like feathered down;",
+          "We do not know, poor wretches—",
+          "We do not know their grave, where they lie dead!",
+          "Better would the Lord have given a swift death,",
+          "On their own white, hewn bench,",
+          "In their own peasant household;",
+          "Then we would have summoned the priests, the spiritual fathers,",
+          "We would have carried them to God's holy church,",
+          "We would have buried them with honour and name;",
+          "We would know where the grave of the dead lies,",
+          "We would go there on the Lord's holy feast."
+        ]
+      ],
+      "context": [
+        "The lament is spoken by a daughter who survived a storm on Lake Onega; her father and brother drowned. In this passage she describes what happens to those who die without confession and without burial: their bodies are not given to the earth, the wind wraps them, the sun warms them, snow falls on them, and the family has no grave to visit. The passage contrasts this death with the good death at home, on one's own bench, with priests and burial.",
+        "The text is No. XVII in Barsov's first volume and comes from Fedosova's repertoire. Barsov prints the full lament, which includes the storm, the survival and the search for the bodies. The atlas prints lines 177–194 only. The following line contains a dialect verb whose sense is uncertain, and the excerpt stops before it."
+      ],
+      "notes": [
+        {
+          "term": "смерётушка",
+          "gloss": "Death, in a diminutive form; the lament uses affectionate diminutives even for death."
+        },
+        {
+          "term": "побѣдная головушка",
+          "gloss": "Poor wretch; a formula of self-pity, not a literal head."
+        },
+        {
+          "term": "приданы",
+          "gloss": "Given over, consigned; here, to the earth."
+        },
+        {
+          "term": "жирушка",
+          "gloss": "Household, dwelling, the peasant home with its stores."
+        },
+        {
+          "term": "призавьё",
+          "gloss": "Printed form of a dialect verb; the sense is not certain. Translated tentatively as ‘will wrap’."
+        }
+      ]
+    },
+    {
+      "id": "derzhavin-meshchersky",
+      "title_ru": "На смерть князя Мещерского",
+      "title": "On the Death of Prince Meshchersky",
+      "first_line": "Глагол времён! металла звон!",
+      "genre": "Philosophical ode",
+      "genre_ru": "Философская ода",
+      "category": "literary",
+      "region": "Russian Empire",
+      "place": "St Petersburg",
+      "date_recorded": "",
+      "date_published": "1779",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "Gavriil Romanovich Derzhavin (1743–1816)",
+      "language": "Russian (modern orthography, following the cited edition)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Derzhavin died in 1816; the ode was published in 1779. Public domain in Russia and in the United States. The text follows the Wikisource transcription based on Dukhovnye ody (1993) and was checked against the cited edition's lineation.",
+      "source_id": "derzhavin1779",
+      "source_detail": "G. R. Derzhavin, «На смерть князя Мещерского» (1779), lines 1–16.",
+      "source_url": "https://ru.wikisource.org/wiki/На_смерть_князя_Мещерского_(Державин)",
+      "status": "excerpt",
+      "excerpt_note": "Lines 1–16 of an ode of 88 lines. The excerpt is the opening; the poem continues with the death of Meshchersky and the consolation of Perfilyev.",
+      "plate": "a",
+      "themes": [
+        "time",
+        "death as reaper",
+        "vanity",
+        "Enlightenment"
+      ],
+      "original": [
+        [
+          "Глагол времён! металла звон!",
+          "Твой страшный глас меня смущает;",
+          "Зовёт меня, зовёт твой стон,",
+          "Зовёт — и к гробу приближает.",
+          "Едва увидел я сей свет,",
+          "Уже зубами смерть скрежещет,",
+          "Как молнией косою блещет,",
+          "И дни мои, как злак, сечет."
+        ],
+        [
+          "Ничто от роковых когтей,",
+          "Никая тварь не убегает;",
+          "Монарх и узник — снедь червей,",
+          "Гробницы злость стихий снедает;",
+          "Зияет время славу стерть:",
+          "Как в море льются быстры воды,",
+          "Так в вечность льются дни и годы;",
+          "Глотает царства алчна смерть."
+        ]
+      ],
+      "translation": [
+        [
+          "The word of times! The clang of metal!",
+          "Your terrible voice confounds me;",
+          "Your groan calls me, calls me,",
+          "Calls—and brings me nearer to the grave.",
+          "Scarcely had I seen this light",
+          "When death already gnashes its teeth,",
+          "Flashes its scythe like lightning,",
+          "And cuts my days like grass."
+        ],
+        [
+          "Nothing escapes the fatal claws,",
+          "No creature flees them;",
+          "Monarch and prisoner are food for worms,",
+          "The fury of the elements devours tombs;",
+          "Time gapes to wipe away glory:",
+          "As swift waters flow into the sea,",
+          "So days and years flow into eternity;",
+          "Greedy death swallows kingdoms."
+        ]
+      ],
+      "context": [
+        "Derzhavin wrote the ode in 1779 on the death of Prince Aleksandr Ivanovich Meshchersky (1713–1779), a courtier and friend. It is not a funeral lament and was not performed at a funeral. It is a literary meditation on time, death and the vanity of rank, written for the court and the printed page.",
+        "The opening turns the sound of a clock into the voice of time and the approach of the grave. The images that follow—death as a reaper, the tomb as the leveler, the monarch and the prisoner as food for worms—belong to the eighteenth-century graveyard tradition and to Orthodox moral verse. The atlas prints the first sixteen lines; the poem continues for another seventy-two lines. It is evidence for elite literary culture, not for peasant ritual."
+      ],
+      "notes": [
+        {
+          "term": "глагол времён",
+          "gloss": "The word or voice of the times; an archaic, biblical phrase."
+        },
+        {
+          "term": "металла звон",
+          "gloss": "The ringing of metal; most likely a clock, whose sound becomes the voice of time."
+        },
+        {
+          "term": "снедь червей",
+          "gloss": "Food for worms; a traditional memento mori image."
+        }
+      ]
+    },
+    {
+      "id": "pushkin-brozhu",
+      "title_ru": "Брожу ли я вдоль улиц шумных…",
+      "title": "Whether I wander along noisy streets…",
+      "first_line": "Брожу ли я вдоль улиц шумных,",
+      "genre": "Lyric poem",
+      "genre_ru": "Лирическое стихотворение",
+      "category": "literary",
+      "region": "Russian Empire",
+      "place": "Composed 1829; published in Literaturnaya gazeta, St Petersburg",
+      "date_recorded": "",
+      "date_published": "1830",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "Alexander Sergeevich Pushkin (1799–1837)",
+      "language": "Russian (modern orthography, following the cited edition)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Pushkin died in 1837; the poem was published in 1830. Public domain in Russia and in the United States. The text follows the Wikisource transcription based on Sobranie sochinenii v 10 tomakh (1956–62).",
+      "source_id": "pushkin1830",
+      "source_detail": "A. S. Pushkin, «Брожу ли я вдоль улиц шумных…» (26 December 1829; published 6 January 1830), 32 lines.",
+      "source_url": "https://ru.wikisource.org/wiki/Брожу_ли_я_вдоль_улиц_шумных_(Пушкин)",
+      "status": "complete",
+      "excerpt_note": "",
+      "plate": "f",
+      "themes": [
+        "grave",
+        "mortality",
+        "nature",
+        "eternal rest"
+      ],
+      "original": [
+        [
+          "Брожу ли я вдоль улиц шумных,",
+          "Вхожу ль во многолюдный храм,",
+          "Сижу ль меж юношей безумных,",
+          "Я предаюсь моим мечтам."
+        ],
+        [
+          "Я говорю: промчатся годы,",
+          "И сколько здесь ни видно нас,",
+          "Мы все сойдём под вечны своды —",
+          "И чей-нибудь уж близок час."
+        ],
+        [
+          "Гляжу ль на дуб уединенный,",
+          "Я мыслю: патриарх лесов",
+          "Переживёт мой век забвенный,",
+          "Как пережил он век отцов."
+        ],
+        [
+          "Младенца ль милого ласкаю,",
+          "Уже я думаю: прости!",
+          "Тебе я место уступаю:",
+          "Мне время тлеть, тебе цвести."
+        ],
+        [
+          "День каждый, каждую годину",
+          "Привык я думой провождать,",
+          "Грядущей смерти годовщину",
+          "Меж их стараясь угадать."
+        ],
+        [
+          "И где мне смерть пошлёт судьбина?",
+          "В бою ли, в странствии, в волнах?",
+          "Или соседняя долина",
+          "Мой примет охладелый прах?"
+        ],
+        [
+          "И хоть бесчувственному телу",
+          "Равно повсюду истлевать,",
+          "Но ближе к милому пределу",
+          "Мне всё б хотелось почивать."
+        ],
+        [
+          "И пусть у гробового входа",
+          "Младая будет жизнь играть,",
+          "И равнодушная природа",
+          "Красою вечною сиять."
+        ]
+      ],
+      "translation": [
+        [
+          "Whether I wander along noisy streets,",
+          "Or enter a crowded church,",
+          "Or sit among mad youths,",
+          "I give myself up to my dreams."
+        ],
+        [
+          "I say: the years will rush by,",
+          "And however many of us are visible here,",
+          "We shall all go down beneath the eternal vaults—",
+          "And someone's hour is already near."
+        ],
+        [
+          "Whether I look at a solitary oak,",
+          "I think: the patriarch of the forests",
+          "Will outlive my forgotten age,",
+          "As he outlived the age of my fathers."
+        ],
+        [
+          "Whether I caress a dear infant,",
+          "I already think: farewell!",
+          "I yield my place to you:",
+          "It is time for me to decay, for you to bloom."
+        ],
+        [
+          "Every day, every year",
+          "I am accustomed to accompany with thought,",
+          "Trying to guess among them",
+          "The anniversary of my coming death."
+        ],
+        [
+          "And where will fate send death to me?",
+          "In battle, in wandering, in the waves?",
+          "Or will the neighboring valley",
+          "Receive my cooled ashes?"
+        ],
+        [
+          "And though it is all the same to the insensible body",
+          "Where it decays,",
+          "Still, closer to my dear native place",
+          "I would like to rest."
+        ],
+        [
+          "And let young life play",
+          "At the entrance to the grave,",
+          "And let indifferent nature",
+          "Shine with eternal beauty."
+        ]
+      ],
+      "context": [
+        "Pushkin wrote the poem on 26 December 1829; it was published in Literaturnaya gazeta on 6 January 1830. It is a lyric meditation, not a funeral text. The speaker moves through a street, a church, a crowd of youths, an oak, an infant, and ends at the entrance to the grave, where young life continues and indifferent nature shines.",
+        "The poem is used in the plate on the grave because it states the grave as a place that is both personal («closer to my dear native place») and impersonal («it is all the same to the insensible body»). The «eternal vaults» are a literary image, not a description of a cemetery. The text follows the modern-spelling edition cited; the source page records the pre-reform variants."
+      ],
+      "notes": [
+        {
+          "term": "предел",
+          "gloss": "Limit, boundary, region; here rendered as «native place»."
+        },
+        {
+          "term": "вечны своды",
+          "gloss": "Eternal vaults; the grave or the underworld, a literary image."
+        },
+        {
+          "term": "равнодушная природа",
+          "gloss": "Indifferent nature; the poem's final antithesis to human grief."
+        }
+      ]
+    },
+    {
+      "id": "lermontov-vyhozhu",
+      "title_ru": "Выхожу один я на дорогу…",
+      "title": "I come out alone onto the road…",
+      "first_line": "Выхожу один я на дорогу;",
+      "genre": "Lyric poem",
+      "genre_ru": "Лирическое стихотворение",
+      "category": "literary",
+      "region": "Russian Empire",
+      "place": "Composed 1841; published in Otechestvennye zapiski",
+      "date_recorded": "",
+      "date_published": "1843",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "Mikhail Yuryevich Lermontov (1814–1841)",
+      "language": "Russian (modern orthography, following the cited edition)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Lermontov died in 1841; the poem was published in 1843. Public domain in Russia and in the United States. The text follows the Wikisource transcription of Polnoe sobranie stikhotvorenii (1989), vol. 2, p. 83.",
+      "source_id": "lermontov1843",
+      "source_detail": "M. Yu. Lermontov, «Выхожу один я на дорогу…» (1841; published 1843), 20 lines.",
+      "source_url": "https://ru.wikisource.org/wiki/Выхожу_один_я_на_дорогу_(Лермонтов)/ПСС_1989_(СО)",
+      "status": "complete",
+      "excerpt_note": "",
+      "plate": "j",
+      "themes": [
+        "night",
+        "eternal rest",
+        "literary death",
+        "oak"
+      ],
+      "original": [
+        [
+          "Выхожу один я на дорогу;",
+          "Сквозь туман кремнистый путь блестит.",
+          "Ночь тиха. Пустыня внемлет богу,",
+          "И звезда с звездою говорит."
+        ],
+        [
+          "В небесах торжественно и чудно!",
+          "Спит земля в сиянье голубом...",
+          "Что же мне так больно и так трудно?",
+          "Жду ль чего? Жалею ли о чем?"
+        ],
+        [
+          "Уж не жду от жизни ничего я,",
+          "И не жаль мне прошлого ничуть.",
+          "Я ищу свободы и покоя!",
+          "Я б хотел забыться и заснуть!"
+        ],
+        [
+          "Но не тем холодным сном могилы...",
+          "Я б желал навеки так заснуть,",
+          "Чтоб в груди дремали жизни силы,",
+          "Чтоб, дыша, вздымалась тихо грудь,"
+        ],
+        [
+          "Чтоб, всю ночь, весь день мой слух лелея,",
+          "Про любовь мне сладкий голос пел,",
+          "Надо мной чтоб, вечно зеленея,",
+          "Темный дуб склонялся и шумел."
+        ]
+      ],
+      "translation": [
+        [
+          "I come out alone onto the road;",
+          "Through the mist the flinty path gleams.",
+          "The night is still. The wilderness hearkens to God,",
+          "And star speaks to star."
+        ],
+        [
+          "In the heavens it is solemn and wondrous!",
+          "The earth sleeps in a blue radiance...",
+          "Why is it so painful and so hard for me?",
+          "Am I waiting for something? Do I regret anything?"
+        ],
+        [
+          "I no longer expect anything from life,",
+          "And I do not regret the past at all.",
+          "I seek freedom and peace!",
+          "I would like to forget myself and fall asleep!"
+        ],
+        [
+          "But not with that cold sleep of the grave...",
+          "I would like to fall asleep like that forever,",
+          "So that the powers of life might slumber in my breast,",
+          "So that, breathing, my chest might rise quietly,"
+        ],
+        [
+          "So that, all night, all day, cherishing my hearing,",
+          "A sweet voice might sing to me of love,",
+          "So that above me, forever green,",
+          "The dark oak might bend and murmur."
+        ]
+      ],
+      "context": [
+        "Lermontov wrote the poem in 1841, the year of his death; it was published in Otechestvennye zapiski in 1843. It is a lyric meditation, not a funeral text. The speaker is alone on a flinty road at night; he no longer expects anything from life and seeks freedom and peace, but he explicitly rejects the «cold sleep of the grave» in favour of a living, dreaming sleep.",
+        "The poem is used in the plate on death in art because it imagines death as a threshold that is also a place of continuing life. The dark oak at the end is a literary image, not a cemetery custom. The text follows the 1989 edition cited."
+      ],
+      "notes": [
+        {
+          "term": "кремнистый путь",
+          "gloss": "A path of flint or gravel; the road is hard and bare."
+        },
+        {
+          "term": "пустыня",
+          "gloss": "Wilderness, emptiness; not a sandy desert."
+        },
+        {
+          "term": "забыться и заснуть",
+          "gloss": "To forget oneself and fall asleep; the poem distinguishes this from the sleep of death."
+        }
+      ]
+    },
+    {
+      "id": "nekrasov-vnimaya",
+      "title_ru": "Внимая ужасам войны…",
+      "title": "Hearing the horrors of war…",
+      "first_line": "Внимая ужасам войны,",
+      "genre": "Lyric poem",
+      "genre_ru": "Лирическое стихотворение",
+      "category": "literary",
+      "region": "Russian Empire",
+      "place": "Composed 1855; published 1856",
+      "date_recorded": "",
+      "date_published": "1856",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "Nikolai Alekseevich Nekrasov (1821–1877)",
+      "language": "Russian (modern orthography, following the cited edition)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Nekrasov died in 1877; the poem was published in 1856. Public domain in Russia and in the United States. The text follows the Wikisource transcription of Polnoe sobranie sochinenii i pisem (1981–2000), vol. 2.",
+      "source_id": "nekrasov1856",
+      "source_detail": "N. A. Nekrasov, «Внимая ужасам войны…» (1855; published 1856), 17 lines.",
+      "source_url": "https://ru.wikisource.org/wiki/Внимая_ужасам_войны_(Некрасов)",
+      "status": "complete",
+      "excerpt_note": "",
+      "plate": "i",
+      "themes": [
+        "war",
+        "mothers",
+        "collective grief",
+        "memory"
+      ],
+      "original": [
+        [
+          "Внимая ужасам войны,",
+          "При каждой новой жертве боя",
+          "Мне жаль не друга, не жены,",
+          "Мне жаль не самого героя…"
+        ],
+        [
+          "Увы! утешится жена,",
+          "И друга лучший друг забудет;",
+          "Но где-то есть душа одна —",
+          "Она до гроба помнить будет!"
+        ],
+        [
+          "Средь лицемерных наших дел",
+          "И всякой пошлости и прозы",
+          "Одни я в мире подсмотрел",
+          "Святые, искренние слёзы —"
+        ],
+        [
+          "То слезы бедных матерей!",
+          "Им не забыть своих детей,",
+          "Погибших на кровавой ниве,",
+          "Как не поднять плакучей иве",
+          "Своих поникнувших ветвей…"
+        ]
+      ],
+      "translation": [
+        [
+          "Hearing the horrors of war,",
+          "At each new victim of battle,",
+          "I grieve not for the friend, not for the wife,",
+          "I grieve not for the hero himself..."
+        ],
+        [
+          "Alas! the wife will be comforted,",
+          "And the friend will be forgotten by his best friend;",
+          "But somewhere there is one soul—",
+          "It will remember until the grave!"
+        ],
+        [
+          "Amid our hypocritical deeds",
+          "And all the vulgarity and prose,",
+          "I have glimpsed in the world",
+          "One kind of holy, sincere tears—"
+        ],
+        [
+          "The tears of poor mothers!",
+          "They cannot forget their children,",
+          "Perished on the bloody field,",
+          "As a weeping willow cannot lift",
+          "Its drooping branches..."
+        ]
+      ],
+      "context": [
+        "Nekrasov wrote the poem in 1855, during the Crimean War, and published it in 1856. It is not a soldier's song or a funeral lament. It is a literary argument that the true grief of war belongs to mothers, whose tears cannot be consoled, while wives and friends forget.",
+        "The poem is used in the plate on collective death as a counter to the state's monumental memory. It insists on the one mourner who does not forget, and it compares her to a weeping willow that cannot lift its branches. The «bloody field» is a literary generalization; the poem gives no place, date or name."
+      ],
+      "notes": [
+        {
+          "term": "плакучая ива",
+          "gloss": "Weeping willow; the branches droop, and the tree cannot lift them."
+        },
+        {
+          "term": "кровавая нива",
+          "gloss": "Bloody field; literally a field of grain, used as a metaphor of battle."
+        }
+      ]
+    },
+    {
+      "id": "nekrasov-moroz",
+      "title_ru": "Мороз, Красный нос (отрывок)",
+      "title": "Frost, Red Nose (excerpt)",
+      "first_line": "Медлительно, важно, сурово",
+      "genre": "Narrative poem",
+      "genre_ru": "Поэма",
+      "category": "literary",
+      "region": "Russian Empire",
+      "place": "Composed 1863–64; the poem is set in a Russian peasant village",
+      "date_recorded": "",
+      "date_published": "1863–1864",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "Nikolai Alekseevich Nekrasov (1821–1877)",
+      "language": "Russian (modern orthography, following the cited edition)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Nekrasov died in 1877; the poem was published in 1863–64. Public domain in Russia and in the United States. The text follows the Wikisource transcription of Polnoe sobranie sochinenii i pisem (1981–2000), vol. 4, part I, ch. VIII, lines 260–275.",
+      "source_id": "nekrasov1863",
+      "source_detail": "N. A. Nekrasov, «Мороз, Красный нос» (1863–64), part I, ch. VIII, lines 260–275.",
+      "source_url": "https://ru.wikisource.org/wiki/Мороз,_Красный_нос_(Некрасов)",
+      "status": "excerpt",
+      "excerpt_note": "Lines 260–275 of the poem: the laying out of Prokl. The funeral lament that follows is Nekrasov's literary composition, not a recorded folk text.",
+      "plate": "c",
+      "themes": [
+        "laying out",
+        "body",
+        "literary ritual",
+        "peasant funeral"
+      ],
+      "original": [
+        [
+          "Медлительно, важно, сурово",
+          "Печальное дело велось:",
+          "Не сказано лишнего слова,",
+          "Наружу не выдано слез."
+        ],
+        [
+          "Уснул, потрудившийся в поте!",
+          "Уснул, поработав земле!",
+          "Лежит, непричастный заботе,",
+          "На белом сосновом столе,"
+        ],
+        [
+          "Лежит неподвижный, суровой,",
+          "С горящей свечой в головах,",
+          "В широкой рубахе холщовой",
+          "И в липовых новых лаптях."
+        ],
+        [
+          "Большие, с мозолями руки,",
+          "Подъявшие много труда,",
+          "Красивое, чуждое муки",
+          "Лицо — и до рук борода…"
+        ]
+      ],
+      "translation": [
+        [
+          "Slowly, gravely, sternly",
+          "The sad work was done:",
+          "No unnecessary word was spoken,",
+          "No tears were shown outwardly."
+        ],
+        [
+          "He has fallen asleep, having laboured in sweat!",
+          "He has fallen asleep, having worked for the earth!",
+          "He lies, untouched by care,",
+          "On the white pine table,"
+        ],
+        [
+          "He lies motionless, stern,",
+          "With a burning candle at his head,",
+          "In a wide linen shirt",
+          "And new linden bast shoes."
+        ],
+        [
+          "His big, calloused hands,",
+          "Which had lifted so much labour,",
+          "His handsome face, untouched by torment—",
+          "And a beard down to his hands..."
+        ]
+      ],
+      "context": [
+        "Frost, Red Nose (1863–64) is a narrative poem about the death of the peasant Prokl and the grief of his widow Daria. The excerpt describes the laying out of the body: the silence in the house, the candle at the head, the wide linen shirt, the new bast shoes, the calloused hands. Nekrasov drew on ethnographic material, and contemporaries read the poem as a picture of peasant life, but it is not a transcript of a ritual.",
+        "The poem's funeral lament, which follows this passage, is Nekrasov's literary composition. The atlas does not present it as a folk lament; for recorded laments, see Plate G. The excerpt is printed as a literary image of the ritual, not as evidence of what was said or done."
+      ],
+      "notes": [
+        {
+          "term": "холщовая рубаха",
+          "gloss": "A shirt of coarse linen; the dead man is dressed in clean, plain cloth."
+        },
+        {
+          "term": "лапти",
+          "gloss": "Bast shoes, woven from linden bark; the new pair marks the seriousness of the preparation."
+        },
+        {
+          "term": "свеча в головах",
+          "gloss": "A candle at the head of the dead; a standard element of Orthodox laying out."
+        }
+      ]
+    },
+    {
+      "id": "suvorov-epitaph",
+      "title_ru": "Надпись на надгробии А. В. Суворова",
+      "title": "Inscription on the tomb of A. V. Suvorov",
+      "first_line": "Здесь лежит Суворов.",
+      "genre": "Epitaph / gravestone inscription",
+      "genre_ru": "Эпитафия",
+      "category": "inscription",
+      "region": "St Petersburg",
+      "place": "Annunciation Church, Alexander Nevsky Lavra",
+      "date_recorded": "",
+      "date_published": "1800 (burial)",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "Attributed to Gavriil Romanovich Derzhavin",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "The inscription was carved in 1800. The text is a short factual phrase and is public domain in every relevant jurisdiction. The attribution to Derzhavin rests on the anecdote recorded in the commentary to Gnedich's poem; the inscription itself is treated as an object, not as a literary work.",
+      "source_id": "suvorov-epitaph",
+      "source_detail": "Inscription on the tomb of A. V. Suvorov, Annunciation Church, Alexander Nevsky Lavra, St Petersburg, 1800.",
+      "source_url": "https://lavra.spb.ru/preaching/pervokursniki-pobyvali-na-ekskursii-v-aleksandro-nevskoj-lavre/",
+      "status": "complete",
+      "excerpt_note": "",
+      "plate": "f",
+      "themes": [
+        "epitaph",
+        "lapidary style",
+        "Suvorov",
+        "Derzhavin"
+      ],
+      "original": [
+        [
+          "Здесь лежит Суворов."
+        ]
+      ],
+      "translation": [
+        [
+          "Here lies Suvorov."
+        ]
+      ],
+      "context": [
+        "Suvorov died in 1800 and was buried in the Annunciation Church of the Alexander Nevsky Lavra in St Petersburg. The slab carries only these three words. The attribution to Derzhavin rests on an anecdote recorded in the commentary to Nikolai Gnedich's poem «Inscription to Suvorov's Tomb»: Suvorov asked Derzhavin what epitaph he would write, and Derzhavin replied that three words were enough.",
+        "The original slab was later replaced by a longer one with titles, but Suvorov's wish prevailed and the simple inscription was restored. The atlas prints the inscription as an inscription, not as a poem. The exact history of the slab is summarized in the Lavra and museum notices cited."
+      ],
+      "notes": [
+        {
+          "term": "Здесь лежит",
+          "gloss": "Here lies; the inscription is a complete sentence, not a fragment."
+        }
+      ]
+    },
+    {
+      "id": "funeral-sticheron",
+      "title_ru": "Стихира на погребении: «Плачу и рыдаю…»",
+      "title": "Funeral sticheron: «I weep and lament…»",
+      "first_line": "Плачу и рыдаю,",
+      "genre": "Liturgical chant (sticheron)",
+      "genre_ru": "Стихира",
+      "category": "liturgical",
+      "region": "Orthodox Slavonic tradition",
+      "place": "Russian Orthodox funeral rite for the laity",
+      "date_recorded": "",
+      "date_published": "received text; attributed to John of Damascus (c. 676–749)",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "John of Damascus (attrib.)",
+      "language": "Church Slavonic",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "The text is a liturgical composition of the first millennium, received in the Slavonic funeral rite. It is public domain. The English translation is the atlas's own and is not taken from a modern Russian translation.",
+      "source_id": "funeral-sticheron",
+      "source_detail": "Funeral sticheron, Tone 8, in the Orthodox burial rite for the laity.",
+      "source_url": "https://foma.ru/tekst-otpevaniya-miryan.html",
+      "status": "complete",
+      "excerpt_note": "",
+      "plate": "h",
+      "themes": [
+        "afterlife",
+        "corruption",
+        "image of God",
+        "liturgy"
+      ],
+      "original": [
+        [
+          "Плачу и рыдаю,",
+          "егда помышляю смерть,",
+          "и вижду во гробех лежащую",
+          "по образу Божию созданную нашу красоту,",
+          "безобразну, безславну,",
+          "не имущую вида."
+        ],
+        [
+          "О, чудесе!",
+          "Что сие еже о нас бысть таинство?",
+          "Како предахомся тлению?",
+          "Како сопрягохомся смерти?"
+        ],
+        [
+          "Воистинну Бога повелением,",
+          "якоже писано есть,",
+          "подающаго преставльшемуся упокоение."
+        ]
+      ],
+      "translation": [
+        [
+          "I weep and lament",
+          "when I think of death,",
+          "and see lying in the tombs",
+          "our beauty, created in the image of God,",
+          "disfigured, without glory,",
+          "without form."
+        ],
+        [
+          "O wonder!",
+          "What is this mystery that has come upon us?",
+          "How have we been given over to corruption?",
+          "How have we been joined to death?"
+        ],
+        [
+          "Truly, by the command of God,",
+          "as it is written,",
+          "who grants rest to the departed."
+        ]
+      ],
+      "context": [
+        "This sticheron, Tone 8, is sung in the Orthodox funeral rite for the laity. It is not a folk lament and was not composed for a village performance; it is the Church's own funeral language. The text is attributed to John of Damascus (c. 676–749) and is received in the Slavonic funeral rite.",
+        "The sticheron states the paradox the plate discusses: the human person is created in the image of God and is nevertheless disfigured in the grave, and this is a «mystery» ordained by God, not a defeat of the creator. The English translation is the atlas's own; it follows the Church Slavonic text, not a modern Russian translation."
+      ],
+      "notes": [
+        {
+          "term": "преставльшемуся",
+          "gloss": "The one who has passed away; the departed."
+        },
+        {
+          "term": "тление",
+          "gloss": "Corruption, decay; the physical dissolution of the body."
+        }
+      ]
+    }
+  ]
+}

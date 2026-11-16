@@ -133,3 +133,9 @@ Claims with a recorded status: not counted, because this pass did not assign a s
 ## Plate L, second pass
 - Six rows of the Moscow cemetery register checked against the AiF article: 4 correct, 2 imprecise (Dorogomilovskoe, Bratskoe), corrected.
 - Malevich row: aligned with J. Grave-portrait “abundant” claim: unsupported, removed.
+
+## Package of texts: spot checks against page images (Barsov 1872, vol. 1)
+- pp. 303, 305, 307, 308, 309, 310, 311, 312, 313, VIII, IX, 326, 327 read from the page images and compared with the package summaries. Details used above match the pages.
+- INCORRECT in the package: the entry barsov-dead-at-meal says the role-play locality is “not localized”. On pp. 310–311 Barsov introduces it “for comparison” as a Mordvin rite (Gorodishche and Krasnaya Sloboda districts, Penza province). Not used as Russian evidence.
+- UNCERTAIN: the performer heading on p. 326 is blurred (Momokova / Momonova); the OCR layer reads Momokova. The atlas keeps Momokova and records the doubt in the barsov1872 entry.
+- Not checked: pp. 306 (coins in the grave, wedding songs for a dead girl), the performer pages other than 326–327, pp. 162–164, 258–259 and 1–2 (the lament texts), the Wikisource poem transcriptions, the Lavra and Foma pages.

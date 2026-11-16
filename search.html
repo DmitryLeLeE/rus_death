@@ -97,7 +97,7 @@
   <h1 class="pagehead__title">FIND<br>A TRACE</h1>
   <p class="pagehead__dek">Plate sections, lexicon entries, chronology entries, objects, places and sources, in one place. Searching runs in your browser and needs no server.</p>
 </header>
-<section class="tool" data-search-app data-index="search-index.json" data-idle="Type at least two letters." data-empty="Nothing found. Try a shorter word or another spelling." data-found="RESULTS" data-kinds="{&quot;section&quot;:&quot;PLATE TEXT&quot;,&quot;word&quot;:&quot;WORDS&quot;,&quot;time&quot;:&quot;CHRONOLOGY&quot;,&quot;object&quot;:&quot;OBJECTS&quot;,&quot;place&quot;:&quot;PLACES&quot;,&quot;source&quot;:&quot;SOURCES&quot;}">
+<section class="tool" data-search-app data-index="search-index.json" data-idle="Type at least two letters." data-empty="Nothing found. Try a shorter word or another spelling." data-found="RESULTS" data-kinds="{&quot;section&quot;:&quot;PLATE TEXT&quot;,&quot;word&quot;:&quot;WORDS&quot;,&quot;time&quot;:&quot;CHRONOLOGY&quot;,&quot;object&quot;:&quot;OBJECTS&quot;,&quot;place&quot;:&quot;PLACES&quot;,&quot;source&quot;:&quot;SOURCES&quot;,&quot;voice&quot;:&quot;VOICES&quot;}">
   <label class="tool__label mono" for="sq">Search the atlas</label>
   <input class="tool__input" id="sq" type="search" placeholder="a word, a place, a source" autocomplete="off" spellcheck="false">
   <div class="tool__chips" role="group" aria-label="Limit to"><button class="chip" type="button" data-kind-chip="section" aria-pressed="true">PLATE TEXT</button>
@@ -105,7 +105,8 @@
 <button class="chip" type="button" data-kind-chip="time" aria-pressed="true">CHRONOLOGY</button>
 <button class="chip" type="button" data-kind-chip="object" aria-pressed="true">OBJECTS</button>
 <button class="chip" type="button" data-kind-chip="place" aria-pressed="true">PLACES</button>
-<button class="chip" type="button" data-kind-chip="source" aria-pressed="true">SOURCES</button></div>
+<button class="chip" type="button" data-kind-chip="source" aria-pressed="true">SOURCES</button>
+<button class="chip" type="button" data-kind-chip="voice" aria-pressed="true">VOICES</button></div>
   <p class="catalog__status mono" id="sstatus" role="status" aria-live="polite">Type at least two letters.</p>
   <ol class="sres-list" id="sresults"></ol>
   <noscript><p>Search needs JavaScript. The index, words, chronology and sources pages work without it.</p></noscript>
