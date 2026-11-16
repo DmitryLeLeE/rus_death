@@ -183,6 +183,13 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/images/chapaev-funeral-1918.jpg` | Vasily Chapaev at the funeral of his brother, Balakovo, 1918 | I. P. Zefirov (Зефиров) | 1918 | Public domain (PD-old-70, as set on Commons) | https://commons.wikimedia.org/wiki/File:Chapaev_with_company_at_a_funeral_in_Balakovo.jpg | archival | documented |
 | `assets/images/bulla-revolution-funeral-1917.jpg` | Revolution funeral in Petrograd, 5 April 1917: coffins in the grave on the Field of Mars | Karl Karlovich Bulla | 1917-04-05 | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Revolution_funeral_in_Petrograd_1917_(JOKAOT4SK1917_16-18).tif | archival | documented |
 | `assets/images/port-arthur-funeral-1905.jpg` | Hasty funeral rites: last honors to the dead Russian heroes in besieged Port Arthur, 1905 | Underwood & Underwood (publisher) | 1905 | Public domain (PD-old-70-1923; Library of Congress: no known restrictions) | https://commons.wikimedia.org/wiki/File:Hasty_funeral_rites_-_last_honors_to_the_dead_Russian_heroes_-_in_besieged_Port_Arthur_LCCN2005678321.jpg | archival | documented |
+| `assets/images/verhne-gnilovskoe-tomb.jpg` | Abandoned tomb, Verkhne-Gnilovskoe cemetery, Rostov-on-Don (2020) | Alexander Roumega | 2020 | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Abandoned_tomb_at_Verhne-Gnilovskoe_cemetery.jpg | contextual | documented |
+| `assets/images/nizhne-gnilovskoe-tomb.jpg` | Abandoned tomb by a road, Nizhne-Gnilovskoe cemetery, Rostov-on-Don (2020) | Alexander Roumega | 2020 | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Abandoned_tomb_at_Nizhne-Gnilovskoe_cemetery.jpg | contextual | documented |
+| `assets/images/armenian-cemetery-abandoned-graves.jpg` | Monument to Abandoned Graves, Armenian Cemetery, Moscow | Sirorezka | not recorded here (see the Commons page) | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Monument_to_Abandoned_Graves_-_Armenian_Cemetery_Moscow_-_Large.png | contextual | documented |
+| `assets/images/teriberka-houses.jpg` | Houses in Teriberka, Murmansk Oblast | Vsatinet | not recorded here (see the Commons page) | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Abandoned_house_in_Teriberka.jpg | contextual | documented |
+| `assets/images/mologa-holy-cross-print.jpg` | Mologa, Holy Cross Church, before the flooding (small historical print) | Unknown | not recorded here (see the Commons page) | Public domain | https://commons.wikimedia.org/wiki/File:Mologa._Holy_Cross_Church_02.JPG | contextual | documented |
+| `assets/images/doukhobor-stove-gorelovka.jpg` | Russian stove in a Doukhobor prayer house, Gorelovka, Georgia | FingerWiki | not recorded here (see the Commons page) | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Russian_stove_in_the_prayer_house_at_Sirotski_Dom_complex_in_Gorelovka,_Georgia.jpg | contextual | documented |
+| `assets/images/valaam-worship-cross.jpg` | Worship cross on Nikolsky Island, Valaam | Александровы АГ | 2020 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:9699._Valaam._Worship_Cross_on_Nikolsky_Island.jpg | contextual | documented |
 
 ### Notes per file
 
@@ -698,6 +705,27 @@ Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Commons recor
 
 **port-arthur-funeral-1905** — Hasty funeral rites: last honors to the dead Russian heroes in besieged Port Arthur, 1905. Photograph. Underwood & Underwood (publisher), 1905. Stereograph, one print. Library of Congress (LCCN 2005678321), file on Commons.
 Licence: Public domain (PD-old-70-1923; Library of Congress: no known restrictions) (https://creativecommons.org/publicdomain/mark/1.0/). Commons record read through the Commons API on 2026-11-15. Title as catalogued by the Library of Congress. The dead are laid out on the ground in rows, so it is behind the 18+ gate. The file is the Commons copy of the Library of Congress image; nothing was fetched from loc.gov.
+
+**verhne-gnilovskoe-tomb** — Abandoned tomb, Verkhne-Gnilovskoe cemetery, Rostov-on-Don (2020). Photograph. Alexander Roumega, 2020. Photograph, working copy up to 1280 px. Wikimedia Commons.
+Licence: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). Candidate supplied in the user’s archive (IMAGE_KIT); author and licence as stated there, not re-checked on Commons from this environment.
+
+**nizhne-gnilovskoe-tomb** — Abandoned tomb by a road, Nizhne-Gnilovskoe cemetery, Rostov-on-Don (2020). Photograph. Alexander Roumega, 2020. Photograph, working copy up to 1280 px. Wikimedia Commons.
+Licence: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). Candidate supplied in the user’s archive (IMAGE_KIT); author and licence as stated there, not re-checked on Commons from this environment.
+
+**armenian-cemetery-abandoned-graves** — Monument to Abandoned Graves, Armenian Cemetery, Moscow. Photograph. Sirorezka, not recorded here (see the Commons page). Photograph, working copy up to 1280 px. Wikimedia Commons.
+Licence: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). Candidate supplied in the user’s archive (IMAGE_KIT); author and licence as stated there, not re-checked on Commons from this environment.
+
+**teriberka-houses** — Houses in Teriberka, Murmansk Oblast. Photograph. Vsatinet, not recorded here (see the Commons page). Photograph, working copy up to 1280 px. Wikimedia Commons.
+Licence: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/). Candidate supplied in the user’s archive (IMAGE_KIT); author and licence as stated there, not re-checked on Commons from this environment.
+
+**mologa-holy-cross-print** — Mologa, Holy Cross Church, before the flooding (small historical print). Photograph. Unknown, not recorded here (see the Commons page). Photograph, working copy up to 1280 px. Wikimedia Commons.
+Licence: Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Candidate supplied in the user’s archive (IMAGE_KIT); author and licence as stated there, not re-checked on Commons from this environment.
+
+**doukhobor-stove-gorelovka** — Russian stove in a Doukhobor prayer house, Gorelovka, Georgia. Photograph. FingerWiki, not recorded here (see the Commons page). Photograph, working copy up to 1280 px. Wikimedia Commons.
+Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Candidate supplied in the user’s archive (IMAGE_KIT); author and licence as stated there, not re-checked on Commons from this environment.
+
+**valaam-worship-cross** — Worship cross on Nikolsky Island, Valaam. Photograph. Александровы АГ, 2020. Photograph, working copy up to 1280 px. Wikimedia Commons.
+Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Candidate supplied in the user’s archive (IMAGE_KIT); author and licence as stated there, not re-checked on Commons from this environment.
 
 ### Attribution required
 

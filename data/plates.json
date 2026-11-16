@@ -3095,6 +3095,15 @@
             "The Rosstat census tables themselves, with the definition of an uninhabited settlement."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "teriberka-houses",
+          "alt": "Two-storey pale houses with red chimneys and wooden sheds on a grassy shore, a long rocky hill and the sea behind them",
+          "caption": "Houses in Teriberka, Murmansk Oblast. Photograph: Vsatinet, CC0. The Commons title speaks of an abandoned house; the picture shows a settlement, not a count of empty houses, and it does not date any departure.",
+          "credit": "Vsatinet / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "narrow"
         }
       ]
     },
@@ -3744,6 +3753,15 @@
             "A comparable count of roadside memorials in a Russian-majority region, to test whether the Middle Volga pattern holds."
           ],
           "editorial": true
+        },
+        {
+          "type": "figure",
+          "src": "valaam-worship-cross",
+          "alt": "A tall granite cross on a stepped stone base under a pine branch, a wooded shore and water behind",
+          "caption": "A granite worship cross on Nikolsky Island, Valaam, dated 1851 in the Commons description. Photograph: Александровы АГ, CC BY-SA 4.0. A worship cross is not a grave marker: it marks a route or a sacred place, and the photograph is no evidence for burial at crossroads.",
+          "credit": "Александровы АГ / Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented",
+          "size": "narrow"
         }
       ]
     },
@@ -3982,6 +4000,15 @@
             "po-dikim-stepyam"
           ],
           "kicker": "Song"
+        },
+        {
+          "type": "figure",
+          "src": "mologa-holy-cross-print",
+          "alt": "A black-and-white print of a white church with a small belltower and a second church behind it, a dirt road and a wooden fence in front",
+          "caption": "Mologa, Holy Cross Church, before the flooding, from a small historical print on Wikimedia Commons (photographer and date not given). It shows what stood above ground, not the flooding and not the cemeteries.",
+          "credit": "Unknown author / Wikimedia Commons, public domain",
+          "level": "documented",
+          "size": "narrow"
         }
       ]
     },
@@ -4859,6 +4886,15 @@
             "c": "2/12",
             "w": 100
           }
+        },
+        {
+          "type": "figure",
+          "src": "verhne-gnilovskoe-tomb",
+          "alt": "A grey metal tomb-box lying open and tilted in thick green undergrowth beside rusty railings, a small white plate on its end and litter in the weeds",
+          "caption": "An abandoned tomb at the Verkhne-Gnilovskoe cemetery, Rostov-on-Don, 2020. Photograph: Alexander Roumega, CC0. Context only, far from this plate’s sources: it shows neglect, not why the grave was left or who lies there.",
+          "credit": "Alexander Roumega / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "narrow"
         }
       ]
     },
@@ -5416,6 +5452,15 @@
             "c": "1/13",
             "w": 100
           }
+        },
+        {
+          "type": "figure",
+          "src": "doukhobor-stove-gorelovka",
+          "alt": "A whitewashed Russian stove beside a turquoise-painted wall, a cloth hanging at its mouth, a wooden bench and patterned wallpaper in the corner of a room",
+          "caption": "A Russian stove in a Doukhobor prayer house, Gorelovka, Georgia. Photograph: FingerWiki, CC BY 4.0. A comparison object only: the stove is Russian in type but the building is not in Russia, and no source on this plate says anything about this room.",
+          "credit": "FingerWiki / Wikimedia Commons, CC BY 4.0",
+          "level": "documented",
+          "size": "narrow"
         }
       ]
     },
@@ -5627,6 +5672,24 @@
             "c": "8/13",
             "w": 80
           }
+        },
+        {
+          "type": "figure",
+          "src": "nizhne-gnilovskoe-tomb",
+          "alt": "A leaf-covered path through woods, with a low stone slab beside it among the tree trunks",
+          "caption": "An abandoned tomb beside a path at the Nizhne-Gnilovskoe cemetery, Rostov-on-Don, 2020. Photograph: Alexander Roumega, CC0. A weak picture: the tomb is half hidden by trees. It shows a material state, not a cause, and Rostov is outside this plate’s sources.",
+          "credit": "Alexander Roumega / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "narrow"
+        },
+        {
+          "type": "figure",
+          "src": "armenian-cemetery-abandoned-graves",
+          "alt": "A curved red-brick wall with arched openings behind a white stone relief of a standing figure among broken slabs, with bunches of artificial flowers in front",
+          "caption": "Monument to Abandoned Graves, Armenian Cemetery, Moscow. Photograph: Sirorezka, CC0. A monument about abandoned graves, made from fragments of old stones, and not a neglected grave itself. The atlas does not connect it to the cemetery closures described on this plate.",
+          "credit": "Sirorezka / Wikimedia Commons, CC0",
+          "level": "documented",
+          "size": "narrow"
         }
       ]
     },

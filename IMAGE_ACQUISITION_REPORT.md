@@ -119,3 +119,8 @@ All 22 photographs added in the 2026-11-15 passes (Suistamo ×5, Plattonen ×4, 
 - Content matches captions. Gate (`mature: true`) is set for Tolstoy, Chapaev, Port Arthur and Nansen, where a body or the dead are visible; Chekhov, Bulla and Plattonen show closed coffins and are not gated.
 - Two alt texts changed because the picture does not show what they said: the Suistamo grave chamber (no lake is clearly visible behind it) and the Pskov Caves tile (the number of lines of lettering was not counted).
 - Still open: Finna originals (corpse boards, Fedurino grave) not obtained; licence-review templates on the Bulla and Suistamo Commons pages not checked.
+
+### Update 2026-11-16 (image kit from the user’s archive)
+The archive TEXTUAL_ADDITIONS_RUS_DEATH.zip held `plate_fill/images/`, sixteen working copies for plates with little photographic material. These were the “sixteen photographs” not yet placed. All sixteen were opened. Seven were placed, appended at the end of each plate: T Verkhne-Gnilovskoe tomb; W Nizhne-Gnilovskoe tomb and Monument to Abandoned Graves (Moscow); M Teriberka; Q Mologa Holy Cross print; V stove in a Doukhobor prayer house (Georgia); P Valaam worship cross. Captions say what each picture is not.
+- **Not placed:** second Tver house (already used as `tver-empty-house`), ruined Intercession church (Q already has four), Kalyazin belltower (already placed), both Karelia forests, both Russian State Library rooms, QR grave (X already has the Thorntons).
+- **Open:** authors, licences and Commons titles are taken from the kit’s IMAGE_KIT.md and were not re-checked on Commons from this environment (no access). The first seven also carry dates only where the kit gives them. The Mologa print is 404 × 610 px and will look small.

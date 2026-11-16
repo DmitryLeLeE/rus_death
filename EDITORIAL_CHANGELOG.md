@@ -254,3 +254,6 @@ Verification: `node build/build.mjs`, `node build/validate.mjs` (errors 0, warni
 - Fedosova birth year: 1827 (Wikipedia, Petrozavodsk University sources) against 1831 (Great Soviet-type encyclopedias on a dictionary aggregator); the plate’s note, that reference works disagree and that the atlas follows 1827, stands.
 - RU source entry for Tolstaya 2024: a leftover ‘the link must be added’ removed.
 - RESEARCH_SUMMARY.md rewritten to the current state (it still said that nothing had been committed).
+
+## Image kit from the archive (2026-11-16)
+Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with captions in EN and RU, entries in `data/images.json`, credits regenerated. Licences as stated in the kit; not re-checked on Commons.
