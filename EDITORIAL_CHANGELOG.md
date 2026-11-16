@@ -297,3 +297,9 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 - J/03: the Radio Svoboda sentence made specific (residential complex from 2011, the spot four metres from a foundation, now an entrance ramp, black marble square about sixty metres away; radar finding described by both sources as the searchers’ account).
 - Editorial note: “No literary quotations appear on this plate” was untrue (Lermontov’s poem is printed whole in the text panel); now “No prose quotations …”.
 - Source entries for the Tretyakov card, Radio Svoboda and Azbyka upgraded from search excerpts to fetched pages (machine summaries).
+
+## Plate K, second pass (2026-11-16)
+- K/01: competition described as Tehne gives it (January 1925 exhibition, Dyakonov/Melnikov/Osipov, Osipov first, “not like a church”), not as “held by the communal administration”; Tehne’s first trial cremation of 29 December 1926 added to the date differences; Tehne’s 6 October 1927 cited with the first scheduled cremation.
+- K/03: Moscow Times date (21 June 2012) and the functions passing from Ritual restated as the report gives them (digging graves, transporting coffins).
+- K/08: the Donskoy closing/church dates now list all four readings (1973 and 1990; real cremations to 1973, closed in the 1990s, services from 1998; church returned 1992; guide page).
+- Plate sources: merridale2000, tumarkin1994 and yurchak2006 removed from K (not cited there). Four source entries upgraded from search excerpts to fetched pages.

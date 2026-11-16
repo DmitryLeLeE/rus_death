@@ -193,3 +193,6 @@ Nikolaev 2012 read in full in the text layer of the owner’s PDF: up to 20% of 
 
 ## 17. Plate J, second pass (2026-11-16)
 Tretyakov card (title, 1865, 45.3 × 57 cm, inv. 5248, Rumyantsev Museum 1925, Soldatenkov; “parallel painted text” to Nekrasov’s poem): confirmed. Azbyka page: Stasov’s remark confirmed, no commissioner stated. Radio Svoboda (26 May 2015): oak, cube, house foundation, radar, marble square: confirmed and added. Novaya Gazeta, Moskovsky Komsomolets, Thyssen and Stedelijk (J/03, J/07), the three prose works (J/02), the lubki and the Lermontov text were not re-read in this pass.
+
+## 18. Plate K, second pass (2026-11-16)
+Fetched (machine summaries): Tehne, pravoslavie.ru, Yavarda, Moscow Times: see changelog. The Pravoslavie page does not mention the 1925 competition; the plate no longer attributes it there. Not fetchable: Memorial Topos (robots rules) and the consultant.ru law text; Sokolova 2013 (summary only, earlier), Sokolova 2020 (abstract), Guinness entry, the 18+ photographs (credits not re-checked). The “digital grave” item (K/04) stays an open question.
