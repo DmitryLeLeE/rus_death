@@ -25,7 +25,7 @@
       "rights": "PUBLIC_DOMAIN_VERIFIED",
       "rights_evidence": "Barsov died in 1917; the volume was published in 1872. The text is public domain in Russia (70 years p.m.a.) and in the United States (published before 1929). The transcription was checked line by line against the Internet Archive scan of the 1872 edition.",
       "source_id": "barsov1872",
-      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), pp. 1–2, lines 1–15.",
+      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), p. 1, lines 1–15.",
       "source_url": "https://archive.org/details/prichitanjasevernogokrajasobrannyeev91",
       "status": "excerpt",
       "excerpt_note": "Lines 1–15 of a lament that continues for several pages. The excerpt stops before a dialect form that Barsov does not gloss.",
@@ -93,7 +93,11 @@
         },
         {
           "term": "дѣтиною",
-          "gloss": "Collective form: the children, the little ones."
+          "gloss": "Collective form: the children, the little ones. Barsov’s own footnote on this word: used here in a collective sense."
+        },
+        {
+          "term": "столыпатися",
+          "gloss": "Barsov’s own footnote on line 12 glosses it as ‘to wander in crowds’ (толпами бродить)."
         }
       ]
     },
@@ -133,7 +137,7 @@
         [
           "Голубушка мила—сестрица!",
           "Ужъ куды ты сурядилася,",
-          "Ужъ куды да ты сподобилася?",
+          "Ужъ куды да ты сподобилась?",
           "Во котору путь дороженьку,",
           "Въ каки гости незнакомыи,",
           "Незнакомыи да нежеланныи?",
@@ -154,7 +158,7 @@
           "На яву мнѣ не привидишься;",
           "Потеряла я думу крѣпкую",
           "Словцо тайное—не проносное",
-          "И великую заступущку.",
+          "И великую заступушку.",
           "Подыми-тко-тесь вѣтры буйныи",
           "Со тонкимъ-те вѣхорёчками!",
           "Разнеси-тко-тесь желты пески,",
@@ -223,11 +227,11 @@
       ],
       "context": [
         "This is one of the few complete laments in Barsov's first volume. It was recorded in Kalyazin uyezd, Tver province, not in the Olonets North, and printed as No. XI. Barsov's register of performers (pp. 326–327) identifies the performer as Klavdiya Momokova, a peasant of Selo Tverdilovo; she learned to lament in the village as a girl and was living in Moscow when Barsov wrote. The text is short enough to print in full.",
-        "The sister's lament moves from the dead woman's departure to «unknown guests» to the emptiness of the house, the survivor's loss of a «secret word» and «protection», and then to the invocation of wind, earth, coffin lid and shroud. The request that the dead sister rise and speak is a conventional motif. The closing line asks not for resurrection but for the grief to be shortened. The text is printed in the original pre-1918 orthography; line breaks and repetitions are retained."
+        "The sister's lament moves from the dead woman's departure to «unknown guests» to the emptiness of the house, the survivor's loss of a «secret word» and «protection», and then to the invocation of wind, earth, coffin lid and shroud. The request that the dead sister rise and speak is a conventional motif. The closing line asks not for resurrection but for the grief to be shortened. The text is printed in the original pre-1918 orthography; line breaks and repetitions are retained. After the last line Barsov prints a footnote with a variant of about twenty lines for the passage on the winds, the earth and the shroud; the variant is not reproduced here."
       ],
       "notes": [
         {
-          "term": "сурядилася / сподобилася",
+          "term": "сурядилася / сподобилась",
           "gloss": "Arrayed herself, made herself ready; the verbs belong to the ritual language of departure."
         },
         {
@@ -235,7 +239,7 @@
           "gloss": "The upper room or tower of a house; here the whole household."
         },
         {
-          "term": "заступущка",
+          "term": "заступушка",
           "gloss": "Protection, intercession; the sister was the mourner's defender."
         },
         {
@@ -248,7 +252,7 @@
       "id": "barsov-drowning",
       "title_ru": "Плачъ о потопшихъ (отрывокъ)",
       "title": "Lament for the drowned (excerpt)",
-      "first_line": "Собаки ихъ кости не волочатъ-ли?",
+      "first_line": "Собаки ихны костья не волочатъ-ли?",
       "genre": "Funeral lament for the unburied dead",
       "genre_ru": "Плач о потопших",
       "category": "oral",
@@ -265,10 +269,10 @@
       "rights": "PUBLIC_DOMAIN_VERIFIED",
       "rights_evidence": "Barsov died in 1917; the volume was published in 1872. Public domain in Russia and in the United States. The transcription was checked line by line against the Internet Archive scan, pp. 258–259.",
       "source_id": "barsov1872",
-      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), pp. 252–259, no. XVII, lines 177–194.",
+      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), pp. 252–259, no. XVII, lines 175–192.",
       "source_url": "https://archive.org/details/prichitanjasevernogokrajasobrannyeev91",
       "status": "excerpt",
-      "excerpt_note": "Lines 177–194 of a lament of more than 220 lines. The excerpt stops before a dialect verb whose sense is uncertain.",
+      "excerpt_note": "Lines 175–192 of a lament of more than 220 lines. The excerpt stops before a dialect verb whose sense is uncertain.",
       "plate": "o",
       "themes": [
         "drowning",
@@ -278,13 +282,13 @@
       ],
       "original": [
         [
-          "Собаки ихъ кости не волочатъ-ли?",
+          "Собаки ихны костья не волочатъ-ли?",
           "Во тяжкихъ грѣхахъ—безъ покаянія,",
           "Они приняли смерётушку напрасную;",
           "Тѣлеса у ихъ пойдутъ безъ погребенія,",
           "Не приданы ко матушкѣ сырой землѣ;",
-          "Призавьё буйнымъ вѣтрышкомъ,",
-          "Призагрѣё краснымъ солнышкомъ,",
+          "Призавіе буйнымъ вѣтрышкомъ,",
+          "Призагріе краснымъ солнышкомъ,",
           "Западётъ тѣло снѣжечкомъ перистымъ;",
           "Не знаемъ мы побѣдныя головушки—",
           "Не умершей мы ихной тамъ могилушки!",
@@ -322,7 +326,7 @@
       ],
       "context": [
         "The lament is spoken by a daughter who survived a storm on Lake Onega; her father and brother drowned. In this passage she describes what happens to those who die without confession and without burial: their bodies are not given to the earth, the wind wraps them, the sun warms them, snow falls on them, and the family has no grave to visit. The passage contrasts this death with the good death at home, on one's own bench, with priests and burial.",
-        "The text is No. XVII in Barsov's first volume and comes from Fedosova's repertoire. Barsov prints the full lament, which includes the storm, the survival and the search for the bodies. The atlas prints lines 177–194 only. The following line contains a dialect verb whose sense is uncertain, and the excerpt stops before it."
+        "The text is No. XVII in Barsov's first volume and comes from Fedosova's repertoire. Barsov prints the full lament, which includes the storm, the survival and the search for the bodies. The atlas prints lines 175–192 only. The following line contains a dialect verb whose sense is uncertain, and the excerpt stops before it."
       ],
       "notes": [
         {
@@ -342,7 +346,7 @@
           "gloss": "Household, dwelling, the peasant home with its stores."
         },
         {
-          "term": "призавьё",
+          "term": "призавіе",
           "gloss": "Printed form of a dialect verb; the sense is not certain. Translated tentatively as ‘will wrap’."
         }
       ]
