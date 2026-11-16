@@ -2609,8 +2609,6 @@
       "layout": "archive",
       "tone": "paper",
       "sources": [
-        "merridale2000",
-        "etkind2013",
         "mk-malevich",
         "vagankovo",
         "mertsalova2013",
@@ -2682,13 +2680,13 @@
           "rows": [
             [
               "Grave of Kazimir Malevich, Nemchinovka",
-              "site disputed; oak reported felled (1941, by one account); the cube’s fate not stated",
+              "location said to be found by radar in 2015 (the searchers’ own account) and now beside a residential building; oak reported felled (1941, by one account); the cube’s fate not stated",
               "Novaya Gazeta, 2015; Moskovsky Komsomolets, 2023; Radio Svoboda, 2015"
             ],
             [
               "Cemeteries at dissolved monasteries",
               "partly destroyed in the Soviet period",
-              "general historiography; not itemised here"
+              "Simonov Monastery cemetery in the list on this plate (Mertsalova); otherwise not itemised here"
             ],
             [
               "Rural cemeteries without a register",
@@ -2702,7 +2700,7 @@
             ],
             [
               "Digital memorial pages",
-              "growing; studied only through abstracts (see plate X)",
+              "studied only through abstracts (see plate X)",
               "open question"
             ],
             [
@@ -2716,7 +2714,7 @@
             "smirnov2015",
             "svoboda-malevich-grave",
             "vagankovo",
-            "etkind2013"
+            "mertsalova2013"
           ]
         },
         {

@@ -14,7 +14,7 @@ Owner-supplied PDFs and HTML (Zelenin 1927, Tolstaya 2024, Sedakova 2020, Nikola
 
 ## What was not done
 
-- Plates A, B, D, F and H to L were revised in the first round only; they have not had the claim-by-claim second pass that M to X had.
+- Plates A, B, D, F and H to L have now had a second pass (2026-11-16; FACTCHECK_LOG §§11–19). Plate C, E and G were handled earlier. Remaining weak spots: pages that block automated reading (Pravenc, Memorial Topos, consultant.ru), Rozanov (scan without a text layer), Sokolova 2013 and 2020, Etkind and Merridale (not read), photograph credits.
 - Zelenin 1927 §§ 132, 134 and 156–159 and Barsov page images could not be re-read in the later sessions (the owner’s files were not staged); claims resting on them were left unchanged.
 - No file in `research/downloads/` (the shell has no general network access).
 - No verse or prayer text is reproduced by the research text; informant lines are paraphrased. Variant texts of songs and laments have not been collated.
@@ -23,7 +23,7 @@ Owner-supplied PDFs and HTML (Zelenin 1927, Tolstaya 2024, Sedakova 2020, Nikola
 
 ## Next
 
-1. Second pass for plates A to L in the same way as M to X.
-2. Stage Zelenin 1927 and the Barsov images again and re-check the claims that rest on them.
+1. Second pass for plates A to L: done for A, B, D, F, H, I, J, K, L (C, E, G earlier).
+2. Zelenin 1991 and Barsov vol. 1 are now read in the owner’s PDFs; plates S and V still to be re-checked against Zelenin pp. 412–414 and § 132.
 3. Voices index page: built (voices.html, metadata and links only); to be looked at on the live site.
 4. Look at the live pages, plate G first.

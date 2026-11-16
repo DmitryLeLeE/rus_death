@@ -303,3 +303,7 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 - K/03: Moscow Times date (21 June 2012) and the functions passing from Ritual restated as the report gives them (digging graves, transporting coffins).
 - K/08: the Donskoy closing/church dates now list all four readings (1973 and 1990; real cremations to 1973, closed in the 1990s, services from 1998; church returned 1992; guide page).
 - Plate sources: merridale2000, tumarkin1994 and yurchak2006 removed from K (not cited there). Four source entries upgraded from search excerpts to fetched pages.
+
+## Plate L, second pass (2026-11-16)
+- Register of losses: Malevich row restated on Radio Svoboda and Novaya Gazeta (location said to be found by radar, beside a residential building) instead of “site disputed”; “growing” removed from the digital-pages row (no source); “general historiography” replaced by the Simonov Monastery entry it actually rests on.
+- Plate sources: merridale2000 and etkind2013 removed from L (not cited there); Mertsalova added to the register’s sources.

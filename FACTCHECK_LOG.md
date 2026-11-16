@@ -196,3 +196,6 @@ Tretyakov card (title, 1865, 45.3 × 57 cm, inv. 5248, Rumyantsev Museum 1925, S
 
 ## 18. Plate K, second pass (2026-11-16)
 Fetched (machine summaries): Tehne, pravoslavie.ru, Yavarda, Moscow Times: see changelog. The Pravoslavie page does not mention the 1925 competition; the plate no longer attributes it there. Not fetchable: Memorial Topos (robots rules) and the consultant.ru law text; Sokolova 2013 (summary only, earlier), Sokolova 2020 (abstract), Guinness entry, the 18+ photographs (credits not re-checked). The “digital grave” item (K/04) stays an open question.
+
+## 19. Plate L, second pass (2026-11-16)
+Mertsalova (aif.ru, 4 Feb 2013) re-read (machine summary): the reasons in L/01 (sanitary norms, factories, parks, housing, metro, tram tracks), absence of any mention of registers, and the six rows of L/08 confirmed; the summary does not repeat the plate’s “from the early 1940s” for the Dorogomilovskoe reburial offer (it says late 1940s, graves removed in 1948), which the earlier reading had; left as it was and listed here for a check against the page. Preobrazhenskoe was also closed to burials in 1920 (not on the plate).
