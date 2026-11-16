@@ -264,3 +264,9 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 - A/03: level set to unverified, specific signs and the dated period removed; none was found in a source read.
 - A/06: “lies three days on a bench” → “kept in the house for three days” (Razova’s text does not say bench there); BRE entry marked as read through a machine summary.
 - Plate sources: ivanits1989 and zelenin1916 removed from A (no longer cited there).
+
+## Plate B, second pass (2026-11-16)
+- B/01: the water-at-death sentence now cites pp. 346, 349; Barsov paragraph extended with the cup of water on the window (‘the little soul is washing’) and old women invited to wash (Barsov 1872, pp. 302–303, read in the owner’s PDF). The withdrawn ‘paid outside washers’ claim stays withdrawn: Barsov names old women but not payment or kinship.
+- B/02: old shirt “torn”, not “torn, not unbuttoned”; cross “sometimes copper, wooden ones common” (was “a copper cross”); the “groom” for a young man is “something similar”, as in Zelenin; Old Believer’s *chetki* given as a rosary.
+- B/03: record fields corrected (“surviving dugout examples” removed; period given as the dates of the two accounts; function without “public stage”); new paragraph on Barsov’s Olonets coffins and gifts; RU record fields added (the RU page showed English labels).
+- Table sources: Zelenin 1927 and Barsov; plate sources: zelenin1916, ivanits1989 and tolstoy1995 removed (not cited on B).
