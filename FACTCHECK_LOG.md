@@ -147,3 +147,4 @@ Claims with a recorded status: not counted, because this pass did not assign a s
 - 2026-11-16 · plate P: Krinichnaya (owner’s PDF) and Matlin 2021 (full-text PDF via machine summary) re-checked; seven corrections recorded in EDITORIAL_CHANGELOG.md.
 - 2026-11-16 · plate Q: RAPSI page read in full (machine summary) — claims present, no records named; Filatova introduction figures match; period corrected to filling 1941–1947. Tsipileva and Skorodumova not re-read (site errors).
 - 2026-11-16 · plate R: Azbyka (far caves, not near), Rosatom feature, dp.ru (486 slabs) and the preprint re-checked via machine summaries; four corrections recorded in EDITORIAL_CHANGELOG.md.
+- 2026-11-16 · plate S: Granova (open full text), Ansimova and Golubkova (open full text), Drannikova, Denisevich and Tolstaya re-checked; corrections for the new-house formula, forty days, commemoration food and the survey composition recorded in EDITORIAL_CHANGELOG.md.
