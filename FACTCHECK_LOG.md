@@ -144,3 +144,4 @@ Claims with a recorded status: not counted, because this pass did not assign a s
 - M: Balabeikina et al. 2023 re-checked (machine summary): 14 settlements; Art. 13 criteria; Yuma 1989; Pulozero 52 in 1905; Petrovsky Yam 1982; hospital no. 2212 of the Karelian Front; ‘annual’ not in the text. TASS, OSW and RTE figures match.
 - N: Zelenin 1916, Silinskaya volost: confirmed via search excerpt. Orkino, Koiva 2025, Santos 2025: not re-read.
 - 2026-11-16 · plate O: BRE ‘Semik’ — five claims confirmed (machine summary); Maksimov — bruises and cup-with-candles passages confirmed in the owner’s HTML; Zelenin 1927 § 159 and Lavrenova not re-read.
+- 2026-11-16 · plate P: Krinichnaya (owner’s PDF) and Matlin 2021 (full-text PDF via machine summary) re-checked; seven corrections recorded in EDITORIAL_CHANGELOG.md.
