@@ -145,3 +145,4 @@ Claims with a recorded status: not counted, because this pass did not assign a s
 - N: Zelenin 1916, Silinskaya volost: confirmed via search excerpt. Orkino, Koiva 2025, Santos 2025: not re-read.
 - 2026-11-16 · plate O: BRE ‘Semik’ — five claims confirmed (machine summary); Maksimov — bruises and cup-with-candles passages confirmed in the owner’s HTML; Zelenin 1927 § 159 and Lavrenova not re-read.
 - 2026-11-16 · plate P: Krinichnaya (owner’s PDF) and Matlin 2021 (full-text PDF via machine summary) re-checked; seven corrections recorded in EDITORIAL_CHANGELOG.md.
+- 2026-11-16 · plate Q: RAPSI page read in full (machine summary) — claims present, no records named; Filatova introduction figures match; period corrected to filling 1941–1947. Tsipileva and Skorodumova not re-read (site errors).

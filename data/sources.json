@@ -456,7 +456,7 @@
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "Context figures for the Rybinsk and Uglich reservoirs: more than 300,000 hectares flooded, more than 40 churches, three monasteries, about 700 villages and hamlets, and six towns including Mologa and Korcheva.",
-      "limitation": "A planning proposal to lower the reservoir level and restore settlements, so it argues a case. The figures are given without a primary citation in the part read, and the text gives no figures for graves or cemeteries. Read through a summary of the article, not line by line."
+      "limitation": "A planning proposal to lower the reservoir level and restore settlements, so it argues a case. The figures are given without a primary citation in the part read, and the text gives no figures for graves or cemeteries. Read through a summary of the article, not line by line. The introduction’s figures (over 300,000 ha; over 40 churches; three monasteries; about 700 villages; six towns including Mologa and Korcheva) were re-checked on 2026-11-16 in the article’s text at academvestnik.ru (search excerpt)."
     },
     {
       "id": "tsipileva2014",
@@ -476,9 +476,9 @@
     {
       "id": "rapsi2026",
       "kind": "press",
-      "author": "RAPSI (rapsinews.ru), unsigned in the excerpt",
-      "title": "Material marking the 85th anniversary of the filling of the Rybinsk Reservoir (headline not captured)",
-      "title_en": "",
+      "author": "RAPSI (rapsinews.ru); no author named on the page",
+      "title": "Русская Атлантида: право затопленных городов",
+      "title_en": "Russian Atlantis: the law of flooded cities",
       "year": "2026",
       "publisher": "RAPSI, 13 July 2026",
       "extent": "",
@@ -486,7 +486,7 @@
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "A claim, to be checked, that the sanitary preparation of the reservoir bed called for moving cemeteries but only some churchyards were moved in the 1930s–40s, so many Mologa-area cemeteries went under water; and that estimates of the number resettled range from 100,000 to 130,000, with historians disputing how they were counted.",
-      "limitation": "The page could not be fetched; the lines used were read in a search excerpt only. It is a news feature with no cited sources in the excerpt. Treat every claim from it as unverified until a primary record is found."
+      "limitation": "Page read in full on 2026-11-16 through a machine summary of the page (published 13 July 2026, modified 17 July). It states the claims in this entry but names no archive, decree, historian or document for the cemetery claim or for the 100,000–130,000 range; it names other decrees (no. 2074 of 14 September 1935; no. 668 of 5 May 1940; RSFSR Presidium, 20 December 1940) and gives 13 April 1941 as the start of filling. A news feature: treat every claim from it as unverified until a primary record is found."
     },
     {
       "id": "azbyka-pechory",
