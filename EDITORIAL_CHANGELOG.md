@@ -239,3 +239,11 @@ Verification: `node build/build.mjs`, `node build/validate.mjs` (errors 0, warni
 - Minkin (360.ru, 15 October 2019) re-read: curbs, deputy’s photographs, construction department, 2011 case, Tkachenko and ‘Ritual’ statements confirmed.
 - BFM (17 October 2019) re-read in full: steps, not curbs; Frolov’s attribution to Colonel Beketov’s gravestone from the Novospassky Monastery and his 1930s reading confirmed; added that Arkhnadzor preferred to leave the slabs and the city’s heritage department had not decided what to do.
 - Not re-checked: photograph credits and captions (Keret, Klever); the 2015 construction-ministry proposal named in the research leads (no source recorded).
+
+## Plate X (The digital afterlife), second pass
+- Dek said ‘three sources’ while the plate has four; now ‘four’ (dek and marginal note, EN and RU).
+- RTVI item on VK: the year was ‘not shown’. The item is dated 26 November and cites TASS and VK’s press service; Onliner.by reports the same news on 26 November 2020, so the policy described is from 2020 (six years old) and the text, register and diagram caption now say so. Facebook: the item names a ‘keeper’ and the words ‘Светлая память’, with Instagram similar; ‘legacy contact’ replaced.
+- Linden: year was ‘not shown’; the open full text gives 2021 (defence 23 April 2021), author Katerina Linden, and the three cases (Last Address, Nord-Ost, Forever with Us). The plate had the third case as ‘social networking sites’; corrected to the memorial network. Only the title page and abstract were read.
+- Sergeeva, Gerlit, Krcmar: abstract lines confirmed on the open Jusletter page; publication details added (27 May 2020, IRIS 2020 proceedings). Sample still unknown; the paper’s legal and platform sections were not read.
+- HSE news item (27 March 2025) confirmed; Chelovek article title still unknown.
+- Not re-checked: the 2011 Perm online-memorial lead, the HSE student paper lead, the QR-tag photograph credit.

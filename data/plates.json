@@ -5637,8 +5637,8 @@
       "nav": "The Digital Afterlife",
       "title": "THE DIGITAL AFTERLIFE",
       "subtitle": "Online memorials, accounts of the dead and what sources claim",
-      "dek": "Three sources on dead users’ accounts, online mourning and avatars of the dead, all read at the level of an abstract or a news item and stated as such.",
-      "marginal": "Three abstracts. A projection, an argument and a pair of claims, none of them a count.",
+      "dek": "Four sources on dead users’ accounts, online mourning, avatars of the dead and platform procedures, all read at the level of an abstract or a news item and stated as such.",
+      "marginal": "Three abstracts and a news item. A projection, an argument and two sets of claims, none of them a count.",
       "period": "2020–2025",
       "location": "Russian-language internet",
       "tradition": "Online commemoration in Russia",
@@ -5676,7 +5676,7 @@
             "sergeeva2020"
           ],
           "paras": [
-            "A. Sergeeva, R. Gerlit and H. Krcmar analysed 33 social networks and online services, surveyed 173 internet users and interviewed experts, taking Russia as their example. Their abstract expects services to host more deceased than living users in the coming decades, accounts and data to persist, the deceased to keep receiving invitations and birthday greetings, and heirs to find it hard to identify all accounts and reach the data.",
+            "A. Sergeeva, R. Gerlit and H. Krcmar analysed 33 social networks and online services, surveyed 173 internet users and interviewed experts, taking Russia as their example (Jusletter IT, 27 May 2020, IRIS 2020 proceedings). Their abstract expects services to host more deceased than living users in the coming decades, accounts and data to persist, the deceased to keep receiving invitations and birthday greetings, and heirs to find it hard to identify all accounts and reach the data.",
             "This plate has the abstract only. The ‘more dead than living’ line is a projection, and the survey’s sample is not known here."
           ]
         },
@@ -5689,8 +5689,8 @@
             "linden-online-death"
           ],
           "paras": [
-            "K. Linden’s doctoral dissertation at Uppsala studies online commemoration in the Russian-speaking world by virtual ethnography of three memorial sites, among them one on Soviet repressions and one on the Nord-Ost siege, together with social networking sites. She argues that online tools enable communal remembrance, that this has three sides (between the living and the dead, among mourners, and as motive for action), and that digitalisation may challenge a political culture of forgetting.",
-            "She also argues that the ‘right to be forgotten’ is not necessarily the answer, because difficulty in forgetting online could help repair a broken memory culture. This is an argument within her theoretical framework. The atlas has the library abstract only and treats it as her claim."
+            "Katerina Linden’s doctoral dissertation at Uppsala (defended 23 April 2021) studies online commemoration in Russia by virtual ethnography of three memorial sites: Last Address, on the victims of Soviet repression; a site on the victims of the Nord-Ost siege; and the online memorial network Forever with Us. She argues that online tools enable communal remembrance, that this has three sides (between the living and the dead, among mourners, and as motive for action), and that digitalisation may challenge a political culture of forgetting.",
+            "She also argues that the ‘right to be forgotten’ is not necessarily the answer, because difficulty in forgetting online could help repair a broken memory culture. This is an argument within her theoretical framework. The atlas has the abstract and title page only (read in the open full text) and treats it as her claim."
           ]
         },
         {
@@ -5716,8 +5716,8 @@
             "rtvi-vk-dead"
           ],
           "paras": [
-            "A news item reports that VKontakte marks or deletes the page of a dead user at the request of relatives, who send a photograph of the death certificate. If the page is kept, the words ‘Страница умершего человека’ appear in place of the last-visit time. The same item says that since 2011 a VK page could be kept unchanged or deleted, that Odnoklassniki adds a black ribbon or turns the photo black and white, and that Facebook has a ‘legacy contact’ and a memorial label.",
-            "This is a report of platform policy as of the item’s date, which the excerpt read does not show. The platforms’ own help pages were not read, and rules of this kind change. What the item shows is that a page of the dead is a category the platform has made a procedure for, with a document as the key."
+            "A news item reports that VKontakte marks or deletes the page of a dead user at the request of relatives, who send a photograph of the death certificate. If the page is kept, the words ‘Страница умершего человека’ appear in place of the last-visit time. The same item says that since 2011 a VK page could be kept unchanged or deleted, that Odnoklassniki adds a black ribbon or turns the photo black and white, and that Facebook lets a ‘keeper’ be named for the page and gives it a memorial status with the words ‘Светлая память’ by the name; it adds that Instagram has a similar system.",
+            "This is a report of platform policy as of 26 November, which the item gives by day; the year, 2020, comes from a Belarusian outlet’s report of the same news, so the policy described is six years old. The platforms’ own help pages were not read, and rules of this kind change. What the item shows is that a page of the dead is a category the platform has made a procedure for, with a document as the key."
           ]
         },
         {
@@ -5738,7 +5738,7 @@
             [
               "Linden (dissertation)",
               "Three memorial sites; virtual ethnography",
-              "Abstract only; year not shown; theoretical claims"
+              "Abstract and title page only; 2021; theoretical claims"
             ],
             [
               "Khusyainov and Urusova (2025)",
@@ -5748,7 +5748,7 @@
             [
               "Press report on VK, Odnoklassniki, Facebook",
               "Platform procedures for pages of the dead",
-              "News item, year not shown; policies change"
+              "News item, 26 November 2020; policies change"
             ]
           ],
           "sources": [
@@ -5777,7 +5777,7 @@
           "heading": "What would turn this plate into a study",
           "level": "interpretation",
           "items": [
-            "Linden’s full text (linked from the library record), to read her material and her counts.",
+            "Linden’s full text (Uppsala DiVA), beyond the title page and abstract, to read her material and her counts.",
             "The article by Khusyainov and Urusova in the journal Chelovek.",
             "A 2011 press report that the first specialised online memorial of the Russian internet launched in Perm; it needs the original report.",
             "A student qualification paper at HSE on memorialisation on VKontakte, with a classifier for deceased users’ accounts; as a thesis it is a lead, not a source.",
@@ -5789,7 +5789,7 @@
           "type": "figure",
           "src": "diagram-dead-page-procedure",
           "alt": "Three boxes joined by red arrows: relatives ask, photo of a death certificate, VK decides; two outcomes below: keep the page with a label, or delete it",
-          "caption": "Editorial diagram of the procedure a news item reports. The item’s date is not shown in the excerpt read, platform help pages were not read, and rules of this kind change.",
+          "caption": "Editorial diagram of the procedure a news item reports. The item is dated 26 November (2020, by a parallel report), platform help pages were not read, and rules of this kind change.",
           "credit": "Original diagram for this atlas, CC BY-SA 4.0",
           "level": "documented",
           "size": "wide",

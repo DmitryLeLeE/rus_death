@@ -152,3 +152,4 @@ Claims with a recorded status: not counted, because this pass did not assign a s
 - 2026-11-16 · plate U: Maltsev (open PDF), Gumerov, Bogoslov 1913 and Chesnokova abstract re-checked; Semik day number corrected 45 → 46 (text and diagrams).
 - 2026-11-16 · plate V: bigenc, Rouhier-Willoughby (open PDF), Dometian and Ryko re-checked; ‘hired’ washers, mirror/water reasoning and the relatives-ban comparison corrected.
 - 2026-11-16 · plate W: Krasilnikova, Minkin and BFM re-read; motive grouping marked as editorial, Barnaul decree and BFM follow-up added.
+- 2026-11-16 · plate X: RTVI dated (2020), Linden dated (2021) and sites corrected, Sergeeva abstract confirmed, HSE item confirmed; dek source count fixed.

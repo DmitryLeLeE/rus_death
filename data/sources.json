@@ -776,32 +776,32 @@
     {
       "id": "sergeeva2020",
       "kind": "article",
-      "author": "Sergeeva, A.; Gerlit, R.; Krcmar, H.",
+      "author": "Sergeeva, Alla; Gerlit, Robert; Krcmar, Helmut",
       "title": "Digital inheritance in Russia",
       "title_en": "",
       "year": "2020",
-      "publisher": "Jusletter IT, May 2020 (Editions Weblaw)",
+      "publisher": "Jusletter IT, 27 May 2020 (Editions Weblaw), IRIS 2020 proceedings",
       "extent": "pp. 419–426",
       "url": "https://doi.org/10.38023/6709b6bb-70ee-41d2-8c07-f80e33dadf64",
       "accessed": "2026-11-15",
       "language": "English",
       "supports": "Only the abstract: an analysis of 33 social networks and online services, a survey of 173 internet users and expert interviews; the authors expect services to host more dead than living users in coming decades, accounts and data to persist, the deceased to keep receiving invitations and greetings, and heirs to find it hard to identify accounts and reach data.",
-      "limitation": "Abstract only; the article was not read, so the survey sample and its limits are not known here. The ‘more dead than living’ line is an expectation, not a count."
+      "limitation": "Abstract only; the article was not read, so the survey sample and its limits are not known here. The ‘more dead than living’ line is an expectation, not a count. Re-checked 2026-11-16 on the open Jusletter page (abstract and table of contents, machine summary): the ‘more dead than living’, persistent accounts, invitations and greetings, and heirs’ difficulties lines are in the abstract; the survey sample is not described there; the paper has sections on the Russian legal framework and on services’ options for dead users’ accounts, which were not read."
     },
     {
       "id": "linden-online-death",
       "kind": "thesis",
-      "author": "Linden, K.",
+      "author": "Linden, Katerina",
       "title": "Death Online in Contemporary Russia: Memory, Forgetting and the Connective Presence of Mourning on the Internet",
       "title_en": "",
       "year": "n.d.",
-      "publisher": "Uppsala University (doctoral dissertation)",
+      "publisher": "Uppsala University (doctoral dissertation, defended 23 April 2021)",
       "extent": "",
       "url": "https://www.avhandlingar.se/avhandling/d29688877c/",
       "accessed": "2026-11-15",
       "language": "English",
-      "supports": "Only the library abstract: virtual ethnography of three memorial websites (on Soviet repressions, on the Nord-Ost siege, and on social networking sites); the argument that online tools enable communal remembrance, that digitalisation may challenge Russia’s political memory culture, and that the ‘right to be forgotten’ is not necessarily the answer.",
-      "limitation": "Abstract only; year not shown on the page read, and the full text (linked there) was not read. The claims are the author’s argument in a theoretical framework (existential media studies), not findings that were checked here."
+      "supports": "Abstract and title page: virtual ethnography of three memorial websites (Last Address, on Soviet repression; Nord-Ost; Forever with Us, an online memorial network); the argument that online tools enable communal remembrance, that digitalisation may challenge Russia’s political memory culture, and that the ‘right to be forgotten’ is not necessarily the answer.",
+      "limitation": "Abstract and title page only, read 2026-11-16 in the open full text (uu.diva-portal.org, diva2:1520018, first part, machine summary); the rest of the book, including its interviews and counts, was not read. The claims are the author’s argument in a theoretical framework (existential media studies), not findings that were checked here."
     },
     {
       "id": "hse-digital-grief2025",
@@ -816,7 +816,7 @@
       "accessed": "2026-11-15",
       "language": "English",
       "supports": "The researchers’ claims as relayed by a university news item: digital footprints and virtual memorials; AI avatars of the dead that recreate voice and habits and can contain errors; a possible support for grief by sustained connection and a possible delay of acceptance and retraumatisation; platforms as de facto data owners.",
-      "limitation": "A news item, not the article; the article itself and its title were not read. The item does not discuss Russia’s own law. Claims about grief are the researchers’ claims."
+      "limitation": "A news item, not the article; the article itself and its title were not read. The item does not discuss Russia’s own law. Claims about grief are the researchers’ claims. Re-checked 2026-11-16: Timur Khusyainov (Deputy Dean, Faculty of Humanities, HSE Nizhny Novgorod) and Ekaterina Urusova (visiting lecturer, psychotherapist); the page gives the journal, Chelovek, but not the article’s own title."
     },
     {
       "id": "skorodumova-mariinka",
@@ -915,13 +915,13 @@
       "title": "«ВКонтакте» начала помечать страницы умерших пользователей по просьбе их родственников",
       "title_en": "VKontakte has begun marking pages of dead users at their relatives’ request",
       "year": "n.d.",
-      "publisher": "RTVI, 26 November (year not shown in the excerpt read)",
+      "publisher": "RTVI, 26 November 2020 (the page gives the day; the year is from Onliner.by’s report of the same news, 26 November 2020), citing TASS and the VK press service",
       "extent": "",
       "url": "https://rtvi.com/news/vkontakte-nachala-pomechat-stranitsy-umershikh-polzovateley-po-prosbe-ikh-rodstvennikov/",
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "That VK marks or deletes the page of a dead user at relatives’ request on a photograph of the death certificate, the mark ‘Страница умершего человека’ replacing the last-visit time; that since 2011 a page could be kept unchanged or deleted; and, for other services, a black ribbon or black-and-white photo on Odnoklassniki and a ‘legacy contact’ with a memorial label on Facebook.",
-      "limitation": "A news item read in a search excerpt; the year is not shown. It reports a platform policy as of its date. Platform rules change, and the platforms’ own help pages were not read."
+      "limitation": "Re-read 2026-11-16 from a search excerpt that carries the whole item (the RTVI page itself is not machine-readable). It reports platform policy as of 26 November 2020, six years before this check; platform rules change, and the platforms’ own help pages were not read. The item names a ‘keeper’ and the words ‘Светлая память’ for Facebook and says Instagram is similar."
     },
     {
       "id": "drannikova-north",
