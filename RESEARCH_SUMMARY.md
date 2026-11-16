@@ -25,5 +25,5 @@ Owner-supplied PDFs and HTML (Zelenin 1927, Tolstaya 2024, Sedakova 2020, Nikola
 
 1. Second pass for plates A to L in the same way as M to X.
 2. Stage Zelenin 1927 and the Barsov images again and re-check the claims that rest on them.
-3. A Voices index page built from `data/voices.json` (metadata and links only).
+3. Voices index page: built (voices.html, metadata and links only); to be looked at on the live site.
 4. Look at the live pages, plate G first.

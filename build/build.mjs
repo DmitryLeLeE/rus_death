@@ -531,6 +531,7 @@ ${content}
     <a href="${base}map.html">${nav.map}</a>
     <a href="${base}chronology.html">${nav.chrono}</a>
     <a href="${base}words.html">${nav.words}</a>
+    <a href="${base}voices.html">${nav.voices}</a>
     <a href="${base}routes.html">${nav.routes}</a>
     <a href="${base}archive.html">${nav.archive}</a>
     <a href="${base}bibliography.html">${nav.sources}</a>
@@ -1073,6 +1074,38 @@ ${pagehead("pagehead--words", esc(d.kicker), esc(d.title).replace(/\n/g, "<br>")
 }
 
 
+// ---------------------------------------------------------------- voices ---
+function voicesPage() {
+  const base = "", X = T.voices;
+  const list = VOICES.filter((v) => PLATE[v.plate]);
+  const slips = list.map((v, i) => {
+    const p = PLATE[v.plate];
+    const t = torn(`voice-${v.id}`, "tblr", 6);
+    const genre = LANG === "ru" ? (v.genre_ru || v.genre) : v.genre;
+    const title = LANG === "ru" ? (v.title_ru || v.title) : v.title;
+    const alt = LANG === "ru" ? (v.title && v.title !== v.title_ru ? v.title : "") : (v.title_ru || "");
+    const bits = [genre, v.place, v.date_recorded || v.date_published, v.author, v.collector].filter(Boolean).map((x) => esc(x));
+    const status = v.status === "complete" ? T.voice.complete : T.voice.excerpt;
+    return `<li class="word word--${(i % 5) + 1}" id="v-${v.id}" style="--rot:${((hash(v.id) % 70) - 35) / 20}deg">
+    <div class="sw" style="--ca:${t.a};--cb:${t.b}"><div class="sheet mat-${["newsprint", "manila", "plaster", "linen", "newsprint"][i % 5]}">
+      <p class="word__ru" lang="${LANG === "ru" ? "ru" : "en"}">${esc(title)}</p>
+      ${alt ? `<p class="word__tr mono">${esc(alt)}</p>` : ""}
+      <p class="word__gloss">${bits.join(" · ")}</p>
+      <p class="word__reg mono">${esc(status)}</p>
+      <p class="word__plates mono"><a href="plates/${p.id}-${p.slug}.html#voice-${v.id}">${LANG === "ru" ? "ЛИСТ" : "PLATE"} ${p.letter}</a></p>
+    </div></div>
+  </li>`;
+  }).join("\n");
+  return shell({
+    title: X.title, description: X.desc, base, bodyClass: "words-page", page: "voices", rel: "voices.html",
+    content: `<main id="main">
+${pagehead("pagehead--words", esc(X.kicker), X.h1, esc(X.dek))}
+<ol class="wordwall">${slips}</ol>
+<section class="map-note"><p>${esc(X.note)}</p></section>
+</main>`,
+  });
+}
+
 // ---------------------------------------------- search, ledger, routes ------
 const plain = (t) => String(t).replace(/[*`_]/g, "").replace(/\s+/g, " ").trim();
 const collect = (v, out = []) => {
@@ -1319,7 +1352,7 @@ function coverPage() {
 }
 
 // ------------------------------------------------------------------ run ----
-const PAGES = ["index.html", "prologue.html", "volumes.html", "search.html", "ledger.html", "routes.html", "archive.html", "atlas.html", "map.html", "chronology.html", "words.html", "bibliography.html", "method.html", "colophon.html"];
+const PAGES = ["index.html", "prologue.html", "volumes.html", "search.html", "ledger.html", "routes.html", "archive.html", "atlas.html", "map.html", "chronology.html", "words.html", "voices.html", "bibliography.html", "method.html", "colophon.html"];
 const sitemapRel = [];
 console.log("building");
 for (const lang of ["en", "ru"]) {
@@ -1342,6 +1375,7 @@ for (const lang of ["en", "ru"]) {
   write(`${pre}404.html`, notFound());
   if (prologueDoc) write(`${pre}prologue.html`, prologuePage());
   if (lexiconDoc) write(`${pre}words.html`, wordsPage());
+  if (VOICES.length) write(`${pre}voices.html`, voicesPage());
   for (const p of plates.plates) write(`${pre}plates/${p.id}-${p.slug}.html`, renderPlate(p));
   if (lang === "en") {
     sitemapRel.push(...PAGES, ...plates.plates.map((p) => `plates/${p.id}-${p.slug}.html`));

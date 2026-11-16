@@ -12,7 +12,7 @@ export const UI = {
     volumeWord: "VOL.",
     skip: "Skip to the atlas content",
     navLabel: "Atlas sections",
-    nav: { volumes: "ATLAS", index: "INDEX", map: "MAP", chrono: "CHRONOLOGY", sources: "SOURCES", method: "METHOD", prologue: "PROLOGUE", words: "WORDS", routes: "ROUTES", archive: "FIELD ARCHIVE", search: "SEARCH" },
+    nav: { volumes: "ATLAS", index: "INDEX", map: "MAP", chrono: "CHRONOLOGY", sources: "SOURCES", method: "METHOD", prologue: "PROLOGUE", words: "WORDS", voices: "VOICES", routes: "ROUTES", archive: "FIELD ARCHIVE", search: "SEARCH" },
     contents: "CONTENTS", close: "CLOSE", colophon: "COLOPHON", coverWord: "Cover",
     footer: (ed, compiled) => `${ed} · compiled ${compiled}`,
     footColophon: "colophon", footSources: "sources",
@@ -167,6 +167,7 @@ export const UI = {
     },
     prologue: { title: "Prologue — RUSSIAN CHTHONIC ATLAS", desc: "Before the first plate: what this atlas is, what it refuses to do, and three ways to move through it." },
     words: { title: "Words — RUSSIAN CHTHONIC ATLAS", desc: "A lexicon of the Russian words that carry the atlas, written in Cyrillic with transliteration, register and the plates where each is examined." },
+    voices: { title: "Voices — RUSSIAN CHTHONIC ATLAS", desc: "An index of the public-domain songs, laments and poems quoted on the plates: genre, place, date, collector or author, whether complete or an excerpt, and the plate where each is set.", kicker: "INDEX OF VOICES", h1: "THE VOICES<br>ON THE PLATES", dek: "Every text the plates set in full or in part, listed by title with its genre, place, date and the plate that carries it. The texts themselves stay on their plates, beside their sources and rights notes; this page only points to them.", note: "Rights and sources are on each plate, under the text. Entries are public-domain texts supplied for the atlas; an excerpt says so on its plate." },
   },
 
   ru: {
@@ -177,7 +178,7 @@ export const UI = {
     volumeWord: "ТОМ",
     skip: "К содержанию атласа",
     navLabel: "Разделы атласа",
-    nav: { volumes: "АТЛАС", index: "УКАЗАТЕЛЬ", map: "КАРТА", chrono: "ХРОНОЛОГИЯ", sources: "ИСТОЧНИКИ", method: "МЕТОД", prologue: "ПРОЛОГ", words: "СЛОВАРЬ", routes: "МАРШРУТЫ", archive: "ПОЛЕВОЙ АРХИВ", search: "ПОИСК" },
+    nav: { volumes: "АТЛАС", index: "УКАЗАТЕЛЬ", map: "КАРТА", chrono: "ХРОНОЛОГИЯ", sources: "ИСТОЧНИКИ", method: "МЕТОД", prologue: "ПРОЛОГ", words: "СЛОВАРЬ", voices: "ГОЛОСА", routes: "МАРШРУТЫ", archive: "ПОЛЕВОЙ АРХИВ", search: "ПОИСК" },
     contents: "СОДЕРЖАНИЕ", close: "ЗАКРЫТЬ", colophon: "КОЛОФОН", coverWord: "Обложка",
     footer: (ed, compiled) => `${ed} · составлено ${compiled}`,
     footColophon: "колофон", footSources: "источники",
@@ -336,5 +337,6 @@ export const UI = {
     },
     prologue: { title: "Пролог — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Перед первым листом: что это за атлас, от чего он отказывается и три способа пройти по нему." },
     words: { title: "Словарь — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Словарь русских слов, на которых держится атлас: кириллица, транслитерация, регистр и листы, где слово разбирается." },
+    voices: { title: "Голоса — РУССКИЙ ХТОНИЧЕСКИЙ АТЛАС", desc: "Указатель песен, причитаний и стихов общественного достояния, приведённых на листах: жанр, место, дата, собиратель или автор, полный текст или отрывок и лист, где он стоит.", kicker: "УКАЗАТЕЛЬ ГОЛОСОВ", h1: "ГОЛОСА<br>НА ЛИСТАХ", dek: "Все тексты, которые листы приводят целиком или частично: по названию, с жанром, местом, датой и листом, где текст стоит. Сами тексты остаются на листах, рядом с источниками и сведениями о правах; эта страница только указывает на них.", note: "Права и источники указаны на каждом листе под текстом. Это тексты общественного достояния, переданные для атласа; отрывок так и помечен на своём листе." },
   },
 };
