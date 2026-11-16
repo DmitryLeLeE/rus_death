@@ -149,3 +149,4 @@ Claims with a recorded status: not counted, because this pass did not assign a s
 - 2026-11-16 · plate R: Azbyka (far caves, not near), Rosatom feature, dp.ru (486 slabs) and the preprint re-checked via machine summaries; four corrections recorded in EDITORIAL_CHANGELOG.md.
 - 2026-11-16 · plate S: Granova (open full text), Ansimova and Golubkova (open full text), Drannikova, Denisevich and Tolstaya re-checked; corrections for the new-house formula, forty days, commemoration food and the survey composition recorded in EDITORIAL_CHANGELOG.md.
 - 2026-11-16 · plate T: Ovseichik (open PDF) and Ryko (open HTML) re-checked; sorcerer-informant claim and vampire-accounts attribution corrected.
+- 2026-11-16 · plate U: Maltsev (open PDF), Gumerov, Bogoslov 1913 and Chesnokova abstract re-checked; Semik day number corrected 45 → 46 (text and diagrams).
