@@ -1451,7 +1451,7 @@
           "kicker": "G / 03",
           "heading": "The second person",
           "paras": [
-            "Russian funerary language keeps the dead in the second person and in the present tense for as long as the ritual lasts. The dead is addressed by kin term — ‘my child’, ‘my master’, ‘my sister’ — and asked questions that presume an answer. The euphemisms that surround death in ordinary speech (*ushel* — ‘he has gone’; *ne stalo* — ‘he is no more’) are suspended in the lament, where the dead is named and spoken to directly. One printed text bears this out in its grammar: the Tver lament for a sister printed on this plate (Barsov 1872, no. XI) addresses the dead in the second person and the present tense, by the kin term ‘sister’. One text supports the grammatical observation; it does not make a rule for the genre."
+            "Russian funerary language keeps the dead in the second person and in the present tense for as long as the ritual lasts. The dead is addressed by kin term — ‘my child’, ‘my master’, ‘my sister’ — and asked questions that presume an answer. The euphemisms that surround death in ordinary speech (*ushel* — ‘he has gone’; *ne stalo* — ‘he is no more’) are suspended in the lament, where the dead is named and spoken to directly. This is an interpretive reading carried over from the earlier edition. It has not yet been checked against lament texts and stands as unverified until it is."
           ],
           "level": "interpretation",
           "sources": [
@@ -1547,14 +1547,13 @@
         {
           "type": "note",
           "kicker": "Editorial",
-          "heading": "The text printed here",
-          "level": "interpretation",
-          "editorial": true,
+          "heading": "Verse not printed here",
           "items": [
-            "The lament at the end of this plate is a complete text from Barsov’s first volume (no. XI, pp. 162–164), not a reconstruction. It was checked line by line against page images of the 1872 scan.",
-            "The pre-1918 orthography and line breaks are kept. The translation is the atlas’s own and keeps repetitions and diminutives where English allows.",
-            "Barsov’s footnote to the last line prints a variant of the closing movement. It is not combined with the main text and is not reproduced here."
-          ]
+            "No lament text is printed on this plate. The references above (volume 1, printed pages 1, 252, 271, 293) are given so that the texts can be read in the scan of the 1872 volume at the Internet Archive, which is public domain.",
+            "Proverbs and epitaphs on other plates are quoted only where a source read for this edition gives them."
+          ],
+          "level": "interpretation",
+          "editorial": true
         },
         {
           "type": "quote",
@@ -2836,7 +2835,7 @@
       "nav": "The Empty House",
       "title": "THE EMPTY HOUSE",
       "subtitle": "What the rite does to a house, and what the census says about empty ones",
-      "dek": "Four parts: the house at a death, the coffin as a house, the state’s count of villages with no registered residents, and what these can and cannot say together.",
+      "dek": "The house at a death, the coffin as a house, three studies of houses and settlements that people are leaving, the state’s count of villages with no registered residents, and what these can and cannot say together.",
       "marginal": "The ritual sources describe houses in which someone has died. The census counts villages with no registered residents. No source used here links the two, and the plate does not.",
       "period": "Recorded 19th–20th centuries; census figures 2002–2010",
       "location": "Eastern Slavic traditions (corpus partly outside Russia); Russian Federation (census)",
@@ -2965,8 +2964,8 @@
             "balabeikina2023"
           ],
           "paras": [
-            "A 2023 article by O. A. Balabeikina, V. Yu. Korobushchenko and A. A. Mazurenko (*Vestnik Pskovskogo gosudarstvennogo universiteta*, vol. 16, no. 1, pp. 3–12) counts the settlements formally abolished in four districts of the Republic of Karelia: Loukhi, Kem, Belomorsk and Segezha. They found 14 between 1938 and 2005, working from legislative decisions, municipal sites and photographs and recollections posted online. They note that Russian law lets a settlement be abolished by an administrative act, with a low population (under 100), low density and poor transport access among the usual criteria (Federal Law no. 131-FZ, art. 13), and that in almost every case the territory was simply joined to a neighbouring rural settlement. The one exception named for flooding is Yuma, whose residents were moved by 1989 for the Krivoporozhskaya hydropower station.",
-            "Two items bear on the dead. At Pulozero, in Belomorsk district, they list the remains of ruined houses, a chapel and ‘necro-cult structures’ on the cemetery, together with a cult grove; the settlement had 52 inhabitants in 1905. And for Petrovsky Yam in Segezha district, abolished in 1982, they report that a Finnish raid destroyed a front-line hospital on 12 February 1942, and that a public group has held an annual ‘Memory Escort’ there for several decades, riding 70 km by snowmobile over the frozen Lake Vygozero from Segezha. The article does not give numbers of graves, residents or visitors. It shows that an abolition is a legal fact, and that the places can still draw a yearly visit because of the dead."
+            "A 2023 article by O. A. Balabeikina, V. Yu. Korobushchenko and A. A. Mazurenko (*Vestnik Pskovskogo gosudarstvennogo universiteta*, vol. 16, no. 1, pp. 3–12) counts the settlements formally abolished in four districts of the Republic of Karelia: Loukhi, Kem, Belomorsk and Segezha. They found 14 between 1938 and 2005, working from legislative decisions, municipal sites and photographs and recollections posted online. They note that Russian law lets a settlement be abolished by an administrative act, with a low population (under 100), low density and poor transport access among the usual criteria (Federal Law no. 131-FZ, art. 13), and that in almost every case the territory was simply joined to a neighbouring rural settlement. The exceptions they name are Soroka, which became part of the town of Belomorsk, and Yuma, which was flooded: its residents were moved by 1989 for the Krivoporozhskaya hydropower station.",
+            "Two items bear on the dead. At Pulozero, in Belomorsk district, they list the remains of ruined houses, a chapel and ‘necro-cult structures’ on the cemetery, together with a cult grove; the settlement had 52 inhabitants in 1905. And for Petrovsky Yam in Segezha district, abolished in 1982, they report that a Finnish sabotage group destroyed hospital no. 2212 of the Karelian Front on 12 February 1942, and that a public group has held a ‘Memory Escort’ there for several decades, on dates near the anniversary, riding 70 km by snowmobile over the frozen Lake Vygozero from Segezha. The article does not give numbers of graves, residents or visitors. It shows that an abolition is a legal fact, and that the places can still draw a visit around an anniversary because of the dead."
           ]
         },
         {
@@ -2987,7 +2986,7 @@
             [
               "OSW, Warsaw, 21 Dec 2011",
               "134,000 villages in total, 8,500 fewer than in 2002",
-              "Settlements recorded as villages"
+              "Settlements recorded as villages; the report attributes the fall to villages left with no residents and to the merging of administrative units"
             ],
             [
               "RTE, 6 Apr 2011, citing the head of Rosstat",
@@ -3009,7 +3008,7 @@
           "level": "interpretation",
           "items": [
             "A village counted as uninhabited has no registered residents at the census. The figure does not say whether its houses still stand, who owns them or whether anyone returns in summer. The three reports count three different things, and the atlas does not turn them into a number of empty houses. The Rosstat tables were not consulted, only reports of them.",
-            "None of the sources used here records beliefs about abandoned houses in Russian regions. The ritual material on this plate concerns houses in which someone has died, not houses that were left. Whether the two connect is a research lead, not a finding."
+            "Only one source used here records a practice in abandoned houses in Russian regions: Moroz’s three cases of protective texts left behind, which he presents as a possibly new practice of unknown spread. Zhigaltsova records feelings about abandoned houses, not beliefs. The ritual material of parts I and II concerns houses in which someone has died, not houses that were left. Whether the two connect is a research lead, not a finding."
           ],
           "editorial": true
         },
@@ -3026,7 +3025,7 @@
         {
           "type": "register",
           "kicker": "PART IV · WHAT THE PARTS CAN AND CANNOT SAY",
-          "heading": "Four bodies of evidence, kept apart",
+          "heading": "Evidence, kept apart",
           "colhead": [
             "Part",
             "Evidence",
@@ -3057,10 +3056,17 @@
               "How many houses stand; what anyone believes about them"
             ],
             [
+              "M. Leaving a house",
+              "Moroz (full text); Zhigaltsova (article); Balabeikina (article)",
+              "Three houses in Arkhangelsk and Bryansk regions, 2015–2017; one logging settlement, 32 questionnaires and 10 interviews; four districts of Karelia",
+              "That handwritten protective texts were left in three houses being abandoned; how older residents of one settlement felt about its places; that 14 settlements were abolished by administrative act and that two places still draw visits for the dead",
+              "How widespread the practice is; what anyone believes about the dead; numbers of graves, residents or visitors"
+            ],
+            [
               "IV. The link",
               "None found",
               "—",
-              "Nothing: no source read connects part III to parts I and II",
+              "Nothing: none of the sources read connects an empty house to the death rites of parts I and II",
               "That empty houses are treated as houses of the dead"
             ]
           ],
@@ -3071,7 +3077,10 @@
             "plotnikova-loci",
             "tass2011-census",
             "osw2011-census",
-            "rte2011-villages"
+            "rte2011-villages",
+            "moroz2019",
+            "zhigaltsova2018",
+            "balabeikina2023"
           ]
         },
         {
@@ -3096,9 +3105,9 @@
       "nav": "The Forest Edge",
       "title": "THE FOREST EDGE",
       "subtitle": "Burial away from the churchyard, the forest on the road to the dead, and a hut at the border",
-      "dek": "Three kinds of evidence put the dead near the forest: reports of burial in forest ravines, a belief that the way to the dead leads through the woods, and a fairy-tale hut at the treeline. They come from different peoples and different genres, and the plate does not blend them.",
-      "marginal": "One report is about Mordvins. One article is mostly Estonian and Belarusian. One is a reading of folktales. None of them is a map of where Russians buried anyone.",
-      "period": "Reports published 1916; articles 2025",
+      "dek": "Four kinds of evidence put the dead near the forest: reports of burial in forest ravines, a belief that the way to the dead leads through the woods, a fairy-tale hut at the treeline, and a 1927 survey of the forest spirit. They come from different peoples and different genres, and the plate does not blend them.",
+      "marginal": "One report is about Mordvins. One article is mostly Estonian and Belarusian. One is a reading of folktales. One is a single compiler’s survey of the 1920s. None of them is a map of where Russians buried anyone.",
+      "period": "Reports published 1916; survey 1927 (translation 1991); articles 2025",
       "location": "Saratov and Simbirsk provinces (reports); Estonia and Belarus (corpus); Russian folktales (reading)",
       "tradition": "Eastern Slavic and neighbouring folk belief",
       "category": "forest",
@@ -3192,7 +3201,7 @@
         },
         {
           "type": "prose",
-          "kicker": "PART III · THE LESHII",
+          "kicker": "PART V · THE LESHII",
           "heading": "The leshii as one survey records him",
           "level": "documented",
           "sources": [
@@ -3207,7 +3216,7 @@
         {
           "type": "register",
           "kicker": "WHAT EACH PART CAN SHOW",
-          "heading": "Four kinds of evidence, four kinds of place",
+          "heading": "What each part can show, kept apart",
           "colhead": [
             "Source",
             "Region and genre",
@@ -3233,13 +3242,19 @@
               "IV. Santos Marinas, 2025",
               "Russian folktales; literary reading",
               "That the forest edge works as a threshold in the tales"
+            ],
+            [
+              "V. Zelenin, 1927 (1991 translation)",
+              "A survey by one compiler; collectors named by archive volume and number, no villages",
+              "That the leshii is called a living figure where forests are large, and that some collectors and Zelenin report the opinion that leshie are ‘pledged’ dead; not where anyone was buried"
             ]
           ],
           "level": "documented",
           "sources": [
             "zelenin1916",
             "koiva2025",
-            "santos2025"
+            "santos2025",
+            "zelenin1927"
           ]
         },
         {
@@ -3249,10 +3264,13 @@
           "level": "interpretation",
           "items": [
             "It does not say that Russians generally buried anyone in forests. The one other burial report is a single volost in Simbirsk province; it is a report of belief about where a particular kind of dead person belonged, and the excerpt read does not name the villagers.",
-            "It does not equate the forest spirit with the dead. The sources used here do not make that link, and the plate leaves it alone.",
+            "It does not equate the forest spirit with the dead. Only one source used here links them: Zelenin (1927) reports the opinion that leshie descend from the ‘pledged’ dead, and he sees no reason to think it recent, while saying elsewhere that it belongs to present-day belief. The plate reports that opinion from one compiler and does not decide it; the 2025 articles make no such link.",
             "The Orkino report is Mordvin. Putting it on a plate about Russian death is a choice the plate makes openly and does not hide."
           ],
-          "editorial": true
+          "editorial": true,
+          "sources": [
+            "zelenin1927"
+          ]
         },
         {
           "type": "note",

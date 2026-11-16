@@ -139,3 +139,7 @@ Claims with a recorded status: not counted, because this pass did not assign a s
 - INCORRECT in the package: the entry barsov-dead-at-meal says the role-play locality is “not localized”. On pp. 310–311 Barsov introduces it “for comparison” as a Mordvin rite (Gorodishche and Krasnaya Sloboda districts, Penza province). Not used as Russian evidence.
 - UNCERTAIN: the performer heading on p. 326 is blurred (Momokova / Momonova); the OCR layer reads Momokova. The atlas keeps Momokova and records the doubt in the barsov1872 entry.
 - Not checked: pp. 306 (coins in the grave, wedding songs for a dead girl), the performer pages other than 326–327, pp. 162–164, 258–259 and 1–2 (the lament texts), the Wikisource poem transcriptions, the Lavra and Foma pages.
+
+## 2026-11-16 · plates M and N second pass
+- M: Balabeikina et al. 2023 re-checked (machine summary): 14 settlements; Art. 13 criteria; Yuma 1989; Pulozero 52 in 1905; Petrovsky Yam 1982; hospital no. 2212 of the Karelian Front; ‘annual’ not in the text. TASS, OSW and RTE figures match.
+- N: Zelenin 1916, Silinskaya volost: confirmed via search excerpt. Orkino, Koiva 2025, Santos 2025: not re-read.

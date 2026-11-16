@@ -160,3 +160,17 @@ Verification: `node build/build.mjs`, `node build/validate.mjs` (errors 0, warni
 - Sources added: 7 bibliography entries for the poems, epitaph and sticheron, 4 for the songs (EN and RU). Their text was verified in the owner’s package, not re-read here.
 - data/ru/songs.json: Russian context, notes and rights lines for the four songs (no verse).
 - Not done: the 16 photographs (Commons not reachable in this session, licences unchecked); the Voices index tab (no new page furniture).
+
+## Plate M (Empty house), second pass — completed
+- Source checks on 2026-11-16 (web-fetch summaries, machine-read): Balabeikina et al. (14 settlements; Art. 13 criteria; Yuma 1989; Pulozero 52 inhabitants in 1905; Petrovsky Yam 1982; 70 km route) confirmed. Corrected: the plate said ‘front-line hospital’ and ‘Finnish raid’ and an ‘annual’ Memory Escort; the article says hospital no. 2212 of the Karelian Front, a Finnish sabotage group, and a procession held for several decades on dates near the anniversary. Added the second exception, Soroka (joined to Belomorsk). EN and RU.
+- TASS (19,400 villages with no residents, 48% more), OSW (134,000 villages, 8,500 fewer in eight years; fall attributed to villages left empty and to merging of administrative units; no count of uninhabited villages) and RTE (13,000 to 19,400; 36,200 with under ten residents, quoted from the Rosstat head) match the plate. OSW’s cause of the fall added to the register row.
+- Internal contradiction removed: the caution note said no source recorded practices in abandoned houses, and the register ‘Four bodies of evidence’ left out Moroz, Zhigaltsova and Balabeikina. Note now says Moroz’s three cases are the one record (spread unknown) and Zhigaltsova records feelings, not beliefs; the register has a new ‘Leaving a house’ row and the heading no longer counts ‘four’.
+- Dek no longer says ‘four parts’ (the plate has additional leaving-a-house sections).
+- Not re-read: Andryunina, Lewkijewskaja (abstracts only), Plotnikova (record incomplete).
+
+## Plate N (Forest edge), second pass
+- Silinskaya volost (Simbirsk): the ‘deaf forest ravine’ as the proper grave of a drunkard, and the statement that cemetery burial brings drought and crop failure, confirmed against a search excerpt of Zelenin 1916 on svitk.ru (machine search result, not the book page). Orkino (Mordvin report) not re-read; the page could not be fetched.
+- Koiva et al. 2025 and Santos Marinas 2025 not re-read (doi.org blocked in this session); their claims remain as read earlier from the abstract and the passages named in the source entries.
+- Contradiction removed: the caution note said no source used on the plate links the forest spirit with the dead, while the leshii section (Zelenin 1927, pp. 410, 415) reports exactly that opinion. The note now says so and that the plate does not decide it.
+- Numbering and counts: two parts were both ‘PART III’; the leshii section is now PART V. Dek, marginal note and period no longer say ‘three kinds’ and now include the 1927 survey. Register heading no longer says ‘four’; row V added (Zelenin 1927) and `zelenin1927` added to its sources. EN and RU.
+- Not checked: the Nansen photographs’ captions (Kureika 8 September 1913; Amur 12 August 1913), the Domodedovo photograph. Commons was not reachable.
