@@ -226,3 +226,10 @@ Verification: `node build/build.mjs`, `node build/validate.mjs` (errors 0, warni
 - 1913 dictionary: ‘by place and period’ reduced to ‘by place’ (the entry gives Monday, in some localities Tuesday, and no period).
 - Gumerov confirmed against the English translation. Azbyka 2024 news item could not be fetched this time; the 14 May 2024 date was checked by arithmetic (Easter 5 May 2024).
 - Not re-checked: Grinkova 1947 and Dynin 1994 (owner’s PDFs, read earlier), BRE ‘Semik’ (re-checked earlier today), Chesnokova full text, the Arkhipov and Astrakhov captions.
+
+## Plate V (Taboo, omen and protection), second pass
+- Encyclopedia article (bigenc) re-read: two aims, listed acts, the two prohibitions without reasons and Baiburin’s argument on washing confirmed. Corrected: in the Russian North the washing was done by ‘specially invited’ women past childbearing age, not ‘hired’ ones.
+- Rouhier-Willoughby re-read in the open PDF: the village items are second hand from Baiburin, Kabakova, Zelenin, Tolstoi and others (as the plate says). Corrected: the plate said mirrors and water were treated alike ‘which is why’; the source gives separate reasons (soul not to be trapped; water could trap the soul) and says mirrors were seen as like water because they reflect. Mirror section and register rows changed. The urban covering of shiny surfaces has no source cited in the article.
+- Dometian re-read: three reasons for the mirror, tables and chairs, window belief, blessing confirmed. The ‘soul passes into the mirror’ reason is the soul slipping into the world behind it, which he says the devil rules.
+- Ryko 2025 re-read: the prose compared the encyclopedia’s ‘prohibition’ (making the coffin) with washing; reworded. She says excluding close relatives would fit the boundary function of washing as a wider pattern, not as a local rule.
+- Not re-checked: Zelenin 1927 § 132 (owner’s PDF, not staged), Barsov 1872 p. 312 (owner’s images), ‘epistolary character of laments’ attributed to Tolstaya in the encyclopedia (not in the summary).
