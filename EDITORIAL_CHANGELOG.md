@@ -247,3 +247,10 @@ Verification: `node build/build.mjs`, `node build/validate.mjs` (errors 0, warni
 - Sergeeva, Gerlit, Krcmar: abstract lines confirmed on the open Jusletter page; publication details added (27 May 2020, IRIS 2020 proceedings). Sample still unknown; the paper’s legal and platform sections were not read.
 - HSE news item (27 March 2025) confirmed; Chelovek article title still unknown.
 - Not re-checked: the 2011 Perm online-memorial lead, the HSE student paper lead, the QR-tag photograph credit.
+
+## Plate G, small fixes and housekeeping (2026-11-16)
+- Iugai: journal, volume, year and date added from the journal’s own page (The Ritual Year 11, No. 1, 16 May 2016); the ‘after 2016, year not shown’ wording removed (EN, RU, register).
+- Barsov vol. 1: contents-page numbers for the first lament (p. 1), the drowned (p. 252), the drunkard (p. 271) and the priest (p. 293), and the introduction’s ‘interpreter of the family’s grief’ at p. II, re-read in the Internet Archive text and found to match; the plate’s OCR note says so and still says that no paper copy was consulted.
+- Fedosova birth year: 1827 (Wikipedia, Petrozavodsk University sources) against 1831 (Great Soviet-type encyclopedias on a dictionary aggregator); the plate’s note, that reference works disagree and that the atlas follows 1827, stands.
+- RU source entry for Tolstaya 2024: a leftover ‘the link must be added’ removed.
+- RESEARCH_SUMMARY.md rewritten to the current state (it still said that nothing had been committed).

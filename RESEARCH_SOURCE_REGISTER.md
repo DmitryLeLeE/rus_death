@@ -11,7 +11,7 @@ Stage 2, 2026-11-16 (updated after the second reading round). One row per entry 
 | grinkova1947 | RELEVANT EXTRACT READ | pp. 178–181 in full; 182–184 skimmed (owner’s PDF, OCR noise) |
 | zelenin1927 | RELEVANT EXTRACT READ | § 132 (pp. 345–349), § 134 (352–355), §§ 156–159 (410–416); rest unread (owner’s PDF) |
 | dronova2024 | FULL TEXT READ | owner’s PDF; pp. 201–204 closely, rest skimmed |
-| iugai-letter | RELEVANT EXTRACT READ | first 6 pages closely; formula analysis and references skimmed; journal and year not on the pages read |
+| iugai-letter | RELEVANT EXTRACT READ | first 6 pages closely; formula analysis and references skimmed; journal, volume and year checked on the journal page (The Ritual Year 11, 2016) |
 | tolstaya2024 | FULL TEXT READ | abstract and sections 1–8 (owner’s PDF); mostly Polesie, comparative |
 | sedakova2020 | RELEVANT EXTRACT READ | Russian-attributed passages only; mainly Bulgarian material, comparative |
 | nikolaev2012 | FULL TEXT READ | owner’s PDF; journal and issue still to add |
@@ -146,7 +146,7 @@ Stage 2, 2026-11-16 (updated after the second reading round). One row per entry 
 | grinkova1947 | article | Grinkova, N. P. | Obriad «vozhdenie rusalki» v sele B. Vereika Voronezhskoi oblasti (The rite ‘leading the rusalka’ in the village of Bolshaya Vereika, Voronezh oblast) | 1947 | U | RELEVANT EXTRACT READ |
 | zelenin1927 | monograph | Zelenin, Dmitry K. | Vostochnoslavianskaia etnografiia (Russian translation of Russische (Ostslavische) Volkskunde, Berlin–Leipzig 1927), transl. K. D. Tsivina | 1991 (German original 1927) | A,B,N,O,S,T | RELEVANT EXTRACT READ |
 | dronova2024 | article | Dronova, T. I. | Tema smerti v kartine mira staroverov-bespopovtsev Ust’-Tsil’my (The theme of death in the world picture of the priestless Old Believers of Ust-Tsilma) | 2024 | T | FULL TEXT READ |
-| iugai-letter | article | Iugai, Elena | “From This Place You Cannot Hear Speech. From This Place You Cannot Receive a Letter”: The Letter-Message in Russian Funeral Lamentations | after 2016 (year not shown in the PDF) | G | RELEVANT EXTRACT READ |
+| iugai-letter | article | Iugai, Elena | “From This Place You Cannot Hear Speech. From This Place You Cannot Receive a Letter”: The Letter-Message in Russian Funeral Lamentations | 2016 (The Ritual Year 11, No. 1) | G | RELEVANT EXTRACT READ |
 | tolstaya2024 | article | Tolstaya, Svetlana M. | The Living and the Dead in Slavic Folk Culture: Modes of Interaction between Two Worlds | 2024 | E,S,T | FULL TEXT READ |
 | sedakova2020 | article | Sedakova, Irina | Unlived Life: The Death and Funeral of a Child in Slavic Traditional Culture | 2020 | T | RELEVANT EXTRACT READ |
 | nikolaev2012 | article | Nikolaev, Oleg R. | Traditsionnye formuly krest'ianskoi kul'tury na slome epokh: «Pokhoronili khorosho» (k voprosu o fotografiiakh pokhoron) | 2012 | I | FULL TEXT READ |
