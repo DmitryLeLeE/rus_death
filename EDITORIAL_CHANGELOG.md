@@ -233,3 +233,9 @@ Verification: `node build/build.mjs`, `node build/validate.mjs` (errors 0, warni
 - Dometian re-read: three reasons for the mirror, tables and chairs, window belief, blessing confirmed. The ‘soul passes into the mirror’ reason is the soul slipping into the world behind it, which he says the devil rules.
 - Ryko 2025 re-read: the prose compared the encyclopedia’s ‘prohibition’ (making the coffin) with washing; reworded. She says excluding close relatives would fit the boundary function of washing as a wider pattern, not as a local rule.
 - Not re-checked: Zelenin 1927 § 132 (owner’s PDF, not staged), Barsov 1872 p. 312 (owner’s images), ‘epistolary character of laments’ attributed to Tolstaya in the encyclopedia (not in the summary).
+
+## Plate W (Materials of abandonment), second pass
+- Krasilnikova interview (Svoboda, 23 January 2023) re-read: Novosibirsk dates (1920, 1929, April 1930), planetarium and 1970s fire, Barnaul, Omsk (2005 memorial square) and the absence of a Novosibirsk memorial confirmed. Corrected: the interview does not itself list four kinds of motive, so the plate now says it groups them, and notes the Barnaul search for valuables which the four groups omit; the Barnaul grave-opening is said to have had a local decree behind it (added); the book title recorded.
+- Minkin (360.ru, 15 October 2019) re-read: curbs, deputy’s photographs, construction department, 2011 case, Tkachenko and ‘Ritual’ statements confirmed.
+- BFM (17 October 2019) re-read in full: steps, not curbs; Frolov’s attribution to Colonel Beketov’s gravestone from the Novospassky Monastery and his 1930s reading confirmed; added that Arkhnadzor preferred to leave the slabs and the city’s heritage department had not decided what to do.
+- Not re-checked: photograph credits and captions (Keret, Klever); the 2015 construction-ministry proposal named in the research leads (no source recorded).
