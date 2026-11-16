@@ -23,8 +23,6 @@
       "layout": "threshold",
       "tone": "dark",
       "sources": [
-        "ivanits1989",
-        "zelenin1916",
         "baiburin1993",
         "rouhier2007",
         "andryunina-house",
@@ -64,7 +62,7 @@
           "kicker": "A / 01",
           "heading": "A room with the window open",
           "paras": [
-            "In the accounts collected by ethnographers in Russian villages from the middle of the nineteenth century onward, death is registered less as an event than as a series of adjustments to a house. Mirrors are covered. Water standing in the house is thrown out or covered. The body is washed and laid on a bench, feet toward the door, men to the right of the entrance and women to the left; the table is a recent habit, chiefly Belarusian, and some Russian Old Believers lay the dead with the feet toward the icons (Zelenin 1991, pp. 347–348). At the moment of death the stove flues or a small window are opened and a piece of linen or a towel is hung out of the window; Zelenin reports three popular readings: the soul wipes itself with it, wipes its tears, or rests on it (p. 346). A stopped clock is often named, but no source read for this edition records it, so it is not asserted.",
+            "In the accounts collected by ethnographers in Russian villages from the middle of the nineteenth century onward, death is registered less as an event than as a series of adjustments to a house. Mirrors are covered, according to the secondary literature. Water that stood in the house at the moment of death is poured out and not drunk, because the dead person might have drunk it (Zelenin 1991, p. 349). The body is washed and laid on a bench, feet toward the door, men to the right of the entrance and women to the left; the table is a recent habit, chiefly Belarusian, and some Russian Old Believers lay the dead with the feet toward the icons (Zelenin 1991, pp. 347–348). At the moment of death the stove flues or a small window are opened and a piece of linen or a towel is hung out of the window; Zelenin reports three popular readings: the soul wipes itself with it, wipes its tears, or rests on it (p. 346). A stopped clock is often named, but no source read for this edition records it, so it is not asserted.",
             "These are the practices most often repeated in the literature, and they are the ones most often flattened into a single ‘Russian custom’. The sources do not support that flattening. They record variants; they record disagreement between villages a day’s walk apart; and they record the informant’s own uncertainty about why a thing was done.",
             "Barsov’s first volume (1872), from the Olonets North, describes the same room with differences. The dead person is laid on straw spread on the bench in the front corner, head toward the icons, with copper coins on the eyes; the house is kept quiet and is either not swept or swept toward the dead, so that others do not die (p. 303). Zelenin’s account above has the feet toward the door, so the two sources disagree on orientation and neither makes a rule. Barsov also says that a piece of linen was hung outside the window, or toward the outer front corner, for forty days after a death, and calls the custom general in Novgorod province; in Korela, when the priest was seen approaching, the window frame was taken out and a patterned towel hung there, because the dead were believed to enter a house through the window, not the door (p. 308). At Chimkinichi a pupil of his saw the frame taken out so that the dead could be carried out through the window, though the usual way out was by the door and the stairs (p. 305)."
           ],
@@ -91,15 +89,14 @@
         {
           "type": "prose",
           "kicker": "A / 02",
-          "heading": "The soul as breath, and as a guest",
+          "heading": "The soul as a guest in the house",
           "paras": [
-            "Russian folk belief, as described by Linda Ivanits and by D. K. Zelenin before her, treats the soul (*dusha*) as a substance closely bound to breath and to the body’s warmth, and simultaneously as a person-like visitor who must be housed, fed and escorted. The same informants use both descriptions in a single account.",
-            "The consequence is a threshold that is both physical and social. The dead remain members of the household for a defined period, are addressed in the second person, and are given food and a place at the table. The border is maintained by small prohibitions rather than by a wall."
+            "Zelenin’s synthesis for the East Slavs (1991, § 132, pp. 345–346) records a vessel of water set beside the dying person and left on the table or the windowsill for forty days. During that time the soul is thought not yet to have gone to the other world, and some say it drinks the water; others say they saw the water stir as if the soul were bathing in it. At the moment of death a cloth or towel is hung out of the window, and the people give three explanations for it (the first section). In Belarus, on the night after the autumn memorial, a towel is hung out and pancakes and kutia are put on the window for the dead (p. 346, citing the archive of the Russian Geographical Society).",
+            "Read together, these acts treat the soul as a person-like visitor who is washed, given water and a cloth, and sent on its way. The reading is Zelenin’s own summary of what people said, not a measurement of one community’s belief. The sources read for this edition do not tie the soul to breath or to bodily warmth, and the plate does not."
           ],
           "level": "interpretation",
           "sources": [
-            "ivanits1989",
-            "zelenin1916"
+            "zelenin1927"
           ]
         },
         {
@@ -107,17 +104,16 @@
           "kicker": "A / 03",
           "heading": "Premonitions, and the problem of the motif",
           "meta": {
-            "Period": "Recorded 19th–early 20th c.",
+            "Period": "Not established in the sources read",
             "Evidence": "Folklore motif; prevalence not established",
             "Tradition": "Folk narrative"
           },
           "paras": [
-            "A dog howling at night, a bird striking the window, a beam groaning in the wall, a double shadow: the folkloric record is full of signs read retrospectively as announcements of a death. Published collections treat them as motifs, not as statistics. No source used here establishes how widely any single sign was believed, and retrospective reading makes such reports structurally unreliable."
+            "Signs of an approaching death (an animal’s behaviour, a knock in the house, an unusual shadow) are a standard topic in folklore handbooks, usually given as examples of a motif. No source read for this edition lists such signs or says how widely any was believed, so the plate names no examples and gives no figure. Reports of this kind are read backwards from the death, which makes them structurally unreliable."
           ],
-          "level": "documented",
-          "sources": [
-            "ivanits1989"
-          ]
+          "level": "unverified",
+          "sources": [],
+          "editorial": true
         },
         {
           "type": "note",
@@ -151,7 +147,7 @@
             "bre-eslavic-funeral"
           ],
           "paras": [
-            "One regional description gives the threshold a length. In Belozersk district, Vologda oblast, informants born between 1898 and 1935 told I. I. Razova that mirrors are covered for forty days; that coins are put on the window of the room where the body lies, then thrown into the grave to ‘buy’ the burial place; and that the door is not bolted for the whole forty days, because the dead are thought to come back until the fortieth day, sometimes as a bird at the window. A laundry beater across the doorway or rowan at the threshold keeps him out. The body lies three days on a bench. Set beside the opened window of the first section, this is the opposite gesture: one practice lets the soul out, the other leaves the way in unbarred and then guards it. Whether these belong to one logic is the atlas’s question, not the informants’. The Great Russian Encyclopedia’s entry on East Slavic funerary rites, read only in extract, takes the other side of the plate’s claim about variants: it calls the rite on the whole uniform and stable, with local differences on the surface. The atlas keeps both statements, and notes that the first is a single district’s account of the 20th century, while the second is a synthesis across a much larger area."
+            "One regional description gives the threshold a length. In Belozersk district, Vologda oblast, informants born between 1898 and 1935 told I. I. Razova that mirrors are covered for forty days; that coins are put on the window of the room where the body lies, then thrown into the grave to ‘buy’ the burial place; and that the door is not bolted for the whole forty days, because the dead are thought to come back until the fortieth day, sometimes as a bird at the window. A laundry beater across the doorway or rowan at the threshold keeps him out. The body is kept in the house for three days. Set beside the opened window of the first section, this is the opposite gesture: one practice lets the soul out, the other leaves the way in unbarred and then guards it. Whether these belong to one logic is the atlas’s question, not the informants’. The Great Russian Encyclopedia’s entry on East Slavic funerary rites, read only through a machine summary of the page, takes the other side of the plate’s claim about variants: it calls the rite on the whole uniform and stable, with local differences on the surface. The atlas keeps both statements, and notes that the first is a single district’s account of the 20th century, while the second is a synthesis across a much larger area."
           ]
         },
         {

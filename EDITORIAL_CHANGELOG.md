@@ -257,3 +257,10 @@ Verification: `node build/build.mjs`, `node build/validate.mjs` (errors 0, warni
 
 ## Image kit from the archive (2026-11-16)
 Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with captions in EN and RU, entries in `data/images.json`, credits regenerated. Licences as stated in the kit; not re-checked on Commons.
+
+## Plate A, second pass (2026-11-16)
+- A/01: “water thrown out or covered” → water that stood in the house at death is poured out, not drunk (Zelenin 1991, p. 349); the mirror custom attributed to the secondary literature.
+- A/02 rewritten as “The soul as a guest in the house” on Zelenin § 132, pp. 345–346 (water vessel for forty days, the three readings of the towel, Belarusian pancakes and kutia). The claim that Ivanits and Zelenin tie the soul to breath and warmth is withdrawn: it is in neither Zelenin’s § 132 (full text layer searched) nor any page read; second person and a place at the table also removed.
+- A/03: level set to unverified, specific signs and the dated period removed; none was found in a source read.
+- A/06: “lies three days on a bench” → “kept in the house for three days” (Razova’s text does not say bench there); BRE entry marked as read through a machine summary.
+- Plate sources: ivanits1989 and zelenin1916 removed from A (no longer cited there).

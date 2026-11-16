@@ -1097,8 +1097,8 @@
       "url": "https://www.booksite.ru/folk/data/razova.pdf",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "Local practice from named informants born 1898–1935 in villages of Belozersk district: mirrors covered for forty days; coins placed on the window and thrown into the grave to ‘buy’ the burial place; the door not bolted for forty days because the dead is believed to return until the fortieth day; the body kept three days on a bench.",
-      "limitation": "No year or journal in the text read; informants’ birth years date the memory to the twentieth century, not the recording. A regional description, not a general rule."
+      "supports": "Local practice from named informants born 1898–1935 in villages of Belozersk district: mirrors covered for forty days; coins placed on the window and thrown into the grave to ‘buy’ the burial place; the door not bolted for forty days because the dead is believed to return until the fortieth day; the body kept in the house three days; a laundry beater across the doorway and rowan at the threshold against the dead’s return.",
+      "limitation": "Re-checked 2026-11-16 in the open PDF (machine summary): title, author and the items above are present; the main informant list runs from 1898 to 1935. The page shows no year or journal. The text says the body is kept in the house three days; it does not say in that passage that it lies on a bench (the bench appears only in a lament heading). Informants’ birth years date the memory to the twentieth century, not the recording. A regional description, not a general rule."
     },
     {
       "id": "bre-eslavic-funeral",
@@ -1112,7 +1112,7 @@
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "The entry’s statement that the East Slavic funeral rite is on the whole uniform and stable, with local variation touching only surface levels, and that it includes cleansing and protective acts (mirrors covered, objects overturned, hands washed after the cemetery) and prohibitions.",
-      "limitation": "Only the search extract was read, not the whole entry; the extract gives no author."
+      "limitation": "Re-checked 2026-11-16 by fetching the page (machine summary): the entry calls the rite uniform and stable, with local differences on the surface; no author, year or volume is shown. The whole entry was not read."
     },
     {
       "id": "martyr-butovo",
