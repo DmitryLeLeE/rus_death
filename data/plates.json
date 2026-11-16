@@ -3320,9 +3320,9 @@
       "nav": "Water, Marsh and River",
       "title": "WATER, MARSH AND RIVER",
       "subtitle": "Where the drowned were remembered, and where the swamp stood between worlds",
-      "dek": "In the sources read for this plate, water is the place of the drowned, and the swamp is a border. A calendar day remembered those who died by water; an essay reads swamps as a threshold. The plate keeps the dated custom and the interpretation apart.",
-      "marginal": "The calendar custom is reported by regions. The swamp essay spans many peoples and is not a Russian survey. The two do not prove each other.",
-      "period": "Customs recorded 19th–20th centuries; essay 2022",
+      "dek": "In the sources read for this plate, water is the place of the drowned, the swamp is a border, and the water’s owner keeps those who drown. A calendar day remembered those who died by water; an essay reads swamps as a threshold; two older writers report what was said of the water spirit. A lament and a song are printed beside them as texts, not as records of a rite. The plate keeps the dated custom and the interpretation apart.",
+      "marginal": "The calendar custom is reported by regions. The swamp essay spans many peoples and is not a Russian survey. The water-spirit passages come from compilers who name no villages. The two texts are one performer’s lament and a literary song. None of them proves another.",
+      "period": "Customs recorded 19th–20th centuries; handbooks 1903 and 1927; essay 2022; lament recorded 1867–1868; song 1883",
       "location": "Vyatka, Smolensk and other provinces (Semik reports); Russia and neighbouring peoples (essay)",
       "tradition": "Eastern Slavic folk custom; comparative mythology",
       "category": "water",
@@ -3418,7 +3418,7 @@
         },
         {
           "type": "prose",
-          "kicker": "O / THE WATER SPIRIT",
+          "kicker": "O / 04 · THE WATER SPIRIT",
           "heading": "The water’s owner and what he did with the drowned",
           "level": "documented",
           "sources": [
@@ -3427,13 +3427,13 @@
           ],
           "paras": [
             "In his handbook of East Slavic ethnography, Dmitry Zelenin devotes § 159 to the *vodyanoi*. He writes that fishermen and millers knew him best, and sometimes offered him sacrifices; that he helped a fisherman and guarded a miller’s dam, but when angry tore nets, drove off fish and flooded hives; and that a person who bathed at noon or at night could be pulled into his kingdom. Rescuing a drowning person was dangerous, since the *vodyanoi* might drown the rescuer, now or later, for taking his victim. The drowned became his workers, and girls became rusalki and often his wives. By the idea common to all East Slavs, he adds, the *vodyanoi* were themselves once ‘pledged’ dead, that is drowned people (1991 edition, p. 416).",
-            "Maksimov’s 1903 book gives the same fear in practical form: bruises and scratches on a body taken from the water showed that the person had been in the spirit’s paws, and a wooden bowl with three wax candles set on the water would stop above the drowned (pp. 77–78, 83–84). Both writers are summarising many local reports, and neither names a village for these items, so they show a belief that scholars of the time considered widespread in northern and central Russia, and not its distribution. The one firm point where they overlap with the Semik material above is that the drowned were a category apart: dead by water, outside the churchyard’s ordinary care."
+            "Maksimov’s 1903 book gives the same fear in practical form: bruises and scratches on a body taken from the water showed that the person had been in the spirit’s paws, and a wooden cup with three wax candles fixed to its rim, set on the water, would sink and stop over the place where the drowned lay (pp. 77–78, 83–84). Both writers are summarising many local reports, and neither names a village for these items, so they show a belief that scholars of the time considered widespread in northern and central Russia, and not its distribution. The one firm point where they overlap with the Semik material above is that the drowned were a category apart: dead by water, outside the churchyard’s ordinary care."
           ]
         },
         {
           "type": "register",
-          "kicker": "O / 04",
-          "heading": "Water in three kinds of source",
+          "kicker": "O / 05",
+          "heading": "Water, source by source",
           "colhead": [
             "Source",
             "Kind of evidence",
@@ -3454,13 +3454,37 @@
               "Zelenin, 1916 (chapter 4 on Semik, read in the 1995 reprint)",
               "Compilation citing named local reports (Dobrovolsky, Veshchomov, Glushkov, Georgievsky)",
               "That Semik commemoration of the drowned and the unidentified is recorded for Smolensk and, at poor-house sites, for Vyatka; and that the dead of ‘unnatural’ death were given a place in waters, bogs and thickets"
+            ],
+            [
+              "Zelenin, 1927 (§ 159, 1991 translation, p. 416)",
+              "Handbook synthesis by one compiler; no villages named",
+              "That the water’s owner is described as taking those who bathe at the wrong time, keeping the drowned as workers, and that the opinion is reported that he was himself a drowned ‘pledged’ person; not the distribution of any belief"
+            ],
+            [
+              "Maksimov, 1903 (read by keyword)",
+              "A collector’s book; no place or informant for these items",
+              "That bruises on a drowned body were read as the spirit’s grip and that a floating cup with candles was said to find the body; not where, or how widely"
+            ],
+            [
+              "Barsov, 1872: lament for the drowned (excerpt)",
+              "One performer’s lament, Olonets province, recorded 1867–1868",
+              "How one lament describes death without confession or burial after a drowning on Lake Onega; not a general practice"
+            ],
+            [
+              "Sadovnikov, 1883: song",
+              "A literary song that became a folk song",
+              "That the river appears as a grave in a song; it is not a record of any funeral"
             ]
           ],
           "level": "documented",
           "sources": [
             "bre-semik",
             "lavrenova2022",
-            "zelenin1916"
+            "zelenin1916",
+            "zelenin1927",
+            "maksimov1903",
+            "barsov1872",
+            "sadovnikov-volga"
           ]
         },
         {
@@ -3470,8 +3494,9 @@
           "level": "interpretation",
           "items": [
             "It does not say that all Russians feared swimming or buried the drowned in a particular way. The sources used give isolated regional customs.",
-            "The Zelenin chapter on Semik was read through a summary of an online copy, and the authorities he cites were not seen. The statement about the afterlife in waters and thickets is general and not tied here to a village.",
-            "Mermaids (rusalki) and the swamp spirits of folklore are not treated as the drowned themselves. That link belongs to plate T, *The Unquiet Dead*."
+            "The Zelenin chapter on Semik was read through a summary of an online copy, and the authorities he cites were not seen. The statement about the afterlife in waters and thickets is general and not tied here to a village. Maksimov was read by keyword search, not in full.",
+            "The water spirit, rusalki and swamp spirits are not treated here as the drowned themselves. Some sources do report that link as an opinion: Zelenin (1927) gives the East Slavic view that the vodyanoi were once drowned ‘pledged’ dead and that drowned girls became rusalki, and Lavrenova cites kikimoras described as girls drowned in a swamp. The plate passes these on as the sources’ statements and does not decide them; that question belongs to plate T, *The Unquiet Dead*.",
+            "The lament and the song printed below are texts. The lament is one performer’s, in one province; the song is a literary poem of 1883 that became a folk song. Neither is evidence for a rite, and the song’s ‘princess’ is a literary figure."
           ],
           "editorial": true
         },
