@@ -149,3 +149,6 @@ Verification: `node build/build.mjs`, `node build/validate.mjs` (errors 0, warni
 
 ## Plate M (Empty house), second pass — started
 - Dek and marginal note rewritten in EN and RU (“less than the title suggests” removed; “villages where no one lives” corrected to “villages with no registered residents”, which is what the census counts). Rest of M not yet re-checked; moroz2019 and zhigaltsova2018 still lack journal, volume and pages.
+- M: moroz2019 reference completed from the HSE repository copy (DOI 10.31168/2658-3356.2019.15, starts p. 247; volume/issue still not established). Its three cases, the matitsa detail and the “spread unknown” statement re-confirmed.
+- M: zhigaltsova2018 not completed. A search found a Zhigaltsova article on the same settlement (Komsomolsky, Velsk district) in SENTENTIA 2020, no. 3, pp. 28–42, which may be a different paper; the 2018 Izvestiya Komi NTs reference on the plate was not re-verified.
+- M (correction of the line above): zhigaltsova2018 re-checked on the page itself: Izvestiia Komi NTs UrO RAN, 2018, issue 1 (33), pp. 113–117 (the SENTENTIA 2020 paper is a different article). The plate mixed emotion categories: school 28.1%, abandoned houses 15.6% and hospital 12.5% are “pity”; the dump 21% is “shame”; the claim that abandoned houses led the shame list was not supported and was removed (EN and RU).

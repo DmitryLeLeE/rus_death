@@ -1413,12 +1413,12 @@
       "author": "Moroz, Andrei B.",
       "title": "Molitva v broshennom dome: novye apotropeicheskie praktiki?",
       "year": "2019",
-      "publisher": "Kul'tura slavian i kul'tura evreev: dialog, skhodstva, razlichiia (open-access text on CyberLeninka)",
+      "publisher": "Kul'tura slavian i kul'tura evreev: dialog, skhodstva, razlichiia (yearbook; DOI 10.31168/2658-3356.2019.15; begins on p. 247; volume and issue not established)",
       "url": "https://cyberleninka.ru/article/n/molitva-v-broshennom-dome-novye-apotropeicheskie-praktiki",
       "accessed": "2026-11-16",
       "language": "Russian",
       "supports": "Three field cases (Arkhangelsk 2015, Bryansk 2016, Arkhangelsk 2017) of protective texts left in houses being abandoned; the author’s hypothesis of a new practice linked to migration.",
-      "limitation": "Full text read in the built-in browser; volume and page numbers not shown on the page, so the reference is incomplete. Three cases plus a few interviews, no counts; the author says himself that the spread of the practice is unknown. The first text was not seen. Prayer texts quoted in the article are not reproduced here."
+      "limitation": "Full text read in the built-in browser; on 2026-11-16 the HSE repository copy was re-checked (three cases, matitsa, new practice with unknown spread confirmed; DOI and starting page 247 taken from it; volume and issue still not shown, year from the DOI). Three cases plus a few interviews, no counts; the author says himself that the spread of the practice is unknown. The first text was not seen. Prayer texts quoted in the article are not reproduced here."
     },
     {
       "id": "yankovskaya2021",
@@ -1470,7 +1470,7 @@
       "accessed": "2026-11-16",
       "language": "Russian",
       "supports": "Residents’ emotional map of a declining logging settlement; mentions of the cemetery and abandoned graves.",
-      "limitation": "Abstract and the passages mentioning the cemetery read in the built-in browser; the article was not read line by line. Issue and pages not shown. 32 questionnaires and 10 interviews, one settlement; a psychology study, not about beliefs."
+      "limitation": "Abstract and the passages mentioning the cemetery read in the built-in browser; re-checked on 2026-11-16 through a web-fetch summary of the page (machine summary): Izvestiia Komi nauchnogo tsentra UrO RAN, 2018, issue 1 (33), pp. 113–117, no DOI shown; 40 surveyed, 32 kept by age, 10 interviewees aged 50–80. 32 questionnaires and 10 interviews, one settlement; a psychology study, not about beliefs. The percentages belong to different emotion categories (pity: school 28.1%, abandoned houses 15.6%, hospital 12.5%; shame: dump 21%); an earlier version of the plate mixed them."
     },
     {
       "id": "balabeikina2023",
