@@ -277,3 +277,8 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 - D/04: the “richer household kutya with raisins or nuts” statement withdrawn (not in any passage read); sources reduced to Skrizhal and Zelenin.
 - D/05: grain for birds reads as Zelenin’s tentative link and his remark that it is now done mainly for the ‘unclean’ dead; Barsov’s bread lies on the cloth, not on the spoon (p. 307).
 - Plate sources: ivanits1989, zelenin1916, tolstoy1995 removed from D.
+
+## Plate F, second pass (2026-11-16)
+- Tobolsk section (F/11) re-checked against the open article (all dates and counts confirmed); no text change.
+- Suvorov inscription: the source page now records that it does not mention Derzhavin or a later slab replacement; the verse file’s context sentences on both were left untouched and are listed in FACTCHECK_LOG §14 for the owner.
+- Plate sources: tolstoy1995 removed from F (not cited there).

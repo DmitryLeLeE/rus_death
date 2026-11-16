@@ -845,7 +845,7 @@
   },
   "suvorov-epitaph": {
     "supports": "The three-word inscription, printed in Plate F as a gravestone text.",
-    "limitation": "A short inscription, not a literary poem. The attribution to Derzhavin rests on an anecdote in the commentary to Gnedich’s poem. Текст проверялся в пакете текстов владельца проекта (TEXTUAL_ADDITIONS); в этом издании источник заново не читался.",
+    "limitation": "A short inscription, not a literary poem. The attribution to Derzhavin rests on an anecdote in the commentary to Gnedich’s poem. Текст проверялся в пакете текстов владельца проекта (TEXTUAL_ADDITIONS); в этом издании источник заново не читался. Страница перечитана 2026-11-16 (машинная выжимка): она приводит три слова и говорит, что краткость следует завещанию Суворова; Державин и позднейшая замена плиты на ней не упомянуты.",
     "publisher": "Благовещенская церковь, Александро-Невская лавра, Санкт-Петербург",
     "extent": "одно предложение"
   },
