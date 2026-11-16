@@ -500,8 +500,8 @@
       "url": "https://azbyka.ru/palomnik/%D0%9F%D0%B5%D1%89%D0%B5%D1%80%D1%8B_%D0%9F%D1%81%D0%BA%D0%BE%D0%B2%D0%BE-%D0%9F%D0%B5%D1%87%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8F",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "The near caves serve as the monastery cemetery; the caves were first used only to bury monks; the total number of burials is given as about ten thousand.",
-      "limitation": "A devotional pilgrim reference with no archive, register or author named for the figure. Read in a search excerpt, not in full. The figure is a reported total, not a count."
+      "supports": "The far caves called the monastery cemetery; the caves first used only to bury monks, with laypeople later (the first recorded in 1528; monks in the fifth and sixth of seven galleries); the total number of burials given as about ten thousand.",
+      "limitation": "A devotional pilgrim reference with no archive, register or author named for the figure. Re-read on 2026-11-16 through a web-fetch summary of the full page (machine summary): ‘monastery cemetery’ is said of the far caves, not the near caves (which the page describes as short P-shaped passages with the relics of four saints); the 10,000 figure is for the whole burial complex. The figure is a reported total, not a count."
     },
     {
       "id": "anokhin2023",
@@ -516,7 +516,7 @@
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "A popular account of the 2023 muon survey of two blind ends in the Pskov-Caves Monastery: a hidden passage about 12 m long behind a walled crypt, a continuation of Trinity Street beyond the barrier, and an unknown cavity of roughly 3 × 6 × 3 m. Seven accessible underground streets over 200 m in all; more than 10,000 burials reported. Legends of tunnels to Izborsk presented as unverified folklore.",
-      "limitation": "A newspaper feature, not the scientific paper. The dimensions are given as reported by the team to the journalist. The burial figure is attributed to ‘reports’ and no register is cited."
+      "limitation": "A newspaper feature, not the scientific paper. Re-read on 2026-11-16 through a web-fetch summary (machine summary): author Dmitry Anokhin; the team is led by Natalya Polukhina (no patronymic given); the dimensions are given as reported by the team; the over 10,000 burials are stated without a register; nuclear emulsions are mentioned only in a sidebar; the Izborsk tunnel account (about 15 km) is attributed to Metropolitan Tikhon, head of the monastery, and presented as legends."
     },
     {
       "id": "alexandrov2023",
@@ -536,7 +536,7 @@
     {
       "id": "dp2024",
       "kind": "web",
-      "author": "dp.ru (Delovoi Peterburg), author not shown in the excerpt",
+      "author": "Kuzmitsky, Vadim (Delovoi Peterburg)",
       "title": "Православная Европа: как продвигается реставрация Псково–Печерского монастыря",
       "title_en": "Orthodox Europe: how the restoration of the Pskov-Caves Monastery is going",
       "year": "2024",
@@ -545,8 +545,8 @@
       "url": "https://www.dp.ru/a/2024/07/18/pravoslavnaja-evropa-kak-prodvigaetsja",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "That a legend runs the caves from Pechory to Izborsk, about 20 km, and that the caves were used for mass burials.",
-      "limitation": "A business newspaper, read in an excerpt. It gives about 20 km for the legend where the Rosatom feature says about 15 km, so the distance is not settled by either. The legend itself is not evidence of a tunnel."
+      "supports": "That a local legend runs the caves from Pechory to Izborsk, about 20 km; that the caves were used for mass burials; that the head of a restoration firm reports 486 keramidy (tomb-closing slabs) found, the earliest from the 15th century.",
+      "limitation": "A business newspaper, re-read on 2026-11-16 through a web-fetch summary of the first 100,000 characters of the page (machine summary). It gives about 20 km for the legend where the Rosatom feature says about 15 km, so the distance is not settled by either. The legend is not evidence of a tunnel. The 486 is a count of slabs, quoted from a firm’s head, not of burials."
     },
     {
       "id": "rouhier2007",
@@ -861,7 +861,7 @@
       "accessed": "2026-11-15",
       "language": "English",
       "supports": "Method and results of the 2023 muon survey: 13 nuclear-emulsion detectors (two in the Assumption Church attic for background, eleven underground), exposed 112 days; two objects. A crypt behind a large icon at the cave entrance, about 2.5 × 2.5 m, with a corridor 1–3 m wide and up to 12 m long perpendicular to Main Street; a cavity at Trinity Street about 2 m high and roughly 3 × 6 m, at 77–79 m altitude, and the street continuing along its direction. No formal error margins; dimensions are rough estimates. The paper gives no number of burials and says only that the caves were used as a necropolis from the monastery's founding.",
-      "limitation": "An earlier, non-peer-reviewed version of the journal paper (the published title differs). Read through a summary of the preprint page, not line by line; the figures themselves were not inspected."
+      "limitation": "An earlier, non-peer-reviewed version of the journal paper (the published title differs). Read through a summary of the preprint page, not line by line; the figures themselves were not inspected. Re-read on 2026-11-16 through a web-fetch summary of the preprint page: 13 detectors, 112 days, crypt about 2.5 × 2.5 m, corridor 1–3 m by up to 12 m, cavity about 2 m high and about 3 × 6 m, altitude 77–79 m, no formal uncertainties, no count of burials, seven galleries over 200 m at depths of 3–15 m; confirmed."
     },
     {
       "id": "azbyka-radonitsa2024",
