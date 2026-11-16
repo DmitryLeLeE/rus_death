@@ -62,3 +62,74 @@ Claims with a recorded status: not counted, because this pass did not assign a s
 ## 7. Plate F, unsourced sections (2026-11-15)
 - F / "The roof over the cross" (golubets): the claim that it is "one of the most distinctive grave forms recorded in the Russian North and in old cemeteries elsewhere" had no source. Result: INCORRECTLY STATED AS FACT, now removed. Rewritten to what a popular article supports (the form can still be seen in Russian cemeteries; the word also named a box beside the stove), with the limitation stated in the text. Source added: rambler-golubtsy (unsigned popular article; its pagan-origin claims not used). Section stays INTERPRETATION.
 - F / "Portraits on stone": left unsourced on purpose; it only states that no scholarly source for the chronology was found.
+
+## 8. Stage 2, pass 1 (2026-11-16): plate G
+
+- REJECTED: the six-station “score” of a lament presented “after Barsov’s volumes”. It was not read from Barsov; relabelled as the atlas’s own working schema (EN and RU).
+- REJECTED: “the same formulas recur across different deaths” attributed to Barsov’s volumes; replaced by the statement from Kuznetsova and Kovyrshina that laments have no fixed text and are built from a shared stock of formulas (Vyrozero).
+- QUALIFIED: second-person / present-tense claim (G/03) marked unverified until lament texts are read; the rhetorical closing sentence removed.
+- CORRECTED: Barsov source URL (was an Open Library search page) now the Internet Archive item. Source limitation rewritten with the actual extent read.
+- ADDED: Fedosova’s district of birth, later residence and the dates of her melody recordings (Kuznetsova and Kovyrshina); the 1,074-line figure belongs to a wedding lament and is flagged as such.
+
+## 9. Stage 2, pass 1 (2026-11-16): plates A and B against Zelenin 1927/1991, §132, pp. 345–349
+
+- REJECTED (B/0): washers “commonly older women from outside the family, paid in soap, towels or money”. Not in the passage read; withdrawn pending a source. Table row “Soap and towel — payment to the washer” replaced.
+- REJECTED (B/2): “coffin placed so that the dead faced the icons”. Zelenin has the dead laid on a bench with feet toward the door (men right, women left); some Russian Old Believers lay them feet to the icons.
+- CORRECTED (A/0): “laid on a table under the icons, head toward them”. Table is a recent habit, chiefly Belarusian (Zelenin, p. 348).
+- REJECTED (B/3): “the sawn coffin became increasingly a purchased object”. No evidence in the passage; no source read for plate B has prices, workshop records or catalogues.
+- CONFIRMED in part (A/4): feet-first carrying out, now with the groups and localities Zelenin names (northern Russians; Olonets province by the window, citing Barsov I, p. 306). Age and wider distribution still unverified.
+- NEW CAUTION: Zelenin’s synthesis mixes Russian, Ukrainian and Belarusian details; the atlas text names the group per detail and calls the Ukrainian and Belarusian items comparisons.
+
+## 10. Stage 2, pass 1 (2026-11-16): plates S and N against Zelenin 1927/1991, §§ 156–158, pp. 410–416
+
+- ADDED (S): domovoi’s dwelling places, appearance, animal forms, two origin legends (fallen angels; unrepentant dead man), and Zelenin’s reading (ancestor cult plus hearth cult, ancestors stronger). Collector citations are as Zelenin gives them (archive of the Russian Geographical Society by volume and number; Zavoiko p. 105).
+- CONTESTED (S): kikimora. Zelenin derives it from *mara* (nightmare spirit) as a name for the malicious domovoi; the Ansimova–Golubkova article cited on the plate derives it from unbaptised infants. Both shown as scholars’ derivations.
+- ADDED (N): the leshii in the northern forest tradition (forest tsar, complaint on paper, egg or rye biscuit at a crossroads, remedies). The year in which the OCR places Kharuzin’s observation is unreliable and is not used.
+- NOTE (N, T): Zelenin both says that modern belief takes the leshii and vodianoi for *zalozhnye* dead (p. 410) and that the view that leshie descend from them is not new (p. 415). This is relevant to plate T’s account of Zelenin’s category and is not yet reconciled there.
+
+## 11. Stage 2, pass 1 (2026-11-16): plate T against Zelenin 1927/1991 § 134 and Dronova 2024
+
+- ADDED: Zelenin 1927 on the *zalozhnye* and “the anger of the earth”, with the dates he cites (Abramka chronicle 1159; Serapion of Vladimir d. 1274; Maxim the Greek 1506; plague pits from 1215; *ubogii dom* from the 16th to the late 18th century; decree of 1771; last trial known to him 1913, Saratov province). All second-hand: chronicles and trial records not seen.
+- DISCREPANCY LEFT OPEN: plate T’s first section derives *zalozhnye* from Vyatka dialect (account of Zelenin’s 1916 text as read through Ovseichik); Zelenin 1927 attributes the name to northern Russians generally. The plate says so and does not reconcile them.
+- ADDED: Dronova 2024 (Ust-Tsilma Old Believers): the community’s lists of clean and unclean dead, its terms for unnatural death (*zalozhnyi* absent from the text read), burial of suicides outside the village until the 1970s, the 40-day watch on an unbaptised child’s grave mound. One district, one researcher, anonymous informants; a literate community that reads church rules, so the list is an insider’s judgment.
+- NOTE: Zelenin’s “undoubtedly pagan” reading of burial without a grave is carried as his interpretation, opposed on the plate by Avdeev (abstract only).
+
+## 12. Stage 2, pass 1 (2026-11-16): plate G, Iugai
+
+- CONFIRMED: Barsov’s informants (Fedosova, Bogdanova, Pashkova) were not ordinary lament-singers and the Olonets laments are not representative of Russian laments (Iugai, p. 166). This strengthens the plate’s earlier caution about Fedosova’s single voice.
+- ADDED: occasions of laments on the funeral day and at commemorations in eastern Vologda (pp. 167–169), described by the author from collections of 1980 and 2011; one region only.
+- INCOMPLETE: journal and year of the Iugai article are not in the PDF; the source entry has no URL and is marked incomplete.
+
+## §13 Plates T (Sedakova) and I (Nikolaev)
+- T: Sedakova pp. 48, 56, 58, 61–62 re-read against the text; the three Russian items are second-hand and labelled so.
+- I: Nikolaev pp. 358–370 read in full; page numbers checked against the running heads; the Memorial affiliation is from the article’s footnote on p. 358.
+
+## §14 Plate U (Dynin)
+- Dynin read pp. 111–118; page numbers inferred from running heads; verse and footnote sources not checked.
+
+## §15 Plate T (Tolstaya §§5–8, Maksimov)
+- Tolstaya §§5–8 read in full. Maksimov: page for the smothered-children item corrected from p. 8 to pp. 20–21 after checking the page markers; pagination is that of the online copy.
+
+## §16 Plate M (Moroz, browser)
+- Read in full in the built-in browser from CyberLeninka. In the 2015 case the author did not see the sheets the informant described but saw two other prayer sheets on a bench; the text says so. Pages and volume absent.
+
+## §17 Browser search, 2026-11-16
+- Plate V: three CyberLeninka queries on mirror-covering returned no relevant Russian source. Plate X: the one article opened was a philosophical thesis, not used. The other candidates are listed in RESEARCH_GAPS.md without being read.
+
+## §18 Plates I, M, Q (browser reading)
+- Read in the built-in browser: Yakubov 2009 (full), Koroleva et al. 2015 (abstract, introduction, Ust-Pyshya section with notes), Zhigaltsova 2018 (abstract and cemetery passages), Balabeikina et al. 2023 (to the tourism section), Fenomen bessmertiia 2016 (abstract only, not used), Shishkina 2025 (cemetery passages only, not used). The 294-residents claim in Yakubov is not used.
+
+## Plate J, second pass
+- Perov description against the image: INCORRECT in five details; rewritten. Inventory data: CORRECT.
+- Malevich: white cube INCORRECT/unsupported; the “cross” statement CONTESTED between two sources; cremation place differs between two newspapers.
+- Novaya Gazeta, MK and Stedelijk were read through web-fetch summaries (MACHINE SUMMARY ONLY), with the Tretyakov record and Svoboda at SEARCH EXCERPT level. No archive source was reached for the funeral.
+
+## Plate K, second pass
+- Moskovskaia pravda “Ognennoe pogrebenie”: link dead (unrelated page returned); statements re-sourced. INCORRECT attribution fixed.
+- Pull-quote attribution “Merridale and Etkind”: INCORRECT (neither read, Etkind not a plate source); replaced.
+- Timeline t1935 “white cube”: INCORRECT; fixed.
+- Opening dates of the crematorium: differ by a day between sources; both shown.
+
+## Plate L, second pass
+- Six rows of the Moscow cemetery register checked against the AiF article: 4 correct, 2 imprecise (Dorogomilovskoe, Bratskoe), corrected.
+- Malevich row: aligned with J. Grave-portrait “abundant” claim: unsupported, removed.

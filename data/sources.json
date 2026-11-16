@@ -54,11 +54,11 @@
       "year": "1872–1886",
       "publisher": "Moscow",
       "extent": "3 volumes",
-      "url": "https://openlibrary.org/search?q=Prichitaniia+Severnogo+kraia",
+      "url": "https://archive.org/details/prichitaniasieve00bars",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "The foundational collection of Russian funeral laments, recorded in the Olonets region; the performer/repertoire model of lament.",
-      "limitation": "No text is quoted in this atlas; the collection was used for its structure and circumstances of recording, not for verbatim citation."
+      "supports": "The foundational collection of Russian funeral laments, recorded in the Olonets region: the arrangement of laments by kinship of the dead, the role of the professional lamenter (voplenitsa), the performance occasions.",
+      "limitation": "Volume 1 (1872) read through the Internet Archive OCR text: contents page and introduction pp. I–III and the plate-G passages cited. Reading status: RELEVANT EXTRACT READ; volumes 2–3 and the lament texts themselves not read. OCR is uncollated; page numbers for the contents come from the OCR and may be off. No lament verse is printed in the atlas."
     },
     {
       "id": "baiburin1993",
@@ -95,13 +95,13 @@
       "author": "Veniamin (Krasnopevkov-Rumovskii), Archbishop",
       "title": "Novaia Skrizhal’",
       "title_en": "The New Tablet",
-      "year": "1803 (text consulted in a modern online edition)",
+      "year": "1803 (read in a modern online edition)",
       "publisher": "Online edition at azbyka.ru",
       "url": "https://azbyka.ru/otechnik/veniamin_krasnopevkov_rumovskij/novaja-skrizhal/4_23_3",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "The theological rationale for commemoration on the third, ninth and fortieth days; the distinction between the Church’s explanation and popular elaboration.",
-      "limitation": "A nineteenth-century handbook; it describes the normative rite, not actual household practice."
+      "supports": "Ch. XXIII § 2: the reasons for commemoration on the third, ninth and fortieth days (Neophyte of Rhodes, Simeon of Thessalonica, the handbook’s own); the body-decay explanation it sets aside; § 3 on kutia; ch. XX § 15 on wailing at funerals.",
+      "limitation": "Read in the azbyka.ru online edition: ch. XXIII §§ 2–3 (§ 3 to its first lines) and ch. XX § 15; the rest of the book not read. An early nineteenth-century handbook for clergy and laity: it describes the normative rite and quotes earlier authorities, not household practice. The first publication year is as given in the earlier register."
     },
     {
       "id": "shevzov2003",
@@ -141,7 +141,7 @@
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "The founding of Vagankovo in 1771 for victims of plague; the role of Grigorii Orlov’s commission; the burial of unnamed Muscovites.",
-      "limitation": "A municipal historical note, not a peer-reviewed study. Figures are not given beyond ‘thousands’."
+      "limitation": "A municipal historical note, not a peer-reviewed study. Figures are not given beyond ‘thousands’. The PDF could not be re-fetched on 2026-11-16 (not on the session allowlist); the support line is from the earlier reading."
     },
     {
       "id": "mos-ru-unknown",
@@ -220,7 +220,7 @@
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "Title, date, dimensions (45.3 × 57 cm), inventory number (inv. 5248), provenance (Rumiantsev Museum, Soldatenkov collection), and the connection drawn to Nekrasov’s poem.",
-      "limitation": "A museum collection note."
+      "limitation": "A museum collection note, read through a search excerpt of the page (inventory number, size, provenance and the sentence on Nekrasov’s poem are in that excerpt); the plate’s description of the picture is from the painting itself."
     },
     {
       "id": "mospravda-crematorium",
@@ -233,8 +233,8 @@
       "url": "https://mospravda.ru/2017/01/11/23998/",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "The 1925 decision, the church of St Seraphim of Sarov and St Anna of Kashin as the site, the German furnace, the first cremation on 12 January 1927 and the official opening on 6 October 1927.",
-      "limitation": "A newspaper feature; details such as the furnace supplier should be checked against archival sources."
+      "supports": "Nothing is currently supported by this entry.",
+      "limitation": "DEAD LINK. On 2026-11-16 the URL returned an unrelated article (a 2025 concert notice), so the statements formerly attributed to it (1925 Moscow Soviet decision, 12 January 1927, German furnace) were not verified here and were re-sourced on plate K. Kept for the record only."
     },
     {
       "id": "mk-malevich",
@@ -247,8 +247,8 @@
       "url": "https://www.mk.ru/culture/2023/10/21/na-vystavke-v-moskve-pokazali-put-malevicha-manifest-i-mesta-sily.html",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "The burial near Nemchinovka under an oak, the white cube with a black square, the loss of the grave and the disappearance of the cube.",
-      "limitation": "A newspaper feature, not a scholarly account of the grave."
+      "supports": "That the artist was buried under a lone oak in the ‘Romashkovo field’; that the cube is described as in the form of a black square, a replacement cube of 1988 having a red square; that the oak was felled to sow the field, the grave was lost and the cube vanished.",
+      "limitation": "A newspaper feature, not a scholarly account of the grave. It places the cremation at the Danilov Monastery, which differs from Novaya Gazeta (Donskoy crematorium); the plate follows the latter. Read through a web-fetch summary of the page (machine summary)."
     },
     {
       "id": "yurchak2006",
@@ -426,7 +426,7 @@
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "The crossroads (rosstan) as the usual place to see off travellers and wait for returning kin, a custom of parting at the village edge; the author’s reconstruction that burial at crossroads goes back to ancestor cults and was later applied to those who died ‘unnaturally’.",
-      "limitation": "Parting and funeral practice are secondary to the article’s subject, fate, and are treated briefly. The reconstruction rests on fragmentary, often 19th-century records and on the idea of survivals, so much of it is hypothesis. The material is mostly North Russian (Karelia, Onega region, Vologda, Kostroma), with thin Ukrainian and Belarusian evidence, and it gives no figures on how widespread any practice was."
+      "limitation": "Parting and funeral practice are secondary to the article’s subject, fate, and are treated briefly. The reconstruction rests on fragmentary, often 19th-century records and on the idea of survivals, so much of it is hypothesis. The material is mostly North Russian (Karelia, Onega region, Vologda, Kostroma), with thin Ukrainian and Belarusian evidence, and it gives no figures on how widespread any practice was. Stage 2: the burial passage, the Primary Chronicle quotation and notes 45–49 were re-read in the owner’s PDF; the rest of the article was not read line by line."
     },
     {
       "id": "matlin2021",
@@ -1004,7 +1004,7 @@
       "accessed": "2026-11-15",
       "language": "Russian",
       "supports": "A newspaper list of Moscow cemeteries liquidated in the 20th century, with the year of the decision, what stands on the site now and, for some, whether graves were moved (Dorogomilovskoe, Simonov Monastery, Lazarevskoe, Mazilovskoe, Bratskoe and others).",
-      "limitation": "Journalism. No archive or file is cited for any decision or date; relocation is stated only for some entries and left unstated for others, which does not mean nothing was moved."
+      "limitation": "Journalism, read in full through a web-fetch summary (machine summary) on 2026-11-16: the six rows on plate L match it. No archive or file is cited for any decision or date; relocation is stated for some entries and left unstated for others, which does not mean nothing was moved. ‘Now’ descriptions are as of 2013."
     },
     {
       "id": "sokolova2020",
@@ -1057,8 +1057,8 @@
       "url": "https://novayagazeta.ru/articles/2015/12/01/66617-kazimir-malevich-sensatsii-2015-goda",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "Account of the Leningrad funeral of 1935 (Suprematist coffin, a truck with a black square on the radiator along Nevsky Prospect, a rail car to Moscow, cremation at the Donskoy crematorium) and of the burial of the urn at Nemchinovka on 21 May 1935 under an oak, with a wooden cube by Suetin bearing a black square.",
-      "limitation": "A science correspondent’s article in a newspaper; no archive is cited for the funeral details, and the claim that Malevich asked for a cross-shaped coffin is the article’s own statement."
+      "supports": "Account of the Leningrad funeral of 1935 (Suprematist coffin, a truck with a black square on the radiator along Nevsky Prospect, a rail car to Moscow, cremation at the Donskoy crematorium) and of the burial of the urn at Nemchinovka on 21 May 1935 under an oak, with a wooden cube by Suetin bearing a black square. Also the later history as the article tells it: name banned from 1937, oak felled in 1941, in 1944 only the stump and the brick base found, field ploughed in the 1950s, location claimed to be confirmed by ground-penetrating radar in 2015.",
+      "limitation": "A science correspondent’s article in a newspaper; no archive is cited for the funeral details. The cross-shaped coffin, the loss of the markers and the radar confirmation are the article’s own statements (its authors belong to the group that searched for the grave). Read through a web-fetch summary (machine summary), with quotations checked against it, not against the full page."
     },
     {
       "id": "thyssen-suetin",
@@ -1083,8 +1083,8 @@
       "url": "https://stedelijkstudies.com/to-become-an-abstraction-malevich",
       "accessed": "2026-11-15",
       "language": "English",
-      "supports": "That Malevich died on 15 May 1935; that photographs show his body in an architecton-shaped coffin among his works, and a family photograph beside a cubic gravestone marked with the black square at Nemchinovka (1935); and that Malevich did not design the coffin, a legend the page says is not entirely without foundation.",
-      "limitation": "A research log by a museum journal; only the opening was read."
+      "supports": "That Malevich died on 15 May 1935; that photographs show his body in an architecton-shaped coffin among his works, and a family photograph beside a cubic gravestone with the black square at Nemchinovka (1935); that the pupils Rozhdestvensky and Suetin designed the coffin (green, black and white, a red circle at the feet, a black square at the head, the cross left out so as to avoid religious reference), Malevich not having designed it himself, a belief the log calls a legend with some basis; the cube made by Suetin, and the burial on 21 May.",
+      "limitation": "A research log by Katerina Sidorova (Stedelijk Museum). It gives no citation for the funeral paragraph; its reference list includes Buksha (2013) and it refers to the Khardzhiev archive in general terms. Read through a web-fetch summary (machine summary), not the page in full."
     },
     {
       "id": "razova-belozersk",
@@ -1257,15 +1257,15 @@
       "id": "rozanov-moscow-cemeteries",
       "kind": "reference",
       "author": "N. P. Rozanov",
-      "title": "О московских городских кладбищах",
+      "title": "O moskovskikh gorodskikh kladbishchakh",
       "title_en": "On Moscow city cemeteries",
-      "year": "nineteenth century (edition not established here)",
-      "publisher": "Online edition, azbyka.ru",
+      "year": "1868 (offprint from the June issue of Dushepoleznoe chtenie, 1868; censor’s permission dated 8 June 1868)",
+      "publisher": "Moscow, Universitetskaia tipografiia (Katkov i Ko.), 16 pp.; read from the project owner’s scan (DjVu, 16 pages) by OCR, and earlier through azbyka.ru",
       "url": "https://www.azbyka.ru/otechnik/Nikolaj-Pavlovich-Rozanov/o-moskovskih-gorodskih-kladbishhah/",
       "accessed": "2026-11-15",
       "language": "Russian",
-      "supports": "A decree of 12 April 1722 ordering tombstones lowered to ground level; a decree of 10 October 1723 on burial in towns.",
-      "limitation": "Only a search snippet of the relevant passage was read; the full text was not read here."
+      "supports": "A decree of 12 April 1722 on lowering tombstones to ground level; the decree of 10 October 1723 (burial at churches only for ‘notable persons’, the rest outside the town; not carried out after Peter’s death in January 1725); Senate decrees of 24 March and 1 November 1771; the new cemeteries Dorogomilovskoe, Vagankovskoe, Miusskoe and Pyatnitskoe; the church at Vagankovo consecrated 1772.",
+      "limitation": "FULL TEXT READ in OCR of the owner’s scan (old orthography, OCR errors such as ‘1774’ for 24 March 1771). A short popular-historical booklet for the church press, not an archival edition; its decree dates and lists were taken from consistory files that were not seen here. Read closely: pp. 1–6 on the decrees of 1722–23 and 1771–72; the later pages (lists of cemetery churches, 19th-century building) skimmed."
     },
     {
       "id": "rambler-golubtsy",
@@ -1280,6 +1280,375 @@
       "language": "Russian",
       "supports": "That crosses under small roofs can still be seen in Russian cemeteries; that golubets also named a built-in box beside the stove in a peasant house (the article cites Dal for this).",
       "limitation": "Popular article without a named author or references. It is used only for the existence of the form and the two meanings of the word; its claims about pagan origins were not used."
+    },
+    {
+      "id": "kuznetsova-kovyrshina2000",
+      "kind": "article",
+      "author": "Kuznetsova, V. P.; Kovyrshina, Yu.",
+      "title": "I. A. Fedosova i vyrozerskaia shkola prichital’shchits (I. A. Fedosova and the Vyrozero school of lamenters)",
+      "year": "2000",
+      "publisher": "Collection on the folk traditions of the Russian North, Petrozavodsk, pp. 153–163 (copyright line 2000; collection title not shown in the PDF extract read)",
+      "url": "https://booksite.ru/folk/data/kuznec.pdf",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "What a ‘school’ of lamenters means; learning of lament in childhood; the 40–50-line versus 1,074-line wedding laments; Fedosova’s birthplace district, later residence, and the dates of her melody recordings.",
+      "limitation": "Full PDF read through a text extract; reading status RELEVANT EXTRACT READ. Concerns Vyrozero and the Zaonezhye only; wedding rather than funeral laments in the length comparison."
+    },
+    {
+      "id": "grinkova1947",
+      "kind": "article",
+      "author": "Grinkova, N. P.",
+      "title": "Obriad «vozhdenie rusalki» v sele B. Vereika Voronezhskoi oblasti (The rite ‘leading the rusalka’ in the village of Bolshaya Vereika, Voronezh oblast)",
+      "year": "1947",
+      "publisher": "Sovetskaia etnografiia (Etnograficheskoe obozrenie archive), 1947 no. 1, pp. 178–184",
+      "url": "https://eo.iea.ras.ru/",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "A first-hand record of a spring rite in one village (collected 1925 and 1936 from A. K. Baryshnikova): the figure, the procession, the date, the informant’s two reasons, its last performance in 1935.",
+      "limitation": "Read from a PDF supplied by the project owner (eoarchive_1947_1_178_Grinkova.pdf), text layer with OCR noise, pp. 178–181 read in full; pages 182–184 only skimmed. Grinkova’s comparative frame (dying-and-resurrecting deity, after Frazer) is the author’s theory and is not adopted. The song text is not reproduced. Journal title for 1947 to be confirmed against the archive’s own catalogue."
+    },
+    {
+      "id": "zelenin1927",
+      "kind": "monograph",
+      "author": "Zelenin, Dmitry K.",
+      "title": "Vostochnoslavianskaia etnografiia (Russian translation of Russische (Ostslavische) Volkskunde, Berlin–Leipzig 1927), transl. K. D. Tsivina",
+      "year": "1991 (German original 1927)",
+      "publisher": "Nauka, Glavnaia redaktsiia vostochnoi literatury, Moscow (Etnograficheskaia biblioteka), 511 pp.",
+      "url": "https://eo.iea.ras.ru/",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "A synthesis of Russian, Ukrainian and Belarusian funeral practice (washing, death clothes, coffin, carrying out): §132, pp. 345–349 of the 1991 translation, with the groups named where Zelenin names them and citations to the archive of the Russian Geographical Society and to named collectors.",
+      "limitation": "Read from a PDF supplied by the project owner (text.pdf in the owner’s ‘res’ folder, copy ‘text (1).pdf’), OCR with some errors. Read so far: § 132 (pp. 345–349), § 134 (pp. 352–355), §§ 156–158 (pp. 410–416); the rest of the book is unread. A second-hand synthesis: the archive files behind the details were not seen. Mixes East Slavic groups; the atlas attributes each detail to the group Zelenin names; § 159 (water spirit), p. 416, also read."
+    },
+    {
+      "id": "dronova2024",
+      "kind": "article",
+      "author": "Dronova, T. I.",
+      "title": "Tema smerti v kartine mira staroverov-bespopovtsev Ust’-Tsil’my (The theme of death in the world picture of the priestless Old Believers of Ust-Tsilma)",
+      "year": "2024",
+      "publisher": "Etnografiia / Ethnography, 2024, no. 1 (23), pp. 189–209, doi 10.31250/2618-8600-2024-1(23)-189-209",
+      "url": "https://doi.org/10.31250/2618-8600-2024-1(23)-189-209",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "The Ust-Tsilma community’s own lists of ‘clean’ and ‘unclean’ dead, its words for unnatural death, handling and burial of suicides (to the 1970s), and the treatment of unbaptised infants.",
+      "limitation": "Full text read from a PDF supplied by the project owner (09_dronova.pdf), text layer with minor OCR errors; pp. 201–204 read closely, the rest skimmed. One district of Russian Old Believers without priests; informants are not named (the author uses field materials and family manuscripts whose owners asked for anonymity)."
+    },
+    {
+      "id": "iugai-letter",
+      "kind": "article",
+      "author": "Iugai, Elena",
+      "title": "“From This Place You Cannot Hear Speech. From This Place You Cannot Receive a Letter”: The Letter-Message in Russian Funeral Lamentations",
+      "year": "after 2016 (year not shown in the PDF)",
+      "publisher": "Journal not shown in the PDF supplied; pp. 165–184; the Moscow School of Social and Economic Sciences",
+      "accessed": "2026-11-16",
+      "language": "English",
+      "supports": "Eastern Vologda funeral and commemoration laments by occasion; the statement that Barsov’s Olonets performers are not representative; other published Russian lament collections.",
+      "limitation": "Read from a PDF supplied by the project owner (RY_11_Iugai.pdf); first 6 pages closely, the analysis of the ‘letter-message’ formula and the reference list only skimmed. Journal name and year are not on the pages read and the latest work cited is 2016, so the entry is incomplete until checked against the journal. The description is of eastern Vologda; it makes no claim for all Russia. The lament texts it quotes are not reproduced."
+    },
+    {
+      "id": "tolstaya2024",
+      "kind": "article",
+      "author": "Tolstaya, Svetlana M.",
+      "title": "The Living and the Dead in Slavic Folk Culture: Modes of Interaction between Two Worlds",
+      "year": "2024",
+      "publisher": "Religions 15 (5), 566, 16 pp. (open access)",
+      "url": "https://www.mdpi.com/journal/religions",
+      "accessed": "2026-11-16",
+      "language": "English",
+      "supports": "Regulation of contact between the living and the dead by time, place and means; feeding and inviting the dead; dreams; messages; her argument that the pattern does not fit a simple ‘ancestor cult’.",
+      "limitation": "Read in full (abstract and sections 1–8) from a PDF supplied by the project owner (religions-15-00566-v2.pdf). Pan-Slavic sample, with Polesie dominant in the protective measures; Russian-specific claims are limited to those she attributes to the Russian North or the East Slavs. Page numbers are as the journal prints them, read from the running heads. Article URL is the journal’s home page; the exact link is to be added."
+    },
+    {
+      "id": "sedakova2020",
+      "kind": "article",
+      "author": "Sedakova, Irina",
+      "title": "Unlived Life: The Death and Funeral of a Child in Slavic Traditional Culture",
+      "year": "2020",
+      "publisher": "Folklore: Electronic Journal of Folklore 80, pp. 47–68 (open access)",
+      "url": "https://doi.org/10.7592/FEJF2020.80.sedakova",
+      "accessed": "2026-11-16",
+      "language": "English",
+      "supports": "Slavic beliefs about early and child death; baptism and burial of unbaptised children; coffin customs; the three Russian items cited second-hand.",
+      "limitation": "Read in full from a PDF supplied by the project owner, for the Russian-attributed passages only; main material is Bulgarian. Russian items are citations to compilations (Listova, Vlasova, Naumenko) that were not seen."
+    },
+    {
+      "id": "nikolaev2012",
+      "kind": "article",
+      "author": "Nikolaev, Oleg R.",
+      "title": "Traditsionnye formuly krest'ianskoi kul'tury na slome epokh: «Pokhoronili khorosho» (k voprosu o fotografiiakh pokhoron)",
+      "year": "2012",
+      "publisher": "pp. 358–370; journal or collection title not shown on the pages read (CyberLeninka copy supplied by the project owner)",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "The formula ‘buried well’; funeral photographs in family albums, 1950s–1970s; the author’s hypothesis linking them to the war and repression.",
+      "limitation": "Read in full from the owner’s PDF. Single-author hypothesis from his own fieldwork, not quantified. The journal and issue are to be added. The family ‘spravka’ text he prints (pp. 365–367) is not reproduced here."
+    },
+    {
+      "id": "dynin1994",
+      "kind": "article",
+      "author": "Dynin, V. I.",
+      "title": "Nekotorye osobennosti mifologicheskogo obraza rusalki u vostochnykh slavian",
+      "year": "1994",
+      "publisher": "Etnograficheskoe obozrenie 1994, no. 6, pp. 111–121 (open-access scan at eo.iea.ras.ru)",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "Regional description of the rusalka among East Slavs; the late arrival of the word in the Russian North; the author’s late-origin thesis.",
+      "limitation": "Read from the owner’s PDF (OCR text) pp. 111–118; pp. 119–121 only skimmed. Page numbers read from running heads and may be off by one. The thesis is the author’s and is contested by the scholars he lists on p. 111. Footnoted sources not seen."
+    },
+    {
+      "id": "maksimov1903",
+      "kind": "book",
+      "author": "Maksimov, S. V.",
+      "title": "Nechistaia, nevedomaia i krestnaia sila",
+      "year": "1903",
+      "publisher": "St Petersburg: Golike i Vilborg (Ethnographic Bureau of Prince V. N. Tenishev); online copy of the 1994 Polisett reprint, Vologda regional library, supplied by the project owner",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "A collector’s statements on burial of suicides and on the water spirit and the drowned.",
+      "limitation": "Read by keyword search in the 13 HTML files (suicide, drowned, rusalka passages only), not the whole book. Page numbers are those marked in the online copy and may not match the 1903 pages. Maksimov died in 1900; the book was finished by editors. Individual items carry no stated place or informant."
+    },
+    {
+      "id": "moroz2019",
+      "kind": "article",
+      "author": "Moroz, Andrei B.",
+      "title": "Molitva v broshennom dome: novye apotropeicheskie praktiki?",
+      "year": "2019",
+      "publisher": "Kul'tura slavian i kul'tura evreev: dialog, skhodstva, razlichiia (open-access text on CyberLeninka)",
+      "url": "https://cyberleninka.ru/article/n/molitva-v-broshennom-dome-novye-apotropeicheskie-praktiki",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "Three field cases (Arkhangelsk 2015, Bryansk 2016, Arkhangelsk 2017) of protective texts left in houses being abandoned; the author’s hypothesis of a new practice linked to migration.",
+      "limitation": "Full text read in the built-in browser; volume and page numbers not shown on the page, so the reference is incomplete. Three cases plus a few interviews, no counts; the author says himself that the spread of the practice is unknown. The first text was not seen. Prayer texts quoted in the article are not reproduced here."
+    },
+    {
+      "id": "yankovskaya2021",
+      "kind": "article",
+      "author": "Yankovskaya, Galina A.",
+      "title": "Negativnye posledstviia sovetskikh gidroenergeticheskikh proektov: formaty i praktiki memorializatsii",
+      "year": "2021",
+      "publisher": "Sibirskie istoricheskie issledovaniia (open-access text on CyberLeninka)",
+      "url": "https://cyberleninka.ru/article/n/negativnye-posledstviya-sovetskih-gidroenergeticheskih-proektov-formaty-i-praktiki-memorializatsii",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "Formats of commemoration of flooded territories since the 2000s; the author’s reasons for the delay.",
+      "limitation": "Abstract and conclusion read in the built-in browser; the body (case descriptions) not read line by line. Issue number and pages not shown. Interpretive article on memory, with no counts of villages or graves."
+    },
+    {
+      "id": "yakubov2009",
+      "kind": "journalism",
+      "author": "Yakubov, Ivan",
+      "title": "Bereg placha",
+      "year": "2009",
+      "publisher": "Priamye investitsii no. 6 (86), 2009, pp. 108 ff. (text on CyberLeninka)",
+      "url": "https://cyberleninka.ru/article/n/bereg-placha",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "A journalist’s account of the Rybinsk flooding figures and of the Leushino prayer ‘standings’ since 1999.",
+      "limitation": "Popular magazine feature read in full in the built-in browser; figures have no references; one claim (a report of 294 residents who chose to remain, attributed to an NKVD document in the Rybinsk museum) is not used because it is unverified. Page numbers are read from one running head."
+    },
+    {
+      "id": "koroleva2015",
+      "kind": "article",
+      "author": "Koroleva, S. Yu.; Chetina, E. M.; Kolegova, O. A.",
+      "title": "Lokusy pamiati v prostranstve traditsii (pochitanie bratskikh mogil v Iurlinskom raione Permskogo kraia)",
+      "year": "2015",
+      "publisher": "Sotsio- i psikholingvisticheskie issledovaniia, vol. 3, from p. 128 (text on CyberLeninka)",
+      "url": "https://cyberleninka.ru/article/n/lokusy-pamyati-v-prostranstve-traditsii-pochitanie-bratskih-mogil-v-yurlinskom-rayone-permskogo-kraya",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "Calendar commemoration extended to Civil War mass graves and special settlers’ graves in Yurla district; Ust-Pyshya practice.",
+      "limitation": "Read in the built-in browser: abstract, introduction and the Ust-Pyshya section with notes; the sections on Yurla town, Ust-Zula and Yum and the Polish cemetery were not read in full. Last page not seen. One district; the number of informants not stated in the part read."
+    },
+    {
+      "id": "zhigaltsova2018",
+      "kind": "article",
+      "author": "Zhigaltsova, T. V.",
+      "title": "Obrazno-emotsional'noe vospriiatie zhiteliami pozhilogo vozrasta zabroshennogo lesnogo poselka (Arkticheskaia territoriia Arkhangel'skoi oblasti)",
+      "year": "2018",
+      "publisher": "Izvestiia Komi nauchnogo tsentra UrO RAN (text on CyberLeninka)",
+      "url": "https://cyberleninka.ru/article/n/obrazno-emotsionalnoe-vospriyatie-zhitelyami-pozhilogo-vozrasta-zabroshennogo-lesnogo-poselka-arkticheskaya-territoriya",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "Residents’ emotional map of a declining logging settlement; mentions of the cemetery and abandoned graves.",
+      "limitation": "Abstract and the passages mentioning the cemetery read in the built-in browser; the article was not read line by line. Issue and pages not shown. 32 questionnaires and 10 interviews, one settlement; a psychology study, not about beliefs."
+    },
+    {
+      "id": "balabeikina2023",
+      "kind": "article",
+      "author": "Balabeikina, O. A.; Korobushchenko, V. Yu.; Mazurenko, A. A.",
+      "title": "Uprazdnennye poseleniia severo-vostochnykh raionov Respubliki Kareliia (1938–2005 gg.)",
+      "year": "2023",
+      "publisher": "Vestnik Pskovskogo gosudarstvennogo universiteta. Seriia: Estestvennye i fiziko-matematicheskie nauki, vol. 16, no. 1, pp. 3–12",
+      "url": "https://cyberleninka.ru/article/n/uprazdnyonnye-poseleniya-severo-vostochnyh-rayonov-respubliki-kareliya-1938-2005-gg",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "Count of abolished settlements in four Karelian districts; legal basis; Pulozero and Petrovsky Yam items.",
+      "limitation": "Read in the built-in browser from the introduction to the section on tourism; the final paragraphs and the table’s fine print only skimmed. Based on legal decisions and online materials, not fieldwork; no counts of graves or visitors."
+    },
+    {
+      "id": "samoilova-figures",
+      "kind": "article",
+      "author": "Samoilova, Elena",
+      "title": "Antropomorfnye figury v kontekste pokhoronno-pominal’noi obriadnosti severnorusskoi derevni",
+      "year": "n.d. (volume year not shown on the pages; the PDF was made in 2011)",
+      "publisher": "Collection, Museum of Anthropology and Ethnography (Kunstkamera), ISBN 978-5-88431-209-8, pp. 252–268",
+      "url": "https://lib.kunstkamera.ru/files/lib/978-5-88431-209-8/978-5-88431-209-8_26.pdf",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "A figure made from the dead person’s clothing, kept in the red corner until the fortieth day; who started and who kept it; the author’s limits on her evidence.",
+      "limitation": "Read from the owner’s PDF (18 pages): pp. 251–255 and 265–268 closely, the rest searched for key words, not read through. Few cases: three for 1910–1940, four named informants; O. Konshin’s originals burned in 2007 and were partly restored from memory. A first version of this entry relied on two web-fetch summaries, one of which wrongly turned a fairy-tale passage (the mother’s gift of a doll to her daughter) into ritual feeding; that is corrected. The volume title and year are not on the pages."
+    },
+    {
+      "id": "novodevichy-encyclopedia",
+      "kind": "reference",
+      "author": "Unidentified encyclopedia entry (booksite.ru full-text page)",
+      "title": "Novodevich’e kladbishche (headword, Moscow)",
+      "year": "n.d.",
+      "publisher": "Hosted at booksite.ru; the work and edition are not identified",
+      "url": "https://booksite.ru/FullText/1/001/008/082/202.htm",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "Convent cemetery from the 16th century as the place of church and noble burial, later of intelligentsia and merchants; new cemetery opened 1898 south of the wall, walled 1898–1904, extended 1949; burial place of Soviet state, party and military figures, scholars, writers and actors.",
+      "limitation": "SEARCH EXCERPT ONLY: the page could not be fetched; the work, edition and year are not identified, so it is cited as an anonymous encyclopedia entry."
+    },
+    {
+      "id": "azbyka-perov",
+      "kind": "web",
+      "author": "Azbyka (art section)",
+      "title": "Проводы покойника — Перов Василий Григорьевич",
+      "title_en": "Seeing Off the Dead — Vasily Perov",
+      "year": "n.d.",
+      "publisher": "azbyka.ru/art",
+      "url": "https://azbyka.ru/art/provody-pokojnika/",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "Vladimir Stasov’s remark, as quoted there, that these funerals are bleaker than Nekrasov’s because no one follows the coffin.",
+      "limitation": "SEARCH EXCERPT ONLY. A popular site; the Stasov passage is quoted without a bibliographic reference. Its statement that the poem was the occasion of the painting is not repeated on the plate."
+    },
+    {
+      "id": "svoboda-malevich-grave",
+      "kind": "press",
+      "author": "Radio Svoboda",
+      "title": "Могила Малевича",
+      "title_en": "Malevich’s grave",
+      "year": "2015",
+      "publisher": "svoboda.org",
+      "url": "https://www.svoboda.org/a/27034540.html",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "That the grave was long regarded as lost, the site lying somewhere in the fields between Nemchinovka and Romashkovo; that a foundation plate for a memorial was laid there in 2015; that a house was built on the burial site.",
+      "limitation": "SEARCH EXCERPT ONLY (opening lines)."
+    },
+    {
+      "id": "sokolova2013-oz",
+      "kind": "web",
+      "author": "Sokolova, A. (initials ‘A. S.’ in the footnotes; name from the page title)",
+      "title": "«Нельзя, нельзя новых людей хоронить по-старому!»",
+      "title_en": "‘It is not allowed to bury the new people in the old way!’",
+      "year": "2013",
+      "publisher": "Otechestvennye zapiski, 2013, no. 5",
+      "url": "https://strana-oz.ru/2013/5/nelzya-nelzya-novyh-lyudey-horonit-po-staromu",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "The 1920s ‘red funeral’ (procession, red coffin, civil panikhida) and its rarity; Moscow shares of funerals without a church service (39.9% in 1925, 40.4% in 1926); Tambov province figures; cremation in the 1920s and the Donskoy crematorium opening on 12 January 1927; the 1960s campaign for non-religious rites with local commissions.",
+      "limitation": "MACHINE SUMMARY ONLY (web-fetch of the page, 2026-11-16); the article has no page numbers and the summary says it names no affiliation. Figures taken from the summary, not checked against the footnoted sources."
+    },
+    {
+      "id": "tehne-first-crematorium",
+      "kind": "web",
+      "author": "tehne.com (archive site, quoting ‘Stroitelstvo Moskvy’, 1926, no. 5)",
+      "title": "Первый московский крематорий и его значение",
+      "title_en": "The first Moscow crematorium and its significance",
+      "year": "n.d.",
+      "publisher": "tehne.com",
+      "url": "https://tehne.com/event/arhivsyachina/pervyy-moskovskiy-krematoriy-i-ego-znachenie",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "That the Moscow communal administration held an architectural competition for a crematorium in 1925; the official opening on 6 October 1927; that it was the first and until 1947 the only mass crematorium in the USSR.",
+      "limitation": "SEARCH EXCERPT ONLY. A popular archive site; the 1926 magazine text it quotes was not seen."
+    },
+    {
+      "id": "topos-donskoe",
+      "kind": "web",
+      "author": "Memorial (Topos database)",
+      "title": "Донское кладбище (Новое)",
+      "title_en": "Donskoe Cemetery (New)",
+      "year": "n.d.",
+      "publisher": "topos.memo.ru",
+      "url": "https://topos.memo.ru/article/620+4",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "That the 1st Moscow crematorium was opened on 6 October 1927 on the grounds of the New Donskoe cemetery; that cremation of the bodies of people shot in Moscow is documented from 1934 (earlier cases not excluded), the ashes being buried at the cemetery; the competition prizes (Dublitsky, Dyakonov and Zinsev, Tarasov).",
+      "limitation": "SEARCH EXCERPT ONLY."
+    },
+    {
+      "id": "filatov-pravoslavie",
+      "kind": "web",
+      "author": "Filatov, Nikita",
+      "title": "Хоронить нельзя кремировать: из истории кремации в России",
+      "title_en": "‘Burying is forbidden, cremate’: from the history of cremation in Russia",
+      "year": "n.d.",
+      "publisher": "Pravoslavie.ru",
+      "url": "https://pravoslavie.ru/81316.html",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "That Moscow’s crematorium opened in 1927 in the rebuilt Seraphim church of the Donskoy Monastery and that its furnaces came from the German firm Topf and Sons.",
+      "limitation": "SEARCH EXCERPT ONLY. An Orthodox site; the footnote behind the Topf statement was not seen."
+    },
+    {
+      "id": "yavarda-crematorium",
+      "kind": "web",
+      "author": "yavarda.ru (hobbyist site, author not named)",
+      "title": "Первый московский крематорий (Донской крематорий)",
+      "title_en": "The first Moscow crematorium (Donskoy crematorium)",
+      "year": "n.d.",
+      "publisher": "yavarda.ru",
+      "url": "https://yavarda.ru/firstmoscowcrematorium.html",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "A trial start on 11 January 1927 (the body of a worker, F. K. Solovyov), the official start on 7 October 1927, and the architect Dmitry Osipov.",
+      "limitation": "SEARCH EXCERPT ONLY. A hobbyist page without citations; its dates differ from other sources by a day."
+    },
+    {
+      "id": "places-moscow-columbarium",
+      "kind": "web",
+      "author": "places.moscow",
+      "title": "Колумбарий Первого Московского крематория",
+      "title_en": "Columbarium of the First Moscow Crematorium",
+      "year": "n.d.",
+      "publisher": "places.moscow",
+      "url": "https://places.moscow/trip/kolumbariy-pervogo-moskovskogo-krematoriya",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "That the crematorium was set in an unfinished church not consecrated before the revolution, with a furnace ordered from Germany, and that it stopped working from the 1970s, the main building going to the church in the 1990s.",
+      "limitation": "SEARCH EXCERPT ONLY. A city guide page without citations; it dates the crematorium to 1926, against 1927 in other sources."
+    },
+    {
+      "id": "law-8fz-1996",
+      "kind": "legal",
+      "author": "Russian Federation",
+      "title": "Федеральный закон «О погребении и похоронном деле» от 12.01.1996 № 8-ФЗ",
+      "title_en": "Federal Law ‘On Burial and Funeral Business’, 12 January 1996, no. 8-FZ",
+      "year": "1996",
+      "publisher": "consultant.ru (consolidated text)",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_121952/",
+      "accessed": "2026-11-16",
+      "language": "Russian",
+      "supports": "That the law was adopted on 12 January 1996 and, in Article 9, guarantees a list of burial services free of charge to relatives, provided by a specialised service.",
+      "limitation": "SEARCH EXCERPT ONLY (law title, date and Article 9 heading and opening); the text was not read in full."
+    },
+    {
+      "id": "moscowtimes-burial2012",
+      "kind": "press",
+      "author": "The Moscow Times",
+      "title": "Moscow burial services being privatized",
+      "year": "2012",
+      "publisher": "The Moscow Times, 21 June 2012",
+      "url": "https://www.themoscowtimes.com/archive/moscow-burial-services-being-privatized",
+      "accessed": "2026-11-16",
+      "language": "English",
+      "supports": "That in June 2012 the head of Moscow’s trade and services department said commercial burial functions would pass from the municipal company Ritual to private firms; the market was estimated at over 12 billion rubles; cremation was 44% of Moscow burials; Moscow had 71 cemeteries, two open to new burials.",
+      "limitation": "MACHINE SUMMARY ONLY (web-fetch). Official statements and estimates as reported; Moscow only."
     }
   ]
 }

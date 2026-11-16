@@ -236,32 +236,34 @@
       "display": "1925",
       "era": "soviet",
       "kind": "institution",
-      "title": "Moscow Soviet decides to build a crematorium",
-      "text": "The decision chooses the church of St Seraphim of Sarov and St Anna of Kashin at the Donskoy Monastery as the site. The first cremation follows in 1927.",
+      "title": "Moscow holds a design competition for a crematorium",
+      "text": "The Moscow communal administration holds an architectural competition in 1925. The crematorium is later fitted into the church of St Seraphim of Sarov and St Anna of Kashin at the Donskoy Monastery.",
       "plates": [
         "k"
       ],
       "sources": [
-        "mospravda-crematorium"
+        "tehne-first-crematorium",
+        "topos-donskoe"
       ],
-      "confidence": "documented (press account; archival check recommended)"
+      "confidence": "documented (two web accounts; the 1926 magazine itself not seen)"
     },
     {
       "id": "t1927",
       "sort": 1927,
-      "display": "12 January 1927",
+      "display": "1927",
       "era": "soviet",
       "kind": "institution",
-      "title": "The first Moscow cremation",
-      "text": "A crematorium opens in the church of St Seraphim of Sarov and St Anna of Kashin at the Donskoy Monastery. The first cremation takes place on 12 January; the official opening follows on 6 October 1927, without ceremony.",
+      "title": "The first Moscow crematorium",
+      "text": "The crematorium opens in the church building at the Donskoy Monastery: 12 January 1927 in Sokolova’s account, a trial burning on 11 January on one hobbyist page. The official opening is 6 October 1927 (Memorial’s Topos database; 7 October on the hobbyist page).",
       "plates": [
         "k"
       ],
       "sources": [
-        "mospravda-crematorium",
-        "merridale2000"
+        "sokolova2013-oz",
+        "topos-donskoe",
+        "yavarda-crematorium"
       ],
-      "confidence": "documented (press account; the opening in October 1927 is confirmed by several other sources, the 12 January date for the first cremation only by this account; archival check recommended)"
+      "confidence": "documented (dates differ by a day between sources; archival check recommended)"
     },
     {
       "id": "t1929",
@@ -320,15 +322,17 @@
       "era": "soviet",
       "kind": "art",
       "title": "Malevich buried under a black square",
-      "text": "The painter’s ashes are buried near Nemchinovka. A white cube with a black square marks the grave. The oak is cut down, the grave is lost, and the cube disappears.",
+      "text": "The painter’s ashes are buried near Nemchinovka under an oak. A wooden cube with a black square, made by Suetin, marks the grave. By one newspaper account the oak is felled in 1941 and the grave is later lost.",
       "plates": [
         "j",
         "l"
       ],
       "sources": [
-        "mk-malevich"
+        "smirnov2015",
+        "mk-malevich",
+        "stedelijk-malevich"
       ],
-      "confidence": "documented (press account of the grave’s loss)"
+      "confidence": "contested (newspaper accounts read as summaries; the later history rests on one article)"
     },
     {
       "id": "t1936",
