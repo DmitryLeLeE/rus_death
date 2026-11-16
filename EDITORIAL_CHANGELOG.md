@@ -282,3 +282,9 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 - Tobolsk section (F/11) re-checked against the open article (all dates and counts confirmed); no text change.
 - Suvorov inscription: the source page now records that it does not mention Derzhavin or a later slab replacement; the verse file’s context sentences on both were left untouched and are listed in FACTCHECK_LOG §14 for the owner.
 - Plate sources: tolstoy1995 removed from F (not cited there).
+
+## Plate H, second pass (2026-11-16)
+- H/01 rewritten on the *Novaia Skrizhal’* ch. XXIII § 2 re-read today: reasons for days 3, 9, 40 by Neophyte of Rhodes, Simeon of Thessalonica and the handbook, yearly commemoration (Simeon); level now interpretation (the “restraint” remark is an editorial reading).
+- H/02: level interpretation, editorial; the “miser, adulterer, usurer, drunkard” types, the “urban artisan milieu” and “viewers who read” removed (not in any source or legible in the reproduction); the section now says what the reproduction shows and what the Commons description states.
+- Table: fortieth day no longer “following the Ascension” alone (the Skrizhal gives three reasons, only Simeon names the Ascension); “almsgiving”, “vision of the divine light”, “wanders” and the “landscape with officials” removed (not in sources read); folk column restated on Zelenin and Barsov.
+- Plate sources: tolstoy1995 and ivanits1989 removed from H.

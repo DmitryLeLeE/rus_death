@@ -1661,11 +1661,11 @@
       "tone": "dark",
       "sources": [
         "skrizhal",
-        "tolstoy1995",
-        "ivanits1989",
         "merridale2000",
         "azbyka-mytarstva",
-        "funeral-sticheron"
+        "funeral-sticheron",
+        "zelenin1927",
+        "barsov1872"
       ],
       "related": [
         "a",
@@ -1692,10 +1692,10 @@
           "kicker": "H / 01",
           "heading": "What the Church says",
           "paras": [
-            "Orthodox teaching holds that the dead are judged and that the living may pray for them. The funeral rites ask for the forgiveness of sins and for a place ‘with the saints’; memorial services repeat the request at intervals. The fortieth day is the last of the appointed commemorations; the annual commemoration continues after it.",
-            "The Church’s language is deliberately restrained about the intermediate state. Where popular literature supplies a detailed itinerary — where the soul goes on which day, what it sees — the atlas marks that as devotional or folk elaboration, not as doctrine."
+            "The handbook *Novaia Skrizhal’* (1803) gives the Church’s reasons for commemorating the dead on the third, ninth and fortieth days, and Simeon of Thessalonica, whom it quotes, adds a yearly commemoration by the relatives. The ninth day asks that the dead be counted among the nine angelic ranks and in the company of the saints; the fortieth is tied by Simeon to the Ascension, so that the dead may be raised to meet the Judge. Neophyte of Rhodes ties it to Israel’s mourning for Moses, and the handbook itself points to the number forty in Scripture. Only chapter XXIII §§ 2–3 were read; the funeral service is not quoted here.",
+            "The Church’s language about the state between death and the resurrection is restrained in the passages read. That restraint is an editorial reading, not a quotation. Where popular literature supplies a detailed itinerary (where the soul goes on which day, what it sees), the atlas marks it as devotional or folk elaboration, not as doctrine."
           ],
-          "level": "documented",
+          "level": "interpretation",
           "sources": [
             "skrizhal"
           ]
@@ -1715,13 +1715,12 @@
           "kicker": "H / 02",
           "heading": "Reading the icon",
           "paras": [
-            "The Last Judgment icon is a diagram as much as a painting. Christ appears in glory; the scales weigh souls; the righteous move toward the heavenly city; the damned descend into a river of fire; the punishments are arranged in small compartments, each with its own inscription and its own social type — the miser, the adulterer, the usurer, the drunkard.",
-            "The Volga icon used here belongs to the eighteenth century and to the urban artisan milieu: it borrows heavily from printed engravings, including their page-like blocks of text. Its text blocks and compartments follow printed models, so it was made for viewers who read."
+            "The Last Judgment icon is a diagram as much as a painting. What the reproduction shows: a title across the top and long columns of text down both sides; Christ enthroned in glory with saints on either side; scales near the centre; a red river of fire on the right ending in a monstrous mouth; a winding band with labelled stations; a gate with the righteous at the lower left; and a row of small compartments of torment along the bottom, each with a caption. The small lettering could not be read in this reproduction, so no inscription is quoted and no social type is assigned to any compartment.",
+            "The Commons description of the icon calls it typical of mid-to-late eighteenth-century iconography and says it was influenced by printed engravings. The atlas reads the text columns and captioned compartments as page-like in that sense. Who made the icon, for whom, and in what milieu is not stated in the description; an earlier version spoke of an urban artisan milieu and of viewers who read, and both statements are withdrawn."
           ],
-          "level": "documented",
-          "sources": [
-            "tolstoy1995"
-          ]
+          "level": "interpretation",
+          "sources": [],
+          "editorial": true
         },
         {
           "type": "figure",
@@ -1744,28 +1743,29 @@
           "rows": [
             [
               "What happens at death?",
-              "The soul is separated from the body and judged; the resurrection is awaited",
-              "The soul lingers, wanders, visits the house, needs to be fed"
+              "The soul lives on and the body will be raised; the dead stand before the Judge (the handbook, quoting Simeon of Thessalonica)",
+              "The soul stays in the house for forty days, drinks the water set out and feeds on the steam of food (Zelenin 1991, pp. 345, 356)"
             ],
             [
               "Why commemorate on the fortieth day?",
-              "Following the Ascension on the fortieth day",
-              "The soul departs on the fortieth day after a journey"
+              "Reasons given by the authorities the handbook quotes: the Ascension (Simeon of Thessalonica), Israel’s mourning for Moses (Neophyte of Rhodes); the handbook itself points to the number forty in Scripture",
+              "The fortieth day is the ‘seeing off’ of the soul to the other world (Zelenin 1991, p. 356)"
             ],
             [
               "Can the living help the dead?",
-              "Yes: prayer and almsgiving",
-              "Yes: food, gifts, a place at table"
+              "Yes: commemoration by the relatives on set days and yearly (Simeon of Thessalonica)",
+              "Yes: food, gifts, a place at table (Zelenin 1991, p. 356)"
             ],
             [
               "What is the afterlife like?",
-              "Communion with God; the vision of the divine light",
-              "A landscape with places, roads, boundaries and officials"
+              "Not set out in the passages read; the Church’s language is restrained (see H / 01)",
+              "Burial gifts are explained by a fiery river to cross, a glass mountain to climb, debts to pay (Zelenin 1991, p. 348; Barsov 1872, p. 305)"
             ]
           ],
           "sources": [
             "skrizhal",
-            "ivanits1989"
+            "zelenin1927",
+            "barsov1872"
           ]
         },
         {
