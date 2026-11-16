@@ -162,3 +162,7 @@ Compared `data/voices.json` (three Barsov entries) with the scans in the user’
 
 ### 10a. Corrections applied (2026-11-16, at the owner’s request)
 `data/voices.json` and `data/ru/voices.json`: sister l. 3 and l. 24 and the notes terms; drowned l. 1, 6, 7, the term and the line range (175–192); widow page span (p. 1) and a note on Barsov’s footnote at l. 12; a sentence on the footnote variant in the sister’s context. Widow l. 14 (semicolon or colon) left as is: not legible enough at this resolution.
+
+### 10b. Poems and the performer’s name (2026-11-16)
+- **Five poems** (Derzhavin, Pushkin, Lermontov, Nekrasov ×2): every line in `data/voices.json` matches the Wikisource wikitext in the archive (`sources/poems/`) after the line-number markup is stripped; the Derzhavin and Nekrasov (*Moroz*, ch. VIII, ll. 260–275) excerpts are consecutive and the line ranges are right. This is a check against the same Wikisource copy the data came from, not against a printed edition. The Suvorov epitaph and the funeral sticheron (other sources) were not compared.
+- **Performer no. 5, Barsov p. 326.** The heading in the scan (leaf 363) was enlarged threefold and is still not legible enough to choose between “Момокова” and “Момонова”: the middle letters are broken. The atlas keeps the form “Momokova” with the existing caveat in `sources.json`; the reading is unresolved, not confirmed. The text under the heading (peasant woman of Selo Tverdilovo, Kalyazin uyezd, Tver province) and the numbering “5.” are legible.
