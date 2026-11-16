@@ -292,3 +292,8 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 ## Plate I, second pass (2026-11-16)
 - I/01: “killed in the tens of thousands” replaced by “many thousands”, with the note that the municipal source gives no total (the table row on the same plate already said so).
 - I/03 Nikolaev: three photographs, not two (one from Bashkortostan, two from Vladimirovka, Chelyabinsk region; pp. 359–361); the formula is described as “in his account”, not as “stories he collected”; his grandfather’s 1984 written account (pp. 365–367) added.
+
+## Plate J, second pass (2026-11-16)
+- J/03: the Radio Svoboda sentence made specific (residential complex from 2011, the spot four metres from a foundation, now an entrance ramp, black marble square about sixty metres away; radar finding described by both sources as the searchers’ account).
+- Editorial note: “No literary quotations appear on this plate” was untrue (Lermontov’s poem is printed whole in the text panel); now “No prose quotations …”.
+- Source entries for the Tretyakov card, Radio Svoboda and Azbyka upgraded from search excerpts to fetched pages (machine summaries).
