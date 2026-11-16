@@ -18,7 +18,7 @@ Owner-supplied PDFs and HTML (Zelenin 1927, Tolstaya 2024, Sedakova 2020, Nikola
 - Zelenin 1927 §§ 132, 134 and 156–159 and Barsov page images could not be re-read in the later sessions (the owner’s files were not staged); claims resting on them were left unchanged.
 - No file in `research/downloads/` (the shell has no general network access).
 - No verse or prayer text is reproduced by the research text; informant lines are paraphrased. Variant texts of songs and laments have not been collated.
-- Photographs verified on Commons but not placed are listed in `IMAGE_ACQUISITION_REPORT.md`; Finna originals were blocked and not bypassed.
+- Photographs: all Commons candidates from the user’s list were placed on 2026-11-15; open items (Finna originals, licence-review templates) are in `IMAGE_ACQUISITION_REPORT.md`.
 - Visual check of the rendered pages (line breaks of the voice text on plate G, RU labels) is still to be done by eye.
 
 ## Next

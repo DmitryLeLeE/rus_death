@@ -113,3 +113,9 @@ On the owner's instruction that licence links to Commons are enough, the verifie
 - Plate S: the Mandrogy banya (museum) and the Ulan-Ude museum interior.
 - Bulla’s file page carries a licence-review template, and so do the Suistamo pages (Finna review); their review status was not checked.
 - Not added: the second QR photograph (`QR CC cenotaphs Tip and Hale`, a duplicate of the subject on plate X). Not found anywhere on Commons by title search: the two corpse-board photographs and the Fedurino grave; the Finna originals of the boards remain blocked.
+
+### Update 2026-11-16 (look-through of the placed photographs)
+All 22 photographs added in the 2026-11-15 passes (Suistamo ×5, Plattonen ×4, Chekhov, Tolstoy, Chapaev, Bulla, Port Arthur, Nansen at Amur, Pskov Caves tile, Mandrogy and Kobona banyas, Ulan-Ude interior, Rogozhskoe procession, Novgorod interior, QR tags) were opened and compared with their captions, alt texts and 18+ gating. The earlier note that sixteen photographs were “not placed” is out of date: they were placed in the second 2026-11-15 pass.
+- Content matches captions. Gate (`mature: true`) is set for Tolstoy, Chapaev, Port Arthur and Nansen, where a body or the dead are visible; Chekhov, Bulla and Plattonen show closed coffins and are not gated.
+- Two alt texts changed because the picture does not show what they said: the Suistamo grave chamber (no lake is clearly visible behind it) and the Pskov Caves tile (the number of lines of lettering was not counted).
+- Still open: Finna originals (corpse boards, Fedurino grave) not obtained; licence-review templates on the Bulla and Suistamo Commons pages not checked.
