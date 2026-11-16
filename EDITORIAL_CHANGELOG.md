@@ -270,3 +270,10 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 - B/02: old shirt “torn”, not “torn, not unbuttoned”; cross “sometimes copper, wooden ones common” (was “a copper cross”); the “groom” for a young man is “something similar”, as in Zelenin; Old Believer’s *chetki* given as a rosary.
 - B/03: record fields corrected (“surviving dugout examples” removed; period given as the dates of the two accounts; function without “public stage”); new paragraph on Barsov’s Olonets coffins and gifts; RU record fields added (the RU page showed English labels).
 - Table sources: Zelenin 1927 and Barsov; plate sources: zelenin1916, ivanits1989 and tolstoy1995 removed (not cited on B).
+
+## Plate D, second pass (2026-11-16)
+- D/01: page range added (Zelenin 1991, pp. 356–357).
+- Table: bliny row no longer says “19th-c. descriptions” (Zelenin gives no dates; row restated on his text); sources reduced to Zelenin and the Skrizhal.
+- D/04: the “richer household kutya with raisins or nuts” statement withdrawn (not in any passage read); sources reduced to Skrizhal and Zelenin.
+- D/05: grain for birds reads as Zelenin’s tentative link and his remark that it is now done mainly for the ‘unclean’ dead; Barsov’s bread lies on the cloth, not on the spoon (p. 307).
+- Plate sources: ivanits1989, zelenin1916, tolstoy1995 removed from D.

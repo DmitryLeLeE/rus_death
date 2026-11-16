@@ -577,9 +577,6 @@
       "layout": "table",
       "tone": "paper",
       "sources": [
-        "ivanits1989",
-        "zelenin1916",
-        "tolstoy1995",
         "azbyka-parent-saturdays",
         "zelenin1927",
         "skrizhal",
@@ -611,7 +608,7 @@
           "kicker": "D / 01",
           "heading": "The hot dinner",
           "paras": [
-            "On the day of burial everyone who came was fed. Zelenin’s survey of East Slavic ethnography (1927), § 136, explains the name of the ‘hot dinner’ (Russian *goriachii*, Belarusian *garachyi*): hot bread was always served, broken by hand and not cut with a knife, so that steam would rise. The dead were thought to need food like the living, and to feed in part on the steam from it. Ukrainians broke fresh bread in two and put it on the windowsill so that the hot steam would reach the dead.",
+            "On the day of burial everyone who came was fed. Zelenin’s survey of East Slavic ethnography (1927; 1991 edition, § 136, pp. 356–357) explains the name of the ‘hot dinner’ (Russian *goriachii*, Belarusian *garachyi*): hot bread was always served, broken by hand and not cut with a knife, so that steam would rise. The dead were thought to need food like the living, and to feed in part on the steam from it. Ukrainians broke fresh bread in two and put it on the windowsill so that the hot steam would reach the dead.",
             "While the dead person was still in the house they were given bliny: the first, still hot and sometimes smeared with honey, was put on the bench at the head, on the windowsill or on the shelf of icons. At the funeral and the wakes a separate place was laid for the dead, either at the common table or at a special table in the corner under the icons, and the first spoonful of any dish and the first glass of water were poured out at the corner of the table for them. The usual dishes were kutia (also kolivo, kanun), boiled barley or wheat in honey diluted with water, then bliny, honey kisel, fried eggs and porridge; the main drink was beer or braga sweetened with honey. In the Russian North, guests were given a wooden spoon after dinner in memory of the dead. Zelenin merges Russian, Ukrainian and Belarusian material and cites the archive of the Russian Geographical Society by volume and number; those files were not seen, and he gives no dates."
           ],
           "level": "documented",
@@ -648,7 +645,7 @@
             ],
             [
               "Bliny",
-              "Recorded as a funerary and commemorative food in 19th-c. descriptions",
+              "First blin, hot and sometimes smeared with honey, put by the dead person while still in the house; bliny served at funerals and wakes (Zelenin, undated)",
               "Also a calendar food; the same object, a different argument",
               "documented"
             ],
@@ -678,8 +675,6 @@
             ]
           ],
           "sources": [
-            "ivanits1989",
-            "zelenin1916",
             "zelenin1927",
             "skrizhal"
           ]
@@ -690,13 +685,12 @@
           "heading": "Kutia, and the ambiguity of grain",
           "paras": [
             "Kutya is boiled grain sweetened with honey, and in its church form, *kolivo*, it is brought to the memorial service and blessed. The *Novaia Skrizhal’* (1803, ch. XXIII, § 3) names boiled wheat with honey and gives the reading: the wheat that dies in the ground and then bears fruit stands for the resurrection of the dead, and the honey for the sweet, blessed life that awaits the righteous in the Kingdom of Heaven. It adds Simeon of Thessalonica’s reading of the seeds offered in the same way.",
-            "What the sources do not settle is the relationship between the church dish and the household dish. In some accounts they are the same object under two names; in others the household kutya is a separate, richer preparation with raisins or nuts. The atlas keeps both, and keeps the question open."
+            "What the sources read for this plate do not settle is the relationship between the church dish and the household dish. The *Skrizhal’* describes the church form; Zelenin gives the dish served at funerals and wakes (boiled barley or wheat in honey diluted with water) and does not say whether it is the same thing. An earlier version spoke of a richer household version with raisins or nuts; no passage read here mentions it, and the statement is withdrawn. The question stays open."
           ],
           "level": "interpretation",
           "sources": [
-            "tolstoy1995",
-            "ivanits1989",
-            "skrizhal"
+            "skrizhal",
+            "zelenin1927"
           ]
         },
         {
@@ -710,8 +704,8 @@
           ],
           "paras": [
             "Zelenin (1927, § 136) ties several dishes to the dead person’s journey. In south Russian practice a ‘ladder’ (*lesenka*) was baked for the fortieth day, an oblong flat cake with 3, 24 or 40 cross-stripes like the steps of a stair, taken as the dead person’s climb to heaven. It was set on a bench at the gate, a requiem was sung, and the cake was then eaten with honey. Some people on that day ate bliny at the nearest crossroads, which was meant to keep the dead from finding the way home. The fortieth day is the ‘seeing off’ of the soul, and in the North a special bed was made up for the dead in the corner under the icons on the eve, so that they would rest before the long road.",
-            "Zelenin adds three items that are not Russian and are kept here as comparison. In Volhynia a bonfire was lit at the cemetery on the spring day for the dead and a common dinner cooked for all present. Belarusians on the ‘grandfathers’ days (*dziady*), the Saturdays before Maslenitsa and before St Demetrius’s day, set aside a little of each dish in a bowl by the window and poured out the first spoonful and glass with the words ‘Grandfather, come to dinner!’. Grain was scattered for birds on graves and sometimes at crossroads, which he links to the soul seen as a bird. The days of the calendar are on plate U.",
-            "Barsov’s Olonets passages put some of these items in named districts. At the funeral dinner in Ladeinopol district an empty place is left at the table in the front corner, a spoon is laid under the tablecloth and bread on top of it (1872, p. 307). On the fortieth day the relatives go out of the house to meet the priest, fully believing that the dead person is coming with him; in Brusnoe (Petrozavodsk district) a bed is made up beside the priest’s, if he arrives on the eve, for the unseen guest, and at the dinner a separate empty place with its own setting is left in the front corner while the dead person’s favourite dish is named (p. 308; the page gives no locality for the last detail). In Ladeinopol district a table with cutlery and dishes is also set on the stove for the dead, who after forty days in a cold country is said to have grown chilled and needs to warm himself (p. 309). These are local practices, and Barsov does not say how widespread any of them was."
+            "Zelenin adds three items that are not Russian and are kept here as comparison. In Volhynia a bonfire was lit at the cemetery on the spring day for the dead and a common dinner cooked for all present. Belarusians on the ‘grandfathers’ days (*dziady*), the Saturdays before Maslenitsa and before St Demetrius’s day, set aside a little of each dish in a bowl by the window and poured out the first spoonful and glass with the words ‘Grandfather, come to dinner!’. Grain was scattered for birds on graves and sometimes at crossroads, which he tentatively links to the widespread idea of the soul as a bird; he adds that this is now done mainly for the ‘unclean’ dead. The days of the calendar are on plate U.",
+            "Barsov’s Olonets passages put some of these items in named districts. At the funeral dinner in Ladeinopol district an empty place is left at the table in the front corner, a spoon is laid under the tablecloth and bread on the cloth (1872, p. 307). On the fortieth day the relatives go out of the house to meet the priest, fully believing that the dead person is coming with him; in Brusnoe (Petrozavodsk district) a bed is made up beside the priest’s, if he arrives on the eve, for the unseen guest, and at the dinner a separate empty place with its own setting is left in the front corner while the dead person’s favourite dish is named (p. 308; the page gives no locality for the last detail). In Ladeinopol district a table with cutlery and dishes is also set on the stove for the dead, who after forty days in a cold country is said to have grown chilled and needs to warm himself (p. 309). These are local practices, and Barsov does not say how widespread any of them was."
           ]
         },
         {
