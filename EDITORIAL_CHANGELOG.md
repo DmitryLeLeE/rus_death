@@ -288,3 +288,7 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 - H/02: level interpretation, editorial; the “miser, adulterer, usurer, drunkard” types, the “urban artisan milieu” and “viewers who read” removed (not in any source or legible in the reproduction); the section now says what the reproduction shows and what the Commons description states.
 - Table: fortieth day no longer “following the Ascension” alone (the Skrizhal gives three reasons, only Simeon names the Ascension); “almsgiving”, “vision of the divine light”, “wanders” and the “landscape with officials” removed (not in sources read); folk column restated on Zelenin and Barsov.
 - Plate sources: tolstoy1995 and ivanits1989 removed from H.
+
+## Plate I, second pass (2026-11-16)
+- I/01: “killed in the tens of thousands” replaced by “many thousands”, with the note that the municipal source gives no total (the table row on the same plate already said so).
+- I/03 Nikolaev: three photographs, not two (one from Bashkortostan, two from Vladimirovka, Chelyabinsk region; pp. 359–361); the formula is described as “in his account”, not as “stories he collected”; his grandfather’s 1984 written account (pp. 365–367) added.
