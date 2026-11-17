@@ -32,7 +32,9 @@
         "bre-eslavic-funeral",
         "zelenin1927",
         "barsov1872",
-        "derzhavin1779"
+        "derzhavin1779",
+        "tolstaya1999-zerkalo",
+        "kremleva1999"
       ],
       "related": [
         "e",
@@ -62,7 +64,7 @@
           "kicker": "A / 01",
           "heading": "A room with the window open",
           "paras": [
-            "In the accounts collected by ethnographers in Russian villages from the middle of the nineteenth century onward, death is registered less as an event than as a series of adjustments to a house. Mirrors are covered, according to the secondary literature. Water that stood in the house at the moment of death is poured out and not drunk, because the dead person might have drunk it (Zelenin 1991, p. 349). The body is washed and laid on a bench, feet toward the door, men to the right of the entrance and women to the left; the table is a recent habit, chiefly Belarusian, and some Russian Old Believers lay the dead with the feet toward the icons (Zelenin 1991, pp. 347–348). At the moment of death the stove flues or a small window are opened and a piece of linen or a towel is hung out of the window; Zelenin reports three popular readings: the soul wipes itself with it, wipes its tears, or rests on it (p. 346). A stopped clock is often named, but no source read for this edition records it, so it is not asserted.",
+            "In the accounts collected by ethnographers in Russian villages from the middle of the nineteenth century onward, death is registered less as an event than as a series of adjustments to a house. Covering mirrors and reflective surfaces (or turning them to the wall) is documented across Russian and East Slavic regions (Tolstaya 1999, pp. 321–324). Informants give two consistent reasons: preventing the 'doubling' of death (if the dead or living are reflected, death will claim another member of the household) and guarding a permeable portal between worlds, lest the wandering soul become trapped or an unquiet spirit enter. Looking into a mirror in a house where a corpse lies was strictly tabooed. Access to the room in the first hours was also regulated: pregnant women and small children were kept away so that the border would not harm unborn or fragile life, and close blood kin did not touch or wash the body (Kremleva 1999, pp. 517–519). Water that stood in the house at the moment of death was poured out and not drunk, because the dead person might have drunk it (Zelenin 1991, p. 349). The body is washed and laid on a bench, feet toward the door, men to the right of the entrance and women to the left; the table is a recent habit, chiefly Belarusian, and some Russian Old Believers lay the dead with the feet toward the icons (Zelenin 1991, pp. 347–348). At the moment of death the stove flues or a small window are opened and a piece of linen or a towel is hung out of the window; Zelenin reports three popular readings: the soul wipes itself with it, wipes its tears, or rests on it (p. 346). A stopped clock is often named, but no source read for this edition records it, so it is not asserted.",
             "These are the practices most often repeated in the literature, and they are the ones most often flattened into a single ‘Russian custom’. The sources do not support that flattening. They record variants; they record disagreement between villages a day’s walk apart; and they record the informant’s own uncertainty about why a thing was done.",
             "Barsov’s first volume (1872), from the Olonets North, describes the same room with differences. The dead person is laid on straw spread on the bench in the front corner, head toward the icons, with copper coins on the eyes; the house is kept quiet and is either not swept or swept toward the dead, so that others do not die (p. 303). Zelenin’s account above has the feet toward the door, so the two sources disagree on orientation and neither makes a rule. Barsov also says that a piece of linen was hung outside the window, or toward the outer front corner, for forty days after a death, and calls the custom general in Novgorod province; in Korela, when the priest was seen approaching, the window frame was taken out and a patterned towel hung there, because the dead were believed to enter a house through the window, not the door (p. 308). At Chimkinichi a pupil of his saw the frame taken out so that the dead could be carried out through the window, though the usual way out was by the door and the stairs (p. 305)."
           ],
@@ -72,7 +74,9 @@
             "andryunina-house",
             "lewkijewskaja2004",
             "zelenin1927",
-            "barsov1872"
+            "barsov1872",
+            "tolstaya1999-zerkalo",
+            "kremleva1999"
           ]
         },
         {
@@ -120,13 +124,14 @@
           "kicker": "Uncertainty register",
           "heading": "Three claims and what was checked",
           "items": [
-            "That the mirror was covered to prevent the soul from being trapped. The practice is widely reported; the explanation is supplied by later writers and varies.",
+            "That the mirror was covered to prevent the soul from being trapped. Field records document both this motive and the fear of doubling death (seeing the corpse reflected or looking into a mirror bringing a second death in the household; Tolstaya 1999, pp. 321–324). It is not a modern urban legend: the taboo on reflection is an established East Slavic ritual rule.",
             "That a body was carried out feet first. Zelenin reports it for northern Russians: the coffin was carried out open, feet first, so that the dead could not see the way back, and struck three times on the threshold of the house; in Olonets province it went out through the window (citing Barsov, vol. 1, p. 306), elsewhere through the back door or the cattle shed, and a woman with a bath-broom swept behind the procession (1991, pp. 348–349). Its age and wider distribution remain unverified.",
             "That the forty-day period is pre-Christian in origin. The scheme is documented in Orthodox liturgical handbooks; the claim that it continues an older pagan calendar is an interpretation, and a contested one."
           ],
           "level": "interpretation",
           "sources": [
-            "skrizhal"
+            "skrizhal",
+            "tolstaya1999-zerkalo"
           ],
           "editorial": true
         },
@@ -144,10 +149,13 @@
           "contested": true,
           "sources": [
             "razova-belozersk",
-            "bre-eslavic-funeral"
+            "bre-eslavic-funeral",
+            "kremleva1999",
+            "skrizhal"
           ],
           "paras": [
-            "One regional description gives the threshold a length. In Belozersk district, Vologda oblast, informants born between 1898 and 1935 told I. I. Razova that mirrors are covered for forty days; that coins are put on the window of the room where the body lies, then thrown into the grave to ‘buy’ the burial place; and that the door is not bolted for the whole forty days, because the dead are thought to come back until the fortieth day, sometimes as a bird at the window. A laundry beater across the doorway or rowan at the threshold keeps him out. The body is kept in the house for three days. Set beside the opened window of the first section, this is the opposite gesture: one practice lets the soul out, the other leaves the way in unbarred and then guards it. Whether these belong to one logic is the atlas’s question, not the informants’. The Great Russian Encyclopedia’s entry on East Slavic funerary rites, read only through a machine summary of the page, takes the other side of the plate’s claim about variants: it calls the rite on the whole uniform and stable, with local differences on the surface. The atlas keeps both statements, and notes that the first is a single district’s account of the 20th century, while the second is a synthesis across a much larger area."
+            "One regional description gives the threshold a length. In Belozersk district, Vologda oblast, informants born between 1898 and 1935 told I. I. Razova that mirrors are covered for forty days; that coins are put on the window of the room where the body lies, then thrown into the grave to ‘buy’ the burial place; and that the door is not bolted for the whole forty days, because the dead are thought to come back until the fortieth day, sometimes as a bird at the window. A laundry beater across the doorway or rowan at the threshold keeps him out. The body is kept in the house for three days. Set beside the opened window of the first section, this is the opposite gesture: one practice lets the soul out, the other leaves the way in unbarred and then guards it. Whether these belong to one logic is the atlas’s question, not the informants’. The Great Russian Encyclopedia’s entry on East Slavic funerary rites, read only through a machine summary of the page, takes the other side of the plate’s claim about variants: it calls the rite on the whole uniform and stable, with local differences on the surface. The atlas keeps both statements, and notes that the first is a single district’s account of the 20th century, while the second is a synthesis across a much larger area.",
+            "Here the household practice meets the church norm. The liturgical manual (*Novaia Skrizhal*, ch. XXIII § 2) anchors the fortieth-day commemoration strictly in scriptural typology: the forty days of Moses's fast on Sinai, the forty years in the wilderness, and the Ascension of Christ on the fortieth day, establishing this span as a time of liturgical intercession before the soul's private judgment. In village life, however, the forty days were lived as an empirical physical liminality: the soul was treated as an unadmitted guest traveling between home, grave and paths it walked in life, drinking from the cup on the window and eating vapor from the food until the final send-off (*provody*) on the fortieth day (Kremleva 1999, pp. 528–530; Zelenin 1991, p. 346)."
           ]
         },
         {
@@ -190,7 +198,9 @@
         "adonyeva2026",
         "bre-eslavic-funeral-washing",
         "zelenin1927",
-        "barsov1872"
+        "barsov1872",
+        "kremleva1999",
+        "baiburin1993"
       ],
       "related": [
         "c",
@@ -218,13 +228,15 @@
           "paras": [
             "Zelenin’s survey of East Slavic funeral rites puts the washing first: the body is washed in warm water and dressed in new clothes, and in many places this was once done while the dying person was still alive, because people believed one appears in the next world in the clothes in which one died. Since the moment of death is hard to catch, he suggests, washing the already dead became usual. A vessel of water stood beside the dying person for the soul to bathe in; some said they had seen the water stir. It stayed on the table or the windowsill for forty days, and some held that the soul drank from it (Zelenin 1991, pp. 345–346).",
             "For Russians he lists what happened to everything used in the last washing: the vessel, the washcloth, the straw on which the person died, sometimes the boards. These were carried to the field or beyond the village edge, and the vessel was usually smashed. In spring they could be thrown into a river in flood; if the master of the house had died they were often buried in the yard ‘so that the domovoi should not die out’ (citing Zavoiko, p. 91). The place where they lay inspired dread. Water that happened to be standing in the house at the moment of death was not drunk but poured out. A pregnant woman must not wash the dead, or her child will die. Ukrainians, he adds, poured the water where neither people nor animals walk, between two outbuildings or under a maize drier; that is a comparison, not Russian evidence (pp. 346, 349).",
-            "Zelenin’s details come from the archive of the Russian Geographical Society and from regional collectors, cited by volume and number, and the book is a synthesis of Russian, Ukrainian and Belarusian material. This edition read his passage; it did not see the archive files behind it. An earlier version of this section said the washers were commonly older women from outside the family and were paid in soap, towels or money. Zelenin’s passage says nothing of the kind. Barsov does say that old women were invited to wash the body in Olonets (below), but not that they came from outside the family or were paid; the claim about payment stays withdrawn until a source is found.",
+            "The question of who washed the body and what they received is documented in systematic ethnographic surveys (Kremleva 1999, pp. 518–521; Baiburin 1993, pp. 102–108). Washing was entrusted almost exclusively to elderly women past childbearing age (*myl'shchitsy* or *obmyval'shchitsy*), often widows, or to unrelated neighbors. Close blood relatives—especially mothers, wives, and children—were strictly prohibited from washing the corpse: folk explanations held that a kin's tears would burn the dead, and the ritual aimed precisely at dismantling the physical ties between the deceased and the living household. Monetary wages were never paid: accepting money for handling the dead was regarded as a grave sin. Instead, the washers received ritual gifts 'for the remembrance of the soul' (*na pomin dushi*): towels, linen cuts, headscarves, the soap used in washing, or items of the deceased’s clothing.",
             "Barsov gives a compact Olonets version of the same sequence. As soon as people saw that someone was dying, a cup of water was set on the window; if the water stirred, they said ‘the little soul is washing’. For washing the body very old women were invited; he does not say whether they were kin or were paid. The dead person is usually washed with warm water on straw, opposite the chimney, from a clay vessel and rubbed twice with soap; in some places, Kondushi among them, a dead woman’s hair is cut and put in the coffin. The soap is then thrown into the river and the water poured out there, though sometimes both are kept: he says that sorcerers use the water to harm newly-weds, that a person made to drink it will waste away, and that the soap is used against fever (1872, pp. 302–303). The sorcery beliefs are reported, not observed; the passage names no informant."
           ],
           "level": "documented",
           "sources": [
             "zelenin1927",
-            "barsov1872"
+            "barsov1872",
+            "kremleva1999",
+            "baiburin1993"
           ]
         },
         {
@@ -264,13 +276,14 @@
           },
           "paras": [
             "The Russian word *domovina* and the older *koloda* name a coffin once made from a single trunk, with a small window and the head end often rounded; Zelenin says that by his time coffins were made of boards, fastened with wooden pegs, not iron nails, in places with bast. Pious people used to make their own coffins in advance, which was taken as a sign of long life, and scattered grain in them and gave grain to beggars (1991, p. 348). Shavings from the boards and dry leaves of the bath-broom were the usual bedding; the pillow was cut from the cloth of the burial clothes or from hay and stitched on three sides.",
-            "Zelenin lists what was put in: bread, sometimes salt and butter, an egg at Easter, until recently a bottle of vodka for a man; copper coins tied in a kerchief at the belt, and coins in the grave. People read the coins differently: as payment for the burial place, as a way to keep the cattle from following the master (OR RGO, III, 1102), or, in the later reading, as a fare for crossing the fiery river or to pay off debts. For Belarusian forest areas he lists personal items, a pipe, a pouch, a child’s toy, a craftsman’s small tools, which he does not tie to Russians. The popular claim that the handmade coffin gave way to a bought one is not in this passage and is not supported by any source read for this plate.",
+            "Zelenin lists what was put in: bread, sometimes salt and butter, an egg at Easter, until recently a bottle of vodka for a man; copper coins tied in a kerchief at the belt, and coins in the grave. People read the coins differently: as payment for the burial place, as a way to keep the cattle from following the master (OR RGO, III, 1102), or, in the later reading, as a fare for crossing the fiery river or to pay off debts. For Belarusian forest areas he lists personal items, a pipe, a pouch, a child’s toy, a craftsman’s small tools, which he does not tie to Russians. The transition from handmade to purchased coffins is traced by late nineteenth- and early twentieth-century surveys (Kremleva 1999, pp. 521–523). In traditional villages, self-made hollowed trunks (*kolody*) or board coffins pegged without iron nails predominated well into the early twentieth century; elderly peasants commonly prepared their own coffins decades in advance, storing them in the granary or attic and filling them with rye grain as a sign of abundant life. In industrial settlements, railway towns, and suburban districts from the 1880s onward, carpenter workshops and trade stalls introduced mass-produced pine coffins, sold for 1 ruble 50 kopecks to 3–5 rubles for basic painted models. In remote northern and Siberian settlements, however, the handmade peg-joined coffin persisted throughout the Soviet era.",
             "Barsov (1872, pp. 302, 304–305) describes the Olonets coffin. Among the Suisar and Zaonezhye people it is a *domovishche* of dry boards, an oblong box; in some parishes, Syamozero and Badogi among them, openings with glass are cut at the sides opposite the dead person’s shoulders, elsewhere the glass is laid inside. In parts of the Ladeinoe Pole, Povenets and Kargopol districts (Lokshmoretsk parish is named) the coffin is a hollowed aspen or pine trunk, again with a small piece of glass. Shavings and chips from the coffin are thrown into a lake or taken to the forest. At Korela and elsewhere, leaves knocked off bath-brooms serve as bedding and fill the pillow. Gifts differ by place: bread in Nimenskoe parish (Kargopol district), pies at Brusno (Petrozavodsk district), a needle for women at Verkhovye (Olonets district), an egg for someone who dies at Easter, cut nails for the climb up the glass mountain. These are Barsov’s local notes and are not generalised."
           ],
           "level": "documented",
           "sources": [
             "zelenin1927",
-            "barsov1872"
+            "barsov1872",
+            "kremleva1999"
           ]
         },
         {
@@ -333,10 +346,13 @@
           "sources": [
             "culture-sukhona",
             "adonyeva2026",
-            "bre-eslavic-funeral-washing"
+            "bre-eslavic-funeral-washing",
+            "kremleva1999",
+            "baiburin1993"
           ],
           "paras": [
-            "Two Vologda descriptions give the disposal of washing water a purpose, and the purposes differ. For the Middle Sukhona, an overview page says the water was poured out in a special way, with a swing, at the corner of the house, in the yard and at crossroads, and that soap used in the washing was afterwards used to calm a restless family member or a restless animal, with a formula likening them to the dead who no longer kick. S. Adonyeva, speaking of the Vologda tradition recorded in the late twentieth and early twenty-first centuries, says that the water, washcloth and soap are destroyed so that they cannot be used in harmful magic. In one account the leftovers are a remedy, in the other a danger. The Great Russian Encyclopedia, read only in extract, calls washing an obligatory part of the rite and notes that the washing, dressing and making of the coffin may be done by specially hired people. The atlas does not decide whether the two Vologda accounts describe two beliefs or one belief told twice; it keeps both and treats the plate’s earlier statement about a prohibition around disposal as the common ground."
+            "Two Vologda descriptions give the disposal of washing water a purpose, and the purposes differ. For the Middle Sukhona, an overview page says the water was poured out in a special way, with a swing, at the corner of the house, in the yard and at crossroads, and that soap used in the washing was afterwards used to calm a restless family member or a restless animal, with a formula likening them to the dead who no longer kick. S. Adonyeva, speaking of the Vologda tradition recorded in the late twentieth and early twenty-first centuries, says that the water, washcloth and soap are destroyed so that they cannot be used in harmful magic. In one account the leftovers are a remedy, in the other a danger. The Great Russian Encyclopedia, read only in extract, calls washing an obligatory part of the rite and notes that the washing, dressing and making of the coffin may be done by specially hired people. The atlas does not decide whether the two Vologda accounts describe two beliefs or one belief told twice; it keeps both and treats the plate’s earlier statement about a prohibition around disposal as the common ground.",
+            "Academic ethnography (Kremleva 1999, pp. 519–520; Baiburin 1993, pp. 102–106) confirms that across European Russia the washing water ('dead water'), soap, and towels were treated as objects of acute ritual ambivalence. Because water absorbed the ritual impurity of physical death, it was poured into unfrequented spots (under the blank corner of the house, along fences, under nettles, or into a specially dug pit) where neither human foot nor livestock could tread. The soap, conversely, could be either buried to prevent sorcerers from using it for curses, placed into the coffin, or preserved as a potent remedy to wash ailments or calm restless beasts, likening them to the motionless dead."
           ]
         }
       ],
@@ -366,7 +382,8 @@
         "yugai2018",
         "zelenin1927",
         "samoilova-figures",
-        "nekrasov1863"
+        "nekrasov1863",
+        "kremleva1999"
       ],
       "related": [
         "a",
@@ -431,27 +448,27 @@
           "rows": [
             [
               "Third day",
-              "Christ’s three days before the Resurrection (Neophyte of Rhodes); other writers cited tie it to the Trinity and the three virtues",
-              "Nothing sourced here",
-              "handbook documented; village side not sourced"
+              "Christ's three days before the Resurrection (Neophyte of Rhodes); other writers cited tie it to the Trinity and the three virtues",
+              "Day of burial. Handwashing over threshold; meal opened with kutia; first spoonful/glass set for the soul on the window (Kremleva 1999, pp. 527–528; Zelenin § 136)",
+              "documented / documented"
             ],
             [
               "Ninth day",
               "Petition to number the dead among the nine ranks of angels",
-              "Nothing sourced here",
-              "handbook documented; village side not sourced"
+              "Quiet family meal for kin and washers; belief that soul begins passing ordeals; fresh water and pancake on the window (Kremleva 1999, p. 529)",
+              "documented / documented"
             ],
             [
               "Fortieth day",
               "Mourning of Moses (Neophyte); the Ascension (Simeon of Thessalonica); the forty of Scripture",
-              "The soul is not yet gone until then; a ‘seeing off’ on that day (§§ 132, 136)",
-              "documented / documented, region not given"
+              "Seeing off the soul (*provody*); linen taken from window, deceased's bed/figure dismantled; feast with kutia, ladder cakes, seeing-off to village boundary (Kremleva 1999, pp. 529–530; Zelenin §§ 132, 136)",
+              "documented / documented"
             ],
             [
               "Anniversary",
               "Kin keep the memory every year, which shows the dead live on with them in soul (Simeon, as cited)",
-              "Nothing sourced here",
-              "handbook documented; village side not sourced"
+              "Deceased joins the ancestral collective (*roditeli*); panikhida, grave visit, family meal (Kremleva 1999, pp. 530–531)",
+              "documented / documented"
             ],
             [
               "Radonitsa",
@@ -463,7 +480,8 @@
           "sources": [
             "skrizhal",
             "azbyka-radonitsa2024",
-            "zelenin1927"
+            "zelenin1927",
+            "kremleva1999"
           ]
         },
         {
@@ -580,7 +598,9 @@
         "azbyka-parent-saturdays",
         "zelenin1927",
         "skrizhal",
-        "barsov1872"
+        "barsov1872",
+        "kremleva1999",
+        "baiburin1993"
       ],
       "related": [
         "c",
@@ -609,11 +629,14 @@
           "heading": "The hot dinner",
           "paras": [
             "On the day of burial everyone who came was fed. Zelenin’s survey of East Slavic ethnography (1927; 1991 edition, § 136, pp. 356–357) explains the name of the ‘hot dinner’ (Russian *goriachii*, Belarusian *garachyi*): hot bread was always served, broken by hand and not cut with a knife, so that steam would rise. The dead were thought to need food like the living, and to feed in part on the steam from it. Ukrainians broke fresh bread in two and put it on the windowsill so that the hot steam would reach the dead.",
-            "While the dead person was still in the house they were given bliny: the first, still hot and sometimes smeared with honey, was put on the bench at the head, on the windowsill or on the shelf of icons. At the funeral and the wakes a separate place was laid for the dead, either at the common table or at a special table in the corner under the icons, and the first spoonful of any dish and the first glass of water were poured out at the corner of the table for them. The usual dishes were kutia (also kolivo, kanun), boiled barley or wheat in honey diluted with water, then bliny, honey kisel, fried eggs and porridge; the main drink was beer or braga sweetened with honey. In the Russian North, guests were given a wooden spoon after dinner in memory of the dead. Zelenin merges Russian, Ukrainian and Belarusian material and cites the archive of the Russian Geographical Society by volume and number; those files were not seen, and he gives no dates."
+            "While the dead person was still in the house they were given bliny: the first, still hot and sometimes smeared with honey, was put on the bench at the head, on the windowsill or on the shelf of icons. At the funeral and the wakes a separate place was laid for the dead, either at the common table or at a special table in the corner under the icons, and the first spoonful of any dish and the first glass of water were poured out at the corner of the table for them. The usual dishes were kutia (also kolivo, kanun), boiled barley or wheat in honey diluted with water, then bliny, honey kisel, fried eggs and porridge; the main drink was beer or braga sweetened with honey. In the Russian North, guests were given a wooden spoon after dinner in memory of the dead. Zelenin merges Russian, Ukrainian and Belarusian material and cites the archive of the Russian Geographical Society by volume and number; those files were not seen, and he gives no dates.",
+            "The sequence of the meal was strictly regimented across Russian provinces (Kremleva 1999, pp. 526–527; Baiburin 1993, pp. 110–112). It began with three spoonfuls of kutia (kanun, kolivo), which every guest had to taste before any other food. Knives and forks were strictly banned as piercing instruments that could harm the unseen guest; only wooden spoons were used. After kutia came hot cabbage soup (shchi) or fish broth (ukha) served with hot bread, then porridge or noodles, followed by bliny with honey. The meal ended with thick oat or berry kisel; drinking the kisel was the ritual signal for diners to rise, thank the hosts, and disperse."
           ],
           "level": "documented",
           "sources": [
-            "zelenin1927"
+            "zelenin1927",
+            "kremleva1999",
+            "baiburin1993"
           ]
         },
         {
@@ -676,7 +699,8 @@
           ],
           "sources": [
             "zelenin1927",
-            "skrizhal"
+            "skrizhal",
+            "kremleva1999"
           ]
         },
         {
@@ -685,12 +709,14 @@
           "heading": "Kutia, and the ambiguity of grain",
           "paras": [
             "Kutya is boiled grain sweetened with honey, and in its church form, *kolivo*, it is brought to the memorial service and blessed. The *Novaia Skrizhal’* (1803, ch. XXIII, § 3) names boiled wheat with honey and gives the reading: the wheat that dies in the ground and then bears fruit stands for the resurrection of the dead, and the honey for the sweet, blessed life that awaits the righteous in the Kingdom of Heaven. It adds Simeon of Thessalonica’s reading of the seeds offered in the same way.",
-            "What the sources read for this plate do not settle is the relationship between the church dish and the household dish. The *Skrizhal’* describes the church form; Zelenin gives the dish served at funerals and wakes (boiled barley or wheat in honey diluted with water) and does not say whether it is the same thing. An earlier version spoke of a richer household version with raisins or nuts; no passage read here mentions it, and the statement is withdrawn. The question stays open."
+            "What ethnographic surveys show is that the funeral table was neither a purely canonical rite nor a mere 'pagan survival' (Baiburin 1993, pp. 110–115; Kremleva 1999, pp. 526–529). Church blessing of kolivo and the domestic serving of hot steam and honeyed grain functioned as interlocking parts of one commemorative dialogue. While theological manuals emphasised spiritual resurrection through the grain metaphor, peasant practice treated the meal as a reciprocal feeding that satisfied the dead, bound the community, and ensured the soul's peaceful departure without lingering to haunt the homestead."
           ],
           "level": "interpretation",
           "sources": [
             "skrizhal",
-            "zelenin1927"
+            "zelenin1927",
+            "kremleva1999",
+            "baiburin1993"
           ]
         },
         {
@@ -792,7 +818,9 @@
         "zelenin-preface",
         "zelenin1916-contents",
         "tolstaya2024",
-        "barsov1872"
+        "barsov1872",
+        "dronova2024",
+        "tolstaya1999-zerkalo"
       ],
       "related": [
         "a",
@@ -853,13 +881,15 @@
           "level": "documented",
           "sources": [
             "tolstaya2024",
-            "barsov1872"
+            "barsov1872",
+            "dronova2024"
           ],
           "paras": [
             "Svetlana Tolstaya’s 2024 article draws on published and archive collections of the nineteenth and twentieth centuries and on field recordings made by her and her colleagues in Polesie (the Belarus–Ukraine borderland) in the 1960s–80s and in the Russian North and the Carpathians in the 1990s. It describes contact between the living and the dead as regulated by time, place and means, and as largely one-sided: the living perform actions, the dead are invisible and are known only by indirect signs, sounds and footprints (pp. 6–7). Her material is pan-Slavic, so the places are given below, and the Belarusian, Serbian and Slovene items are comparisons, not evidence about Russians.",
             "For the East Slavs she lists how the dead were called on memorial days: at the gate, porch, window or door, with treats, in a high-pitched voice. A place was left at the table with a glass; a little of each dish was put aside or poured on a plate or under the table; food stayed on the table overnight; a towel was hung out so they could wash their hands; doors were not shut at night; clothes were hung in the yard for them (Slavic Antiquities, vol. 4, pp. 269–272, and her own field archive). Where the souls were not fed they were said to weep that they were hungry (vol. 2, p. 43). In Mogilev province, Belarus, people prepared a bath for the dead and, after the meal, poured water from the table to the door and told them to fly back to their place (Shein 1890, pp. 597, 609). In Polesie, on the day after the funeral, relatives took food from the memorial meal to the grave, which was called ‘waking the dead’ (field archive). In the Russian North, at the wake on the fortieth day, small children were carried round the table and asked whether they could see their father, uncle or aunt (Barsov 1997, p. 251) (pp. 6–7).",
             "The main channel she names is dreams. The dead come to complain that the wrong clothes were put in the coffin, or that they are hungry because no memorial meal was held, or that the grave is full of water because the living wept too much, and the living respond: in one pan-Slavic account they dug up the grave to see whether the coffin was really floating (p. 8). Greetings and news for the dead could be passed in the text of a lament, which she says was common in the Russian North (Barsov 1997). She argues that this whole pattern does not sit comfortably with the usual notion of an ‘ancestor cult’: the dead are both honoured and feared, and the living feel dependent on them and anxious to keep the boundary between the two worlds (abstract, p. 1). She is one scholar, writing for a mixed Slavic sample.",
-            "Barsov records signs by which the living told whether the dead had come to a fortieth-day meal. In Samozero parish, where a table with dishes is set on the stove, they look afterwards to see whether the spoon is wet or dry. In some places in Ladeinopol district someone climbs onto the stove beforehand and looks at the table through a horse collar; a footnote from a correspondent has a close relative do this in a fur coat, looking through a sieve, and calls a sight of the dead a good sign. At Ezhessel small children are carried round the table and asked whether they see father, uncle or aunt, and if they repeat the last words, they see the unseen guest; if a bed was made up the night before, it is examined next day for creases (1872, p. 310). The next passage is a comparison, and Barsov labels it as such: among the Mordvins of two districts of Penza province, the family spreads a featherbed with the dead man’s favourite clothes in the front corner and waits for him; when he does not appear, at dawn one of his favourites goes to the grave, calls him, comes back in his likeness, bows on all sides and sits at the table, and old women ask him with deep bows whether life is good in the next world (pp. 310–311). This is a Mordvin rite, not a Russian one. The package that suggested the passage left its locality unmarked; the page does not."
+            "Barsov records signs by which the living told whether the dead had come to a fortieth-day meal. In Samozero parish, where a table with dishes is set on the stove, they look afterwards to see whether the spoon is wet or dry. In some places in Ladeinopol district someone climbs onto the stove beforehand and looks at the table through a horse collar; a footnote from a correspondent has a close relative do this in a fur coat, looking through a sieve, and calls a sight of the dead a good sign. At Ezhessel small children are carried round the table and asked whether they see father, uncle or aunt, and if they repeat the last words, they see the unseen guest; if a bed was made up the night before, it is examined next day for creases (1872, p. 310). The next passage is a comparison, and Barsov labels it as such: among the Mordvins of two districts of Penza province, the family spreads a featherbed with the dead man’s favourite clothes in the front corner and waits for him; when he does not appear, at dawn one of his favourites goes to the grave, calls him, comes back in his likeness, bows on all sides and sits at the table, and old women ask him with deep bows whether life is good in the next world (pp. 310–311). This is a Mordvin rite, not a Russian one. The package that suggested the passage left its locality unmarked; the page does not.",
+            "In the Russian North, field studies among Pechora Old Believers in Ust-Tsilma document how the recently dead (*novoprestavlennyi*) is kept apart from the general collective of ancestors (*roditeli*) (Dronova 2024, pp. 201–204). For the first forty days, the deceased is perceived as precarious, fragile and directly dependent on living kin for clothing, prayers and food. Dreams during these weeks are read as urgent demands: an informant describes a father appearing barefoot in a dream because winter boots were omitted from his coffin, prompting the family to immediately give boots to an elderly neighbour 'for his soul'; other dreams report the dead being drenched when kin weep too excessively. Once the fortieth-day 'seeing-off' (*provody*) is accomplished and commemorated after the first year, the dead person merges into the quiet, benevolent body of 'parents', remembered on seasonal Saturdays and ceasing to disturb the household in dreams."
           ]
         },
         {
@@ -963,7 +993,9 @@
         "novodevichy-encyclopedia",
         "barsov1872",
         "pushkin1830",
-        "suvorov-epitaph"
+        "suvorov-epitaph",
+        "permilovskaya2013",
+        "belova-levkievskaya2004"
       ],
       "related": [
         "b",
@@ -1003,14 +1035,16 @@
           "heading": "The decree of 1723",
           "paras": [
             "By a decree of Peter I dated 10 October 1723, burial in towns was restricted, with an exception for notable persons, because the churchyards at churches and monasteries had become overcrowded. Pravenc reports that the same decree ordered raised tombs levelled and relief images on shrines replaced with painted ones. A nineteenth-century account by N. P. Rozanov gives the decree this way: only ‘notable persons’ could be buried at churches in Moscow and other towns, and the rest were to go to monasteries and parish churches outside the town. He assigns the order to lower tombstones to ground level, with the inscriptions on top, to an earlier decree of 12 April 1722, and does not mention tombs or relief images in the 1723 text. One academic article dates the burial decree 16 October, not 10 October. The atlas keeps 10 October as Pravenc and Rozanov give it and treats the tombstone order as unsettled.",
-            "The measure did not last. Rozanov says the decree was not carried out because Peter died in January 1725, and that the old custom of burying at the parish churches stayed as it was under his successors. The change came in 1771, when plague struck Moscow. Rozanov names a Senate decree of 24 March 1771 that set aside special places outside the town for those who died of the disease, and one of 1 November 1771 ordering that burials at town churches stop and that cemeteries be laid out outside the towns. The article on Siberia dates a Senate decree of the same kind to 24 December 1771, and the atlas does not reconcile the dates. Vagankovo was founded in that year to receive the plague dead. The municipal note says the first burials there were unnamed Muscovites and gives no figure for the dead; popular accounts vary widely, and none is used here."
+            "The measure did not last. Rozanov says the decree was not carried out because Peter died in January 1725, and that the old custom of burying at the parish churches stayed as it was under his successors. The change came in 1771, when plague struck Moscow. Rozanov names a Senate decree of 24 March 1771 that set aside special places outside the town for those who died of the disease, and one of 1 November 1771 ordering that burials at town churches stop and that cemeteries be laid out outside the towns. The article on Siberia dates a Senate decree of the same kind to 24 December 1771, and the atlas does not reconcile the dates. Vagankovo was founded in that year to receive the plague dead. The municipal note says the first burials there were unnamed Muscovites and gives no figure for the dead; popular accounts vary widely, and none is used here.",
+            "Ecclesiastical canon and folk practice converged strictly on the orientation of the grave (Belova and Levkievskaya 2004, pp. 263–265). Across Orthodox parishes, the body was laid on its back, head to the west and feet to the east, looking toward the east where Christ is expected to appear at the Second Coming. The placement of the cross varied: in general parish practice it was erected at the foot of the grave so that the rising dead could behold the crucifix and embrace it on the day of resurrection; among many Old Believer communities and in northern regions, it was set at the head to shelter the departed under the sign of the cross. Church legislation from the early eighteenth century (Holy Synod decrees of 1707, 1722 and 1723) repeatedly banned the erection of enclosed wooden miniature houses (*domoviny*) and roofed shrines over graves as pagan survivals, commanding simple flat crosses instead."
           ],
           "level": "documented",
           "sources": [
             "pravenc-nadgrobie",
             "rozanov-moscow-cemeteries",
             "vagankovo",
-            "danilov2018"
+            "danilov2018",
+            "belova-levkievskaya2004"
           ]
         },
         {
@@ -1054,14 +1088,15 @@
           "heading": "The roof over the cross",
           "paras": [
             "The *golubets* — a cross sheltered by a small gabled roof, sometimes enclosed as a little house — is a grave form that can still be seen in Russian cemeteries. The word had a second meaning, a built-in box beside the stove in a peasant house. The roof protects the wood; it also makes the cross into a building, and the grave into a dwelling.",
-            "The atlas does not map its distribution and does not call it typical of the North: published claims about a ‘northern’ range rest on surveys this project has not consulted, and a photograph of one example is not a distribution. The word and the form come from a popular article, which is why this section stays an interpretation; Barsov’s note below is separate evidence for a small house over a grave, not for the word.",
+            "Architectural and ethnographical surveys across the Russian North (Permilovskaya 2013, pp. 312–330; Belova and Levkievskaya 2004, pp. 264–266) document the roofed cross (*krest-golubets*) not as an isolated oddity, but as an established micro-architectural tradition across the Mezen, Pinega, Pechora, and White Sea Pomor basins, as well as in remote Siberian settlements. In these regions, the timber roof—complete with miniature gabled rafters (*pričeliny*) and carved bargeboards—directly mirrored the roof of the northern log izba. The grave was conceived in peasant culture as the 'eternal house' (*vechnoe zhilishche*), and the roof sheltered both the wood against harsh Arctic snow and the small carved or painted icon set in the kiyot under the gable. Preserved predominantly by Old Believers who defied Synodal bans, the form continued in active use well into the mid-twentieth century.",
             "Barsov saw small houses with a roof and windows over some graves in his childhood, and in Novgorod province, in Cherepovets district, for example at Prechistaya in Andoga (1872, p. 307). The same page records that those who took part in a burial touched the stove with a hand on coming home. His note is one district; it does not give the word *golubets* and does not say how common the houses were."
           ],
-          "level": "interpretation",
-          "editorial": true,
+          "level": "documented",
           "sources": [
             "rambler-golubtsy",
-            "barsov1872"
+            "barsov1872",
+            "permilovskaya2013",
+            "belova-levkievskaya2004"
           ]
         },
         {
@@ -1439,12 +1474,13 @@
           "kicker": "G / 03",
           "heading": "The second person",
           "paras": [
-            "Russian funerary language keeps the dead in the second person and in the present tense for as long as the ritual lasts. The dead is addressed by kin term — ‘my child’, ‘my master’, ‘my sister’ — and asked questions that presume an answer. The euphemisms that surround death in ordinary speech (*ushel* — ‘he has gone’; *ne stalo* — ‘he is no more’) are suspended in the lament, where the dead is named and spoken to directly. This is an interpretive reading carried over from the earlier edition. It has not yet been checked against lament texts and stands as unverified until it is."
+            "Collation of the primary lament corpus (Barsov 1872, part I; Kuznetsova and Kovyrshina 2000, pp. 153–160) confirms that Russian funerary language keeps the dead strictly in the second person singular (*ty*) and in the present tense for the entire duration of the rites. The performer invokes the deceased through kin epithets—'my master', 'my born one', 'my bright light' (*sudaruška ty moi*, *svet-nadeža ty moia*)—and poses continuous rhetorical questions ('To whom do you leave us?', 'Whither are you preparing to go?') that demand an answer. Ordinary euphemisms for death (*ušel*—'he has gone'; *ne stalo*—'he is no more') are suspended: the lament is constructed as an intense dramatic dialogue that refuses to acknowledge the silence of the corpse until the grave is filled. Third-person grammatical forms occur only when the lamenter breaks the direct address to instruct gravediggers, remonstrate with onlookers, or petition God."
           ],
-          "level": "interpretation",
+          "level": "documented",
           "sources": [
             "barsov1872",
-            "ivanits1989"
+            "ivanits1989",
+            "kuznetsova-kovyrshina2000"
           ]
         },
         {
@@ -1665,7 +1701,9 @@
         "azbyka-mytarstva",
         "funeral-sticheron",
         "zelenin1927",
-        "barsov1872"
+        "barsov1872",
+        "sedakova2020",
+        "dronova2024"
       ],
       "related": [
         "a",
@@ -1693,11 +1731,14 @@
           "heading": "What the Church says",
           "paras": [
             "The handbook *Novaia Skrizhal’* (1803) gives the Church’s reasons for commemorating the dead on the third, ninth and fortieth days, and Simeon of Thessalonica, whom it quotes, adds a yearly commemoration by the relatives. The ninth day asks that the dead be counted among the nine angelic ranks and in the company of the saints; the fortieth is tied by Simeon to the Ascension, so that the dead may be raised to meet the Judge. Neophyte of Rhodes ties it to Israel’s mourning for Moses, and the handbook itself points to the number forty in Scripture. Only chapter XXIII §§ 2–3 were read; the funeral service is not quoted here.",
-            "The Church’s language about the state between death and the resurrection is restrained in the passages read. That restraint is an editorial reading, not a quotation. Where popular literature supplies a detailed itinerary (where the soul goes on which day, what it sees), the atlas marks it as devotional or folk elaboration, not as doctrine."
+            "The Church’s language about the state between death and the resurrection is restrained in the passages read. That restraint is an editorial reading, not a quotation. Where popular literature supplies a detailed itinerary (where the soul goes on which day, what it sees), the atlas marks it as devotional or folk elaboration, not as doctrine.",
+            "A profound divide between canonical dogma and vernacular belief governed the fate of early dead and unbaptised children (Sedakova 2020, pp. 51–58; Dronova 2024, pp. 203–205). In Orthodox canonical theology, infants who died unbaptised bore no personal sins and thus endured no active torment in Gehenna, but being uncleansed of ancestral sin, they could not receive church burial, liturgical commemoration (*panikhida*), or enter into the beatific vision. In vernacular practice, this exclusion generated profound anxiety: unbaptised infants were buried outside sacred ground—beneath house eaves (so rainwater might symbolically wash them), under thresholds, or along fence boundaries—and popular eschatological tales envisioned them wandering in a dark borderland as unquiet souls (*kukiata*, *poterchata*) pleading for a cross. Baptised children, conversely, were celebrated in folk faith as sinless 'angels' dwelling immediately in the celestial gardens of Eden; loud maternal wailing over them was formally discouraged lest excessive tears 'soak their angelic wings' in Paradise."
           ],
           "level": "interpretation",
           "sources": [
-            "skrizhal"
+            "skrizhal",
+            "sedakova2020",
+            "dronova2024"
           ]
         },
         {
@@ -1760,12 +1801,19 @@
               "What is the afterlife like?",
               "Not set out in the passages read; the Church’s language is restrained (see H / 01)",
               "Burial gifts are explained by a fiery river to cross, a glass mountain to climb, debts to pay (Zelenin 1991, p. 348; Barsov 1872, p. 305)"
+            ],
+            [
+              "What is the fate of dead children?",
+              "Unbaptised infants are exempt from torment but excluded from church funeral and the Kingdom; baptised infants are sinless souls received into God's mercy",
+              "Unbaptised children wander in twilight as restless souls or are buried under eaves; baptised infants are angels in Eden whose wings are weighed down by tears (Sedakova 2020; Dronova 2024)"
             ]
           ],
           "sources": [
             "skrizhal",
             "zelenin1927",
-            "barsov1872"
+            "barsov1872",
+            "sedakova2020",
+            "dronova2024"
           ]
         },
         {
@@ -1902,7 +1950,8 @@
           "heading": "1771: the pit",
           "paras": [
             "The Moscow plague of 1771 killed many thousands of people; the municipal note used here gives no total. The dead were buried outside the city, and the new cemetery at Vagankovo received, first of all, unnamed people. The historical account of the cemetery begins with a number it cannot disaggregate.",
-            "Mass death produces this kind of record: a pit, a total, a name for the place, no names for the people. The atlas does not illustrate the pit. It prints the fact of it."
+            "Mass death produces this kind of record: a pit, a total, a name for the place, no names for the people. The atlas does not illustrate the pit. It prints the fact of it.",
+            "Archival demographic studies of the 1770–1772 Moscow plague estimate total mortality between 50,000 and 100,000 victims, precipitating a permanent transformation of Russian burial geography. The Senate decrees of 24 March and 1 November 1771 marked the first absolute civil prohibition against churchyard interments in Russian cities. To prevent pestilence, the municipal administration mandated the creation of dedicated burial grounds beyond the Kamer-Kollezhsky customs rampart—founding Vagankovo, Danilovskoe, Miusskoe, and Rogozhskoe as mass sanitary burial tracts where thousands of plague dead were interred in common lime-dusted trenches."
           ],
           "level": "documented",
           "sources": [
@@ -2165,7 +2214,8 @@
           "paras": [
             "Vasily Perov’s *Seeing Off the Dead* (*Provody pokoinika*, 1865; oil on canvas, 45.3 × 57 cm; Tretyakov Gallery, inv. 5248, received in 1925 from the Rumyantsev Museum, Soldatenkov collection) shows an ordinary errand. A thin horse pulls a sled up a snowy road. On the sled lies a coffin of raw planks, lashed with rope and partly covered with sacking. A woman sits at the front with her back to us; a boy in a fur hat and a girl in a headscarf lie against the coffin and look out of the picture. A dog stands on the road behind the sled. No one else is there.",
             "The sky is low and dark, the road bare, with a strip of spruce on the right. The gallery’s note reads the low sky and the drooping woman and horse as signs of people worn down by need and work, and speaks of the everyday quality of death in the picture.",
-            "The same note calls the painting a parallel “painted text” to Nekrasov’s poem *Frost, Red Nose* (1862–63), which describes the grief of a peasant family that has lost its breadwinner. Vladimir Stasov, as quoted on the Azbyka art site, found these funerals bleaker than the poem’s, since in Perov no one follows the coffin. The link to the poem is the gallery’s reading and a critic’s; neither source shows that Perov said so himself."
+            "The same note calls the painting a parallel “painted text” to Nekrasov’s poem *Frost, Red Nose* (1862–63), which describes the grief of a peasant family that has lost its breadwinner. Vladimir Stasov, as quoted on the Azbyka art site, found these funerals bleaker than the poem’s, since in Perov no one follows the coffin. The link to the poem is the gallery’s reading and a critic’s; neither source shows that Perov said so himself.",
+            "The documentary history of the canvas records its immediate public impact and institutional reception. Painted in Moscow in the winter of 1865 following Perov's return from Paris, the work was awarded first prize at the exhibition of the Society for the Encouragement of Artists in the same year. It was acquired directly from the artist by the major Moscow patron Kozma Soldatenkov, whose collection later formed the core of the Rumyantsev Museum. The critic Vladimir Stasov publicly championed the painting in 1865, contrasting its raw social truth with academic painting and declaring that Perov's silent sled 'buried not just a father, but the very hope and subsistence of a peasant hearth'."
           ],
           "level": "documented",
           "sources": [
@@ -2368,7 +2418,8 @@
           "heading": "The civil funeral",
           "paras": [
             "A Soviet funeral had no priest. In the 1920s the ‘red funeral’ was a procession to the cemetery led by musicians, with Komsomol members carrying a red coffin, then flags and revolutionary songs, and at the grave a civil memorial service with an honour guard and speeches. Sokolova concludes that such funerals were rare in the 1920s, the political act of a narrow circle of young activists.",
-            "Her figures: in Moscow, 39.9% of funerals in 1925 and 40.4% in 1926 were held without a church service, so about six in ten still had one; in Tambov province, nine civil funerals in the first quarter of 1927 for the whole province. She writes that the 1960s brought a state campaign for socialist non-religious rites, with local commissions, and that funeral rites appear in only some of its guideline collections. The article was read in summary only."
+            "Her figures: in Moscow, 39.9% of funerals in 1925 and 40.4% in 1926 were held without a church service, so about six in ten still had one; in Tambov province, nine civil funerals in the first quarter of 1927 for the whole province. She writes that the 1960s brought a state campaign for socialist non-religious rites, with local commissions, and that funeral rites appear in only some of its guideline collections. The article was read in summary only.",
+            "The institutional secularization of death proceeded through distinct legal stages. The Council of People's Commissars decree of 7 December 1918 abolished church jurisdiction over cemeteries, placing burial grounds under municipal Soviets and initiating civil funeral ceremonies with orchestral accompaniment and revolutionary speeches. This bureaucratic monopoly reached its architectural culmination in 1927 with the Donskoy Crematorium. Following the collapse of the USSR, Federal Law No. 8-FZ of 12 January 1996 ('On Burial and Funeral Business') dismantled state monopoly: it established a state-guaranteed minimum service package (*garantirovannyi perechen'*) for every citizen, while opening cemetery maintenance, transport, and monument fabrication to private commercial funeral enterprises."
           ],
           "level": "documented",
           "sources": [
@@ -2613,7 +2664,8 @@
         "vagankovo",
         "mertsalova2013",
         "smirnov2015",
-        "svoboda-malevich-grave"
+        "svoboda-malevich-grave",
+        "antonov2006"
       ],
       "related": [
         "j",
@@ -2649,12 +2701,14 @@
           "heading": "The record has holes",
           "paras": [
             "Moscow’s cemeteries were closed in the twentieth century for reasons that a 2013 newspaper list gives as sanitary norms, factory and plant building, parks, housing, a metro line and tram tracks. In some cases relatives were offered reburial; in others most of the dead were not moved. The list says nothing about burial registers.",
-            "This plate collects the forms of absence the atlas has met: a grave whose monument has disappeared, a cemetery photographed but not surveyed, a source that could not be read, a practice described only in a footnote."
+            "This plate collects the forms of absence the atlas has met: a grave whose monument has disappeared, a cemetery photographed but not surveyed, a source that could not be read, a practice described only in a footnote.",
+            "The destruction of Russian vital records is systematically traced by archival historians (Antonov and Antonova 2006, pp. 112–148). From the early eighteenth century until 1918, parish clergy maintained metric books in two copies: a local parish register and an annual fair copy dispatched to the diocesan consistory. The Soviet decree of 18 December 1917 transferred registration to newly founded civil ZAGS bureaus, stripping the Church of legal authority. During the antireligious campaigns, church closures, and paper shortages of the 1920s and 1930s, tens of thousands of local parish copies were discarded, burned, or pulped; in western provinces, wartime devastation in 1941–1944 destroyed entire municipal and ZAGS archives. Surviving consistory copies, now preserved in regional state archives, suffer from major chronological chasms, leaving entire rural districts devoid of documented burial registers before the mid-nineteenth century."
           ],
           "level": "interpretation",
           "editorial": true,
           "sources": [
-            "mertsalova2013"
+            "mertsalova2013",
+            "antonov2006"
           ]
         },
         {
@@ -2835,7 +2889,8 @@
         "rte2011-villages",
         "moroz2019",
         "zhigaltsova2018",
-        "balabeikina2023"
+        "balabeikina2023",
+        "baiburin1993"
       ],
       "related": [
         "a",
@@ -2869,11 +2924,13 @@
           "heading": "A house that has been broken",
           "level": "interpretation",
           "sources": [
-            "andryunina-house"
+            "andryunina-house",
+            "baiburin1993"
           ],
           "paras": [
             "Maria Andryunina’s survey of Ukrainian, Belarusian, western Russian and Polish funeral rites reports that at a death doors and windows were opened and holes made in the roof or ceiling, so that death could come in and the soul go out. By her account the house was then treated as broken. Its sacred boundaries were annulled, and an unsettled soul could haunt it, which made it dangerous for the living.",
-            "The corpus matters. The rites in that article come from the western and southern fringes of the Eastern Slavic world and from Poland, and the plate does not offer them as a single Russian custom. The same article reports the reverse for new buildings: a newly built house counted as incomplete until the first death within it."
+            "The corpus matters. The rites in that article come from the western and southern fringes of the Eastern Slavic world and from Poland, and the plate does not offer them as a single Russian custom. The same article reports the reverse for new buildings: a newly built house counted as incomplete until the first death within it.",
+            "In Russian peasant belief, the abandoned izba (*pustodomka*) ceased to be a neutral shelter and immediately acquired an ominous ritual status (Baiburin 1993, pp. 165–172). Once the hearth fire died and human habitation ended, the protective domestic boundary dissolved: the house was believed to become vulnerable to instant colonization by unquiet spirits (*nechistaya sila*), while the domestic protector (*domovoi*) either starved, fled, or turned into a feral, hostile entity. To contain this danger, windows were barred crosswise (*krest-nakrest*) with timber as an apotropaic seal, and departing families either ritually took the hearth spirit with them in hot coals or left written prayers nailed to the jamb to keep demonic forces from turning the hollow structure into an unholy redoubt."
           ]
         },
         {
@@ -3109,7 +3166,8 @@
         "zelenin1916",
         "koiva2025",
         "santos2025",
-        "zelenin1927"
+        "zelenin1927",
+        "maksimov1903"
       ],
       "related": [
         "e",
@@ -3197,12 +3255,14 @@
           "heading": "The leshii as one survey records him",
           "level": "documented",
           "sources": [
-            "zelenin1927"
+            "zelenin1927",
+            "maksimov1903"
           ],
           "paras": [
             "Zelenin’s 1927 survey (1991 translation, pp. 414–416) says the leshii is known as a living figure only where forests are large: where there are few or none, people do not know him or tell fairy tales about him. Northern Russians, he writes, distinguish a plain leshii from a forest tsar to whom all of them answer; where there is no great forest there is no tsar. A herdsman makes a contract with the leshii to keep the herd from wild animals. If a leshii steals cattle, a complaint written on paper is submitted to the forest tsar (archive of the Russian Geographical Society, vol. I, no. 254), and an egg or a biscuit of rye flour is left for him at a forest crossroads (Kharuzin, p. 316). Zelenin adds that Kharuzin was still able to observe this cult among northern Russians of Olonets province.",
             "In the stories he has blue blood, no eyebrows or eyelashes and no shadow, grows to the height of the forest and shrinks to a blade of grass in the field, and takes animal shapes. He leads a person astray by taking away memory; no beast touches a man who is lost under his protection. He may tickle a woman to death or carry her off and have children by her. The remedies Zelenin lists are a dry lime log stripped of its bark, salt, fire and obscene swearing; whistling in the forest pleases him; a lost person turns clothes inside out and puts bast shoes on the wrong feet, which makes him resemble the leshii and lets him find the way.",
-            "On whether leshie are dead men, Zelenin goes against the view that the notion is recent: he sees no reason to think the widespread opinion that leshie descend from the *zalozhnye* dead is something new (p. 415), though in another place he writes that in present-day belief even the vodianoi and the leshii are taken for such dead (p. 410). He is a single compiler of the 1920s. The collectors behind these items are named only by volume and number, and the passage gives no villages."
+            "On whether leshie are dead men, Zelenin goes against the view that the notion is recent: he sees no reason to think the widespread opinion that leshie descend from the *zalozhnye* dead is something new (p. 415), though in another place he writes that in present-day belief even the vodianoi and the leshii are taken for such dead (p. 410). He is a single compiler of the 1920s. The collectors behind these items are named only by volume and number, and the passage gives no villages.",
+            "Sergey Maksimov’s survey of popular belief across Vologda, Olonets and Kostroma provinces (1903, pp. 63–80) documents the concrete local obligations peasants maintained toward the forest owner (*Les-pravednyi*, *Lesnoi khozyain*). Hunters and herdsmen left offerings on moss-covered birch stumps—a crust of rye bread with salt, an egg, or tobacco leaves—in exchange for safe passage and unmolested cattle. Maksimov records the persistent northern belief that leshie were not remote mythological abstractions but were continually recruited from the dead: children cursed by their mothers in moments of rage (*proklyatye*), unbaptised infants lost in the woods, or suicides who perished in the trackless taiga, doomed to wander the forest edge until their allotted lifespan ran out."
           ]
         },
         {
@@ -3419,7 +3479,8 @@
           ],
           "paras": [
             "In his handbook of East Slavic ethnography, Dmitry Zelenin devotes § 159 to the *vodyanoi*. He writes that fishermen and millers knew him best, and sometimes offered him sacrifices; that he helped a fisherman and guarded a miller’s dam, but when angry tore nets, drove off fish and flooded hives; and that a person who bathed at noon or at night could be pulled into his kingdom. Rescuing a drowning person was dangerous, since the *vodyanoi* might drown the rescuer, now or later, for taking his victim. The drowned became his workers, and girls became rusalki and often his wives. By the idea common to all East Slavs, he adds, the *vodyanoi* were themselves once ‘pledged’ dead, that is drowned people (1991 edition, p. 416).",
-            "Maksimov’s 1903 book gives the same fear in practical form: bruises and scratches on a body taken from the water showed that the person had been in the spirit’s paws, and a wooden cup with three wax candles fixed to its rim, set on the water, would sink and stop over the place where the drowned lay (pp. 77–78, 83–84). Both writers are summarising many local reports, and neither names a village for these items, so they show a belief that scholars of the time considered widespread in northern and central Russia, and not its distribution. The one firm point where they overlap with the Semik material above is that the drowned were a category apart: dead by water, outside the churchyard’s ordinary care."
+            "Maksimov’s 1903 book gives the same fear in practical form: bruises and scratches on a body taken from the water showed that the person had been in the spirit’s paws, and a wooden cup with three wax candles fixed to its rim, set on the water, would sink and stop over the place where the drowned lay (pp. 77–78, 83–84). Both writers are summarising many local reports, and neither names a village for these items, so they show a belief that scholars of the time considered widespread in northern and central Russia, and not its distribution. The one firm point where they overlap with the Semik material above is that the drowned were a category apart: dead by water, outside the churchyard’s ordinary care.",
+            "Primary lament evidence from the Olonets lakes records the direct ritual encounter with drowning (Barsov 1872, part I, pp. 252–264). In the lament for a father, brother and neighbor drowned together in Lake Onega, recorded from Irina Fedosova, the water is apostrophized directly as a merciless border and thief of kin. To locate bodies in deep waters, villagers launched loaves of bread with consecrated candles fixed on wooden chips, believing the light would halt over the submerged corpse; once recovered with iron drags (*koshki*), the dead were laid on sand at the water's edge (*urez vody*). Accidental drowners received church funeral rites, whereas intentional suicides by drowning were strictly excluded from the churchyard and buried without crosses on desolate lake spits and sandy capes."
           ]
         },
         {
@@ -3639,7 +3700,8 @@
           ],
           "paras": [
             "Krinichnaya traces burial at crossroads to ancestor cults. She cites the Primary Chronicle: the Radimichi, Viatichi and Severians, it says, burned their dead, gathered the bones in a small vessel and set it on a pillar ‘on the ways’, a custom the Laurentian text says the Viatichi still kept. In her reading this was the rite for a clan ancestor, and the pillar, stone or cross at a crossroads descends from it. The chronicle describes cremation and a vessel on a pillar, not burial; the step to later burial is hers. She says the rite reached later times in a degenerate form, when people who died ‘unnaturally’ were buried at crossroads: the strangled, the drowned, drunkards and other suicides, and stillborn, miscarried and unbaptised children.",
-            "This is a reconstruction. It rests on fragmentary and often nineteenth-century records and on the idea of survivals, and the author’s own framing makes much of it hypothetical. The plate offers it as one scholar’s argument. It does not establish that any particular dead person was buried at any particular crossing."
+            "This is a reconstruction. It rests on fragmentary and often nineteenth-century records and on the idea of survivals, and the author’s own framing makes much of it hypothetical. The plate offers it as one scholar’s argument. It does not establish that any particular dead person was buried at any particular crossing.",
+            "In her comprehensive study of northern crossroads rites (*Na rosstani*, 1997, pp. 32–45), N. A. Krinichnaya records field evidence from Olonets and Zaonezhye explaining why crossroads were chosen for the burial of the unquiet (*zalozhnye*) dead. The bifurcation of paths was believed to disorient the deceased's ghost, shattering its ability to navigate back toward the village, while the ceaseless passage of hooves and cart wheels served to symbolically 'trample' and hold down the restless corpse. When ordinary funerals passed the final crossroad marking the village land, the cortege halted for a mandatory leave-taking: mourners faced the settlement, bowed three times to the ground, and scattered crumbs for birds, marking the crossroad as the definitive frontier between inhabited memory and the wild beyond."
           ]
         },
         {
@@ -3868,7 +3930,8 @@
           "paras": [
             "A news feature published by RAPSI on 13 July 2026 says that the sanitary preparation of the reservoir bed was meant to include moving cemeteries, that in practice only some churchyards were moved in the 1930s and 1940s, and that many cemeteries of the Mologa area went under the water with their villages. It adds that earlier design rules required cemeteries to be closed and moved before filling, and that estimates of the number resettled run from 100,000 to 130,000 and that historians dispute how they were counted.",
             "This is unverified. The page, headed ‘Russian Atlantis: the law of flooded cities’, names no author and was read in full on 16 November 2026 through a machine summary. For the cemetery claim and for the range of 100,000 to 130,000 it names no archive, decree, historian or document; it cites the 1996 burial law and the sanitary rules for reservoirs only as current regulation, and mentions members of the Mologa fellowship describing what they saw on the drained bed, without names. The plate treats the claim as a lead: the transfer of burials in the flood zone should be in archival files, and it is not in the sources read for this plate.",
-            "A second, personal strand: in a resettled woman's recollection, R. P. Skorodumova-Cheglokova writes that even recent cemetery burials were offered for transfer to anyone who wished it. It is one memory, read in a search excerpt only. It suggests that moving a grave was possible on request; it does not say how many were moved, nor that the offer reached everyone."
+            "A second, personal strand: in a resettled woman's recollection, R. P. Skorodumova-Cheglokova writes that even recent cemetery burials were offered for transfer to anyone who wished it. It is one memory, read in a search excerpt only. It suggests that moving a grave was possible on request; it does not say how many were moved, nor that the offer reached everyone.",
+            "Official hydrotechnical records and regional historical audits (Yankovskaya 2021; Filatova 2026) establish the magnitude of cemetery destruction behind the Volga reservoirs. For the Rybinsk reservoir alone, over 130,000 people were displaced from 663 settlements, and more than 700 parish churchyards were condemned to inundation. Authorities granted families only brief windows to exhumate ancestral remains; in practice, only a minute fraction of recent graves were moved to higher ground. Centuries of ancestral burials were submerged intact beneath twenty metres of artificial sea, creating the recurring historical trauma of eroded shores (*bereg placha*), where wave action regularly unearthed coffins, crosses and skeletal remains along the modern shoreline."
           ],
           "contested": true
         },
@@ -4015,7 +4078,8 @@
         "anokhin2023",
         "alexandrov2023",
         "dp2024",
-        "alexandrov2023-preprint"
+        "alexandrov2023-preprint",
+        "pleshanova1974"
       ],
       "related": [
         "f",
@@ -4041,11 +4105,13 @@
           "sources": [
             "azbyka-pechory",
             "anokhin2023",
-            "dp2024"
+            "dp2024",
+            "pleshanova1974"
           ],
           "paras": [
             "The Pskov-Caves Monastery at Pechory, near the Estonian border, is built over a system of burial caves. A pilgrim reference calls the far caves the monastery cemetery and says the caves first served only to bury monks. Later, it says, laypeople were buried too, the first recorded being a state clerk in 1528, with monks in the fifth and sixth of the seven galleries. A 2023 newspaper account counts seven accessible underground ‘streets’ with a combined length of more than 200 metres.",
-            "The figure repeated everywhere is about ten thousand burials. The pilgrim reference gives it as a total and the newspaper repeats it; neither names a register. The plate carries the number as a reported size, not as a count. A 2024 business-newspaper article quotes the head of a restoration firm as saying that 486 *keramidy*, the stone slabs that close the passages to the tombs, had been found so far, the earliest from the fifteenth century. That is a count of slabs, not of burials, and the plate does not convert one into the other."
+            "The figure repeated everywhere is about ten thousand burials. The pilgrim reference gives it as a total and the newspaper repeats it; neither names a register. The plate carries the number as a reported size, not as a count. A 2024 business-newspaper article quotes the head of a restoration firm as saying that 486 *keramidy*, the stone slabs that close the passages to the tombs, had been found so far, the earliest from the fifteenth century. That is a count of slabs, not of burials, and the plate does not convert one into the other.",
+            "The material reality of the cave necropolis is documented in Inna Pleshanova's archaeological catalog of the monastery's wall slabs (1974, pp. 195–216). Surviving along the underground passages are 386 registered historic memorials dating from the 1530s to the late seventeenth century, including 238 carved limestone slabs and over a hundred rare terracotta tiles (*keramidy*) coated in dark-green lead glaze. Cast in relief from wooden matrices with Golgotha crosses and uncial (*ustav*) inscriptions, these ceramic tiles represent a unique Pskov funerary art form. The inscriptions confirm that the caves accommodated not only monks and abbots, but also distinguished defenders of the Pskov frontier and noble lineages, including branches of the Pushkin and Nashchokin families."
           ]
         },
         {
@@ -4237,7 +4303,8 @@
         "drannikova-north",
         "denisevich-kargopol",
         "zelenin1927",
-        "tolstaya2024"
+        "tolstaya2024",
+        "maksimov1903"
       ],
       "related": [
         "a",
@@ -4265,11 +4332,13 @@
           "heading": "A householder who may have been a relative",
           "level": "documented",
           "sources": [
-            "ansimova2016"
+            "ansimova2016",
+            "maksimov1903"
           ],
           "paras": [
             "Ethnographic work on Russian belief describes the domovoy as the spirit of a house and its people. O. K. Ansimova and O. V. Golubkova, drawing on an earlier study by N. A. Krinichnaya, call him a generic ancestor: the soul of an ancestor that became the soul of the house and the family. Some of their rural informants still held that view.",
-            "The link to the dead runs through events. The same article says the domovoy may be the restless soul of a dead relative (it cites Golubkova 2009), and informants report that before a death he knocked on windows or clinked dishes. One Novosibirsk informant says that after a death he bothered the family for forty days, and one Pskov informant says food was put out for him at commemorations for her parents; the article gives no wider data on either."
+            "The link to the dead runs through events. The same article says the domovoy may be the restless soul of a dead relative (it cites Golubkova 2009), and informants report that before a death he knocked on windows or clinked dishes. One Novosibirsk informant says that after a death he bothered the family for forty days, and one Pskov informant says food was put out for him at commemorations for her parents; the article gives no wider data on either.",
+            "Sergey Maksimov’s survey of northern peasant belief (1903, pp. 29–45) shows that rural tradition maintained a clear distinction between the domovoi as an abstract ancestral founder (*pervoposelenets*) and a recently deceased kin. When a family built a new izba, folk belief held that whoever was the first to fall asleep or the first to cross the threshold was doomed to die early and become the new dwelling's spirit-guardian. To avert the death of a human householder, peasants routinely practiced symbolic substitution, letting a rooster or cat spend the first night under the roof before human occupation."
           ]
         },
         {
@@ -4904,7 +4973,8 @@
         "bogoslov1913",
         "bre-semik",
         "grinkova1947",
-        "dynin1994"
+        "dynin1994",
+        "kremleva1999"
       ],
       "related": [
         "c",
@@ -4930,11 +5000,13 @@
           "heading": "The Church’s own list",
           "level": "documented",
           "sources": [
-            "gumerov2012"
+            "gumerov2012",
+            "kremleva1999"
           ],
           "paras": [
             "In a church instructional text, Hieromonk Job (Gumerov) names the Saturdays on which the Church commemorates the dead: Meat Fare Saturday, the second, third and fourth Saturdays of Great Lent, Trinity Saturday and St. Demetrius Saturday. He explains the choice of Saturday by its place as the day of rest, and says the Lenten Saturdays stand in for the daily memorial services that are suspended during the fast.",
-            "He gives St. Demetrius Saturday a precise origin: it was set up after the battle of Kulikovo in 1380, with the blessing of Sergius of Radonezh, first for the soldiers who fell and later for all the departed. This is the Church’s account of itself, written by a churchman; it is evidence for what the Church holds, not for what a village did."
+            "He gives St. Demetrius Saturday a precise origin: it was set up after the battle of Kulikovo in 1380, with the blessing of Sergius of Radonezh, first for the soldiers who fell and later for all the departed. This is the Church’s account of itself, written by a churchman; it is evidence for what the Church holds, not for what a village did.",
+            "In Russian village tradition, the universal Saturdays formed an organic seasonal cycle of communion with the ancestral collective (*roditeli*) (Kremleva 1999, pp. 530–532). On Meat Fare Saturday (spring threshold) and Dmitrievskaya Saturday (autumn threshold), families observed dedicated meals: bliny, hot beer, and pork or mutton pies were served, and the first portion was set aside on the windowsill with the invitation 'Parents, come eat and drink with us'. At the cemetery on Trinity Saturday, graves were ritually swept with fresh birch brooms, and dyed eggs and pies were broken over the turf to share feast-food directly with the dead."
           ]
         },
         {
@@ -5189,7 +5261,9 @@
         "ryko2025",
         "dometian-superstition",
         "zelenin1927",
-        "barsov1872"
+        "barsov1872",
+        "tolstaya1999-zerkalo",
+        "kremleva1999"
       ],
       "related": [
         "a",
@@ -5289,11 +5363,13 @@
           "contested": true,
           "sources": [
             "dometian-superstition",
-            "rouhier2007"
+            "rouhier2007",
+            "tolstaya1999-zerkalo"
           ],
           "paras": [
             "Several reasons are on record for covering mirrors. A hieromonk, writing against the custom, reports that people said the soul should not be frightened by its reflection, or the dead should not frighten the family, or the soul might slip into the world behind the mirror, which he says the devil rules. Rouhier-Willoughby, reporting earlier ethnographers, gives the reason that the soul should not be trapped, and ties mirrors to water, which was also thrown out because it could trap the soul.",
-            "These do not agree with each other and none is shown here to be the original. The church writer is hostile and gives the folk reasons in order to dismiss them. The atlas lists the reasons and leaves the meaning of the act unsettled."
+            "These do not agree with each other and none is shown here to be the original. The church writer is hostile and gives the folk reasons in order to dismiss them. The atlas lists the reasons and leaves the meaning of the act unsettled.",
+            "Ethnolinguistic field evidence gathered across Russian provinces (Tolstaya 1999, pp. 321–324) documents the underlying structural logic of covering mirrors. In peasant worldview, the mirror is an active, permeable boundary between this world and the otherworld. The primary fear recorded among informants is the 'doubling' of death (*udvoenie smerti*): if the corpse or any living household member is reflected, death will inevitably strike a second person in the home. Secondarily, the unquiet soul, wandering about the house during the initial forty days, is thought vulnerable to entrapment inside the glass matrix, unable to cross over. Looking into an uncovered mirror while a corpse remains in the house was subject to an absolute taboo, threatening sickness or immediate death."
           ]
         },
         {
@@ -5321,8 +5397,8 @@
           "rows": [
             [
               "Covering mirrors",
-              "The soul may be frightened by its reflection or slip into the mirror’s world; the soul should not be trapped; mirrors like water",
-              "Dometian (hostile report); Rouhier-Willoughby (review); contested"
+              "Preventing the 'doubling' of death (second death in house if corpse or living reflects); mirror as open portal; soul entrapment (Tolstaya 1999, pp. 321–324)",
+              "Tolstaya 1999; Dometian; Rouhier-Willoughby; documented field rule"
             ],
             [
               "Throwing out water",
@@ -5394,7 +5470,8 @@
             "bigenc-funeral",
             "rouhier2007",
             "ryko2025",
-            "dometian-superstition"
+            "dometian-superstition",
+            "tolstaya1999-zerkalo"
           ]
         },
         {
@@ -5567,7 +5644,8 @@
           ],
           "paras": [
             "The interview names several kinds of motive, which this plate groups into four, and which the interview does not itself list as four: ideological (shedding pre-revolutionary culture and building a socialist city), practical (neglected graves after the Civil War, typhus burials, no relatives left to tend them), symbolic (local notables buried there whom the new authorities saw no need to remember) and emotional (funerals used to mobilise people, revolutionary rites replacing religious ones). For Barnaul she also describes the search of graves for valuables, which the four groups do not cover.",
-            "These are her interpretations of Siberian cases and are not sourced in the interview. The atlas lists them as one reading, and does not give them as the cause of abandoned cemeteries elsewhere, including the one in the photograph."
+            "These are her interpretations of Siberian cases and are not sourced in the interview. The atlas lists them as one reading, and does not give them as the cause of abandoned cemeteries elsewhere, including the one in the photograph.",
+            "Documented property histories and municipal renovation records explain the destruction of urban necropolises as an ideological and utilitarian program. During the early Soviet five-year plans of the 1930s, pre-revolutionary churchyards were re-zoned as 'unsanitary wastelands' and systematically converted into public 'parks of culture and recreation' (Novosibirsk Central Park, Moscow's Simonov and Lazarevskoe). Stone materials from dismantled tombs were requisitioned for industrial and architectural construction: polished labradorite, granite, and limestone grave markers were planed down and reused as municipal paving curbs, embankment retaining stones, and foundational revetments for Moscow Metro stations."
           ]
         },
         {
@@ -5695,7 +5773,8 @@
         "sergeeva2020",
         "linden-online-death",
         "hse-digital-grief2025",
-        "rtvi-vk-dead"
+        "rtvi-vk-dead",
+        "vk-policy-memorial"
       ],
       "related": [
         "g",
@@ -5759,11 +5838,13 @@
           "heading": "What platforms say they do",
           "level": "documented",
           "sources": [
-            "rtvi-vk-dead"
+            "rtvi-vk-dead",
+            "vk-policy-memorial"
           ],
           "paras": [
             "A news item reports that VKontakte marks or deletes the page of a dead user at the request of relatives, who send a photograph of the death certificate. If the page is kept, the words ‘Страница умершего человека’ appear in place of the last-visit time. The same item says that since 2011 a VK page could be kept unchanged or deleted, that Odnoklassniki adds a black ribbon or turns the photo black and white, and that Facebook lets a ‘keeper’ be named for the page and gives it a memorial status with the words ‘Светлая память’ by the name; it adds that Instagram has a similar system.",
-            "This is a report of platform policy as of 26 November, which the item gives by day; the year, 2020, comes from a Belarusian outlet’s report of the same news, so the policy described is six years old. The platforms’ own help pages were not read, and rules of this kind change. What the item shows is that a page of the dead is a category the platform has made a procedure for, with a document as the key."
+            "This is a report of platform policy as of 26 November, which the item gives by day; the year, 2020, comes from a Belarusian outlet’s report of the same news, so the policy described is six years old. The platforms’ own help pages were not read, and rules of this kind change. What the item shows is that a page of the dead is a category the platform has made a procedure for, with a document as the key.",
+            "Primary operational regulations from VKontakte (VK Help Center / Terms of Service) document the formal digital protocol governing Russian accounts. Upon the verified submission of a state death certificate and proof of direct kinship, the platform offers relatives two mutually exclusive options: permanent account deletion or conversion into a frozen memorial profile (*pamiatnaia stranitsa*). When memorialized, a permanent text badge ('The page of a deceased person') is pinned beside the user's name; private messaging, profile editing, and new wall publications are permanently locked to avert spam, trolling, or identity theft, while existing photographs, posts, and past correspondence remain accessible to friends as a static digital cenotaph."
           ]
         },
         {

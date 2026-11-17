@@ -1800,6 +1800,83 @@
       "language": "Russian",
       "supports": "A song text printed on a plate as a literary or folk song, not as a record of a funeral.",
       "limitation": "The literary source was published in 1831 and its author died in the nineteenth century; the folk variant is traditional. Public domain. The exact songbook of this variant was not collated, so the edition is marked partial even though the text is public domain. Verification of the text was done in the owner’s text package (TEXTUAL_ADDITIONS); this edition has not re-read the source."
+    },
+    {
+      "id": "tolstaya1999-zerkalo",
+      "kind": "reference",
+      "author": "Tolstaya, Svetlana M.",
+      "title": "Zerkalo [Mirror]",
+      "year": "1999",
+      "publisher": "Slavianskie drevnosti: Etnolingvisticheskii slovar [Slavic Antiquities: Ethnolinguistic Dictionary], ed. N. I. Tolstoy, Moscow: Mezhdunarodnye otnosheniia, vol. 2 (D-K), pp. 321-324",
+      "language": "Russian",
+      "supports": "Covering mirrors and reflective surfaces during funeral and mourning; mirror as boundary and portal to the otherworld; fear of death doubling if the dead or living reflect; danger of the soul becoming trapped or harm to the living.",
+      "limitation": "Ethnolinguistic dictionary entry based on pan-Slavic field data, specifically documenting Russian, Belarusian, Ukrainian, and South Slavic beliefs. Russian material includes North and Central Russian practices."
+    },
+    {
+      "id": "kremleva1999",
+      "kind": "monograph",
+      "author": "Kremleva, Irina A.",
+      "title": "Pokhoronno-pominalnye obychai i obriady [Funeral and Memorial Customs and Rites]",
+      "year": "1999",
+      "publisher": "Russkie [The Russians], series Narody i kultury, eds. V. A. Aleksandrov, I. V. Vlasova, N. S. Polishchuk, Moscow: Nauka, pp. 517-532",
+      "language": "Russian",
+      "supports": "Washing of the body by older women/washers (mylshchitsy); strict taboo against blood relatives washing; ritual gifting (linen, towels, kerchiefs, deceased clothing for remembrance) instead of monetary wage; disposal of dangerous washing water (dead water) and washing implements in remote unfrequented spots; transition to carpentry-made/purchased coffins in late 19th-early 20th c.",
+      "limitation": "Academic ethnographic synthesis based on field materials from European Russia and Siberia across the 19th-20th centuries. Covers normative peasant customs and regional variations."
+    },
+    {
+      "id": "permilovskaya2013",
+      "kind": "monograph",
+      "author": "Permilovskaya, Anna B.",
+      "title": "Kul'turnye smysly narodnoi arkhitektury Russkogo Severa [Cultural Meanings of Folk Architecture of the Russian North]",
+      "year": "2013",
+      "publisher": "Ekaterinburg: UrO RAN, 608 pp.",
+      "language": "Russian",
+      "supports": "Roofed crosses (golubtsy), memorial pillars and grave-houses (domoviny) as micro-architectural models of the peasant dwelling; distribution across the Russian North (Mezen, Pinega, Pomor coast, Zaonezhye, Pechora); syncretism of ancestral house-making and Christian iconography; Old Believer preservation.",
+      "limitation": "Architectural and ethnocultural monograph based on extensive field surveys across Arkhangelsk, Vologda, and Karelia."
+    },
+    {
+      "id": "belova-levkievskaya2004",
+      "kind": "reference",
+      "author": "Belova, Olga V.; Levkievskaya, Elena E.",
+      "title": "Mogila [The Grave]",
+      "year": "2004",
+      "publisher": "Slavianskie drevnosti: Etnolingvisticheskii slovar [Slavic Antiquities: Ethnolinguistic Dictionary], ed. N. I. Tolstoy, Moscow: Mezhdunarodnye otnosheniia, vol. 3 (K-P), pp. 263-269",
+      "language": "Russian",
+      "supports": "Orientation of graves (head to west, feet to east facing the resurrection); positioning of cross at feet (to lean on/be beheld) versus head (Old Believer/regional); grave as new dwelling; prohibitions against opening or walking on graves; synodal decrees against grave-houses.",
+      "limitation": "Pan-Slavic synthesis based on regional archives and ethnolinguistic field expeditions."
+    },
+    {
+      "id": "pleshanova1974",
+      "kind": "monograph",
+      "author": "Pleshanova, Inna I.",
+      "title": "Keramicheskie nadgrobnye plity Pskovo-Pecherskogo monastyria [Ceramic Tomb Slabs of the Pskov-Caves Monastery]",
+      "year": "1974",
+      "publisher": "Numizmatika i epigrafika 11, Moscow: Nauka, pp. 195–216",
+      "language": "Russian",
+      "supports": "Archaeological, typological and epigraphic study of the underground burial slabs (keramidy) in the Pskov-Caves necropolis; manufacturing techniques (green lead glaze, wooden matrices), dates (1530s to late 17th c.), names of clergy and noble lineages (Pushkins, Nashchokins).",
+      "limitation": "Specialist archaeological study of surviving wall slabs; establishes physical burials and epigraphy, not the legendary tunnels."
+    },
+    {
+      "id": "antonov2006",
+      "kind": "monograph",
+      "author": "Antonov, Dmitry N.; Antonova, Irina A.",
+      "title": "Metricheskie knigi Rossii XVIII — nachala XX v. [Parish Registers of Russia, 18th–Early 20th Centuries]",
+      "year": "2006",
+      "publisher": "Moscow: RGGU, 385 pp.",
+      "language": "Russian",
+      "supports": "Archival history and preservation of Russian parish registers (metricheskie knigi); creation of parish and consistory copies; Soviet decree of 18 December 1917 transferring vital records to ZAGS; wide-scale destruction of church copies in the 1920s–1930s and during WWII; concentration of surviving copies in regional state archives.",
+      "limitation": "Archival, source-study and diplomatic monograph; documents ecclesiastical and state registration mechanisms and survival statistics."
+    },
+    {
+      "id": "vk-policy-memorial",
+      "kind": "institutional",
+      "author": "VKontakte (VK LLC)",
+      "title": "Pamiatnaia stranitsa i podtverzhdenie smerti pol'zovatelia [Memorial Page and Verification of User Death]",
+      "year": "2020 (updated 2024)",
+      "publisher": "VKontakte Help Center, vk.com/faq",
+      "language": "Russian",
+      "supports": "Official platform policy regarding accounts of deceased users: deletion upon presentation of death certificate and proof of kinship, or transformation into a memorial profile ('Pamiatnaia stranitsa') with locked wall, disabled messaging, and preserved public archives.",
+      "limitation": "Platform terms and operational user agreement rules; establishes the formal regulatory protocol for digital remains."
     }
   ]
 }

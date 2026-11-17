@@ -1,6 +1,6 @@
 # VISUAL AUDIT — RUSSIAN CHTHONIC ATLAS
 
-Generated 2026-11-16 by `build/make_visual_audit.py` from the built English plate pages and `data/images.json`. Counts are files referenced on each plate page, excluding the hand-mark sprite, colophon mark and the Eurasia map. A derivative (halftone, duotone, xerox) is counted separately from its original, so one photograph shown in two states counts twice. “Role” is the one recorded in `data/images.json` (see ASSET_CREDITS.md). This file records counts and gaps; it does not claim the gaps are filled.
+Generated 2026-11-17 by `build/make_visual_audit.py` from the built English plate pages and `data/images.json`. Counts are files referenced on each plate page, excluding the hand-mark sprite, colophon mark and the Eurasia map. A derivative (halftone, duotone, xerox) is counted separately from its original, so one photograph shown in two states counts twice. “Role” is the one recorded in `data/images.json` (see ASSET_CREDITS.md). This file records counts and gaps; it does not claim the gaps are filled.
 
 | Plate | Title | Vol | Files | Archival | Contextual | Artwork repro. | Original diagram | Derivative | Unregistered |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

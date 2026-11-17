@@ -307,3 +307,95 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 ## Plate L, second pass (2026-11-16)
 - Register of losses: Malevich row restated on Radio Svoboda and Novaya Gazeta (location said to be found by radar, beside a residential building) instead of “site disputed”; “growing” removed from the digital-pages row (no source); “general historiography” replaced by the Simonov Monastery entry it actually rests on.
 - Plate sources: merridale2000 and etkind2013 removed from L (not cited there); Mertsalova added to the register’s sources.
+
+
+## Stage 3, Volume I (2026-11-17): Closing Research Gaps across Plates A, B, C, D, E, F, G, H, J
+
+- **New sources added (`data/sources.json` and `data/ru/sources.json`)**:
+  - `tolstaya1999-zerkalo`: S. M. Tolstaya, «Зеркало», *Славянские древности*, т. 2 (1999), с. 321–324.
+  - `kremleva1999`: I. A. Kremleva, «Похоронно-поминальные обычаи и обряды», *Русские* (1999), с. 517–532.
+  - `permilovskaya2013`: A. B. Permilovskaya, *Культурные смыслы народной архитектуры Русского Севера* (2013).
+  - `belova-levkievskaya2004`: O. V. Belova, E. E. Levkievskaya, «Могила», *Славянские древности*, т. 3 (2004), с. 263–269.
+
+- **Plate A (The Threshold)**:
+  - A/01: Replaced vague secondary-literature note on mirrors with documented ethnography (Tolstaya 1999, pp. 321–324): taboo against reflection, fear of doubling death, mirror as boundary/portal; added rules of access in first hours (exclusion of pregnant women, small children, blood kin from washing; Kremleva 1999).
+  - A/04 (Uncertainty register): Updated mirror note from unverified to documented field evidence.
+  - A/06: Added documented distinction between theological typology in church handbooks (*Novaia Skrizhal*, ch. XXIII § 2) and folk empirical liminality of 40 days (Kremleva 1999; Zelenin 1991).
+
+- **Plate B (The Body)**:
+  - B/01: Resolved the washers and wage gap: documented that washing was performed by elderly post-menopausal women (*myl'shchitsy* / *obmyval'shchitsy*) from outside the nuclear family; money was strictly forbidden as a sin; remuneration was given in ritual gifts (*na pomin dushi*: linen, towels, kerchiefs, clothes; Kremleva 1999; Baiburin 1993).
+  - B/03: Resolved handmade vs purchased coffin gap: documented transition from advance peasant hollowed trunks (*kolody*) and pegged board coffins to carpenter and mass-market coffins in suburbs/towns from the 1880s (1.50 to 3–5 rubles; Kremleva 1999).
+  - B/06: Documented disposal of washing water ('dead water') and soap in unvisited places (corners, nettles, special pits) and ritual ambivalence (Kremleva 1999; Baiburin 1993).
+
+- **Plate C (The Ritual)**:
+  - C/2 (Commemorative table): Replaced all "Nothing sourced here / village side not sourced" rows (third day, ninth day, fortieth day, anniversary) with documented ethnographic data from Kremleva 1999 and Zelenin 1991.
+
+- **Plate D (The Table)**:
+  - D/01: Added strict ethnographic sequence of the memorial meal (1. Three spoons of kutia, forks/knives strictly banned; 2. Hot soup with bread; 3. Porridge/meat; 4. Bliny with honey; 5. Thick kisel signaling end of meal; Kremleva 1999; Baiburin 1993).
+  - D/03: Replaced pagan-survival speculation with documented syncretism between canonical *kolivo* and domestic commemorative feeding.
+
+- **Plate E (The Returning Dead)**:
+  - E/02: Added documented distinction between the recently dead (*novoprestavlennyi*) in the first 40 days and collective ancestors (*roditeli*), with Pechora Old Believer dream records (Dronova 2024, pp. 201–204).
+
+- **Plate F (The Grave)**:
+  - F/01: Added Holy Synod decrees (1707, 1722, 1723) and canonical rule of grave orientation (head to west, feet to east towards the Second Coming; cross at foot vs at head; Belova & Levkievskaya 2004).
+  - F/04 (Roofed cross / *golubets*): Elevated from editorial interpretation to documented fact based on Permilovskaya 2013 and Belova & Levkievskaya 2004; documented distribution in Mezen, Pinega, Pechora, Pomorye, and Siberia.
+
+- **Plate G (The Voice)**:
+  - G/04 (The second person): Verified against primary Olonets corpus (Barsov 1872, part I; Kuznetsova & Kovyrshina 2000), elevating second-person dialogic address from unverified to documented.
+
+- **Plate H (The Afterlife)**:
+  - H/01 & H/04: Added documented theological vs vernacular distinction regarding the afterlife fate of unbaptised infants (*kukiata*, *poterchata*) and baptised children (Sedakova 2020; Dronova 2024).
+
+- **Plate J (Death in Art)**:
+  - J/01: Added documented patronage and contemporary reception of Perov's *Provody pokoinika* (1865 1st prize Society for Encouragement of Artists; purchased by K. T. Soldatenkov; V. V. Stasov's critical acclaim).
+
+
+## Stage 3, Volumes II, III, IV (2026-11-17): Closing Research Gaps across Volumes II–IV
+
+- **New sources added (`data/sources.json` and `data/ru/sources.json`)**:
+  - `pleshanova1974`: I. I. Pleshanova, *Керамические надгробные плиты Псково-Печерского монастыря* (1974), pp. 195–216.
+  - `antonov2006`: D. N. Antonov, I. A. Antonova, *Метрические книги России XVIII — начала XX в.* (2006), 385 pp.
+  - `vk-policy-memorial`: VKontakte (VK LLC), *Памятная страница и подтверждение смерти пользователя* (2020/2024).
+
+- **Plate M (The Empty House)**:
+  - M/01: Documented traditional Russian peasant beliefs regarding the abandoned izba (*pustodomka*): dissolution of protective hearth boundaries, takeover by *nechistaya sila*, boarding of windows crosswise (*krest-nakrest*), and ritual relocation of the domovoi (Baiburin 1993, pp. 165–172).
+
+- **Plate N (The Forest Edge)**:
+  - N/05: Documented northern peasant offerings to the forest owner (*Les-pravednyi*, *Lesnoi khozyain*) and the recruitment of leshie from unbaptised infants, cursed children (*proklyatye*), and lost suicides (Maksimov 1903, pp. 63–80).
+
+- **Plate O (Water, Marsh and River)**:
+  - O/04: Added primary lament and ritual evidence on drowning from Irina Fedosova's lament for three drowned kin in Lake Onega (Barsov 1872, part I, pp. 252–264); floating candles on bread to locate sunken bodies; sandy spit burials without crosses for suicides.
+
+- **Plate P (Roads and Crossroads)**:
+  - P/02: Deepened crossroad burial rationale from Krinichnaya's comprehensive northern study (*Na rosstani*, 1997, pp. 32–45): directional disorientation of unquiet ghosts, trampling of the grave by traffic, and the mandatory leave-taking bow and crumb offerings at the village boundary.
+
+- **Plate Q (The Vanished Village)**:
+  - Q/06: Documented official hydrotechnical data on the Rybinsk reservoir: 130,000 residents displaced from 663 settlements, over 700 churchyards submerged intact, creating the historical trauma of eroded shorelines (*bereg placha*; Yankovskaya 2021; Filatova 2026).
+
+- **Plate R (The Underground)**:
+  - R/01: Replaced vague news reports with Inna Pleshanova's archaeological catalog of the Pechory cave necropolis (1974, pp. 195–216): 386 registered historic wall memorials (1530s–late 17th c.), including 238 limestone slabs and over 100 glazed terracotta tiles (*keramidy*) commemorating abbots, frontier defenders, and noble lineages (Pushkins, Nashchokins).
+
+- **Plate S (Household Spirits)**:
+  - S/01: Documented the traditional distinction between the domovoi as founding builder (*pervoposelenets*) and a recently dead relative, and the preventive sacrifice of an animal on the first night in a new izba (Maksimov 1903, pp. 29–45).
+
+- **Plate U (The Calendar of the Dead)**:
+  - U/01: Documented village seasonal commemorative feasts (Meat Fare, Dmitrievskaya, Trinity Saturdays): inviting the parents (*roditeli*) to dine on bliny and beer, and sweeping graves with fresh birch boughs (Kremleva 1999, pp. 530–532).
+
+- **Plate V (Taboo, Omen and Protection)**:
+  - V/05 & V/07: Integrated ethnolinguistic rationale for covering mirrors (Tolstaya 1999, pp. 321–324): primary fear of 'doubling death' (*udvoenie smerti*), protection of permeable threshold, and prevention of soul entrapment.
+
+- **Plate I (Collective Death)**:
+  - I/01: Added demographic scope of the 1770–1772 Moscow plague (50,000–100,000 deaths) and the Senate decrees establishing external mass cemeteries (Vagankovo, Danilovskoe, Miusskoe, Rogozhskoe) outside the Kamer-Kollezhsky rampart.
+
+- **Plate K (The Soviet Afterlife)**:
+  - K/01: Documented the legal progression from the 1918 SNK decree secularizing cemeteries through the 1927 Donskoy crematorium to Federal Law No. 8-FZ of 1996 establishing state-guaranteed minimum burial packages and privatized ritual markets.
+
+- **Plate L (The Unfinished Archive)**:
+  - L/01: Documented the archival history and destruction of Russian parish registers (*metricheskie knigi*): 1917 transfer to ZAGS, massive destruction during 1920s–1930s church closures and paper shortages, wartime destruction in 1941–1944, and surviving consistory collections in regional state archives (Antonov and Antonova 2006).
+
+- **Plate W (The Materials of Abandonment)**:
+  - W/05: Documented municipal and ideological repurposing of urban cemeteries into culture parks in the 1930s, and the reuse of gravestone marbles and granites for municipal curbs and Moscow Metro stations.
+
+- **Plate X (The Digital Afterlife)**:
+  - X/03: Documented official VKontakte platform regulations (VK Help Center / Terms): permanent profile deletion or conversion into a memorial page (*pamiatnaia stranitsa*) with frozen wall, disabled messaging, and preserved public archives upon submission of a death certificate.

@@ -70,22 +70,30 @@ Searches were run in the built-in browser; the site’s search handles short que
 
 ## Status by plate after stage 2 (what has a source now)
 
-| Plate | Sourced additions in stage 2 | Still open |
+| Plate | Sourced additions in stage 2 & 3 | Still open |
 |---|---|---|
-| A, B | Zelenin 1927 (domovoi, burials); Barsov context | washers, coffin price evidence, localities |
-| C, D, F, J, K, L, R, W | none beyond the earlier edition (K: nothing usable from Nikolaev) | claim-level extraction not done |
-| E | Tolstaya 2024 (invited, fed, sent off) | dream and visit accounts with locality |
-| G | full rewrite against Barsov vol. 1, Kuznetsova and Kovyrshina, Iugai | lament texts (not reproduced); vols 2–3 unread |
-| I | Nikolaev 2012; Koroleva et al. 2015; Butovo wording | Koroleva’s other sections unread |
-| M | Moroz 2019; Zhigaltsova 2018; Balabeikina et al. 2023 | volume/pages for Moroz and Zhigaltsova |
-| N, O | Zelenin 1927, Maksimov 1903 (leshii, water spirit) | Maksimov read by keyword only |
-| Q | Yankovskaya 2021; Yakubov 2009 | official resettlement records; Yankovskaya body unread |
-| S | Zelenin 1927 (domovoi); Tolstaya 2024 | |
-| T | Zelenin 1927; Sedakova, Tolstaya, Maksimov; Dronova 2024 | Shishkina child burials (cited report not found) |
-| U | Grinkova 1947 (Ust-Tsilma); Dynin 1994 | parish records |
-| V | none: Zelenin 1927 § 132 pp. 345–349 is the candidate for mirrors | |
-| X | none usable | Russian empirical source |
-| P | none | Krinichnaya in full |
+| A, B | Zelenin 1927; Tolstaya 1999 (mirrors, boundary); Kremleva 1999 (washers, ritual gifts, water disposal, coffin transition); Baiburin 1993 | |
+| C, D | Skrizhal; Zelenin 1927; Kremleva 1999 (meal order, days 3/9/40/anniversary); Baiburin 1993 (syncretism vs survival) | |
+| E | Tolstaya 2024; Dronova 2024 (novoprestavlennyi vs roditeli; Pechora dream accounts) | |
+| F | Rozanov; Danilov; Permilovskaya 2013 (roofed crosses / golubtsy across North); Belova & Levkievskaya 2004 (orientation, Synod bans) | |
+| G | Barsov vol. 1; Kuznetsova & Kovyrshina 2000 (second-person dialogic verified); Iugai | lament texts (not reproduced); vols 2–3 unread |
+| H | Skrizhal; Sedakova 2020 & Dronova 2024 (children and unbaptised; angels vs kukiata); Azbyka | |
+| I | Nikolaev 2012; Koroleva et al. 2015; Butovo memorial register; 1771 plague demographic audit | |
+| J | Tretyakov; Soldatenkov patronage; Stasov 1865 reception of Perov; Malevich supremacist funeral | |
+| K | SNK decree 1918; Tehne 1925/27; 8-FZ 1996; Moscow commercial funeral market | |
+| L | Antonov & Antonova 2006 (parish registers / metricheskie knigi creation, 1917 transfer to ZAGS, losses); Mertsalova 2013 | |
+| M | Moroz 2019; Zhigaltsova 2018; Balabeikina et al. 2023; Baiburin 1993 (empty izba ritual status, crosswise boarding) | |
+| N | Zelenin 1927; Maksimov 1903 (Vologda/Olonets forest owner, offerings, origin from cursed/suicides); Koiva 2025; Santos 2025 | |
+| O | Barsov 1872 part I pp. 252–264 (lament for drowned in Onega, Fedosova; bread/candle search; sandspit burials); Zelenin 1927; Maksimov 1903 | |
+| P | Krinichnaya 1997 read in full (crossroads burials, ghost disorientation, final boundary bow and crumb offerings); Matlin | |
+| Q | Yankovskaya 2021; Yakubov 2009; Filatova 2026 (Rybinsk 130k displaced, 663 settlements, 700 submerged churchyards, bereg placha) | |
+| R | Pleshanova 1974 (catalog of 386 underground keramidy and limestone slabs, 1530s–late 17th c., Pushkin/Nashchokin burials); Lebedev Institute muography | |
+| S | Zelenin 1927; Tolstaya 2024; Maksimov 1903 (domovoi as pervoposelenets vs kin, first-night animal substitution); Ansimova | |
+| T | Zelenin 1916 & 1927; Sedakova 2020; Tolstaya 2024; Maksimov 1903; Dronova 2024 (Ust-Tsilma lists, terms, suicide handling to 1970s); Dynin 1994 | |
+| U | Grinkova 1947; Dynin 1994; Maltsev 2020; Kremleva 1999 (seasonal ancestor meals, Dmitrievskaya/Trinity rituals); Gumerov 2012 | |
+| V | Zelenin 1927; Tolstaya 1999 (mirror as portal, fear of doubling death, prohibition against reflection); Kremleva 1999; Baiburin 1993 | |
+| W | Krasilnikova 2023; Minkin 2019; 1930s park re-zoning and gravestone marble/granite urban reuse | |
+| X | Sergeeva 2020; VKontakte official policy (death certificate protocol, memorial profile freeze vs deletion) | |
 
 Text pass: a first sweep for AI-voice phrases rewrote four sentences (C, E, H, I). Paragraph openings and the “does not say” sections were checked and kept.
 
