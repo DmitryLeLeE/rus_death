@@ -3106,6 +3106,57 @@
       "source_page": "https://commons.wikimedia.org/wiki/File:Москва._Похороны_Ф.А.Головина_в_1706_г._(c)П.Пикарт,_оттиск_XVIIIв_ГИМ_e1.jpg",
       "alt": "A massive formal procession with military formations, horse-drawn catafalque, banners, and heralds through Moscow streets",
       "note": "Pieter Picart’s monumental engraving of Russia’s first Western-style state funeral organized by Peter the Great in 1706. The foundational blueprint for Russian state funerary spectacles."
+    },
+    {
+      "id": "yaroshenko-firstborn-funeral",
+      "file": "assets/images/yaroshenko-firstborn-funeral.jpg",
+      "kind": "painting",
+      "role": "archival",
+      "evidence": "documented",
+      "title": "Funeral of the Firstborn, 1893",
+      "creator": "Nikolai Yaroshenko",
+      "date": "1893",
+      "medium": "Oil on canvas",
+      "collection": "Wikimedia Commons",
+      "license": "Public domain (PD-old-70)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Funeral_of_Firstborn_1893.jpg",
+      "alt": "Peasant parents walk through winter snow, the father carrying a tiny crude wooden coffin under his arm while the mother weeps behind him",
+      "note": "Nikolai Yaroshenko’s evocative depiction of rural infant mortality, documenting how the poorest peasants carried deceased children to churchyards without carriages or bells."
+    },
+    {
+      "id": "buchkuri-funeral-1905",
+      "file": "assets/images/buchkuri-funeral-1905.jpg",
+      "kind": "painting",
+      "role": "archival",
+      "evidence": "documented",
+      "title": "Peasant Funeral, 1905",
+      "creator": "Aleksandr Buchkuri",
+      "date": "1905",
+      "medium": "Oil on canvas",
+      "collection": "Voronezh Regional Art Museum / Wikimedia Commons",
+      "license": "Public domain (PD-old-70)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Бучкури_Похороны_1905.jpg",
+      "alt": "A long winter funeral procession of peasant women in white and black kerchiefs singing laments behind a horse-drawn sledge in deep mud",
+      "note": "Aleksandr Buchkuri’s monumental composition documenting the communal ritual procession and the choir of mourning women following the open sledge."
+    },
+    {
+      "id": "linschoten-russian-cross-1594",
+      "file": "assets/images/linschoten-russian-cross-1594.jpg",
+      "kind": "print",
+      "role": "archival",
+      "evidence": "documented",
+      "title": "Russian Carved Roadside and Votive Crosses, 1594",
+      "creator": "Jan Huyghen van Linschoten",
+      "date": "1594",
+      "medium": "Copper engraving",
+      "collection": "National Library of the Netherlands / Wikimedia Commons",
+      "license": "Public domain (PD-old-70)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jan_Huyghen_van_Linschoten_Cross.png",
+      "alt": "Engraving of three tall Russian wooden crosses with peaked roofs, protective gables, and Cyrillic inscriptions on an arctic coast",
+      "note": "Earliest Western illustration of Russian roadside and coastal memorial crosses (golubtsy) recorded by Dutch navigator Jan Huyghen van Linschoten in 1594."
     }
   ]
 }

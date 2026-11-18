@@ -422,7 +422,9 @@
         "zelenin1927",
         "samoilova-figures",
         "nekrasov1863",
-        "kremleva1999"
+        "kremleva1999",
+        "gromyko1991",
+        "zelenin1916"
       ],
       "related": [
         "a",
@@ -614,6 +616,28 @@
           "sources": [
             "nekrasov1863"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "yaroshenko-firstborn-funeral",
+          "alt": "Peasant parents walk through winter snow, the father carrying a tiny crude wooden coffin under his arm while the mother weeps behind him",
+          "caption": "Nikolai Yaroshenko, 'Funeral of the Firstborn' (1893). A peasant father carries a tiny unpainted wooden coffin under his arm through deep snow. Rural infant mortality in pre-revolutionary Russia claimed up to 45% of children before age one, creating a distinct, tragic strata of domestic bereavement without carriages, bell-ringing, or formal requiems.",
+          "credit": "Nikolai Yaroshenko, 1893 / Wikimedia Commons, Public domain",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "Unbaptized Infants: Bezdomovtsy and Igoshi / [18+]",
+          "kicker": "Infant mortality / [18+]",
+          "paras": [
+            "In the Russian village, infant mortality was a relentless domestic reality. Whenever a newborn died before receiving the sacrament of baptism, ecclesiastical canons strictly forbade funeral liturgies, church bell-tolling, and burial within the consecrated ground of the parish cemetery. The dead infant was deemed ritually 'unclean' and spiritually liminal—neither belonging to the Christian community nor to the realm of ancestral forebears.",
+            "Faced with canonical refusal, peasant families resorted to clandestine domestic burials. The tiny corpse was secretly interred beneath the threshold of the cabin, under the floorboards near the base of the clay oven, or carried into deep woods to be buried beneath the exposed roots of ancient spruces. In East Slavic folklore, these unbaptized infants were remembered as 'bezdomovtsy' (the homeless ones) or 'igoshi'—child-spirits who remained trapped within the home's subfloor, crying plaintively in the dark and begging any passerby to bestow upon them a Christian baptismal name."
+          ],
+          "sources": [
+            "gromyko1991",
+            "zelenin1916"
+          ],
+          "level": "documented"
         }
       ],
       "volume": "I"
@@ -1440,7 +1464,8 @@
         "tolstoy1995",
         "ivanits1989",
         "loiter2017",
-        "iugai-letter"
+        "iugai-letter",
+        "krinichnaya1997"
       ],
       "related": [
         "c",
@@ -1736,6 +1761,28 @@
           "sources": [
             "barsov1872"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "buchkuri-funeral-1905",
+          "alt": "A long winter funeral procession of peasant women in white and black kerchiefs singing laments behind a horse-drawn sledge in deep mud",
+          "caption": "Aleksandr Buchkuri, 'Peasant Funeral' (1905, Voronezh Regional Art Museum). Peasant women in winter kerchiefs follow the open funeral sledge through slush and mud, performing the compulsory ritual lament (prichety). The acoustic landscape of rural grief was strictly female, transforming unbearable visceral loss into structured, rhythmic vocal incantations.",
+          "credit": "Aleksandr Buchkuri, 1905 / Voronezh Art Museum, Public domain",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Ritual Choir and the Mourning Sledge",
+          "kicker": "The mourning voice",
+          "paras": [
+            "In traditional Russian mortuary practice, silent grief was viewed with suspicion and dread: a death without tears and laments was believed to bind the spirit painfully to the earth or signal cold-hearted indifference that would bring misfortune upon the house. The funeral cortege was an intensely acoustic ritual, accompanied at every stage—from the lifting of the coffin onto the sledge to the lowering into the pit—by the specialized voices of kinswomen and professional mourners (voplenitsy).",
+            "Walking barefoot or in soaked leather boots through freezing winter mire, the mourning choir sustained an uninterrupted cadenced wail. The text addressed the deceased directly, asking why they had abandoned the hearth, describing the terrifying strangeness of the road ahead, and begging the ancestral dead already in the cemetery to welcome the newcomer with warm bread and quiet rest."
+          ],
+          "sources": [
+            "barsov1872",
+            "krinichnaya1997"
+          ],
+          "level": "documented"
         }
       ],
       "volume": "I"
@@ -3801,7 +3848,8 @@
         "matlin2021",
         "matlin2022",
         "zelenin1916",
-        "maksimov1903"
+        "maksimov1903",
+        "paperno1997"
       ],
       "related": [
         "n",
@@ -3977,6 +4025,28 @@
           "sources": [
             "maksimov1903"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "linschoten-russian-cross-1594",
+          "alt": "Engraving of three tall Russian wooden crosses with peaked roofs, protective gables, and Cyrillic inscriptions on an arctic coast",
+          "caption": "Russian roadside, coastal, and votive crosses (golubtsy), recorded by Dutch navigator Jan Huyghen van Linschoten in 1594. Carved with gables, Cyrillic verses, and protective niches, roadside crosses functioned as sacred milestones marking fatal traffic routes, boundary frontiers, and dangerous crossroads across the Russian expanses.",
+          "credit": "Jan Huyghen van Linschoten, 1594 / Wikimedia Commons, Public domain",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "Crossroads Burials, Stakes, and Wheel Trampling / [18+]",
+          "kicker": "The crossroads curse / [18+]",
+          "paras": [
+            "Under Russian Imperial ecclesiastical law and secular penal codes, individuals who committed suicide were entirely excluded from consecrated cemetery enclosures. For centuries, custom and local magistrates dictated that suicides, executed criminals, and unrepentant sorcerers be buried precisely at the crossroads of major roads, at village boundaries, or in desolate highway ditches.",
+            "The crossroads was selected with deliberate demonological logic: in folk belief, four divergent paths disoriented the unquiet spirit, preventing the restless revenant from determining the direction back to the village. To physically immobilize the corpse, peasants often drove a sharpened aspen stake through the coffin lid and into the torso. Moreover, the ceaseless passage of peasant wagons, iron-rimmed carriage wheels, and heavy draft horses directly over the shallow grave was conceived as ritual expiation—trampling the defiled flesh beneath feet and hooves to bar the soul from rising."
+          ],
+          "sources": [
+            "paperno1997",
+            "zelenin1916"
+          ],
+          "level": "documented"
         }
       ]
     },
@@ -5449,7 +5519,9 @@
         "zelenin1927",
         "barsov1872",
         "tolstaya1999-zerkalo",
-        "kremleva1999"
+        "kremleva1999",
+        "baiburin1993",
+        "krinichnaya1997"
       ],
       "related": [
         "a",
@@ -5717,6 +5789,20 @@
           "sources": [
             "kremleva1999"
           ]
+        },
+        {
+          "type": "text",
+          "heading": "Egress Through the Window, Cellar, and the Threshold Axe / [18+]",
+          "kicker": "Defensive taboos / [18+]",
+          "paras": [
+            "In East Slavic archaic domestic magic, the threshold and front door formed the primary energetic conduit of the household. When an individual suspected of sorcery, a suicide, or a person who suffered an excruciating agony died, carrying the body out through the regular doorway was strictly forbidden. The doorway was the path of the living; if a dangerous corpse crossed it, the dead would 'memorize' the threshold and return as a nocturnal phantom to suffocate the inhabitants.",
+            "To circumvent the doorway, peasants physically breached the house: they knocked out the wooden wall timbers beneath the front window, dismantled the subfloor boards, or lowered the coffin directly into the cold root cellar and dragged it outside through the animal stalls. Once the coffin exited, the aperture was immediately nailed shut with fresh planks, ashes and salt were scattered along the floor, and an iron wood-axe was driven blade-upward into the door threshold—serving as an impassable metallic razor barring the dead from re-entering the home."
+          ],
+          "sources": [
+            "baiburin1993",
+            "krinichnaya1997"
+          ],
+          "level": "documented"
         }
       ]
     },
@@ -6183,7 +6269,8 @@
         "nko-directive1941",
         "tvardovsky1946",
         "etkind2013",
-        "koroleva2015"
+        "koroleva2015",
+        "nikulin2007"
       ],
       "concepts": [
         "memory",
@@ -6295,6 +6382,20 @@
           "alt": "Hillside with rows of wooden crosses and mass battlefield graves at Port Arthur, 1905",
           "caption": "Wooden crosses and mass trenches on the bare hillside during the siege of Port Arthur, 1905. The turning point of modern industrial war: mass nameless burials where individual graves dissolve into military cenotaphs.",
           "credit": "Underwood & Underwood / Library of Congress / processing by this atlas, Public domain",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "Trench Parapets, Bomb Craters, and Lime Pits / [18+]",
+          "kicker": "Industrial slaughter / [18+]",
+          "paras": [
+            "The twentieth century destroyed the possibility of individualized burial across the battlefields of Eastern Europe. During the grueling positional battles of the Volkhov Front, the Rzhev salient, and the Sinyavino heights, artillery bombardment continually churned the swampy soil, pulverizing thousands of corpses into fragmented human mud.",
+            "Front-line memoirs, such as those of artilleryman Nikolai Nikulin, document how during the freezing winter fighting of 1941–1942, soldiers pressed against frozen trench walls in shortage of sandbags were forced to stack the rock-hard corpses of fallen comrades directly into trench parapets as defensive breastworks against machine-gun fire. In the springtime thaw, putrefaction caused trench walls to liquefy, unleashing catastrophic typhus epidemics. Burial detachments bulldozed uncounted hundreds of shattered bodies into flooded bomb craters, covering them with quicklime without name registries—creating the profound existential trauma of mass anonymity that necessitated the Soviet state cult of the Unknown Soldier."
+          ],
+          "sources": [
+            "nikulin2007",
+            "merridale2000"
+          ],
           "level": "documented"
         }
       ],

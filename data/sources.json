@@ -2015,6 +2015,42 @@
       "language": "Russian",
       "supports": "Archival records of victims of Soviet political terror cremated secretly at night in the Donskoy Crematorium and buried in common pits of uncollected ashes Nos. 1–3.",
       "limitation": "Primary archival register of verified state executions; excludes unrecorded deaths."
+    },
+    {
+      "id": "gromyko1991",
+      "kind": "monograph",
+      "author": "Gromyko, Marina Mikhailovna",
+      "title": "The World of the Russian Village [Мир русской деревни]",
+      "year": "1991",
+      "publisher": "Molodaya Gvardiya, Moscow",
+      "extent": "446 pp.",
+      "language": "Russian",
+      "supports": "Peasant community customs, infant mortality, unbaptized dead infants and domestic burial taboos in pre-revolutionary Russia.",
+      "limitation": "Historical-ethnographical study of late imperial rural society based on state and ethnographic archives."
+    },
+    {
+      "id": "nikulin2007",
+      "kind": "memoir",
+      "author": "Nikulin, Nikolai Nikolaevich",
+      "title": "Memories of the War [Воспоминания о войне]",
+      "year": "2007",
+      "publisher": "State Hermitage Museum Publishing, St Petersburg",
+      "extent": "216 pp.",
+      "language": "Russian",
+      "supports": "Firsthand eyewitness account of trench warfare, mass unburied battlefield casualties, freezing corpses into trench parapets, and anonymous bomb-crater burials on the Volkhov Front.",
+      "limitation": "Personal front-line soldier memoir written decades after the events; subject to individual trauma and psychological selection."
+    },
+    {
+      "id": "paperno1997",
+      "kind": "monograph",
+      "author": "Paperno, Irina",
+      "title": "Suicide as a Cultural Institution in Dostoevsky’s Russia",
+      "year": "1997",
+      "publisher": "Cornell University Press, Ithaca",
+      "extent": "xii, 271 pp.",
+      "language": "English",
+      "supports": "The sacred, legal, and criminal status of suicide in the Russian Empire; exclusion from churchyards, burial at crossroads, and folk beliefs regarding defilement.",
+      "limitation": "Cultural and intellectual history; focuses primarily on the intersection of law, medicine, theology, and literature."
     }
   ]
 }
