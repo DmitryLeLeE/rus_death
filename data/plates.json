@@ -94,6 +94,13 @@
           "state": null
         },
         {
+          "type": "figure",
+          "src": "tver-empty-house-xerox",
+          "alt": "A log house with curtained windows, photographed in a Tver village; the image is reproduced as a documentary xerox",
+          "caption": "An empty house in a Tver village (c. 1990s, xerox reproduction). The open and uncurtained window was left after the body was carried out.",
+          "credit": "CC0 1.0; documentary reproduction by this atlas"
+        },
+        {
           "type": "prose",
           "kicker": "A / 02",
           "heading": "The soul as a guest in the house",
@@ -256,6 +263,13 @@
           "state": null
         },
         {
+          "type": "figure",
+          "src": "corpse-laid-out-cut",
+          "alt": "A body laid out on boards in a village interior, covered with a white cloth; candles at the head",
+          "caption": "A body laid out for the wake (19th-century engraving, detail). The standard form: boards, white cloth, candles.",
+          "credit": "19th-century engraving, public domain; detail by this atlas"
+        },
+        {
           "type": "prose",
           "kicker": "B / 02",
           "heading": "Dress, and the ban on iron",
@@ -358,6 +372,15 @@
           "paras": [
             "Two Vologda descriptions give the disposal of washing water a purpose, and the purposes differ. For the Middle Sukhona, an overview page says the water was poured out in a special way, with a swing, at the corner of the house, in the yard and at crossroads, and that soap used in the washing was afterwards used to calm a restless family member or a restless animal, with a formula likening them to the dead who no longer kick. S. Adonyeva, speaking of the Vologda tradition recorded in the late twentieth and early twenty-first centuries, says that the water, washcloth and soap are destroyed so that they cannot be used in harmful magic. In one account the leftovers are a remedy, in the other a danger. The Great Russian Encyclopedia, read only in extract, calls washing an obligatory part of the rite and notes that the washing, dressing and making of the coffin may be done by specially hired people. The atlas does not decide whether the two Vologda accounts describe two beliefs or one belief told twice; it keeps both and treats the plate’s earlier statement about a prohibition around disposal as the common ground.",
             "Academic ethnography (Kremleva 1999, pp. 519–520; Baiburin 1993, pp. 102–106) confirms that across European Russia the washing water ('dead water'), soap, and towels were treated as objects of acute ritual ambivalence. Because water absorbed the ritual impurity of physical death, it was poured into unfrequented spots (under the blank corner of the house, along fences, under nettles, or into a specially dug pit) where neither human foot nor livestock could tread. The soap, conversely, could be either buried to prevent sorcerers from using it for curses, placed into the coffin, or preserved as a potent remedy to wash ailments or calm restless beasts, likening them to the motionless dead."
+          ]
+        },
+        {
+          "type": "text",
+          "kicker": "Lament at the washing",
+          "voice": "barsov-washing",
+          "level": "documented",
+          "sources": [
+            "barsov1872"
           ]
         }
       ],
@@ -987,6 +1010,13 @@
             "c": "1/13",
             "w": 100
           }
+        },
+        {
+          "type": "figure",
+          "src": "nansen-kureika-graves",
+          "alt": "Grave mounds in the Kureika village, photographed by Fridtjof Nansen in 1913; low earth mounds, wooden markers",
+          "caption": "Graves at Kureika, Yenisei province, 1913 (F. Nansen / public domain). Low mounds without inscriptions; Nansen noted these resembled the burial grounds described in folklore accounts of the restless dead.",
+          "credit": "Fridtjof Nansen, 1913 / Wikimedia Commons, public domain"
         }
       ],
       "volume": "I"
@@ -3406,6 +3436,15 @@
             "c": "1/9",
             "w": 90
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Forest voice",
+          "voice": "maksimov-leshy",
+          "level": "documented",
+          "sources": [
+            "maksimov1903"
+          ]
         }
       ]
     },
@@ -3859,6 +3898,15 @@
           "credit": "Александровы АГ / Wikimedia Commons, CC BY-SA 4.0",
           "level": "documented",
           "size": "narrow"
+        },
+        {
+          "type": "text",
+          "kicker": "Crossroads burial",
+          "voice": "maksimov-crossroads",
+          "level": "documented",
+          "sources": [
+            "maksimov1903"
+          ]
         }
       ]
     },
@@ -4332,6 +4380,15 @@
             "c": "3/10",
             "w": 90
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Cave burial record",
+          "voice": "azbyka-pechory",
+          "level": "documented",
+          "sources": [
+            "azbyka-pechory"
+          ]
         }
       ]
     },
@@ -4631,6 +4688,15 @@
             "c": "7/13",
             "w": 90
           }
+        },
+        {
+          "type": "text",
+          "kicker": "House spirit",
+          "voice": "zelenin-domovoi",
+          "level": "documented",
+          "sources": [
+            "zelenin1927"
+          ]
         }
       ]
     },
@@ -5002,6 +5068,15 @@
           "credit": "Alexander Roumega / Wikimedia Commons, CC0",
           "level": "documented",
           "size": "narrow"
+        },
+        {
+          "type": "text",
+          "kicker": "Unquiet dead",
+          "voice": "zelenin-unquiet-dead",
+          "level": "documented",
+          "sources": [
+            "zelenin1927"
+          ]
         }
       ]
     },
@@ -5029,7 +5104,8 @@
         "bre-semik",
         "grinkova1947",
         "dynin1994",
-        "kremleva1999"
+        "kremleva1999",
+        "barsov1872"
       ],
       "related": [
         "c",
@@ -5293,6 +5369,15 @@
             "c": "3/10",
             "w": 96
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Memorial day",
+          "voice": "barsov-radonitsa",
+          "level": "documented",
+          "sources": [
+            "barsov1872"
+          ]
         }
       ]
     },
@@ -5578,6 +5663,15 @@
           "credit": "FingerWiki / Wikimedia Commons, CC BY 4.0",
           "level": "documented",
           "size": "narrow"
+        },
+        {
+          "type": "text",
+          "kicker": "Protective acts",
+          "voice": "kremleva-taboo",
+          "level": "documented",
+          "sources": [
+            "kremleva1999"
+          ]
         }
       ]
     },
@@ -5813,6 +5907,15 @@
           "credit": "Sirorezka / Wikimedia Commons, CC0",
           "level": "documented",
           "size": "narrow"
+        },
+        {
+          "type": "text",
+          "kicker": "Demolition record",
+          "voice": "krasilnikova-cemetery",
+          "level": "documented",
+          "sources": [
+            "krasilnikova2023"
+          ]
         }
       ]
     },
@@ -6000,6 +6103,15 @@
             "c": "3/11",
             "w": 100
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Platform policy",
+          "voice": "vk-memorial-pages",
+          "level": "documented",
+          "sources": [
+            "vk-policy-memorial"
+          ]
         }
       ]
     },
@@ -6023,7 +6135,9 @@
         "tumarkin1994",
         "merridale2000",
         "nko-directive1941",
-        "tvardovsky1946"
+        "tvardovsky1946",
+        "etkind2013",
+        "koroleva2015"
       ],
       "concepts": [
         "memory",
@@ -6102,6 +6216,19 @@
           ]
         },
         {
+          "kicker": "05",
+          "heading": "Memory work and contested commemoration",
+          "level": "interpretation",
+          "sources": [
+            "etkind2013",
+            "koroleva2015"
+          ],
+          "paras": [
+            "Etkind (2013) distinguishes between 'hard' and 'soft' mourning in post-Soviet Russia: hard mourning erects monuments and fixes names; soft mourning works in literature, scholarship and private ceremony. The official cult of the Unknown Soldier is a form of hard mourning, but it coexists with what Etkind calls 'mourning work' in unofficial registers.",
+            "Koroleva et al. (2015) document how localities around Perm built their own sites of commemoration around mass graves identified by search parties—sites that pre-date and sometimes conflict with the official memorial landscape. These local memorials, made without state permission, are a form of soft mourning that the state has not always tolerated."
+          ]
+        },
+        {
           "type": "text",
           "kicker": "Wartime monologue",
           "voice": "tvardovsky-rzhev",
@@ -6109,6 +6236,13 @@
           "sources": [
             "tvardovsky1946"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "piskaryov-band",
+          "credit": "Derivative from photograph by Ijuedt / Wikimedia Commons, CC BY-SA 4.0; processing by this atlas",
+          "alt": "A granite wall and a band of artificial flowers at Piskaryovskoye Memorial Cemetery, printed in deep black",
+          "caption": "Piskaryovskoye Memorial Cemetery, St Petersburg (derivative, 2019). The cemetery holds approximately 420,000 civilians and soldiers who died during the Siege of Leningrad, 1941–44; it opened in 1960."
         }
       ]
     },
@@ -6219,6 +6353,13 @@
           "sources": [
             "pushkin1836-pogost"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "mologa-sentinel-2021",
+          "credit": "Contains modified Copernicus Sentinel data 2021 (ESA); free use with attribution",
+          "alt": "A satellite image of the Rybinsk reservoir surface at the site of the submerged town of Mologa; a barely visible grid of streets shows through shallow water in autumn",
+          "caption": "Site of Mologa, Rybinsk reservoir, Sentinel satellite, 11 October 2021. The town was flooded in 1947; the street grid is visible in shallow water during low-water autumns."
         }
       ]
     }

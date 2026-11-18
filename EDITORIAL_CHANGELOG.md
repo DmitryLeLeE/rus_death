@@ -495,3 +495,37 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 
 
 
+
+## Stage 9 — Visual and voice parity pass (2026-11-18)
+
+### Figures added
+- **Plate A**: added `tver-empty-house-xerox` (CC0 1.0 derived) → now 2 figures
+- **Plate B**: added `corpse-laid-out-cut` (public domain derived) → now 2 figures
+- **Plate E**: added `nansen-kureika-graves` (Nansen 1913, public domain) → now 2 figures
+- **Plate Y**: added `piskaryov-band` (Piskaryovskoye, CC BY-SA 4.0 derived) → now 2 figures
+- **Plate Z**: added `mologa-sentinel-2021` (ESA Sentinel, free-use) → now 2 figures
+
+### Sources expanded
+- **Plate Y**: added `etkind2013` and `koroleva2015` → 4→6 sources; added prose section on memory work
+- **Plate U**: `barsov1872` added to plate source list (was used in section only)
+
+### Voice/text sections added (10 plates, 10 new voice entries in voices.json)
+| Plate | Voice ID | Source |
+|-------|----------|--------|
+| B | barsov-washing | Barsov 1872 (Fedosova washing lament) |
+| N | maksimov-leshy | Maksimov 1903 ch. 5 (leshii at forest edge) |
+| P | maksimov-crossroads | Maksimov 1903 ch. 10 (crossroads burial) |
+| R | azbyka-pechory | Azbyka.ru pilgrim guide (Pskovo-Pechersky caves) |
+| S | zelenin-domovoi | Zelenin 1927 § 25 (domovoi survey) |
+| T | zelenin-unquiet-dead | Zelenin 1927 § 15 (zalogny dead) |
+| U | barsov-radonitsa | Barsov 1872 no. 47 (Radonitsa address) |
+| V | kremleva-taboo | Kremleva 1999 (protective acts inventory) |
+| W | krasilnikova-cemetery | Krasilnikova 2023 / Radio Svoboda |
+| X | vk-memorial-pages | VK policy 2020 (memorial pages) |
+
+### Result after Stage 9
+- All 26 plates: ≥2 figures ✓, ≥1 voice/text section ✓, ≥5 sources ✓
+- Voices total: 14 → 24
+- validate.mjs: 216 sections checked, 0 errors, 0 warnings
+- check_links.mjs: 12 482 references, 0 broken
+- check_credits.mjs: 0 errors

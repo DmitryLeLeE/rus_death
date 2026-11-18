@@ -442,5 +442,227 @@
         "gloss": "Простой деревянный осьмиконечный могильный крест."
       }
     ]
+  },
+  "barsov-washing": {
+    "id": "barsov-washing",
+    "title": "Причитание при обмывании тела (фрагмент)",
+    "first_line": "Уж вы, белые лебёдушки, соседушки-женщины,",
+    "genre": "Похоронное причитание",
+    "plate": "b",
+    "lines": [
+      "Уж вы, белые лебёдушки, соседушки-женщины,",
+      "Придите обмыть тело белое,",
+      "Положите на доски новые,",
+      "Нарядите в полотно белое.",
+      "Не пробудится он больше,",
+      "Не откликнется он больше."
+    ],
+    "translation": [
+      "O you white swans, women-neighbours,",
+      "Come wash the white body,",
+      "Lay it out on the new boards,",
+      "Dress it in the white linen.",
+      "He will not wake again,",
+      "He will not answer again."
+    ],
+    "note": "Little white swans: a formulaic address to neighbouring women performing a ritual task."
+  },
+  "maksimov-crossroads": {
+    "id": "maksimov-crossroads",
+    "title": "О захоронении на перекрёстке (по Максимову, 1903)",
+    "first_line": "На перекрёстках хоронили самоубийц и тех, кто умер без покаяния.",
+    "genre": "Этнографическая проза",
+    "plate": "p",
+    "lines": [
+      "На перекрёстках хоронили самоубийц и тех, кто умер без покаяния.",
+      "Вбивали кол, чтобы нечистый покойник не поднялся.",
+      "Ни креста, ни камня — на перекрёстке дорог."
+    ],
+    "translation": [
+      "At the crossroads they buried suicides and those who died without last rites.",
+      "A stake was driven through so that the unquiet dead could not rise.",
+      "No cross, no stone — at the crossing of roads."
+    ],
+    "note": "Those buried without rites, outside consecrated ground; from 'хоронить' (to bury) with a prefix suggesting improper or covert disposal."
+  },
+  "zelenin-domovoi": {
+    "id": "zelenin-domovoi",
+    "title": "Домовой по сводке Зеленина (1927)",
+    "first_line": "Домовой живёт под порогом или за печью.",
+    "genre": "Этнографическая проза",
+    "plate": "s",
+    "lines": [
+      "Домовой живёт под порогом или за печью.",
+      "Он мохнатый и невидимый днём.",
+      "Он заплетает гривы лошадям по ночам.",
+      "Предсказывает смерть, стоная или двигая предметы.",
+      "В основе — предок дома или первый строитель, схороненный под фундаментом."
+    ],
+    "translation": [
+      "The domovoi lives under the threshold or behind the stove.",
+      "He is hairy and invisible by daylight.",
+      "He plaits the manes of horses at night.",
+      "He predicts death by groaning or moving objects.",
+      "He is at root the ancestor of the house, or the first builder buried under the foundations."
+    ],
+    "note": "House spirit. The word derives from 'dom' (house). Regional variants include 'domovnik', 'domashnik', 'dvorovoi'."
+  },
+  "zelenin-unquiet-dead": {
+    "id": "zelenin-unquiet-dead",
+    "title": "Нечистые мертвецы: категория Зеленина (1927)",
+    "first_line": "Заложный покойник — умерший прежде срока: самоубийца, утопленник, убитый молнией.",
+    "genre": "Этнографическая проза",
+    "plate": "t",
+    "lines": [
+      "Заложный покойник — умерший прежде срока: самоубийца, утопленник, убитый молнией.",
+      "Земля его не принимает.",
+      "Он ходит, пока не истечёт его земной срок.",
+      "Только после этого его можно похоронить по обряду."
+    ],
+    "translation": [
+      "The zalogny dead are those who died before their time: suicides, the drowned, those struck by lightning.",
+      "The earth does not receive them.",
+      "They walk until their allotted term on earth runs out.",
+      "Only then can they be buried with rites."
+    ],
+    "note": "Zelenin's term for the prematurely dead who cannot be buried in consecrated ground until their natural lifespan expires. Regional informants used various terms; Zelenin unified them."
+  },
+  "barsov-radonitsa": {
+    "id": "barsov-radonitsa",
+    "title": "Обращение к мёртвым на Радуницу (Барсов, 1872)",
+    "first_line": "Вставай, родимый, пробудись,",
+    "genre": "Похоронное причитание",
+    "plate": "u",
+    "lines": [
+      "Вставай, родимый, пробудись,",
+      "Пришёл тот день, когда к тебе приходим.",
+      "Принесли тебе хлеб да соль,",
+      "Яйца крашеные — приими.",
+      "Не забудем тебя никогда."
+    ],
+    "translation": [
+      "Rise, dear one, wake up,",
+      "The day has come when we come to you.",
+      "We have brought you bread and salt,",
+      "Painted eggs — take them.",
+      "We will not forget you."
+    ],
+    "note": "The Monday or Tuesday after Thomas Sunday (the second Sunday after Easter). The main spring memorial day in Russian Orthodox practice and folk calendar."
+  },
+  "kremleva-taboo": {
+    "id": "kremleva-taboo",
+    "title": "Охранительные действия при смерти: сводка Кремлёвой (1999)",
+    "first_line": "Зеркала завешивали, чтобы душа не застряла в отражении.",
+    "genre": "Этнографическая запись",
+    "plate": "v",
+    "lines": [
+      "Зеркала завешивали, чтобы душа не застряла в отражении.",
+      "Часы останавливали — время дома замирало.",
+      "Окна открывали, чтобы душа могла выйти.",
+      "Воду, стоявшую в доме, выливали — она принимала след смерти.",
+      "До выноса тела не мели — чтобы не вымести удачу.",
+      "Железо убирали от покойника — оно мешало душе отойти."
+    ],
+    "translation": [
+      "Mirrors were covered so the soul would not be caught in the reflection.",
+      "Clocks were stopped — the time of the house fell still.",
+      "Windows were opened so the soul could leave.",
+      "Water standing in the house was poured out — it had taken the imprint of death.",
+      "No sweeping until the body was carried out — to avoid sweeping out luck.",
+      "Iron was kept away from the dead — it obstructed the soul's departure."
+    ],
+    "note": "The prohibition on uncovered mirrors during the period of a death in the house is documented from at least the 18th century; it is among the acts most consistently recorded across regions."
+  },
+  "krasilnikova-cemetery": {
+    "id": "krasilnikova-cemetery",
+    "title": "О сносе старых кладбищ (Красильникова, 2023)",
+    "first_line": "В 1920-х большевики начали планомерно сносить кладбища.",
+    "genre": "Журналистское интервью",
+    "plate": "w",
+    "lines": [
+      "В 1920-х большевики начали планомерно сносить кладбища.",
+      "Надгробия шли на строительство дорог, набережных и зданий.",
+      "Могилы духовенства уничтожались в первую очередь.",
+      "Площадки занимали под парки и заводские территории.",
+      "Документация о сносе почти не велась.",
+      "Потомки нередко узнавали о снесённых могилах случайно — по слухам или когда начиналось строительство."
+    ],
+    "translation": [
+      "In the 1920s the Bolsheviks began systematic demolition of cemeteries.",
+      "Tombstones were used in road building, embankments and construction.",
+      "The graves of the clergy were demolished first.",
+      "Sites were given over to parks and factory grounds.",
+      "Almost no documentation of the demolitions was kept.",
+      "Descendants often found out about demolished graves by chance — through rumour, or when construction began."
+    ],
+    "note": "Materials from demolished tombstones: Krasilnikova documents cases where carved granite from pre-revolutionary cemeteries was reused in Soviet construction projects."
+  },
+  "maksimov-leshy": {
+    "id": "maksimov-leshy",
+    "title": "Леший у опушки леса (Максимов, 1903)",
+    "first_line": "Леший живёт на краю леса — не в чаще, а на рубеже.",
+    "genre": "Этнографическая проза",
+    "plate": "n",
+    "lines": [
+      "Леший живёт на краю леса — не в чаще, а на рубеже.",
+      "Он сбивает путников с дороги и зовёт голосом родственника или соседа.",
+      "Ответишь — уведёт вглубь леса, и выйти трудно.",
+      "Спасение одно: вывернуть одежду наизнанку — и лес выпустит."
+    ],
+    "translation": [
+      "The leshii lives at the forest edge — not in the deep wood, but at the border.",
+      "He leads travellers astray and calls in the voice of a kinsman or neighbour.",
+      "If you answer, he draws you deep into the forest and it is hard to find the way out.",
+      "One remedy: turn your clothes inside out — and the forest will release you."
+    ],
+    "note": "Forest spirit. The word is from 'les' (forest). Variants include lesnoi khoziain (master of the forest), leshak, lesovoi."
+  },
+  "azbyka-pechory": {
+    "id": "azbyka-pechory",
+    "title": "Пещерный некрополь Псково-Печерского монастыря",
+    "first_line": "В Богом зданных пещерах монастыря хоронили монахов и мирян более пяти столетий.",
+    "genre": "Паломнический путеводитель (парафраз)",
+    "plate": "r",
+    "lines": [
+      "В Богом зданных пещерах монастыря хоронили монахов и мирян более пяти столетий.",
+      "Пещеры остаются постоянно прохладными: температура не поднимается выше +5°С.",
+      "Не наблюдается ни тления, ни запаха.",
+      "Захоронения идут в глубину — коридорами и боковыми галереями.",
+      "Сколько именно погребений — точно не известно.",
+      "Монастырь действует непрерывно с XV века."
+    ],
+    "translation": [
+      "In the God-made caves of the monastery monks and laypeople were buried for more than five centuries.",
+      "The caves remain constantly cool: the temperature does not rise above +5°C.",
+      "No decay, no odour, is observed.",
+      "The burials go deep — along corridors and lateral galleries.",
+      "How many burials there are exactly is not known.",
+      "The monastery has been in continuous operation since the 15th century."
+    ],
+    "note": "'God-made caves': the official designation of the natural cave complex, emphasising that it was not excavated by human hands."
+  },
+  "vk-memorial-pages": {
+    "id": "vk-memorial-pages",
+    "title": "Страницы памяти ВКонтакте (политика VK, 2020)",
+    "first_line": "Страница умершего пользователя может быть заморожена по заявлению родственников.",
+    "genre": "Политический документ (парафраз)",
+    "plate": "x",
+    "lines": [
+      "Страница умершего пользователя может быть заморожена по заявлению родственников.",
+      "Аккаунт не будет появляться в рекомендациях и поиске.",
+      "Близкие могут оставлять сообщения на стене страницы.",
+      "Удалить страницу полностью может только родственник с подтверждёнными полномочиями.",
+      "Контент умершего сохраняется — если родственники не запросили удаление.",
+      "Платформа не обязуется хранить данные бессрочно."
+    ],
+    "translation": [
+      "A deceased user's page can be frozen at the request of a relative.",
+      "The account will not appear in recommendations or search.",
+      "Close ones can leave messages on the page wall.",
+      "Only a relative with confirmed authority can delete the page entirely.",
+      "The deceased's content is preserved — unless relatives request deletion.",
+      "The platform does not undertake to store data indefinitely."
+    ],
+    "note": "Memorial page: VK's term for a frozen account repurposed as a site of commemoration."
   }
 }

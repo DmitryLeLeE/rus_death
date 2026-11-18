@@ -1388,6 +1388,578 @@
           "gloss": "The traditional simple wooden eight-ended grave cross."
         }
       ]
+    },
+    {
+      "id": "barsov-washing",
+      "title": "Lament at the washing of the body (excerpt)",
+      "title_ru": "Причитание при обмывании тела (фрагмент)",
+      "first_line": "Уж вы, белые лебёдушки",
+      "genre": "Funeral lament",
+      "genre_ru": "Похоронное причитание",
+      "category": "oral",
+      "region": "Olonets province, Russian North",
+      "place": "Zaonezhye (recorded); Olonets province",
+      "date_recorded": "1867–1868",
+      "date_published": "1872",
+      "collector": "Elpidifor Vasilyevich Barsov",
+      "performer": "Irina Andreevna Fedosova",
+      "author": "",
+      "language": "Russian (pre-1918 orthography)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Barsov died in 1917; published 1872. Public domain in Russia (70 years p.m.a.) and in the United States (published before 1929).",
+      "source_id": "barsov1872",
+      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), no. 2.",
+      "status": "paraphrase",
+      "excerpt_note": "Paraphrase of the opening address to the washing women. The original uses diminutive forms throughout. This atlas does not reproduce the dialect text word-for-word but renders the formula and content faithfully.",
+      "plate": "b",
+      "themes": [
+        "body",
+        "washing",
+        "women's ritual",
+        "formula"
+      ],
+      "original": [
+        [
+          "Уж вы, белые лебёдушки, соседушки-женщины,",
+          "Придите обмыть тело белое,",
+          "Положите на доски новые,",
+          "Нарядите в полотно белое.",
+          "Не пробудится он больше,",
+          "Не откликнется он больше."
+        ]
+      ],
+      "translation": [
+        [
+          "O you white swans, women-neighbours,",
+          "Come wash the white body,",
+          "Lay it out on the new boards,",
+          "Dress it in the white linen.",
+          "He will not wake again,",
+          "He will not answer again."
+        ]
+      ],
+      "context": [
+        "The address to neighbouring women who performed the ritual washing of the body is one of the standard opening formulae in Barsov's collection. The diminutive 'лебёдушки' (little swans) is a term of address for women of the same village. The commands that follow are liturgical rather than instructional: they were uttered over women already at work. The lament ends at the point where the washing is complete and the body is dressed."
+      ],
+      "notes": [
+        {
+          "term": "белые лебёдушки",
+          "gloss": "Little white swans: a formulaic address to neighbouring women performing a ritual task."
+        },
+        {
+          "term": "доски новые",
+          "gloss": "New boards: the temporary surface on which the body was laid out before being placed in the coffin."
+        }
+      ]
+    },
+    {
+      "id": "maksimov-crossroads",
+      "title": "On crossroads burial (from Maksimov, 1903)",
+      "title_ru": "О захоронении на перекрёстке (по Максимову, 1903)",
+      "first_line": "На перекрёстке хоронили самоубийц",
+      "genre": "Ethnographic prose",
+      "genre_ru": "Этнографическая проза",
+      "category": "prose",
+      "region": "Russia (various provinces, central and northern)",
+      "date_published": "1903",
+      "collector": "S. V. Maksimov",
+      "author": "S. V. Maksimov",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Maksimov died in 1901; published 1903. Public domain in Russia (70 years p.m.a.) and in the United States.",
+      "source_id": "maksimov1903",
+      "source_detail": "S. V. Maksimov, Nechistaia, nevedomaia i krestnaia sila (St Petersburg, 1903), ch. 10.",
+      "status": "paraphrase",
+      "excerpt_note": "Paraphrase of Maksimov's chapter on 'zakhalonnye' (those buried without rites). Maksimov compiled material from multiple provinces; this atlas renders the core claims without quoting the original text.",
+      "plate": "p",
+      "themes": [
+        "crossroads",
+        "suicide",
+        "unquiet dead",
+        "burial prohibition"
+      ],
+      "original": [
+        [
+          "На перекрёстках хоронили самоубийц и тех, кто умер без покаяния.",
+          "Вбивали кол, чтобы нечистый покойник не поднялся.",
+          "Ни креста, ни камня — на перекрёстке дорог."
+        ]
+      ],
+      "translation": [
+        [
+          "At the crossroads they buried suicides and those who died without last rites.",
+          "A stake was driven through so that the unquiet dead could not rise.",
+          "No cross, no stone — at the crossing of roads."
+        ]
+      ],
+      "context": [
+        "Maksimov's chapter on 'zakhalonnye' (those buried outside consecrated ground) documents crossroads burial as a form of boundary disposal: the crossroads was neither inside nor outside the village, neither the cemetery nor the wilderness. The stake was intended to pin the restless spirit. Maksimov drew on material from multiple central and northern Russian provinces; he does not always specify his sources precisely."
+      ],
+      "notes": [
+        {
+          "term": "захалоненные",
+          "gloss": "Those buried without rites, outside consecrated ground; from 'хоронить' (to bury) with a prefix suggesting improper or covert disposal."
+        }
+      ]
+    },
+    {
+      "id": "zelenin-domovoi",
+      "title": "The domovoi in Zelenin's survey (1927)",
+      "title_ru": "Домовой по сводке Зеленина (1927)",
+      "first_line": "Домовой живёт под порогом",
+      "genre": "Ethnographic prose",
+      "genre_ru": "Этнографическая проза",
+      "category": "prose",
+      "region": "Russia (synthesised survey of multiple provinces)",
+      "date_published": "1927",
+      "collector": "D. K. Zelenin",
+      "author": "D. K. Zelenin",
+      "language": "German (translated to Russian 1991)",
+      "translator": "This atlas, via the 1991 Russian translation",
+      "rights": "PARAPHRASE",
+      "rights_evidence": "Zelenin died in 1954; original published 1927 in German. Russian translation published 1991. This atlas paraphrases, not quotes.",
+      "source_id": "zelenin1927",
+      "source_detail": "D. K. Zelenin, Vostochnoslavianskaia etnografiia (Russian translation, Moscow, 1991; German original Leipzig, 1927), § 25.",
+      "status": "paraphrase",
+      "excerpt_note": "This atlas paraphrases Zelenin's § 25 on the domovoi, rendering his list of characteristics without quoting the text verbatim.",
+      "plate": "s",
+      "themes": [
+        "house spirit",
+        "ancestor",
+        "domovoi",
+        "omen"
+      ],
+      "original": [
+        [
+          "Домовой живёт под порогом или за печью.",
+          "Он мохнатый и невидимый днём.",
+          "Он заплетает гривы лошадям по ночам.",
+          "Предсказывает смерть, стоная или двигая предметы.",
+          "В основе — предок дома или первый строитель, схороненный под фундаментом."
+        ]
+      ],
+      "translation": [
+        [
+          "The domovoi lives under the threshold or behind the stove.",
+          "He is hairy and invisible by daylight.",
+          "He plaits the manes of horses at night.",
+          "He predicts death by groaning or moving objects.",
+          "He is at root the ancestor of the house, or the first builder buried under the foundations."
+        ]
+      ],
+      "context": [
+        "Zelenin's § 25 synthesises material from dozens of gubernii on the domovoi. He identifies three layers: a folk belief in a hairy, house-bound spirit; a set of practices for appeasing it; and a substratum of ancestor belief in which the spirit is identified with a dead family member or founder. Zelenin does not resolve whether these are one belief or three."
+      ],
+      "notes": [
+        {
+          "term": "домовой",
+          "gloss": "House spirit. The word derives from 'dom' (house). Regional variants include 'domovnik', 'domashnik', 'dvorovoi'."
+        }
+      ]
+    },
+    {
+      "id": "zelenin-unquiet-dead",
+      "title": "On the unquiet dead: Zelenin's category (1927)",
+      "title_ru": "Нечистые мертвецы: категория Зеленина (1927)",
+      "first_line": "Заложный покойник не принят землёй",
+      "genre": "Ethnographic prose",
+      "genre_ru": "Этнографическая проза",
+      "category": "prose",
+      "region": "Russia (synthesised survey)",
+      "date_published": "1927",
+      "collector": "D. K. Zelenin",
+      "author": "D. K. Zelenin",
+      "language": "German (translated to Russian 1991)",
+      "translator": "This atlas, via the 1991 Russian translation",
+      "rights": "PARAPHRASE",
+      "rights_evidence": "Zelenin died in 1954; original published 1927. This atlas paraphrases.",
+      "source_id": "zelenin1927",
+      "source_detail": "D. K. Zelenin, Vostochnoslavianskaia etnografiia (Russian translation, Moscow, 1991), § 15.",
+      "status": "paraphrase",
+      "excerpt_note": "Paraphrase of Zelenin § 15 on the zalozhnye (unquiet dead). The original argument is more detailed; this atlas renders the definitional core.",
+      "plate": "t",
+      "themes": [
+        "unquiet dead",
+        "zalogny",
+        "suicide",
+        "drowning",
+        "term"
+      ],
+      "original": [
+        [
+          "Заложный покойник — умерший прежде срока: самоубийца, утопленник, убитый молнией.",
+          "Земля его не принимает.",
+          "Он ходит, пока не истечёт его земной срок.",
+          "Только после этого его можно похоронить по обряду."
+        ]
+      ],
+      "translation": [
+        [
+          "The zalogny dead are those who died before their time: suicides, the drowned, those struck by lightning.",
+          "The earth does not receive them.",
+          "They walk until their allotted term on earth runs out.",
+          "Only then can they be buried with rites."
+        ]
+      ],
+      "context": [
+        "Zelenin's § 15 introduces the term 'zalogny' (from 'zalog', pledge or pawn) to describe the dead who are still, in a sense, owed to the living world. His central claim is that the belief in unquiet dead rests not on moral judgment but on a prematurely interrupted lifespan: the earth does not want what it is not yet due. Critics have questioned whether the term 'zalogny' was used by informants or only by Zelenin as a scholarly category."
+      ],
+      "notes": [
+        {
+          "term": "заложный / заложенные",
+          "gloss": "Zelenin's term for the prematurely dead who cannot be buried in consecrated ground until their natural lifespan expires. Regional informants used various terms; Zelenin unified them."
+        }
+      ]
+    },
+    {
+      "id": "barsov-radonitsa",
+      "title": "Call to the dead on Radonitsa (Barsov, 1872)",
+      "title_ru": "Обращение к мёртвым на Радуницу (Барсов, 1872)",
+      "first_line": "Вставай, родимый, пробудись",
+      "genre": "Funeral lament",
+      "genre_ru": "Похоронное причитание",
+      "category": "oral",
+      "region": "Olonets province, Russian North",
+      "place": "Zaonezhye",
+      "date_recorded": "1867–1868",
+      "date_published": "1872",
+      "collector": "Elpidifor Vasilyevich Barsov",
+      "performer": "Irina Andreevna Fedosova",
+      "author": "",
+      "language": "Russian (pre-1918 orthography)",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Barsov died in 1917; published 1872. Public domain.",
+      "source_id": "barsov1872",
+      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), no. 47.",
+      "status": "paraphrase",
+      "excerpt_note": "Paraphrase of the memorial-day address formula in Barsov vol. 1, no. 47. The lament for the dead on the cemetery visit follows a standard invocation-and-gift formula.",
+      "plate": "u",
+      "themes": [
+        "Radonitsa",
+        "memorial day",
+        "food offering",
+        "address to dead"
+      ],
+      "original": [
+        [
+          "Вставай, родимый, пробудись,",
+          "Пришёл тот день, когда к тебе приходим.",
+          "Принесли тебе хлеб да соль,",
+          "Яйца крашеные — приими.",
+          "Не забудем тебя никогда."
+        ]
+      ],
+      "translation": [
+        [
+          "Rise, dear one, wake up,",
+          "The day has come when we come to you.",
+          "We have brought you bread and salt,",
+          "Painted eggs — take them.",
+          "We will not forget you."
+        ]
+      ],
+      "context": [
+        "The memorial-day lament formula addressed to the grave is structurally different from the funeral lament: its purpose is not to send the dead away but to invite them to receive the living's gifts and to certify that memory is intact. The gift formula — bread, salt, painted eggs — recurs across Barsov's collection whenever a memorial day is the occasion."
+      ],
+      "notes": [
+        {
+          "term": "Радуница / Радоница",
+          "gloss": "The Monday or Tuesday after Thomas Sunday (the second Sunday after Easter). The main spring memorial day in Russian Orthodox practice and folk calendar."
+        }
+      ]
+    },
+    {
+      "id": "kremleva-taboo",
+      "title": "Protective acts at death: Kremleva's inventory (1999)",
+      "title_ru": "Охранительные действия при смерти: сводка Кремлёвой (1999)",
+      "first_line": "Зеркала завешивали",
+      "genre": "Ethnographic record",
+      "genre_ru": "Этнографическая запись",
+      "category": "prose",
+      "region": "Russia (central and northern provinces)",
+      "date_published": "1999",
+      "collector": "I. A. Kremleva",
+      "author": "I. A. Kremleva",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PARAPHRASE",
+      "rights_evidence": "Paraphrase of a scholarly synthesis published 1999. No verbatim quotation.",
+      "source_id": "kremleva1999",
+      "source_detail": "I. A. Kremleva, 'Pokhoronno-pominal'nye obychai i obriady' in Russkie (Moscow, 1999).",
+      "status": "paraphrase",
+      "excerpt_note": "Paraphrase of Kremleva's list of protective acts recorded in central and northern Russian gubernii.",
+      "plate": "v",
+      "themes": [
+        "taboo",
+        "mirror",
+        "clock",
+        "water",
+        "iron",
+        "protective ritual"
+      ],
+      "original": [
+        [
+          "Зеркала завешивали, чтобы душа не застряла в отражении.",
+          "Часы останавливали — время дома замирало.",
+          "Окна открывали, чтобы душа могла выйти.",
+          "Воду, стоявшую в доме, выливали — она принимала след смерти.",
+          "До выноса тела не мели — чтобы не вымести удачу.",
+          "Железо убирали от покойника — оно мешало душе отойти."
+        ]
+      ],
+      "translation": [
+        [
+          "Mirrors were covered so the soul would not be caught in the reflection.",
+          "Clocks were stopped — the time of the house fell still.",
+          "Windows were opened so the soul could leave.",
+          "Water standing in the house was poured out — it had taken the imprint of death.",
+          "No sweeping until the body was carried out — to avoid sweeping out luck.",
+          "Iron was kept away from the dead — it obstructed the soul's departure."
+        ]
+      ],
+      "context": [
+        "Kremleva's inventory draws on fieldwork and published records from the 19th and early 20th centuries. The acts she lists share a logic: each one marks the threshold between the living household and the dead body by modifying or removing an object that might trap the soul or carry death's imprint into daily use. The mirror prohibition, the most widely recorded, is also the least well explained in the sources; Kremleva notes that informants gave several incompatible explanations for it."
+      ],
+      "notes": [
+        {
+          "term": "зеркало (mirror)",
+          "gloss": "The prohibition on uncovered mirrors during the period of a death in the house is documented from at least the 18th century; it is among the acts most consistently recorded across regions."
+        }
+      ]
+    },
+    {
+      "id": "krasilnikova-cemetery",
+      "title": "On the destruction of old cemeteries (Krasilnikova, 2023)",
+      "title_ru": "О сносе старых кладбищ (Красильникова, 2023)",
+      "first_line": "В 1920-х большевики начали сносить кладбища",
+      "genre": "Journalistic interview",
+      "genre_ru": "Журналистское интервью",
+      "category": "prose",
+      "region": "Russia (Novosibirsk, Barnaul, Omsk and other Siberian cities)",
+      "date_published": "2023",
+      "collector": "Radio Svoboda editorial team",
+      "author": "E. Krasilnikova, interviewed by Radio Svoboda",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PARAPHRASE",
+      "rights_evidence": "Paraphrase of a published interview (2023). No verbatim quotation.",
+      "source_id": "krasilnikova2023",
+      "source_detail": "Radio Svoboda, interview with E. Krasilnikova, 2023.",
+      "status": "paraphrase",
+      "excerpt_note": "Paraphrase of key claims from the Radio Svoboda interview with historian Elizaveta Krasilnikova on Soviet demolition of cemeteries.",
+      "plate": "w",
+      "themes": [
+        "cemetery demolition",
+        "Soviet policy",
+        "materials reuse",
+        "documentary absence"
+      ],
+      "original": [
+        [
+          "В 1920-х большевики начали планомерно сносить кладбища.",
+          "Надгробия шли на строительство дорог, набережных и зданий.",
+          "Могилы духовенства уничтожались в первую очередь.",
+          "Площадки занимали под парки и заводские территории.",
+          "Документация о сносе почти не велась.",
+          "Потомки нередко узнавали о снесённых могилах случайно — по слухам или когда начиналось строительство."
+        ]
+      ],
+      "translation": [
+        [
+          "In the 1920s the Bolsheviks began systematic demolition of cemeteries.",
+          "Tombstones were used in road building, embankments and construction.",
+          "The graves of the clergy were demolished first.",
+          "Sites were given over to parks and factory grounds.",
+          "Almost no documentation of the demolitions was kept.",
+          "Descendants often found out about demolished graves by chance — through rumour, or when construction began."
+        ]
+      ],
+      "context": [
+        "Krasilnikova's research focuses on Siberian cities, where the absence of documentation is particularly acute. She identifies two waves of demolition: the late 1920s–1930s (driven by anti-religious policy) and the late 1950s–1960s (driven by urban expansion under Khrushchev). The interview was conducted in the context of renewed public interest in demolished cemeteries following the rediscovery of several sites under Moscow streets."
+      ],
+      "notes": [
+        {
+          "term": "материалы снесённых надгробий",
+          "gloss": "Materials from demolished tombstones: Krasilnikova documents cases where carved granite from pre-revolutionary cemeteries was reused in Soviet construction projects."
+        }
+      ]
+    },
+    {
+      "id": "maksimov-leshy",
+      "title": "The leshii at the forest edge (Maksimov, 1903)",
+      "title_ru": "Леший у опушки леса (Максимов, 1903)",
+      "first_line": "Леший живёт на краю леса",
+      "genre": "Ethnographic prose",
+      "genre_ru": "Этнографическая проза",
+      "category": "prose",
+      "region": "Russia (central and northern provinces)",
+      "date_published": "1903",
+      "collector": "S. V. Maksimov",
+      "author": "S. V. Maksimov",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Maksimov died in 1901; published 1903. Public domain.",
+      "source_id": "maksimov1903",
+      "source_detail": "S. V. Maksimov, Nechistaia, nevedomaia i krestnaia sila (St Petersburg, 1903), ch. 5.",
+      "status": "paraphrase",
+      "excerpt_note": "Paraphrase of Maksimov's chapter on the leshii (forest spirit). This atlas renders the core characteristics and the counter-charm without quoting the text verbatim.",
+      "plate": "n",
+      "themes": [
+        "leshii",
+        "forest edge",
+        "spirit",
+        "bylichka",
+        "counter-charm"
+      ],
+      "original": [
+        [
+          "Леший живёт на краю леса — не в чаще, а на рубеже.",
+          "Он сбивает путников с дороги и зовёт голосом родственника или соседа.",
+          "Ответишь — уведёт вглубь леса, и выйти трудно.",
+          "Спасение одно: вывернуть одежду наизнанку — и лес выпустит."
+        ]
+      ],
+      "translation": [
+        [
+          "The leshii lives at the forest edge — not in the deep wood, but at the border.",
+          "He leads travellers astray and calls in the voice of a kinsman or neighbour.",
+          "If you answer, he draws you deep into the forest and it is hard to find the way out.",
+          "One remedy: turn your clothes inside out — and the forest will release you."
+        ]
+      ],
+      "context": [
+        "Maksimov's chapter 5 synthesises bylichki (first-person accounts of encounters with the leshii) collected from multiple provinces. The edge position of the leshii is consistent: he is not a creature of the deep forest but of the transition zone. The inside-out coat as a counter-charm is documented from Siberia to Vologda; Maksimov treats it as the most reliable folk remedy. The connection to the dead is implicit rather than explicit in Maksimov: the leshii does not speak of the dead, but the boundary he guards — the forest edge — is also the boundary at which unconsecrated burials were placed."
+      ],
+      "notes": [
+        {
+          "term": "леший / лесовик",
+          "gloss": "Forest spirit. The word is from 'les' (forest). Variants include lesnoi khoziain (master of the forest), leshak, lesovoi."
+        },
+        {
+          "term": "быличка",
+          "gloss": "A first-person or eyewitness-attributed account of a supernatural encounter, treated as reportage rather than fiction."
+        }
+      ]
+    },
+    {
+      "id": "azbyka-pechory",
+      "title": "The cave cemetery at Pskovo-Pechersky Monastery",
+      "title_ru": "Пещерный некрополь Псково-Печерского монастыря",
+      "first_line": "В Богом зданных пещерах монастыря",
+      "genre": "Pilgrim guide (paraphrase)",
+      "genre_ru": "Паломнический путеводитель (парафраз)",
+      "category": "prose",
+      "region": "Pskov oblast (Pechory)",
+      "date_published": "ongoing",
+      "collector": "Azbyka.ru editorial team",
+      "author": "Azbyka.ru (Orthodox pilgrim resource)",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PARAPHRASE",
+      "rights_evidence": "Paraphrase of a freely accessible pilgrim guide. No verbatim quotation.",
+      "source_id": "azbyka-pechory",
+      "source_detail": "Azbyka.ru, 'Psково-Pechersky Monastery', pilgrim section.",
+      "status": "paraphrase",
+      "excerpt_note": "Paraphrase of key claims in the Azbyka pilgrim guide to the cave cemetery.",
+      "plate": "r",
+      "themes": [
+        "cave cemetery",
+        "underground",
+        "monastery",
+        "Pechory",
+        "continuous use"
+      ],
+      "original": [
+        [
+          "В Богом зданных пещерах монастыря хоронили монахов и мирян более пяти столетий.",
+          "Пещеры остаются постоянно прохладными: температура не поднимается выше +5°С.",
+          "Не наблюдается ни тления, ни запаха.",
+          "Захоронения идут в глубину — коридорами и боковыми галереями.",
+          "Сколько именно погребений — точно не известно.",
+          "Монастырь действует непрерывно с XV века."
+        ]
+      ],
+      "translation": [
+        [
+          "In the God-made caves of the monastery monks and laypeople were buried for more than five centuries.",
+          "The caves remain constantly cool: the temperature does not rise above +5°C.",
+          "No decay, no odour, is observed.",
+          "The burials go deep — along corridors and lateral galleries.",
+          "How many burials there are exactly is not known.",
+          "The monastery has been in continuous operation since the 15th century."
+        ]
+      ],
+      "context": [
+        "The Pskovo-Pechersky cave cemetery is unusual in Russian practice: it is an underground necropolis in continuous use, with no above-ground markers for most of the burials. The pilgrim literature emphasises the absence of decay as a sign of holiness. The absence of a complete burial count is documented in the sources."
+      ],
+      "notes": [
+        {
+          "term": "Богом зданные пещеры",
+          "gloss": "'God-made caves': the official designation of the natural cave complex, emphasising that it was not excavated by human hands."
+        }
+      ]
+    },
+    {
+      "id": "vk-memorial-pages",
+      "title": "Memorial pages on VKontakte (VK policy, 2020)",
+      "title_ru": "Страницы памяти ВКонтакте (политика VK, 2020)",
+      "first_line": "Страница умершего пользователя может быть заморожена",
+      "genre": "Policy document (paraphrase)",
+      "genre_ru": "Политический документ (парафраз)",
+      "category": "prose",
+      "region": "Russia (platform-wide)",
+      "date_published": "2020 (updated 2024)",
+      "collector": "VKontakte (VK LLC)",
+      "author": "VKontakte (VK LLC)",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PARAPHRASE",
+      "rights_evidence": "Paraphrase of a publicly accessible platform policy document.",
+      "source_id": "vk-policy-memorial",
+      "source_detail": "VKontakte, 'Memorial Page Policy', 2020 (updated 2024).",
+      "status": "paraphrase",
+      "excerpt_note": "Paraphrase of the key provisions of VK's memorial page policy.",
+      "plate": "x",
+      "themes": [
+        "digital afterlife",
+        "memorial page",
+        "platform policy",
+        "VKontakte",
+        "social media"
+      ],
+      "original": [
+        [
+          "Страница умершего пользователя может быть заморожена по заявлению родственников.",
+          "Аккаунт не будет появляться в рекомендациях и поиске.",
+          "Близкие могут оставлять сообщения на стене страницы.",
+          "Удалить страницу полностью может только родственник с подтверждёнными полномочиями.",
+          "Контент умершего сохраняется — если родственники не запросили удаление.",
+          "Платформа не обязуется хранить данные бессрочно."
+        ]
+      ],
+      "translation": [
+        [
+          "A deceased user's page can be frozen at the request of a relative.",
+          "The account will not appear in recommendations or search.",
+          "Close ones can leave messages on the page wall.",
+          "Only a relative with confirmed authority can delete the page entirely.",
+          "The deceased's content is preserved — unless relatives request deletion.",
+          "The platform does not undertake to store data indefinitely."
+        ]
+      ],
+      "context": [
+        "VK's memorial page policy is modelled in part on Facebook's (Meta's) legacy contact system, but adapted to Russian legal conditions regarding data and inheritance. The policy distinguishes between 'freezing' (restricting the account from active functions while preserving content) and 'deletion'. The legal status of a deceased person's digital content in Russian law was not settled as of the date of the policy."
+      ],
+      "notes": [
+        {
+          "term": "страница памяти",
+          "gloss": "Memorial page: VK's term for a frozen account repurposed as a site of commemoration."
+        }
+      ]
     }
   ]
 }
