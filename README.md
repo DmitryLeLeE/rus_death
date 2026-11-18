@@ -7,7 +7,8 @@
 **An atlas of death, memory, ritual and the afterlife in Russian culture.**
 Twenty-six plates (A–Z) in four volumes, all published, with a map, a chronology, a lexicon, a bibliography, a claim ledger, reading routes and search, in English and Russian. Volume I (A–H, J) is the grave, the body and the table; II (M–R) the places where the living and the dead meet; III (S–V) the unseen; IV (I, K, L, W, X, Y, Z) mass death, the Soviet funeral, the archive, abandonment, the digital afterlife, the military cenotaph, and final oblivion. The [volumes page](https://DmitryLeLeE.github.io/rus_death/volumes.html) lists them; nothing is shown there as planned content.
 
-**Read it:** <https://DmitryLeLeE.github.io/rus_death/> · **По-русски:** <https://DmitryLeLeE.github.io/rus_death/ru/>
+**Read it:** <https://DmitryLeLeE.github.io/rus_death/> · **По-русски:** <https://DmitryLeLeE.github.io/rus_death/ru/>  
+**Complete Scholarly Compendium (Pre-print / PDF):** <https://DmitryLeLeE.github.io/rus_death/compendium.html> · **Сводный академический том:** <https://DmitryLeLeE.github.io/rus_death/ru/compendium.html>
 
 ---
 
@@ -63,6 +64,8 @@ Pages change in place (`js/nav.js`), so the sound keeps running between pages; a
 ## По-русски
 
 <a href="https://DmitryLeLeE.github.io/rus_death/ru/"><img src="social-ru.jpg" alt="АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ: крест под крышей и сани с гробом, чёрно-белые, на рваной бумаге"></a>
+
+**Читать Атлас:** <https://DmitryLeLeE.github.io/rus_death/ru/> · **Сводный академический том (Pre-print / PDF):** <https://DmitryLeLeE.github.io/rus_death/ru/compendium.html>
 
 «Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта с региональными фильтрами и экспедиционными треками, хронология с матрицей 5 исторических страт, метрический регистр кончины XIX века, хтонический гербарий (8 видов), архив исторических аудиозаписей фонографа и шеллака (1909–1927 гг., Надежда Плевицкая, Фёдор Шаляпин, сибирские бродяжеские песни) со стилизованным ретроплеером, словарь с интерактивными тултипами, библиография с экспортом цитат в ГОСТ Р 7.0.5-2008 и BibTeX, сводный академический том для печати/PDF (`ru/compendium.html`), интерактивные экспликации картин, реестр утверждений, маршруты чтения и поиск. В атлас включены главы по теневой этнографии (ритуалы опахивания при море, поверья о заложных покойниках и душителях, болотные раскопы «Долины смерти», сетевой кенотаф). Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём строго отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
 

@@ -599,6 +599,7 @@ ${spriteMarks}
     <a href="${base}routes.html">${nav.routes}</a>
     <a href="${base}archive.html">${nav.archive}</a>
     <a href="${base}ledger.html">${nav.ledger}</a>
+    <a href="${base}compendium.html">${nav.compendium}</a>
     <a href="${base}bibliography.html">${nav.sources}</a>
     <a href="${base}method.html">${nav.method}</a>
     <a href="${base}search.html">${nav.search}</a>
@@ -636,6 +637,7 @@ ${content}
     <a href="${base}routes.html">${nav.routes}</a>
     <a href="${base}archive.html">${nav.archive}</a>
     <a href="${base}ledger.html">${nav.ledger}</a>
+    <a href="${base}compendium.html">${nav.compendium}</a>
     <a href="${base}bibliography.html">${nav.sources}</a>
     <a href="${base}method.html">${nav.method}</a>
     <a href="${base}search.html">${nav.search}</a>
@@ -1427,6 +1429,7 @@ function notFound() {
     { href: "ledger.html", t: T.nav.ledger || "LEDGER" },
     { href: "routes.html", t: T.nav.routes || "ROUTES" },
     { href: "archive.html", t: T.nav.archive || "ARCHIVE" },
+    { href: "compendium.html", t: T.nav.compendium || "COMPENDIUM" },
     { href: "map.html", t: T.nav.map || "MAP" },
     { href: "chronology.html", t: T.nav.chrono || "CHRONOLOGY" },
     { href: "words.html", t: T.nav.words || "LEXICON" },
@@ -1935,6 +1938,7 @@ function coverPage() {
           <a href="routes.html">${X.navRoutes}</a>
           <a href="archive.html">${X.navArchive}</a>
           <a href="ledger.html">${X.navLedger}</a>
+          <a href="compendium.html">${X.navCompendium || "compendium"}</a>
           <a href="bibliography.html">${X.navSources}</a>
           <a href="method.html">${X.navMethod}</a>
           <a href="search.html">${X.navSearch}</a>
