@@ -408,6 +408,15 @@
             "baiburin1993"
           ],
           "level": "documented"
+        },
+        {
+          "type": "figure",
+          "src": "diagram-domovina-anatomy",
+          "alt": "Architectural and ritual cross-section diagram of an archaic Russian hollowed log coffin (domovina / koloda)",
+          "caption": "Architectural anatomy of the Russian hollowed log coffin (domovina / koloda), showing the monoxyle cedar/aspen trough, bark seal, carved peering window (okontse), and birch bark interior lining. Schematic reconstruction based on 19th-century ethnographic records.",
+          "credit": "Original architectural reconstruction diagram for this atlas, CC BY-SA 4.0",
+          "level": "interpretation",
+          "size": "wide"
         }
       ],
       "volume": "I"
@@ -1486,6 +1495,15 @@
           "sources": [
             "suvorov-epitaph"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "diagram-cross-types",
+          "alt": "Comparative typology of Russian grave markers: roofed cross (golubets), octagonal cross, hollowed domovina with gable roof, and carved pillar marker (stolbets)",
+          "caption": "Comparative typology of Russian funerary wooden architecture: from the archaic carved pillar marker (stolbets) and monoxyle domovina to the Pomor gabled grave cross (golubets) and canonical Old Believer eight-pointed cross.",
+          "credit": "Original comparative diagram for this atlas, CC BY-SA 4.0",
+          "level": "interpretation",
+          "size": "wide"
         }
       ],
       "volume": "I"

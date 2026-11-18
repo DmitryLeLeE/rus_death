@@ -425,6 +425,91 @@
         io.observe(img);
       });
     }
+    /* ------------------------------------------------------------ term popover -- */
+    let activePopover = null;
+    const closePopover = () => {
+      if (activePopover) {
+        activePopover.remove();
+        activePopover = null;
+      }
+    };
+
+    document.addEventListener("click", (e) => {
+      const ref = e.target.closest(".term-ref");
+      if (!ref) {
+        closePopover();
+        return;
+      }
+      e.stopPropagation();
+      if (activePopover && activePopover.dataset.forTerm === ref.dataset.term) {
+        closePopover();
+        return;
+      }
+      closePopover();
+
+      const title = ref.dataset.title || ref.textContent;
+      const gloss = ref.dataset.gloss || "";
+      const termId = ref.dataset.term;
+      const isPlate = location.pathname.includes("/plates/");
+      const href = (isPlate ? "../" : "") + (RU ? "ru/" : "") + "words.html#word-" + termId;
+
+      const pop = document.createElement("div");
+      pop.className = "term-popover";
+      pop.dataset.forTerm = termId;
+      pop.innerHTML = `
+        <div class="term-popover__head">
+          <span class="term-popover__title mono">${title}</span>
+          <button type="button" class="term-popover__close" aria-label="Close">×</button>
+        </div>
+        <p class="term-popover__gloss">${gloss}</p>
+        <a class="term-popover__link mono" href="${href}">${RU ? "В словарь терминов →" : "To full lexicon →"}</a>
+      `;
+
+      document.body.appendChild(pop);
+      activePopover = pop;
+
+      const rect = ref.getBoundingClientRect();
+      const popRect = pop.getBoundingClientRect();
+      let top = rect.bottom + window.scrollY + 6;
+      let left = rect.left + window.scrollX - 10;
+
+      if (left + popRect.width > window.innerWidth - 16) {
+        left = window.innerWidth - popRect.width - 16;
+      }
+      if (left < 16) left = 16;
+      if (rect.bottom + popRect.height > window.innerHeight) {
+        top = rect.top + window.scrollY - popRect.height - 6;
+      }
+
+      pop.style.top = top + "px";
+      pop.style.left = left + "px";
+
+      pop.querySelector(".term-popover__close").addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        closePopover();
+      });
+    });
+
+    win("keydown", (e) => {
+      if (e.key === "Escape") closePopover();
+    });
+
+    /* -------------------------------------------------------- metrics filter -- */
+    const mChips = $$("[data-metric-filter]");
+    if (mChips.length) {
+      const mRows = $$(".metrics-row");
+      mChips.forEach((chip) => {
+        chip.addEventListener("click", () => {
+          mChips.forEach((c) => c.setAttribute("aria-pressed", "false"));
+          chip.setAttribute("aria-pressed", "true");
+          const cat = chip.dataset.metricFilter;
+          mRows.forEach((r) => {
+            const show = cat === "all" || r.dataset.category === cat;
+            r.hidden = !show;
+          });
+        });
+      });
+    }
   }
 
   window.RD = Object.assign(window.RD || {}, { init });

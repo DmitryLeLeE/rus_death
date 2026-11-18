@@ -1,0 +1,17 @@
+{
+  "name": "Археология русской смерти",
+  "short_name": "Русская смерть",
+  "description": "Атлас материальной культуры, обряда и этнографии погребения в русской традиции",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#141210",
+  "theme_color": "#8a1a14",
+  "icons": [
+    {
+      "src": "assets/illustrations/colophon-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -547,3 +547,171 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
   border-color: #8a1a14;
 }
 
+/* --- Term references and glossary popovers --- */
+.term-ref {
+  text-decoration: none;
+  border-bottom: 1.5px dotted #b3241a;
+  cursor: help;
+  color: inherit;
+  transition: background 0.15s ease;
+}
+.term-ref:hover, .term-ref:focus {
+  background: rgba(179, 36, 26, 0.12);
+  outline: none;
+}
+.term-popover {
+  position: absolute;
+  z-index: 1000;
+  width: min(340px, 90vw);
+  background: #efeae0;
+  border: 1px solid rgba(26, 24, 20, 0.35);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.22), 0 0 0 1px rgba(179, 36, 26, 0.2);
+  padding: 12px 14px;
+  color: #1a1814;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  border-left: 3px solid #b3241a;
+  animation: popIn 0.12s ease-out;
+}
+@keyframes popIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.term-popover__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px dashed rgba(26, 24, 20, 0.2);
+}
+.term-popover__title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #b3241a;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.term-popover__close {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: #666;
+  cursor: pointer;
+  padding: 0 4px;
+}
+.term-popover__close:hover { color: #111; }
+.term-popover__gloss {
+  margin: 0 0 8px;
+  font-family: Georgia, serif;
+}
+.term-popover__link {
+  display: inline-block;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  color: #8a1a14;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.term-popover__link:hover { color: #b3241a; }
+
+/* --- Parish Death Records Register (archive.html) --- */
+.metrics-section {
+  margin: 48px auto;
+  max-width: 1760px;
+  padding: 0 var(--pad);
+}
+.metrics-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 18px;
+  background: #f4efe6;
+  border: 1px solid rgba(26, 24, 20, 0.25);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.metrics-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  text-align: left;
+}
+.metrics-table th {
+  background: #e2dbcb;
+  font: 700 0.68rem var(--f-type, monospace);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 10px 14px;
+  border-bottom: 2px solid #1a1814;
+  white-space: nowrap;
+}
+.metrics-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(26, 24, 20, 0.15);
+  vertical-align: top;
+}
+.metrics-table tr:hover td {
+  background: rgba(179, 36, 26, 0.04);
+}
+.metrics-cause {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  color: #8a1a14;
+}
+.metrics-citation {
+  font-size: 0.72rem;
+  color: #666;
+}
+.metrics-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+/* --- Chronology Strata Table (chronology.html) --- */
+.strata-section {
+  margin: 28px 0 36px;
+}
+.strata-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #efeae0;
+  border: 1px solid rgba(26, 24, 20, 0.3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.strata-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  text-align: left;
+}
+.strata-table th {
+  background: #ded7c6;
+  font: 700 0.68rem var(--f-type, monospace);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 12px 14px;
+  border-bottom: 2px solid #1a1814;
+  white-space: nowrap;
+}
+.strata-table td {
+  padding: 14px;
+  border-bottom: 1px dashed rgba(26, 24, 20, 0.2);
+  vertical-align: top;
+}
+.strata-epoch {
+  font-weight: 700;
+  white-space: nowrap;
+  color: #8a1a14;
+}
+.strata-epoch small {
+  display: block;
+  font: 0.7rem var(--f-type, monospace);
+  color: #555;
+  font-weight: normal;
+}
+
+

@@ -664,6 +664,17 @@
         "i",
         "y"
       ]
+    },
+    {
+      "id": "domovina",
+      "ru": "домовина",
+      "tr": "domovina",
+      "gloss": "hollowed log coffin or grave house representing the deceased's eternal dwelling",
+      "register": "archaic, dialect, ethnographic",
+      "plates": [
+        "b",
+        "f"
+      ]
     }
   ]
 }

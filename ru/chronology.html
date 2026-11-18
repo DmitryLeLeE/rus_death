@@ -33,6 +33,7 @@
 <link rel="icon" href="../assets/icons/icon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="../assets/icons/icon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="../manifest.json">
 <link rel="preload" href="../assets/fonts/anton-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../css/core.css">
 <link rel="stylesheet" href="../css/plates.css">
@@ -40,6 +41,7 @@
 <link rel="stylesheet" href="../css/motion.css">
 <link rel="stylesheet" href="../css/print.css" media="print">
 
+<script>if("serviceWorker" in navigator){navigator.serviceWorker.register("../sw.js").catch(function(){});}</script>
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
 <body class="chrono-page" data-page="chronology">
@@ -99,6 +101,85 @@
   <h1 class="pagehead__title">ХРОНОЛОГИЯ</h1>
   <p class="pagehead__dek">Это не непрерывная история русской смерти. Это линия документов, указов, публикаций и зданий, на которой разрывы оставлены видимыми.</p>
 </header>
+
+<section class="strata-section" aria-labelledby="strata-h2">
+  <div class="strata-header">
+    <p class="mono kicker">АРХЕОЛОГИЯ ПАМЯТИ</p>
+    <h2 id="strata-h2">Пять исторических страт русской погребальной культуры</h2>
+    <p class="strata-dek">Сравнительная матрица трансформации обращения с телом, сакральной топографии, мемориальной символики и нормативного регулирования смерти на протяжении тысячелетия.</p>
+  </div>
+  <div class="tablewrap strata-wrap" tabindex="0">
+    <table class="strata-table">
+      <thead>
+        <tr>
+          <th>Эпоха и пласт</th>
+          <th>Обращение с телом</th>
+          <th>Сакральное пространство</th>
+          <th>Символика и маркеры</th>
+          <th>Институциональный контроль</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr data-stratum="pre-christian">
+            <td class="strata-epoch">
+              <span class="mono strata-period">До 988 г.</span>
+              <strong>Дохристианский пласт (Курганный)</strong>
+            </td>
+            <td>Кремация на кострище / сожжение в ладье; сбор пепла в глиняную урну или погребальную камеру под насыпным курганом. Ритуальное соумирание (по Ибн Фадлану).</td>
+            <td>Родовой курганный могильник на речных террасах, вдали от поселения. Место тризны и воинских состязаний.</td>
+            <td>Каменные бабы, деревянные намогильные столпы, ритуальный костер, жертвенные сосуды.</td>
+            <td class="strata-law">Родовой обычай, племенное право, завет предков.</td>
+          </tr>
+        
+          <tr data-stratum="old-ritual">
+            <td class="strata-epoch">
+              <span class="mono strata-period">XI — XVII вв.</span>
+              <strong>Древнерусский и дониконовский пласт (Погост и Домовина)</strong>
+            </td>
+            <td>Ингумация (трупоположение). Цельная долбленая колода из сосны или дуба без железных гвоздей. Холщовый саван «на живую нитку». Оплакивание вопленицами.</td>
+            <td>Приходской погост непосредственно вокруг храма. Погребение «под сенью алтаря» и на прихрамовой земле. Братские скудельницы для безвестных странников.</td>
+            <td>Деревянный крест-голубец с двускатной кровлей-теремком и врезной медной иконой; резные белокаменные плиты с вилообразными крестами.</td>
+            <td class="strata-law">Стоглавый собор (1551 г.), Кормчая книга, церковно-монастырские уставы.</td>
+          </tr>
+        
+          <tr data-stratum="synodal-imperial">
+            <td class="strata-epoch">
+              <span class="mono strata-period">1771 — 1917 гг.</span>
+              <strong>Синодально-имперский пласт (Загородный некрополь)</strong>
+            </td>
+            <td>Дощатый гроб, обитый парчой или сукном. Вскрытия при полицейском дознании. Метрическая фиксация причин кончины приходским священником.</td>
+            <td>Вынос кладбищ за черту городов (указ 1771 г.). Сословное деление некрополей (дворянские, купеческие, мещанские, холерные участки).</td>
+            <td>Чугунные и мраморные саркофаги, ангелы, эпитафии в стихах, кованые ограды, фамильные склепы-усыпальницы.</td>
+            <td class="strata-law">Чумной манифест Екатерины II (1771 г.), Устав врачебный, Синодальные указы об опившихся и самоубийцах.</td>
+          </tr>
+        
+          <tr data-stratum="soviet">
+            <td class="strata-epoch">
+              <span class="mono strata-period">1918 — 1991 гг.</span>
+              <strong>Советский пласт (Секуляризация и кремация)</strong>
+            </td>
+            <td>Огненное погребение (первый крематорий 1927 г., Донской монастырь). Гражданская панихида, духовой траурный оркестр (похоронный марш Шопена).</td>
+            <td>Срытие монастырских некрополей. Создание типовых коммунальных кладбищ с сеткой участков, стенами скорби и колумбариями.</td>
+            <td>Жестяная пирамидка с пятиконечной красной звездой; эмалированный овальный фотопортрет; гранитные обелиски с серпом и молотом.</td>
+            <td class="strata-law">Декрет СНК об отделении церкви от государства (1918 г.), декрет «О кладбищах и похоронах» (1918 г.), типовые правила Минжилкомхоза РСФСР.</td>
+          </tr>
+        
+          <tr data-stratum="digital-contemporary">
+            <td class="strata-epoch">
+              <span class="mono strata-period">1991 — 2026 гг.</span>
+              <strong>Постсоветский и цифровой пласт (Сетевой кенотаф)</strong>
+            </td>
+            <td>Возвращение церковного чинопоследования. Поисковые эксгумации безымянных солдат ВОВ. Мемориализация цифрового следа умершего в интернете.</td>
+            <td>Переполненные пригородные кладбища-гиганты. Сетевое виртуальное пространство: страницы памяти ВКонтакте, цифровые кладбища (Skorbim, MemoryBook).</td>
+            <td>Гравированный лазером портрет на полированном габбро-диабазе; QR-код со ссылкой на биографию; мерцающие гиф-свечи в сети.</td>
+            <td class="strata-law">Федеральный закон № 8-ФЗ «О погребении и похоронном деле» (1996 г.), пользовательские соглашения цифровых платформ.</td>
+          </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</section>
 
 <section class="tl" aria-labelledby="tl-title">
   <h2 id="tl-title" class="visually-hidden">Хронология</h2>

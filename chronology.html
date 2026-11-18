@@ -33,6 +33,7 @@
 <link rel="icon" href="assets/icons/icon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="assets/icons/icon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
 <link rel="preload" href="assets/fonts/anton-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/core.css">
 <link rel="stylesheet" href="css/plates.css">
@@ -40,6 +41,7 @@
 <link rel="stylesheet" href="css/motion.css">
 <link rel="stylesheet" href="css/print.css" media="print">
 
+<script>if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(function(){});}</script>
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
 <body class="chrono-page" data-page="chronology">
@@ -99,6 +101,85 @@
   <h1 class="pagehead__title">THE<br>TIMELINE</h1>
   <p class="pagehead__dek">This is not a continuous history of Russian death. It is a line of documents, decrees, publications and buildings, with the breaks left visible.</p>
 </header>
+
+<section class="strata-section" aria-labelledby="strata-h2">
+  <div class="strata-header">
+    <p class="mono kicker">ARCHAEOLOGY OF MEMORY</p>
+    <h2 id="strata-h2">Five Historical Strata of Russian Funerary Culture</h2>
+    <p class="strata-dek">Comparative matrix tracing the evolution of bodily preparation, sacred spatial topography, memorial symbolism, and regulatory power across a millennium.</p>
+  </div>
+  <div class="tablewrap strata-wrap" tabindex="0">
+    <table class="strata-table">
+      <thead>
+        <tr>
+          <th>Epoch & Stratum</th>
+          <th>Bodily Treatment</th>
+          <th>Sacred Space</th>
+          <th>Symbolism & Markers</th>
+          <th>Regulatory Authority</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr data-stratum="pre-christian">
+            <td class="strata-epoch">
+              <span class="mono strata-period">Pre-988</span>
+              <strong>Pre-Christian Stratum (Kurgan)</strong>
+            </td>
+            <td>Cremation on pyres or ship cremation; ash collected in clay urns or wooden chambers beneath earth kurgans. Ritual self-immolation of consorts (Ibn Fadlan).</td>
+            <td>Kinship kurgan mounds along river terraces away from settlements. Ground for the trizna feast and martial games.</td>
+            <td>Stone stelae, carved wooden pillars, ritual fire, clay grave vessels.</td>
+            <td class="strata-law">Kinship custom, tribal oral law, ancestral covenant.</td>
+          </tr>
+        
+          <tr data-stratum="old-ritual">
+            <td class="strata-epoch">
+              <span class="mono strata-period">11th–17th c.</span>
+              <strong>Old Russian & Pre-Nikonian Stratum (Pogost & Domovina)</strong>
+            </td>
+            <td>Inhumation in single hollowed-log coffins (domovina / koloda) without iron nails. Homespun canvas shroud sewn without knots. Polyphonic village laments.</td>
+            <td>Parish pogost directly surrounding the church. Burial beneath the church eaves. Common pits (skudelnitsy) for unquiet dead.</td>
+            <td>Wooden roofed cross (golubets) with bronze icon niche; carved white-stone slabs with fork-tailed crosses.</td>
+            <td class="strata-law">Stoglav Council (1551), Kormchaya Book of Nomocanon, monastic statutes.</td>
+          </tr>
+        
+          <tr data-stratum="synodal-imperial">
+            <td class="strata-epoch">
+              <span class="mono strata-period">1771–1917</span>
+              <strong>Synodal & Imperial Stratum (Extramural Necropolis)</strong>
+            </td>
+            <td>Plank-built coffin lined with cloth or brocade. Medical police post-mortems. Verbatim registration of cause of death in church metric books.</td>
+            <td>Expulsion of graveyards beyond city limits (1771 decree). Class segregation of burial plots (nobility, merchant, artisan, cholera sections).</td>
+            <td>Cast-iron and marble sarcophagi, stone angels, poetic epitaphs, wrought-iron enclosures, family vaults.</td>
+            <td class="strata-law">Catherine II's Plague Edict (1771), Medical Code, Synodal bans on suicides and unquiet dead.</td>
+          </tr>
+        
+          <tr data-stratum="soviet">
+            <td class="strata-epoch">
+              <span class="mono strata-period">1918–1991</span>
+              <strong>Soviet Stratum (Secularization & Cremation)</strong>
+            </td>
+            <td>Fiery burial (first crematorium, Donskoy 1927). Civil secular panikhida with brass funeral band (Chopin funeral march).</td>
+            <td>Leveling of monastery graveyards. Municipal standardized cemeteries with grid plots, walls of grief, and columbarium niches.</td>
+            <td>Welded tin pyramid with red painted star; oval enamel photo-portrait; granite obelisk with hammer and sickle.</td>
+            <td class="strata-law">Soviet Decree on Separation of Church and State (1918), Decree on Cemeteries and Funerals (1918), RSFSR municipal sanitary rules.</td>
+          </tr>
+        
+          <tr data-stratum="digital-contemporary">
+            <td class="strata-epoch">
+              <span class="mono strata-period">1991–2026</span>
+              <strong>Post-Soviet & Digital Stratum (The Networked Cenotaph)</strong>
+            </td>
+            <td>Resacralization of Orthodox rites. Battlefield exhumations of unburied soldiers. Preservation of digital footprints and social media memorials.</td>
+            <td>Sprawling suburban mega-cemeteries. Virtual commemorative cloud: VK memorial walls, digital databases, online vigils.</td>
+            <td>Laser-etched realistic portrait on black gabbro; QR code linking to archive; animated digital memorial candles.</td>
+            <td class="strata-law">Federal Law No. 8-FZ 'On Burial and Funeral Affairs' (1996), platform user agreements on deceased accounts.</td>
+          </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</section>
 
 <section class="tl" aria-labelledby="tl-title">
   <h2 id="tl-title" class="visually-hidden">Chronology</h2>

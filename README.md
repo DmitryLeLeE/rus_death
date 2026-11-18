@@ -46,18 +46,18 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Plates A–Z | Research plates, each with its own composition (all 26 plates), apparatus and one-click ГОСТ / BibTeX citation |
 | Index | Card catalogue of plates, objects, concepts and places |
 | Voices | Lament, verse and historical field voices in Russian and English with source metadata |
-| Field archive | The catalogue of objects and what is known about each (28 entries) |
+| Field archive | The catalogue of original assets and an authentic 19th-century parish death register (*метрический регистр кончины*, 1842–1895) with verbatim formulas of demise |
 | Map | 36 localities, with interactive macro-regional filters (North, Center, East, Diaspora) |
-| Chronology | 37 points and caesuras, filterable by period |
-| Words | Lexicon of the Russian terms the atlas uses (63 entries) |
+| Chronology | 37 points and caesuras, filterable by period, and a comparative matrix of 5 historical strata of funerary culture |
+| Words | Lexicon of Russian ethnographic terms (64 entries) with interactive in-text popovers across all plate prose |
 | Reading routes | Seven paths through the plates, covering all 26 compositions |
 | Claim ledger | Every section of every plate (241 sections) with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |
 | Sources | Bibliography (154 entries) with one-click ГОСТ Р 7.0.5-2008 and BibTeX copy buttons; visual asset credits |
 | Method | Scope, evidence levels, periodisation, limits |
-| Colophon | How the edition was made |
+| Colophon | How the edition was made; offline PWA support and service worker architecture |
 
-Pages change in place (`js/nav.js`), so the sound keeps running between pages; anything unusual falls back to an ordinary page load. There is a *Readable* button in the header (calm paper, no tilt, larger type) and an optional *Sound* button (a quiet room, wind and a far bell, synthesised in the browser; off by default). Every motion effect switches off under `prefers-reduced-motion`, and each plate prints as a plain black-and-white sheet.
+Pages change in place (`js/nav.js`), so the sound keeps running between pages; anything unusual falls back to an ordinary page load. There is a *Readable* button in the header (calm paper, no tilt, larger type) and an optional *Sound* button (a quiet room, wind and a far bell, synthesised in the browser; off by default). The entire atlas functions as a Progressive Web App (PWA) with complete offline caching (`manifest.json` and `sw.js`). Every motion effect switches off under `prefers-reduced-motion`, and each plate prints as a plain black-and-white sheet.
 
 ## По-русски
 

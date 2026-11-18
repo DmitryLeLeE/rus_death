@@ -29,7 +29,7 @@ const SITE = "https://DmitryLeLeE.github.io/rus_death/";
 let LANG = "en", T = UI.en, UP = "";
 let plates, sourcesDoc, objectsDoc, conceptsDoc, placesDoc, timelineDoc, imagesDoc, methodDoc, derivedDoc;
 let VOICES = [], VOICE = {};
-let prologueDoc, lexiconDoc, volumesDoc, routesDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
+let prologueDoc, lexiconDoc, volumesDoc, routesDoc, metricsDoc, strataDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
 
 const merge = (target, src) => {
   for (const [k, v] of Object.entries(src)) {
@@ -86,6 +86,8 @@ function loadLang(lang) {
   lexiconDoc = fileExists(path.join(DATA, "lexicon.json")) ? readJSON(path.join(DATA, "lexicon.json")) : null;
   volumesDoc = readJSON(path.join(DATA, "volumes.json"));
   routesDoc = readJSON(path.join(DATA, "routes.json"));
+  metricsDoc = fileExists(path.join(DATA, "metrics.json")) ? readJSON(path.join(DATA, "metrics.json")) : null;
+  strataDoc = fileExists(path.join(DATA, "strata.json")) ? readJSON(path.join(DATA, "strata.json")) : null;
   HAND = {};
   if (lang === "ru") {
     const ov = (f) => { const p = path.join(DATA, "ru", f); return fileExists(p) ? readJSON(p) : null; };
@@ -269,11 +271,66 @@ const foot = (s, base) => {
   return `<footer class="ft">${s.level ? tag(s.level, s.contested) : ""}${badges ? `<details class="src"><summary>${T.sourcesWord}</summary><p>${badges}</p></details>` : ""}</footer>`;
 };
 
+const TERM_PATTERNS = [
+  { id: "domovina", ru: /\b(домовин[а-яё]*)\b/i, en: /\b(\*?domovina\*?s?)\b/i },
+  { id: "koloda", ru: /\b(колод[а-яё]*)\b/i, en: /\b(\*?koloda\*?s?)\b/i },
+  { id: "golubets", ru: /\b(голуб(?:ец|ц[а-яё]*))\b/i, en: /\b(\*?golub(?:ets|tsy)\*?)\b/i },
+  { id: "skudelnitsa", ru: /\b(скудельниц[а-яё]*)\b/i, en: /\b(\*?skudel'?nitsa\*?s?)\b/i },
+  { id: "zalozhnye", ru: /\b(заложн[а-яё]+)\b/i, en: /\b(\*?zalozhnye\*?)\b/i },
+  { id: "pokoinik", ru: /\b(покойник[а-яё]*)\b/i, en: /\b(\*?pokoinik\*?s?)\b/i },
+  { id: "sorokoviny", ru: /\b(сороковин[а-яё]*)\b/i, en: /\b(\*?sorokoviny\*?)\b/i },
+  { id: "kutia", ru: /\b(куть[яеиюё]|кутьей|кутьёй)\b/i, en: /\b(\*?kut'?ia\*?|\*?kutya\*?)\b/i },
+  { id: "radonitsa", ru: /\b(радониц[а-яё]*)\b/i, en: /\b(\*?radonitsa\*?)\b/i },
+  { id: "semik", ru: /\b(семик[а-яё]*)\b/i, en: /\b(\*?semik\*?)\b/i },
+  { id: "pogost", ru: /\b(погост[а-яё]*)\b/i, en: /\b(\*?pogost\*?s?)\b/i },
+  { id: "rosstan", ru: /\b(росстан[а-яё]*)\b/i, en: /\b(\*?rosstan'?\*?)\b/i },
+  { id: "prichitanie", ru: /\b(причитани[а-яё]*|причет[а-яё]*|причеть)\b/i, en: /\b(\*?prichitanie\*?s?|\*?prichett?'?\*?)\b/i },
+  { id: "bannik", ru: /\b(банник[а-яё]*)\b/i, en: /\b(\*?bannik\*?s?)\b/i },
+  { id: "domovoi", ru: /\b(домов[оы][йа-яё]*)\b/i, en: /\b(\*?domovoi\*?s?)\b/i },
+  { id: "kikimora", ru: /\b(кикимор[а-яё]*)\b/i, en: /\b(\*?kikimora\*?s?)\b/i },
+  { id: "upyr", ru: /\b(упыр[а-яё]*)\b/i, en: /\b(\*?upyr'?\*?s?)\b/i },
+  { id: "rusalka", ru: /\b(русалк[а-яё]*)\b/i, en: /\b(\*?rusalk[ai]\*?)\b/i },
+  { id: "kenotaf", ru: /\b(кенотаф[а-яё]*)\b/i, en: /\b(\*?cenotaph\*?s?)\b/i },
+  { id: "bratskaya-mogila", ru: /\b(братск[а-яё]+\s+могил[а-яё]*)\b/i, en: /\b(mass grave|fraternal grave)\b/i },
+  { id: "lesenka", ru: /\b(лесенк[а-яё]*|лествиц[а-яё]*)\b/i, en: /\b(\*?lesenka\*?s?)\b/i },
+  { id: "kolivo", ru: /\b(колив[а-яё]*)\b/i, en: /\b(\*?kolivo\*?)\b/i }
+];
+
+function annotateTerms(html) {
+  if (!lexiconDoc || !lexiconDoc.entries) return html;
+  const tokens = html.split(/(<[^>]+>)/g);
+  const used = new Set();
+  const entriesById = Object.fromEntries(lexiconDoc.entries.map((e) => [e.id, e]));
+
+  for (let i = 0; i < tokens.length; i += 2) {
+    let txt = tokens[i];
+    for (const item of TERM_PATTERNS) {
+      if (used.has(item.id)) continue;
+      const rx = LANG === "ru" ? item.ru : item.en;
+      const m = rx.exec(txt);
+      if (m) {
+        used.add(item.id);
+        const e = entriesById[item.id];
+        if (!e) continue;
+        const title = esc(LANG === "ru" ? (e.ru || item.id) : (e.tr || item.id));
+        const gloss = esc((e.gloss || "").replace(/["<>]/g, "").slice(0, 140));
+        const cleanWord = m[0].replace(/\*/g, "");
+        const before = txt.slice(0, m.index);
+        const after = txt.slice(m.index + m[0].length);
+        const repl = `<abbr class="term-ref" data-term="${item.id}" data-title="${title}" data-gloss="${gloss}" tabindex="0">${cleanWord}</abbr>`;
+        txt = before + repl + after;
+      }
+    }
+    tokens[i] = txt;
+  }
+  return tokens.join("");
+}
+
 function prose(s, base) {
   return `<article class="prose">
   ${kick(s.kicker)}
   <h2>${md(s.heading)}</h2>
-  <div class="tx">${s.paras.map((p) => `<p>${md(p)}</p>`).join("\n")}</div>
+  <div class="tx">${s.paras.map((p) => `<p>${annotateTerms(md(p))}</p>`).join("\n")}</div>
   ${foot(s, base)}
 </article>`;
 }
@@ -284,7 +341,7 @@ function record(s, base) {
   ${kick(s.kicker)}
   <h2>${md(s.heading)}</h2>
   ${meta}
-  <div class="tx">${(s.paras || []).map((p) => `<p>${md(p)}</p>`).join("\n")}</div>
+  <div class="tx">${(s.paras || []).map((p) => `<p>${annotateTerms(md(p))}</p>`).join("\n")}</div>
   ${foot(s, base)}
 </article>`;
 }
@@ -486,6 +543,7 @@ function shell({ title, description, base, bodyClass = "", page = "", rel = "ind
 <link rel="icon" href="${A}assets/icons/icon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="${A}assets/icons/icon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="${A}assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="${A}manifest.json">
 <link rel="preload" href="${A}assets/fonts/anton-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${A}css/core.css">
 <link rel="stylesheet" href="${A}css/plates.css">
@@ -493,6 +551,7 @@ function shell({ title, description, base, bodyClass = "", page = "", rel = "ind
 <link rel="stylesheet" href="${A}css/motion.css">
 <link rel="stylesheet" href="${A}css/print.css" media="print">
 ${extraHead}
+<script>if("serviceWorker" in navigator){navigator.serviceWorker.register("${A}sw.js").catch(function(){});}</script>
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
 <body class="${bodyClass}" data-page="${page}">
@@ -944,10 +1003,47 @@ function chronologyPage() {
     <p class="tl__links mono">${plateLinks(e.plates || [], base, X.plateLink).join(" · ")} ${e.confidence ? `— <span class="tl__conf">${esc(e.confidence)}</span>` : ""}</p>
   </li>`).join("\n");
 
+  const strataSection = strataDoc ? `
+<section class="strata-section" aria-labelledby="strata-h2">
+  <div class="strata-header">
+    <p class="mono kicker">${LANG === "ru" ? "АРХЕОЛОГИЯ ПАМЯТИ" : "ARCHAEOLOGY OF MEMORY"}</p>
+    <h2 id="strata-h2">${LANG === "ru" ? "Пять исторических страт русской погребальной культуры" : "Five Historical Strata of Russian Funerary Culture"}</h2>
+    <p class="strata-dek">${LANG === "ru" ? "Сравнительная матрица трансформации обращения с телом, сакральной топографии, мемориальной символики и нормативного регулирования смерти на протяжении тысячелетия." : "Comparative matrix tracing the evolution of bodily preparation, sacred spatial topography, memorial symbolism, and regulatory power across a millennium."}</p>
+  </div>
+  <div class="tablewrap strata-wrap" tabindex="0">
+    <table class="strata-table">
+      <thead>
+        <tr>
+          <th>${LANG === "ru" ? "Эпоха и пласт" : "Epoch & Stratum"}</th>
+          <th>${LANG === "ru" ? "Обращение с телом" : "Bodily Treatment"}</th>
+          <th>${LANG === "ru" ? "Сакральное пространство" : "Sacred Space"}</th>
+          <th>${LANG === "ru" ? "Символика и маркеры" : "Symbolism & Markers"}</th>
+          <th>${LANG === "ru" ? "Институциональный контроль" : "Regulatory Authority"}</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${strataDoc.epochs.map((ep) => `
+          <tr data-stratum="${ep.id}">
+            <td class="strata-epoch">
+              <span class="mono strata-period">${LANG === "ru" ? ep.period : ep.period_en}</span>
+              <strong>${LANG === "ru" ? ep.title : ep.title_en}</strong>
+            </td>
+            <td>${LANG === "ru" ? ep.body : ep.body_en}</td>
+            <td>${LANG === "ru" ? ep.space : ep.space_en}</td>
+            <td>${LANG === "ru" ? ep.symbol : ep.symbol_en}</td>
+            <td class="strata-law">${LANG === "ru" ? ep.law : ep.law_en}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  </div>
+</section>` : "";
+
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "chrono-page", page: "chronology", rel: "chronology.html",
     content: `<main id="main">
 ${pagehead("pagehead--chrono", X.kicker, X.h1, X.dek)}
+${strataSection}
 
 <section class="tl" aria-labelledby="tl-title">
   <h2 id="tl-title" class="visually-hidden">${X.h2}</h2>
@@ -1381,12 +1477,59 @@ function archivePage() {
   <p class="arch__p mono">${(usedBy[im.id] || []).map((id) => `<a href="${plateHref(id, base)}">${PLATE[id].letter}</a>`).join(" · ") || X.unused}</p></li>`;
   const groups = kinds.map((k) => ({ k, items: originals.filter((i) => i.kind === k) })).filter((g) => g.items.length)
     .map((g) => `<section class="arch-group"><h2 class="mono arch-group__h">${X.kinds[g.k]} · ${g.items.length}</h2><ol class="arch-list">${g.items.map(card).join("\n")}</ol></section>`).join("\n");
+  const metricsSection = metricsDoc ? `
+<section class="metrics-section" id="metrics-archive" aria-labelledby="metrics-h2">
+  <div class="metrics-header">
+    <p class="mono kicker">${LANG === "ru" ? "МЕТРИЧЕСКИЙ РЕГИСТР" : "PARISH REGISTER"}</p>
+    <h2 id="metrics-h2">${LANG === "ru" ? "Формулы кончины в метрических книгах XIX века" : "Verbatim Formulas of Death in 19th-Century Parish Books"}</h2>
+    <p class="metrics-dek">${LANG === "ru" ? "Аутентичные записи о смерти из приходских метрических книг (1842–1895). Регистр фиксирует формулярную грамматику смерти: от «болезней Божьего суда» и детского родимца до азиатской холеры и заложных покойников, погребенных вне погоста." : "Authentic death records transcribed verbatim from 19th-century parish registers (1842–1895). The register documents the institutional and folk taxonomy of demise: from infantile convulsions and pestilence to accidental blows and unclean suicides denied Christian burial."}</p>
+    
+    <div class="metrics-filters chip-bar" role="group" aria-label="Filter metrics">
+      <button type="button" class="chip is-active" data-metric-filter="all">${LANG === "ru" ? "Все записи" : "All records"} (${metricsDoc.records.length})</button>
+      <button type="button" class="chip" data-metric-filter="natural">${LANG === "ru" ? "Естественная кончина" : "Natural"}</button>
+      <button type="button" class="chip" data-metric-filter="accidental">${LANG === "ru" ? "Нечаянная гибель" : "Accidental"}</button>
+      <button type="button" class="chip" data-metric-filter="unclean">${LANG === "ru" ? "Заложные и нечистые" : "Unclean / Unquiet"}</button>
+      <button type="button" class="chip" data-metric-filter="oldbeliever">${LANG === "ru" ? "Старообрядцы" : "Old Believer"}</button>
+      <button type="button" class="chip" data-metric-filter="plague">${LANG === "ru" ? "Поветрие / Холера" : "Epidemic"}</button>
+      <button type="button" class="chip" data-metric-filter="suicide">${LANG === "ru" ? "Самоубийство" : "Suicide"}</button>
+    </div>
+  </div>
+
+  <div class="tablewrap metrics-wrap" tabindex="0">
+    <table class="metrics-table">
+      <thead>
+        <tr>
+          <th>${LANG === "ru" ? "Год / Дата" : "Year / Date"}</th>
+          <th>${LANG === "ru" ? "Приход / Губерния" : "Parish / Province"}</th>
+          <th>${LANG === "ru" ? "Усопший и звание" : "Deceased & Status"}</th>
+          <th>${LANG === "ru" ? "Причина смерти (в книге)" : "Cause of Death (Verbatim)"}</th>
+          <th>${LANG === "ru" ? "Чин погребения и место" : "Burial & Verdict"}</th>
+          <th>${LANG === "ru" ? "Архивный шифр" : "Archive Ref"}</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${metricsDoc.records.map((r) => `
+          <tr data-metric-cat="${r.category}">
+            <td class="mono"><strong>${r.year}</strong><br><span class="metric-date">${LANG === "ru" ? r.date : r.date_en}</span></td>
+            <td><strong>${LANG === "ru" ? r.parish : r.parish_en}</strong><br><span class="metric-sub">${LANG === "ru" ? r.province : r.province_en}</span></td>
+            <td><strong>${LANG === "ru" ? r.name : r.name_en}</strong><br><span class="metric-sub">${LANG === "ru" ? r.status : r.status_en}</span></td>
+            <td class="metric-cause"><em>«${LANG === "ru" ? r.cause : r.cause_en}»</em></td>
+            <td class="metric-verdict"><span class="metric-burial">${LANG === "ru" ? r.burial : r.burial_en}</span><br><span class="metric-sub">${LANG === "ru" ? r.verdict : r.verdict_en}</span></td>
+            <td class="mono metric-citation">${r.citation}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  </div>
+</section>` : "";
+
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "tool-page", page: "archive", rel: "archive.html",
     content: `<main id="main">
 ${pagehead("pagehead--bib", X.kicker, X.h1, X.dek)}
 <section class="tool"><p class="mono">${originals.length} ${X.count} · ${imagesDoc.images.length - originals.length} ${X.derivedAll}</p>
 ${groups}</section>
+${metricsSection}
 ${noteSec(X.noteH, X.note1, X.note2)}
 </main>`,
   });

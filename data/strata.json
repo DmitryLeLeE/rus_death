@@ -1,0 +1,81 @@
+{
+  "title": "Funerary Strata: The Five Epochs of Russian Death",
+  "title_ru": "Погребальные пласты: пять эпох русской смерти",
+  "epochs": [
+    {
+      "id": "pre-christian",
+      "period": "До 988 г.",
+      "period_en": "Pre-988",
+      "title": "Дохристианский пласт (Курганный)",
+      "title_en": "Pre-Christian Stratum (Kurgan)",
+      "body": "Кремация на кострище / сожжение в ладье; сбор пепла в глиняную урну или погребальную камеру под насыпным курганом. Ритуальное соумирание (по Ибн Фадлану).",
+      "body_en": "Cremation on pyres or ship cremation; ash collected in clay urns or wooden chambers beneath earth kurgans. Ritual self-immolation of consorts (Ibn Fadlan).",
+      "space": "Родовой курганный могильник на речных террасах, вдали от поселения. Место тризны и воинских состязаний.",
+      "space_en": "Kinship kurgan mounds along river terraces away from settlements. Ground for the trizna feast and martial games.",
+      "symbol": "Каменные бабы, деревянные намогильные столпы, ритуальный костер, жертвенные сосуды.",
+      "symbol_en": "Stone stelae, carved wooden pillars, ritual fire, clay grave vessels.",
+      "law": "Родовой обычай, племенное право, завет предков.",
+      "law_en": "Kinship custom, tribal oral law, ancestral covenant."
+    },
+    {
+      "id": "old-ritual",
+      "period": "XI — XVII вв.",
+      "period_en": "11th–17th c.",
+      "title": "Древнерусский и дониконовский пласт (Погост и Домовина)",
+      "title_en": "Old Russian & Pre-Nikonian Stratum (Pogost & Domovina)",
+      "body": "Ингумация (трупоположение). Цельная долбленая колода из сосны или дуба без железных гвоздей. Холщовый саван «на живую нитку». Оплакивание вопленицами.",
+      "body_en": "Inhumation in single hollowed-log coffins (domovina / koloda) without iron nails. Homespun canvas shroud sewn without knots. Polyphonic village laments.",
+      "space": "Приходской погост непосредственно вокруг храма. Погребение «под сенью алтаря» и на прихрамовой земле. Братские скудельницы для безвестных странников.",
+      "space_en": "Parish pogost directly surrounding the church. Burial beneath the church eaves. Common pits (skudelnitsy) for unquiet dead.",
+      "symbol": "Деревянный крест-голубец с двускатной кровлей-теремком и врезной медной иконой; резные белокаменные плиты с вилообразными крестами.",
+      "symbol_en": "Wooden roofed cross (golubets) with bronze icon niche; carved white-stone slabs with fork-tailed crosses.",
+      "law": "Стоглавый собор (1551 г.), Кормчая книга, церковно-монастырские уставы.",
+      "law_en": "Stoglav Council (1551), Kormchaya Book of Nomocanon, monastic statutes."
+    },
+    {
+      "id": "synodal-imperial",
+      "period": "1771 — 1917 гг.",
+      "period_en": "1771–1917",
+      "title": "Синодально-имперский пласт (Загородный некрополь)",
+      "title_en": "Synodal & Imperial Stratum (Extramural Necropolis)",
+      "body": "Дощатый гроб, обитый парчой или сукном. Вскрытия при полицейском дознании. Метрическая фиксация причин кончины приходским священником.",
+      "body_en": "Plank-built coffin lined with cloth or brocade. Medical police post-mortems. Verbatim registration of cause of death in church metric books.",
+      "space": "Вынос кладбищ за черту городов (указ 1771 г.). Сословное деление некрополей (дворянские, купеческие, мещанские, холерные участки).",
+      "space_en": "Expulsion of graveyards beyond city limits (1771 decree). Class segregation of burial plots (nobility, merchant, artisan, cholera sections).",
+      "symbol": "Чугунные и мраморные саркофаги, ангелы, эпитафии в стихах, кованые ограды, фамильные склепы-усыпальницы.",
+      "symbol_en": "Cast-iron and marble sarcophagi, stone angels, poetic epitaphs, wrought-iron enclosures, family vaults.",
+      "law": "Чумной манифест Екатерины II (1771 г.), Устав врачебный, Синодальные указы об опившихся и самоубийцах.",
+      "law_en": "Catherine II's Plague Edict (1771), Medical Code, Synodal bans on suicides and unquiet dead."
+    },
+    {
+      "id": "soviet",
+      "period": "1918 — 1991 гг.",
+      "period_en": "1918–1991",
+      "title": "Советский пласт (Секуляризация и кремация)",
+      "title_en": "Soviet Stratum (Secularization & Cremation)",
+      "body": "Огненное погребение (первый крематорий 1927 г., Донской монастырь). Гражданская панихида, духовой траурный оркестр (похоронный марш Шопена).",
+      "body_en": "Fiery burial (first crematorium, Donskoy 1927). Civil secular panikhida with brass funeral band (Chopin funeral march).",
+      "space": "Срытие монастырских некрополей. Создание типовых коммунальных кладбищ с сеткой участков, стенами скорби и колумбариями.",
+      "space_en": "Leveling of monastery graveyards. Municipal standardized cemeteries with grid plots, walls of grief, and columbarium niches.",
+      "symbol": "Жестяная пирамидка с пятиконечной красной звездой; эмалированный овальный фотопортрет; гранитные обелиски с серпом и молотом.",
+      "symbol_en": "Welded tin pyramid with red painted star; oval enamel photo-portrait; granite obelisk with hammer and sickle.",
+      "law": "Декрет СНК об отделении церкви от государства (1918 г.), декрет «О кладбищах и похоронах» (1918 г.), типовые правила Минжилкомхоза РСФСР.",
+      "law_en": "Soviet Decree on Separation of Church and State (1918), Decree on Cemeteries and Funerals (1918), RSFSR municipal sanitary rules."
+    },
+    {
+      "id": "digital-contemporary",
+      "period": "1991 — 2026 гг.",
+      "period_en": "1991–2026",
+      "title": "Постсоветский и цифровой пласт (Сетевой кенотаф)",
+      "title_en": "Post-Soviet & Digital Stratum (The Networked Cenotaph)",
+      "body": "Возвращение церковного чинопоследования. Поисковые эксгумации безымянных солдат ВОВ. Мемориализация цифрового следа умершего в интернете.",
+      "body_en": "Resacralization of Orthodox rites. Battlefield exhumations of unburied soldiers. Preservation of digital footprints and social media memorials.",
+      "space": "Переполненные пригородные кладбища-гиганты. Сетевое виртуальное пространство: страницы памяти ВКонтакте, цифровые кладбища (Skorbim, MemoryBook).",
+      "space_en": "Sprawling suburban mega-cemeteries. Virtual commemorative cloud: VK memorial walls, digital databases, online vigils.",
+      "symbol": "Гравированный лазером портрет на полированном габбро-диабазе; QR-код со ссылкой на биографию; мерцающие гиф-свечи в сети.",
+      "symbol_en": "Laser-etched realistic portrait on black gabbro; QR code linking to archive; animated digital memorial candles.",
+      "law": "Федеральный закон № 8-ФЗ «О погребении и похоронном деле» (1996 г.), пользовательские соглашения цифровых платформ.",
+      "law_en": "Federal Law No. 8-FZ 'On Burial and Funeral Affairs' (1996), platform user agreements on deceased accounts."
+    }
+  ]
+}
