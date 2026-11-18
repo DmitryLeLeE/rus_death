@@ -40,20 +40,20 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 
 | Page | What it is |
 | --- | --- |
-| Cover | The object: title, collage, plates |
+| Cover | The object: title, collage, cards with derived torn-edge plates |
 | Prologue | What the atlas is, what it will not do, three ways in |
 | Volumes | The four volumes and the plates in each |
-| Plates A–Z | Research plates, each with its own composition (all 26 plates) |
+| Plates A–Z | Research plates, each with its own composition (all 26 plates), apparatus and one-click ГОСТ / BibTeX citation |
 | Index | Card catalogue of plates, objects, concepts and places |
 | Voices | Lament, verse and historical field voices in Russian and English with source metadata |
 | Field archive | The catalogue of objects and what is known about each (28 entries) |
-| Map | 36 localities, with what the sources say of each |
+| Map | 36 localities, with interactive macro-regional filters (North, Center, East, Diaspora) |
 | Chronology | 37 points and caesuras, filterable by period |
 | Words | Lexicon of the Russian terms the atlas uses (63 entries) |
 | Reading routes | Seven paths through the plates, covering all 26 compositions |
-| Claim ledger | Every section of every plate with its evidence level and sources, generated from the plate data |
+| Claim ledger | Every section of every plate (241 sections) with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |
-| Sources | Bibliography with what each source can and cannot support; image credits |
+| Sources | Bibliography (154 entries) with one-click ГОСТ Р 7.0.5-2008 and BibTeX copy buttons; visual asset credits |
 | Method | Scope, evidence levels, periodisation, limits |
 | Colophon | How the edition was made |
 
@@ -63,7 +63,7 @@ Pages change in place (`js/nav.js`), so the sound keeps running between pages; a
 
 <a href="https://DmitryLeLeE.github.io/rus_death/ru/"><img src="social-ru.jpg" alt="АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ: крест под крышей и сани с гробом, чёрно-белые, на рваной бумаге"></a>
 
-«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта, хронология, словарь, библиография, реестр утверждений, маршруты чтения и поиск. Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
+«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта с региональными фильтрами, хронология, словарь, библиография с экспортом цитат в ГОСТ Р 7.0.5-2008 и BibTeX, реестр утверждений, маршруты чтения и поиск. В атлас включены главы по теневой этнографии (ритуалы опахивания при море, поверья о заложных покойниках и душителях, болотные раскопы «Долины смерти», сетевой кенотаф). Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём строго отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
 
 ## Run and rebuild
 
@@ -80,6 +80,7 @@ node build/build.mjs            # both languages, sitemap and robots.txt
 node build/validate.mjs         # plate data: levels, sources, RU parity
 node build/check_links.mjs      # every local link, anchor and asset
 node build/check_credits.mjs    # every image has a record, licence and evidence status
+node build/check_uniqueness.mjs # 100% unique imagery invariant across all 26 plates
 node build/make_credits.mjs     # regenerates ASSET_CREDITS.md
 python build/make_visual_audit.py   # regenerates VISUAL_AUDIT.md
 ```
@@ -88,7 +89,7 @@ The image derivatives, textures, map, original diagrams and social cards have th
 
 ## Images
 
-`data/images.json` holds 171 records: 66 photographs, 9 paintings, 7 prints, 2 icons, 20 original diagram files (10 diagrams, each in English and Russian), and 65 derivatives (halftone, duotone, xerox) that point back to their originals. Every record has a licence and a role: archival, contextual, artwork reproduction or original diagram. Original diagrams are labelled as editorial diagrams and draw only what the plate's sourced text states. Photographs from outside Russia (for example the Estonian Old Believers' cemeteries on plate F, the Ukrainian photograph on plate D, the Pripyat engravings on plate O) are labelled as comparisons. `IMAGE_ACQUISITION_REPORT.md` records which archives were searched, which were blocked by bot protection (Library of Congress, Finna, the Estonian register: not bypassed) and which need written permission (the ethnographic museums).
+`data/images.json` holds 242 visual records: archival photographs, paintings, folk prints (lubok), icons, 20 original diagram files (10 diagrams, localized in English and Russian), and 118 procedural derivatives generated via `build/make_derived.py` with torn edges baked into the alpha channel and material treatments (`faded`, `black`, `news`, `xerox`, `dormant`, `halftone`). 100% of photographic imagery on the site is derived through this archaeological engine, ensuring zero raw, straight-edged color images on plates or cover cards. Cross-plate visual collision tests (`build/check_uniqueness.mjs`) enforce strict 100% unique imagery across all 26 plates. Every record has a verified licence, parent link, and evidence role.
 
 ## Working documents
 
