@@ -6172,7 +6172,8 @@
           "paras": [
             "In March 1941, People’s Commissar of Defence Order No. 138 established standard burial regulations for Red Army casualties: soldiers were to be buried in individual graves or common fraternal trenches (bratskie mogily), with a minimum depth of 1.5 metres (2.0 metres in waterlogged soils) and wooden markers bearing name, rank, and unit.",
             "Under front-line combat conditions during the 1941–1942 retreats, encirclements, and winter fighting, these regulations broke down completely. Battlefield casualties were interred in bomb craters, anti-tank ditches, and hasty sanitary pits with little or no documentation. Bakelite identification capsules (smertnye medaliony), instituted in 1941, were frequently discarded by soldiers who feared them as bad omens, leaving millions of bodies nameless."
-          ]
+          ],
+          "type": "prose"
         },
         {
           "kicker": "02",
@@ -6185,7 +6186,8 @@
           "paras": [
             "Because mass graves could not deliver individual remains to families, Soviet commemorative policy pivoted toward the monumental cenotaph: an empty tomb or symbolic marker standing for the unreturned body. In December 1966, to commemorate the 25th anniversary of the Battle of Moscow, the remains of an unidentified soldier were exhumed from a mass grave at kilometre 41 of the Leningrad Highway and transferred to the Alexander Garden at the Kremlin wall.",
             "Dedicated on 8 May 1967, the Tomb of the Unknown Soldier established the formula: 'Your name is unknown, your deed is immortal' (Imia tvoe neizvestno, podvig tvoi bessmerten). The tomb functioned as a secular reliquary, substituting a single collective body for the uncounted millions whose actual resting places were unrecorded forest depressions."
-          ]
+          ],
+          "type": "prose"
         },
         {
           "type": "figure",
@@ -6204,7 +6206,8 @@
           "paras": [
             "From the late 1960s, informal grassroots expeditions—later known as the search movement (poiskoviki)—began excavating battlefield zones where thousands of Red Army soldiers lay unburied on the surface. The epicentre was the Lyuban pocket at Myasnoi Bor ('The Valley of Death') in Novgorod Oblast, where the 2nd Shock Army was encircled and annihilated in June 1942.",
             "Initiated by amateur searcher Nikolai Orlov and later formalized as the Dolina expedition, volunteers documented tens of thousands of skeletal remains in the moss and mud. The movement operated under the moral maxim attributed to Generalissimo Suvorov: 'A war is not over until the last soldier is buried.'"
-          ]
+          ],
+          "type": "prose"
         },
         {
           "kicker": "04",
@@ -6217,7 +6220,8 @@
           "paras": [
             "Tumarkin and Merridale trace the divergence between the state’s monumental accounting and the actual geography of the dead. The official Ministry of Defence database (OBD Memorial) records millions of names and mapped cemeteries, yet field expeditions continue to unearth thousands of unrecorded remains each season across Novgorod, Leningrad, Tver, and Smolensk regions.",
             "The military cenotaph resolves this material contradiction ideologically: where the physical bones are dissolved in peat or buried in unmarked sand, granite and bronze erect an immutable boundary of memory."
-          ]
+          ],
+          "type": "prose"
         },
         {
           "kicker": "05",
@@ -6230,7 +6234,8 @@
           "paras": [
             "Etkind (2013) distinguishes between 'hard' and 'soft' mourning in post-Soviet Russia: hard mourning erects monuments and fixes names; soft mourning works in literature, scholarship and private ceremony. The official cult of the Unknown Soldier is a form of hard mourning, but it coexists with what Etkind calls 'mourning work' in unofficial registers.",
             "Koroleva et al. (2015) document how localities around Perm built their own sites of commemoration around mass graves identified by search parties—sites that pre-date and sometimes conflict with the official memorial landscape. These local memorials, made without state permission, are a form of soft mourning that the state has not always tolerated."
-          ]
+          ],
+          "type": "prose"
         },
         {
           "type": "text",
@@ -6306,7 +6311,8 @@
           "paras": [
             "In modern Russian sanitary law (SanPiN 2.1.2882-11), a cemetery is not an eternal monument but an allocated land plot subject to an institutional lifecycle. Once burial capacity is exhausted, the municipality declares the cemetery 'closed' (zakrytoe dlia zakhoronenii).",
             "A statutory 'cemetery period' (kladbishchenskii period)—defined as the time required for complete decomposition of biological tissues, set at 20 years for standard soil conditions—must elapse before the terrain may be considered stable. Even after closure, the law forbids residential or commercial construction on former cemetery grounds, allowing only green parks and memorial groves."
-          ]
+          ],
+          "type": "prose"
         },
         {
           "kicker": "02",
@@ -6319,7 +6325,8 @@
           "paras": [
             "In the rural North and central regions, the physical survival of a grave depends entirely on periodic kin maintenance. Unpainted spruce and pine crosses rot at the groundline within 25 to 40 years. Permilovskaya notes that traditional roofed crosses (golubtsy) protected the icon plate, yet moisture rising from the subsoil inevitably rots the base.",
             "As the pine coffin collapses under ground pressure (usually between the 7th and 15th year), the earthen mound subsides, creating a hollow indentation. When family lines die out or migrate to cities, grave weeding ceases; nettles, cow parsnip, and birch seedlings colonize the depression, transforming individual burial markers into uniform forest turf."
-          ]
+          ],
+          "type": "prose"
         },
         {
           "type": "figure",
@@ -6339,7 +6346,8 @@
           "paras": [
             "Stone inscriptions do not guarantee permanent memory. Soft white limestone slabs, common in central Russia and Pskov from the 16th to the 19th century, weather through rain, freeze-thaw cycles, and lichen growth, losing Cyrillic letterforms within a century and a half.",
             "By the third or fourth generation after burial, the emotional link to individual dead fades into the anonymous category of 'ancestors' (roditeli). The individual grave ceases to be visited as a person; it dissolves into the communal cemetery ground."
-          ]
+          ],
+          "type": "prose"
         },
         {
           "kicker": "04",
@@ -6352,7 +6360,8 @@
           "paras": [
             "Where modern memorialization attempts to freeze time through polished granite and digital servers, traditional rural practice accepted oblivion as a natural material transition. The grave was expected to settle into the soil as the soul departed to the ancestors.",
             "Pushkin's 1836 elegy on the village churchyard articulates this exact reconciliation: the decay of the wooden cross under ancient oaks is not seen as desecration or defeat, but as peaceful reconciliation with mother earth."
-          ]
+          ],
+          "type": "prose"
         },
         {
           "type": "text",

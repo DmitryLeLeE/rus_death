@@ -411,7 +411,8 @@ function textSection(s, base) {
 }
 
 function renderSection(s, base, item) {
-  switch (s.type) {
+  const type = s.type || (s.paras ? "prose" : s.text ? "quote" : s.cols ? "table" : s.items ? "note" : "");
+  switch (type) {
     case "prose": return prose(s, base);
     case "record": return record(s, base);
     case "note": return note(s);
@@ -582,7 +583,7 @@ function placeItem(plate, it, i, base) {
   const s = plate.sections[it.s];
   if (!s || s.hidden) return "";
   const inner = renderSection(s, base, it);
-  const kind = s.type;
+  const kind = s.type || (s.paras ? "prose" : s.text ? "quote" : s.cols ? "table" : s.items ? "note" : "sheet");
   if (kind === "figure" && IMG[s.src]) {
     return `<figure class="ph ph--art ${side}${it.c === "1/-1" ? " bleed" : ""}" style="${styleOf(it)}" data-slot="${it.s}">${inner}</figure>`;
   }
@@ -1243,8 +1244,7 @@ function ledgerPage() {
 ${pagehead("pagehead--bib", X.kicker, X.h1, X.dek)}
 <section class="tool">
   <div class="tool__chips" role="group" aria-label="${esc(X.filterLabel)}">${chips}</div>
-  <p class="catalog__status mono" id="lstatus" role="status" aria-live="polite" data-of="${X.of}">${rows.length} ${X.counts}</p>
-  <p class="mono">${rows.length} ${X.counts} · ${noSrc} ${X.none}</p>
+  <p class="catalog__status mono" id="lstatus" role="status" aria-live="polite" data-of="${X.of}">${rows.length} ${X.counts} · ${noSrc} ${X.none}</p>
   <div class="ledger__wrap"><table class="ledger" data-ledger><thead><tr><th>${X.plate}</th><th>${X.section}</th><th>${X.level}</th><th>${X.sources}</th></tr></thead><tbody>
 ${body}
 </tbody></table></div>
