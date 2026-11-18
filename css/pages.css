@@ -477,3 +477,73 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
 .arch__m, .arch__l, .arch__p { margin: 0.2rem 0; font-size: 0.68rem; line-height: 1.45; letter-spacing: 0.04em; overflow-wrap: anywhere; }
 .arch__n { margin: 0.5rem 0; font-size: 0.85rem; line-height: 1.45; }
 .arch__p a { margin-right: 0.3rem; }
+
+/* --- Academic citation & interactive tooling --- */
+.bib__actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.bib__btn {
+  background: transparent;
+  border: 1px solid rgba(26, 24, 20, 0.45);
+  color: #1a1814;
+  font: 0.65rem var(--f-type, monospace);
+  letter-spacing: 0.08em;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-transform: uppercase;
+}
+.bib__btn:hover {
+  background: #8a1a14;
+  color: #fff;
+  border-color: #8a1a14;
+}
+.bib__btn.is-copied {
+  background: #1b4d24 !important;
+  color: #fff !important;
+  border-color: #1b4d24 !important;
+}
+
+.apparatus__citation {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.2);
+}
+.apparatus__citation h2 {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  color: var(--accent, #e34234);
+}
+.apparatus__gost {
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.88);
+  margin: 8px 0;
+  user-select: all;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 10px 12px;
+  border-left: 3px solid var(--accent, #e34234);
+}
+.apparatus__citation .bib__btn {
+  border-color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.9);
+}
+.apparatus__citation .bib__btn:hover {
+  background: var(--accent, #e34234);
+  border-color: var(--accent, #e34234);
+  color: #fff;
+}
+
+/* --- Map region filter pills --- */
+.map-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 0 20px;
+}
+.map-filters .chip[aria-pressed="true"] {
+  background: #8a1a14;
+  color: #fff;
+  border-color: #8a1a14;
+}
+

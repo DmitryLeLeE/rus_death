@@ -670,6 +670,18 @@ function renderPlate(p) {
   <span class="head__letter" aria-hidden="true">${p.letter}</span>
 </header>`;
 
+  const plateUrl = `${SITE}${LANG === "ru" ? "ru/" : ""}plates/${p.id}-${p.slug}.html`;
+  const plateGost = LANG === "ru"
+    ? `Археология русской смерти. Лист ${p.letter}: ${p.title}. ${p.subtitle} // Атлас материальной культуры и этнографии погребального обряда / Под ред. проекта «Русская смерть». 2026. URL: ${plateUrl}.`
+    : `Archaeology of Russian Death. Plate ${p.letter}: ${p.title}. ${p.subtitle} // An Atlas of Material Culture and Ethnography. 2026. URL: ${plateUrl}.`;
+  const plateBibtex = `@misc{rusdeath_${p.id},
+  title = {${p.title}: ${p.subtitle}},
+  author = {{Archaeology of Russian Death Project}},
+  year = {2026},
+  howpublished = {\\url{${plateUrl}}},
+  note = {Plate ${p.letter}, Volume ${p.volume}}
+}`;
+
   const apparatus = `<details class="apparatus">
   <summary><span>${T.apparatus}</span> ${T.apparatusRest}</summary>
   <div class="apparatus__cols">
@@ -690,6 +702,14 @@ function renderPlate(p) {
         ${(p.concepts || []).filter((c) => CON[c]).map((c) => `<li><a href="${base}atlas.html#concept-${c}">${esc(CON[c].name)}</a></li>`).join("")}
         ${(p.objects || []).filter((o) => OBJ[o]).map((o) => `<li><a href="${base}atlas.html#object-${o}">${esc(OBJ[o].name)}</a></li>`).join("")}
       </ul>
+      <div class="apparatus__citation">
+        <h2>${LANG === "ru" ? "Библиографическая ссылка" : "Citation"}</h2>
+        <p class="apparatus__gost mono">${esc(plateGost)}</p>
+        <div class="bib__actions">
+          <button class="bib__btn mono" type="button" data-copy="${esc(plateGost)}">${LANG === "ru" ? "Скопировать ГОСТ" : "Copy GOST"}</button>
+          <button class="bib__btn mono" type="button" data-copy="${esc(plateBibtex)}">BibTeX</button>
+        </div>
+      </div>
     </div>
   </div>
 </details>`;
@@ -840,6 +860,13 @@ ${pagehead("", X.kicker, X.h1, X.dek)}
 }
 
 // ----------------------------------------------------------------- map -----
+function getRegion(p) {
+  if (p.status === "outside-RF") return "diaspora";
+  if (p.lat >= 60.0) return "north";
+  if (p.lon >= 50.0) return "east";
+  return "center";
+}
+
 function mapPage() {
   const base = "", X = T.map;
   const geo = readJSON(path.join(DATA, "places.geo.json"));
@@ -849,13 +876,18 @@ function mapPage() {
     if (!g) { g = { marker: p.marker, items: [], pos: geo[p.marker] }; groups.push(g); }
     g.items.push(p);
   }
-  const pins = groups.map((g, i) => `<button class="pin" type="button" data-place="${g.marker}" style="--x:${g.pos.x}%;--y:${g.pos.y}%"
+  const pins = groups.map((g, i) => {
+    const reg = getRegion(g.items[0]);
+    return `<button class="pin" type="button" data-place="${g.marker}" data-region="${reg}" style="--x:${g.pos.x}%;--y:${g.pos.y}%"
       aria-label="${esc(X.pinAria(String(i + 1).padStart(2, "0"), g.items.map((x) => x.name).join(" / ")))}">
       <span class="pin__dot" aria-hidden="true"></span><span class="pin__no mono" aria-hidden="true">${String(i + 1).padStart(2, "0")}</span>
       <span class="pin__tip mono pin__tip--${g.pos.x > 70 ? "l" : g.pos.x < 25 ? "r" : "c"}" aria-hidden="true">${esc(g.items.map((x) => x.name).join(" · "))} — ${[...new Set(g.items.flatMap((x) => x.plates))].filter((x) => PLATE[x]).map((x) => PLATE[x].letter).join(" ")}</span>
-    </button>`).join("\n");
+    </button>`;
+  }).join("\n");
 
-  const cards = groups.map((g, i) => `<li class="place" data-marker="${g.marker}" id="place-card-${g.marker}">
+  const cards = groups.map((g, i) => {
+    const reg = getRegion(g.items[0]);
+    return `<li class="place" data-marker="${g.marker}" data-region="${reg}" id="place-card-${g.marker}">
     <p class="place__no mono">${String(i + 1).padStart(2, "0")} — ${g.items[0].status === "outside-RF" ? X.outside : X.inside}</p>
     <h3 class="place__name">${g.items.map((x) => esc(x.name)).join(" · ")}</h3>
     ${g.items.map((x) => `<div class="place__body">
@@ -864,7 +896,8 @@ function mapPage() {
       <p class="place__links mono">${plateLinks(x.plates, base, X.plateLink).join(" · ")}</p>
     </div>`).join("")}
     <p class="place__coords mono">${g.pos ? X.deg(g.items[0].lat.toFixed(2), g.items[0].lon.toFixed(2)) : X.noCoord}</p>
-  </li>`).join("\n");
+  </li>`;
+  }).join("\n");
 
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "map-page", page: "map", rel: "map.html",
@@ -873,6 +906,13 @@ ${pagehead("pagehead--map", X.kicker, X.h1, X.dek)}
 
 <section class="mapwrap" aria-labelledby="map-title">
   <h2 id="map-title" class="visually-hidden">${X.h2}</h2>
+  <div class="map-filters" role="group" aria-label="${LANG === 'ru' ? 'Фильтр по регионам' : 'Region filter'}">
+    <button class="chip mono" type="button" data-region-filter="all" aria-pressed="true">${LANG === 'ru' ? 'ВСЕ РЕГИОНЫ' : 'ALL REGIONS'}</button>
+    <button class="chip mono" type="button" data-region-filter="north" aria-pressed="false">${LANG === 'ru' ? 'СЕВЕР И КАРЕЛИЯ' : 'NORTH & KARELIA'}</button>
+    <button class="chip mono" type="button" data-region-filter="center" aria-pressed="false">${LANG === 'ru' ? 'ЦЕНТР И ПОВОЛЖЬЕ' : 'CENTER & VOLGA'}</button>
+    <button class="chip mono" type="button" data-region-filter="east" aria-pressed="false">${LANG === 'ru' ? 'СИБИРЬ И ВОСТОК' : 'SIBERIA & EAST'}</button>
+    <button class="chip mono" type="button" data-region-filter="diaspora" aria-pressed="false">${LANG === 'ru' ? 'ЗАРУБЕЖЬЕ И ДИАСПОРА' : 'DIASPORA'}</button>
+  </div>
   <div class="mapwrap__grid">
     <div class="map-plane">
       <img class="map-plane__geo" src="${UP}assets/illustrations/map-eurasia.svg" alt="" aria-hidden="true">
@@ -925,6 +965,17 @@ ${noteSec(X.notH, X.not1, X.not2)}
 }
 
 // ----------------------------------------------------------- bibliography --
+function formatGOST(s) {
+  const ext = s.extent ? ` — ${s.extent}.` : "";
+  const titEn = s.title_en ? ` [${s.title_en}]` : "";
+  return `${s.author} ${s.title}${titEn}. — ${s.publisher}, ${s.year}.${ext} — URL: ${s.url} (дата обращения: ${s.accessed}).`;
+}
+
+function formatBibTeX(s) {
+  const type = s.kind === "monograph" ? "book" : s.kind === "article" ? "article" : "misc";
+  return `@${type}{${s.id},\n  author = {${s.author}},\n  title = {${s.title}},\n  year = {${s.year}},\n  publisher = {${s.publisher}},\n  url = {${s.url}},\n  note = {Accessed: ${s.accessed}}\n}`;
+}
+
 function bibliographyPage() {
   const base = "", X = T.bib;
   const sorted = sourcesDoc.entries.slice().sort((a, b) => a.author.localeCompare(b.author, LANG));
@@ -936,6 +987,10 @@ function bibliographyPage() {
     <p class="bib__use"><span class="mono">${X.usedFor}</span> ${md(s.supports)}</p>
     <p class="bib__lim"><span class="mono">${X.limitation}</span> ${md(s.limitation)}</p>
     <p class="bib__plates mono">${plateLinks(used(s.id).map((p) => p.id), base, X.plateLink).join(" · ") || X.general}</p>
+    <div class="bib__actions">
+      <button class="bib__btn mono" type="button" data-copy="${esc(formatGOST(s))}">${LANG === "ru" ? "Скопировать ГОСТ" : "Copy GOST"}</button>
+      <button class="bib__btn mono" type="button" data-copy="${esc(formatBibTeX(s))}">BibTeX</button>
+    </div>
   </li>`).join("\n");
 
   const imgItems = imagesDoc.images.map((im) => `<li class="bib bib--img">

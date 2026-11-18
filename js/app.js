@@ -263,6 +263,26 @@
           pins[(i + step + pins.length) % pins.length].focus();
         });
       });
+
+      // region filtering
+      const regionChips = $$("[data-region-filter]");
+      if (regionChips.length) {
+        regionChips.forEach((chip) => {
+          chip.addEventListener("click", () => {
+            regionChips.forEach((c) => c.setAttribute("aria-pressed", "false"));
+            chip.setAttribute("aria-pressed", "true");
+            const reg = chip.dataset.regionFilter;
+            pins.forEach((p) => {
+              const show = reg === "all" || p.dataset.region === reg;
+              p.style.display = show ? "" : "none";
+            });
+            cards.forEach((c) => {
+              const show = reg === "all" || c.dataset.region === reg;
+              c.hidden = !show;
+            });
+          });
+        });
+      }
       // clicking a card lights its pin; #place-card-… in the address opens that place
       cards.forEach((c) => c.addEventListener("click", (e) => { if (!e.target.closest("a")) select(c.dataset.marker, false); }));
       const fromHash = () => {
@@ -294,6 +314,46 @@
         });
       });
     }
+
+    /* -------------------------------------------------------- copy citation -- */
+    $$("[data-copy]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const text = btn.dataset.copy;
+        if (!text) return;
+        const orig = btn.textContent;
+        const notify = () => {
+          btn.textContent = RU ? "СКОПИРОВАНО" : "COPIED";
+          btn.classList.add("is-copied");
+          setTimeout(() => {
+            btn.textContent = orig;
+            btn.classList.remove("is-copied");
+          }, 1800);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(notify).catch(() => {
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.style.position = "fixed";
+            ta.style.opacity = "0";
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+            notify();
+          });
+        } else {
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          ta.style.position = "fixed";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          document.body.removeChild(ta);
+          notify();
+        }
+      });
+    });
 
     /* ------------------------------------------------------------ marginalia -- */
     $$("[data-marginal]").forEach((btn) => {

@@ -910,7 +910,8 @@
         "dronova2024",
         "tolstaya1999-zerkalo",
         "sedakova2020",
-        "kremleva1999"
+        "kremleva1999",
+        "chistov1986"
       ],
       "related": [
         "a",
@@ -1081,6 +1082,20 @@
             "sedakova2020"
           ],
           "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Midnight Visitor: Thistle, Poppy Seeds, and the Hearth Pipe / [18+]",
+          "kicker": "Living bereavement / [18+]",
+          "paras": [
+            "Field ethnographers in Vyatka, Vologda, and Olonets provinces consistently recorded accounts of the *dushitel* or *khodiachiy pokoinik* (the walking deceased). When intense, inconsolable grief gripped a surviving widow, village belief held that her sorrow pulled the deceased back from the grave. The dead husband reportedly entered the izba at night through the stove chimney as a shower of fiery sparks, assuming human form and leaving cold soot upon the floorboards.",
+            "The nocturnal visits were feared because the corpse was believed to slowly drain the vital moisture and blood of the living spouse, causing rapid physical wasting. To sever the contact, the community employed precise counter-measures: sowing wild poppy seeds (*mak-samoseika*) along the path from the cemetery to the house threshold (believing the ghost was compelled to count every grain before dawn), fastening wild thistle (*chertopolokh*) over the chimney damper, and in stubborn instances, driving an aspen stake through the threshold log of the banya or directly into the grave mound (Zelenin 1916, pp. 182–186; Chistov 1986, pp. 211–214)."
+          ],
+          "level": "documented",
+          "sources": [
+            "zelenin1916",
+            "chistov1986"
+          ]
         }
       ],
       "volume": "I"
@@ -2857,7 +2872,8 @@
         "svoboda-malevich-grave",
         "antonov2006",
         "doroshevich1903",
-        "etkind2013"
+        "etkind2013",
+        "merridale2000"
       ],
       "related": [
         "j",
@@ -3069,6 +3085,19 @@
             "etkind2013"
           ],
           "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Dispersal of Parish Registers and the Leveling of Necropolises",
+          "kicker": "The lost census",
+          "paras": [
+            "Following the Soviet decree of January 1918 separating church and state, parish metric books (*metricheskie knigi*)—which for over two centuries recorded every birth, baptism, marriage, cause of death, and graveyard location in Russia—were formally nationalized. In the chaos of the Civil War and collectivization, hundreds of thousands of parish folios were burned as waste paper, dispersed into local civil registries (ZAGS), or deliberately destroyed during church requisitions, leaving irreversible voids in Russian demographic memory.",
+            "Simultaneously, the early Soviet municipal planning campaign of the 1920s–1930s initiated the systematic destruction of parish and monastery necropolises. In Moscow alone, historical cemeteries such as Simonov, Dorogomilovskoye, Pokrovskoye, and the Danilov monastery grounds were bulldozed to make way for 'culture and rest' parks, factories, and residential developments. Marble and granite slabs were expropriated for curbs, metro station cladding, and foundation rubble, erasing millions of documented burials from physical existence (Merridale 2000, pp. 164–172)."
+          ],
+          "level": "documented",
+          "sources": [
+            "merridale2000"
+          ]
         }
       ],
       "volume": "IV"
@@ -5583,7 +5612,9 @@
         "tolstaya1999-zerkalo",
         "kremleva1999",
         "baiburin1993",
-        "krinichnaya1997"
+        "krinichnaya1997",
+        "tokarev1957",
+        "afanasyev1869"
       ],
       "related": [
         "a",
@@ -5865,6 +5896,21 @@
             "krinichnaya1997"
           ],
           "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Midnight Furrow: Ritual Plowing Against Pestilence / [18+]",
+          "kicker": "The Morovaya Yazva / [18+]",
+          "paras": [
+            "During catastrophic outbreaks of cholera or Siberian plague (anthrax), when ordinary protective rites failed, Russian villages across the central and northern provinces performed the most extreme communal prophylaxis: *opakhivanie* (ritual furrowing). At midnight, secretly and in utter silence, twelve widows and maiden virgins gathered at the edge of the settlement. Stripping themselves completely naked or donning only white shift dresses, barefoot and with their hair unbound, they hitched themselves to a heavy wooden plow with iron coulters.",
+            "The procession was led by an elder woman brandishing an icon, a scythe, or an animal skull mounted on a pitchfork, while the women beat iron frying pans and axes to create a terrifying cacophony. Pulling the plow around the entire perimeter of the village, they cut a deep, continuous furrow through soil, roads, and meadows to delineate an uncrossable magical border against the personified Pestilence (Morovaya Yazva). A lethal taboo governed the rite: any living entity encountered in their path—whether a dog, cat, or human man who ventured out of his house—was deemed the Pestilence itself in disguise and beaten to death on the spot with clubs without hesitation or remorse (Tokarev 1957, pp. 102–104; Afanasyev 1869, vol. 3, pp. 648–653)."
+          ],
+          "level": "documented",
+          "sources": [
+            "tokarev1957",
+            "afanasyev1869",
+            "zelenin1927"
+          ]
         }
       ]
     },
@@ -6133,7 +6179,8 @@
         "linden-online-death",
         "hse-digital-grief2025",
         "rtvi-vk-dead",
-        "vk-policy-memorial"
+        "vk-policy-memorial",
+        "moroz2021"
       ],
       "related": [
         "g",
@@ -6334,6 +6381,19 @@
             "hse-digital-grief2025"
           ],
           "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Networked Cenotaph: 40-Day Vigils and Algorithmic Memory",
+          "kicker": "The server room",
+          "paras": [
+            "In the contemporary Russian digital landscape, the personal profile on networks such as VKontakte transforms upon death into an interactive, communal cenotaph. Rather than deleting or freezing profiles, surviving kin and friends frequently maintain the deceased's digital footprint. The traditional Orthodox commemoration timeline—specifically the 9th day, the 40th day (*sorokoviny*), and annual death days—transposes directly onto the platform's public wall.",
+            "Mourners post formulaic mourning iconography: animated candle GIFs, Orthodox crosses, and recurrent phrases such as *'Tsarstvie Nebesnoe'* (Heavenly Kingdom) and *'Pomnim, liubim, skorbim'* (We remember, we love, we mourn). Anthropologist Oksana Moroz observes that this digital presence creates an asynchronous afterlife: algorithmic systems continue to suggest the deceased's birthday to friends, generating automated commemorative waves and transforming private bereavement into a collective, visible liturgy of the screen (Moroz 2021, pp. 142–154)."
+          ],
+          "level": "documented",
+          "sources": [
+            "moroz2021"
+          ]
         }
       ]
     },
@@ -6360,7 +6420,8 @@
         "tvardovsky1946",
         "etkind2013",
         "koroleva2015",
-        "nikulin2007"
+        "nikulin2007",
+        "krivosheev2001"
       ],
       "concepts": [
         "memory",
@@ -6487,6 +6548,19 @@
             "merridale2000"
           ],
           "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Peat Trench: Bakelite Medallions in the Valley of Death / [18+]",
+          "kicker": "The search movement / [18+]",
+          "paras": [
+            "The physical reality of the battlefields of the Second World War on Russian territory—particularly the Lyuban and Demyansk pockets and the peat bogs of Myasnoi Bor ('The Valley of Death')—remained unassimilated by official monumental memory for decades. Over one hundred thousand soldiers of the 2nd Shock Army lay submerged under sphagnum moss and birch roots, abandoned in waterlogged trenches and bomb craters without sanitary interments.",
+            "Since the late 1960s and early 1980s, the grassroots Search Movement (*Poiskovoe dvizhenie*) has conducted annual excavation vigils ('Vakhta Pamiati'). Searchers probe the acidic peat soil with steel rods to uncover skeletal remains, rotted leather boots, and black bakelite death medallion capsules (model LD-1941). The folded parchment strips inside, tightly rolled and often illegible due to dampness, require chemical reconstruction in laboratory conditions. Once identified, remains receive a solemn dual burial rite: military rifle volleys accompanied by an Orthodox panikhida beside the open mass grave (Krivosheev 2001, pp. 240–248)."
+          ],
+          "level": "documented",
+          "sources": [
+            "krivosheev2001"
+          ]
         }
       ],
       "related": [
@@ -6518,7 +6592,8 @@
         "permilovskaya2013",
         "merridale2000",
         "rozanov-moscow-cemeteries",
-        "etkind2013"
+        "etkind2013",
+        "smirnov1920"
       ],
       "concepts": [
         "abandonment",
@@ -6645,6 +6720,19 @@
             "kremleva1999"
           ],
           "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Mineral Horizon: Peat Sinking and Botanical Succession",
+          "kicker": "The returning soil",
+          "paras": [
+            "In the taiga zone of the Russian North and Siberia, human abandonment transforms the cemetery into a rapid botanical succession. A wooden graveyard devoid of living caretakers has an architectural lifespan rarely exceeding seventy years. Pine and fir domoviny rot from the ground level up, their corner notches giving way under the weight of winter snowdrifts. Sphagnum moss envelops the roof gables, while deep soil settlement produces characteristic oval hollows above collapsed coffin lids.",
+            "Botanist and ethnographer I. N. Smirnov documented how specific flora acts as the final living ledger of an extinct settlement: dense clumps of stinging nettles (*Urtica dioica*) and rosebay willowherb (*Chamaenerion angustifolium*) thrive on the phosphorus and nitrogen-enriched soil of decaying graves, marking human burials long after wooden crosses have rotted flat and wrought-iron markers have rusted into flakes. Ultimately, young spruces strike root directly into the decomposing crossbars, reclaiming the cemetery back into the primeval forest canopy (Smirnov 1920, pp. 88–94)."
+          ],
+          "level": "documented",
+          "sources": [
+            "smirnov1920"
+          ]
         }
       ],
       "related": [
