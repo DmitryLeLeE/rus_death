@@ -497,16 +497,97 @@
     /* -------------------------------------------------------- metrics filter -- */
     const mChips = $$("[data-metric-filter]");
     if (mChips.length) {
-      const mRows = $$(".metrics-row");
+      const mRows = $$("[data-metric-cat]");
       mChips.forEach((chip) => {
         chip.addEventListener("click", () => {
-          mChips.forEach((c) => c.setAttribute("aria-pressed", "false"));
-          chip.setAttribute("aria-pressed", "true");
+          mChips.forEach((c) => c.classList.remove("is-active"));
+          chip.classList.add("is-active");
           const cat = chip.dataset.metricFilter;
           mRows.forEach((r) => {
-            const show = cat === "all" || r.dataset.category === cat;
+            const show = cat === "all" || r.dataset.metricCat === cat;
             r.hidden = !show;
           });
+        });
+      });
+    }
+
+    /* -------------------------------------------------------- image hotspots -- */
+    let activeHotspotCard = null;
+    const closeHotspot = () => {
+      if (activeHotspotCard) {
+        activeHotspotCard.remove();
+        activeHotspotCard = null;
+        $$(".hotspot.is-active").forEach((h) => h.classList.remove("is-active"));
+      }
+    };
+
+    doc.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-hotspot]");
+      if (!btn) {
+        if (activeHotspotCard && !e.target.closest(".hotspot-card")) {
+          closeHotspot();
+        }
+        return;
+      }
+      e.stopPropagation();
+      if (btn.classList.contains("is-active")) {
+        closeHotspot();
+        return;
+      }
+      closeHotspot();
+      btn.classList.add("is-active");
+
+      const card = document.createElement("div");
+      card.className = "hotspot-card";
+      card.innerHTML = `
+        <div class="hotspot-card__head">
+          <span class="hotspot-card__title">${btn.dataset.title || ""}</span>
+          <button type="button" class="hotspot-card__close" aria-label="Close">×</button>
+        </div>
+        <p class="hotspot-card__text">${btn.dataset.text || ""}</p>
+      `;
+
+      btn.parentElement.appendChild(card);
+      activeHotspotCard = card;
+
+      const btnLeft = parseFloat(btn.style.left) || 50;
+      let left = btn.offsetLeft + 20;
+      let top = btn.offsetTop - 10;
+
+      if (btnLeft > 60) {
+        left = btn.offsetLeft - 290;
+      }
+      if (left < 10) left = 10;
+
+      card.style.left = left + "px";
+      card.style.top = top + "px";
+
+      card.querySelector(".hotspot-card__close").addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        closeHotspot();
+      });
+    });
+
+    win("keydown", (e) => {
+      if (e.key === "Escape") closeHotspot();
+    });
+
+    /* ---------------------------------------------------- expedition tracks -- */
+    const expBtns = $$("[data-expedition-track]");
+    if (expBtns.length) {
+      expBtns.forEach((b) => {
+        b.addEventListener("click", () => {
+          const trackId = b.dataset.expeditionTrack;
+          const track = doc.getElementById(trackId);
+          const wasActive = track && track.classList.contains("is-highlighted");
+          $$(".route-track").forEach((t) => t.classList.remove("is-highlighted"));
+          if (!wasActive && track) {
+            track.classList.add("is-highlighted");
+            const mapPlane = doc.querySelector(".map-plane");
+            if (mapPlane) {
+              mapPlane.scrollIntoView({ behavior: "smooth", block: "center" });
+            }
+          }
         });
       });
     }

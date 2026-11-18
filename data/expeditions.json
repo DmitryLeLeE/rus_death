@@ -1,0 +1,55 @@
+{
+  "expeditions": [
+    {
+      "id": "barsov-1860",
+      "title": "Barsov & Rybnikov: Zaonezhye Laments and Lake Pogosts (1860–1872)",
+      "leader": "Elpidifor Barsov & Pavel Rybnikov",
+      "years": "1860–1872",
+      "summary": "Pioneering fieldwork across the Olonets Governorate documenting traditional lamentations, cemetery log houses (domoviny), and oral poetry from master wailer Irina Fedosova.",
+      "route": ["Petrozavodsk", "Kizhi Pogost", "Tolvuya", "Kuzaranda", "Vytegra"],
+      "points": [
+        { "name": "Petrozavodsk", "x": 26.5, "y": 28.5 },
+        { "name": "Kizhi Pogost", "x": 28.0, "y": 27.0 },
+        { "name": "Tolvuya", "x": 29.5, "y": 25.5 },
+        { "name": "Kuzaranda", "x": 30.5, "y": 26.5 },
+        { "name": "Vytegra", "x": 32.0, "y": 31.0 }
+      ],
+      "diary": "«The lament is not an artificial song, but a desperate cry of blood and memory. In Kuzaranda, women wept over the grave mound until their chests were bruised, addressing the deceased father in the log coffin as though he heard through the cedar wood.» — E. V. Barsov, 1872.",
+      "plates": ["g", "f", "b"]
+    },
+    {
+      "id": "zelenin-1914",
+      "title": "D. K. Zelenin: Northern Survey of the Unquiet Dead (1914–1916)",
+      "leader": "Dmitry Konstantinovich Zelenin",
+      "years": "1914–1916",
+      "summary": "Systematic collection of folklore and legal-ecclesiastical records across Vyatka, Vologda, and Kostroma governorates on 'zalozhnye pokoiniki' (the unquiet dead, suicides, sorcerers, and victims of sudden death).",
+      "route": ["Vyatka", "Kotelnich", "Veliky Ustyug", "Totma", "Vologda"],
+      "points": [
+        { "name": "Vyatka", "x": 42.0, "y": 42.0 },
+        { "name": "Kotelnich", "x": 39.5, "y": 41.5 },
+        { "name": "Veliky Ustyug", "x": 38.0, "y": 32.0 },
+        { "name": "Totma", "x": 35.0, "y": 34.5 },
+        { "name": "Vologda", "x": 31.5, "y": 36.0 }
+      ],
+      "diary": "«The popular mind draws an absolute abyss between parents who died of natural old age and the zalozhnye who perished before their allotted span. The latter the earth does not accept; they must not touch churchyard soil lest drought and famine fall upon the parish.» — D. K. Zelenin, 1916.",
+      "plates": ["t", "n", "p", "v"]
+    },
+    {
+      "id": "malyshev-1954",
+      "title": "V. I. Malyshev: Pechora & Mezen Old Believer Archaeological Expeditions (1954–1956)",
+      "leader": "Vladimir Ivanovich Malyshev (Pushkin House)",
+      "years": "1954–1956",
+      "summary": "Expeditions to secluded Arctic and taiga Old Believer sketes along the Pechora and Mezen rivers, uncovering archaic log domoviny, carved grave pillars, and handwritten memorial registers (sinodiki).",
+      "route": ["Arkhangelsk", "Mezen", "Ust-Tsilma", "Pizhma River", "Pustozersk"],
+      "points": [
+        { "name": "Arkhangelsk", "x": 33.5, "y": 22.0 },
+        { "name": "Mezen", "x": 40.0, "y": 19.5 },
+        { "name": "Ust-Tsilma", "x": 51.0, "y": 18.0 },
+        { "name": "Pizhma River", "x": 53.0, "y": 20.5 },
+        { "name": "Pustozersk", "x": 56.5, "y": 14.5 }
+      ],
+      "diary": "«In abandoned forest sketes near Pustozersk, graves are covered by heavy wooden troughs carved from cedar trunks, crowned by eight-pointed crosses under double roofs. Beside them stand carved memorial pillars with icons recessed into niches, watching over the Arctic tundra.» — V. I. Malyshev, 1956.",
+      "plates": ["f", "l", "w"]
+    }
+  ]
+}

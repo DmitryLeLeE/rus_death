@@ -43,14 +43,15 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Cover | The object: title, collage, cards with derived torn-edge plates |
 | Prologue | What the atlas is, what it will not do, three ways in |
 | Volumes | The four volumes and the plates in each |
-| Plates A–Z | Research plates, each with its own composition (all 26 plates), apparatus and one-click ГОСТ / BibTeX citation |
+| Plates A–Z | Research plates (all 26 plates) with compositions, interactive visual hotspots/explications, apparatus and one-click ГОСТ / BibTeX citation |
 | Index | Card catalogue of plates, objects, concepts and places |
 | Voices | Lament, verse and historical field voices in Russian and English with source metadata |
-| Field archive | The catalogue of original assets and an authentic 19th-century parish death register (*метрический регистр кончины*, 1842–1895) with verbatim formulas of demise |
-| Map | 36 localities, with interactive macro-regional filters (North, Center, East, Diaspora) |
+| Field archive | Original visual assets, 19th-century parish death register (*метрический регистр кончины*, 1842–1895), and the Chthonic Herbarium (*погребальная ботаника и дендрология*, 8 species) |
+| Map | 36 localities, macro-regional filters, and historical field expedition tracks (Barsov 1860, Zelenin 1914, Malyshev 1954) |
 | Chronology | 37 points and caesuras, filterable by period, and a comparative matrix of 5 historical strata of funerary culture |
 | Words | Lexicon of Russian ethnographic terms (64 entries) with interactive in-text popovers across all plate prose |
 | Reading routes | Seven paths through the plates, covering all 26 compositions |
+| Compendium | Full monograph pre-print uniting all 26 plates, systematic registers, and print/PDF typography |
 | Claim ledger | Every section of every plate (241 sections) with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |
 | Sources | Bibliography (154 entries) with one-click ГОСТ Р 7.0.5-2008 and BibTeX copy buttons; visual asset credits |

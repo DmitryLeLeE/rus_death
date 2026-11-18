@@ -29,7 +29,7 @@ const SITE = "https://DmitryLeLeE.github.io/rus_death/";
 let LANG = "en", T = UI.en, UP = "";
 let plates, sourcesDoc, objectsDoc, conceptsDoc, placesDoc, timelineDoc, imagesDoc, methodDoc, derivedDoc;
 let VOICES = [], VOICE = {};
-let prologueDoc, lexiconDoc, volumesDoc, routesDoc, metricsDoc, strataDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
+let prologueDoc, lexiconDoc, volumesDoc, routesDoc, metricsDoc, strataDoc, botanyDoc, expeditionsDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
 
 const merge = (target, src) => {
   for (const [k, v] of Object.entries(src)) {
@@ -88,6 +88,8 @@ function loadLang(lang) {
   routesDoc = readJSON(path.join(DATA, "routes.json"));
   metricsDoc = fileExists(path.join(DATA, "metrics.json")) ? readJSON(path.join(DATA, "metrics.json")) : null;
   strataDoc = fileExists(path.join(DATA, "strata.json")) ? readJSON(path.join(DATA, "strata.json")) : null;
+  botanyDoc = fileExists(path.join(DATA, "botany.json")) ? readJSON(path.join(DATA, "botany.json")) : null;
+  expeditionsDoc = fileExists(path.join(DATA, "expeditions.json")) ? readJSON(path.join(DATA, "expeditions.json")) : null;
   HAND = {};
   if (lang === "ru") {
     const ov = (f) => { const p = path.join(DATA, "ru", f); return fileExists(p) ? readJSON(p) : null; };
@@ -115,6 +117,23 @@ function loadLang(lang) {
       (m.sections || []).forEach((v, i) => v && merge(methodDoc.sections[i], v));
     }
     const pr = ov("prologue.json"); if (pr && prologueDoc) merge(prologueDoc, pr);
+            const expOvl = ov("expeditions.json");
+    if (expOvl && expeditionsDoc) {
+      if (expOvl.expeditions) {
+        for (const ex of expeditionsDoc.expeditions) {
+          if (expOvl.expeditions[ex.id]) Object.assign(ex, expOvl.expeditions[ex.id]);
+        }
+      }
+    }
+    const botOvl = ov("botany.json");
+    if (botOvl && botanyDoc) {
+      if (botOvl.meta) Object.assign(botanyDoc.meta, botOvl.meta);
+      if (botOvl.plants) {
+        for (const p of botanyDoc.plants) {
+          if (botOvl.plants[p.id]) Object.assign(p, botOvl.plants[p.id]);
+        }
+      }
+    }
     const lx = ov("lexicon.json");
     if (lx && lexiconDoc) {
       const { entries: lxe, ...lxr } = lx;
@@ -396,16 +415,18 @@ function diagramFig(s, base) {
 }
 
 // A photographic figure: the image carries its own torn edge (baked) or gets a CSS tear.
-function photoFig(id, base, { caption = "", credit = "", level = "", alt = "", note: hnote = "", tr = "", tape = "", ghost = false, clip = null }) {
+function photoFig(id, base, { caption = "", credit = "", level = "", alt = "", note: hnote = "", tr = "", tape = "", ghost = false, clip = null, hotspots = null }) {
   const baked = isBaked(id);
   const file = fileOf(id, base);
   const c = clip || torn(id, "tblr", 7);
   const cap = caption || (DER[id] ? DER[id].title : IMG[id].title);
   const parentOfDer = DER[id] ? Object.values(IMG).find((x) => x.file && x.file.endsWith("/" + DER[id].parent_file)) : null;
   const mature = !!((origOf(id) || IMG[id] || parentOfDer || {}).mature || (parentOfDer || {}).mature);
+  const hotspotsHtml = hotspots && hotspots.length ? `<div class="photo__hotspots" aria-label="Interactive details">${hotspots.map((h, i) => `<button class="hotspot" type="button" style="left:${h.x}%;top:${h.y}%;" data-hotspot data-title="${esc(h.title)}" data-text="${esc(h.text)}" aria-label="${esc(h.title)}"><span class="hotspot__pin">${i + 1}</span></button>`).join("")}</div>` : "";
   return `<div class="photo${ghost ? " photo--ghost" : ""}${mature ? " photo--mature" : ""}"${mature ? " data-mature" : ""}>
     <div class="photo__img${baked ? " is-baked" : " is-clip"}"${baked ? "" : ` style="--ca:${c.a};--cb:${c.b}"`}>
       <img src="${file}" alt="${esc(alt || (origOf(id) || IMG[id] || {}).alt || "")}"${dims(id)} loading="lazy" decoding="async">
+      ${hotspotsHtml}
       ${mature ? `<button class="gate" type="button" data-gate aria-label="${esc(T.gateAria)}"><span class="gate__a">18+</span><span class="gate__t">${T.gateText}</span><span class="gate__b">${T.gateBtn}</span></button>` : ""}
     </div>
     ${tape ? `<span class="tape tape--${tape}" aria-hidden="true"></span>` : ""}
@@ -430,6 +451,7 @@ function figureSection(s, base, item) {
     caption: s.caption, credit: s.credit, level: s.level, alt: s.alt,
     tape: item.tape, ghost: item.ghost,
     clip: keepsOrig ? torn(src, clipSides, 7) : null,
+    hotspots: s.hotspots || null,
   });
 }
 
@@ -958,6 +980,31 @@ function mapPage() {
   </li>`;
   }).join("\n");
 
+    const expeditionsHtml = expeditionsDoc ? `
+<section class="expeditions-section" aria-labelledby="exp-h2">
+  <div class="expeditions-header">
+    <p class="mono kicker">${LANG === "ru" ? "ИСТОРИЧЕСКИЕ ЭКСПЕДИЦИИ" : "HISTORICAL FIELD EXPEDITIONS"}</p>
+    <h2 id="exp-h2">${LANG === "ru" ? "Полевые маршруты фиксации погребальной культуры" : "Field Itineraries of Funerary Ethnography"}</h2>
+    <p class="expeditions-dek">${LANG === "ru" ? "Маршруты классических этнографических и археографических экспедиций XIX–XX веков, зафиксировавших традиционные вопли, заложные захоронения и старообрядческие некрополи." : "Routes of classic 19th- and 20th-century ethnographic and archaeographical expeditions that preserved northern laments, unquiet dead folklore, and secret Old Believer necropolises."}</p>
+  </div>
+  <ul class="expeditions-list">
+    ${expeditionsDoc.expeditions.map((ex) => `
+      <li class="expedition-card" id="exp-${ex.id}">
+        <span class="expedition-card__years">${esc(ex.years)}</span>
+        <h3 class="expedition-card__title">${esc(ex.title)}</h3>
+        <p class="expedition-card__leader"><strong>${LANG === "ru" ? "Руководитель:" : "Leader:"}</strong> ${esc(ex.leader)}</p>
+        <p class="expedition-card__route"><strong>${LANG === "ru" ? "Путь:" : "Route:"}</strong> ${ex.route.map(esc).join(" → ")}</p>
+        <p>${esc(ex.summary)}</p>
+        <blockquote class="expedition-card__diary">${esc(ex.diary)}</blockquote>
+        <div class="expedition-card__footer">
+          <button class="expedition-card__btn" type="button" data-expedition-track="track-${ex.id}">${LANG === "ru" ? "Показать трек на карте" : "Highlight track"}</button>
+          <span class="expedition-card__plates mono">${(ex.plates || []).map((pid) => `<a href="${plateHref(pid, base)}">${PLATE[pid] ? PLATE[pid].letter : pid.toUpperCase()}</a>`).join(" ")}</span>
+        </div>
+      </li>
+    `).join("")}
+  </ul>
+</section>` : "";
+
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "map-page", page: "map", rel: "map.html",
     content: `<main id="main">
@@ -985,6 +1032,8 @@ ${pagehead("pagehead--map", X.kicker, X.h1, X.dek)}
     </div>
   </div>
 </section>
+
+${expeditionsHtml}
 
 ${noteSec(X.notH, X.not1, X.not2)}
 </main>`,
@@ -1115,6 +1164,172 @@ ${pagehead("pagehead--bib", X.kicker, X.h1, X.dek)}
 
 ${noteSec(X.notH, X.not1, X.not2)}
 </main>`,
+  });
+}
+
+
+// ------------------------------------------------------------- compendium --
+function compendiumPage() {
+  const base = "";
+  const isRu = LANG === "ru";
+  const title = isRu
+    ? "Сводный том: Археология русской смерти"
+    : "Compendium: Archæology of Russian Death";
+  const desc = isRu
+    ? "Полный академический текст атласа: все 26 исследовательских листов, методология, сравнительные матрицы страт, метрический регистр кончины и хтонический гербарий."
+    : "Complete scholarly compendium of the atlas: all 26 research plates, methodology, 5 evolution strata, 19th-century parish register, and chthonic herbarium.";
+
+  const tocPlates = plates.plates.map((p) => `<li><a href="#plate-${p.id}"><span class="mono">${p.letter}</span>. ${esc(p.nav)}</a></li>`).join("");
+
+  const volumesContent = volumesDoc.volumes.map((v) => {
+    const vp = volPlates(v.id);
+    if (!vp.length) return "";
+    return `
+      <section class="comp-vol" id="vol-${v.id}">
+        <span class="mono kicker">${isRu ? "ТОМ" : "VOLUME"} ${v.numeral}</span>
+        <h2 class="comp-vol__h">${esc(v.title)}</h2>
+        <p class="comp-vol__sub">${esc(v.subtitle)}</p>
+        
+        ${vp.map((p) => `
+          <article class="comp-plate" id="plate-${p.id}">
+            <p class="comp-plate__meta mono">PLATE ${p.letter} · ${esc(p.period)} · ${esc(p.location)}</p>
+            <h3 class="comp-plate__h">${esc(p.title)}: ${esc(p.subtitle)}</h3>
+            <p class="comp-plate__dek">${md(p.dek)}</p>
+            
+            <div class="comp-plate__sections">
+              ${p.sections.map((s) => {
+                if (s.type === "prose" || s.type === "record") {
+                  return `
+                    <div class="comp-sec">
+                      ${s.heading ? `<h4>${md(s.heading)}</h4>` : ""}
+                      ${(s.paras || []).map((para) => `<p>${md(para)}</p>`).join("")}
+                    </div>
+                  `;
+                }
+                if (s.type === "figure") {
+                  return `
+                    <figure class="comp-fig">
+                      <figcaption class="mono"><strong>[${isRu ? "Иллюстрация" : "Figure"}: ${esc(s.src)}]</strong> ${md(s.caption || "")} <em>(${esc(s.credit || "")})</em></figcaption>
+                    </figure>
+                  `;
+                }
+                if (s.type === "quote") {
+                  return `<blockquote class="comp-quote"><p>${md(s.text)}</p><cite class="mono">— ${esc(s.attrib || "")}</cite></blockquote>`;
+                }
+                return "";
+              }).join("")}
+            </div>
+            
+            <p class="mono comp-plate__sources">${isRu ? "Источники листа:" : "Sources for plate:"} ${(p.sources || []).join(", ")}</p>
+          </article>
+        `).join("")}
+      </section>
+    `;
+  }).join("\n");
+
+  const content = `
+    <main id="main">
+      <div class="comp-topbar">
+        <a href="${base}index.html" class="mono">← ${isRu ? "Вернуться к Атласу" : "Back to Atlas"}</a>
+        <button class="comp-topbar__btn" type="button" onclick="window.print()">${isRu ? "Печать / Экспорт в PDF" : "Print / Export to PDF"}</button>
+      </div>
+
+      <header class="compendium-header">
+        <p class="mono kicker">${isRu ? "ПОЛНЫЙ АКАДЕМИЧЕСКИЙ СВОД" : "COMPLETE SCHOLARLY COMPENDIUM"}</p>
+        <h1 class="comp-title">${isRu ? "АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ" : "ARCHÆOLOGY OF RUSSIAN DEATH"}</h1>
+        <p class="comp-sub">${isRu ? "Сводный текст 26 исследовательских листов, этнографических регистров и полевых источников" : "Compendium of all 26 research plates, ethnographic registers, and field sources"}</p>
+        <p class="mono comp-meta">${isRu ? "Научное электронное издание · 2026 · Под ред. проекта «Русская смерть»" : "Scholarly Digital Edition · 2026 · Russian Death Project"}</p>
+      </header>
+
+      <nav class="comp-toc" aria-label="Table of Contents">
+        <h2 class="comp-toc__h">${isRu ? "Оглавление сводного тома" : "Table of Contents"}</h2>
+        <ul class="comp-toc__list">
+          ${tocPlates}
+          <li><a href="#comp-strata"><strong>${isRu ? "5 страт погребальной культуры" : "5 Strata Matrix"}</strong></a></li>
+          <li><a href="#comp-metrics"><strong>${isRu ? "Метрический регистр кончины (1842–1895)" : "Parish Death Register (1842–1895)"}</strong></a></li>
+          <li><a href="#comp-botany"><strong>${isRu ? "Хтонический гербарий" : "Chthonic Herbarium"}</strong></a></li>
+        </ul>
+      </nav>
+
+      ${volumesContent}
+
+      <section class="comp-vol" id="comp-strata">
+        <span class="mono kicker">${isRu ? "СИСТЕМНЫЙ АППАРАТ I" : "SYSTEMATIC APPARATUS I"}</span>
+        <h2 class="comp-vol__h">${isRu ? "Пять исторических страт русской погребальной культуры" : "Five Historical Strata of Russian Funerary Culture"}</h2>
+        <div class="tablewrap strata-wrap">
+          <table class="strata-table">
+            <thead>
+              <tr>
+                <th>${isRu ? "Эпоха и пласт" : "Epoch & Stratum"}</th>
+                <th>${isRu ? "Обращение с телом" : "Bodily Treatment"}</th>
+                <th>${isRu ? "Сакральное пространство" : "Sacred Space"}</th>
+                <th>${isRu ? "Символика и маркеры" : "Symbolism & Markers"}</th>
+                <th>${isRu ? "Институциональный контроль" : "Regulatory Authority"}</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${(strataDoc ? strataDoc.epochs : []).map((ep) => `
+                <tr>
+                  <td class="strata-epoch"><strong>${isRu ? ep.title : ep.title_en}</strong><br><small class="mono">${isRu ? ep.period : ep.period_en}</small></td>
+                  <td>${isRu ? ep.body : ep.body_en}</td>
+                  <td>${isRu ? ep.space : ep.space_en}</td>
+                  <td>${isRu ? ep.symbol : ep.symbol_en}</td>
+                  <td>${isRu ? ep.law : ep.law_en}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="comp-vol" id="comp-metrics">
+        <span class="mono kicker">${isRu ? "СИСТЕМНЫЙ АППАРАТ II" : "SYSTEMATIC APPARATUS II"}</span>
+        <h2 class="comp-vol__h">${isRu ? "Метрический регистр формул кончины (1842–1895)" : "Parish Death Records Register (1842–1895)"}</h2>
+        <div class="tablewrap metrics-wrap">
+          <table class="metrics-table">
+            <thead>
+              <tr>
+                <th>${isRu ? "Год / Приход" : "Year / Parish"}</th>
+                <th>${isRu ? "Усопший" : "Deceased"}</th>
+                <th>${isRu ? "Причина смерти" : "Cause of Death"}</th>
+                <th>${isRu ? "Чин и вердикт" : "Burial & Verdict"}</th>
+                <th>${isRu ? "Шифр" : "Citation"}</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${(metricsDoc ? metricsDoc.records : []).map((r) => `
+                <tr>
+                  <td class="mono"><strong>${r.year}</strong><br>${isRu ? r.parish : r.parish_en}</td>
+                  <td><strong>${isRu ? r.name : r.name_en}</strong><br><small>${isRu ? r.status : r.status_en}</small></td>
+                  <td><em>«${isRu ? r.cause : r.cause_en}»</em></td>
+                  <td>${isRu ? r.burial : r.burial_en}<br><small>${isRu ? r.verdict : r.verdict_en}</small></td>
+                  <td class="mono">${r.citation}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="comp-vol" id="comp-botany">
+        <span class="mono kicker">${isRu ? "СИСТЕМНЫЙ АППАРАТ III" : "SYSTEMATIC APPARATUS III"}</span>
+        <h2 class="comp-vol__h">${isRu ? "Хтонический гербарий и погребальная дендрология" : "Chthonic Herbarium & Funerary Dendrology"}</h2>
+        <ul class="botany-grid">
+          ${(botanyDoc ? botanyDoc.plants : []).map((pl) => `
+            <li class="botany-card">
+              <span class="botany-card__binomial">${esc(pl.binomial)}</span>
+              <h3 class="botany-card__title">${esc(pl.name)}</h3>
+              <p class="botany-card__role">${esc(pl.role)}</p>
+              <p class="botany-card__folklore">${esc(pl.folklore)}</p>
+            </li>
+          `).join("")}
+        </ul>
+      </section>
+    </main>
+  `;
+
+  return shell({
+    title, description: desc, base, bodyClass: "compendium-page", page: "compendium", rel: "compendium.html", content
   });
 }
 
@@ -1523,6 +1738,30 @@ function archivePage() {
   </div>
 </section>` : "";
 
+    const botanySection = botanyDoc ? `
+<section class="botany-section" id="botany-archive" aria-labelledby="botany-h2">
+  <div class="botany-header">
+    <p class="mono kicker">${LANG === "ru" ? "ХТОНИЧЕСКИЙ ГЕРБАРИЙ" : "CHTHONIC HERBARIUM"}</p>
+    <h2 id="botany-h2">${esc(botanyDoc.meta.title)}</h2>
+    <p class="botany-dek">${esc(botanyDoc.meta.dek)} ${esc(botanyDoc.meta.note)}</p>
+  </div>
+  <ul class="botany-grid">
+    ${botanyDoc.plants.map((pl) => `
+      <li class="botany-card" id="plant-${pl.id}">
+        <span class="botany-card__binomial">${esc(pl.binomial)}</span>
+        <h3 class="botany-card__title">${esc(pl.name)}</h3>
+        <span class="botany-card__term">${esc(pl.term)}</span>
+        <p class="botany-card__role">${esc(pl.role)}</p>
+        <p class="botany-card__folklore">${esc(pl.folklore)}</p>
+        <div class="botany-card__footer">
+          <span class="botany-card__cat">${esc(pl.category)}</span>
+          <span class="botany-card__plates mono">${(pl.plates || []).map((pid) => `<a href="${plateHref(pid, base)}">${PLATE[pid] ? PLATE[pid].letter : pid.toUpperCase()}</a>`).join(" ")}</span>
+        </div>
+      </li>
+    `).join("")}
+  </ul>
+</section>` : "";
+
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "tool-page", page: "archive", rel: "archive.html",
     content: `<main id="main">
@@ -1530,6 +1769,7 @@ ${pagehead("pagehead--bib", X.kicker, X.h1, X.dek)}
 <section class="tool"><p class="mono">${originals.length} ${X.count} · ${imagesDoc.images.length - originals.length} ${X.derivedAll}</p>
 ${groups}</section>
 ${metricsSection}
+${botanySection}
 ${noteSec(X.noteH, X.note1, X.note2)}
 </main>`,
   });
@@ -1668,7 +1908,7 @@ function coverPage() {
 }
 
 // ------------------------------------------------------------------ run ----
-const PAGES = ["index.html", "prologue.html", "volumes.html", "search.html", "ledger.html", "routes.html", "archive.html", "atlas.html", "map.html", "chronology.html", "words.html", "voices.html", "bibliography.html", "method.html", "colophon.html"];
+const PAGES = ["index.html", "compendium.html", "prologue.html", "volumes.html", "search.html", "ledger.html", "routes.html", "archive.html", "atlas.html", "map.html", "chronology.html", "words.html", "voices.html", "bibliography.html", "method.html", "colophon.html"];
 const sitemapRel = [];
 console.log("building");
 for (const lang of ["en", "ru"]) {
@@ -1688,6 +1928,7 @@ for (const lang of ["en", "ru"]) {
   write(`${pre}chronology.html`, chronologyPage());
   write(`${pre}bibliography.html`, bibliographyPage());
   write(`${pre}colophon.html`, colophonPage());
+  write(`${pre}compendium.html`, compendiumPage());
   write(`${pre}404.html`, notFound());
   if (prologueDoc) write(`${pre}prologue.html`, prologuePage());
   if (lexiconDoc) write(`${pre}words.html`, wordsPage());

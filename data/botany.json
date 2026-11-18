@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Funerary Botany and Dendrology",
+    "dek": "A catalogue of eight sacred, apotropaic, and liminal plants and trees governing the Russian passage of death.",
+    "note": "Based on 19th- and early 20th-century ethnographical fieldwork by D. K. Zelenin, A. N. Afanasiev, and V. I. Dal."
+  },
+  "plants": [
+    {
+      "id": "aspen",
+      "binomial": "Populus tremula",
+      "name": "European Aspen",
+      "term": "Осина / Иудино дерево",
+      "category": "apotropaic",
+      "role": "Chthonic tree of execution and impalement; pinning weapon against unquiet corpses (zalozhnye pokoiniki).",
+      "folklore": "According to apocryphal legends recorded across northern and central Russia, the aspen's leaves tremble perpetually because Judas Iscariot hanged himself upon it, or because it refused to mourn during the Crucifixion. It was strictly taboo to build residential log cabins (izbas) with aspen logs; doing so invited chronic illness, spirit hauntings, and untimely death. Conversely, a sharpened aspen stake (osinovyi kol) driven through the spine or grave mound of an upyr, sorcerer, or suicide was the primary mechanical and ritual means to physically pin the revenant to the earth and break its post-mortem mobility.",
+      "plates": ["n", "t", "v"],
+      "sources": ["zelenin1916", "afanasiev1869", "dal1880"]
+    },
+    {
+      "id": "spruce",
+      "binomial": "Picea abies",
+      "name": "Norway Spruce / Spruce Boughs",
+      "term": "Ель / Еловый лапник",
+      "category": "boundary",
+      "role": "Liminal border tree marking the realm of ancestors; path-masking barrier against post-mortem return.",
+      "folklore": "The spruce forest is the archaic Russian locus of death and ancestral spirits. Idiomatic euphemisms for burial include 'to go under the spruce' (ugodit' pod el') or 'to look under the fir tree' (smotret' pod elochku). During the funeral procession, cut green spruce boughs (lapnik) were strewn thickly behind the cart or sled carrying the coffin from the deceased's gate all the way to the cemetery fence. This served a triple apotropaic function: honoring the deceased with an evergreen carpet, masking the volatile stench of cadaveric decomposition, and pricking the bare soles of the wandering soul so it could not find its way back to the family dwelling.",
+      "plates": ["b", "c", "n", "p"],
+      "sources": ["zelenin1916", "vinogradova2000"]
+    },
+    {
+      "id": "birch",
+      "binomial": "Betula pendula",
+      "name": "Silver Birch & Birch Bark",
+      "term": "Берёза / Береста",
+      "category": "material",
+      "role": "Waterproof mortuary lining and archaic northern shroud; arboreal receptacle for maiden souls.",
+      "folklore": "Before sawn planks and commercial textiles became ubiquitous, northern peasants and Old Believer communities wrapped corpses in large, pliable sheets of stripped birch bark (beresta) or lined the bottom of monoxyle log coffins (domovinas) with birch bark mats. Birch bark provided thermal and aqueous insulation from frozen or waterlogged permafrost. In spring rites of Semik and Trinity week, maiden birch saplings were decorated with ribbons and 'curled' into arches, serving as temporary arboreal vessels for the restless souls of drowned girls and unmarried maidens (rusalki).",
+      "plates": ["b", "f", "n", "u"],
+      "sources": ["propp1963", "zelenin1916"]
+    },
+    {
+      "id": "juniper",
+      "binomial": "Juniperus communis",
+      "name": "Common Juniper",
+      "term": "Можжевельник / Верес",
+      "category": "cleansing",
+      "role": "Sacred fumigant and antiseptic purifier of spaces contaminated by cadaveric miasma.",
+      "folklore": "Immediately following the removal of the coffin from the peasant izba, dried juniper branches were ignited on an iron hearth shovel or in a clay pot. The heavy, aromatic resinous smoke was wafted through every room, under the benches, and across the threshold. Folk medicine regarded juniper smoke as a disinfectant against pestilence and typhus, while ritual belief held that its pungent fumes expelled the lingering 'spirit of the corpse' (mertvechinnyi dukh) and disoriented any malevolent minor spirits (kikimoras, banniks) attracted by death.",
+      "plates": ["b", "c", "v"],
+      "sources": ["dal1880", "zelenin1916"]
+    },
+    {
+      "id": "poppy",
+      "binomial": "Papaver rhoeas / somniferum",
+      "name": "Wild Poppy Seeds",
+      "term": "Мак-самосейка / Маковое семя",
+      "category": "apotropaic",
+      "role": "Innumerable counting barrier impeding nocturnal predatory revenants at thresholds and crossroads.",
+      "folklore": "Uncultivated, wild poppy seeds were scattered inside the coffin beneath the mortuary shroud, along the domestic threshold, and at road intersections where the funeral cortege paused. Under Slavic folklore topology, a walking corpse, revenant, or vampire possessed an obsessive, involuntary compulsion to gather and tally every scattered grain before crossing a perimeter. Because the thousands of microscopic seeds could not be gathered before the first cockcrow, dawn broke and neutralised the entity's supernatural locomotion.",
+      "plates": ["p", "t", "v"],
+      "sources": ["afanasiev1869", "vinogradova2000"]
+    },
+    {
+      "id": "wormwood",
+      "binomial": "Artemisia absinthium",
+      "name": "Absinthe Wormwood",
+      "term": "Полынь горькая / Емшан",
+      "category": "apotropaic",
+      "role": "Aromatic plant talisman against watery revenants and seductive forest spirits during Semik.",
+      "folklore": "Wormwood is the foremost botanical counter-charm against rusalki and water maidens. During the perilous Rusalnaia Week preceding Trinity Sunday, peasants never entered forests, riverbanks, or marshes without a bunch of pungent wormwood tucked into their belt or pocket. A recurrent riddle-narrative recorded in folklore recounts a rusalka confronting a traveler with the binary question: 'Wormwood or parsley?' (Polyn' ili petrushka?). Answering 'Parsley!' caused the spirit to cry 'You are my darling!' and tickle the traveler to death; answering 'Wormwood!' caused her to shriek 'Perish and fade!' and flee into the reeds.",
+      "plates": ["o", "t", "u"],
+      "sources": ["zelenin1916", "afanasiev1869"]
+    },
+    {
+      "id": "rowan",
+      "binomial": "Sorbus aucuparia",
+      "name": "European Rowan / Mountain Ash",
+      "term": "Рябина",
+      "category": "boundary",
+      "role": "Amuletic threshold guardian whose scarlet berries and wood repel witchcraft and cattle plague.",
+      "folklore": "Twig crosses made from rowan branches tied with crimson wool yarn were fastened above windows and stable doors after a death in the homestead. During nocturnal village-ploughing rituals (opakhivanie) against epizootic cattle plagues, young maidens brandished rowan sticks to beat the boundary perimeter. Rowan wood was forbidden to be chopped carelessly for ordinary firewood; breaking a branch near a graveyard was believed to cause severe toothache or invite a curse from the dead.",
+      "plates": ["p", "s", "v"],
+      "sources": ["afanasiev1869", "dal1880"]
+    },
+    {
+      "id": "flax",
+      "binomial": "Linum usitatissimum",
+      "name": "Common Flax",
+      "term": "Лён / Льняное полотно / Саван",
+      "category": "material",
+      "role": "Canonical unbleached mortuary textile; strict prohibition of dyed synthetic fabrics or metal fasteners.",
+      "folklore": "The mortuary shroud (savan) and the death belt (pokromka) had to be crafted exclusively from hand-spun, unbleached pure linen. Flax was cultivated and woven by elderly post-menopausal women who had observed ritual ablutions. The mortuary robe was sewn with basting stitches from right to left, without making a single knot (knots were believed to bind the soul and impede its ascent through aerial toll-houses) and without touching any iron needles or shears once completed. Any trace of dyed calico, wool, or metallic fasteners was strictly banned as an unclean worldly contagion.",
+      "plates": ["b", "c", "v"],
+      "sources": ["zelenin1916", "vinogradova2000"]
+    }
+  ]
+}

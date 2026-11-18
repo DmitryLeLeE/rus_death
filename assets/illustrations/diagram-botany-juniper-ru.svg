@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="auto">
+  <defs>
+    <style>
+      .bg { fill: #0d0c0b; }
+      .frame { stroke: #423d33; stroke-width: 1.5; fill: none; }
+      .inner-frame { stroke: #2a2620; stroke-width: 0.8; fill: none; }
+      .title { font-family: 'Anton', 'Cinzel', serif; font-size: 26px; fill: #e8e4dc; letter-spacing: 0.12em; }
+      .sub { font-family: 'Inter', sans-serif; font-size: 13px; fill: #9c9588; font-style: italic; letter-spacing: 0.05em; }
+      .latin { font-family: 'Inter', sans-serif; font-size: 11px; fill: #b13227; font-weight: bold; letter-spacing: 0.15em; }
+      .plate-no { font-family: 'Anton', monospace; font-size: 14px; fill: #b13227; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="600" class="bg" />
+  
+  <!-- Outer & Inner Archival Frames -->
+  <rect x="25" y="25" width="850" height="550" class="frame" />
+  <rect x="33" y="33" width="834" height="534" class="inner-frame" />
+  
+  <!-- Header Block -->
+  <g transform="translate(60, 68)">
+    <text x="0" y="0" class="latin">JUNIPERUS COMMUNIS L.</text>
+    <text x="0" y="28" class="title">ВЕРЕСЪ / МОЖЖЕВЕЛЬНИКЪ</text>
+    <text x="0" y="48" class="sub">Очистительное окуривание избы от мертвечины</text>
+  </g>
+  <text x="840" y="70" class="plate-no" text-anchor="end">HERBARIUM CHITONICUM</text>
+
+  <!-- Botanical Artwork -->
+  
+        <g stroke="#e2ded4" stroke-width="2.5" fill="none" stroke-linecap="round">
+          <!-- Juniper Branch Cluster -->
+          <path d="M 450 520 C 450 380, 420 260, 440 110" />
+          <path d="M 435 440 C 370 410, 310 380, 260 370" />
+          <path d="M 438 340 C 360 300, 310 240, 260 210" />
+          <path d="M 445 420 C 510 400, 580 370, 630 350" />
+          <path d="M 442 310 C 510 280, 570 230, 620 180" />
+        </g>
+        <!-- Whorls of needles (3-pronged) -->
+        <g stroke="#9c9588" stroke-width="1.4" fill="none">
+          <path d="M 260 370 l -15 -15 m 15 15 l -20 0 m 20 0 l -12 18" />
+          <path d="M 310 380 l -15 -12 m 15 12 l -18 5 m 18 -5 l -8 18" />
+          <path d="M 260 210 l -18 -12 m 18 12 l -18 2 m 18 -2 l -10 16" />
+          <path d="M 320 250 l -15 -15 m 15 15 l -18 4" />
+          <path d="M 630 350 l 18 -12 m -18 12 l 20 2 m -20 -2 l 14 16" />
+          <path d="M 570 375 l 16 -12 m -16 12 l 18 4 m -18 -4 l 10 18" />
+          <path d="M 620 180 l 18 -12 m -18 12 l 18 2 m -18 -2 l 12 16" />
+        </g>
+        <!-- Fleshy Berry-cones -->
+        <g fill="#1f232b" stroke="#b13227" stroke-width="1.8">
+          <circle cx="420" cy="330" r="10" /><circle cx="445" cy="300" r="9" />
+          <circle cx="360" cy="310" r="9.5" /><circle cx="510" cy="290" r="10" />
+          <circle cx="530" cy="380" r="9" /><circle cx="370" cy="415" r="9.5" />
+        </g>
+        <!-- Tri-radiate clefts on berry top -->
+        <g stroke="#b13227" stroke-width="1.2">
+          <path d="M 420 326 l 0 4 l -3 3 m 3 -3 l 3 3" />
+          <path d="M 510 286 l 0 4 l -3 3 m 3 -3 l 3 3" />
+          <path d="M 360 306 l 0 4 l -3 3 m 3 -3 l 3 3" />
+        </g>
+        <!-- Smoke plume at bottom -->
+        <g stroke="#7a756b" stroke-width="1.5" stroke-dasharray="4,8" fill="none">
+          <path d="M 430 520 Q 380 480 390 420 T 430 320" />
+          <path d="M 470 520 Q 520 480 500 410 T 460 300" />
+        </g>
+        
+
+  <!-- Callouts -->
+  <g class="callout">
+          <circle cx="190" cy="175" r="12" fill="#1b1815" stroke="#b13227" stroke-width="1.5" />
+          <text x="190" y="180" font-family="'Anton', sans-serif" font-size="12" fill="#b13227" text-anchor="middle">1</text>
+          <text x="210" y="180" font-family="'Inter', sans-serif" font-size="12" fill="#e2ded4" letter-spacing="0.02em">Тройчатые шиловидные иглы (колючий щит)</text>
+        </g>
+<g class="callout">
+          <circle cx="660" cy="215" r="12" fill="#1b1815" stroke="#b13227" stroke-width="1.5" />
+          <text x="660" y="220" font-family="'Anton', sans-serif" font-size="12" fill="#b13227" text-anchor="middle">2</text>
+          <text x="680" y="220" font-family="'Inter', sans-serif" font-size="12" fill="#e2ded4" letter-spacing="0.02em">Шишкоягоды (созревание на второй год)</text>
+        </g>
+<g class="callout">
+          <circle cx="180" cy="465" r="12" fill="#1b1815" stroke="#b13227" stroke-width="1.5" />
+          <text x="180" y="470" font-family="'Anton', sans-serif" font-size="12" fill="#b13227" text-anchor="middle">3</text>
+          <text x="200" y="470" font-family="'Inter', sans-serif" font-size="12" fill="#e2ded4" letter-spacing="0.02em">Печная железная лопата с углями</text>
+        </g>
+<g class="callout">
+          <circle cx="620" cy="475" r="12" fill="#1b1815" stroke="#b13227" stroke-width="1.5" />
+          <text x="620" y="480" font-family="'Anton', sans-serif" font-size="12" fill="#b13227" text-anchor="middle">4</text>
+          <text x="640" y="480" font-family="'Inter', sans-serif" font-size="12" fill="#e2ded4" letter-spacing="0.02em">Очищение углов и подполья от скверны</text>
+        </g>
+
+  <!-- Footer metadata -->
+  <g transform="translate(60, 555)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" letter-spacing="0.08em">RUSSIAN CHTHONIC ATLAS · SECTION BOTANICA</text>
+    <text x="780" y="0" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" text-anchor="end">ARCHIVAL RECONSTRUCTION · CC BY-SA 4.0</text>
+  </g>
+</svg>

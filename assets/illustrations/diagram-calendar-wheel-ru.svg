@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" width="100%" height="auto">
+  <defs>
+    <style>
+      .bg { fill: #0d0c0b; }
+      .frame { stroke: #423d33; stroke-width: 1.5; fill: none; }
+      .title { font-family: 'Anton', serif; font-size: 26px; fill: #e8e4dc; letter-spacing: 0.12em; }
+      .sub { font-family: 'Inter', sans-serif; font-size: 13px; fill: #9c9588; font-style: italic; }
+      .ring { fill: none; stroke: #332e25; stroke-width: 1.5; }
+      .center-lbl { font-family: 'Anton', sans-serif; font-size: 16px; fill: #b13227; letter-spacing: 0.1em; text-anchor: middle; }
+      .center-sub { font-family: 'Inter', sans-serif; font-size: 10px; fill: #7a756b; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="900" height="720" class="bg" />
+  <rect x="25" y="25" width="850" height="670" class="frame" />
+
+  <!-- Header -->
+  <g transform="translate(60, 68)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="11" fill="#b13227" font-weight="bold" letter-spacing="0.15em">LITURGICA ET FOLKLORICA</text>
+    <text x="0" y="28" class="title">ГОДИЧНЫЙ КРУГЪ ПОМИНОВЕНIЯ</text>
+    <text x="0" y="48" class="sub">Сетка родительских дней: подвижный пасхальный и неподвижный осенний круги</text>
+  </g>
+
+  <!-- Concentric Rings -->
+  <circle cx="450" cy="375" r="270" class="ring" />
+  <circle cx="450" cy="375" r="180" class="ring" stroke-dasharray="2,5" />
+  <circle cx="450" cy="375" r="90" class="ring" stroke="#4a4438" />
+
+  <!-- Center Hub -->
+  <circle cx="450" cy="375" r="75" fill="#161412" stroke="#b13227" stroke-width="1.5" />
+  <text x="450" y="367" class="center-lbl">ВЕЛИКИЙ ДЕНЬ</text>
+  <text x="450" y="383" class="center-sub">Светлое Воскресение</text>
+  <text x="450" y="397" class="center-sub">Точка отсчета весеннего круга</text>
+
+  <!-- Rays -->
+  <line x1="527.9422863405995" y1="420.0" x2="683.8268590217984" y2="510.0" stroke="#4a4438" stroke-width="1.2" stroke-dasharray="3,3" />
+<line x1="473.2937140592269" y1="461.93332436601617" x2="519.8811421776807" y2="635.7999730980484" stroke="#4a4438" stroke-width="1.2" stroke-dasharray="3,3" />
+<line x1="392.14911512821146" y1="443.943999880708" x2="276.44734538463433" y2="581.8319996421241" stroke="#4a4438" stroke-width="1.2" stroke-dasharray="3,3" />
+<line x1="360.34247717174287" y1="382.84401684728925" x2="181.02743151522873" y2="398.5320505418677" stroke="#b13227" stroke-width="2.5" stroke-dasharray="none" />
+<line x1="376.2763160139907" y1="323.37812072840586" x2="228.8289480419722" y2="220.13436218521753" stroke="#4a4438" stroke-width="1.2" stroke-dasharray="3,3" />
+<line x1="465.6283359900237" y1="286.3673022289013" x2="496.8850079700711" y2="109.10190668670378" stroke="#4a4438" stroke-width="1.2" stroke-dasharray="3,3" />
+<line x1="531.5677008332985" y1="336.96435644333707" x2="694.7031024998955" y2="260.8930693300112" stroke="#4a4438" stroke-width="1.2" stroke-dasharray="3,3" />
+
+  <!-- Labels -->
+  <g transform="translate(709.8076211353316, 525.0)">
+  <text x="0" y="-12" font-family="'Anton', sans-serif" font-size="13" fill="#e8e4dc" text-anchor="start" letter-spacing="0.05em">МЯСОПУСТНАЯ СУББОТА</text>
+  <text x="0" y="3" font-family="'Inter', sans-serif" font-size="10" fill="#9c9588" text-anchor="start">Подвижный цикл (-57 дн. к Пасхе)</text>
+  <text x="0" y="16" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" text-anchor="start" font-style="italic">Все от века усопшие; безвестные и застигнутые внезапной смертью</text>
+  <text x="0" y="28" font-family="'Inter', monospace" font-size="9" fill="#888" text-anchor="start">[Блины, кутья]</text>
+</g>
+<g transform="translate(527.6457135307562, 664.7777478867205)">
+  <text x="0" y="-12" font-family="'Anton', sans-serif" font-size="13" fill="#e8e4dc" text-anchor="start" letter-spacing="0.05em">ВЕЛИКОПОСТНЫЕ СУББОТЫ (2, 3, 4)</text>
+  <text x="0" y="3" font-family="'Inter', sans-serif" font-size="10" fill="#9c9588" text-anchor="start">Подвижный цикл (Великий пост)</text>
+  <text x="0" y="16" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" text-anchor="start" font-style="italic">Приходские и семейные усопшие; поминовение записками</text>
+  <text x="0" y="28" font-family="'Inter', monospace" font-size="9" fill="#888" text-anchor="start">[Постный поминальный хлеб]</text>
+</g>
+<g transform="translate(257.1637170940382, 604.8133329356934)">
+  <text x="0" y="-12" font-family="'Anton', sans-serif" font-size="13" fill="#e8e4dc" text-anchor="end" letter-spacing="0.05em">РАДОНИЦА</text>
+  <text x="0" y="3" font-family="'Inter', sans-serif" font-size="10" fill="#9c9588" text-anchor="end">Вторник Фоминой седмицы (+9 дн.)</text>
+  <text x="0" y="16" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" text-anchor="end" font-style="italic">Пасха мертвых; христосование с могилой, радость Воскресения</text>
+  <text x="0" y="28" font-family="'Inter', monospace" font-size="9" fill="#888" text-anchor="end">[Крашеные яйца, кулич, вино]</text>
+</g>
+<g transform="translate(151.14159057247633, 401.14672282429746)">
+  <text x="0" y="-12" font-family="'Anton', sans-serif" font-size="13" fill="#b13227" text-anchor="end" letter-spacing="0.05em">СЕМИКЪ</text>
+  <text x="0" y="3" font-family="'Inter', sans-serif" font-size="10" fill="#9c9588" text-anchor="end">Четверг 7-й седмицы (+47 дн.)</text>
+  <text x="0" y="16" font-family="'Inter', sans-serif" font-size="10" fill="#e8a87c" text-anchor="end" font-style="italic">ЗАЛОЖНЫЕ: самоубийцы, утопленники, опойцы, скудельницы</text>
+  <text x="0" y="28" font-family="'Inter', monospace" font-size="9" fill="#888" text-anchor="end">[Яичница, пиво, березовые венки]</text>
+</g>
+<g transform="translate(204.25438671330247, 202.92706909468615)">
+  <text x="0" y="-12" font-family="'Anton', sans-serif" font-size="13" fill="#e8e4dc" text-anchor="end" letter-spacing="0.05em">ТРОИЦКАЯ ВСЕЛЕНСКАЯ</text>
+  <text x="0" y="3" font-family="'Inter', sans-serif" font-size="10" fill="#9c9588" text-anchor="end">Суббота перед Пятидесятницей (+49 дн.)</text>
+  <text x="0" y="16" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" text-anchor="end" font-style="italic">Вселенское поминовение; переход от весны к лету</text>
+  <text x="0" y="28" font-family="'Inter', monospace" font-size="9" fill="#888" text-anchor="end">[Зелёный стол, каравай, блины]</text>
+</g>
+<g transform="translate(502.094453300079, 79.55767409633756)">
+  <text x="0" y="-12" font-family="'Anton', sans-serif" font-size="13" fill="#e8e4dc" text-anchor="middle" letter-spacing="0.05em">ПОКРОВСКАЯ СУББОТА</text>
+  <text x="0" y="3" font-family="'Inter', sans-serif" font-size="10" fill="#9c9588" text-anchor="middle">Неподвижный (суббота до 1/14 окт.)</text>
+  <text x="0" y="16" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" text-anchor="middle" font-style="italic">Павшие воины (учреждена после Казанского похода 1552 г.)</text>
+  <text x="0" y="28" font-family="'Inter', monospace" font-size="9" fill="#888" text-anchor="middle">[Каша, овсяный кисель]</text>
+</g>
+<g transform="translate(721.8923361109951, 248.21452147779024)">
+  <text x="0" y="-12" font-family="'Anton', sans-serif" font-size="13" fill="#e8e4dc" text-anchor="start" letter-spacing="0.05em">ДИМИТРИЕВСКАЯ СУББОТА</text>
+  <text x="0" y="3" font-family="'Inter', sans-serif" font-size="10" fill="#9c9588" text-anchor="start">Неподвижный (суббота до 26 окт./8 нояб.)</text>
+  <text x="0" y="16" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" text-anchor="start" font-style="italic">Родители и «деды»; переход природы в зимнее омертвение</text>
+  <text x="0" y="28" font-family="'Inter', monospace" font-size="9" fill="#888" text-anchor="start">[Обильный горячий обед, пироги]</text>
+</g>
+
+  <!-- Footer -->
+  <g transform="translate(60, 675)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b">RUSSIAN CHTHONIC ATLAS · LITURGICAL CALENDAR MATRIX</text>
+    <text x="780" y="0" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" text-anchor="end">ORIGINAL RECONSTRUCTION · CC BY-SA 4.0</text>
+  </g>
+</svg>

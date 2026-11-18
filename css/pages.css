@@ -714,4 +714,465 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
   font-weight: normal;
 }
 
+/* --- Funerary Botany & Dendrology Section --- */
+.botany-section {
+  margin: 4rem 0;
+  padding: 2.5rem 1.5rem;
+  background: var(--bg-card, #12100e);
+  border-top: 2px solid var(--accent-red, #b13227);
+  border-bottom: 1px solid var(--border-dim, #2a2620);
+}
+.botany-header {
+  margin-bottom: 2rem;
+}
+.botany-header .kicker {
+  color: var(--accent-red, #b13227);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.botany-header h2 {
+  font-family: var(--f-title, "Anton", serif);
+  font-size: 1.8rem;
+  letter-spacing: 0.05em;
+  margin: 0.4rem 0 0.8rem;
+  color: var(--text-bright, #ede9df);
+}
+.botany-dek {
+  max-width: 52rem;
+  color: var(--text-dim, #9c9588);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.botany-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.botany-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-dim, #2a2620);
+  border-left: 3px solid var(--accent-red, #b13227);
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.botany-card:hover {
+  border-color: #544c40;
+  transform: translateY(-2px);
+}
+.botany-card__binomial {
+  font-family: var(--f-mono, monospace);
+  font-size: 0.75rem;
+  color: var(--accent-red, #b13227);
+  letter-spacing: 0.06em;
+  font-style: italic;
+  margin-bottom: 0.2rem;
+}
+.botany-card__title {
+  font-size: 1.15rem;
+  font-family: var(--f-title, "Anton", serif);
+  color: var(--text-bright, #ede9df);
+  letter-spacing: 0.03em;
+  margin: 0 0 0.2rem;
+}
+.botany-card__term {
+  font-size: 0.82rem;
+  color: var(--text-muted, #7a756b);
+  margin-bottom: 0.8rem;
+}
+.botany-card__role {
+  font-size: 0.88rem;
+  color: #dfdbd1;
+  font-weight: 500;
+  line-height: 1.45;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.6rem;
+}
+.botany-card__folklore {
+  font-size: 0.85rem;
+  color: var(--text-dim, #9c9588);
+  line-height: 1.55;
+  flex-grow: 1;
+}
+.botany-card__footer {
+  margin-top: 1rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border-dim, #2a2620);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.72rem;
+  color: var(--text-muted, #7a756b);
+}
+.botany-card__cat {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: var(--f-mono, monospace);
+  color: #bfa882;
+}
+.botany-card__plates a {
+  color: var(--accent-red, #b13227);
+  font-family: var(--f-mono, monospace);
+  text-decoration: none;
+  margin-left: 0.3rem;
+}
+.botany-card__plates a:hover {
+  text-decoration: underline;
+}
+
+/* --- Interactive Image Hotspots --- */
+.photo__hotspots {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+.hotspot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: auto;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(13, 12, 11, 0.9);
+  border: 2px solid #b13227;
+  color: #ede9df;
+  font-family: var(--f-mono, monospace);
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(177, 50, 39, 0.6), 0 2px 6px rgba(0, 0, 0, 0.8);
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+  padding: 0;
+}
+.hotspot:hover,
+.hotspot:focus-visible {
+  transform: translate(-50%, -50%) scale(1.25);
+  background: #b13227;
+  color: #fff;
+  border-color: #ede9df;
+  outline: none;
+  z-index: 12;
+}
+.hotspot.is-active {
+  background: #b13227;
+  color: #fff;
+  border-color: #ede9df;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+.hotspot-card {
+  position: absolute;
+  z-index: 50;
+  width: 280px;
+  max-width: 90vw;
+  background: #171412;
+  border: 1px solid #b13227;
+  border-left: 4px solid #b13227;
+  padding: 12px 14px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.9);
+  color: #ded7c6;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  border-radius: 2px;
+  animation: cardFadeIn 0.2s ease;
+}
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hotspot-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+  padding-bottom: 4px;
+}
+.hotspot-card__title {
+  font-family: var(--f-title, "Anton", serif);
+  font-size: 0.95rem;
+  color: #ede9df;
+  letter-spacing: 0.04em;
+}
+.hotspot-card__close {
+  background: none;
+  border: none;
+  color: #7a756b;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
+}
+.hotspot-card__close:hover {
+  color: #b13227;
+}
+.hotspot-card__text {
+  margin: 0;
+  color: #b5afa4;
+  font-size: 0.82rem;
+}
+
+/* --- Field Expeditions Layer & Section --- */
+.map-routes-layer {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  bottom: 56px;
+  width: calc(100% - 24px);
+  height: calc(100% - 68px);
+  pointer-events: none;
+  z-index: 3;
+}
+.route-track {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 4, 6;
+  opacity: 0.65;
+  transition: opacity 0.3s ease, stroke-width 0.3s ease;
+}
+.route-track--barsov { stroke: #b13227; stroke-width: 2.2; }
+.route-track--zelenin { stroke: #3b5e4a; stroke-width: 2.2; }
+.route-track--malyshev { stroke: #40587c; stroke-width: 2.2; }
+.route-track.is-highlighted {
+  opacity: 1;
+  stroke-width: 3.5;
+  stroke-dasharray: none;
+  filter: drop-shadow(0 0 4px rgba(177, 50, 39, 0.8));
+}
+
+.expeditions-section {
+  margin: 4rem 0 2rem;
+  padding: 2.5rem 1.5rem;
+  background: var(--bg-card, #12100e);
+  border-top: 2px solid var(--accent-red, #b13227);
+}
+.expeditions-header {
+  margin-bottom: 2rem;
+}
+.expeditions-header .kicker {
+  color: var(--accent-red, #b13227);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.expeditions-header h2 {
+  font-family: var(--f-title, "Anton", serif);
+  font-size: 1.8rem;
+  letter-spacing: 0.05em;
+  margin: 0.4rem 0 0.8rem;
+  color: var(--text-bright, #ede9df);
+}
+.expeditions-dek {
+  max-width: 52rem;
+  color: var(--text-dim, #9c9588);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.expeditions-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.expedition-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-dim, #2a2620);
+  border-left: 3px solid var(--accent-red, #b13227);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.expedition-card__years {
+  font-family: var(--f-mono, monospace);
+  font-size: 0.75rem;
+  color: var(--accent-red, #b13227);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.2rem;
+}
+.expedition-card__title {
+  font-family: var(--f-title, "Anton", serif);
+  font-size: 1.15rem;
+  color: #ede9df;
+  margin: 0 0 0.4rem;
+  letter-spacing: 0.03em;
+}
+.expedition-card__leader {
+  font-size: 0.82rem;
+  color: #9c9588;
+  margin-bottom: 0.8rem;
+}
+.expedition-card__route {
+  font-family: var(--f-mono, monospace);
+  font-size: 0.78rem;
+  color: #bfa882;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+.expedition-card__diary {
+  font-size: 0.85rem;
+  color: #b5afa4;
+  line-height: 1.55;
+  font-style: italic;
+  background: rgba(0, 0, 0, 0.25);
+  border-left: 2px solid #544c40;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+.expedition-card__footer {
+  border-top: 1px solid #2a2620;
+  padding-top: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+}
+.expedition-card__plates a {
+  color: #b13227;
+  font-family: var(--f-mono, monospace);
+  text-decoration: none;
+  margin-left: 0.4rem;
+}
+.expedition-card__btn {
+  background: none;
+  border: 1px solid #544c40;
+  color: #ede9df;
+  font-family: var(--f-mono, monospace);
+  font-size: 0.7rem;
+  padding: 3px 8px;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.expedition-card__btn:hover {
+  background: #b13227;
+  border-color: #b13227;
+}
+
+/* --- Compendium Monograph Styles --- */
+.compendium-page main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 6rem;
+}
+.comp-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border-dim, #2a2620);
+}
+.comp-topbar__btn {
+  background: var(--accent-red, #b13227);
+  color: #fff;
+  border: none;
+  font-family: var(--f-mono, monospace);
+  font-size: 0.8rem;
+  padding: 8px 16px;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+.comp-topbar__btn:hover {
+  background: #d43b2f;
+}
+.comp-toc {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-dim, #2a2620);
+  border-left: 3px solid var(--accent-red, #b13227);
+  padding: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+.comp-toc__h {
+  font-family: var(--f-title, "Anton", serif);
+  font-size: 1.3rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+.comp-toc__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.6rem 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.88rem;
+}
+.comp-toc__list a {
+  color: var(--text-dim, #9c9588);
+  text-decoration: none;
+}
+.comp-toc__list a:hover {
+  color: var(--accent-red, #b13227);
+  text-decoration: underline;
+}
+.comp-vol {
+  margin: 4rem 0 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border-dim, #2a2620);
+}
+.comp-vol__h {
+  font-family: var(--f-title, "Anton", serif);
+  font-size: 2rem;
+  color: var(--text-bright, #ede9df);
+  letter-spacing: 0.05em;
+  margin: 0.4rem 0;
+}
+.comp-plate {
+  margin: 3rem 0;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+}
+.comp-plate__h {
+  font-family: var(--f-title, "Anton", serif);
+  font-size: 1.4rem;
+  color: var(--text-bright, #ede9df);
+  letter-spacing: 0.04em;
+  margin: 0.4rem 0 0.2rem;
+}
+.comp-plate__meta {
+  font-family: var(--f-mono, monospace);
+  font-size: 0.78rem;
+  color: var(--accent-red, #b13227);
+  margin-bottom: 1rem;
+}
+.comp-plate__dek {
+  font-style: italic;
+  color: #c5bfb4;
+  margin-bottom: 1.5rem;
+  line-height: 1.55;
+}
+.comp-sec {
+  margin: 1.5rem 0;
+}
+.comp-sec h3 {
+  font-size: 1.05rem;
+  color: #e8e4dc;
+  margin-bottom: 0.5rem;
+}
+.comp-sec p {
+  color: #9c9588;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+
+
+
+
+
 

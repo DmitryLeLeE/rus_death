@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="auto">
+  <defs>
+    <style>
+      .bg { fill: #0d0c0b; }
+      .frame { stroke: #423d33; stroke-width: 1.5; fill: none; }
+      .inner-frame { stroke: #2a2620; stroke-width: 0.8; fill: none; }
+      .title { font-family: 'Anton', 'Cinzel', serif; font-size: 26px; fill: #e8e4dc; letter-spacing: 0.12em; }
+      .sub { font-family: 'Inter', sans-serif; font-size: 13px; fill: #9c9588; font-style: italic; letter-spacing: 0.05em; }
+      .latin { font-family: 'Inter', sans-serif; font-size: 11px; fill: #b13227; font-weight: bold; letter-spacing: 0.15em; }
+      .plate-no { font-family: 'Anton', monospace; font-size: 14px; fill: #b13227; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="600" class="bg" />
+  
+  <!-- Outer & Inner Archival Frames -->
+  <rect x="25" y="25" width="850" height="550" class="frame" />
+  <rect x="33" y="33" width="834" height="534" class="inner-frame" />
+  
+  <!-- Header Block -->
+  <g transform="translate(60, 68)">
+    <text x="0" y="0" class="latin">POPULUS TREMULA L.</text>
+    <text x="0" y="28" class="title">ASPEN STAKE</text>
+    <text x="0" y="48" class="sub">Chthonic tree of pinning and anti-revenant defense</text>
+  </g>
+  <text x="840" y="70" class="plate-no" text-anchor="end">HERBARIUM CHITONICUM</text>
+
+  <!-- Botanical Artwork -->
+  
+        <!-- Aspen branch & sharpened stake -->
+        <g stroke="#e2ded4" stroke-width="2.5" fill="none" stroke-linecap="round">
+          <!-- The Sharpened Stake (Center Left) -->
+          <path d="M 400 90 L 430 90 L 430 460 L 415 540 L 400 460 Z" fill="#1b1815" stroke="#b13227" stroke-width="2" />
+          <!-- Wood grain rings and cuts on stake -->
+          <path d="M 405 150 L 425 155 M 402 240 L 428 245 M 405 340 L 425 335 M 403 440 L 427 435" stroke="#7a756b" stroke-width="1.2" />
+          <path d="M 415 460 L 415 530" stroke="#b13227" stroke-width="1.5" />
+          <!-- Branch with leaves curling around -->
+          <path d="M 430 180 C 490 170, 530 140, 580 120" />
+          <path d="M 430 270 C 510 270, 560 250, 620 210" />
+          <path d="M 400 220 C 330 200, 290 180, 240 140" />
+          <path d="M 400 320 C 320 330, 270 300, 210 270" />
+        </g>
+        <!-- Aspen Leaves -->
+        <g fill="#211e1a" stroke="#e2ded4" stroke-width="1.8">
+          <!-- Leaf 1 Right -->
+          <path d="M 580 120 C 600 90, 640 90, 650 120 C 660 150, 610 170, 580 120 Z" />
+          <!-- Leaf 2 Right -->
+          <path d="M 620 210 C 650 180, 690 190, 690 230 C 680 260, 630 260, 620 210 Z" />
+          <!-- Leaf 1 Left -->
+          <path d="M 240 140 C 210 110, 170 120, 180 160 C 190 180, 230 180, 240 140 Z" />
+          <!-- Leaf 2 Left -->
+          <path d="M 210 270 C 170 250, 150 280, 160 310 C 180 330, 220 310, 210 270 Z" />
+        </g>
+        <g stroke="#7a756b" stroke-width="1" fill="none">
+          <path d="M 590 122 L 635 125 M 630 215 L 670 225 M 230 145 L 195 150 M 200 275 L 175 295" />
+        </g>
+        
+
+  <!-- Callouts -->
+  <g class="callout">
+          <circle cx="150" cy="195" r="12" fill="#1b1815" stroke="#b13227" stroke-width="1.5" />
+          <text x="150" y="200" font-family="'Anton', sans-serif" font-size="12" fill="#b13227" text-anchor="middle">1</text>
+          <text x="170" y="200" font-family="'Inter', sans-serif" font-size="12" fill="#e2ded4" letter-spacing="0.02em">Flattened trembling petioles (perpetual tremor)</text>
+        </g>
+<g class="callout">
+          <circle cx="660" cy="215" r="12" fill="#1b1815" stroke="#b13227" stroke-width="1.5" />
+          <text x="660" y="220" font-family="'Anton', sans-serif" font-size="12" fill="#b13227" text-anchor="middle">2</text>
+          <text x="680" y="220" font-family="'Inter', sans-serif" font-size="12" fill="#e2ded4" letter-spacing="0.02em">Dentate orbicular leaf morphology</text>
+        </g>
+<g class="callout">
+          <circle cx="630" cy="425" r="12" fill="#1b1815" stroke="#b13227" stroke-width="1.5" />
+          <text x="630" y="430" font-family="'Anton', sans-serif" font-size="12" fill="#b13227" text-anchor="middle">3</text>
+          <text x="650" y="430" font-family="'Inter', sans-serif" font-size="12" fill="#e2ded4" letter-spacing="0.02em">Sharpened heartwood stake (penetrates grave)</text>
+        </g>
+<g class="callout">
+          <circle cx="160" cy="455" r="12" fill="#1b1815" stroke="#b13227" stroke-width="1.5" />
+          <text x="160" y="460" font-family="'Anton', sans-serif" font-size="12" fill="#b13227" text-anchor="middle">4</text>
+          <text x="180" y="460" font-family="'Inter', sans-serif" font-size="12" fill="#e2ded4" letter-spacing="0.02em">Spinal pinning preventing nocturnal rising</text>
+        </g>
+
+  <!-- Footer metadata -->
+  <g transform="translate(60, 555)">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" letter-spacing="0.08em">RUSSIAN CHTHONIC ATLAS · SECTION BOTANICA</text>
+    <text x="780" y="0" font-family="'Inter', sans-serif" font-size="10" fill="#7a756b" text-anchor="end">ARCHIVAL RECONSTRUCTION · CC BY-SA 4.0</text>
+  </g>
+</svg>

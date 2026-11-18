@@ -662,6 +662,15 @@
             "zelenin1916"
           ],
           "level": "documented"
+        },
+        {
+          "type": "figure",
+          "src": "diagram-botany-spruce",
+          "alt": "Botanical and ritual diagram of Norway spruce boughs (lapnik) strewn along funeral paths",
+          "caption": "Liminal botany: Norway spruce (Picea abies) boughs strewn from the domestic threshold to the cemetery gate. A tactile and olfactory barrier masking cadaveric decomposition and confusing the return of the deceased soul.",
+          "credit": "Original botanical reconstruction for this atlas, CC BY-SA 4.0",
+          "level": "interpretation",
+          "size": "wide"
         }
       ],
       "volume": "I"
@@ -1920,7 +1929,37 @@
           "alt": "An illustrated 19th-century folk lubok showing the twenty aerial toll-houses (mytarstva) through which the soul passes after death",
           "caption": "The Vision of St Theodora: the aerial toll-houses (mytarstva). 19th-century manuscript lubok, public domain. The vernacular Orthodox cartography of the soul's forty-day journey: trial by demonic accusers and guardian angels.",
           "credit": "Manuscript lubok, 19th century; public domain",
-          "level": "documented"
+          "level": "documented",
+          "hotspots": [
+            {
+              "id": "tollhouses",
+              "x": 48,
+              "y": 36,
+              "title": "The Aerial Toll-Houses",
+              "text": "The twenty toll-gates where demons present scrolls of sins (idle talk, deceit, fornication, gluttony). The soul is shielded by guardian angels using good works."
+            },
+            {
+              "id": "scales",
+              "x": 50,
+              "y": 58,
+              "title": "The Archangel's Scales",
+              "text": "Archangel Michael holding the balance of souls: good deeds against demonic parchments dragging the pan toward the infernal maw."
+            },
+            {
+              "id": "maw",
+              "x": 75,
+              "y": 78,
+              "title": "The Chthonic Maw of Hell",
+              "text": "The leviathan beast swallowing unrepentant transgressors, usurers, sorcerers, and suicides into eternal oblivion."
+            },
+            {
+              "id": "deathbed",
+              "x": 24,
+              "y": 78,
+              "title": "The Deathbed of St Theodora",
+              "text": "The saint on her deathbed; the soul emerges from the mouth as a naked infant and is received by radiant guardian angels."
+            }
+          ]
         },
         {
           "type": "prose",
@@ -2419,7 +2458,44 @@
           "level": "documented",
           "size": "full",
           "mask": "torn-04",
-          "state": "plate"
+          "state": "plate",
+          "hotspots": [
+            {
+              "id": "dog",
+              "x": 84,
+              "y": 76,
+              "title": "The Howling Dog",
+              "text": "In Russian folk omens, a dog howling downward toward the soil presages another imminent demise in the homestead. The dog terminates the visual axis of the procession."
+            },
+            {
+              "id": "sled",
+              "x": 48,
+              "y": 62,
+              "title": "The Funerary Sled",
+              "text": "Archaic ritual mandate: the dead must be conveyed to the churchyard on runners, even across melting snow or mud. The wheel was tabooed as profane worldly machinery."
+            },
+            {
+              "id": "coffin",
+              "x": 44,
+              "y": 46,
+              "title": "Bast Matting & Coffin",
+              "text": "A plain pine plank coffin tied with hemp rope beneath frayed bast matting. The total absence of clergy or choir underscores the family's destitution and solitude."
+            },
+            {
+              "id": "widow",
+              "x": 32,
+              "y": 52,
+              "title": "The Bowed Widow",
+              "text": "The widow sits with rounded shoulders, loosely holding the reins. The loss of the male head of household condemned the peasant farmstead to decay (pustodomka)."
+            },
+            {
+              "id": "children",
+              "x": 52,
+              "y": 50,
+              "title": "Children in Father's Sheepskins",
+              "text": "The boy guides the whip while his sister clings to the coffin. Both are bundled in oversized adult sheepskins — a stark image of premature inheritance."
+            }
+          ]
         },
         {
           "type": "prose",
@@ -3656,6 +3732,15 @@
             "rozanov-moscow-cemeteries"
           ],
           "level": "documented"
+        },
+        {
+          "type": "figure",
+          "src": "diagram-botany-aspen",
+          "alt": "Botanical diagram of trembling aspen leaves and sharpened stake against revenants",
+          "caption": "Dendrological taboos: European aspen (Populus tremula) and the sharpened heartwood stake. Forbidden for residential construction; employed in Slavic folklore to mechanically pin unquiet corpses and sorcerers to the earth.",
+          "credit": "Original botanical reconstruction for this atlas, CC BY-SA 4.0",
+          "level": "interpretation",
+          "size": "wide"
         }
       ]
     },
@@ -4141,6 +4226,15 @@
             "zelenin1916"
           ],
           "level": "documented"
+        },
+        {
+          "type": "figure",
+          "src": "diagram-botany-poppy",
+          "alt": "Botanical diagram of wild poppy seed capsule and crossroads scattering barrier",
+          "caption": "Apotropaic counting barrier: wild poppy (Papaver) scattered at road forks and graves. Folklore held that the revenant was compelled to collect every microscopic grain before crossing, immobilizing it until cockcrow.",
+          "credit": "Original botanical reconstruction for this atlas, CC BY-SA 4.0",
+          "level": "interpretation",
+          "size": "wide"
         }
       ]
     },
@@ -5602,6 +5696,15 @@
           "sources": [
             "barsov1872"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "diagram-calendar-wheel",
+          "alt": "Circular liturgical and folkloric diagram of the Russian ancestor calendar wheel",
+          "caption": "The Circular Wheel of the Dead: synthesis of the movable Paschal cycle (Meatfare, Great Lent, Radonitsa, Semik, Trinity) and the fixed autumn cycle (Pokrov, Demetrius Dedy). Showing targeted ancestral categories and sacrificial foods.",
+          "credit": "Original circular reconstruction for this atlas, CC BY-SA 4.0",
+          "level": "interpretation",
+          "size": "wide"
         }
       ]
     },
@@ -5929,6 +6032,15 @@
             "afanasyev1869",
             "zelenin1927"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "diagram-botany-juniper",
+          "alt": "Botanical diagram of common juniper branches and purifying fumigation of the domestic hearth",
+          "caption": "Mortuary fumigation: common juniper (Juniperus communis) ignited on hearth shovels to smoke out the cadaveric miasma ('mertvechinnyi dukh') immediately after the coffin leaves the izba.",
+          "credit": "Original botanical reconstruction for this atlas, CC BY-SA 4.0",
+          "level": "interpretation",
+          "size": "wide"
         }
       ]
     },
