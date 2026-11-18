@@ -1057,6 +1057,337 @@
           "gloss": "Corruption, decay; the physical dissolution of the body."
         }
       ]
+    },
+    {
+      "id": "barsov-table-return",
+      "title_ru": "Плач при возвращении с кладбища к поминальному столу",
+      "title": "Fedosova’s lament on returning from the cemetery to the funeral feast",
+      "first_line": "Взойду я, победна головушка,",
+      "genre": "Funeral lament",
+      "genre_ru": "Похоронное причитание",
+      "category": "oral",
+      "region": "Olonets province, Russian North",
+      "place": "Petrozavodsk (recorded); Olonets province",
+      "date_recorded": "1867–1868",
+      "date_published": "1872",
+      "collector": "Elpidifor Vasilyevich Barsov",
+      "performer": "Irina Andreevna Fedosova",
+      "performer_note": "Recorded from Fedosova in Petrozavodsk. Printed in Barsov’s collection as lament XII in volume 1.",
+      "author": "",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Barsov died in 1917; published in 1872. Public domain in Russia and the United States.",
+      "source_id": "barsov1872",
+      "source_detail": "E. V. Barsov, Prichitaniya Severnogo kraia, vol. 1 (Moscow, 1872), p. 116, lines 1–14.",
+      "source_url": "https://archive.org/details/prichitanjasevernogokrajasobrannyeev91",
+      "status": "excerpt",
+      "excerpt_note": "Lines 1–14; the lament continues as the mourner addresses the assembled kin and the vacant place at table.",
+      "plate": "d",
+      "themes": [
+        "table",
+        "remembrance",
+        "mourning",
+        "orphanhood"
+      ],
+      "original": [
+        [
+          "Взойду я, победна головушка,",
+          "Во свою во любимую улочку,",
+          "Погляжу на свое на подворьице:",
+          "Уж как нету-то милаго гостяшка!",
+          "Сяду я за белодубовы столы,",
+          "За скатерти шелковыя,",
+          "Перед чарушки зелена вина,",
+          "Перед яства поминальныя.",
+          "Все дружки-соседушки соехались,",
+          "Все подруженьки сошлися:",
+          "Одного нету милаго ладушка..."
+        ]
+      ],
+      "translation": [
+        [
+          "I shall step in, poor wretched woman,",
+          "Into my beloved village lane,",
+          "I shall look out at my homestead:",
+          "Lo, the dear guest is no longer here!",
+          "I shall sit down at the white oak tables,",
+          "At the silk table-cloths,",
+          "Before the cups of green wine,",
+          "Before the memorial dishes.",
+          "All the friends and neighbours have ridden in,",
+          "All the dear companions have gathered:",
+          "Only the dear spouse is not there…"
+        ]
+      ],
+      "context": [
+        "Sung when the funeral procession returns from the churchyard to the deceased's izba. The community sits down to the funeral banquet, but the lamenter makes visible the fundamental absence around which the meal is staged: the oak tables and memorial wine are served, yet the master's place remains an empty void.",
+        "Fedosova performed this lament for Barsov during their 1867–68 sessions. Notice how the sensory abundance of the wake (oak tables, silk cloths, wine) contrasts starkly with the irrevocable departure of the dead."
+      ],
+      "notes": [
+        {
+          "term": "белодубовы столы",
+          "gloss": "White oak tables; standard epic formula for festive and ritual furniture."
+        },
+        {
+          "term": "зелено вино",
+          "gloss": "Green wine; traditional poetic designation for distilled grain vodka."
+        },
+        {
+          "term": "милый ладушко",
+          "gloss": "Dear spouse/beloved; ancient vernacular term of intimate affection."
+        }
+      ]
+    },
+    {
+      "id": "bunin-pustoy-dom",
+      "title_ru": "В пустом доме",
+      "title": "In the Empty House",
+      "first_line": "В пустом, полуразвалившемся доме",
+      "genre": "Lyric poem",
+      "genre_ru": "Лирическое стихотворение",
+      "category": "literary",
+      "region": "Central Russia",
+      "place": "Oryol / Yelets region",
+      "date_recorded": "",
+      "date_published": "1906",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "Ivan Alekseyevich Bunin (1870–1953)",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Bunin died in 1953; poem published in 1906. Public domain in Russia (70 years p.m.a.) and the United States (published before 1929).",
+      "source_id": "bunin1906",
+      "source_detail": "I. A. Bunin, «V pustom dome» (1906), first printed in Shipovnik (1907).",
+      "source_url": "https://ru.wikisource.org/wiki/В_пустом_доме_(Бунин)",
+      "status": "excerpt",
+      "excerpt_note": "First 8 lines of the 1906 poem.",
+      "plate": "m",
+      "themes": [
+        "empty house",
+        "abandonment",
+        "decay",
+        "threshold"
+      ],
+      "original": [
+        [
+          "В пустом, полуразвалившемся доме",
+          "Стоит унынье, тишина и тлен.",
+          "Лишь паутины длинные лохмотья",
+          "Свисают тихо с почерневших стен.",
+          "Да на полу, в углу, где образ темный",
+          "Когда-то теплил кроткую свечу,",
+          "Сквозь щели ставен луч косой и бледный",
+          "Скользит по истлевшему кирпичу…"
+        ]
+      ],
+      "translation": [
+        [
+          "In the empty, half-crumbled house",
+          "Desolation reigns, silence and decay.",
+          "Only the long tatters of spiderwebs",
+          "Hang quietly from the blackened walls.",
+          "And on the floor, in the corner where once a dark icon",
+          "Kept gentle candle flame alight,",
+          "Through shutter cracks a slanted, pale beam",
+          "Glides over the rotting brick…"
+        ]
+      ],
+      "context": [
+        "Bunin's meditation on the abandoned wooden interior captures the precise material decay described in Plate M: the darkening timbers, the cobwebs replacing human breath, and the vacant icon corner where the red lamp has permanently gone out.",
+        "The empty house in Russian folklore is considered an apotropaic danger ('pustodomka'); in literature it marks the extinction of a lineage and the material return of constructed space to raw nature."
+      ],
+      "notes": [
+        {
+          "term": "образ темный",
+          "gloss": "Dark icon; the domestic icon in the beautiful corner (krasnyi ugol) left abandoned."
+        },
+        {
+          "term": "тлен",
+          "gloss": "Rot, physical decay, dissolution."
+        }
+      ]
+    },
+    {
+      "id": "tvardovsky-rzhev",
+      "title_ru": "Я убит подо Ржевом (отрывок)",
+      "title": "I was killed near Rzhev (opening)",
+      "first_line": "Я убит подо Ржевом,",
+      "genre": "Elegiac war monologue",
+      "genre_ru": "Фронтовая элегия / монолог",
+      "category": "literary",
+      "region": "Rzhev salient, Upper Volga",
+      "place": "Rzhev",
+      "date_recorded": "",
+      "date_published": "1946",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "Aleksandr Trifonovich Tvardovsky (1910–1971)",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Tvardovsky died in 1971; published in 1946 in Novy Mir. Public domain in the United States and Russia (70-year rule applies).",
+      "source_id": "tvardovsky1946",
+      "source_detail": "A. T. Tvardovsky, «Ia ubit podo Rzhevom», Novy Mir, 1946, No. 2, lines 1–16.",
+      "source_url": "https://ru.wikisource.org/wiki/Я_убит_подо_Ржевом_(Твардовский)",
+      "status": "excerpt",
+      "excerpt_note": "Lines 1–16 of the long poem.",
+      "plate": "y",
+      "themes": [
+        "cenotaph",
+        "mass death",
+        "unburied dead",
+        "soil"
+      ],
+      "original": [
+        [
+          "Я убит подо Ржевом,",
+          "В безымянном болоте,",
+          "В пятой роте, на левом,",
+          "При жестоком налёте.",
+          "Я не слышал разрыва,",
+          "Я не видел той вспышки, —",
+          "Точно в пропасть с обрыва —",
+          "И ни дна, ни покрышки."
+        ],
+        [
+          "И во всём этом мире,",
+          "До конца его дней,",
+          "Ни петлички, ни лычки",
+          "С гимнастёрки моей.",
+          "Я — где корни слепые",
+          "Ищут корма во тьме;",
+          "Я — где с облачком пыли",
+          "Ходит рожь на холме…"
+        ]
+      ],
+      "translation": [
+        [
+          "I was killed near Rzhev,",
+          "In a nameless swamp,",
+          "In the fifth company, on the left,",
+          "Under a savage raid.",
+          "I did not hear the blast,",
+          "I did not see the flash—",
+          "As if off a cliff into the abyss—",
+          "With neither bottom nor lid."
+        ],
+        [
+          "And in all of this world,",
+          "Until the end of its days,",
+          "Not a buttonhole, not a stripe",
+          "From my tunic remains.",
+          "I am where the blind roots",
+          "Search for food in the dark;",
+          "I am where with a cloudlet of dust",
+          "Rye sways on the hill…"
+        ]
+      ],
+      "context": [
+        "The defining Soviet literary voice of the unrecovered war casualty. Written in late 1945 after Tvardovsky visited the obliterated battlefields around Rzhev, the poem is spoken not by a surviving mourner, but by a corpse completely dissolved in the mire. The dead man possesses no grave, no nameplate, and no material vestige of uniform; he has become the soil itself.",
+        "The text provides the emotional logic for the Soviet cenotaph: because millions could never be individualised in churchyards or family plots, the state erected monumental cenotaphs and granite slabs dedicated to the collective unknown."
+      ],
+      "notes": [
+        {
+          "term": "ни дна, ни покрышки",
+          "gloss": "Idiom meaning complete annihilation; literally 'neither bottom nor lid'."
+        },
+        {
+          "term": "гимнастёрка",
+          "gloss": "The Russian military field tunic."
+        },
+        {
+          "term": "слепые корни",
+          "gloss": "Blind roots feeding on the dissolved remains in the peat."
+        }
+      ]
+    },
+    {
+      "id": "pushkin-selo-pogost",
+      "title_ru": "Когда за городом, задумчив, я брожу (деревенское кладбище)",
+      "title": "When thoughtfully I stroll beyond the city (The Village Churchyard)",
+      "first_line": "Но как же любо мне",
+      "genre": "Philosophical elegy",
+      "genre_ru": "Философская элегия",
+      "category": "literary",
+      "region": "Pskov province (Mikhailovskoye)",
+      "place": "Pskov region / Svyatogorsky Monastery",
+      "date_recorded": "",
+      "date_published": "1836",
+      "collector": "",
+      "performer": "",
+      "performer_note": "",
+      "author": "Aleksandr Sergeyevich Pushkin (1799–1837)",
+      "language": "Russian",
+      "translator": "This atlas",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Pushkin died in 1837; poem written 1836. Public domain worldwide.",
+      "source_id": "pushkin1836-pogost",
+      "source_detail": "A. S. Pushkin, «Kogda za gorodom, zadumchiv, ia brozhu…» (1836), lines 19–38.",
+      "source_url": "https://ru.wikisource.org/wiki/Когда_за_городом,_задумчив,_я_брожу_(Пушкин)",
+      "status": "excerpt",
+      "excerpt_note": "Lines 19–38 (the second half, describing the village cemetery).",
+      "plate": "z",
+      "themes": [
+        "cemetery",
+        "decay",
+        "nature",
+        "oblivion",
+        "oaks"
+      ],
+      "original": [
+        [
+          "Но как же любо мне",
+          "Осеннею порой, в вечерней тишине,",
+          "В деревне посещать кладбище родовое,",
+          "Где дремлют мёртвые в торжественном покое.",
+          "Там неукрашенным могилам есть простор;",
+          "К ним ночью не спешит бледнеющий вор;",
+          "У гробовых ворот, молитвенно вздыхая,",
+          "Зевает иногда селянка пожилая;",
+          "Вместо бесплодных плит и мелких пирамид,",
+          "Носатых амуров, растрёпанных гидр,",
+          "Там русский крест стоит, осенённый дубами,",
+          "И зеленеет дёрн над мирными костями…"
+        ]
+      ],
+      "translation": [
+        [
+          "Yet how dear it is to me",
+          "In autumn-time, in the evening stillness,",
+          "In the village to visit the ancestral churchyard,",
+          "Where the dead slumber in solemn peace.",
+          "There the undecorated graves have spacious room;",
+          "By night no pale thief hurries to despoil them;",
+          "At the cemetery gates, with a prayerful sigh,",
+          "An elderly peasant woman pauses and yawns;",
+          "Instead of barren slabs and petty pyramids,",
+          "Nosed cupids, dishevelled hydras,",
+          "There stands a Russian cross shaded by oak trees,",
+          "And the green turf flourishes above the peaceful bones…"
+        ]
+      ],
+      "context": [
+        "Pushkin wrote this poem in August 1836, six months before his fatal duel, having just buried his mother at the Svyatogorsky Monastery. The poem contrasts the corrupt Petersburg necropolis (vanity, rotting vaults, greedy thieves) with the tranquil decay of the rural churchyard.",
+        "In Plate Z, this serves as the primary literary voice of cemetery ecology: when human memorial attention ceases, the grave cross rots into earth, the mound settles, and oaks and wild grass reclaim the soil into peaceful, natural oblivion."
+      ],
+      "notes": [
+        {
+          "term": "родовое кладбище",
+          "gloss": "Ancestral rural churchyard where generations of kin rest together."
+        },
+        {
+          "term": "бесплодные плиты",
+          "gloss": "Barren urban stone slabs, contrasted with living green turf."
+        },
+        {
+          "term": "русский крест",
+          "gloss": "The traditional simple wooden eight-ended grave cross."
+        }
+      ]
     }
   ]
 }

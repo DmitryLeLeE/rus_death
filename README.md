@@ -5,7 +5,7 @@
 <a href="https://DmitryLeLeE.github.io/rus_death/"><img src="social.jpg" alt="ARCHÆOLOGY OF RUSSIAN DEATH: a roofed grave cross and a sleigh with a coffin, black and white, on torn paper"></a>
 
 **An atlas of death, memory, ritual and the afterlife in Russian culture.**
-Twenty-four plates (A–X) in four volumes, all published, with a map, a chronology, a lexicon, a bibliography, a claim ledger, reading routes and search, in English and Russian. Volume I (A–H, J) is the grave, the body and the table; II (M–R) the places where the living and the dead meet; III (S–V) the unseen; IV (I, K, L, W, X) mass death, the Soviet funeral, the archive, abandonment and the digital afterlife. The [volumes page](https://DmitryLeLeE.github.io/rus_death/volumes.html) lists them; nothing is shown there as planned content.
+Twenty-six plates (A–Z) in four volumes, all published, with a map, a chronology, a lexicon, a bibliography, a claim ledger, reading routes and search, in English and Russian. Volume I (A–H, J) is the grave, the body and the table; II (M–R) the places where the living and the dead meet; III (S–V) the unseen; IV (I, K, L, W, X, Y, Z) mass death, the Soviet funeral, the archive, abandonment, the digital afterlife, the military cenotaph, and final oblivion. The [volumes page](https://DmitryLeLeE.github.io/rus_death/volumes.html) lists them; nothing is shown there as planned content.
 
 **Read it:** <https://DmitryLeLeE.github.io/rus_death/> · **По-русски:** <https://DmitryLeLeE.github.io/rus_death/ru/>
 
@@ -31,6 +31,7 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 <tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/p-roads-crossroads.html"><img src="social/plate-p.jpg" alt="Plate P: Roads, Crossroads and Borders"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/q-vanished-village.html"><img src="social/plate-q.jpg" alt="Plate Q: The Vanished Village"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/r-underground.html"><img src="social/plate-r.jpg" alt="Plate R: The Underground"></a></td></tr>
 <tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/s-household-spirits.html"><img src="social/plate-s.jpg" alt="Plate S: Household Spirits"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/t-unquiet-dead.html"><img src="social/plate-t.jpg" alt="Plate T: The Unquiet Dead"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/u-calendar-of-the-dead.html"><img src="social/plate-u.jpg" alt="Plate U: The Calendar of the Dead"></a></td></tr>
 <tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/v-taboo-and-protection.html"><img src="social/plate-v.jpg" alt="Plate V: Taboo, Omen and Protection"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/w-materials-of-abandonment.html"><img src="social/plate-w.jpg" alt="Plate W: The Materials of Abandonment"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/x-digital-afterlife.html"><img src="social/plate-x.jpg" alt="Plate X: The Digital Afterlife"></a></td></tr>
+<tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/y-military-cenotaph.html"><strong>Plate Y: The Military Cenotaph</strong></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/z-oblivion-and-reclamation.html"><strong>Plate Z: Oblivion and Reclamation</strong></a></td><td width="33%"></td></tr>
 </table>
 
 *Click a card to open the plate. Each plate has its own composition, material and ground.*
@@ -42,13 +43,13 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Cover | The object: title, collage, plates |
 | Prologue | What the atlas is, what it will not do, three ways in |
 | Volumes | The four volumes and the plates in each |
-| Plates A–X | Research plates, each with its own composition |
+| Plates A–Z | Research plates, each with its own composition |
 | Index | Card catalogue of plates, objects, concepts and places |
 | Field archive | The catalogue of objects and what is known about each (28 entries) |
 | Map | 36 localities, with what the sources say of each |
 | Chronology | 37 points and caesuras, filterable by period |
 | Words | Lexicon of the Russian terms the atlas uses (61 entries) |
-| Reading routes | Seven paths through the plates, covering all 24 compositions |
+| Reading routes | Seven paths through the plates, covering all 26 compositions |
 | Claim ledger | Every section of every plate with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |
 | Sources | Bibliography with what each source can and cannot support; image credits |
@@ -61,7 +62,7 @@ Pages change in place (`js/nav.js`), so the sound keeps running between pages; a
 
 <a href="https://DmitryLeLeE.github.io/rus_death/ru/"><img src="social-ru.jpg" alt="АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ: крест под крышей и сани с гробом, чёрно-белые, на рваной бумаге"></a>
 
-«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать четыре листа в четырёх томах, карта, хронология, словарь, библиография, реестр утверждений, маршруты чтения и поиск. Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
+«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта, хронология, словарь, библиография, реестр утверждений, маршруты чтения и поиск. Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
 
 ## Run and rebuild
 

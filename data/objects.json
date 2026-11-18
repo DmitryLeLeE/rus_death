@@ -31,7 +31,8 @@
       "plates": [
         "e",
         "f",
-        "p"
+        "p",
+        "z"
       ],
       "sources": [
         "tolstoy1995",
@@ -207,7 +208,8 @@
       "description": "A ubiquitous feature of Russian cemeteries in the twentieth century, and almost entirely absent from the sources used here. The atlas notes it as an object that everyone has seen and no one has documented.",
       "evidence": "unverified",
       "plates": [
-        "f"
+        "f",
+        "z"
       ],
       "sources": []
     },
@@ -220,7 +222,8 @@
       "evidence": "documented",
       "plates": [
         "i",
-        "k"
+        "k",
+        "y"
       ],
       "sources": [
         "pmemorial",
@@ -237,7 +240,8 @@
       "evidence": "documented",
       "plates": [
         "i",
-        "k"
+        "k",
+        "y"
       ],
       "sources": [
         "pmemorial"
@@ -401,7 +405,8 @@
       "description": "Common across the Russian North (Mezen, Pinega, Pechora, Zaonezhye) and among Old Believer communities. The miniature timber roof mirrors the rafters of the peasant log izba, conceptualizing the grave as an eternal dwelling (*vechnoe zhilishche*) and protecting the enclosed icon from Arctic snow.",
       "evidence": "documented",
       "plates": [
-        "f"
+        "f",
+        "z"
       ],
       "sources": [
         "permilovskaya2013",

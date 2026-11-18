@@ -451,3 +451,31 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
   - Validation passed (`node build/validate.mjs`): 193 sections checked, 0 errors, 0 warnings.
   - Asset credits checked (`node build/check_credits.mjs`): 0 errors.
 
+
+## Stage 7 (2026-11-18): 26-Plate Canon Completion (Plates Y & Z) and Primary Voices Expansion
+
+- **Expansion of Corpus from 24 to 26 Plates (Full Latin Alphabet A–Z)**:
+  - **Plate Y: "THE MILITARY CENOTAPH" / "ВОИНСКИЙ КЕНОТАФ"** (`plates/y-military-cenotaph.html`):
+    - Documented battlefield mass burials, NKO Order No. 138 (1941), identification medalions (*smertnye medaliony*), sanitary pits, and the Kremlin Tomb of the Unknown Soldier (1966–1967).
+    - Documented the grassroots search movement (*poiskoviki*) at Myasnoi Bor ('Valley of Death', 2nd Shock Army pocket) and the divergence between official registers (OBD Memorial) and unlocated swamp remains.
+    - Added Tvardovsky's *«Я убит подо Ржевом»* (1946) as canonical wartime monologue.
+  - **Plate Z: "OBLIVION AND RECLAMATION" / "ЗАБВЕНИЕ И УХОД В ЗЕМЛЮ"** (`plates/z-oblivion-and-reclamation.html`):
+    - Documented the statutory 20-year sanitary 'cemetery period' (*kladbishchenskii period*, SanPiN 2.1.2882-11) and the prohibition of building on decommissioned cemeteries.
+    - Documented timber rot, collapsing coffins, subsidence of earthen mounds, and ecological recolonization by birch and turf.
+    - Documented limestone and sandstone inscription weathering over 100–150 years and the dissolution of individual memory into the collective *roditeli*.
+    - Added Pushkin's August 1836 elegy *«Когда за городом, задумчив, я брожу…»* (part II: the rural churchyard under oaks).
+- **Primary Sources & Voices Expanded across the Atlas**:
+  - Plate D (The Table): Integrated E. V. Barsov's 1872 recording of Irina Fedosova’s lament on returning from the cemetery to the funeral feast (*«Взойду я, победна головушка…»*), articulating the sensory abundance of the wake around the empty seat of the dead.
+  - Plate M (The Empty House): Integrated Ivan Bunin’s 1906 poem *«В пустом доме»* (*«В пустом, полуразвалившемся доме / Стоит унынье, тишина и тлен…»*), documenting the dark icon and decaying interior.
+  - Added primary sources in `data/sources.json` and `data/ru/sources.json`: `tumarkin1994`, `nko-directive1941`, `tvardovsky1946`, `pushkin1836-pogost`, `sanitary-rules-cemetery`, `bunin1906`.
+- **Complete Reading Route Coverage**:
+  - Wove Plate Y into Route 3 (`gaps-and-records`).
+  - Wove Plate Z into Route 7 (`matter-and-afterlife`).
+  - Result: All 26 plates (A through Z) are actively sequenced in the curated reading paths.
+- **Verification and build**:
+  - Static site fully regenerated across 84 HTML pages in both English and Russian (`node build/build.mjs`).
+  - Validation passed (`node build/validate.mjs`): 205 sections checked, 0 errors, 0 warnings.
+  - Link integrity verified (`node build/check_links.mjs`): 12,328 local references checked, 0 broken references.
+  - Asset credits checked (`node build/check_credits.mjs`): 178 visual assets registered, 0 errors.
+
+

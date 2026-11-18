@@ -801,6 +801,15 @@
             "c": "2/12",
             "w": 100
           }
+        },
+        {
+          "type": "text",
+          "kicker": "Lament at table",
+          "voice": "barsov-table-return",
+          "level": "documented",
+          "sources": [
+            "barsov1872"
+          ]
         }
       ],
       "volume": "I"
@@ -2915,7 +2924,8 @@
         "moroz2019",
         "zhigaltsova2018",
         "balabeikina2023",
-        "baiburin1993"
+        "baiburin1993",
+        "bunin1906"
       ],
       "related": [
         "a",
@@ -3169,6 +3179,15 @@
           "credit": "Vsatinet / Wikimedia Commons, CC0",
           "level": "documented",
           "size": "narrow"
+        },
+        {
+          "type": "text",
+          "kicker": "Poetry",
+          "voice": "bunin-pustoy-dom",
+          "level": "documented",
+          "sources": [
+            "bunin1906"
+          ]
         }
       ]
     },
@@ -5971,6 +5990,211 @@
             "c": "3/11",
             "w": 100
           }
+        }
+      ]
+    },
+    {
+      "id": "y",
+      "letter": "Y",
+      "slug": "military-cenotaph",
+      "nav": "The Military Cenotaph",
+      "title": "THE MILITARY CENOTAPH",
+      "subtitle": "Mass graves, the unknown soldier, search expeditions, and unburied bones",
+      "dek": "Battlefield mass burials, sanitary trenches, the official cult of the Unknown Soldier, and the search expeditions recovering remains from peat bogs eighty years after the frontlines froze.",
+      "marginal": "From NKO Order No. 138 (1941) to the 1966 Alexander Garden tomb and the Myasnoi Bor bogs. Official memorial arithmetic versus unlocated remains.",
+      "period": "1941 to present",
+      "location": "Novgorod, Leningrad, Rzhev and Stalingrad battlegrounds",
+      "tradition": "Soviet and post-Soviet military commemoration",
+      "volume": "IV",
+      "category": "collective",
+      "layout": "flow",
+      "tone": "dark",
+      "sources": [
+        "tumarkin1994",
+        "merridale2000",
+        "nko-directive1941",
+        "tvardovsky1946"
+      ],
+      "concepts": [
+        "memory",
+        "abandonment",
+        "substitution",
+        "unclean-death",
+        "debt",
+        "liminality"
+      ],
+      "places": [
+        "novgorod",
+        "volgograd",
+        "smolensk-region"
+      ],
+      "objects": [
+        "memorial",
+        "eternal-flame"
+      ],
+      "sections": [
+        {
+          "kicker": "01",
+          "heading": "The wartime mass grave",
+          "level": "documented",
+          "sources": [
+            "nko-directive1941",
+            "merridale2000"
+          ],
+          "paras": [
+            "In March 1941, People’s Commissar of Defence Order No. 138 established standard burial regulations for Red Army casualties: soldiers were to be buried in individual graves or common fraternal trenches (bratskie mogily), with a minimum depth of 1.5 metres (2.0 metres in waterlogged soils) and wooden markers bearing name, rank, and unit.",
+            "Under front-line combat conditions during the 1941–1942 retreats, encirclements, and winter fighting, these regulations broke down completely. Battlefield casualties were interred in bomb craters, anti-tank ditches, and hasty sanitary pits with little or no documentation. Bakelite identification capsules (smertnye medaliony), instituted in 1941, were frequently discarded by soldiers who feared them as bad omens, leaving millions of bodies nameless."
+          ]
+        },
+        {
+          "kicker": "02",
+          "heading": "The cenotaph and the Unknown Soldier",
+          "level": "documented",
+          "sources": [
+            "tumarkin1994",
+            "merridale2000"
+          ],
+          "paras": [
+            "Because mass graves could not deliver individual remains to families, Soviet commemorative policy pivoted toward the monumental cenotaph: an empty tomb or symbolic marker standing for the unreturned body. In December 1966, to commemorate the 25th anniversary of the Battle of Moscow, the remains of an unidentified soldier were exhumed from a mass grave at kilometre 41 of the Leningrad Highway and transferred to the Alexander Garden at the Kremlin wall.",
+            "Dedicated on 8 May 1967, the Tomb of the Unknown Soldier established the formula: 'Your name is unknown, your deed is immortal' (Imia tvoe neizvestno, podvig tvoi bessmerten). The tomb functioned as a secular reliquary, substituting a single collective body for the uncounted millions whose actual resting places were unrecorded forest depressions."
+          ]
+        },
+        {
+          "kicker": "03",
+          "heading": "The search movement: Valley of Death",
+          "level": "documented",
+          "sources": [
+            "merridale2000"
+          ],
+          "paras": [
+            "From the late 1960s, informal grassroots expeditions—later known as the search movement (poiskoviki)—began excavating battlefield zones where thousands of Red Army soldiers lay unburied on the surface. The epicentre was the Lyuban pocket at Myasnoi Bor ('The Valley of Death') in Novgorod Oblast, where the 2nd Shock Army was encircled and annihilated in June 1942.",
+            "Initiated by amateur searcher Nikolai Orlov and later formalized as the Dolina expedition, volunteers documented tens of thousands of skeletal remains in the moss and mud. The movement operated under the moral maxim attributed to Generalissimo Suvorov: 'A war is not over until the last soldier is buried.'"
+          ]
+        },
+        {
+          "kicker": "04",
+          "heading": "Arithmetic: official lists versus the ground",
+          "level": "interpretation",
+          "sources": [
+            "tumarkin1994",
+            "merridale2000"
+          ],
+          "paras": [
+            "Tumarkin and Merridale trace the divergence between the state’s monumental accounting and the actual geography of the dead. The official Ministry of Defence database (OBD Memorial) records millions of names and mapped cemeteries, yet field expeditions continue to unearth thousands of unrecorded remains each season across Novgorod, Leningrad, Tver, and Smolensk regions.",
+            "The military cenotaph resolves this material contradiction ideologically: where the physical bones are dissolved in peat or buried in unmarked sand, granite and bronze erect an immutable boundary of memory."
+          ]
+        },
+        {
+          "type": "text",
+          "kicker": "Wartime monologue",
+          "voice": "tvardovsky-rzhev",
+          "level": "documented",
+          "sources": [
+            "tvardovsky1946"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "z",
+      "letter": "Z",
+      "slug": "oblivion-and-reclamation",
+      "nav": "Oblivion and Reclamation",
+      "title": "OBLIVION AND RECLAMATION",
+      "subtitle": "Closed cemeteries, sinking mounds, erased inscriptions, and the quiet return to soil",
+      "dek": "The material end of the cemetery: sanitary closures, the collapse of wooden crosses, the chemical weathering of limestone names, and the return of memorial ground to forest and turf.",
+      "marginal": "The Russian sanitary 20-year cemetery period, nineteenth-century churchyard ecology, and Pushkin's meditation on the village cemetery where graves dissolve into oaks.",
+      "period": "18th to 21st century",
+      "location": "Rural churchyards and decommissioned municipal cemeteries",
+      "tradition": "Material ecology of Russian burials",
+      "volume": "IV",
+      "category": "grave",
+      "layout": "flow",
+      "tone": "paper",
+      "sources": [
+        "pushkin1836-pogost",
+        "kremleva1999",
+        "sanitary-rules-cemetery",
+        "permilovskaya2013",
+        "merridale2000"
+      ],
+      "concepts": [
+        "abandonment",
+        "memory",
+        "reuse",
+        "underground",
+        "threshold"
+      ],
+      "places": [
+        "olonets-karelia",
+        "mezen",
+        "moscow"
+      ],
+      "objects": [
+        "golubets",
+        "fence",
+        "cross"
+      ],
+      "sections": [
+        {
+          "kicker": "01",
+          "heading": "The sanitary lifecycle of the cemetery",
+          "level": "documented",
+          "sources": [
+            "sanitary-rules-cemetery"
+          ],
+          "paras": [
+            "In modern Russian sanitary law (SanPiN 2.1.2882-11), a cemetery is not an eternal monument but an allocated land plot subject to an institutional lifecycle. Once burial capacity is exhausted, the municipality declares the cemetery 'closed' (zakrytoe dlia zakhoronenii).",
+            "A statutory 'cemetery period' (kladbishchenskii period)—defined as the time required for complete decomposition of biological tissues, set at 20 years for standard soil conditions—must elapse before the terrain may be considered stable. Even after closure, the law forbids residential or commercial construction on former cemetery grounds, allowing only green parks and memorial groves."
+          ]
+        },
+        {
+          "kicker": "02",
+          "heading": "Decay of matter: timber, turf and sinkholes",
+          "level": "documented",
+          "sources": [
+            "permilovskaya2013",
+            "kremleva1999"
+          ],
+          "paras": [
+            "In the rural North and central regions, the physical survival of a grave depends entirely on periodic kin maintenance. Unpainted spruce and pine crosses rot at the groundline within 25 to 40 years. Permilovskaya notes that traditional roofed crosses (golubtsy) protected the icon plate, yet moisture rising from the subsoil inevitably rots the base.",
+            "As the pine coffin collapses under ground pressure (usually between the 7th and 15th year), the earthen mound subsides, creating a hollow indentation. When family lines die out or migrate to cities, grave weeding ceases; nettles, cow parsnip, and birch seedlings colonize the depression, transforming individual burial markers into uniform forest turf."
+          ]
+        },
+        {
+          "kicker": "03",
+          "heading": "Erased stone and unreadable names",
+          "level": "interpretation",
+          "sources": [
+            "kremleva1999",
+            "merridale2000"
+          ],
+          "paras": [
+            "Stone inscriptions do not guarantee permanent memory. Soft white limestone slabs, common in central Russia and Pskov from the 16th to the 19th century, weather through rain, freeze-thaw cycles, and lichen growth, losing Cyrillic letterforms within a century and a half.",
+            "By the third or fourth generation after burial, the emotional link to individual dead fades into the anonymous category of 'ancestors' (roditeli). The individual grave ceases to be visited as a person; it dissolves into the communal cemetery ground."
+          ]
+        },
+        {
+          "kicker": "04",
+          "heading": "The cemetery as ecological threshold",
+          "level": "interpretation",
+          "sources": [
+            "pushkin1836-pogost",
+            "kremleva1999"
+          ],
+          "paras": [
+            "Where modern memorialization attempts to freeze time through polished granite and digital servers, traditional rural practice accepted oblivion as a natural material transition. The grave was expected to settle into the soil as the soul departed to the ancestors.",
+            "Pushkin's 1836 elegy on the village churchyard articulates this exact reconciliation: the decay of the wooden cross under ancient oaks is not seen as desecration or defeat, but as peaceful reconciliation with mother earth."
+          ]
+        },
+        {
+          "type": "text",
+          "kicker": "Elegy",
+          "voice": "pushkin-selo-pogost",
+          "level": "documented",
+          "sources": [
+            "pushkin1836-pogost"
+          ]
         }
       ]
     }

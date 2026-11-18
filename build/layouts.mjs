@@ -53,6 +53,8 @@ export const KEY = {
   v: "izba-red-corner-wide",
   w: "keret-graves-faded",
   x: "tver-empty-house-xerox",
+  y: "soldier-flowers",
+  z: "keret-graves-faded",
 };
 
 export const LAYOUT = {
