@@ -658,15 +658,25 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
   border: 1px solid rgba(26, 24, 20, 0.25);
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
+.metrics-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #efeae0;
+  color: #1a1814;
+  border: 1px solid rgba(26, 24, 20, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
 .metrics-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.88rem;
   line-height: 1.45;
   text-align: left;
+  color: #1a1814;
 }
 .metrics-table th {
   background: #e2dbcb;
+  color: #1a1814;
   font: 700 0.68rem var(--f-type, monospace);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -676,8 +686,12 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
 }
 .metrics-table td {
   padding: 12px 14px;
+  color: #1a1814;
   border-bottom: 1px solid rgba(26, 24, 20, 0.15);
   vertical-align: top;
+}
+.metrics-table td small {
+  color: #4a443b;
 }
 .metrics-table tr:hover td {
   background: rgba(179, 36, 26, 0.04);
@@ -689,7 +703,7 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
 }
 .metrics-citation {
   font-size: 0.72rem;
-  color: #666;
+  color: #554e44;
 }
 .metrics-filters {
   display: flex;
@@ -698,7 +712,7 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
   margin-bottom: 14px;
 }
 
-/* --- Chronology Strata Table (chronology.html) --- */
+/* --- Chronology Strata Table (chronology.html & compendium.html) --- */
 .strata-section {
   margin: 28px 0 36px;
 }
@@ -706,8 +720,9 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   background: #efeae0;
+  color: #1a1814;
   border: 1px solid rgba(26, 24, 20, 0.3);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 .strata-table {
   width: 100%;
@@ -715,9 +730,11 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
   font-size: 0.88rem;
   line-height: 1.45;
   text-align: left;
+  color: #1a1814;
 }
 .strata-table th {
   background: #ded7c6;
+  color: #1a1814;
   font: 700 0.68rem var(--f-type, monospace);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -727,19 +744,36 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
 }
 .strata-table td {
   padding: 14px;
+  color: #1a1814;
   border-bottom: 1px dashed rgba(26, 24, 20, 0.2);
   vertical-align: top;
+}
+.strata-table tr:hover {
+  background: rgba(177, 50, 39, 0.04);
 }
 .strata-epoch {
   font-weight: 700;
   white-space: nowrap;
   color: #8a1a14;
 }
+.strata-epoch strong {
+  color: #8a1a14;
+}
 .strata-epoch small {
   display: block;
   font: 0.7rem var(--f-type, monospace);
-  color: #555;
+  color: #4a443b;
   font-weight: normal;
+}
+.strata-period {
+  display: block;
+  font-size: 0.72rem;
+  color: #554e44;
+  margin-bottom: 2px;
+}
+.strata-law {
+  color: #2b2823;
+  font-size: 0.82rem;
 }
 
 /* --- Funerary Botany & Dendrology Section --- */
@@ -1476,6 +1510,7 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   background: #efeae0;
+  color: #1a1814;
   border: 1px solid rgba(26, 24, 20, 0.3);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
@@ -1485,9 +1520,11 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
   font-size: 0.88rem;
   line-height: 1.45;
   text-align: left;
+  color: #1a1814;
 }
 .microchrono-table th {
   background: #ded7c6;
+  color: #1a1814;
   font: 700 0.68rem var(--f-type, monospace);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -1497,8 +1534,12 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
 }
 .microchrono-table td {
   padding: 14px;
+  color: #1a1814;
   border-bottom: 1px dashed rgba(26, 24, 20, 0.2);
   vertical-align: top;
+}
+.microchrono-table td small {
+  color: #4a443b;
 }
 .microchrono-table tr:hover {
   background: rgba(177, 50, 39, 0.04);
