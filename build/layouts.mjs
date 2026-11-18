@@ -38,6 +38,13 @@ export const FIGMAP = {
   "gapon-panikhida": "gapon-panikhida-cut",
   "donskoy-crematorium": "donskoy-crematorium-cut",
   "coffin-vyazma": "coffin-vyazma-cut",
+  "doroshevich-sakhalin-funeral": "doroshevich-sakhalin-cut",
+  "plague-riot-ambrosius-1771": "plague-riot-ambrosius-cut",
+  "toropets-deathbed-merchant": "toropets-deathbed-merchant-cut",
+  "golovin-funeral-1706": "golovin-funeral-1706-cut",
+  "yaroshenko-firstborn-funeral": "yaroshenko-firstborn-cut",
+  "buchkuri-funeral-1905": "buchkuri-funeral-wide",
+  "linschoten-russian-cross-1594": "linschoten-russian-cross-cut",
 };
 
 // Image that stands for each plate on the cover and in the index.

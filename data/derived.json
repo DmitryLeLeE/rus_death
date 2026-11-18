@@ -618,5 +618,75 @@
   "w": 900,
   "h": 871,
   "bytes": 83836
+ },
+ {
+  "id": "doroshevich-sakhalin-cut",
+  "parent_file": "doroshevich-sakhalin-funeral.jpg",
+  "treatment": "faded",
+  "title": "Funeral of a convict on Sakhalin Island (1903)",
+  "shows": "Whole frame",
+  "w": 1400,
+  "h": 1019,
+  "bytes": 272034
+ },
+ {
+  "id": "plague-riot-ambrosius-cut",
+  "parent_file": "plague-riot-ambrosius-1771.jpg",
+  "treatment": "black",
+  "title": "Murder of Archbishop Ambrosius during the Moscow Plague Riot (1845)",
+  "shows": "Whole frame",
+  "w": 800,
+  "h": 1158,
+  "bytes": 178304
+ },
+ {
+  "id": "toropets-deathbed-merchant-cut",
+  "parent_file": "toropets-deathbed-merchant.jpg",
+  "treatment": "dormant",
+  "title": "Deathbed portrait of a Toropets merchant woman (19th c.)",
+  "shows": "Whole frame",
+  "w": 900,
+  "h": 720,
+  "bytes": 71764
+ },
+ {
+  "id": "golovin-funeral-1706-cut",
+  "parent_file": "golovin-funeral-1706.jpg",
+  "treatment": "xerox",
+  "title": "Funeral of Field Marshal-General Fyodor Golovin in Moscow (1706)",
+  "shows": "Whole frame",
+  "w": 1500,
+  "h": 1054,
+  "bytes": 493914
+ },
+ {
+  "id": "yaroshenko-firstborn-cut",
+  "parent_file": "yaroshenko-firstborn-funeral.jpg",
+  "treatment": "faded",
+  "title": "Nikolai Yaroshenko, Funeral of the Firstborn (1893)",
+  "shows": "Whole frame",
+  "w": 900,
+  "h": 622,
+  "bytes": 66160
+ },
+ {
+  "id": "buchkuri-funeral-wide",
+  "parent_file": "buchkuri-funeral-1905.jpg",
+  "treatment": "news",
+  "title": "Aleksandr Buchkuri, Peasant Funeral (1905)",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 473,
+  "bytes": 120680
+ },
+ {
+  "id": "linschoten-russian-cross-cut",
+  "parent_file": "linschoten-russian-cross-1594.jpg",
+  "treatment": "faded",
+  "title": "Russian Carved Roadside and Votive Crosses (1594)",
+  "shows": "Whole frame",
+  "w": 850,
+  "h": 666,
+  "bytes": 161340
  }
 ]

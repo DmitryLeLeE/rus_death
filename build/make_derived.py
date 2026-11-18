@@ -402,6 +402,20 @@ SPECS = [
      "Mamayev Kurgan, Volgograd — the slope", "Lower two-thirds"),
     ("port-arthur-trench", "port-arthur-funeral-1905.jpg", (40, 80, 680, 700), "faded", 900, "tblr",
      "Hasty funeral rites in besieged Port Arthur, 1905 — the field of crosses", "Trench and wooden crosses on the hillside"),
+    ("doroshevich-sakhalin-cut", "doroshevich-sakhalin-funeral.jpg", None, "faded", 1400, "tblr",
+     "Funeral of a convict on Sakhalin Island (1903)", "Whole frame"),
+    ("plague-riot-ambrosius-cut", "plague-riot-ambrosius-1771.jpg", None, "black", 800, "tblr",
+     "Murder of Archbishop Ambrosius during the Moscow Plague Riot (1845)", "Whole frame"),
+    ("toropets-deathbed-merchant-cut", "toropets-deathbed-merchant.jpg", None, "dormant", 900, "tblr",
+     "Deathbed portrait of a Toropets merchant woman (19th c.)", "Whole frame"),
+    ("golovin-funeral-1706-cut", "golovin-funeral-1706.jpg", None, "xerox", 1500, "tblr",
+     "Funeral of Field Marshal-General Fyodor Golovin in Moscow (1706)", "Whole frame"),
+    ("yaroshenko-firstborn-cut", "yaroshenko-firstborn-funeral.jpg", None, "faded", 900, "tblr",
+     "Nikolai Yaroshenko, Funeral of the Firstborn (1893)", "Whole frame"),
+    ("buchkuri-funeral-wide", "buchkuri-funeral-1905.jpg", None, "news", 1100, "tblr",
+     "Aleksandr Buchkuri, Peasant Funeral (1905)", "Whole frame"),
+    ("linschoten-russian-cross-cut", "linschoten-russian-cross-1594.jpg", None, "faded", 850, "tblr",
+     "Russian Carved Roadside and Votive Crosses (1594)", "Whole frame"),
 ]
 
 
