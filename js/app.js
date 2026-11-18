@@ -521,7 +521,7 @@
       }
     };
 
-    doc.addEventListener("click", (e) => {
+    document.addEventListener("click", (e) => {
       const btn = e.target.closest("[data-hotspot]");
       if (!btn) {
         if (activeHotspotCard && !e.target.closest(".hotspot-card")) {
@@ -578,12 +578,12 @@
       expBtns.forEach((b) => {
         b.addEventListener("click", () => {
           const trackId = b.dataset.expeditionTrack;
-          const track = doc.getElementById(trackId);
+          const track = document.getElementById(trackId);
           const wasActive = track && track.classList.contains("is-highlighted");
           $$(".route-track").forEach((t) => t.classList.remove("is-highlighted"));
           if (!wasActive && track) {
             track.classList.add("is-highlighted");
-            const mapPlane = doc.querySelector(".map-plane");
+            const mapPlane = document.querySelector(".map-plane");
             if (mapPlane) {
               mapPlane.scrollIntoView({ behavior: "smooth", block: "center" });
             }
