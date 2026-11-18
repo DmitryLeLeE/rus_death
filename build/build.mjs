@@ -297,28 +297,28 @@ const foot = (s, base) => {
 };
 
 const TERM_PATTERNS = [
-  { id: "domovina", ru: /\b(домовин[а-яё]*)\b/i, en: /\b(\*?domovina\*?s?)\b/i },
-  { id: "koloda", ru: /\b(колод[а-яё]*)\b/i, en: /\b(\*?koloda\*?s?)\b/i },
-  { id: "golubets", ru: /\b(голуб(?:ец|ц[а-яё]*))\b/i, en: /\b(\*?golub(?:ets|tsy)\*?)\b/i },
-  { id: "skudelnitsa", ru: /\b(скудельниц[а-яё]*)\b/i, en: /\b(\*?skudel'?nitsa\*?s?)\b/i },
-  { id: "zalozhnye", ru: /\b(заложн[а-яё]+)\b/i, en: /\b(\*?zalozhnye\*?)\b/i },
-  { id: "pokoinik", ru: /\b(покойник[а-яё]*)\b/i, en: /\b(\*?pokoinik\*?s?)\b/i },
-  { id: "sorokoviny", ru: /\b(сороковин[а-яё]*)\b/i, en: /\b(\*?sorokoviny\*?)\b/i },
-  { id: "kutia", ru: /\b(куть[яеиюё]|кутьей|кутьёй)\b/i, en: /\b(\*?kut'?ia\*?|\*?kutya\*?)\b/i },
-  { id: "radonitsa", ru: /\b(радониц[а-яё]*)\b/i, en: /\b(\*?radonitsa\*?)\b/i },
-  { id: "semik", ru: /\b(семик[а-яё]*)\b/i, en: /\b(\*?semik\*?)\b/i },
-  { id: "pogost", ru: /\b(погост[а-яё]*)\b/i, en: /\b(\*?pogost\*?s?)\b/i },
-  { id: "rosstan", ru: /\b(росстан[а-яё]*)\b/i, en: /\b(\*?rosstan'?\*?)\b/i },
-  { id: "prichitanie", ru: /\b(причитани[а-яё]*|причет[а-яё]*|причеть)\b/i, en: /\b(\*?prichitanie\*?s?|\*?prichett?'?\*?)\b/i },
-  { id: "bannik", ru: /\b(банник[а-яё]*)\b/i, en: /\b(\*?bannik\*?s?)\b/i },
-  { id: "domovoi", ru: /\b(домов[оы][йа-яё]*)\b/i, en: /\b(\*?domovoi\*?s?)\b/i },
-  { id: "kikimora", ru: /\b(кикимор[а-яё]*)\b/i, en: /\b(\*?kikimora\*?s?)\b/i },
-  { id: "upyr", ru: /\b(упыр[а-яё]*)\b/i, en: /\b(\*?upyr'?\*?s?)\b/i },
-  { id: "rusalka", ru: /\b(русалк[а-яё]*)\b/i, en: /\b(\*?rusalk[ai]\*?)\b/i },
-  { id: "kenotaf", ru: /\b(кенотаф[а-яё]*)\b/i, en: /\b(\*?cenotaph\*?s?)\b/i },
-  { id: "bratskaya-mogila", ru: /\b(братск[а-яё]+\s+могил[а-яё]*)\b/i, en: /\b(mass grave|fraternal grave)\b/i },
-  { id: "lesenka", ru: /\b(лесенк[а-яё]*|лествиц[а-яё]*)\b/i, en: /\b(\*?lesenka\*?s?)\b/i },
-  { id: "kolivo", ru: /\b(колив[а-яё]*)\b/i, en: /\b(\*?kolivo\*?)\b/i }
+  { id: "domovina", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(домовин[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?domovina\*?s?)\b/i },
+  { id: "koloda", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(колод[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?koloda\*?s?)\b/i },
+  { id: "golubets", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(голуб(?:ец|ц[а-яё]*))(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?golub(?:ets|tsy)\*?)\b/i },
+  { id: "skudelnitsa", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(скудельниц[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?skudel'?nitsa\*?s?)\b/i },
+  { id: "zalozhnye", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(заложн[а-яё]+)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?zalozhnye\*?)\b/i },
+  { id: "pokoinik", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(покойник[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?pokoinik\*?s?)\b/i },
+  { id: "sorokoviny", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(сороковин[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?sorokoviny\*?)\b/i },
+  { id: "kutia", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(куть[яеиюё]|кутьей|кутьёй)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?kut'?ia\*?|\*?kutya\*?)\b/i },
+  { id: "radonitsa", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(радониц[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?radonitsa\*?)\b/i },
+  { id: "semik", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(семик[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?semik\*?)\b/i },
+  { id: "pogost", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(погост[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?pogost\*?s?)\b/i },
+  { id: "rosstan", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(росстан[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?rosstan'?\*?)\b/i },
+  { id: "prichitanie", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(причитани[а-яё]*|причет[а-яё]*|причеть)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?prichitanie\*?s?|\*?prichett?'?\*?)\b/i },
+  { id: "bannik", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(банник[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?bannik\*?s?)\b/i },
+  { id: "domovoi", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(домов[оы][йа-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?domovoi\*?s?)\b/i },
+  { id: "kikimora", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(кикимор[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?kikimora\*?s?)\b/i },
+  { id: "upyr", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(упыр[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?upyr'?\*?s?)\b/i },
+  { id: "rusalka", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(русалк[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?rusalk[ai]\*?)\b/i },
+  { id: "kenotaf", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(кенотаф[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?cenotaph\*?s?)\b/i },
+  { id: "bratskaya-mogila", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(братск[а-яё]+\s+могил[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(mass grave|fraternal grave)\b/i },
+  { id: "lesenka", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(лесенк[а-яё]*|лествиц[а-яё]*|лествичк[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?lesenka\*?s?)\b/i },
+  { id: "kolivo", ru: /(?<=^|[^а-яёА-ЯЁa-zA-Z0-9])(колив[а-яё]*)(?=[^а-яёА-ЯЁa-zA-Z0-9]|$)/i, en: /\b(\*?kolivo\*?)\b/i }
 ];
 
 function annotateTerms(html) {
@@ -762,7 +762,10 @@ function renderAudioPlayer(track, base, isRu, isPlate = false) {
         ${plateLink}
       </div>
     </div>
-    <audio preload="none" src="${UP}${base}${track.file}"></audio>
+    <audio preload="metadata">
+      <source src="${UP}${base}${track.file_mp3 || track.file.replace(/\.ogg$/, '.mp3')}" type="audio/mpeg">
+      <source src="${UP}${base}${track.file}" type="audio/ogg">
+    </audio>
   </div>`;
 }
 

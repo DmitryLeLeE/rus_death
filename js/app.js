@@ -451,7 +451,7 @@
       const gloss = ref.dataset.gloss || "";
       const termId = ref.dataset.term;
       const isPlate = location.pathname.includes("/plates/");
-      const href = (isPlate ? "../" : "") + (RU ? "ru/" : "") + "words.html#word-" + termId;
+      const href = (isPlate ? "../" : "") + "words.html#word-" + termId;
 
       const pop = document.createElement("div");
       pop.className = "term-popover";
@@ -622,19 +622,43 @@
           p.classList.toggle("is-playing", playing);
         };
 
-        playBtn.addEventListener("click", () => {
+        const togglePlay = () => {
           if (audio.paused) {
             $$("[data-player] audio").forEach((other) => {
               if (other !== audio && !other.paused) {
                 other.pause();
               }
             });
-            audio.play().then(() => {
-              window.dispatchEvent(new CustomEvent("rd:audio-play"));
-            }).catch(() => {});
+            const p = audio.play();
+            if (p && p.then) {
+              p.then(() => {
+                window.dispatchEvent(new CustomEvent("rd:audio-play"));
+              }).catch((err) => {
+                console.warn("Audio play prevented:", err);
+              });
+            }
           } else {
             audio.pause();
           }
+        };
+
+        playBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          togglePlay();
+        });
+
+        if (disc) {
+          disc.style.cursor = "pointer";
+          disc.setAttribute("role", "button");
+          disc.setAttribute("aria-label", playBtn.getAttribute("aria-label") || "Play");
+          disc.addEventListener("click", (e) => {
+            e.stopPropagation();
+            togglePlay();
+          });
+        }
+
+        audio.addEventListener("error", (e) => {
+          console.warn("Audio element error:", audio.error, audio.currentSrc);
         });
 
         audio.addEventListener("play", () => {
