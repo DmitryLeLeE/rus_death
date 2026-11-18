@@ -1069,12 +1069,22 @@ All four are served locally; no font CDN is used. Licence texts are included in 
 
 ---
 
-## 5. Text and code
+## 5. Historical Sound Recordings (Phonograph & Gramophone Shellac Archive)
 
-Original text, data, diagrams, generated textures and code are released under **CC BY-SA 4.0**. Third-party images remain under the licences recorded above. The atlas’s original work does not relicense any third-party asset.
+| File | Title | Performer / Author | Date | Medium / Speed | Licence | Source | Plate Connection |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `assets/audio/plevitskaya-umer-bednyaga-1909.ogg` | Poor Fellow Died in a Military Hospital (*«Умер бедняга в больнице военной»*) | Nadezhda Plevitskaya (mezzo-soprano); lyrics: K.R. (Grand Duke Konstantin Konstantinovich, 1885) | 1909 | 78 rpm shellac gramophone record | Public Domain Mark 1.0 (pre-1923 recording) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%A3%D0%BC%D0%B5%D1%80_%D0%B1%D0%B5%D0%B4%D0%BD%D1%8F%D0%B3%D0%B0_%D0%B2_%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B5_%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9.ogg) | Plate Y (*The Military Cenotaph*), Plate I (*Collective Death*), Plate G (*The Voice*) |
+| `assets/audio/po-dikim-stepyam.ogg` | Across the Wild Steppes of Transbaikalia (*«По диким степям Забайкалья»*) | Archival folk ensemble & soloist; attrib. I. K. Kondratyev | Early 20th century (pre-1923) | Shellac gramophone transfer | Public Domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Po_dikim_stepyam_Zabaikalya.ogg) | Plate P (*Roads and Crossroads*), Plate Q (*The Vanished Village*), Plate M (*The Empty House*) |
+| `assets/audio/chaliapin-volga-boatmen-1927.ogg` | Song of the Volga Boatmen (*«Эй, ухнем / Песня волжских бурлаков»*) | Feodor Chaliapin (basso), Victor Orchestra; arr. M. Balakirev / F. Chaliapin | 1927 | Victor 14901-A electrical 78 rpm shellac | Public Domain | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Feodor_Chaliapin_-_Song_of_the_Volga_Boatmen_-_Victor_14901A.ogg) | Plate O (*Water, Marsh and River*), Plate D (*The Table*), Plate R (*The Underground*) |
+
+---
+
+## 6. Text and code
+
+Original text, data, diagrams, generated textures and code are released under **CC BY-SA 4.0**. Third-party images and recordings remain under the licences recorded above. The atlas’s original work does not relicense any third-party asset.
 
 ### Inline attributions
 
-Every photograph under CC BY or CC BY-SA is credited in the caption under the figure and again in the bibliography page. No image is used without a recorded source and licence.
+Every photograph under CC BY or CC BY-SA is credited in the caption under the figure and again in the bibliography page. No image or sound recording is used without a recorded source and licence.
 | `assets/illustrations/diagram-calendar-wheel.svg` | Liturgical & folk ancestor calendar: the circular wheel of commemoration | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 | `assets/illustrations/diagram-calendar-wheel-ru.svg` | Годичный круг поминовения: круговая схема родительских дней | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |

@@ -29,7 +29,7 @@ const SITE = "https://DmitryLeLeE.github.io/rus_death/";
 let LANG = "en", T = UI.en, UP = "";
 let plates, sourcesDoc, objectsDoc, conceptsDoc, placesDoc, timelineDoc, imagesDoc, methodDoc, derivedDoc;
 let VOICES = [], VOICE = {};
-let prologueDoc, lexiconDoc, volumesDoc, routesDoc, metricsDoc, strataDoc, botanyDoc, expeditionsDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
+let prologueDoc, lexiconDoc, volumesDoc, routesDoc, metricsDoc, strataDoc, botanyDoc, expeditionsDoc, audioDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
 
 const merge = (target, src) => {
   for (const [k, v] of Object.entries(src)) {
@@ -90,6 +90,7 @@ function loadLang(lang) {
   strataDoc = fileExists(path.join(DATA, "strata.json")) ? readJSON(path.join(DATA, "strata.json")) : null;
   botanyDoc = fileExists(path.join(DATA, "botany.json")) ? readJSON(path.join(DATA, "botany.json")) : null;
   expeditionsDoc = fileExists(path.join(DATA, "expeditions.json")) ? readJSON(path.join(DATA, "expeditions.json")) : null;
+  audioDoc = fileExists(path.join(DATA, "audio.json")) ? readJSON(path.join(DATA, "audio.json")) : null;
   HAND = {};
   if (lang === "ru") {
     const ov = (f) => { const p = path.join(DATA, "ru", f); return fileExists(p) ? readJSON(p) : null; };
@@ -133,6 +134,10 @@ function loadLang(lang) {
           if (botOvl.plants[p.id]) Object.assign(p, botOvl.plants[p.id]);
         }
       }
+    }
+    const audOvl = ov("audio.json");
+    if (audOvl && audOvl.recordings) {
+      audioDoc = audOvl;
     }
     const lx = ov("lexicon.json");
     if (lx && lexiconDoc) {
@@ -719,6 +724,45 @@ function flowLayout(p) {
   return { ground: "soot", items };
 }
 
+function renderAudioPlayer(track, base, isRu, isPlate = false) {
+  const title = isRu ? (track.title || track.title_ru) : track.title;
+  const performer = isRu ? (track.performer_ru || track.performer) : track.performer;
+  const medium = isRu ? (track.medium_ru || track.medium) : track.medium;
+  const desc = isRu ? (track.description_ru || track.description) : track.description;
+  const playAria = isRu ? "Воспроизвести запись" : "Play archival recording";
+  const plateTarget = (track.plate || (track.plates && track.plates[0]) || "").toLowerCase();
+  const plateLink = !isPlate && plateTarget && PLATE[plateTarget] ? `<a href="${plateHref(plateTarget, base)}" class="gp-plate-link mono">${isRu ? "Слушать на Листе" : "Listen on Plate"} ${plateTarget.toUpperCase()} →</a>` : "";
+
+  return `<div class="gp-player" data-player>
+    <div class="gp-disc" aria-hidden="true">
+      <div class="gp-disc__label mono">
+        <span>78 RPM</span>
+      </div>
+    </div>
+    <div class="gp-info">
+      <div class="gp-meta mono">${esc(track.date)} · ${esc(medium)}</div>
+      <div class="gp-title">${esc(title)}</div>
+      <div class="gp-performer">${esc(performer)}</div>
+      <div class="gp-desc">${esc(desc)}</div>
+      <div class="gp-controls">
+        <button class="gp-play-btn" type="button" aria-label="${playAria}">
+          <span class="gp-icon-play">▶</span>
+          <span class="gp-icon-pause" hidden>❚❚</span>
+        </button>
+        <div class="gp-timeline">
+          <input class="gp-scrubber" type="range" min="0" max="100" value="0" step="0.1" aria-label="Timeline">
+          <div class="gp-progress-bar" style="width: 0%"></div>
+        </div>
+        <div class="gp-time mono">
+          <span class="gp-current">0:00</span> / <span class="gp-duration">${track.duration || "0:00"}</span>
+        </div>
+        ${plateLink}
+      </div>
+    </div>
+    <audio preload="none" src="${UP}${base}${track.file}"></audio>
+  </div>`;
+}
+
 function renderPlate(p) {
   const base = "../";
   const idx = plates.plates.indexOf(p);
@@ -802,6 +846,14 @@ function renderPlate(p) {
 
   const marks = (lay.marks || []).map((m) => `<span class="hm" style="left:${m.x};top:${m.y};width:${m.w};--rot:${m.rot || 0}deg" aria-hidden="true">${mark(m.id, "mark--red")}</span>`).join("");
 
+  const plateAudios = (audioDoc && audioDoc.recordings) ? audioDoc.recordings.filter((r) => r.plate.toLowerCase() === p.id || (r.plates || []).map((x) => x.toLowerCase()).includes(p.id)) : [];
+  const plateAudioHtml = plateAudios.length ? `
+    <section class="plate-audio-box" aria-label="${LANG === "ru" ? "Архивная фонограмма" : "Archival audio recording"}">
+      <div class="plate-audio-box__tag mono">${LANG === "ru" ? "АРХИВНАЯ ФОНОГРАММА · ЗВУКОВОЙ ПАМЯТНИК" : "ARCHIVAL RECORDING · HISTORICAL SOUND MONUMENT"}</div>
+      ${plateAudios.map((r) => renderAudioPlayer(r, base, LANG === "ru", true)).join("\n")}
+    </section>
+  ` : "";
+
   return shell({
     title: `${p.title} — ${LANG === "ru" ? "Лист" : "Plate"} ${p.letter} — ${T.siteTitle}`,
     description: p.dek.replace(/[*`]/g, ""),
@@ -819,6 +871,7 @@ function renderPlate(p) {
       ${marginal}
       ${marks}
     </div>
+    ${plateAudioHtml}
     ${apparatus}
     ${pager}
   </article>
@@ -1539,11 +1592,25 @@ function voicesPage() {
     </div></div>
   </li>`;
   }).join("\n");
+
+  const audioItems = (audioDoc && audioDoc.recordings) ? audioDoc.recordings.map((r) => renderAudioPlayer(r, base, LANG === "ru")).join("\n") : "";
+  const audioSection = audioItems ? `
+<section class="voices-audio-section" aria-labelledby="voices-audio-h">
+  <div class="voices-audio__header">
+    <h2 id="voices-audio-h" class="voices-audio__h">${X.audioHeading}</h2>
+    <p class="voices-audio__dek">${X.audioDek}</p>
+  </div>
+  <div class="voices-audio__grid">
+    ${audioItems}
+  </div>
+</section>` : "";
+
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "words-page", page: "voices", rel: "voices.html",
     content: `<main id="main">
 ${pagehead("pagehead--words", esc(X.kicker), X.h1, esc(X.dek))}
 <ol class="wordwall">${slips}</ol>
+${audioSection}
 <section class="map-note"><p>${esc(X.note)}</p></section>
 </main>`,
   });

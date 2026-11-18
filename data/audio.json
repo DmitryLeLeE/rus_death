@@ -1,0 +1,55 @@
+{
+  "recordings": [
+    {
+      "id": "plevitskaya-umer-bednyaga",
+      "title": "Poor Fellow Died in a Military Hospital",
+      "title_ru": "Умер бедняга в больнице военной",
+      "performer": "Nadezhda Plevitskaya (mezzo-soprano)",
+      "performer_ru": "Надежда Плевицкая (меццо-сопрано)",
+      "date": "1909",
+      "medium": "78 rpm shellac gramophone record / Ogg Vorbis",
+      "author": "Lyrics: Grand Duke Konstantin Konstantinovich (K.R., 1885); traditional melody",
+      "duration": "3:10",
+      "file": "assets/audio/plevitskaya-umer-bednyaga-1909.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%BC%D0%B5%D1%80_%D0%B1%D0%B5%D0%B4%D0%BD%D1%8F%D0%B3%D0%B0_%D0%B2_%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B5_%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9.ogg",
+      "license": "Public Domain Mark 1.0",
+      "plate": "Y",
+      "plates": ["Y", "I", "G"],
+      "description": "Authentic 1909 gramophone recording of the soldier's lament poem by K.R. Nadezhda Plevitskaya performs with unadorned folk pathos the lonely death of an unnumbered recruit in an army infirmary, carried out in a deal coffin to an unrecorded common trench: 'Neither cross nor tombstone will tell where he fell asleep forever'. A central acoustic document for Plate Y (The Military Cenotaph)."
+    },
+    {
+      "id": "po-dikim-stepyam",
+      "title": "Across the Wild Steppes of Transbaikalia",
+      "title_ru": "По диким степям Забайкалья",
+      "performer": "Archival recording (folk choir & soloist)",
+      "performer_ru": "Историческая архивная запись (народный хор и солист)",
+      "date": "Early 20th century (pre-1923)",
+      "medium": "Shellac gramophone transfer / Ogg Vorbis",
+      "author": "I. K. Kondratyev (attrib., 1880s) / traditional Siberian exile song",
+      "duration": "4:15",
+      "file": "assets/audio/po-dikim-stepyam.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Po_dikim_stepyam_Zabaikalya.ogg",
+      "license": "Public Domain",
+      "plate": "P",
+      "plates": ["P", "Q", "M"],
+      "description": "Historic recording of the classic Siberian exile and convict song. Tells of a runaway convict who survived the road through endless marshes and steppes only to find his family house empty and his father long lying in the damp ground: 'Tears choked the poor fellow, / His father is long in the сырая земля.' Resonates directly with Plate P (Roads and Crossroads) and Plate M (The Empty House)."
+    },
+    {
+      "id": "chaliapin-volga-boatmen",
+      "title": "Song of the Volga Boatmen (Ei, Ukhnem)",
+      "title_ru": "Эй, ухнем (Песня волжских бурлаков)",
+      "performer": "Feodor Chaliapin (basso), Victor Orchestra",
+      "performer_ru": "Фёдор Шаляпин (бас), оркестр Victor",
+      "date": "1927",
+      "medium": "Victor 14901-A electrical 78 rpm shellac / Ogg Vorbis",
+      "author": "Traditional Volga burlak chant, arr. M. Balakirev / F. Chaliapin",
+      "duration": "3:20",
+      "file": "assets/audio/chaliapin-volga-boatmen-1927.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Feodor_Chaliapin_-_Song_of_the_Volga_Boatmen_-_Victor_14901A.ogg",
+      "license": "Public Domain",
+      "plate": "O",
+      "plates": ["O", "D", "R"],
+      "description": "Feodor Chaliapin's legendary 1927 Victor electrical recording. The dragging, ponderous cadence of river burlaks leaning their chests into leather haulage straps, invoking the birch tree and Mother Volga in a ritualistic exertion bordering on death and chthonic weight. Connects to Plate O (Water, Marsh and River) and Plate D (The Table / Ritual labor)."
+    }
+  ]
+}

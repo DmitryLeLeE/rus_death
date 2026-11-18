@@ -1,4 +1,4 @@
-const CACHE_NAME = "rus-death-v2";
+const CACHE_NAME = "rus-death-v3";
 const PRECACHE_URLS = [
   "./",
   "./index.html",

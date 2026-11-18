@@ -413,6 +413,18 @@
     if (document.hidden) ctx.suspend(); else if (on) ctx.resume();
   });
 
+  // suspend ambient when archival shellac audio is playing, resume when stopped
+  window.addEventListener("rd:audio-play", () => {
+    if (ctx && ctx.state === "running") {
+      ctx.suspend();
+    }
+  });
+  window.addEventListener("rd:audio-pause", () => {
+    if (ctx && on && ctx.state === "suspended" && !document.hidden) {
+      ctx.resume();
+    }
+  });
+
   // pages change in place (js/nav.js): keep the context, change the room
   document.addEventListener("rd:navigate", () => {
     lastY = window.scrollY;

@@ -45,7 +45,7 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Volumes | The four volumes and the plates in each |
 | Plates A–Z | Research plates (all 26 plates) with compositions, interactive visual hotspots/explications, apparatus and one-click ГОСТ / BibTeX citation |
 | Index | Card catalogue of plates, objects, concepts and places |
-| Voices | Lament, verse and historical field voices in Russian and English with source metadata |
+| Voices | Lament, verse and historical field voices, plus an authentic Phonograph & Shellac audio archive (1909–1927, Nadezhda Plevitskaya, Feodor Chaliapin, Siberian convict laments) with bespoke retro gramophone players |
 | Field archive | Original visual assets, 19th-century parish death register (*метрический регистр кончины*, 1842–1895), and the Chthonic Herbarium (*погребальная ботаника и дендрология*, 8 species) |
 | Map | 36 localities, macro-regional filters, and historical field expedition tracks (Barsov 1860, Zelenin 1914, Malyshev 1954) |
 | Chronology | 37 points and caesuras, filterable by period, and a comparative matrix of 5 historical strata of funerary culture |
@@ -54,17 +54,17 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Compendium | Full monograph pre-print uniting all 26 plates, systematic registers, and print/PDF typography |
 | Claim ledger | Every section of every plate (241 sections) with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |
-| Sources | Bibliography (154 entries) with one-click ГОСТ Р 7.0.5-2008 and BibTeX copy buttons; visual asset credits |
+| Sources | Bibliography (154 entries) with one-click ГОСТ Р 7.0.5-2008 and BibTeX copy buttons; visual and audio asset credits |
 | Method | Scope, evidence levels, periodisation, limits |
 | Colophon | How the edition was made; offline PWA support and service worker architecture |
 
-Pages change in place (`js/nav.js`), so the sound keeps running between pages; anything unusual falls back to an ordinary page load. There is a *Readable* button in the header (calm paper, no tilt, larger type) and an optional *Sound* button (a quiet room, wind and a far bell, synthesised in the browser; off by default). The entire atlas functions as a Progressive Web App (PWA) with complete offline caching (`manifest.json` and `sw.js`). Every motion effect switches off under `prefers-reduced-motion`, and each plate prints as a plain black-and-white sheet.
+Pages change in place (`js/nav.js`), so the sound keeps running between pages; anything unusual falls back to an ordinary page load. There is a *Readable* button in the header (calm paper, no tilt, larger type) and an optional *Sound* button (a quiet room, wind and a far bell, synthesised in the browser; pauses automatically when archival gramophone tracks are played). The entire atlas functions as a Progressive Web App (PWA) with complete offline caching (`manifest.json` and `sw.js`). Every motion effect switches off under `prefers-reduced-motion`, and each plate prints as a plain black-and-white sheet.
 
 ## По-русски
 
 <a href="https://DmitryLeLeE.github.io/rus_death/ru/"><img src="social-ru.jpg" alt="АРХЕОЛОГИЯ РУССКОЙ СМЕРТИ: крест под крышей и сани с гробом, чёрно-белые, на рваной бумаге"></a>
 
-«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта с региональными фильтрами и экспедиционными треками, хронология с матрицей 5 исторических страт, метрический регистр кончины XIX века, хтонический гербарий (8 видов), словарь с интерактивными тултипами, библиография с экспортом цитат в ГОСТ Р 7.0.5-2008 и BibTeX, сводный академический том для печати/PDF (`ru/compendium.html`), интерактивные экспликации картин, реестр утверждений, маршруты чтения и поиск. В атлас включены главы по теневой этнографии (ритуалы опахивания при море, поверья о заложных покойниках и душителях, болотные раскопы «Долины смерти», сетевой кенотаф). Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём строго отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
+«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта с региональными фильтрами и экспедиционными треками, хронология с матрицей 5 исторических страт, метрический регистр кончины XIX века, хтонический гербарий (8 видов), архив исторических аудиозаписей фонографа и шеллака (1909–1927 гг., Надежда Плевицкая, Фёдор Шаляпин, сибирские бродяжеские песни) со стилизованным ретроплеером, словарь с интерактивными тултипами, библиография с экспортом цитат в ГОСТ Р 7.0.5-2008 и BibTeX, сводный академический том для печати/PDF (`ru/compendium.html`), интерактивные экспликации картин, реестр утверждений, маршруты чтения и поиск. В атлас включены главы по теневой этнографии (ритуалы опахивания при море, поверья о заложных покойниках и душителях, болотные раскопы «Долины смерти», сетевой кенотаф). Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём строго отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
 
 ## Run and rebuild
 
