@@ -12,7 +12,7 @@ def generate_calendar_wheel(lang="en"):
     is_ru = lang == "ru"
 
     title = "ГОДИЧНЫЙ КРУГЪ ПОМИНОВЕНIЯ" if is_ru else "ANNUAL CYCLE OF THE DEAD"
-    sub = "Сетка родительских дней: подвижный пасхальный и неподвижный осенний круги" if is_ru else "Liturgical & folk ancestor calendar: movable Easter and fixed autumn cycles"
+    sub = "Сетка родительских дней: подвижный пасхальный и неподвижный осенний круги" if is_ru else "Liturgical &amp; folk ancestor calendar: movable Easter and fixed autumn cycles"
 
     days = [
         (30, "МЯСОПУСТНАЯ СУББОТА" if is_ru else "MEATFARE SATURDAY",
@@ -22,7 +22,7 @@ def generate_calendar_wheel(lang="en"):
         (75, "ВЕЛИКОПОСТНЫЕ СУББОТЫ (2, 3, 4)" if is_ru else "LENTEN SATURDAYS (2, 3, 4)",
              "Подвижный цикл (Великий пост)" if is_ru else "Movable (Weeks 2, 3, 4 of Lent)",
              "Постный поминальный хлеб" if is_ru else "Lenten memorial bread",
-             "Приходские и семейные усопшие; поминовение записками" if is_ru else "Parish & kinship deceased; liturgical commemoration"),
+             "Приходские и семейные усопшие; поминовение записками" if is_ru else "Parish &amp; kinship deceased; liturgical commemoration"),
         (130, "РАДОНИЦА" if is_ru else "RADONITSA",
              "Вторник Фоминой седмицы (+9 дн.)" if is_ru else "Tuesday after Thomas Sunday (+9d)",
              "Крашеные яйца, кулич, вино" if is_ru else "Dyed eggs, kulich, wine on turf",

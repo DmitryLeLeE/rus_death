@@ -8,8 +8,8 @@ def make_botany_svg(species_id, lang="en"):
     
     if species_id == "spruce":
         latin = "Picea abies (L.) H. Karst."
-        title = "ЕЛО ВЫЙ  ЛАПНИКЪ" if is_ru else "SPRUCE BOUGHS"
-        sub = "Пограничный барьер и устилание пути гроба" if is_ru else "Liminal barrier & mortuary path-strewn carpet"
+        title = "ЕЛОВЫЙ ЛАПНИКЪ" if is_ru else "SPRUCE BOUGHS"
+        sub = "Пограничный барьер и устилание пути гроба" if is_ru else "Liminal barrier &amp; mortuary path-strewn carpet"
         labels = [
             ("1", "Колючая хвоя (не даёт душе вернуться)" if is_ru else "Prickly needle barrier (confuses soul's path)", 180, 220),
             ("2", "Смоляной бальзамический покров" if is_ru else "Resinous scent masking cadaveric decomposition", 620, 280),
@@ -91,7 +91,7 @@ def make_botany_svg(species_id, lang="en"):
     elif species_id == "poppy":
         latin = "Papaver rhoeas / somniferum L."
         title = "МАКОВОЕ СѢМЯ" if is_ru else "WILD POPPY SEEDS"
-        sub = "Неисчислимый счётный барьер порога и могилы" if is_ru else "Innumerable counting barrier of threshold & grave"
+        sub = "Неисчислимый счётный барьер порога и могилы" if is_ru else "Innumerable counting barrier of threshold &amp; grave"
         labels = [
             ("1", "Коробочка с порами (Papaver somniferum)" if is_ru else "Porous capsule containing thousands of seeds", 680, 200),
             ("2", "Зубчатая звездчатая коронка" if is_ru else "Stigmatic disc sealing the seed chamber", 650, 90),
@@ -207,7 +207,7 @@ def make_botany_svg(species_id, lang="en"):
     <text x="0" y="28" class="title">{title}</text>
     <text x="0" y="48" class="sub">{sub}</text>
   </g>
-  <text x="{w-60}" y="70" class="plate-no" text-anchor="end">HERBARIUM CHITONICUM</text>
+  <text x="{w-60}" y="70" class="plate-no" text-anchor="end">HERBARIUM CHTHONICUM</text>
 
   <!-- Botanical Artwork -->
   {art}

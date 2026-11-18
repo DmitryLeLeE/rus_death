@@ -4291,6 +4291,57 @@
       "alt": "Круговая схема сетки родительских суббот и поминальных дней: пасхальный подвижный цикл, Семик для заложных и Димитриевские деды",
       "evidence": "documented",
       "note": "Синтез литургического месяцеслова и народных поминальных обычаев: Д. К. Зеленин (1916), В. И. Даль (1880), В. Я. Пропп (1963)."
+    },
+    {
+      "id": "colophon-mark",
+      "file": "assets/illustrations/colophon-mark.svg",
+      "kind": "diagram",
+      "role": "original-diagram",
+      "title": "Colophon publisher mark",
+      "creator": "Original mark for this atlas",
+      "date": "2026-11-15",
+      "medium": "Vector drawing (SVG)",
+      "collection": "—",
+      "license": "CC BY-SA 4.0 (this atlas)",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_page": "—",
+      "alt": "Graphic emblem of the atlas colophon with cross and circle",
+      "evidence": "documented",
+      "note": "Publisher colophon mark."
+    },
+    {
+      "id": "hand-marks",
+      "file": "assets/illustrations/hand-marks.svg",
+      "kind": "diagram",
+      "role": "original-diagram",
+      "title": "Hand-drawn marginal marks and manicules",
+      "creator": "Original drawing for this atlas",
+      "date": "2026-11-15",
+      "medium": "Vector drawing (SVG)",
+      "collection": "—",
+      "license": "CC BY-SA 4.0 (this atlas)",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_page": "—",
+      "alt": "Hand-drawn marginal symbols: manicule pointing hand, cross, double dagger",
+      "evidence": "documented",
+      "note": "Marginal navigational marks."
+    },
+    {
+      "id": "map-eurasia",
+      "file": "assets/illustrations/map-eurasia.svg",
+      "kind": "diagram",
+      "role": "original-diagram",
+      "title": "Base cartographic map of Eurasia",
+      "creator": "Original map projection for this atlas",
+      "date": "2026-11-15",
+      "medium": "Vector drawing (SVG), Natural Earth data",
+      "collection": "—",
+      "license": "Public domain / CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_page": "—",
+      "alt": "Base vector map of Northern Eurasia from the Baltic to Transbaikalia",
+      "evidence": "documented",
+      "note": "Base map for ethnographic field expeditions."
     }
   ]
 }

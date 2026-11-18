@@ -268,6 +268,9 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/illustrations/diagram-botany-juniper-ru.svg` | Хтонический гербарий: верес / можжевельник (Juniperus communis) | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 | `assets/illustrations/diagram-calendar-wheel.svg` | Liturgical & folk ancestor calendar: the circular wheel of commemoration | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 | `assets/illustrations/diagram-calendar-wheel-ru.svg` | Годичный круг поминовения: круговая схема родительских дней | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/colophon-mark.svg` | Colophon publisher mark | Original mark for this atlas | 2026-11-15 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/hand-marks.svg` | Hand-drawn marginal marks and manicules | Original drawing for this atlas | 2026-11-15 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/map-eurasia.svg` | Base cartographic map of Eurasia | Original map projection for this atlas | 2026-11-15 | Public domain / CC0 | — | original-diagram | documented |
 
 ### Notes per file
 
@@ -1038,6 +1041,15 @@ Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4
 
 **diagram-calendar-wheel-ru** — Годичный круг поминовения: круговая схема родительских дней. Original editorial diagram (not a historical document). Оригинальная схема создана для настоящего атласа, 2026-11-18. Векторный чертёж (SVG), сгенерирован build/generate_calendar_wheel.py.
 Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Синтез литургического месяцеслова и народных поминальных обычаев: Д. К. Зеленин (1916), В. И. Даль (1880), В. Я. Пропп (1963).
+
+**colophon-mark** — Colophon publisher mark. Original editorial diagram (not a historical document). Original mark for this atlas, 2026-11-15. Vector drawing (SVG).
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Publisher colophon mark.
+
+**hand-marks** — Hand-drawn marginal marks and manicules. Original editorial diagram (not a historical document). Original drawing for this atlas, 2026-11-15. Vector drawing (SVG).
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Marginal navigational marks.
+
+**map-eurasia** — Base cartographic map of Eurasia. Original editorial diagram (not a historical document). Original map projection for this atlas, 2026-11-15. Vector drawing (SVG), Natural Earth data.
+Licence: Public domain / CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Base map for ethnographic field expeditions.
 
 ### Attribution required
 
