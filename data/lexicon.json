@@ -482,6 +482,165 @@
       "plates": [
         "x"
       ]
+    },
+    {
+      "id": "keramida",
+      "ru": "керамида",
+      "tr": "keramida",
+      "gloss": "ceramic or limestone wall slab closing a burial niche in the Pechory caves, with glazed relief cross and ustav inscription",
+      "register": "specialist, architectural/epigraphic",
+      "plates": [
+        "r"
+      ]
+    },
+    {
+      "id": "koloda",
+      "ru": "колода",
+      "tr": "koloda",
+      "gloss": "hollowed-trunk coffin made from a single aspen or pine log, an older form preceding the board coffin",
+      "register": "peasant traditional",
+      "plates": [
+        "b",
+        "f"
+      ]
+    },
+    {
+      "id": "tretiny",
+      "ru": "третины",
+      "tr": "tretiny",
+      "gloss": "third-day commemoration, typically coinciding with the day of burial and the first funeral dinner",
+      "register": "ritual, traditional",
+      "plates": [
+        "c",
+        "d"
+      ]
+    },
+    {
+      "id": "devyatiny",
+      "ru": "девятины",
+      "tr": "devyatiny",
+      "gloss": "ninth-day commemoration, marked by a quiet family meal and prayers for the soul traversing the ordeals",
+      "register": "ritual, traditional",
+      "plates": [
+        "c",
+        "d"
+      ]
+    },
+    {
+      "id": "kanun",
+      "ru": "канун",
+      "tr": "kanun",
+      "gloss": "1) memorial table or candle-stand in church; 2) boiled honeyed grain dish served as the ritual first course of the wake",
+      "register": "ecclesiastical and vernacular",
+      "plates": [
+        "c",
+        "d"
+      ]
+    },
+    {
+      "id": "lesenka",
+      "ru": "лесенка",
+      "tr": "lesenka",
+      "gloss": "stepped memorial cake baked for the fortieth day, symbolizing the soul's ascent to heaven",
+      "register": "vernacular baking, regional",
+      "plates": [
+        "d"
+      ]
+    },
+    {
+      "id": "obmyvalshchitsa",
+      "ru": "обмывальщица (мыльщица)",
+      "tr": "obmyval'shchitsa (myl'shchitsa)",
+      "gloss": "elderly woman from outside the nuclear family entrusted with washing the dead; repaid in ritual gifts rather than money",
+      "register": "peasant ethnographic",
+      "plates": [
+        "b"
+      ]
+    },
+    {
+      "id": "pustodomka",
+      "ru": "пустодомка",
+      "tr": "pustodomka",
+      "gloss": "an abandoned house, perceived in folk belief as an unsealed threshold occupied by unclean spirits",
+      "register": "dialectal, vernacular",
+      "plates": [
+        "m"
+      ]
+    },
+    {
+      "id": "leshii",
+      "ru": "леший",
+      "tr": "leshii",
+      "gloss": "forest spirit and guardian of wild animals, frequently traced in northern belief to cursed dead or lost suicides",
+      "register": "folk mythological",
+      "plates": [
+        "n"
+      ]
+    },
+    {
+      "id": "vodianoi",
+      "ru": "водяной",
+      "tr": "vodianoi",
+      "gloss": "master spirit of rivers, lakes and mill-pools, to whom the bodies of the drowned were subject",
+      "register": "folk mythological",
+      "plates": [
+        "o"
+      ]
+    },
+    {
+      "id": "roditeli",
+      "ru": "родители",
+      "tr": "roditeli",
+      "gloss": "the ancestral collective: deceased forebears remembered collectively on seasonal Saturdays, distinguished from the newly dead",
+      "register": "folk kinship and ritual",
+      "plates": [
+        "e",
+        "u"
+      ]
+    },
+    {
+      "id": "novoprestavlennyi",
+      "ru": "новопреставленный",
+      "tr": "novoprestavlennyi",
+      "gloss": "the newly departed soul during the initial forty days of physical and spiritual liminality",
+      "register": "ecclesiastical and vernacular",
+      "plates": [
+        "a",
+        "e"
+      ]
+    },
+    {
+      "id": "kolivo",
+      "ru": "коливо",
+      "tr": "kolivo",
+      "gloss": "the consecrated liturgical form of boiled grain with honey, blessed in church for memorial panikhidas",
+      "register": "liturgical Orthodox",
+      "plates": [
+        "c",
+        "d"
+      ]
+    },
+    {
+      "id": "provody",
+      "ru": "проводы",
+      "tr": "provody",
+      "gloss": "the ritual seeing-off of the departed soul on the fortieth day, ending its liminal presence in the house",
+      "register": "traditional ritual",
+      "plates": [
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "id": "dvorovoi",
+      "ru": "дворовой",
+      "tr": "dvorovoi",
+      "gloss": "the master spirit of the farmyard, cattle-shed, and outer boundaries, often more capricious than the hearth domovoi",
+      "register": "folk demonological",
+      "plates": [
+        "s"
+      ]
     }
   ]
 }

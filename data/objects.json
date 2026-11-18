@@ -392,6 +392,50 @@
       "sources": [
         "hse-digital-grief2025"
       ]
+    },
+    {
+      "id": "golubets",
+      "name": "Roofed grave cross (golubets)",
+      "term": "golubets",
+      "gloss": "A grave cross or timber pillar sheltered by a miniature gabled roof.",
+      "description": "Common across the Russian North (Mezen, Pinega, Pechora, Zaonezhye) and among Old Believer communities. The miniature timber roof mirrors the rafters of the peasant log izba, conceptualizing the grave as an eternal dwelling (*vechnoe zhilishche*) and protecting the enclosed icon from Arctic snow.",
+      "evidence": "documented",
+      "plates": [
+        "f"
+      ],
+      "sources": [
+        "permilovskaya2013",
+        "belova-levkievskaya2004",
+        "barsov1872"
+      ]
+    },
+    {
+      "id": "keramida",
+      "name": "Ceramic tomb slab (keramida)",
+      "term": "keramida",
+      "gloss": "A terracotta or limestone relief slab sealing an underground burial niche.",
+      "description": "Found in the subterranean galleries of the Pskov-Caves Monastery, dating from the 1530s to the late 17th century. Molded in dark-green lead glaze from wooden matrices with Golgotha crosses and uncial inscriptions, commemorating monks, abbots, and prominent boyar lineages.",
+      "evidence": "documented",
+      "plates": [
+        "r"
+      ],
+      "sources": [
+        "pleshanova1974"
+      ]
+    },
+    {
+      "id": "lesenka",
+      "name": "Memorial ladder cake (lesenka)",
+      "term": "lesenka",
+      "gloss": "A stepped ritual pastry baked for the fortieth-day memorial meal.",
+      "description": "An oblong flat cake with cross-stripes or steps (often 3, 24, or 40), baked for the soul's seeing-off (*provody*) on the fortieth day after death. Symbolizes the deceased's ascent to heaven and was eaten with honey after the requiem service.",
+      "evidence": "documented",
+      "plates": [
+        "d"
+      ],
+      "sources": [
+        "zelenin1927"
+      ]
     }
   ]
 }

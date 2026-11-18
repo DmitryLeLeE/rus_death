@@ -183,7 +183,7 @@
       "name": "Khutir Tymky",
       "region": "Ukraine",
       "marker": "tymky-ukraine",
-      "lat": 50.0,
+      "lat": 50,
       "lon": 34.5,
       "status": "outside-RF",
       "summary": "A documented commemoration at graves, photographed in 2014. Included as a regional example and explicitly not as evidence for Russian practice.",
@@ -261,7 +261,7 @@
       "name": "Ivanovo Oblast (turn to Reshma)",
       "region": "Russian Federation",
       "marker": "ivanovo-oblast",
-      "lat": 57.0,
+      "lat": 57,
       "lon": 40.97,
       "status": "in-RF",
       "summary": "A wooden roadside cross photographed at the turn to Reshma, used on plate P. The marker stands at the regional centre; the exact site is not placed here.",
@@ -281,7 +281,7 @@
       "region": "Russian Federation",
       "marker": "nizhny-novgorod-oblast",
       "lat": 56.33,
-      "lon": 44.0,
+      "lon": 44,
       "status": "in-RF",
       "summary": "An abandoned log house photographed in 2008, used on plate A. The marker stands at the regional centre; the village is not placed here.",
       "entries": [
@@ -431,7 +431,7 @@
       "region": "Russian Federation",
       "marker": "sivinsky",
       "lat": 58.37,
-      "lon": 54.0,
+      "lon": 54,
       "status": "in-RF",
       "summary": "Beliefs about the domovoy recorded in one village in June 2019, one village only.",
       "entries": [
@@ -673,6 +673,71 @@
       ],
       "sources": [
         "danilov2018"
+      ]
+    },
+    {
+      "id": "ust-tsilma",
+      "name": "Ust-Tsilma (Komi Republic, Pechora)",
+      "region": "Russian Federation",
+      "marker": "ust-tsilma",
+      "lat": 65.44,
+      "lon": 52.15,
+      "status": "in-RF",
+      "summary": "Old Believer priestless community on the Pechora River; field materials on suicide burials, clean and unclean dead, and dream accounts (2024).",
+      "entries": [
+        "Priestless Old Believer death taxonomy, Ust-Tsilma",
+        "Suicide burial practices outside village to the 1970s",
+        "Beliefs on unbaptised infants and ancestral dream apparitions"
+      ],
+      "plates": [
+        "e",
+        "t"
+      ],
+      "sources": [
+        "dronova2024"
+      ]
+    },
+    {
+      "id": "zaonezhye",
+      "name": "Zaonezhye (Lake Onega, Karelia)",
+      "region": "Russian Federation",
+      "marker": "zaonezhye",
+      "lat": 62.25,
+      "lon": 35.25,
+      "status": "in-RF",
+      "summary": "Historical center of northern oral poetry and funeral lamentation on Lake Onega; primary field site of E. V. Barsov and Irina Fedosova.",
+      "entries": [
+        "Recording of Irina Fedosova's funeral and drowning laments",
+        "Lake Onega boating accidents and bread-candle search rites",
+        "Traditional timber graveyards with roofed crosses (Kizhi, Kosmozero)"
+      ],
+      "plates": [
+        "g",
+        "o"
+      ],
+      "sources": [
+        "barsov1872",
+        "kuznetsova-kovyrshina2000"
+      ]
+    },
+    {
+      "id": "mezen",
+      "name": "Mezen River (Arkhangelsk Region)",
+      "region": "Russian Federation",
+      "marker": "mezen",
+      "lat": 65.85,
+      "lon": 44.24,
+      "status": "in-RF",
+      "summary": "Northern river basin known for conserved traditional wooden architecture, ancestral pillar tombs, and roofed crosses (golubtsy).",
+      "entries": [
+        "Field documentation of timber roofed crosses and grave-houses",
+        "Conservation surveys of Pomor cemetery landscape"
+      ],
+      "plates": [
+        "f"
+      ],
+      "sources": [
+        "permilovskaya2013"
       ]
     }
   ]

@@ -616,7 +616,8 @@
       "objects": [
         "kutia",
         "memorial-bread",
-        "ritual-vessel"
+        "ritual-vessel",
+        "lesenka"
       ],
       "places": [
         "st-petersburg",
@@ -843,7 +844,9 @@
         "grave-marker",
         "cross"
       ],
-      "places": [],
+      "places": [
+        "ust-tsilma"
+      ],
       "sections": [
         {
           "type": "prose",
@@ -1020,13 +1023,15 @@
         "cemetery-gate",
         "fence",
         "photograph",
-        "wreath"
+        "wreath",
+        "golubets"
       ],
       "places": [
         "moscow",
         "st-petersburg",
         "pushkin",
-        "petrozavodsk"
+        "petrozavodsk",
+        "mezen"
       ],
       "sections": [
         {
@@ -1407,7 +1412,8 @@
         "candle"
       ],
       "places": [
-        "olonets-karelia"
+        "olonets-karelia",
+        "zaonezhye"
       ],
       "sections": [
         {
@@ -3411,7 +3417,8 @@
       "places": [
         "medvezhyegorsk",
         "vyatka",
-        "smolensk-region"
+        "smolensk-region",
+        "zaonezhye"
       ],
       "volume": "II",
       "sections": [
@@ -4091,7 +4098,9 @@
         "memory",
         "underground"
       ],
-      "objects": [],
+      "objects": [
+        "keramida"
+      ],
       "places": [
         "pechory"
       ],
@@ -4628,7 +4637,8 @@
       ],
       "places": [
         "smolensk-region",
-        "vitebsk"
+        "vitebsk",
+        "ust-tsilma"
       ],
       "volume": "III",
       "sections": [

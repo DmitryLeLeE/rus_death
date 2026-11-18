@@ -44,10 +44,10 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Volumes | The four volumes and the plates in each |
 | Plates A–X | Research plates, each with its own composition |
 | Index | Card catalogue of plates, objects, concepts and places |
-| Field archive | The catalogue of objects and what is known about each |
-| Map | 33 localities, with what the sources say of each |
-| Chronology | 34 points and caesuras, filterable by period |
-| Words | Lexicon of the Russian terms the atlas uses (46 entries) |
+| Field archive | The catalogue of objects and what is known about each (28 entries) |
+| Map | 36 localities, with what the sources say of each |
+| Chronology | 37 points and caesuras, filterable by period |
+| Words | Lexicon of the Russian terms the atlas uses (61 entries) |
 | Reading routes | Five paths through the plates |
 | Claim ledger | Every section of every plate with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |

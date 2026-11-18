@@ -18,6 +18,22 @@
       "confidence": "documented (as the Church states it; not independently checked)"
     },
     {
+      "id": "t1530",
+      "sort": 1530,
+      "display": "c. 1530",
+      "era": "medieval",
+      "kind": "artifact",
+      "title": "Earliest dated keramidy in the Pskov-Caves necropolis",
+      "text": "The underground caves of the Pskov-Caves Monastery receive their earliest surviving dated ceramic burial slabs (keramidy), molded in dark-green glazed terracotta with relief Golgotha crosses and uncial inscriptions.",
+      "plates": [
+        "r"
+      ],
+      "sources": [
+        "pleshanova1974"
+      ],
+      "confidence": "documented"
+    },
+    {
       "id": "t1540",
       "sort": 1540,
       "display": "1540s",
@@ -231,6 +247,23 @@
       "confidence": "interpretation"
     },
     {
+      "id": "t1918",
+      "sort": 1918,
+      "display": "7 December 1918",
+      "era": "soviet",
+      "kind": "policy",
+      "title": "Decree secularizing cemeteries and funeral administration",
+      "text": "The Council of People's Commissars (SNK) decree terminates the clergy's jurisdiction over cemeteries, placing all burial grounds under local municipal Soviets and establishing civil funerals.",
+      "plates": [
+        "k"
+      ],
+      "sources": [
+        "sokolova2020",
+        "sokolova2013-oz"
+      ],
+      "confidence": "documented"
+    },
+    {
       "id": "t1925",
       "sort": 1925,
       "display": "1925",
@@ -419,6 +452,23 @@
         "merridale2000"
       ],
       "confidence": "interpretation"
+    },
+    {
+      "id": "t1996",
+      "sort": 1996,
+      "display": "12 January 1996",
+      "era": "postsoviet",
+      "kind": "policy",
+      "title": "Federal Law on Burial and Funeral Business",
+      "text": "Federal Law No. 8-FZ guarantees a state-funded minimum funeral package for every citizen while formally opening cemetery maintenance, transport and memorial masonry to commercial private enterprise.",
+      "plates": [
+        "k"
+      ],
+      "sources": [
+        "law-8fz-1996",
+        "moscowtimes-burial2012"
+      ],
+      "confidence": "documented"
     },
     {
       "id": "t2005",

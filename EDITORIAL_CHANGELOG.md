@@ -399,3 +399,34 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 
 - **Plate X (The Digital Afterlife)**:
   - X/03: Documented official VKontakte platform regulations (VK Help Center / Terms): permanent profile deletion or conversion into a memorial page (*pamiatnaia stranitsa*) with frozen wall, disabled messaging, and preserved public archives upon submission of a death certificate.
+
+
+## Stage 4 (2026-11-17): Lexicon, Timeline, and Geographic Expansion
+
+- **Lexicon expanded from 46 to 56 entries (`data/lexicon.json`, `data/ru/lexicon.json`)**:
+  - Added foundational ethnographic and archaeological terms: `keramida` (glazed burial tile), `koloda` (hollowed log coffin), `tretiny` (third-day wake), `devyatiny` (ninth-day wake), `kanun` (memorial collyba/table), `lesenka` (40th-day stepped ladder bread), `obmyvalshchitsa` (ritual corpse-washer), `pustodomka` (abandoned izba), `leshii` (forest owner spirit), `vodianoi` (water master spirit).
+- **Timeline expanded from 34 to 37 points (`data/timeline.json`, `data/ru/timeline.json`)**:
+  - `t1530`: Earliest dated terracotta keramidy in the Pskov-Caves necropolis.
+  - `t1918`: SNK decree of 7 December 1918 secularizing cemeteries and funeral administration.
+  - `t1996`: Federal Law No. 8-FZ of 12 January 1996 establishing state-guaranteed funeral minimums and commercial funeral markets.
+- **Geographic expansion (`data/places.json`, `data/ru/places.json`, `data/places.geo.json`)**:
+  - Added `ust-tsilma` (Komi Republic, Pechora River) as the 34th locality; reciprocally linked on Plates E and T.
+- **Verification and build**:
+  - Both English and Russian sites regenerated (`node build/build.mjs`).
+  - Validation passed (`node build/validate.mjs`): 0 errors, 0 warnings.
+
+
+## Stage 5 (2026-11-18): Field Archive, Geodata, and Lexicon Expansion
+
+- **Catalogue of Objects expanded from 25 to 28 entries (`data/objects.json`, `data/ru/objects.json`)**:
+  - `golubets`: Roofed grave cross / timber shrine; reciprocally linked on Plate F.
+  - `keramida`: Subterranean relief ceramic or limestone tomb slab; reciprocally linked on Plate R.
+  - `lesenka`: Fortieth-day stepped memorial bread; reciprocally linked on Plate D.
+- **Geographic Network expanded to 36 localities (`data/places.json`, `data/ru/places.json`, `data/places.geo.json`)**:
+  - `zaonezhye`: Historical epicentre of northern funeral laments and Fedosova's recordings on Lake Onega; reciprocally linked on Plates G and O.
+  - `mezen`: Mezen River basin (Arkhangelsk Region), documented for ancestral wooden pillar tombs and roofed crosses; reciprocally linked on Plate F.
+- **Lexicon expanded to 61 terms (`data/lexicon.json`, `data/ru/lexicon.json`)**:
+  - Added key ritual distinctions: `roditeli` (ancestral collective), `novoprestavlennyi` (the newly dead in the first 40 days), `kolivo` (consecrated memorial wheat), `provody` (40th-day soul send-off), `dvorovoi` (yard spirit).
+- **Verification and build**:
+  - Static site fully regenerated in both languages (`node build/build.mjs`).
+  - Validation passed (`node build/validate.mjs`): 192 sections checked, 0 errors, 0 warnings.
