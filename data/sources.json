@@ -1980,6 +1980,41 @@
       "language": "Russian",
       "supports": "Administrative liquidation of Moscow monastic necropolises (Simonov, Danilov, Novospassky), demolition orders, transfer of granite and marble to Metrostroy and municipal trusts, and rezoning as public parks.",
       "limitation": "Focuses on monastic cemeteries in Moscow; does not document provincial Siberian or northern municipal cemetery liquidations."
+    },
+    {
+      "id": "doroshevich1903",
+      "kind": "monograph",
+      "author": "Doroshevich, Vlas Mikhailovich",
+      "title": "Sakhalin (Katorga) [Сахалин (Каторга)]",
+      "year": "1903",
+      "publisher": "I. D. Sytin Typography, Moscow",
+      "extent": "2 vols., 624 pp.",
+      "language": "Russian",
+      "supports": "Eyewitness accounts and photographs of penal servitude on Sakhalin Island; burial of convicts in permafrost mass graves without individual markers.",
+      "limitation": "Journalistic travelogue and documentation; statistics reflect late imperial administrative conditions."
+    },
+    {
+      "id": "solovyov1771",
+      "kind": "historical",
+      "author": "Solovyov, Sergey Mikhailovich",
+      "title": "History of Russia from the Earliest Times. Vol. 28: The Moscow Plague Riot of 1771 [История России с древнейших времён. Т. 28]",
+      "year": "1878",
+      "publisher": "University Typography, Moscow",
+      "language": "Russian",
+      "supports": "The 1771 Moscow plague outbreak, the work of mortuses with iron grappling hooks, the murder of Archbishop Ambrosius, and Catherine the Great’s decrees establishing outer quarantine cemeteries.",
+      "limitation": "19th-century imperial historiography; based on official senate records and contemporary chronicles."
+    },
+    {
+      "id": "memorial-donskoy",
+      "kind": "documentary",
+      "author": "Memorial Society (Roginsky, A. et al.)",
+      "title": "Execution Lists: Moscow, 1934–1953. Donskoy Cemetery, Donskoy Crematorium [Расстрельные списки: Донское кладбище]",
+      "year": "2005",
+      "publisher": "Memorial / Zvenya, Moscow",
+      "extent": "596 pp.",
+      "language": "Russian",
+      "supports": "Archival records of victims of Soviet political terror cremated secretly at night in the Donskoy Crematorium and buried in common pits of uncollected ashes Nos. 1–3.",
+      "limitation": "Primary archival register of verified state executions; excludes unrecorded deaths."
     }
   ]
 }

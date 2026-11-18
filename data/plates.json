@@ -379,6 +379,20 @@
           "sources": [
             "barsov1872"
           ]
+        },
+        {
+          "type": "text",
+          "heading": "Lethargy, Heat, and the Summer Cabin / [18+]",
+          "kicker": "Physiology of decay / [18+]",
+          "paras": [
+            "Russian peasant life lived in permanent terror of premature burial ('obmiranie'—apparent death from comas, typhus lethargy, or catatonia). Peasants applied red-hot iron from the hearth to the soles of the heels, pricked the nail-beds with needles, or held a downy goose feather before the nostrils. Only when the flesh scorched without reflex or when undeniable physical signs of decomposition emerged was the body committed to the coffin.",
+            "In summer months, keeping a corpse for the mandatory three days inside a cramped one-room wooden cabin with children and elderly relatives was a visceral ordeal. To suppress the stench of swelling and rapid putrefaction, the family placed a heavy cast-iron weight or flat fieldstone upon the abdomen, sealed the lips with wax, and continuously burnt dry wild thyme, pine resin, and juniper twigs upon small metal shovels. The line between living household and decomposing dead was kept within a single wooden room."
+          ],
+          "sources": [
+            "kremleva1999",
+            "baiburin1993"
+          ],
+          "level": "documented"
         }
       ],
       "volume": "I"
@@ -2228,7 +2242,9 @@
         "stedelijk-malevich",
         "azbyka-perov",
         "svoboda-malevich-grave",
-        "lermontov1843"
+        "lermontov1843",
+        "rusmuseum",
+        "etkind2013"
       ],
       "related": [
         "b",
@@ -2376,6 +2392,28 @@
           "sources": [
             "lermontov1843"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "toropets-deathbed-merchant",
+          "alt": "Provincial oil portrait of a deceased merchant woman from Toropets lying in state in an open coffin with ornate headdress and hands crossed over chest",
+          "caption": "Deathbed portrait of a merchant woman from Toropets, 19th century (Egorievsk History and Art Museum). Anonymous provincial painter. In merchant and Old Believer families, commissioning a deathbed portrait of an elder was a sacred duty, preserving their features in eternal repose before the coffin was nailed shut.",
+          "credit": "Anonymous, 19th c. / Egorievsk Museum / Wikimedia Commons, Public domain",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Parsuna of Death: Deathbed Portraiture / [18+]",
+          "kicker": "Deathbed portraiture / [18+]",
+          "paras": [
+            "Before the spread of photography, provincial Russian towns and Old Believer communities developed a distinct genre of portraiture: the deathbed parsuna. When a family patriarch or matron died, local icon-painters and self-taught artists were summoned to the house to paint the deceased directly from the open coffin. These paintings were not seen as macabre curiosities, but as solemn sacred testimonies of a completed Christian life.",
+            "The body was depicted in its finest grave clothes, with peaceful countenance and hands folded in prayer holding a cross or icon. Hung in the home’s icon-corner alongside ancestral icons, the deathbed portrait reminded subsequent generations of the inevitability of death (memento mori) and anchored the obligation of daily memorial prayer. Later, in the 1880s–1910s, this provincial artistic impulse transitioned seamlessly into the pervasive Russian practice of funeral photography, where the whole family gathered around the open coffin for a final collective photograph."
+          ],
+          "sources": [
+            "rusmuseum",
+            "etkind2013"
+          ],
+          "level": "documented"
         }
       ],
       "volume": "I"
@@ -2410,7 +2448,10 @@
         "yavarda-crematorium",
         "places-moscow-columbarium",
         "law-8fz-1996",
-        "moscowtimes-burial2012"
+        "moscowtimes-burial2012",
+        "memorial-donskoy",
+        "merridale2000",
+        "mospravda-crematorium"
       ],
       "related": [
         "i",
@@ -2672,6 +2713,29 @@
             "c": "2/12",
             "w": 100
           }
+        },
+        {
+          "type": "figure",
+          "src": "golovin-funeral-1706",
+          "alt": "Engraving of the state funeral procession of Field Marshal-General Fyodor Golovin in Moscow, 1706",
+          "caption": "State funeral of Field Marshal-General Fyodor Golovin, Moscow, 1706. Engraving by Pieter Picart (State Historical Museum, Moscow). Peter the Great personally designed this military-heraldic procession with muffled drums, draped banners, and heralds—the foundational imperial prototype for Russian state funeral choreography.",
+          "credit": "Pieter Picart / State Historical Museum, Public domain",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Night Conveyor of the Donskoy Crematorium / [18+]",
+          "kicker": "The Night Conveyor / [18+]",
+          "paras": [
+            "From 1934 to 1953, the First Moscow Crematorium at the Donskoy Monastery maintained a terrifying double existence. By day, the main hall functioned as a showcase of secular Soviet modernization, hosting public civil commemorations with constructivist decor, Chopin march recordings, and propaganda speeches praising the hygiene of fiery burial.",
+            "By night, covered canvas-topped NKVD trucks arrived through the monastery gates from the execution basements of the Lubyanka, Lefortovo, and Sukhanovka prisons. The corpses of condemned citizens were loaded into the Topf & Söhne ovens without coffins, ceremony, or family notification. The ashes were raked out in the early dawn and shoveled into common pits in an unpaved corner of the Donskoy cemetery—labeled simply 'Common Grave of Unclaimed Ashes No. 1'—swallowing over five thousand victims, from Soviet marshals like Tukhachevsky to writers Isaac Babel, Boris Pilnyak, and theater director Vsevolod Meyerhold."
+          ],
+          "sources": [
+            "merridale2000",
+            "memorial-donskoy",
+            "mospravda-crematorium"
+          ],
+          "level": "documented"
         }
       ],
       "volume": "IV"
@@ -2697,7 +2761,9 @@
         "mertsalova2013",
         "smirnov2015",
         "svoboda-malevich-grave",
-        "antonov2006"
+        "antonov2006",
+        "doroshevich1903",
+        "etkind2013"
       ],
       "related": [
         "j",
@@ -2887,6 +2953,28 @@
           "sources": [
             "mertsalova2013"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "doroshevich-sakhalin-funeral",
+          "alt": "Convicts in leg irons and winter sheepskins carry a rough unpainted wooden coffin through a snowbound slope on Sakhalin Island",
+          "caption": "Funeral of a convict on Sakhalin Island, 1903. Photograph from V. M. Doroshevich’s documentary account 'Sakhalin (Katorga)'. Stripped of civil identity and family ties, convicts carried fellow prisoners to unhallowed mass trenches dug in the permafrost, where death finalized judicial exile without a tombstone.",
+          "credit": "V. M. Doroshevich, 1903 / Wikimedia Commons, Public domain",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "Penal Servitude and the Cold Trench",
+          "kicker": "Katorga death",
+          "paras": [
+            "Dying on the katorga route or in Siberian exile represented the absolute severance of Russian memorial culture. In the peasant worldview, dying without the viaticum and without ancestral soil to receive the flesh stripped the soul of post-mortem peace. On Sakhalin Island, as documented by Vlas Doroshevich in 1903, dead convicts were wrapped in coarse sacking or enclosed in unplaned wooden crates nailed together by fellow inmates.",
+            "The body was carried through arctic blizzards by convicts in leg chains to rocky headlands overlooking the Tatar Strait. In frozen ground, individual graves could not be excavated; corpses accumulated in communal trenches until springtime thaw permitted earth to cover them. The administrative number stamped upon the prison card was deleted, leaving behind neither a cross nor an inscription in parish registers—the definitive oblivion of the unfinished road."
+          ],
+          "sources": [
+            "doroshevich1903",
+            "etkind2013"
+          ],
+          "level": "documented"
         }
       ],
       "volume": "IV"
@@ -3199,7 +3287,9 @@
         "koiva2025",
         "santos2025",
         "zelenin1927",
-        "maksimov1903"
+        "maksimov1903",
+        "solovyov1771",
+        "rozanov-moscow-cemeteries"
       ],
       "related": [
         "e",
@@ -3403,6 +3493,28 @@
           "sources": [
             "maksimov1903"
           ]
+        },
+        {
+          "type": "figure",
+          "src": "plague-riot-ambrosius-1771",
+          "alt": "Engraving of an armed mob storming the courtyard of the Donskoy Monastery during the 1771 Moscow plague outbreak",
+          "caption": "The murder of Archbishop Ambrosius during the Moscow Plague Riot, September 1771. Engraving by Charles-Michel Geoffroy, 1845. Ambrosius removed the miraculous Bogolyubskaya Icon from the Varvarskie Gates to halt contagion among crowds; the terrified populace killed him at the Donskoy Monastery.",
+          "credit": "Charles-Michel Geoffroy, 1845 / Wikimedia Commons, Public domain",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Plague Riot, the Mortuses, and the Quarantine Belt / [18+]",
+          "kicker": "Catastrophic pestilence / [18+]",
+          "paras": [
+            "In the autumn of 1771, bubonic plague engulfed Moscow, killing over a thousand inhabitants daily. To clear infested dwellings, the authorities recruited 'mortuses'—convicts and galley slaves promised full pardons if they survived. Dressed in full-body waxed tar overalls with narrow eye-slits, mortuses walked the empty streets with long iron gaffs and tongs, hauling decomposing corpses from windows and doorways onto carts.",
+            "The terror reached its peak when Archbishop Ambrosius attempted to prevent infection by confiscating the icon at the Varvarskie Gates. The mob accused him of treason and bludgeoned him to death in the Donskoy Monastery. In response, Catherine the Great dispatched Count Grigory Orlov with military regiments, quelled the uprising, and issued the landmark Senate decree of November 1771. It prohibited all further burials within the city and at church parvises, establishing Moscow’s historical quarantine cemetery belt beyond the Kamer-Kollezhsky rampart (Vagankovskoye, Rogozhskoye, Kalitnikovskoye, Danilovskoye)."
+          ],
+          "sources": [
+            "solovyov1771",
+            "rozanov-moscow-cemeteries"
+          ],
+          "level": "documented"
         }
       ]
     },
@@ -4647,7 +4759,8 @@
         "dynin1994",
         "tolstaya2024",
         "maksimov1903",
-        "barsov1872"
+        "barsov1872",
+        "bre-semik"
       ],
       "related": [
         "e",
@@ -4995,6 +5108,20 @@
           "sources": [
             "zelenin1927"
           ]
+        },
+        {
+          "type": "text",
+          "heading": "Exhumation, Stake, and Bog / [18+]",
+          "kicker": "Archaic terror / [18+]",
+          "paras": [
+            "Dmitry Zelenin documented the most extreme ritual reaction of the Russian peasantry to natural catastrophes: the illegal exhumation and mutilation of the unquiet dead. Whenever prolonged drought scorched crops or unseasonal frosts threatened collective starvation, the village community held the 'unclean' dead responsible—believing that earth refused their corpses and that the dead withheld moisture from above.",
+            "Peasants formed mobs to dig up the graves of suicides, drowned persons, or alleged sorcerers. They decapitated the decomposing corpses with spades, hammered aspen stakes directly through the sternum into the soil, or dragged the exhumed body to the nearest peat bog to submerge it in stagnant slime. The practice was so pervasive that Patriarch Philaret issued a fierce patriarchal missive in 1619 condemning it under penalty of anathema, yet ethnographers recorded persistent incidents across northern and Volga provinces well into the late nineteenth century."
+          ],
+          "sources": [
+            "zelenin1916",
+            "bre-semik"
+          ],
+          "level": "documented"
         }
       ]
     },
