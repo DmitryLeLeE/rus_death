@@ -237,8 +237,19 @@ const origOf = (id) => {
 const creditOf = (id) => {
   const o = origOf(id);
   if (!o) return "";
+  let creator = o.creator || "";
+  if (LANG === "ru") {
+    creator = creator
+      .replace(/^Derivative made for this atlas( from the .*?)?$/, "Обработка для настоящего атласа")
+      .replace(/^Unknown photographer\b/i, "Неизвестный фотограф")
+      .replace(/^Unknown icon painter\b/i, "Неизвестный иконописец")
+      .replace(/^Unknown artist\b/i, "Неизвестный художник")
+      .replace(/Wikimedia Commons contributor \(released CC0\)/i, "Участник Викисклада (CC0)");
+  } else {
+    creator = creator.replace(/^Derivative made for this atlas( from the .*?)?$/, "Derivative processing by the atlas");
+  }
   const lic = (o.license || "").replace(/ \(derived.*\)/, "");
-  return `${o.creator.replace(/^Derivative made for this atlas( from the .*?)?$/, "Derivative processing by the atlas")} · ${lic}`;
+  return `${creator} · ${lic}`;
 };
 const dims = (id) => (DER[id] ? ` width="${DER[id].w}" height="${DER[id].h}"` : "");
 const fileOf = (id, base) => `${UP}${base}${IMG[id] ? IMG[id].file : `assets/derived/${id}.webp`}`;
@@ -320,8 +331,9 @@ function quote(s) {
 }
 
 function diagramFig(s, base) {
-  return `<figure class="drawing${/\.svg$/.test((IMG[s.src] || {}).file || "") ? " drawing--sheet" : ""}${s.size === "wide" ? " drawing--wide" : ""}">
-  <img src="${UP}${base}assets/illustrations/${s.src}.svg" alt="${esc(s.alt || "")}" loading="lazy" decoding="async">
+  const src = (LANG === "ru" && (IMG[`${s.src}-ru`] || fileExists(path.join("assets/illustrations", `${s.src}-ru.svg`)))) ? `${s.src}-ru` : s.src;
+  return `<figure class="drawing${/\.svg$/.test((IMG[src] || {}).file || "") ? " drawing--sheet" : ""}${s.size === "wide" ? " drawing--wide" : ""}">
+  <img src="${UP}${base}assets/illustrations/${src}.svg" alt="${esc(s.alt || "")}" loading="lazy" decoding="async">
   <figcaption class="cap">${md(s.caption)} ${s.credit ? `<span class="cap__credit">${esc(s.credit)}</span>` : ""} ${s.level ? tag(s.level) : ""}</figcaption>
 </figure>`;
 }
@@ -1268,10 +1280,48 @@ function archivePage() {
   }
   const kinds = ["photograph", "painting", "icon", "print", "plate", "plan", "diagram"];
   const derivs = (id) => imagesDoc.images.filter((i) => i.parent === id).length;
+  const localizeArchive = (s) => {
+    if (LANG !== "ru" || !s) return s;
+    let r = s;
+    r = r.replace(/^Photograph\b/i, "Фотография")
+         .replace(/^Photographic print on a carte-de-visite mount/i, "Фотоотпечаток на визитной карточке")
+         .replace(/^Photograph of a museum object/i, "Фотография музейного предмета")
+         .replace(/^Photograph \(negative scan\)/i, "Фотография (скан негатива)")
+         .replace(/^Photograph \(Wiki Loves Monuments \d+\)/i, "Фотография (конкурс «Вики любит памятники»)")
+         .replace(/^Painting; reproduction/i, "Картина (репродукция)")
+         .replace(/^Oil painting/i, "Масляная живопись")
+         .replace(/^Oil on canvas/i, "Холст, масло")
+         .replace(/^Tempera on wood/i, "Дерево, темпера")
+         .replace(/^Hand-made lubok/i, "Народный лубок")
+         .replace(/^Hand-coloured popular print/i, "Раскрашенная гравюра (лубок)")
+         .replace(/^Woodcut lubok/i, "Ксилографический лубок")
+         .replace(/^Engraving in an illustrated magazine; reproduction/i, "Гравюра в журнале (репродукция)")
+         .replace(/^Wood engraving/i, "Гравюра на дереве")
+         .replace(/^Vector drawing \(SVG\)/i, "Векторный чертёж (SVG)")
+         .replace(/^Digital photograph/i, "Цифровая фотография")
+         .replace(/^Stereograph, one print/i, "Стереопара, фотоотпечаток")
+         .replace(/^Satellite image/i, "Спутниковый снимок")
+         .replace(/^Unknown photographer\b/i, "Неизвестный фотограф")
+         .replace(/^Unknown icon painter\b/i, "Неизвестный иконописец")
+         .replace(/^Unknown artist\b/i, "Неизвестный художник")
+         .replace(/Wikimedia Commons contributor \(released CC0\)/i, "Участник Викисклада (CC0)")
+         .replace(/Attribution required; adaptation permitted under the same licence\./gi, "Требуется указание авторства; производные произведения под той же лицензией.")
+         .replace(/Attribution required; adaptation permitted under the same license \(CC BY-SA 3\.0\)\./gi, "Требуется указание авторства; производные произведения под той же лицензией (CC BY-SA 3.0).")
+         .replace(/Attribution required; adaptation permitted under the same license \(CC BY-SA 4\.0\)\./gi, "Требуется указание авторства; производные произведения под той же лицензией (CC BY-SA 4.0).")
+         .replace(/Attribution required; adaptation \(cropping\) permitted under the same licence\./gi, "Требуется указание авторства; кадрирование разрешено лицензией.")
+         .replace(/Attribution required; share-alike applies to adaptations\./gi, "Требуется указание авторства; сохранение условий лицензии для производных работ.")
+         .replace(/Attribution required\./gi, "Требуется указание авторства.")
+         .replace(/Released to the public domain \(CC0\); credit given as courtesy\./gi, "Передано в общественное достояние (CC0); авторство указано из вежливости.")
+         .replace(/No attribution required; credited anyway\./gi, "Указание авторства не требуется; указано добровольно.")
+         .replace(/Public domain in the United States and Russia\./gi, "Общественное достояние в России и США.")
+         .replace(/The reproduction is a photographic copy of a two-dimensional public-domain work\./gi, "Репродукция двухмерного произведения искусства в общественном достоянии.")
+         .replace(/The reproduction is a photographic copy of a two-dimensional work of art in the public domain\./gi, "Репродукция двухмерного произведения искусства в общественном достоянии.");
+    return r;
+  };
   const card = (im) => `<li class="arch" id="arch-${im.id}"><h3 class="arch__t">${esc((LANG === "ru" && im.title_ru) || im.title)}</h3>
-  <p class="arch__m mono">${esc(im.creator || "")} · ${esc(im.date || "")}${im.collection ? ` · ${esc(im.collection)}` : ""}</p>
-  <p class="arch__m mono">${esc(im.medium || "")}${im.class ? ` · ${esc(X.classes[im.class] || im.class)}` : ""}</p>
-  <p class="arch__n">${esc(im.note || "")}</p>
+  <p class="arch__m mono">${esc(localizeArchive(im.creator || ""))} · ${esc(im.date || "")}${im.collection ? ` · ${esc(im.collection)}` : ""}</p>
+  <p class="arch__m mono">${esc(localizeArchive(im.medium || ""))}${im.class ? ` · ${esc(X.classes[im.class] || im.class)}` : ""}</p>
+  <p class="arch__n">${esc(localizeArchive(im.note || ""))}</p>
   <p class="arch__l mono">${im.license_url ? `<a href="${im.license_url}" rel="noopener">${esc(im.license)}</a>` : esc(im.license || "")}${im.source_page && /^https?:/.test(im.source_page) ? ` · <a href="${im.source_page}" rel="noopener">${X.source}</a>` : ""}${derivs(im.id) ? ` · ${derivs(im.id)} ${X.derived}` : ""}</p>
   <p class="arch__p mono">${(usedBy[im.id] || []).map((id) => `<a href="${plateHref(id, base)}">${PLATE[id].letter}</a>`).join(" · ") || X.unused}</p></li>`;
   const groups = kinds.map((k) => ({ k, items: originals.filter((i) => i.kind === k) })).filter((g) => g.items.length)
@@ -1452,7 +1502,7 @@ for (const lang of ["en", "ru"]) {
 <link rel="canonical" href="${SITE}${pre}atlas.html">
 <script>location.replace("../atlas.html" + location.search + location.hash);</script>
 </head>
-<body><p>Redirecting to <a href="../atlas.html">Atlas</a>…</p></body>
+<body><p>${LANG === "ru" ? "Переход к указателю…" : "Redirecting to Atlas…"}</p></body>
 </html>`);
   for (const p of plates.plates) {
     write(`${pre}plates/${p.id}-${p.slug}.html`, renderPlate(p));
