@@ -110,6 +110,48 @@
           "why": "Back to the rite that frames both."
         }
       ]
+    },
+    {
+      "id": "unseen-border",
+      "title": "The unseen border",
+      "dek": "Household guardians, the calendar of memory, and the unquiet dead: how the unseen was managed and kept away.",
+      "steps": [
+        {
+          "plate": "s",
+          "why": "The domestic hearth, the threshold, and the master under the stove."
+        },
+        {
+          "plate": "t",
+          "why": "Those excluded from canonical burial: the unquiet dead and local taxonomies of unnatural death."
+        },
+        {
+          "plate": "u",
+          "why": "The seasonal rhythm of memory and the days set aside for the unquiet."
+        },
+        {
+          "plate": "v",
+          "why": "Concrete prohibitions, apotropaic charms, and the dread of the mirror's reflection."
+        }
+      ]
+    },
+    {
+      "id": "matter-and-afterlife",
+      "title": "Stone, rubble, and the network",
+      "dek": "From subterranean medieval crypts and demolished urban churchyards to the preserved social media profile.",
+      "steps": [
+        {
+          "plate": "r",
+          "why": "Subterranean catacombs and the ceramic memorial slabs of monastic burial."
+        },
+        {
+          "plate": "w",
+          "why": "How Soviet urban planning repurposed gravestones as construction material and parks."
+        },
+        {
+          "plate": "x",
+          "why": "The digital remains: memorial pages, algorithmic mourning, and platform policies."
+        }
+      ]
     }
   ]
 }

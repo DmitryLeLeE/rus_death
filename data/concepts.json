@@ -184,6 +184,43 @@
         "o",
         "n"
       ]
+    },
+    {
+      "id": "sacral-feeding",
+      "name": "Sacral Feeding",
+      "gloss": "The ritual feeding of the dead with hot steam, memory-meal courses, kolivo, and commemorative drinks.",
+      "description": "Used for practices based on the belief that the dead consume nourishment through steam, smell, or symbolic portions set aside on window sills, icon shelves, and grave mounds. Contrasts with Christian almsgiving, though frequently syncretized with it.",
+      "plates": [
+        "d",
+        "c",
+        "u",
+        "a"
+      ]
+    },
+    {
+      "id": "apotropaic-taboo",
+      "name": "Apotropaic Taboo",
+      "gloss": "Ritual prohibitions protecting the household and the living from the contagious or destructive gaze of the dead.",
+      "description": "Encompasses the covering of reflective surfaces (mirrors, polished glass), prohibitions against sweeping or throwing out garbage while the dead remains in the house, carrying the corpse feet-first, and avoiding looking back when departing the cemetery.",
+      "plates": [
+        "v",
+        "a",
+        "b",
+        "p"
+      ]
+    },
+    {
+      "id": "liminality",
+      "name": "Liminality",
+      "gloss": "The transitional state between life and completed death, marked by spatial, temporal, and social borders.",
+      "description": "Covers the critical transitional intervals (the forty days, the journey to the cemetery), spatial thresholds (doors, windows, river ferries, crossroads), and intermediate conditions where the soul has departed the flesh but not yet settled in the otherworld.",
+      "plates": [
+        "a",
+        "b",
+        "c",
+        "e",
+        "p"
+      ]
     }
   ]
 }

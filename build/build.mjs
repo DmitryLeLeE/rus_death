@@ -925,7 +925,7 @@ function bibliographyPage() {
     <p class="bib__no mono">${esc(im.id.toUpperCase())}</p>
     <p class="bib__cite">${esc(im.creator)}. <em>${esc(im.title)}</em>${im.date ? `, ${esc(im.date)}` : ""}. ${esc(im.medium || "")}${im.collection && im.collection !== "—" ? `. ${esc(im.collection)}` : ""}.</p>
     <p class="bib__lic mono">${esc(im.license)}${im.license_url ? ` — <a href="${esc(im.license_url)}" rel="noopener">${esc(im.license_url)}</a>` : ""}</p>
-    <p class="bib__url mono"><a href="${esc(im.source_page)}" rel="noopener">${esc(im.source_page)}</a></p>
+    <p class="bib__url mono">${im.source_page && /^https?:/.test(im.source_page) ? `<a href="${esc(im.source_page)}" rel="noopener">${esc(im.source_page)}</a>` : esc(im.source_page || "—")}</p>
     <p class="bib__lim">${esc(im.note)}</p>
   </li>`).join("\n");
 
@@ -1208,7 +1208,7 @@ function archivePage() {
   <p class="arch__m mono">${esc(im.creator || "")} · ${esc(im.date || "")}${im.collection ? ` · ${esc(im.collection)}` : ""}</p>
   <p class="arch__m mono">${esc(im.medium || "")}${im.class ? ` · ${esc(X.classes[im.class] || im.class)}` : ""}</p>
   <p class="arch__n">${esc(im.note || "")}</p>
-  <p class="arch__l mono">${im.license_url ? `<a href="${im.license_url}" rel="noopener">${esc(im.license)}</a>` : esc(im.license || "")} · <a href="${im.source_page}" rel="noopener">${X.source}</a>${derivs(im.id) ? ` · ${derivs(im.id)} ${X.derived}` : ""}</p>
+  <p class="arch__l mono">${im.license_url ? `<a href="${im.license_url}" rel="noopener">${esc(im.license)}</a>` : esc(im.license || "")}${im.source_page && /^https?:/.test(im.source_page) ? ` · <a href="${im.source_page}" rel="noopener">${X.source}</a>` : ""}${derivs(im.id) ? ` · ${derivs(im.id)} ${X.derived}` : ""}</p>
   <p class="arch__p mono">${(usedBy[im.id] || []).map((id) => `<a href="${plateHref(id, base)}">${PLATE[id].letter}</a>`).join(" · ") || X.unused}</p></li>`;
   const groups = kinds.map((k) => ({ k, items: originals.filter((i) => i.kind === k) })).filter((g) => g.items.length)
     .map((g) => `<section class="arch-group"><h2 class="mono arch-group__h">${X.kinds[g.k]} · ${g.items.length}</h2><ol class="arch-list">${g.items.map(card).join("\n")}</ol></section>`).join("\n");

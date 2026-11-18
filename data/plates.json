@@ -48,7 +48,10 @@
         "threshold",
         "soul",
         "return",
-        "guardian"
+        "guardian",
+        "sacral-feeding",
+        "apotropaic-taboo",
+        "liminality"
       ],
       "objects": [
         "candle",
@@ -212,7 +215,9 @@
       ],
       "concepts": [
         "purification",
-        "mourning"
+        "mourning",
+        "apotropaic-taboo",
+        "liminality"
       ],
       "objects": [
         "coffin",
@@ -399,7 +404,9 @@
         "remembrance",
         "mourning",
         "debt",
-        "calendar"
+        "calendar",
+        "sacral-feeding",
+        "liminality"
       ],
       "objects": [
         "candle",
@@ -611,7 +618,8 @@
         "remembrance",
         "threshold",
         "debt",
-        "calendar"
+        "calendar",
+        "sacral-feeding"
       ],
       "objects": [
         "kutia",
@@ -838,7 +846,8 @@
         "abandonment",
         "threshold",
         "debt",
-        "unclean-death"
+        "unclean-death",
+        "liminality"
       ],
       "objects": [
         "grave-marker",
@@ -1709,7 +1718,8 @@
         "zelenin1927",
         "barsov1872",
         "sedakova2020",
-        "dronova2024"
+        "dronova2024",
+        "bessonov1861"
       ],
       "related": [
         "a",
@@ -1887,6 +1897,15 @@
           "level": "documented",
           "sources": [
             "funeral-sticheron"
+          ]
+        },
+        {
+          "type": "text",
+          "kicker": "Spiritual verse",
+          "voice": "golubi-stikh",
+          "level": "documented",
+          "sources": [
+            "bessonov1861"
           ]
         }
       ],
@@ -3661,7 +3680,9 @@
       ],
       "concepts": [
         "threshold",
-        "memory"
+        "memory",
+        "apotropaic-taboo",
+        "liminality"
       ],
       "objects": [
         "cross",
@@ -4994,7 +5015,8 @@
       "concepts": [
         "memory",
         "return",
-        "calendar"
+        "calendar",
+        "sacral-feeding"
       ],
       "objects": [],
       "places": [
@@ -5283,7 +5305,8 @@
       "concepts": [
         "threshold",
         "purification",
-        "guardian"
+        "guardian",
+        "apotropaic-taboo"
       ],
       "objects": [
         "mirror",

@@ -430,3 +430,24 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
 - **Verification and build**:
   - Static site fully regenerated in both languages (`node build/build.mjs`).
   - Validation passed (`node build/validate.mjs`): 192 sections checked, 0 errors, 0 warnings.
+
+
+## Stage 6 (2026-11-18): Reading Routes, Concepts Network, and Spiritual Verse Integration
+
+- **Reading Routes Expanded from 5 to 7 (`data/routes.json`, `data/ru/routes.json`)**:
+  - Added route 6: `unseen-border` ("The Unseen Border: Domestic Hearth to Demonic Wild" / "Незримый рубеж: от домашнего очага к бесовской глуши"), encompassing Plates S, T, U, V (domestic spirits, the unquiet dead, the calendar of the dead, taboos).
+  - Added route 7: `matter-and-afterlife` ("Matter and Afterlife: Caves, Rubble, and Servers" / "Материя и посмертие: пещеры, щебень и серверы"), encompassing Plates R, W, X (underground caves and keramidy, repurposing of gravestones, digital memorialization).
+  - Complete coverage: All 24 plates (A through X) are now fully woven into the curated thematic reading routes.
+- **Concepts Network expanded from 16 to 19 concepts (`data/concepts.json`, `data/ru/concepts.json`)**:
+  - `sacral-feeding` (Сакральное кормление): Feeding the dead with steam, commemorative courses, and kolivo; reciprocally linked on Plates D, C, U, A.
+  - `apotropaic-taboo` (Апотропеические запреты): Prohibitions shielding the living from mortal contagion (covered mirrors, sweeping bans, carry-out orientation); reciprocally linked on Plates V, A, B, P.
+  - `liminality` (Лиминальность): The 40-day transition, threshold spaces, and intermediate ontological states; reciprocally linked on Plates A, B, C, E, P.
+- **Primary Source & Folk Spiritual Verse Addition (`data/sources.json`, `data/songs.json`, and `data/ru/`)**:
+  - Added primary source `bessonov1861`: P. A. Bessonov, *Kaliki perekhozhie: sbornik stikhov i issledovanie*, vyp. 1 (Moscow, 1861).
+  - Added folk spiritual verse `golubi-stikh`: *«Уж вы голуби, уж вы белые (Стих о расставании души с телом)»* with complete Russian original, line-by-line English translation, historical commentary, and glossary.
+  - Added new documented text section to Plate H (The Afterlife), creating a direct juxtaposition between official liturgical hymnody (*funeral-sticheron*) and vernacular peasant eschatology (*golubi-stikh*).
+- **Verification and build**:
+  - Static site fully regenerated in both languages (`node build/build.mjs`).
+  - Validation passed (`node build/validate.mjs`): 193 sections checked, 0 errors, 0 warnings.
+  - Asset credits checked (`node build/check_credits.mjs`): 0 errors.
+

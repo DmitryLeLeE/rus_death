@@ -1877,6 +1877,21 @@
       "language": "Russian",
       "supports": "Official platform policy regarding accounts of deceased users: deletion upon presentation of death certificate and proof of kinship, or transformation into a memorial profile ('Pamiatnaia stranitsa') with locked wall, disabled messaging, and preserved public archives.",
       "limitation": "Platform terms and operational user agreement rules; establishes the formal regulatory protocol for digital remains."
+    },
+    {
+      "id": "bessonov1861",
+      "kind": "primary",
+      "author": "Pyotr Alekseyevich Bessonov",
+      "title": "Kaliki perekhozhie: sbornik stikhov i issledovanie",
+      "year": "1861",
+      "publisher": "Tipografiia A. Semena, Moscow",
+      "extent": "vyp. 1, part 1",
+      "url": "https://archive.org/details/kalikiperekhozh01bessgoog",
+      "accessed": "2026-11-18",
+      "language": "Russian",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "supports": "Traditional spiritual verse on the parting of the soul from the body («Уж вы голуби, уж вы белые…»), representing the oral vernacular Orthodox narrative of the afterlife and guardian angels.",
+      "limitation": "Recorded from traditional singers and 19th-century manuscript psalm-books; reflects oral variant traditions rather than a canonical Church text."
     }
   ]
 }

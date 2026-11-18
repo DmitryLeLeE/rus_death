@@ -664,6 +664,116 @@
           "gloss": "Married (in the church rite); here used metaphorically of the arrow that kills him."
         }
       ]
+    },
+    {
+      "id": "golubi-stikh",
+      "title_ru": "Уж вы голуби, уж вы белые",
+      "title_en": "O you doves, you white doves (Verse on the Parting of Soul and Body)",
+      "first_line": "— Уж вы голуби, уж вы белые!",
+      "genre": "Spiritual verse / memorial psalm",
+      "genre_ru": "Духовный стих / поминальный стих",
+      "author": "Anonymous (traditional folk)",
+      "date": "recorded 19th century; older oral tradition",
+      "published": "P. A. Bessonov, Kaliki perekhozhie, vyp. 1 (Moscow, 1861)",
+      "source_id": "bessonov1861",
+      "source_detail": "P. A. Bessonov, Kaliki perekhozhie: sbornik stikhov i issledovanie, vyp. 1 (Moscow, 1861), stikh 17.",
+      "source_url": "https://archive.org/details/kalikiperekhozh01bessgoog",
+      "rights": "PUBLIC_DOMAIN_VERIFIED",
+      "rights_evidence": "Bessonov died in 1898; the collection was published in 1861. Traditional folk text in the public domain in Russia and the United States.",
+      "plate": [
+        "H",
+        "B",
+        "A"
+      ],
+      "status": "complete",
+      "original": [
+        [
+          "— Уж вы голуби, уж вы белые!",
+          "— Мы не голуби, мы не белые,",
+          "А мы ангелы, мы хранители,",
+          "Праведным душам покровители,",
+          "А грешным душам избавители."
+        ],
+        [
+          "По воздуху мы летали,",
+          "Чуду дивную видали:",
+          "Как душа с телом расставалася,",
+          "Расставалася, прощалася:"
+        ],
+        [
+          "«Прощай, тело, прощай, белое!",
+          "Тебе, тело, в сыру землю идти,",
+          "В сыру землю идти, во сырой земле гнить,",
+          "А мне, душе, на суд праведный идти,",
+          "Отвечать Христу за грехи свои». "
+        ],
+        [
+          "Повели душу мимо рая.",
+          "Возговорит рай пресветлый:",
+          "«Что ж ты, душа, мимо рая прошла,",
+          "Мимо рая прошла, в рай не зашла?"
+        ],
+        [
+          "А у нас-то в раю жить весело,",
+          "Цветы цветут неувядаемо,",
+          "Поют птицы райские,",
+          "Поют песнь серафимскую:",
+          "Аллилуйя, аллилуйя, слава Тебе, Боже!»"
+        ]
+      ],
+      "translation": [
+        [
+          "“O you doves, you white doves!”",
+          "“We are not doves, we are not white doves,",
+          "We are guardian angels,",
+          "Protectors of righteous souls,",
+          "And deliverers of sinful souls."
+        ],
+        [
+          "Through the air we flew,",
+          "A wondrous marvel we saw:",
+          "How the soul parted from the body,",
+          "Parted and took its farewell:"
+        ],
+        [
+          "‘Farewell, body, farewell, white body!",
+          "For you, body, it is to go into the damp earth,",
+          "To go into the damp earth, to rot in the damp earth,",
+          "And for me, the soul, it is to go to the righteous judgment,",
+          "To answer to Christ for my sins.’"
+        ],
+        [
+          "They led the soul past Paradise.",
+          "All-bright Paradise spoke aloud:",
+          "‘Why, soul, have you passed by Paradise,",
+          "Passed by Paradise and not entered in?"
+        ],
+        [
+          "For in Paradise it is joyful to live,",
+          "Flowers bloom that never fade,",
+          "Birds of Paradise sing,",
+          "Singing the song of the seraphim:",
+          "Alleluia, alleluia, glory to Thee, O God!’”"
+        ]
+      ],
+      "context": [
+        "A canonical Russian spiritual verse (dukhovnyi stikh), performed by wandering blind psalm-singers (kaliki perekhozhie) and village mourners at memorial meals, wakes, and church porches. The dialogue between the parting soul and guardian angels (appearing in the likeness of white doves) encapsulates the folk-theological drama of bodily decay versus spiritual trial.",
+        "In vernacular Orthodoxy, the body belongs irrevocably to the damp earth (syraia zemlia), while the soul embarks on an aerial transit past Paradise and the angelic realms to the divine judgment. Bessonov recorded numerous variants across central and northern provinces. In Plate H, this oral folk text stands beside the canonical liturgical sticheron, contrasting Church dogma with vernacular verse."
+      ],
+      "notes": [
+        {
+          "term": "ангелы-хранители",
+          "gloss": "Guardian angels; in vernacular belief, they escort the newly departed soul through the air to judgment."
+        },
+        {
+          "term": "сыра земля",
+          "gloss": "Damp earth; the traditional poetic formula for the soil receiving the decomposing body."
+        },
+        {
+          "term": "суд праведный",
+          "gloss": "The righteous or particular judgment (chastnyi sud) undergone by the individual soul after bodily death."
+        }
+      ]
     }
   ]
 }

@@ -48,7 +48,7 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Map | 36 localities, with what the sources say of each |
 | Chronology | 37 points and caesuras, filterable by period |
 | Words | Lexicon of the Russian terms the atlas uses (61 entries) |
-| Reading routes | Five paths through the plates |
+| Reading routes | Seven paths through the plates, covering all 24 compositions |
 | Claim ledger | Every section of every plate with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |
 | Sources | Bibliography with what each source can and cannot support; image credits |

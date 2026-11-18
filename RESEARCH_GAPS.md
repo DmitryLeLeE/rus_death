@@ -77,7 +77,7 @@ Searches were run in the built-in browser; the site’s search handles short que
 | E | Tolstaya 2024; Dronova 2024 (novoprestavlennyi vs roditeli; Pechora dream accounts) | |
 | F | Rozanov; Danilov; Permilovskaya 2013 (roofed crosses / golubtsy across North); Belova & Levkievskaya 2004 (orientation, Synod bans) | |
 | G | Barsov vol. 1; Kuznetsova & Kovyrshina 2000 (second-person dialogic verified); Iugai | lament texts (not reproduced); vols 2–3 unread |
-| H | Skrizhal; Sedakova 2020 & Dronova 2024 (children and unbaptised; angels vs kukiata); Azbyka | |
+| H | Skrizhal; Sedakova 2020 & Dronova 2024 (children and unbaptised; angels vs kukiata); Bessonov 1861 (spiritual verse on soul parting from body); Azbyka | |
 | I | Nikolaev 2012; Koroleva et al. 2015; Butovo memorial register; 1771 plague demographic audit | |
 | J | Tretyakov; Soldatenkov patronage; Stasov 1865 reception of Perov; Malevich supremacist funeral | |
 | K | SNK decree 1918; Tehne 1925/27; 8-FZ 1996; Moscow commercial funeral market | |
