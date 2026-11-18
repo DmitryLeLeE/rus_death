@@ -1967,6 +1967,19 @@
       "rights": "PUBLIC_DOMAIN_VERIFIED",
       "supports": "Poetic documentation of the deserted Russian wooden dwelling: dust over the icon, cold stove, and fading ancestral shadows.",
       "limitation": "Symbolist-realist literary verse; reflects intellectual perception of rural depopulation rather than ethnographic testimony."
+    },
+    {
+      "id": "smirnov2012",
+      "kind": "article",
+      "author": "S. V. Smirnov",
+      "title": "Likvidatsiia moskovskikh monastyrskikh nekropolei v 1920–1930-kh godakh",
+      "year": "2012",
+      "publisher": "Vestnik PSTGU, Seriia II: Istoriia, vyp. 6 (49), pp. 25–40",
+      "url": "https://cyberleninka.ru/article/n/likvidatsiya-moskovskih-monastyrskih-nekropoley-v-1920-1930-h-gg",
+      "accessed": "2026-11-18",
+      "language": "Russian",
+      "supports": "Administrative liquidation of Moscow monastic necropolises (Simonov, Danilov, Novospassky), demolition orders, transfer of granite and marble to Metrostroy and municipal trusts, and rezoning as public parks.",
+      "limitation": "Focuses on monastic cemeteries in Moscow; does not document provincial Siberian or northern municipal cemetery liquidations."
     }
   ]
 }

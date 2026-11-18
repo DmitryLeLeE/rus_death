@@ -479,3 +479,19 @@ Seven photographs placed (T, W ×2, M, Q, V, P) as appended figures with caption
   - Asset credits checked (`node build/check_credits.mjs`): 178 visual assets registered, 0 errors.
 
 
+## Stage 8 (2026-11-18): Visual & Bibliographic Strengthening across Plates P, W, Y, Z
+
+- **Visual Asset Integration on Plates Y & Z**:
+  - **Plate Y (The Military Cenotaph)**: Placed archival photograph `soldier-flowers` (I. Burov / Glavarkhiv Moscow, 1979) documenting the laying of floral tributes at the Kremlin Tomb of the Unknown Soldier, embodying the collective cenotaph.
+  - **Plate Z (Oblivion and Reclamation)**: Placed documentary photograph `keret-graves-faded` (Cornussuec, 2023) documenting the abandoned island cemetery at Keret Archipelago (White Sea), showing rotting wooden crosses and collapsing grave fences dissolving into forest turf and birch scrub.
+- **Source Expansion on Plates P & W**:
+  - **Plate P (Roads and Crossroads)**: Expanded sources from 3 to 5. Integrated D. K. Zelenin (*Очерки русской мифологии*, 1916, pp. 129–138) on the burial of suicides and unbaptised infants at crossroads to disorient the returning ghost, and S. V. Maksimov (1903) on votive crosses at fork roads.
+  - **Plate W (The Materials of Abandonment)**: Expanded sources from 3 to 5. Integrated peer-reviewed historical study by S. V. Smirnov (2012, *Вестник ПСТГУ*) detailing the administrative mechanism of Mossovet decisions (1928–1934) for liquidating monastic necropolises (Simonov, Danilov, Novospassky), transferring marble/granite to Metrostroy and paving trusts, and rezoning ground as culture parks; integrated Mertsalova (2013).
+- **Verification and build**:
+  - Static site fully regenerated in both languages (`node build/build.mjs`).
+  - Validation passed (`node build/validate.mjs`): 205 sections checked, 0 errors, 0 warnings.
+  - Link integrity verified (`node build/check_links.mjs`): 12,366 local references checked, 0 broken references.
+  - Asset credits checked (`node build/check_credits.mjs`): 178 visual assets registered, 0 errors.
+
+
+

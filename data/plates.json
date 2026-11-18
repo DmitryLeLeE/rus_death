@@ -3690,7 +3690,9 @@
       "sources": [
         "krinichnaya1997",
         "matlin2021",
-        "matlin2022"
+        "matlin2022",
+        "zelenin1916",
+        "maksimov1903"
       ],
       "related": [
         "n",
@@ -3743,12 +3745,15 @@
           "heading": "A crossing as a burial ground",
           "level": "reconstruction",
           "sources": [
-            "krinichnaya1997"
+            "krinichnaya1997",
+            "zelenin1916",
+            "maksimov1903"
           ],
           "paras": [
             "Krinichnaya traces burial at crossroads to ancestor cults. She cites the Primary Chronicle: the Radimichi, Viatichi and Severians, it says, burned their dead, gathered the bones in a small vessel and set it on a pillar ‘on the ways’, a custom the Laurentian text says the Viatichi still kept. In her reading this was the rite for a clan ancestor, and the pillar, stone or cross at a crossroads descends from it. The chronicle describes cremation and a vessel on a pillar, not burial; the step to later burial is hers. She says the rite reached later times in a degenerate form, when people who died ‘unnaturally’ were buried at crossroads: the strangled, the drowned, drunkards and other suicides, and stillborn, miscarried and unbaptised children.",
             "This is a reconstruction. It rests on fragmentary and often nineteenth-century records and on the idea of survivals, and the author’s own framing makes much of it hypothetical. The plate offers it as one scholar’s argument. It does not establish that any particular dead person was buried at any particular crossing.",
-            "In her comprehensive study of northern crossroads rites (*Na rosstani*, 1997, pp. 32–45), N. A. Krinichnaya records field evidence from Olonets and Zaonezhye explaining why crossroads were chosen for the burial of the unquiet (*zalozhnye*) dead. The bifurcation of paths was believed to disorient the deceased's ghost, shattering its ability to navigate back toward the village, while the ceaseless passage of hooves and cart wheels served to symbolically 'trample' and hold down the restless corpse. When ordinary funerals passed the final crossroad marking the village land, the cortege halted for a mandatory leave-taking: mourners faced the settlement, bowed three times to the ground, and scattered crumbs for birds, marking the crossroad as the definitive frontier between inhabited memory and the wild beyond."
+            "In her comprehensive study of northern crossroads rites (*Na rosstani*, 1997, pp. 32–45), N. A. Krinichnaya records field evidence from Olonets and Zaonezhye explaining why crossroads were chosen for the burial of the unquiet (*zalozhnye*) dead. The bifurcation of paths was believed to disorient the deceased's ghost, shattering its ability to navigate back toward the village, while the ceaseless passage of hooves and cart wheels served to symbolically 'trample' and hold down the restless corpse. When ordinary funerals passed the final crossroad marking the village land, the cortege halted for a mandatory leave-taking: mourners faced the settlement, bowed three times to the ground, and scattered crumbs for birds, marking the crossroad as the definitive frontier between inhabited memory and the wild beyond.",
+            "Zelenin (1916, pp. 129–138) notes the custom of burying suicides and unbaptised infants at crossroads: the crossing of tracks was believed to disorient the walking soul and prevent it from returning along a straight path to the village. Maksimov (1903) records votive crosses erected at fork roads to neutralise the threshold between inhabited space and the unquiet wild."
           ]
         },
         {
@@ -5594,7 +5599,9 @@
       "sources": [
         "krasilnikova2023",
         "minkin2019",
-        "bfm2019-estrada"
+        "bfm2019-estrada",
+        "smirnov2012",
+        "mertsalova2013"
       ],
       "related": [
         "k",
@@ -5692,12 +5699,15 @@
           "level": "interpretation",
           "contested": true,
           "sources": [
-            "krasilnikova2023"
+            "krasilnikova2023",
+            "smirnov2012",
+            "mertsalova2013"
           ],
           "paras": [
             "The interview names several kinds of motive, which this plate groups into four, and which the interview does not itself list as four: ideological (shedding pre-revolutionary culture and building a socialist city), practical (neglected graves after the Civil War, typhus burials, no relatives left to tend them), symbolic (local notables buried there whom the new authorities saw no need to remember) and emotional (funerals used to mobilise people, revolutionary rites replacing religious ones). For Barnaul she also describes the search of graves for valuables, which the four groups do not cover.",
             "These are her interpretations of Siberian cases and are not sourced in the interview. The atlas lists them as one reading, and does not give them as the cause of abandoned cemeteries elsewhere, including the one in the photograph.",
-            "Documented property histories and municipal renovation records explain the destruction of urban necropolises as an ideological and utilitarian program. During the early Soviet five-year plans of the 1930s, pre-revolutionary churchyards were re-zoned as 'unsanitary wastelands' and systematically converted into public 'parks of culture and recreation' (Novosibirsk Central Park, Moscow's Simonov and Lazarevskoe). Stone materials from dismantled tombs were requisitioned for industrial and architectural construction: polished labradorite, granite, and limestone grave markers were planed down and reused as municipal paving curbs, embankment retaining stones, and foundational revetments for Moscow Metro stations."
+            "Documented property histories and municipal renovation records explain the destruction of urban necropolises as an ideological and utilitarian program. During the early Soviet five-year plans of the 1930s, pre-revolutionary churchyards were re-zoned as 'unsanitary wastelands' and systematically converted into public 'parks of culture and recreation' (Novosibirsk Central Park, Moscow's Simonov and Lazarevskoe). Stone materials from dismantled tombs were requisitioned for industrial and architectural construction: polished labradorite, granite, and limestone grave markers were planed down and reused as municipal paving curbs, embankment retaining stones, and foundational revetments for Moscow Metro stations.",
+            "Smirnov (2012) documents the archival mechanism of Mossovet decisions between 1928 and 1934: monastic cemeteries (Simonov, Danilov, Pokrovsky, Novospassky) were systematically closed, their high-grade marble and labradorite monuments inventoried, and stone handed over to Metrostroy and municipal surfacing trusts. Consecrated ground was cleared to make way for palaces of culture and parks of culture and rest."
           ]
         },
         {
@@ -6060,6 +6070,13 @@
           ]
         },
         {
+          "type": "figure",
+          "src": "soldier-flowers",
+          "credit": "I. Burov / Glavarkhiv Moscow, 1979; processing by this atlas",
+          "caption": "Flowers at the Tomb of the Unknown Soldier, Moscow, 9 May 1979. A single collective cenotaph substituting for unlocated battlefield graves.",
+          "size": "normal"
+        },
+        {
           "kicker": "03",
           "heading": "The search movement: Valley of Death",
           "level": "documented",
@@ -6160,6 +6177,13 @@
             "In the rural North and central regions, the physical survival of a grave depends entirely on periodic kin maintenance. Unpainted spruce and pine crosses rot at the groundline within 25 to 40 years. Permilovskaya notes that traditional roofed crosses (golubtsy) protected the icon plate, yet moisture rising from the subsoil inevitably rots the base.",
             "As the pine coffin collapses under ground pressure (usually between the 7th and 15th year), the earthen mound subsides, creating a hollow indentation. When family lines die out or migrate to cities, grave weeding ceases; nettles, cow parsnip, and birch seedlings colonize the depression, transforming individual burial markers into uniform forest turf."
           ]
+        },
+        {
+          "type": "figure",
+          "src": "keret-graves-faded",
+          "credit": "Cornussuec, 2023 (CC0); processing by this atlas",
+          "caption": "Overgrown cemetery on Sredny Island, Keret Archipelago, White Sea. Weathered wooden cross and collapsing timber fencing returning to turf and young birch.",
+          "size": "normal"
         },
         {
           "kicker": "03",
