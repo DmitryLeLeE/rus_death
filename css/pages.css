@@ -1468,6 +1468,43 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
   }
 }
 
+/* Microchronology Ritual Table */
+.microchrono-section {
+  margin: 36px 0 44px;
+}
+.microchrono-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #efeae0;
+  border: 1px solid rgba(26, 24, 20, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.microchrono-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  text-align: left;
+}
+.microchrono-table th {
+  background: #ded7c6;
+  font: 700 0.68rem var(--f-type, monospace);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 12px 14px;
+  border-bottom: 2px solid #1a1814;
+  white-space: nowrap;
+}
+.microchrono-table td {
+  padding: 14px;
+  border-bottom: 1px dashed rgba(26, 24, 20, 0.2);
+  vertical-align: top;
+}
+.microchrono-table tr:hover {
+  background: rgba(177, 50, 39, 0.04);
+}
+
+
 
 
 

@@ -49,13 +49,13 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Voices | Lament, verse and historical field voices, plus an authentic Phonograph & Shellac audio archive (1909–1927, Nadezhda Plevitskaya, Feodor Chaliapin, Siberian convict laments) with bespoke retro gramophone players |
 | Field archive | Original visual assets, 19th-century parish death register (*метрический регистр кончины*, 1842–1895), and the Chthonic Herbarium (*погребальная ботаника и дендрология*, 8 species) |
 | Map | 36 localities, macro-regional filters, and historical field expedition tracks (Barsov 1860, Zelenin 1914, Malyshev 1954) |
-| Chronology | 37 points and caesuras, filterable by period, and a comparative matrix of 5 historical strata of funerary culture |
+| Chronology | 37 points and caesuras, filterable by period, comparative matrix of 5 historical strata, and the hourly ritual canon (0–40 days) across four spaces |
 | Words | Lexicon of Russian ethnographic terms (64 entries) with interactive in-text popovers across all plate prose |
 | Reading routes | Seven paths through the plates, covering all 26 compositions |
-| Compendium | Full monograph pre-print uniting all 26 plates, systematic registers, and print/PDF typography |
-| Claim ledger | Every section of every plate (245 sections) with its evidence level and sources, generated from the plate data |
+| Compendium | Full monograph pre-print uniting all 26 plates, four systematic scholarly apparatuses (5 strata, ritual microchronology, parish register, herbarium), and print/PDF typography |
+| Claim ledger | Every section of every plate (255 sections) with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |
-| Sources | Bibliography (155 entries) with one-click ГОСТ Р 7.0.5-2008 and BibTeX copy buttons, plus downloadable `assets/rus_death.bib` for reference managers (Zotero, Mendeley); visual and audio asset credits |
+| Sources | Bibliography (156 entries) with one-click ГОСТ Р 7.0.5-2008 and BibTeX copy buttons, plus downloadable `assets/rus_death.bib` for reference managers (Zotero, Mendeley); visual and audio asset credits |
 | Method | Scope, evidence levels, historiographical schools (Mythological, Evolutionary, Semiotic, Trauma anthropology), periodisation, limits |
 | Colophon | How the edition was made; offline PWA support and service worker architecture |
 
@@ -67,7 +67,7 @@ Pages change in place (`js/nav.js`), so the sound keeps running between pages; a
 
 **Читать Атлас:** <https://DmitryLeLeE.github.io/rus_death/ru/> · **Сводный академический том (Pre-print / PDF):** <https://DmitryLeLeE.github.io/rus_death/ru/compendium.html>
 
-«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта с региональными фильтрами и экспедиционными треками, хронология с матрицей 5 исторических страт, метрический регистр кончины XIX века, хтонический гербарий (8 видов), архив исторических аудиозаписей фонографа и шеллака (1909–1927 гг., Надежда Плевицкая, Фёдор Шаляпин, сибирские бродяжеские песни) со стилизованным ретроплеером, словарь с интерактивными тултипами, библиография (155 источников) с экспортом цитат в ГОСТ Р 7.0.5-2008 и BibTeX и скачиваемым пакетом `rus_death.bib`, сводный академический том для печати/PDF (`ru/compendium.html`), интерактивные экспликации картин, реестр утверждений (245 разделов), маршруты чтения и поиск. В атлас включены главы по теневой этнографии (ритуалы опахивания при море, поверья о заложных покойниках и душителях, болотные раскопы «Долины смерти», синодики убиенных воинов, затопленные некрополи Мологи, сетевой кенотаф). Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём строго отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
+«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта с региональными фильтрами и экспедиционными треками, хронология с матрицей 5 исторических страт и почасовым каноном обряда (0–40 дней), метрический регистр кончины XIX века, хтонический гербарий (8 видов), архив исторических аудиозаписей фонографа и шеллака (1909–1927 гг., Надежда Плевицкая, Фёдор Шаляпин, сибирские бродяжеские песни) со стилизованным ретроплеером, словарь с интерактивными тултипами, библиография (156 источников) с экспортом цитат в ГОСТ Р 7.0.5-2008 и BibTeX и скачиваемым пакетом `rus_death.bib`, сводный академический том для печати/PDF (`ru/compendium.html`), интерактивные экспликации картин, реестр утверждений (255 разделов), маршруты чтения и поиск. В атлас включены главы по теневой этнографии (ритуалы опахивания при море, поверья о заложных покойниках и душителях, болотные раскопы «Долины смерти», синодики убиенных воинов, затопленные некрополи Мологи, сетевой кенотаф). Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём строго отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
 
 ## Run and rebuild
 

@@ -222,7 +222,9 @@
         "zelenin1927",
         "barsov1872",
         "kremleva1999",
-        "baiburin1993"
+        "baiburin1993",
+        "tolstoy1995",
+        "sedakova2004"
       ],
       "related": [
         "c",
@@ -417,6 +419,28 @@
           "credit": "Original architectural reconstruction diagram for this atlas, CC BY-SA 4.0",
           "level": "interpretation",
           "size": "wide"
+        },
+        {
+          "kicker": "MATERIAL THANATOLOGY",
+          "heading": "The Death Bundle: Pre-woven Linens and Unknotted Attire",
+          "level": "documented",
+          "sources": [
+            "baiburin1993",
+            "kremleva1999",
+            "tolstoy1995"
+          ],
+          "text": "Elderly peasants systematically prepared their death bundle (*смертный узел* / *смертная сума*) ten to twenty years prior to demise. Crucial magical taboos governed its preparation: funeral shirts and shrouds had to be sewn with a forward-running running-stitch (*вперед иголкой*), strictly without knots (*без узлов*), buckles, hooks, or buttons. Traditional belief held that every knot on the burial garment knotted and physically tethered the departing soul to the earth, entangling its passage through celestial trials. The bundle was stored dry in the family chest beneath the iconostasis, remaining untouched for ordinary domestic life."
+        },
+        {
+          "kicker": "ESCHATOLOGY OF FOOTWEAR",
+          "heading": "Nail-less Footwear and the Pillow of Leaves: Taboos on Iron and Feathers",
+          "level": "documented",
+          "sources": [
+            "zelenin1927",
+            "baiburin1993",
+            "sedakova2004"
+          ],
+          "text": "Burial footwear consisted exclusively of soft white linen cloth (*чуни*) or woven birch bark shoes constructed without iron nails, tacks, or metallic horseshoes. The eschatological rationale required the soul to tread silently and lightly along the hair-thin Kalinov bridge crossing into the afterlife without the clatter or weight of iron. Inside the coffin, filling the pillow with bird feathers was strictly forbidden: folk belief asserted that bird down or chicken feathers prolonged agonizing death-throes and trapped the soul inside the flesh. The pillow was stuffed exclusively with dried birch leaves gathered on Trinity Sunday (*Троицкая берёзка*), wild moss, or cedar wood shavings hewn directly from the coffin boards."
         }
       ],
       "volume": "I"
@@ -695,7 +719,10 @@
         "skrizhal",
         "barsov1872",
         "kremleva1999",
-        "baiburin1993"
+        "baiburin1993",
+        "tolstoy1995",
+        "sedakova2004",
+        "chicherov1957"
       ],
       "related": [
         "c",
@@ -898,6 +925,17 @@
           "sources": [
             "barsov1872"
           ]
+        },
+        {
+          "kicker": "SOUTHERN TRADITIONS",
+          "heading": "Southern Russian Memorial Breads: Karavais and Ladders to Heaven",
+          "level": "documented",
+          "sources": [
+            "tolstoy1995",
+            "sedakova2004",
+            "chicherov1957"
+          ],
+          "text": "In the southern Russian chernozem regions (Kursk, Voronezh, Belgorod, and the Don), funeral commensality developed distinctive ritual breads. Alongside kutia, bakers prepared ritual loaves adorned with molded dough rungs known as *lestvichki* (heavenly ladders). Folk belief held that during its forty-day transit across the infernal abyss and steep crags of the beyond, the soul climbed these forty steps toward paradise. For deceased maidens and unmarried youths, the funeral feast blended with wedding symbolism through the baking of a funeral wedding loaf (*каравай*), completing posthumously the marriage rites denied them in life."
         }
       ],
       "volume": "I"
@@ -1143,7 +1181,10 @@
         "pushkin1830",
         "suvorov-epitaph",
         "permilovskaya2013",
-        "belova-levkievskaya2004"
+        "belova-levkievskaya2004",
+        "kremleva1999",
+        "smirnov1920",
+        "zelenin1927"
       ],
       "related": [
         "b",
@@ -1513,6 +1554,28 @@
           "credit": "Original comparative diagram for this atlas, CC BY-SA 4.0",
           "level": "interpretation",
           "size": "wide"
+        },
+        {
+          "kicker": "CONTACT ZONES",
+          "heading": "Finno-Ugric Contact Zones: Earth Feeding and Grave Windows",
+          "level": "documented",
+          "sources": [
+            "kremleva1999",
+            "permilovskaya2013",
+            "zelenin1927"
+          ],
+          "text": "In northern territories where Russian settlements bordered Karelian, Vepsian, and Komi communities, funerary architecture absorbed distinct contact practices. Carvers hewed miniature apertures and sliding shutters (*оконца*) directly into the gable boards of wooden *golubtsy* and *domoviny*, creating a permanent sensory conduit to pass offerings of tobacco, butter, or grain directly to the deceased. Prior to lowering the coffin, elders practiced the archaic \"feeding of the earth\" (*кормление земли*), pouring fresh milk or warm beer into the grave pit to purchase the subterranean plot from ancestral spirits."
+        },
+        {
+          "kicker": "EPIDEMIC NECROPOLISES",
+          "heading": "Plague Pogosts and One-Day Votive Crosses",
+          "level": "documented",
+          "sources": [
+            "permilovskaya2013",
+            "kremleva1999",
+            "smirnov1920"
+          ],
+          "text": "Devastating outbreaks of cholera and plague led to the creation of separate \"pestilence pogosts\" (*моровые кладбища*), strictly segregated beyond ravines, marshes, and waterways to prevent infectious miasma from entering the village. A perpetual taboo forbade ever re-opening these pits or transferring remains. To halt raging epidemics, communities collectively erected *кресты-обыденники* (one-day vow crosses): felling pine timber at dawn, hewing, raising, and consecrating the monumental wooden cross before sunset within a single unbroken solar cycle as a sacrificial shield against death."
         }
       ],
       "volume": "I"
@@ -1538,7 +1601,11 @@
         "ivanits1989",
         "loiter2017",
         "iugai-letter",
-        "krinichnaya1997"
+        "krinichnaya1997",
+        "sedakova2004",
+        "bessonov1861",
+        "baiburin1993",
+        "kremleva1999"
       ],
       "related": [
         "c",
@@ -1856,6 +1923,39 @@
             "krinichnaya1997"
           ],
           "level": "documented"
+        },
+        {
+          "kicker": "LITURGICAL ACOUSTICS",
+          "heading": "The Funeral Bell Toll: The Ascending Scale of the \"Perebor\"",
+          "level": "documented",
+          "sources": [
+            "sedakova2004",
+            "tolstoy1995",
+            "kremleva1999"
+          ],
+          "text": "The funeral bell sequence (*погребальный перебор* or *перезвон*) formed a distinct acoustic hierarchy contrasting with celebratory chimes. It consisted of single, slow, sustained strikes commencing on the smallest treble bell and progressing in strict ascent through every intermediate bell to the great *blagovestnik*. This ascending acoustic scale embodied the course of mortal life growing from infant weakness to mature strength. When the largest bell sounded, all bells crashed simultaneously in a single collective chord (*погребальный удар*), announcing the violent, irreversible severance of earthly existence."
+        },
+        {
+          "kicker": "VERNACULAR ESCHATOLOGY",
+          "heading": "The Verse on the Parting of Soul from Body: The Oral Apocrypha",
+          "level": "documented",
+          "sources": [
+            "bessonov1861",
+            "sedakova2004",
+            "barsov1872"
+          ],
+          "text": "Alongside liturgical psalms and secular female laments, night vigils over the deceased featured spiritual verses (*духовные стихи*) performed by wandering blind singers (*калики перехожие*) and Old Believer preceptors. The foundational text was the *Verse on the Parting of the Soul from the Body* («Стих о разлучении души с телом»: «Увы мне, грешному человеку, почто я на свет родился...»). In the verse, the trembling soul addresses its discarded body as an empty vessel, lamenting the sins committed together while witnessing the contention between the Guardian Angel and infernal hosts."
+        },
+        {
+          "kicker": "ACOUSTIC CODE",
+          "heading": "Acoustic Taboos and Sacred Silence",
+          "level": "documented",
+          "sources": [
+            "baiburin1993",
+            "sedakova2004",
+            "tolstoy1995"
+          ],
+          "text": "A rigorous system of sonic taboos governed the domestic threshold and funeral progression. Clattering household vessels, slamming shutters, or shouting was forbidden so as not to frighten or disorient the hovering soul (*не спугнуть душу*). When the coffin was lifted across the threshold, absolute silence was enforced: calling any living person by their given name was feared as dragging their living spirit into the open grave. At the funeral banquet, wooden spoons were placed gently without clicking, and the use of metal knives and forks was strictly prohibited."
         }
       ],
       "volume": "I"
@@ -5423,7 +5523,10 @@
         "grinkova1947",
         "dynin1994",
         "kremleva1999",
-        "barsov1872"
+        "barsov1872",
+        "tolstoy1995",
+        "zelenin1927",
+        "chicherov1957"
       ],
       "related": [
         "c",
@@ -5705,6 +5808,17 @@
           "credit": "Original circular reconstruction for this atlas, CC BY-SA 4.0",
           "level": "interpretation",
           "size": "wide"
+        },
+        {
+          "kicker": "BORDERLAND CALENDAR RITES",
+          "heading": "Driving and Burying the Arrow: The Southern Rite of Spring and the Ancestors",
+          "level": "documented",
+          "sources": [
+            "tolstoy1995",
+            "zelenin1927",
+            "chicherov1957"
+          ],
+          "text": "In the southern Russian and Polesian borderlands, the cycle of ancestral commemoration intersected with agrarian spring protection at Ascension and Semik in the archaic rite of *Burying the Arrow* (*Похороны / Вождение стрелы*). Linked to thunder cults and untimely death, lines of singing women moved across rye fields to ritually bury metallic pins, threads, or coins into the soil at the boundary crossroads. The ritual sought to avert lightning strikes, fertilize crops, and placate the wandering souls of deceased young maidens (*заложные*), returning their spiritual energy to the soil without demonic disturbance."
         }
       ]
     },
@@ -5735,7 +5849,8 @@
         "baiburin1993",
         "krinichnaya1997",
         "tokarev1957",
-        "afanasyev1869"
+        "afanasyev1869",
+        "tolstoy1995"
       ],
       "related": [
         "a",
@@ -6041,6 +6156,17 @@
           "credit": "Original botanical reconstruction for this atlas, CC BY-SA 4.0",
           "level": "interpretation",
           "size": "wide"
+        },
+        {
+          "kicker": "EXTREME RITUAL",
+          "heading": "The Furrowing Rite: The Nocturnal Trench Against Pestilence",
+          "level": "documented",
+          "sources": [
+            "zelenin1927",
+            "afanasyev1869",
+            "tolstoy1995"
+          ],
+          "text": "During lethal outbreaks of epidemic cholera or cattle plague (*Коровья смерть*), villages enacted *опахивание* (ritual furrowing). In deepest midnight, in absolute secrecy from men, widowed and unmarried women stripped to white linen shirts (or complete nudity), harnessed themselves to a wooden ard (*соха*), and cut a continuous unbroken circular furrow enclosing the settlement boundary. Any animal or outsider encountered during the circumambulation was violently beaten as the incarnation of the pestilence. The consecrated circular trench formed an impenetrable boundary (*черта*) across which mortality could not pass."
         }
       ]
     },

@@ -2149,6 +2149,21 @@
       "language": "Russian",
       "supports": "Agrarian ritual calendar, Dmitrievskaya parent Saturday, Sinodik commemorative rolls for fallen warriors, and ancestor feeding practices.",
       "limitation": "Soviet historical-materialist framing; focused primarily on the central and northern Russian peasant calendar."
+    },
+    {
+      "id": "sedakova2004",
+      "kind": "monograph",
+      "author": "Sedakova, Olga Aleksandrovna",
+      "title": "Poetika obryada: Pogrebal'naia obriadnost' vostochnykh i iuzhnykh slavian",
+      "title_en": "The Poetics of the Rite: Funerary Ritualism of the Eastern and Southern Slavs",
+      "year": "2004",
+      "publisher": "Indrik, Moscow",
+      "extent": "320 pp.",
+      "url": "https://search.worldcat.org/title/56355836",
+      "accessed": "2026-11-18",
+      "language": "Russian",
+      "supports": "Semiotic, poetic, and acoustic structure of Eastern Slavic death rites; acoustic taboos, funeral breads, and mourning paradigms.",
+      "limitation": "Theoretical synthesis of East and South Slavic ethnolinguistic records; focuses on archaic poetic structure rather than late Soviet or modern changes."
     }
   ]
 }

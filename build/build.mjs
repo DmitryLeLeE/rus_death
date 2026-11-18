@@ -29,7 +29,7 @@ const SITE = "https://DmitryLeLeE.github.io/rus_death/";
 let LANG = "en", T = UI.en, UP = "";
 let plates, sourcesDoc, objectsDoc, conceptsDoc, placesDoc, timelineDoc, imagesDoc, methodDoc, derivedDoc;
 let VOICES = [], VOICE = {};
-let prologueDoc, lexiconDoc, volumesDoc, routesDoc, metricsDoc, strataDoc, botanyDoc, expeditionsDoc, audioDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
+let prologueDoc, lexiconDoc, volumesDoc, routesDoc, metricsDoc, strataDoc, botanyDoc, expeditionsDoc, audioDoc, microDoc, S, IMG, DER, PLACE, OBJ, CON, PLATE, VOL, HAND = {};
 
 const merge = (target, src) => {
   for (const [k, v] of Object.entries(src)) {
@@ -91,6 +91,7 @@ function loadLang(lang) {
   botanyDoc = fileExists(path.join(DATA, "botany.json")) ? readJSON(path.join(DATA, "botany.json")) : null;
   expeditionsDoc = fileExists(path.join(DATA, "expeditions.json")) ? readJSON(path.join(DATA, "expeditions.json")) : null;
   audioDoc = fileExists(path.join(DATA, "audio.json")) ? readJSON(path.join(DATA, "audio.json")) : null;
+  microDoc = fileExists(path.join(DATA, "microchronology.json")) ? readJSON(path.join(DATA, "microchronology.json")) : null;
   HAND = {};
   if (lang === "ru") {
     const ov = (f) => { const p = path.join(DATA, "ru", f); return fileExists(p) ? readJSON(p) : null; };
@@ -1143,11 +1144,50 @@ function chronologyPage() {
   </div>
 </section>` : "";
 
+  const microSection = microDoc ? `
+<section class="strata-section microchrono-section" aria-labelledby="micro-h2">
+  <div class="strata-header">
+    <p class="mono kicker">${LANG === "ru" ? microDoc.kicker_ru : microDoc.kicker_en}</p>
+    <h2 id="micro-h2">${LANG === "ru" ? microDoc.title_ru : microDoc.title_en}</h2>
+    <p class="strata-dek">${LANG === "ru" ? microDoc.dek_ru : microDoc.dek_en}</p>
+  </div>
+  <div class="tablewrap strata-wrap microchrono-wrap" tabindex="0">
+    <table class="strata-table microchrono-table">
+      <thead>
+        <tr>
+          <th>${LANG === "ru" ? "Порог и время" : "Threshold & Time"}</th>
+          <th>${LANG === "ru" ? "Изба и красный угол" : "The Izba & Hearth"}</th>
+          <th>${LANG === "ru" ? "Двор и межа" : "Yard & Boundary"}</th>
+          <th>${LANG === "ru" ? "Храм и звон" : "Church & Belltower"}</th>
+          <th>${LANG === "ru" ? "Погост и земля" : "Pogost & Earth"}</th>
+          <th>${LANG === "ru" ? "Эсхатология" : "Eschatology"}</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${microDoc.stages.map((st) => `
+          <tr data-stage="${st.id}">
+            <td class="strata-epoch">
+              <span class="mono strata-period">${LANG === "ru" ? st.period_ru : st.period_en}</span>
+              <strong>${LANG === "ru" ? st.title_ru : st.title_en}</strong>
+            </td>
+            <td>${LANG === "ru" ? st.house_ru : st.house_en}</td>
+            <td>${LANG === "ru" ? st.yard_ru : st.yard_en}</td>
+            <td>${LANG === "ru" ? st.temple_ru : st.temple_en}</td>
+            <td>${LANG === "ru" ? st.pogost_ru : st.pogost_en}</td>
+            <td class="strata-law">${LANG === "ru" ? st.theology_ru : st.theology_en}</td>
+          </tr>
+        `).join("")}
+      </tbody>
+    </table>
+  </div>
+</section>` : "";
+
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "chrono-page", page: "chronology", rel: "chronology.html",
     content: `<main id="main">
 ${pagehead("pagehead--chrono", X.kicker, X.h1, X.dek)}
 ${strataSection}
+${microSection}
 
 <section class="tl" aria-labelledby="tl-title">
   <h2 id="tl-title" class="visually-hidden">${X.h2}</h2>
@@ -1309,6 +1349,7 @@ function compendiumPage() {
         <ul class="comp-toc__list">
           ${tocPlates}
           <li><a href="#comp-strata"><strong>${isRu ? "5 страт погребальной культуры" : "5 Strata Matrix"}</strong></a></li>
+          <li><a href="#comp-microchrono"><strong>${isRu ? "Почасовой канон обряда (0–40 дней)" : "Ritual Microchronology (0–40 Days)"}</strong></a></li>
           <li><a href="#comp-metrics"><strong>${isRu ? "Метрический регистр кончины (1842–1895)" : "Parish Death Register (1842–1895)"}</strong></a></li>
           <li><a href="#comp-botany"><strong>${isRu ? "Хтонический гербарий" : "Chthonic Herbarium"}</strong></a></li>
         </ul>
@@ -1345,8 +1386,39 @@ function compendiumPage() {
         </div>
       </section>
 
-      <section class="comp-vol" id="comp-metrics">
+      <section class="comp-vol" id="comp-microchrono">
         <span class="mono kicker">${isRu ? "СИСТЕМНЫЙ АППАРАТ II" : "SYSTEMATIC APPARATUS II"}</span>
+        <h2 class="comp-vol__h">${isRu ? (microDoc ? microDoc.title_ru : "Почасовой канон обряда") : (microDoc ? microDoc.title_en : "The Temporal Canon: From Agony to the Fortieth Day")}</h2>
+        <div class="tablewrap strata-wrap microchrono-wrap">
+          <table class="strata-table microchrono-table">
+            <thead>
+              <tr>
+                <th>${isRu ? "Порог и время" : "Threshold & Time"}</th>
+                <th>${isRu ? "Изба и красный угол" : "The Izba & Hearth"}</th>
+                <th>${isRu ? "Двор и межа" : "Yard & Boundary"}</th>
+                <th>${isRu ? "Храм и звон" : "Church & Belltower"}</th>
+                <th>${isRu ? "Погост и земля" : "Pogost & Earth"}</th>
+                <th>${isRu ? "Эсхатология" : "Eschatology"}</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${(microDoc ? microDoc.stages : []).map((st) => `
+                <tr>
+                  <td class="strata-epoch"><strong>${isRu ? st.title_ru : st.title_en}</strong><br><small class="mono">${isRu ? st.period_ru : st.period_en}</small></td>
+                  <td>${isRu ? st.house_ru : st.house_en}</td>
+                  <td>${isRu ? st.yard_ru : st.yard_en}</td>
+                  <td>${isRu ? st.temple_ru : st.temple_en}</td>
+                  <td>${isRu ? st.pogost_ru : st.pogost_en}</td>
+                  <td class="strata-law">${isRu ? st.theology_ru : st.theology_en}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="comp-vol" id="comp-metrics">
+        <span class="mono kicker">${isRu ? "СИСТЕМНЫЙ АППАРАТ III" : "SYSTEMATIC APPARATUS III"}</span>
         <h2 class="comp-vol__h">${isRu ? "Метрический регистр формул кончины (1842–1895)" : "Parish Death Records Register (1842–1895)"}</h2>
         <div class="tablewrap metrics-wrap">
           <table class="metrics-table">
@@ -1375,7 +1447,7 @@ function compendiumPage() {
       </section>
 
       <section class="comp-vol" id="comp-botany">
-        <span class="mono kicker">${isRu ? "СИСТЕМНЫЙ АППАРАТ III" : "SYSTEMATIC APPARATUS III"}</span>
+        <span class="mono kicker">${isRu ? "СИСТЕМНЫЙ АППАРАТ IV" : "SYSTEMATIC APPARATUS IV"}</span>
         <h2 class="comp-vol__h">${isRu ? "Хтонический гербарий и погребальная дендрология" : "Chthonic Herbarium & Funerary Dendrology"}</h2>
         <ul class="botany-grid">
           ${(botanyDoc ? botanyDoc.plants : []).map((pl) => `
