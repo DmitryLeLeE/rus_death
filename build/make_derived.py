@@ -400,6 +400,8 @@ SPECS = [
      "Graves in an abandoned cemetery, Sredny Island, Keret Archipelago (2023)", "Whole frame"),
     ("mamayev-news", "mamayev.jpg", (0, 300, 1600, 1200), "news", 1400, "tb",
      "Mamayev Kurgan, Volgograd — the slope", "Lower two-thirds"),
+    ("port-arthur-trench", "port-arthur-funeral-1905.jpg", (40, 80, 680, 700), "faded", 900, "tblr",
+     "Hasty funeral rites in besieged Port Arthur, 1905 — the field of crosses", "Trench and wooden crosses on the hillside"),
 ]
 
 

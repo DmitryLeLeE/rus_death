@@ -84,14 +84,11 @@
         },
         {
           "type": "figure",
-          "src": "nepogodikha-house",
-          "alt": "A log house with carved window frames and a rusted iron roof, its windows empty, tall grass in front",
-          "caption": "An abandoned izba with carved window frames, Nepogodikha, Nizhny Novgorod Oblast. Photograph: Evgeny Katyshev, CC BY-SA 3.0. The house is the first boundary in the material this plate uses: what is done at its windows, doors and threshold is done for the person who is leaving it.",
-          "credit": "Evgeny Katyshev / Wikimedia Commons, CC BY-SA 3.0",
-          "level": "documented",
-          "size": "wide",
-          "mask": null,
-          "state": null
+          "src": "peasant-interior-novgorod",
+          "alt": "Interior of a peasant wooden house in Novgorod province: clean benches along the walls, a red corner with icons, table and floorboards",
+          "caption": "Interior of a traditional peasant house, Novgorod province (photograph: Russian Museum of Ethnography archive, public domain). The spatial arrangement of the room with the benches along the walls: the deceased laid with feet toward the exit or toward the icons.",
+          "credit": "Russian Museum of Ethnography / public domain",
+          "level": "documented"
         },
         {
           "type": "figure",
@@ -457,14 +454,11 @@
         },
         {
           "type": "figure",
-          "src": "theodora-lubok",
-          "alt": "A coloured print of a staircase rising through clouds, with demons and angels on the steps and a deathbed at the lower left",
-          "caption": "*Death of Theodora*: a Russian hand-made lubok, second half of the 19th century, showing the soul’s ascent past the aerial toll-houses (*mytarstva*). Public domain, via Wikimedia Commons. The forty days are also an itinerary in popular print; this is an image from print culture, not a record of what a village did.",
-          "credit": "Anonymous lubok / Wikimedia Commons, public domain",
-          "level": "documented",
-          "size": "wide",
-          "mask": null,
-          "state": null
+          "src": "gapon-panikhida",
+          "alt": "A crowd of mourners around a grave with floral wreaths and a tall wooden cross at Uspenskoye cemetery",
+          "caption": "Panikhida at the grave of priest Georgy Gapon, Uspenskoye (Northern) Cemetery, St Petersburg, 1906. Unknown photographer, public domain. The documented visual reality of the Orthodox parish requiem ritual: wax candles, floral tributes, and collective prayer over the mound.",
+          "credit": "Unknown photographer, 1906; public domain",
+          "level": "documented"
         },
         {
           "type": "table",
@@ -1013,10 +1007,11 @@
         },
         {
           "type": "figure",
-          "src": "nansen-kureika-graves",
-          "alt": "Grave mounds in the Kureika village, photographed by Fridtjof Nansen in 1913; low earth mounds, wooden markers",
-          "caption": "Graves at Kureika, Yenisei province, 1913 (F. Nansen / public domain). Low mounds without inscriptions; Nansen noted these resembled the burial grounds described in folklore accounts of the restless dead.",
-          "credit": "Fridtjof Nansen, 1913 / Wikimedia Commons, public domain"
+          "src": "abandoned-tomb",
+          "alt": "An overgrown stone and brick family tomb with a collapsing arched vault, covered with wild ivy and shrubbery",
+          "caption": "An overgrown family vault at the Nizhne-Gnilovskoye cemetery. The ancestral resting place returning to nature: where the dead remain as remembered forebears.",
+          "credit": "Alexander Roumega / Wikimedia Commons, CC0",
+          "level": "documented"
         }
       ],
       "volume": "I"
@@ -1366,19 +1361,6 @@
         },
         {
           "type": "figure",
-          "src": "suistamo-muuanto-cemetery-1935",
-          "alt": "Two men standing in a spruce wood beside an old cross, a lake showing through the trunks",
-          "caption": "In the shade of the village cemetery at Muuanto, Suistamo, 1935; two men stand among old crosses. Historic Karelian Suistamo (since 1944 on the Russian side of the border): a regional record, not evidence for all Russian cemeteries.",
-          "credit": "Auvo Hirsjärvi, 1935 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
-          "level": "documented",
-          "at": {
-            "r": 14,
-            "c": "1/6",
-            "w": 100
-          }
-        },
-        {
-          "type": "figure",
           "src": "suistamo-bird-cross-1935",
           "alt": "A tall wooden grave cross with a small roof at the top and carved birds on its arms, in pine forest",
           "caption": "A grave cross decorated with wooden birds at the new shared cemetery of the villages of Uuksu and Muuanto, 1935. Historic Karelian Suistamo (since 1944 on the Russian side of the border): a regional record, not evidence for all Russian cemeteries.",
@@ -1660,6 +1642,14 @@
         },
         {
           "type": "figure",
+          "src": "fedosova-1897",
+          "alt": "An engraved portrait of Irina Andreyevna Fedosova, an elderly peasant woman in headscarf and dark dress, looking directly at the viewer",
+          "caption": "Irina Andreyevna Fedosova (1827–1899), the renowned Olonets lamenter (вопленница) from whom E. V. Barsov collected three volumes of northern Russian funeral laments. Engraving in Vsemirnaya Illyustratsiya (1897), based on a photograph by Elena Mrozovskaya.",
+          "credit": "E. Mrozovskaya / Vsemirnaya Illyustratsiya (1897), public domain",
+          "level": "documented"
+        },
+        {
+          "type": "figure",
           "src": "ukhta-lamenter-1894",
           "alt": "Sepia photograph of a log room: a woman in a headscarf sits in the middle of the floor with her hands over her face, and a row of women and a child sit along the wall behind her",
           "caption": "Ukhta Karelians, 1894: Commons titles the photograph ‘a woman lamenter’. A woman sits in the middle of a log room with her hands over her face, other women along the wall. Photographer not given. Karelian, not Russian; it shows posture and setting, and says nothing of the words or the occasion.",
@@ -1799,13 +1789,11 @@
         },
         {
           "type": "figure",
-          "src": "last-judgment-volga",
-          "alt": "A large eighteenth-century Russian icon of the Last Judgment, densely painted with registers of saints, angels, scales, a river of fire and compartments of punishment",
-          "caption": "The Last Judgment. Volga region, 1770s–1780s. Tempera on wood, 180 × 137 cm. The icon is dense with inscribed texts and compartments; it is a picture that expects to be read.",
-          "credit": "Public domain, via Wikimedia Commons",
-          "level": "documented",
-          "size": "tall",
-          "mask": "torn-02"
+          "src": "theodora-lubok",
+          "alt": "An illustrated 19th-century folk lubok showing the twenty aerial toll-houses (mytarstva) through which the soul passes after death",
+          "caption": "The Vision of St Theodora: the aerial toll-houses (mytarstva). 19th-century manuscript lubok, public domain. The vernacular Orthodox cartography of the soul's forty-day journey: trial by demonic accusers and guardian angels.",
+          "credit": "Manuscript lubok, 19th century; public domain",
+          "level": "documented"
         },
         {
           "type": "prose",
@@ -1818,16 +1806,6 @@
           "level": "interpretation",
           "sources": [],
           "editorial": true
-        },
-        {
-          "type": "figure",
-          "src": "dormition-novgorod",
-          "alt": "A fifteenth-century icon of the Dormition of the Mother of God, with the apostles gathered around a bed and Christ holding her soul",
-          "caption": "The Dormition of the Mother of God. Novgorod, from the Desyatinny Monastery; icon of the fifteenth century. The Dormition is the model of the good death: a death that is also a birth.",
-          "credit": "Public domain, via Wikimedia Commons",
-          "level": "documented",
-          "size": "medium",
-          "mask": "torn-03"
         },
         {
           "type": "table",
@@ -2602,14 +2580,11 @@
         },
         {
           "type": "figure",
-          "src": "besovets-cross",
-          "alt": "A black cast-iron cross with an oval enamel portrait, plastic flowers in front, black granite stelae among pines",
-          "caption": "Besovets Cemetery, Petrozavodsk, October 2022. Photograph: Mikhail Semyonov, CC BY-SA 4.0. A cast cross with an enamel portrait, plastic flowers, and black granite stelae behind: the vocabulary of the post-Soviet plot, in one town’s cemetery. It stands for no scale or trend.",
-          "credit": "Mikhail Semyonov / Wikimedia Commons, CC BY-SA 4.0",
-          "level": "documented",
-          "size": "wide",
-          "mask": null,
-          "state": null
+          "src": "donskoy-columbarium",
+          "alt": "Open-air concrete and brick columbarium walls with individual urn niches at Donskoye Cemetery, Moscow",
+          "caption": "Columbarium 9 at the Donskoye Cemetery, Moscow. Photograph: Brattarb, CC BY-SA 4.0. The open columbarium wall: the architectural format of secularized, space-efficient Soviet commemoration.",
+          "credit": "Brattarb / Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented"
         },
         {
           "type": "prose",
@@ -2669,28 +2644,18 @@
         {
           "type": "figure",
           "src": "bulla-revolution-funeral-1917",
-          "alt": "A view into an open grave pit with two rows of closed dark coffins side by side, flowers on some, planks around the edge",
-          "caption": "A revolution funeral in Petrograd, 5 April 1917: earth thrown on the coffins in the grave on the Field of Mars, in the Finnish Heritage Agency’s description. The coffins are closed. Photograph by Karl Bulla.",
-          "credit": "Karl Bulla, 1917 · Finnish Heritage Agency via Wikimedia Commons, CC BY 4.0",
-          "level": "documented",
-          "at": {
-            "r": 11,
-            "c": "7/13",
-            "w": 100
-          }
+          "alt": "Mass burial of victims of the February Revolution on the Field of Mars in Petrograd, April 1917, large crowd gathered around communal graves",
+          "caption": "Revolutionary mass funeral in Petrograd, 5 April 1917. Photograph: Karl Bulla, public domain. Hundreds of coffins committed to the Field of Mars without church clergy: the genesis of secular political martyrology.",
+          "credit": "Karl Bulla / Finnish Heritage Agency, public domain",
+          "level": "documented"
         },
         {
           "type": "figure",
-          "src": "port-arthur-funeral-1905",
-          "alt": "A sepia stereograph pair of a bare field with rows of dark shapes on the ground, crosses and groups of men along them, hills behind",
-          "caption": "“Hasty funeral rites — last honors to the dead Russian heroes — in besieged Port Arthur”, 1905, a stereograph by Underwood & Underwood. Behind the 18+ gate because the dead lie on the ground.",
-          "credit": "Underwood & Underwood, 1905 · Library of Congress copy via Wikimedia Commons, public domain",
-          "level": "documented",
-          "at": {
-            "r": 12,
-            "c": "3/11",
-            "w": 100
-          }
+          "src": "donskoy-crematorium",
+          "alt": "Exterior of the First Moscow Crematorium in the reconstructed constructivist church at the Donskoy Monastery",
+          "caption": "First Moscow Crematorium, opened in October 1927 in the former Church of St Seraphim of Sarov at the Donskoy Monastery. Photograph: Ulaisaeva, CC BY-SA 4.0. The technical and ideological transition to industrialized fiery burial.",
+          "credit": "Ulaisaeva / Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented"
         },
         {
           "type": "note",
@@ -2780,14 +2745,11 @@
         },
         {
           "type": "figure",
-          "src": "abandoned-tomb",
-          "alt": "A weathered stone tomb with a broken cross and overgrown grass in an abandoned cemetery",
-          "caption": "Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don. Photograph released CC0. The atlas has no information on whose tomb it is.",
-          "credit": "Wikimedia Commons, CC0",
-          "level": "documented",
-          "size": "narrow",
-          "mask": "torn-02",
-          "state": "ghost"
+          "src": "pechory-grave-tile",
+          "alt": "A glazed ceramic grave marker tile (keramida) from the sixteenth century with an incised Slavonic inscription recording a death",
+          "caption": "Ceramic grave tile (keramida), 16th century, from the Pskovo-Pechersky cave necropolis. The surviving physical fragment of a memorial ledger where parish paper records have long perished.",
+          "credit": "Zemlya Pskovskaya (1974) / public domain",
+          "level": "documented"
         },
         {
           "type": "register",
@@ -2873,14 +2835,11 @@
         },
         {
           "type": "figure",
-          "src": "tver-empty-house",
-          "alt": "A dark wooden house with a sagging roof beside a country road under a pale sky",
-          "caption": "An abandoned wooden house by the road, Tver Oblast, August 2016. Photograph: Rakoon, CC0. Included as a picture of abandonment, not as a record of any burial.",
-          "credit": "Rakoon / Wikimedia Commons, CC0",
-          "level": "documented",
-          "size": "narrow",
-          "mask": null,
-          "state": null
+          "src": "perov-drowned",
+          "alt": "A woman's body laid on the river shore in morning light, a policeman sitting on a fence in the background, a sleeping city across the river",
+          "caption": "Vasily Perov, 'The Drowned Woman' (Utoplennitsa, 1867, State Tretyakov Gallery). An urban unrecorded death awaiting the police protocol: the body of the unknown drowned, outside ecclesiastical registers and familial memory.",
+          "credit": "Vasily Perov, 1867; State Tretyakov Gallery, public domain",
+          "level": "documented"
         },
         {
           "type": "register",
@@ -3003,13 +2962,11 @@
         },
         {
           "type": "figure",
-          "src": "izba-red-corner",
-          "show": "izba-red-corner-wide",
-          "alt": "The red corner of a wooden izba: icons on a shelf, an embroidered towel and a bench along the log wall",
-          "caption": "The red corner of an izba at Vitoslavlitsy, Veliky Novgorod: icons, a towel, a bench. A museum interior, not the record of any family’s room. Photograph: Aglav, CC BY-SA 3.0.",
-          "credit": "Aglav / Wikimedia Commons, CC BY-SA 3.0",
-          "level": "documented",
-          "size": "wide"
+          "src": "nepogodikha-house",
+          "alt": "A deserted log izba with ornate hand-carved window platbands in the dying village of Nepogodikha, overgrown by tall grass",
+          "caption": "Abandoned log house with carved platbands, Nepogodikha, Nizhny Novgorod Oblast. Photograph: Evgeny Katyshev, CC BY-SA 3.0. The empty house left by the dead: windows uncurtained, roof rafters sagging, nature returning into the yard.",
+          "credit": "Evgeny Katyshev / Wikimedia Commons, CC BY-SA 3.0",
+          "level": "documented"
         },
         {
           "type": "prose",
@@ -3122,13 +3079,11 @@
         },
         {
           "type": "figure",
-          "src": "tver-empty-house",
-          "show": "tver-empty-house-xerox",
-          "alt": "A dark wooden house with a sagging roof beside a country road under a pale sky",
-          "caption": "A wooden house beside a road, Tver Oblast, August 2016. Photograph: Rakoon, CC0. The photograph shows a house; it cannot show why the house is empty.",
-          "credit": "Rakoon / Wikimedia Commons, CC0",
-          "level": "documented",
-          "size": "narrow"
+          "src": "ulan-ude-oldbelievers-interior",
+          "alt": "Interior of an empty Siberian Old Believer wooden house: cold painted stove, empty table, dark corner where icons once stood",
+          "caption": "Interior of an uninhabited Old Believer wooden dwelling (Semeiskie traditional house). The quiet hearth and empty corner: Bunin's 'cold stove and dark icon' made tangible.",
+          "credit": "Wikimedia Commons, CC BY-SA 4.0",
+          "level": "documented"
         },
         {
           "type": "register",
@@ -4372,19 +4327,6 @@
           "editorial": true
         },
         {
-          "type": "figure",
-          "src": "pechory-grave-tile",
-          "alt": "A dark ceramic relief plaque with an arched top, a cross above and lines of Church Slavonic lettering, set in a rough cave wall",
-          "caption": "A ceramic grave plaque in a cave of the Pskovo-Pechersky Monastery, 16th century, as reproduced in Zemlya Pskovskaya (Moscow, 1974). The inscription records the death of a named man; the atlas does not transcribe it. The photographer is not named.",
-          "credit": "Reproduction in Zemlya Pskovskaya, 1974 · via Wikimedia Commons, public domain (PD-Art)",
-          "level": "documented",
-          "at": {
-            "r": 11,
-            "c": "3/10",
-            "w": 90
-          }
-        },
-        {
           "type": "text",
           "kicker": "Cave burial record",
           "voice": "azbyka-pechory",
@@ -4642,19 +4584,6 @@
         },
         {
           "type": "figure",
-          "src": "peasant-interior-novgorod",
-          "alt": "A log room with embroidered towels hanging from a shelf and a beam, and a small framed icon in the upper left corner",
-          "caption": "Interior of a peasant house with embroidered towels and an icon, Veliky Novgorod, 2019. Context only: this plate’s sources do not put the domovoy in any corner of this room, and the picture shows how a house was furnished, not what was believed to live in it. The uploader calls it typical; the atlas does not.",
-          "credit": "Vidgestr, 2019 · Wikimedia Commons, CC BY-SA 4.0",
-          "level": "documented",
-          "at": {
-            "r": 7,
-            "c": "1/7",
-            "w": 100
-          }
-        },
-        {
-          "type": "figure",
           "src": "kobona-banya",
           "alt": "A small weathered log building with a corrugated-metal roof and a short chimney among trees, a utility pole in front",
           "caption": "An old banya in the village of Kobona, Leningrad Oblast, July 2026. A photograph of a building, used as context for the bannik, whom the sources on this plate set among the dangerous spirits. No source here dates this banya or reports any belief about it.",
@@ -4677,19 +4606,6 @@
             "r": 8,
             "c": "1/7",
             "w": 100
-          }
-        },
-        {
-          "type": "figure",
-          "src": "ulan-ude-oldbelievers-interior",
-          "alt": "A bright wooden room with a small window, painted wall decoration, a bench, a bed with a patterned quilt and round rag rugs",
-          "caption": "Interior of an Old Believers’ house in the Ethnographic Museum, Ulan-Ude, 2014. A museum interior, a staged arrangement and not a recorded household; shown only as another house furnished around its icons and textiles.",
-          "credit": "amanderson2, 2014 · Flickr via Wikimedia Commons, CC BY 2.0",
-          "level": "documented",
-          "at": {
-            "r": 8,
-            "c": "7/13",
-            "w": 90
           }
         },
         {
@@ -5065,12 +4981,11 @@
         },
         {
           "type": "figure",
-          "src": "verhne-gnilovskoe-tomb",
-          "alt": "A grey metal tomb-box lying open and tilted in thick green undergrowth beside rusty railings, a small white plate on its end and litter in the weeds",
-          "caption": "An abandoned tomb at the Verkhne-Gnilovskoe cemetery, Rostov-on-Don, 2020. Photograph: Alexander Roumega, CC0. Context only, far from this plate’s sources: it shows neglect, not why the grave was left or who lies there.",
-          "credit": "Alexander Roumega / Wikimedia Commons, CC0",
-          "level": "documented",
-          "size": "narrow"
+          "src": "besovets-cross",
+          "alt": "A solitary wooden votive cross with carved notches and gabled roof, standing in tall grass at the edge of the forest near Besovets village, Karelia",
+          "caption": "A roadside protective wooden cross near Besovets, Karelia (photograph: RIA Novosti archive, CC BY-SA 3.0). Votive crosses were erected on boundaries, crossroads and forest borders to bar the way to unquiet and restless dead.",
+          "credit": "RIA Novosti / Wikimedia Commons, CC BY-SA 3.0",
+          "level": "documented"
         },
         {
           "type": "text",
@@ -6191,10 +6106,11 @@
         },
         {
           "type": "figure",
-          "src": "soldier-flowers",
-          "credit": "I. Burov / Glavarkhiv Moscow, 1979; processing by this atlas",
-          "caption": "Flowers at the Tomb of the Unknown Soldier, Moscow, 9 May 1979. A single collective cenotaph substituting for unlocated battlefield graves.",
-          "size": "normal"
+          "src": "port-arthur-funeral-1905",
+          "alt": "A sepia stereograph of rows of fallen soldiers laid out for burial in communal trenches in besieged Port Arthur, 1905",
+          "caption": "Battlefield burial of soldiers in long communal trenches, Port Arthur, 1905. Stereograph: Underwood & Underwood, Library of Congress (no known restrictions). The historical precursor to the mass fraternal grave (bratskaya mogila) of 20th-century warfare.",
+          "credit": "Underwood & Underwood / Library of Congress, public domain",
+          "level": "documented"
         },
         {
           "kicker": "03",
@@ -6248,10 +6164,11 @@
         },
         {
           "type": "figure",
-          "src": "piskaryov-band",
-          "credit": "Derivative from photograph by Ijuedt / Wikimedia Commons, CC BY-SA 4.0; processing by this atlas",
-          "alt": "A granite wall and a band of artificial flowers at Piskaryovskoye Memorial Cemetery, printed in deep black",
-          "caption": "Piskaryovskoye Memorial Cemetery, St Petersburg (derivative, 2019). The cemetery holds approximately 420,000 civilians and soldiers who died during the Siege of Leningrad, 1941–44; it opened in 1960."
+          "src": "port-arthur-trench",
+          "alt": "Hillside with rows of wooden crosses and mass battlefield graves at Port Arthur, 1905",
+          "caption": "Wooden crosses and mass trenches on the bare hillside during the siege of Port Arthur, 1905. The turning point of modern industrial war: mass nameless burials where individual graves dissolve into military cenotaphs.",
+          "credit": "Underwood & Underwood / Library of Congress / processing by this atlas, Public domain",
+          "level": "documented"
         }
       ],
       "related": [
@@ -6330,10 +6247,11 @@
         },
         {
           "type": "figure",
-          "src": "keret-graves-faded",
-          "credit": "Cornussuec, 2023 (CC0); processing by this atlas",
-          "caption": "Overgrown cemetery on Sredny Island, Keret Archipelago, White Sea. Weathered wooden cross and collapsing timber fencing returning to turf and young birch.",
-          "size": "normal"
+          "src": "suistamo-muuanto-cemetery-1935",
+          "alt": "Two men standing in a spruce wood beside an old cross, a lake showing through the trunks",
+          "caption": "Village forest cemetery in the shade of spruce woods, Muuanto, Suistamo (1935). Photograph: Auvo Hirsjärvi, Finnish Heritage Agency, CC BY 4.0. An ancient churchyard overgrown with moss and forest, returning to natural ground.",
+          "credit": "Auvo Hirsjärvi / Finnish Heritage Agency, CC BY 4.0",
+          "level": "documented"
         },
         {
           "kicker": "03",
@@ -6374,10 +6292,11 @@
         },
         {
           "type": "figure",
-          "src": "mologa-sentinel-2021",
-          "credit": "Contains modified Copernicus Sentinel data 2021 (ESA); free use with attribution",
-          "alt": "A satellite image of the Rybinsk reservoir surface at the site of the submerged town of Mologa; a barely visible grid of streets shows through shallow water in autumn",
-          "caption": "Site of Mologa, Rybinsk reservoir, Sentinel satellite, 11 October 2021. The town was flooded in 1947; the street grid is visible in shallow water during low-water autumns."
+          "src": "verhne-gnilovskoe-tomb",
+          "alt": "An abandoned brick tomb with a collapsing arched vault, covered with thickets and wild shrubs",
+          "caption": "An abandoned tomb at the Verkhne-Gnilovskoye cemetery, Rostov-on-Don (photograph: Alexander Roumega, CC0). The crumbling masonry and sinking brick vault overtaken by roots and wild vegetation: the material threshold of reclamation.",
+          "credit": "Alexander Roumega / Wikimedia Commons, CC0",
+          "level": "documented"
         }
       ],
       "related": [

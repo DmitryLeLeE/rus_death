@@ -57,7 +57,7 @@
   "shows": "Name and dates on the stone",
   "w": 900,
   "h": 810,
-  "bytes": 125444
+  "bytes": 125360
  },
  {
   "id": "ilf-site",
@@ -257,7 +257,7 @@
   "shows": "Whole icon",
   "w": 1149,
   "h": 1511,
-  "bytes": 528494
+  "bytes": 528662
  },
  {
   "id": "dormition-full",
@@ -367,7 +367,7 @@
   "shows": "Whole frame",
   "w": 831,
   "h": 675,
-  "bytes": 175146
+  "bytes": 175232
  },
  {
   "id": "perov-drowned-cut",
@@ -517,7 +517,7 @@
   "shows": "Whole frame",
   "w": 1500,
   "h": 943,
-  "bytes": 227560
+  "bytes": 227508
  },
  {
   "id": "izba-red-corner-wide",
@@ -547,7 +547,7 @@
   "shows": "Whole frame",
   "w": 1500,
   "h": 800,
-  "bytes": 131848
+  "bytes": 131726
  },
  {
   "id": "mologa-ascension-news",
@@ -608,5 +608,15 @@
   "w": 1400,
   "h": 787,
   "bytes": 256930
+ },
+ {
+  "id": "port-arthur-trench",
+  "parent_file": "port-arthur-funeral-1905.jpg",
+  "treatment": "faded",
+  "title": "Hasty funeral rites in besieged Port Arthur, 1905 — the field of crosses",
+  "shows": "Trench and wooden crosses on the hillside",
+  "w": 900,
+  "h": 871,
+  "bytes": 83836
  }
 ]

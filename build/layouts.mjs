@@ -34,14 +34,18 @@ export const FIGMAP = {
   "besovets-cross": "besovets-cross-cut",
   "nepogodikha-house": "nepogodikha-house-cut",
   "tver-empty-house": "tver-empty-house-cut",
+  "perov-drowned": "perov-drowned-cut",
+  "gapon-panikhida": "gapon-panikhida-cut",
+  "donskoy-crematorium": "donskoy-crematorium-cut",
+  "coffin-vyazma": "coffin-vyazma-cut",
 };
 
 // Image that stands for each plate on the cover and in the index.
 export const KEY = {
-  a: "dormition-face", b: "dormition-bier", c: "perov-sled", d: "meal-engraving",
-  e: "tomb-black", f: "golubets-roof", g: "judgment-strip", h: "judgment-top",
-  i: "soldier-flowers", j: "perov-full", k: "ilf-stele", l: "tomb-path",
-  m: "tver-empty-house-xerox",
+  a: "dormition-face", b: "coffin-vyazma-cut", c: "gapon-panikhida-cut", d: "meal-engraving",
+  e: "tomb-black", f: "golubets-roof", g: "fedosova-cut", h: "judgment-top",
+  i: "piskaryov-flame", j: "perov-full", k: "donskoy-crematorium-cut", l: "perov-drowned-cut",
+  m: "nepogodikha-house-cut",
   n: "forest-edge-wide",
   o: "swamp-karelia-xerox",
   p: "reshma-cross-faded",
@@ -50,11 +54,11 @@ export const KEY = {
   s: "kustodiev-domovoi-faded",
   t: "makovsky-rusalki-faded",
   u: "arkhipov-radonitsa-cut",
-  v: "izba-red-corner-wide",
+  v: "doukhobor-stove-gorelovka",
   w: "keret-graves-faded",
-  x: "tver-empty-house-xerox",
-  y: "soldier-flowers",
-  z: "keret-graves-faded",
+  x: "qr-thorntons-congressional",
+  y: "port-arthur-trench",
+  z: "suistamo-muuanto-cemetery-1935",
 };
 
 export const LAYOUT = {
@@ -75,8 +79,8 @@ export const LAYOUT = {
   body: {
     ground: "soot",
     items: [
-      { a: "dormition-bier", r: 1, c: "1/-1", y: -20, rot: 0, w: 100, m: "c", tape: "tr",
-        note: "linen under the body — see B / 02" },
+      { a: "coffin-vyazma-cut", r: 1, c: "1/-1", y: -20, rot: 0, w: 100, m: "c", tape: "tr",
+        note: "hollowed-out oak chump coffin — see B / 04" },
       { s: 0, r: 2, c: "2/7", y: -90, rot: -0.7, mat: "linen", w: 92, m: "l" },
       { s: 1, r: 2, c: "7/13", y: 40, rot: 0.5, mat: "plaster", w: 100, m: "c" },
       { s: 2, r: 3, c: "6/12", y: -30, rot: 0.4, mat: "newsprint", w: 94, m: "r" },
@@ -90,11 +94,11 @@ export const LAYOUT = {
   ritual: {
     ground: "newsprint",
     items: [
-      { a: "perov-sled", r: 1, c: "1/7", y: -50, rot: -1.2, tape: "tl", w: 92, m: "l" },
+      { a: "gapon-panikhida-cut", r: 1, c: "1/7", y: -50, rot: -1.2, tape: "tl", w: 92, m: "l" },
       { s: 0, r: 1, c: "8/13", y: 50, rot: 0.6, mat: "linen", w: 94, m: "r" },
       { s: 1, r: 2, c: "1/13", y: -10, rot: 0, mat: "plaster", w: 100, m: "c" },
       { s: 2, r: 3, c: "3/13", y: 0, rot: 0.3, mat: "newsprint", w: 100, m: "c" },
-      { a: "perov-dog", r: 4, c: "1/5", y: 20, rot: 2.0, w: 66, m: "l", tape: "tr" },
+      { a: "gapon-panikhida-cut", r: 4, c: "1/5", y: 20, rot: 2.0, w: 66, m: "l", tape: "tr" },
       { s: 3, r: 4, c: "6/12", y: 80, rot: -0.5, mat: "manila", w: 94, m: "r" },
       { s: 4, r: 5, c: "2/8", y: 0, rot: 0.8, mat: "linen", w: 92, m: "l" },
       { s: 5, r: 5, c: "9/13", y: 60, rot: -1.3, mat: "soot", w: 90, m: "r" },
@@ -113,7 +117,7 @@ export const LAYOUT = {
       { s: 4, r: 4, c: "2/8", y: 0, rot: -1.2, mat: "none", w: 86, m: "l", tape: "tl" },
       { s: 5, r: 4, c: "8/13", y: 60, rot: 0.7, mat: "soot", w: 92, m: "r" },
       { s: 6, r: 5, c: "5/10", y: -20, rot: 1.0, mat: "none", w: 60, m: "c" },
-      { a: "arkhipov-radonitsa-cut", r: 6, c: "2/9", y: 10, rot: -0.8, w: 100, m: "c", tape: "tl" },
+      { a: "radonitsa-table", r: 6, c: "2/9", y: 10, rot: -0.8, w: 100, m: "c", tape: "tl" },
       { a: "soldatskoe-pascha-cut", r: 6, c: "9/12", y: 50, rot: 1.6, w: 70, m: "r", tape: "tr" },
     ],
   },
@@ -125,11 +129,11 @@ export const LAYOUT = {
       { s: 1, r: 2, c: "2/8", y: 40, rot: -0.4, mat: "soot", w: 92, m: "l" },
       { a: "tomb-path", r: 2, c: "8/13", y: 130, rot: 2.2, w: 78, m: "r", tape: "tl" },
       { s: 2, r: 3, c: "1/7", y: 70, rot: 0.8, mat: "concrete", w: 92, m: "l" },
-      { a: "golubets-roof", r: 3, c: "7/13", y: 10, rot: -1.6, w: 90, m: "c", tape: "tr" },
+      { a: "tomb-black", r: 3, c: "7/13", y: 10, rot: -1.6, w: 90, m: "c", tape: "tr" },
       { s: 3, r: 4, c: "4/10", y: 40, rot: -0.3, mat: "soot", w: 94, m: "c" },
       { s: 4, r: 5, c: "2/7", y: 0, rot: 1.0, mat: "granite", w: 88, m: "l" },
       { s: 5, r: 5, c: "8/13", y: 80, rot: -1.0, mat: "none", w: 90, m: "r" },
-      { a: "perov-drowned-cut", r: 6, c: "2/11", y: 10, rot: 0.5, w: 100, m: "c" },
+      { a: "tomb-path", r: 6, c: "2/11", y: 10, rot: 0.5, w: 100, m: "c" },
     ],
   },
   grave: {
@@ -158,8 +162,7 @@ export const LAYOUT = {
     ground: "newsprint",
     items: [
       { s: 0, r: 1, c: "3/9", y: 20, rot: 0.2, mat: "none", w: 94, m: "l" },
-      { a: "judgment-strip", r: 1, c: "11/13", y: -40, rot: 1.2, w: 40, m: "r", tape: "tc",
-        tr: "Printed Slavonic text on a Last Judgment icon — writing in an image, not a lament" },
+      { a: "plattonen-funeral-cut", r: 1, c: "11/13", y: -40, rot: 1.2, w: 40, m: "r", tape: "tc" },
       { s: 2, r: 2, c: "1/6", y: 30, rot: -0.9, mat: "manila", w: 92, m: "l" },
       { s: 3, r: 2, c: "7/12", y: 120, rot: 0.5, mat: "none", w: 94, m: "r" },
       { s: 4, r: 3, c: "2/12", y: 10, rot: -0.2, mat: "plaster", w: 100, m: "c" },
@@ -218,14 +221,12 @@ export const LAYOUT = {
   soviet: {
     ground: "newsprint",
     items: [
-      { a: "soldier-name", r: 1, c: "1/8", y: -20, rot: -0.8, w: 94, m: "l", tape: "tl" },
+      { a: "donskoy-crematorium-cut", r: 1, c: "1/8", y: -20, rot: -0.8, w: 94, m: "l", tape: "tl" },
       { s: 0, r: 1, c: "8/13", y: 40, rot: 0.6, mat: "plaster", w: 94, m: "r" },
       { s: 1, r: 2, c: "2/8", y: -30, rot: -0.3, mat: "newsprint", w: 94, m: "c" },
-      { a: "ilf-stele", r: 2, c: "9/13", y: 60, rot: 1.8, w: 76, m: "r", tape: "tr",
-        tr: "ИЛЬЯ ИЛЬФ 1897–1937 — “Ilya Ilf”, with years of birth and death" },
+      { a: "donskoy-columbarium-cut", r: 2, c: "9/13", y: 60, rot: 1.8, w: 76, m: "r", tape: "tr" },
       { s: 2, r: 3, c: "1/13", y: 0, rot: 0.2, mat: "manila", w: 100, m: "c" },
       { s: 3, r: 4, c: "1/7", y: 20, rot: -0.7, mat: "linen", w: 92, m: "l" },
-      { a: "ships-xerox", r: 4, c: "8/12", y: 70, rot: 1.2, w: 78, m: "r", tape: "tl" },
       { s: 4, r: 5, c: "2/8", y: 0, rot: 0.9, mat: "soot", w: 90, m: "l" },
       { s: 5, r: 5, c: "8/13", y: 60, rot: -1.2, mat: "none", w: 88, m: "r" },
       { s: 6, r: 6, c: "2/12", y: 0, rot: 0.3, mat: "plaster", w: 100, m: "c" },
