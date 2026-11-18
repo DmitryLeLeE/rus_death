@@ -1201,10 +1201,18 @@ function bibliographyPage() {
     <p class="bib__lim">${esc(im.note)}</p>
   </li>`).join("\n");
 
+  const bibDownloadHtml = `
+<div class="bib-toolbar">
+  <a href="${UP}${base}assets/rus_death.bib" download="rus_death.bib" class="bib-download-btn mono">
+    <span class="bib-download-icon">📥</span> ${LANG === "ru" ? "Скачать всю библиографию (.bib для Zotero / Mendeley)" : "Download complete bibliography (.bib for Zotero / Mendeley)"}
+  </a>
+</div>`;
+
   return shell({
     title: X.title, description: X.desc, base, bodyClass: "bib-page", page: "bibliography", rel: "bibliography.html",
     content: `<main id="main">
 ${pagehead("pagehead--bib", X.kicker, X.h1, X.dek)}
+${bibDownloadHtml}
 
 <section class="bib-wrap">
   <h2 class="mono bib-wrap__h">${X.h2a(sorted.length)}</h2>
@@ -2041,6 +2049,18 @@ for (const lang of ["en", "ru"]) {
 }
 const today = plates.meta.compiled;
 const loc = (r) => SITE + r.replace(/index\.html$/, "");
+
+// Emit complete BibTeX archive
+const allBib = [
+  "% =========================================================================",
+  "% RUSSIAN CHTHONIC ATLAS — Complete Scholarly Bibliography",
+  `% ${sourcesDoc.entries.length} entries covering ethnography, folklore, history, archaeology and legal acts`,
+  `% Compiled: ${today} · CC BY-SA 4.0`,
+  "% =========================================================================\n",
+  ...sourcesDoc.entries.map((s) => formatBibTeX(s))
+].join("\n\n");
+write("assets/rus_death.bib", allBib);
+
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${sitemapRel.map((r) => `  <url><loc>${loc(r)}</loc><lastmod>${today}</lastmod>

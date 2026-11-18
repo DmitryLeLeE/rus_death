@@ -6551,7 +6551,10 @@
         "etkind2013",
         "koroleva2015",
         "nikulin2007",
-        "krivosheev2001"
+        "krivosheev2001",
+        "chicherov1957",
+        "barsov1872",
+        "kremleva1999"
       ],
       "concepts": [
         "memory",
@@ -6690,6 +6693,35 @@
           "level": "documented",
           "sources": [
             "krivosheev2001"
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "The Monastery Sinodik: Liturgical Cenotaphs of the Slain",
+          "kicker": "Liturgical cenotaph",
+          "paras": [
+            "Long before secular bronze monuments or military cenotaphs, Muscovite Russia developed a specialized liturgical mechanism for the collective memory of the unreturned dead: the *Sinodik of the Slain* (*синодик опальных и убиенных воинов*). Following the catastrophic carnage of the Battle of Kulikovo (1380) and the Siege of Kazan (1552), when thousands of peasant levies and boyar sons fell in distant borderlands where their individual remains could neither be identified nor transported home, the Russian Church instituted universal memorial services held annually on Dmitrievskaya Saturday (Chicherov 1957, pp. 38–42).",
+            "Monasteries from the Trinity-Sergius Lavra to Solovki received royal donations to copy exhaustive memorial lists into illuminated parchment codices. Monks read these rolls perpetually at midnight offices: each soldier's Christian name was recited aloud, effectively creating an acoustic, intangible cenotaph. For those whose bodies dissolved into borderland swamps or fell to scavenging wolves, liturgical vocalization was the only grave they ever received (Barsov 1872; Kremleva 1999, pp. 112–118)."
+          ],
+          "level": "documented",
+          "sources": [
+            "chicherov1957",
+            "barsov1872",
+            "kremleva1999"
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Empire, Marble and Nameless Conscripts: The 1812 Cenotaph",
+          "kicker": "The imperial ledger",
+          "paras": [
+            "The War of 1812 accelerated the institutional codification of the military cenotaph into imperial state architecture. In Alexander I's original conception for the Cathedral of Christ the Saviour in Moscow—commissioned as a colossal votive memorial to divine providence and fallen defenders—the perimeter gallery was designed to be lined with 177 white Carrara marble plaques commemorating all major engagements of the campaign (Tumarkin 1994, pp. 28–34).",
+            "Yet this architectural cenotaph established a rigid class asymmetry of remembrance. While imperial officers were inscribed by full aristocratic surname, rank, and regiment, the tens of thousands of illiterate serf-recruits who died of typhus, gangrene, or freezing on the Smolensk highway were subsumed into rounded aggregate arithmetic: *«Нижних чинов убито 4,200, ранено 7,800»*. The peasant soldier remained an unindividuated numeral, prefiguring the totalizing abstraction of 20th-century mass slaughter (Merridale 2000, pp. 88–94)."
+          ],
+          "level": "documented",
+          "sources": [
+            "tumarkin1994",
+            "merridale2000"
           ]
         }
       ],
@@ -6862,6 +6894,35 @@
           "level": "documented",
           "sources": [
             "smirnov1920"
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "The Eschatology of Dissolution: Dust to Dust",
+          "kicker": "The return to dust",
+          "paras": [
+            "In traditional peasant eschatology, the gradual rotting of the wooden grave cross and the sinking of the domovina mound was never interpreted as filial neglect or cultural failure. Guided by the biblical injunction recited at the graveside (*«Земля еси и в землю отыдеши»* — Genesis 3:19), rural communities viewed the physical decay of the burial marker as the necessary, sanctified dissolution of individual earthly identity back into *сырая земля-кормилица* (mother moist earth) (Kremleva 1999, pp. 134–140).",
+            "Once three generations had elapsed and the deceased ceased to be remembered as a distinct autobiographical person, their grave cross fell flat and was intentionally left to rot into the soil; burning or clearing fallen graveyard wood was strictly tabooed under penalty of divine wrath. The individual returned to the anonymous fraternity of the *родители* (ancestors), where the forest moss and tree roots completed the work of ontological reconciliation before the universal resurrection (Permilovskaya 2013; Smirnov 1920)."
+          ],
+          "level": "documented",
+          "sources": [
+            "kremleva1999",
+            "permilovskaya2013",
+            "smirnov1920"
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "The Drowned Necropolises: The Volga Reservoirs and Mologa",
+          "kicker": "Aquatic oblivion",
+          "paras": [
+            "The most extreme modern form of cemetery erasure in Russia was not urban bulldozing, but technological drowning. Between 1937 and 1957, the construction of massive hydroelectric dams along the Upper and Middle Volga—including the Rybinsk, Uglich, and Gorky 'seas'—inundated hundreds of thousands of square kilometers of ancient cultural landscape, permanently submerging over 700 historic parish pogosts and rural cemeteries (Merridale 2000; Kremleva 1999).",
+            "In the historic town of Mologa and adjacent villages, wooden grave crosses were sawed off at water level while stone family crypts were simply left beneath twenty meters of artificial reservoir depth. During drought periods and severe winter drawdown, retreating reservoir waters regularly expose eroded sandy shoals where human skulls, calcified ribcages, wrought-iron grave fences, and 18th-century limestone slabs emerge under the open sky: a recurring, uncanny aquatic threshold where submerged memory refuses to stay obliterated."
+          ],
+          "level": "documented",
+          "sources": [
+            "merridale2000",
+            "kremleva1999"
           ]
         }
       ],

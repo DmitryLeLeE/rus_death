@@ -53,10 +53,10 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Words | Lexicon of Russian ethnographic terms (64 entries) with interactive in-text popovers across all plate prose |
 | Reading routes | Seven paths through the plates, covering all 26 compositions |
 | Compendium | Full monograph pre-print uniting all 26 plates, systematic registers, and print/PDF typography |
-| Claim ledger | Every section of every plate (241 sections) with its evidence level and sources, generated from the plate data |
+| Claim ledger | Every section of every plate (245 sections) with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |
-| Sources | Bibliography (154 entries) with one-click ГОСТ Р 7.0.5-2008 and BibTeX copy buttons; visual and audio asset credits |
-| Method | Scope, evidence levels, periodisation, limits |
+| Sources | Bibliography (155 entries) with one-click ГОСТ Р 7.0.5-2008 and BibTeX copy buttons, plus downloadable `assets/rus_death.bib` for reference managers (Zotero, Mendeley); visual and audio asset credits |
+| Method | Scope, evidence levels, historiographical schools (Mythological, Evolutionary, Semiotic, Trauma anthropology), periodisation, limits |
 | Colophon | How the edition was made; offline PWA support and service worker architecture |
 
 Pages change in place (`js/nav.js`), so the sound keeps running between pages; anything unusual falls back to an ordinary page load. There is a *Readable* button in the header (calm paper, no tilt, larger type) and an optional *Sound* button (a quiet room, wind and a far bell, synthesised in the browser; pauses automatically when archival gramophone tracks are played). The entire atlas functions as a Progressive Web App (PWA) with complete offline caching (`manifest.json` and `sw.js`). Every motion effect switches off under `prefers-reduced-motion`, and each plate prints as a plain black-and-white sheet.
@@ -67,7 +67,7 @@ Pages change in place (`js/nav.js`), so the sound keeps running between pages; a
 
 **Читать Атлас:** <https://DmitryLeLeE.github.io/rus_death/ru/> · **Сводный академический том (Pre-print / PDF):** <https://DmitryLeLeE.github.io/rus_death/ru/compendium.html>
 
-«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта с региональными фильтрами и экспедиционными треками, хронология с матрицей 5 исторических страт, метрический регистр кончины XIX века, хтонический гербарий (8 видов), архив исторических аудиозаписей фонографа и шеллака (1909–1927 гг., Надежда Плевицкая, Фёдор Шаляпин, сибирские бродяжеские песни) со стилизованным ретроплеером, словарь с интерактивными тултипами, библиография с экспортом цитат в ГОСТ Р 7.0.5-2008 и BibTeX, сводный академический том для печати/PDF (`ru/compendium.html`), интерактивные экспликации картин, реестр утверждений, маршруты чтения и поиск. В атлас включены главы по теневой этнографии (ритуалы опахивания при море, поверья о заложных покойниках и душителях, болотные раскопы «Долины смерти», сетевой кенотаф). Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём строго отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
+«Археология русской смерти» — атлас смерти, памяти, обряда и загробного мира в русской культуре: двадцать шесть листов в четырёх томах, карта с региональными фильтрами и экспедиционными треками, хронология с матрицей 5 исторических страт, метрический регистр кончины XIX века, хтонический гербарий (8 видов), архив исторических аудиозаписей фонографа и шеллака (1909–1927 гг., Надежда Плевицкая, Фёдор Шаляпин, сибирские бродяжеские песни) со стилизованным ретроплеером, словарь с интерактивными тултипами, библиография (155 источников) с экспортом цитат в ГОСТ Р 7.0.5-2008 и BibTeX и скачиваемым пакетом `rus_death.bib`, сводный академический том для печати/PDF (`ru/compendium.html`), интерактивные экспликации картин, реестр утверждений (245 разделов), маршруты чтения и поиск. В атлас включены главы по теневой этнографии (ритуалы опахивания при море, поверья о заложных покойниках и душителях, болотные раскопы «Долины смерти», синодики убиенных воинов, затопленные некрополи Мологи, сетевой кенотаф). Русское издание лежит в `/ru/` и содержит всё то же, что английское. Факты в нём строго отделены от интерпретации и реконструкции, выдуманных источников и цитат нет.
 
 ## Run and rebuild
 

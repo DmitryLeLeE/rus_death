@@ -479,6 +479,34 @@ html[lang="ru"] .cv__sub { left: 64vw; top: 49vw; width: 30vw; }
 .arch__p a { margin-right: 0.3rem; }
 
 /* --- Academic citation & interactive tooling --- */
+.bib-toolbar {
+  max-width: 1400px;
+  margin: 0 auto 2rem;
+  padding: 0 var(--pad);
+  display: flex;
+  justify-content: flex-end;
+}
+.bib-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(22, 21, 20, 0.9);
+  border: 1px solid rgba(177, 50, 39, 0.6);
+  color: #ede9df;
+  padding: 0.75rem 1.4rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease;
+}
+.bib-download-btn:hover {
+  background: var(--accent-red, #b13227);
+  border-color: #d14133;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(177, 50, 39, 0.4);
+}
 .bib__actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
 .bib__btn {
   background: transparent;

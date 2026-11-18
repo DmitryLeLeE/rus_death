@@ -29,7 +29,7 @@
       "paras": [
         "A collection of research plates ({n} at present) on death in Russian culture, arranged as an atlas rather than as a book: each plate is a composition on one problem, and the index, map and chronology provide routes between them that are not sequential.",
         "The subject is the material and institutional record, not death as a mood: how bodies were handled, how cemeteries were regulated, how the dead were fed and named, how the state counted them, how artists used them.",
-        "The plates are issued in four volumes — I, Archæology of Russian Death (A–H, J); II, The Chthonic Landscape (M–R); III, The Unseen (S–V); IV, Memory, Catastrophe and Modernity (I, K, L, W, X, Y, Z) — and the same rules apply to all of them. Plates M–Z were written after the first twelve, with fewer images and a smaller body of source reading each; the plate says where it is thin."
+        "The plates are published across four completed volumes: I, «Archæology of Russian Death» (A–H, J); II, «The Chthonic Landscape» (M–R); III, «The Unseen» (S–V); IV, «Memory, Catastrophe and Modernity» (I, K, L, W, X, Y, Z). Each volume is built on the same epistemic rule: all 26 compositions integrate field ethnography, archival death registers, botanical dendrology, audio phonograms, and institutional sources."
       ]
     },
     {
@@ -60,6 +60,17 @@
     },
     {
       "kicker": "05",
+      "heading": "Historiographical schools and analytical paradigms",
+      "paras": [
+        "The ethnography of Russian death has never spoken with a single voice. This atlas draws upon four major analytical paradigms, maintaining a critical awareness of their ideological and epistemological horizons.",
+        "1. The 19th-Century Mythological School (A. N. Afanasyev, F. I. Buslaev, I. P. Sakharov): treated peasant funerary customs as fossilized remnants of prehistoric solar and atmospheric myths. The atlas relies on their recorded folk texts and incantations while treating their solar interpretations as artifacts of romantic philology.",
+        "2. Comparative Historical and Evolutionary Ethnography (E. V. Barsov, D. K. Zelenin, V. Y. Propp, D. N. Anuchin): shifted scrutiny from solar abstractions to physical ritual behavior, material implements (the sledge, the burial boat, the unhewn log), and dialect variation. Their rigorous field transcriptions remain foundational for empirical description in this atlas.",
+        "3. The Moscow-Tartu Semiotic School (N. I. Tolstoy, S. M. Tolstaya, A. K. Baiburin, B. A. Uspensky): decoded Slavic traditional culture as a multi-channel semiotic modeling system. In their reading, the funeral is a structural grammar where verbal laments, spatial boundaries (threshold, window, crossroads), foodways, and temporal intervals (3rd, 9th, 40th days) collectively negotiate the perilous transition from the human to the chthonic order.",
+        "4. Contemporary Anthropology of Memory and Catastrophe (C. Merridale, A. Etkind, O. A. Sedakova, S. A. Panchenko): investigates the twentieth century rupture—mass unburied war dead, municipal liquidation of historic necropolises, Soviet parks constructed over mass graves, and the ongoing labor of unmourned communal trauma."
+      ]
+    },
+    {
+      "kicker": "06",
       "heading": "Geography",
       "paras": [
         "The map plots only places for which the atlas has a documentary basis, and it does not shade areas. A photograph of one cemetery is not a distribution; a set of reports gathered from many provinces does not establish a custom’s range.",
@@ -68,7 +79,7 @@
       ]
     },
     {
-      "kicker": "06",
+      "kicker": "07",
       "heading": "Language",
       "paras": [
         "All visible text is English. Russian terms appear in simplified transliteration — kh, zh, ch, shch, y — with a gloss at first use. The apostrophe marks softness only where it is needed to avoid ambiguity.",
@@ -76,7 +87,7 @@
       ]
     },
     {
-      "kicker": "07",
+      "kicker": "08",
       "heading": "The material layer is an argument",
       "paras": [
         "The torn edges, toner, halftone screens and photocopy damage in this publication are not a mood laid over the content. They say something about the evidence itself: it gets reproduced, damaged, recopied and is never complete.",
@@ -85,7 +96,7 @@
       ]
     },
     {
-      "kicker": "08",
+      "kicker": "09",
       "heading": "What is missing",
       "paras": [
         "There is no field survey, no municipal burial register and no systematic study of post-Soviet commercial funerals in this edition. The digital afterlife (plate X) is a survey of claims drawn from abstracts and a news item, not a finding.",

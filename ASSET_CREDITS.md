@@ -101,18 +101,6 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/illustrations/diagram-lament-score-ru.svg` | Движение причитания | Original diagram made for this atlas | 2026-11-15 | CC BY-SA 4.0 (this atlas) | — | original-diagram | reconstruction |
 | `assets/illustrations/diagram-hot-dinner.svg` | The hot dinner as an account | Original diagram made for this atlas | 2026-11-15 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 | `assets/illustrations/diagram-hot-dinner-ru.svg` | Поминальный обед как расчёт | Original diagram made for this atlas | 2026-11-15 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
-| `assets/illustrations/diagram-domovina-anatomy.svg` | Architectural anatomy of the Russian hollowed log coffin (domovina / koloda) | Original architectural reconstruction diagram for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | interpretation |
-| `assets/illustrations/diagram-domovina-anatomy-ru.svg` | Архитектурная анатомия русской долблёной домовины (колоды) | Original architectural reconstruction diagram for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | interpretation |
-| `assets/illustrations/diagram-cross-types.svg` | Comparative typology of Russian grave markers | Original comparative diagram for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | interpretation |
-| `assets/illustrations/diagram-cross-types-ru.svg` | Сравнительная типология русских деревянных намогильных сооружений | Original comparative diagram for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | interpretation |
-| `assets/illustrations/diagram-botany-spruce.svg` | Herbarium chthonicum: Norway spruce (Picea abies) boughs | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
-| `assets/illustrations/diagram-botany-spruce-ru.svg` | Хтонический гербарий: еловый лапник (Picea abies) | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
-| `assets/illustrations/diagram-botany-aspen.svg` | Herbarium chthonicum: Aspen (Populus tremula) and sharpened stake | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
-| `assets/illustrations/diagram-botany-aspen-ru.svg` | Хтонический гербарий: осина (Populus tremula) и осиновый кол | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
-| `assets/illustrations/diagram-botany-poppy.svg` | Herbarium chthonicum: Wild poppy (Papaver) and seed scattering barrier | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
-| `assets/illustrations/diagram-botany-poppy-ru.svg` | Хтонический гербарий: мак-самосейка (Papaver) и счётный барьер | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
-| `assets/illustrations/diagram-botany-juniper.svg` | Herbarium chthonicum: Common juniper (Juniperus communis) fumigation | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
-| `assets/illustrations/diagram-botany-juniper-ru.svg` | Хтонический гербарий: верес / можжевельник (Juniperus communis) | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 | `assets/images/rogozhskoe-procession-1907.jpg` | Cross procession from the Rogozhskoye Old Believers’ cemetery to the village of Khokhlovka, 1907 | Unknown (Commons gives the source and author as PastVu, https://pastvu.com/p/297682) | 1907 | Public domain (PD-Russia-expired, as set on Commons) | https://commons.wikimedia.org/wiki/File:1907_%D0%B3._%D0%9A%D1%80%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B9_%D1%85%D0%BE%D0%B4_%D0%BE%D1%82_%D0%A0%D0%BE%D0%B3%D0%BE%D0%B6%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%BE%D0%B1%D1%80%D1%8F%D0%B4%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BB%D0%B0%D0%B4%D0%B1%D0%B8%D1%89%D0%B0_%D0%B2_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D1%8E_%D0%A5%D0%BE%D1%85%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg | contextual | documented |
 | `assets/images/kobona-banya.jpg` | Old banya in Kobona village, Leningrad Oblast | Yekaterina Borisova (Екатерина Борисова) | 2026-07-27 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%B1%D0%BE%D0%BD%D0%B0._%D0%A1%D1%82%D0%B0%D1%80%D0%B0%D1%8F_%D0%B1%D0%B0%D0%BD%D1%8F_01.jpg | contextual | documented |
 | `assets/images/peasant-interior-novgorod.jpg` | Peasant house interior, Veliky Novgorod | Vidgestr | 2019-08-23 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Russian_peasant_house_interior.jpg | contextual | documented |
@@ -148,6 +136,10 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/images/yaroshenko-firstborn-funeral.jpg` | Funeral of the Firstborn, 1893 | Nikolai Yaroshenko | 1893 | Public domain (PD-old-70) | https://commons.wikimedia.org/wiki/File:Funeral_of_Firstborn_1893.jpg | archival | documented |
 | `assets/images/buchkuri-funeral-1905.jpg` | Peasant Funeral, 1905 | Aleksandr Buchkuri | 1905 | Public domain (PD-old-70) | https://commons.wikimedia.org/wiki/File:Бучкури_Похороны_1905.jpg | archival | documented |
 | `assets/images/linschoten-russian-cross-1594.jpg` | Russian Carved Roadside and Votive Crosses, 1594 | Jan Huyghen van Linschoten | 1594 | Public domain (PD-old-70) | https://commons.wikimedia.org/wiki/File:Jan_Huyghen_van_Linschoten_Cross.png | archival | documented |
+| `assets/illustrations/diagram-domovina-anatomy.svg` | Anatomy of the log coffin (domovina / koloda) | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-domovina-anatomy-ru.svg` | Анатомия домовины: структура долблёной колоды | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-cross-types.svg` | Typology of North Russian grave markers: from roofed cross to Soviet obelisk | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-cross-types-ru.svg` | Типология надмогильных знаков Русского Севера | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 | `assets/derived/hero-radonitsa.webp` | Commemoration at graves, Khutir Tymky, Ukraine (2014; not evidence for Russian custom) — deep-black print | Derivative made for this atlas from the original by Perohanych | 2026 | CC BY-SA 3.0 (derived) | https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG | — | not recorded |
 | `assets/derived/hero-tomb.webp` | Abandoned tomb, Nizhne-Gnilovskoye cemetery, Rostov-on-Don — deep-black print | Derivative made for this atlas from the original by Wikimedia Commons contributor (released CC0) | 2026 | CC0 1.0 (derived) | https://commons.wikimedia.org/wiki/File:Abandoned_tomb_at_Nizhne-Gnilovskoe_cemetery.jpg | — | not recorded |
 | `assets/derived/radonitsa-table.webp` | Commemoration at graves, Khutir Tymky, Ukraine — the table (2014) — faded print with scanner banding | Derivative made for this atlas from the original by Perohanych | 2026 | CC BY-SA 3.0 (derived) | https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG | — | not recorded |
@@ -266,6 +258,16 @@ Columns **Role** and **Evidence**: for original diagrams both are set by hand. F
 | `assets/derived/ulan-ude-oldbelievers-cut.webp` | Old Believer red corner with icons, Ulan-Ude — faded print with scanner banding | Derivative made for this atlas from the original by amanderson2 | 2026 | CC BY 2.0 (derived) | https://commons.wikimedia.org/wiki/File:Inside_an_old_believers_House_Ehtnographical_museum_Ulan_Ude_Russia_(14805594413).jpg | — | not recorded |
 | `assets/derived/valaam-worship-cross-cut.webp` | Carved wooden poklonny cross, Nikolsky Island, Valaam — faded print with scanner banding | Derivative made for this atlas from the original by Александровы АГ | 2026 | CC BY-SA 4.0 (derived) | https://commons.wikimedia.org/wiki/File:9699._Valaam._Worship_Cross_on_Nikolsky_Island.jpg | — | not recorded |
 | `assets/derived/verhne-gnilovskoe-cut.webp` | Overgrown vault at Verkhne-Gnilovskoye cemetery, Rostov-on-Don — faded print with scanner banding | Derivative made for this atlas from the original by Alexander Roumega | 2026 | CC0 1.0 (derived) | https://commons.wikimedia.org/wiki/File:Abandoned_tomb_at_Verhne-Gnilovskoe_cemetery.jpg | — | not recorded |
+| `assets/illustrations/diagram-botany-spruce.svg` | Herbarium chthonicum: Norway spruce (Picea abies) boughs | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-botany-spruce-ru.svg` | Хтонический гербарий: еловый лапник (Picea abies) | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-botany-aspen.svg` | Herbarium chthonicum: Aspen (Populus tremula) and sharpened stake | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-botany-aspen-ru.svg` | Хтонический гербарий: осина (Populus tremula) и осиновый кол | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-botany-poppy.svg` | Herbarium chthonicum: Wild poppy (Papaver) and seed scattering barrier | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-botany-poppy-ru.svg` | Хтонический гербарий: мак-самосейка (Papaver) и счётный барьер | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-botany-juniper.svg` | Herbarium chthonicum: Common juniper (Juniperus communis) fumigation | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-botany-juniper-ru.svg` | Хтонический гербарий: верес / можжевельник (Juniperus communis) | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-calendar-wheel.svg` | Liturgical & folk ancestor calendar: the circular wheel of commemoration | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+| `assets/illustrations/diagram-calendar-wheel-ru.svg` | Годичный круг поминовения: круговая схема родительских дней | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
 
 ### Notes per file
 
@@ -641,6 +643,18 @@ Licence: Public domain (PD-old-70) (https://creativecommons.org/publicdomain/mar
 **linschoten-russian-cross-1594** — Russian Carved Roadside and Votive Crosses, 1594. print. Jan Huyghen van Linschoten, 1594. Copper engraving. National Library of the Netherlands / Wikimedia Commons.
 Licence: Public domain (PD-old-70) (https://creativecommons.org/publicdomain/mark/1.0/). Earliest Western illustration of Russian roadside and coastal memorial crosses (golubtsy) recorded by Dutch navigator Jan Huyghen van Linschoten in 1594.
 
+**diagram-domovina-anatomy** — Anatomy of the log coffin (domovina / koloda). Original editorial diagram (not a historical document). Original diagram made for this atlas, 2026-11-18. Vector drawing (SVG), generated by build/generate_new_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Drawn from ethnographic descriptions: Zelenin 1927, Barsov 1872, Kremleva 1999.
+
+**diagram-domovina-anatomy-ru** — Анатомия домовины: структура долблёной колоды. Original editorial diagram (not a historical document). Оригинальная схема создана для настоящего атласа, 2026-11-18. Векторный чертёж (SVG), сгенерирован build/generate_new_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). По материалам этнографических трудов Д. К. Зеленина (1927), Е. В. Барсова (1872), И. А. Кремлёвой (1999).
+
+**diagram-cross-types** — Typology of North Russian grave markers: from roofed cross to Soviet obelisk. Original editorial diagram (not a historical document). Original diagram made for this atlas, 2026-11-18. Vector drawing (SVG), generated by build/generate_new_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Drawn from Rouhier 2007, Chistov 1986, Merridale 2000.
+
+**diagram-cross-types-ru** — Типология надмогильных знаков Русского Севера. Original editorial diagram (not a historical document). Оригинальная схема создана для настоящего атласа, 2026-11-18. Векторный чертёж (SVG), сгенерирован build/generate_new_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). По материалам Руйе (2007), Чистова (1986), Мерридейл (2000).
+
 **hero-radonitsa** — Commemoration at graves, Khutir Tymky, Ukraine (2014; not evidence for Russian custom) — deep-black print. Derivative image (made for this atlas). Derivative made for this atlas from the original by Perohanych, 2026. Crop: Whole frame, cropped to a wide band. Processing: deep-black print, torn edge baked into the alpha channel.
 Licence: CC BY-SA 3.0 (derived) (https://creativecommons.org/licenses/by-sa/3.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
 
@@ -995,6 +1009,36 @@ Licence: CC BY-SA 4.0 (derived) (https://creativecommons.org/licenses/by-sa/4.0/
 **verhne-gnilovskoe-cut** — Overgrown vault at Verkhne-Gnilovskoye cemetery, Rostov-on-Don — faded print with scanner banding. Derivative image (made for this atlas). Derivative made for this atlas from the original by Alexander Roumega, 2026. Crop: Whole frame. Processing: faded print with scanner banding, torn edge baked into the alpha channel.
 Licence: CC0 1.0 (derived) (https://creativecommons.org/publicdomain/zero/1.0/). Processing by build/make_derived.py. Inherits the licence of the original; the creator credit above is the original author.
 
+**diagram-botany-spruce** — Herbarium chthonicum: Norway spruce (Picea abies) boughs. Original editorial diagram (not a historical document). Original diagram made for this atlas, 2026-11-18. Vector drawing (SVG), generated by build/generate_botany_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Ethnographic fieldwork on spruce path-carpeting from Zelenin 1916 and Vinogradova 2000.
+
+**diagram-botany-spruce-ru** — Хтонический гербарий: еловый лапник (Picea abies). Original editorial diagram (not a historical document). Оригинальная схема создана для настоящего атласа, 2026-11-18. Векторный чертёж (SVG), сгенерирован build/generate_botany_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). По этнографическим данным Д. К. Зеленина (1916) и Л. Н. Виноградовой (2000).
+
+**diagram-botany-aspen** — Herbarium chthonicum: Aspen (Populus tremula) and sharpened stake. Original editorial diagram (not a historical document). Original diagram made for this atlas, 2026-11-18. Vector drawing (SVG), generated by build/generate_botany_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Based on Afanasiev 1869 and Zelenin 1916 on aspen stakes.
+
+**diagram-botany-aspen-ru** — Хтонический гербарий: осина (Populus tremula) и осиновый кол. Original editorial diagram (not a historical document). Оригинальная схема создана для настоящего атласа, 2026-11-18. Векторный чертёж (SVG), сгенерирован build/generate_botany_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). По материалам А. Н. Афанасьева (1869) и Д. К. Зеленина (1916).
+
+**diagram-botany-poppy** — Herbarium chthonicum: Wild poppy (Papaver) and seed scattering barrier. Original editorial diagram (not a historical document). Original diagram made for this atlas, 2026-11-18. Vector drawing (SVG), generated by build/generate_botany_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Ethnographic studies of Slavic counting apotropaics: Vinogradova 2000.
+
+**diagram-botany-poppy-ru** — Хтонический гербарий: мак-самосейка (Papaver) и счётный барьер. Original editorial diagram (not a historical document). Оригинальная схема создана для настоящего атласа, 2026-11-18. Векторный чертёж (SVG), сгенерирован build/generate_botany_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Исследования славянских оберегов: Л. Н. Виноградова (2000).
+
+**diagram-botany-juniper** — Herbarium chthonicum: Common juniper (Juniperus communis) fumigation. Original editorial diagram (not a historical document). Original diagram made for this atlas, 2026-11-18. Vector drawing (SVG), generated by build/generate_botany_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Field accounts of domestic post-mortem fumigation: Dal 1880, Zelenin 1916.
+
+**diagram-botany-juniper-ru** — Хтонический гербарий: верес / можжевельник (Juniperus communis). Original editorial diagram (not a historical document). Оригинальная схема создана для настоящего атласа, 2026-11-18. Векторный чертёж (SVG), сгенерирован build/generate_botany_diagrams.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Этнографические свидетельства очищения избы вересом: В. И. Даль (1880), Д. К. Зеленин (1916).
+
+**diagram-calendar-wheel** — Liturgical & folk ancestor calendar: the circular wheel of commemoration. Original editorial diagram (not a historical document). Original diagram made for this atlas, 2026-11-18. Vector drawing (SVG), generated by build/generate_calendar_wheel.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Liturgical and folk calendar synthesis: Zelenin 1916, Dal 1880, Propp 1963.
+
+**diagram-calendar-wheel-ru** — Годичный круг поминовения: круговая схема родительских дней. Original editorial diagram (not a historical document). Оригинальная схема создана для настоящего атласа, 2026-11-18. Векторный чертёж (SVG), сгенерирован build/generate_calendar_wheel.py.
+Licence: CC BY-SA 4.0 (this atlas) (https://creativecommons.org/licenses/by-sa/4.0/). Синтез литургического месяцеслова и народных поминальных обычаев: Д. К. Зеленин (1916), В. И. Даль (1880), В. Я. Пропп (1963).
+
 ### Attribution required
 
 The following files are under CC BY or CC BY-SA and **must** carry the credit printed under every figure:
@@ -1081,10 +1125,8 @@ All four are served locally; no font CDN is used. Licence texts are included in 
 
 ## 6. Text and code
 
-Original text, data, diagrams, generated textures and code are released under **CC BY-SA 4.0**. Third-party images and recordings remain under the licences recorded above. The atlas’s original work does not relicense any third-party asset.
+Original text, data, diagrams, generated textures and code are released under **CC BY-SA 4.0**. Third-party images remain under the licences recorded above. The atlas’s original work does not relicense any third-party asset.
 
 ### Inline attributions
 
-Every photograph under CC BY or CC BY-SA is credited in the caption under the figure and again in the bibliography page. No image or sound recording is used without a recorded source and licence.
-| `assets/illustrations/diagram-calendar-wheel.svg` | Liturgical & folk ancestor calendar: the circular wheel of commemoration | Original diagram made for this atlas | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
-| `assets/illustrations/diagram-calendar-wheel-ru.svg` | Годичный круг поминовения: круговая схема родительских дней | Оригинальная схема создана для настоящего атласа | 2026-11-18 | CC BY-SA 4.0 (this atlas) | — | original-diagram | documented |
+Every photograph under CC BY or CC BY-SA is credited in the caption under the figure and again in the bibliography page. No image is used without a recorded source and licence.

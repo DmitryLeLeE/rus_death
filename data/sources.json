@@ -2135,6 +2135,20 @@
       "language": "Russian",
       "supports": "Этнографические наблюдения за естественным распадом северных деревенских погостов, сменой растительного покрова и утратой памяти о захоронениях.",
       "limitation": "Редкое казанское издание постреволюционного периода; фокус на Поволжье и Северном крае."
+    },
+    {
+      "id": "chicherov1957",
+      "kind": "monograph",
+      "author": "Chicherov, Vladimir Ivanovich",
+      "title": "Зимний период русского народного земледельческого календаря XVI–XIX веков (Очерки по истории народных верований) [Winter Period of the Russian Folk Agricultural Calendar, 16th–19th Centuries]",
+      "year": "1957",
+      "publisher": "Изд-во АН СССР (Труды Института этнографии им. Н. Н. Миклухо-Маклая, нов. сер., т. XL), Moscow",
+      "extent": "236 pp.",
+      "url": "https://search.rsl.ru/ru/record/01006093478",
+      "accessed": "2026-11-18",
+      "language": "Russian",
+      "supports": "Agrarian ritual calendar, Dmitrievskaya parent Saturday, Sinodik commemorative rolls for fallen warriors, and ancestor feeding practices.",
+      "limitation": "Soviet historical-materialist framing; focused primarily on the central and northern Russian peasant calendar."
     }
   ]
 }
