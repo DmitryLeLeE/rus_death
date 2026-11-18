@@ -769,6 +769,364 @@ function renderAudioPlayer(track, base, isRu, isPlate = false) {
   </div>`;
 }
 
+function renderDeathBundleExplorer(isRu) {
+  const items = isRu ? [
+    {
+      id: "savan",
+      label: "Саван",
+      name: "Погребальный саван (покров)",
+      term: "Домотканый холст без узлов",
+      mat: "Суровый льняной или конопляный домотканый холст ручной выделки.",
+      rule: "Шьется строго на руках швом «вперед иголку», без единого узла, чтобы на том свете душа не путалась и не томилась в узлах. Концы нитей обрываются или оплавляются."
+    },
+    {
+      id: "rubakha",
+      label: "Смертная рубаха",
+      name: "Венчальная (смертная) рубаха",
+      term: "Полотняный испод",
+      mat: "Льняная цельнокроеная белая рубаха до пят, без вышивки и узоров, либо подлинная венчальная рубаха.",
+      rule: "Хранится от дня свадьбы в сундуке. Накануне погребения омывается чистой колодезной водой без золы и мыла."
+    },
+    {
+      id: "krest",
+      label: "Крест и лестовка",
+      name: "Меднолитой нательный крест и лестовка",
+      term: "Медная пластика и кожа",
+      mat: "Литой восьмиконечный медный крест на льняной тесьме; кожаная старообрядческая лестовка на 109 ступеней.",
+      rule: "В крестьянской традиции золотые и серебряные кресты строго исключались: предлежало сойти в сырую землю в смирении и нищете."
+    },
+    {
+      id: "venchik",
+      label: "Венчик и молитва",
+      name: "Погребальный венчик и разрешительная молитва",
+      term: "Печатная или рукописная лента",
+      mat: "Бумажный налобный венчик с ликами Спасителя, Богородицы и Предтечи; свиток с разрешительной молитвой.",
+      rule: "Возлагается на чело усопшего как знак мученического земного подвига и венца победы. Свиток влагается в правую руку."
+    },
+    {
+      id: "oporki",
+      label: "Смертные тапочки",
+      name: "Опорки / смертные чуни без гвоздей",
+      term: "Обувь без единого гвоздя",
+      mat: "Мягкие сафьяновые, суконные или холщовые туфли на мягкой полотняной подошве.",
+      rule: "Изготавливаются без железных гвоздей, костылей и подковок, чтобы не стучать железом по лицу Матери-Сырой-Земли и не будить предков."
+    },
+    {
+      id: "svecha",
+      label: "Страстная свеча",
+      name: "Страстная (четверговая) восковая свеча",
+      term: "Яровый пчелиный воск",
+      mat: "Чистая восковая свеча, сохраненная со службы двенадцати Евангелий Великого Четверга.",
+      rule: "Зажигается при исходе души из тела, а по омовении влагается в сложенные крестообразно на груди руки усопшего."
+    }
+  ] : [
+    {
+      id: "savan",
+      label: "The Shroud",
+      name: "The Funeral Shroud (Savan)",
+      term: "Homespun knotless linen",
+      mat: "Coarse homespun unbleached linen or hemp cloth woven on a domestic loom.",
+      rule: "Sewn strictly by hand with a running basting stitch without a single knot, lest the soul become entangled and bound on its road in the other world."
+    },
+    {
+      id: "rubakha",
+      label: "The Shirt",
+      name: "The Death (Wedding) Shirt",
+      term: "Undyed linen tunic",
+      mat: "Ankle-length homespun white linen shirt without embroidery, or the original wedding shirt.",
+      rule: "Preserved from marriage inside the dry storeroom chest. Washed only with pure well-water without ash-lye before dressing the body."
+    },
+    {
+      id: "krest",
+      label: "Cross & Ladder",
+      name: "Cast Brass Neck Cross & Lestovka",
+      term: "Cast copper alloy and leather",
+      mat: "Eight-pointed cast copper cross on linen string; leather Old Believer lestovka ladder with 109 folds.",
+      rule: "In archaic peasant tradition, gold and silver were forbidden for burial: the soul had to enter Mother Damp Earth in poverty and humility."
+    },
+    {
+      id: "venchik",
+      label: "The Headband",
+      name: "Funeral Headband (Venchik) & Absolution Prayer",
+      term: "Printed or manuscript paper strip",
+      mat: "Paper fillet with iconographic figures of the Saviour, the Theotokos, and the Forerunner; rolled absolution prayer sheet.",
+      rule: "Placed upon the forehead of the deceased as a crown of earthly struggle and spiritual victory. The prayer scroll is placed in the right hand."
+    },
+    {
+      id: "oporki",
+      label: "Nail-less Slippers",
+      name: "Funeral Slippers (Oporki)",
+      term: "Footwear without iron nails",
+      mat: "Soft cloth, felt, or pliable leather slippers with cloth soles.",
+      rule: "Crafted without iron nails, wooden pegs, or metal horseshoes, so the dead do not strike Mother Damp Earth with iron or disturb sleeping ancestors."
+    },
+    {
+      id: "svecha",
+      label: "Passion Candle",
+      name: "Maundy Thursday Beeswax Candle",
+      term: "Pure apiary beeswax",
+      mat: "Taper candle preserved from the Passion service of the Twelve Gospels of Maundy Thursday.",
+      rule: "Lit at the moment of parting of soul and body, then placed into the hands folded crosswise upon the breast during the reading of the Psalter."
+    }
+  ];
+
+  const first = items[0];
+  return `
+    <section class="bundle-box" aria-label="${isRu ? "Этнографический интерактивный сундук: Смертный узел" : "Ethnographic interactive chest: The Death Bundle"}">
+      <div class="bundle-box__header">
+        <div class="bundle-box__tag mono">${isRu ? "ЭТНОГРАФИЧЕСКИЙ АРТЕФАКТ · МАТЕРИАЛЬНЫЙ РЕЕСТР" : "ETHNOGRAPHIC ARTIFACT · MATERIAL REGISTER"}</div>
+        <h2 class="bundle-box__title">${isRu ? "Смертный узел (Смертная корзина)" : "The Death Bundle (Smertny Uzel)"}</h2>
+        <p class="bundle-box__desc">${isRu
+          ? "Вещи, заготовленные пожилыми крестьянами при жизни и хранимые в сундуке в холодной клети до часа разлучения души с телом. Выберите предмет для изучения ритуальных запретов и материальных свойств."
+          : "Vestments and ritual objects prepared by elderly peasants during life and kept inside a chest in the unheated storeroom until the hour of parting. Select an item to inspect material constraints and ritual taboos."}</p>
+      </div>
+      <div class="bundle-chest">
+        <ul class="bundle-items" role="tablist" aria-label="${isRu ? "Предметы смертного узла" : "Death bundle items"}">
+          ${items.map((it, i) => `
+            <li>
+              <button class="bundle-btn${i === 0 ? " is-active" : ""}" type="button" role="tab" aria-selected="${i === 0 ? "true" : "false"}"
+                data-name="${esc(it.name)}" data-term="${esc(it.term)}" data-mat="${esc(it.mat)}" data-rule="${esc(it.rule)}">
+                <span><span class="bundle-btn__num mono">0${i + 1}.</span> ${esc(it.label)}</span>
+                <span class="mono">→</span>
+              </button>
+            </li>
+          `).join("")}
+        </ul>
+        <div class="bundle-card" role="tabpanel">
+          <div class="bundle-card__term mono">${esc(first.term)}</div>
+          <h3 class="bundle-card__name">${esc(first.name)}</h3>
+          <div class="bundle-card__prop bundle-card__prop--mat">
+            <strong>${isRu ? "Материал и изготовление" : "Material and Crafting"}</strong>
+            <span>${esc(first.mat)}</span>
+          </div>
+          <div class="bundle-card__rule">
+            <strong>${isRu ? "Ритуальный канон и запрет" : "Ritual Rule and Taboo"}</strong>
+            <span>${esc(first.rule)}</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+function renderMonasticSinodik(isRu) {
+  const tabs = isRu ? [
+    {
+      id: "bratya",
+      label: "Во брани павшие",
+      rubric: "Чин поминовения христолюбивого воинства, в сече убиенного",
+      formula: "Помяни, Господи Боже наш, души рабов Твоих во брани живот свой положивших: от стрел, копий, мечнаго сечения и огневаго боя скончавшихся, ихже имена Ты Сам веси, Господи.",
+      comment: "Древнейшая поминальная статья, восходящая к синодикам Троице-Сергиевой и Кирилло-Белозерской лавр XVI–XVII вв. Имена павших воинов поминались на каждой проскомидии вечно."
+    },
+    {
+      id: "bezym",
+      label: "В безымянных рвах",
+      rubric: "О воинах, оставшихся без напутствия, гроба и надгробного знамения",
+      formula: "О нихже никтоже поминает, ни отец, ни мати, ни сродницы, ихже кости по долинам, дебрям и болотам разметены суть, в братских могилах и сырых рвах безвестно сокрытых.",
+      comment: "Каноническое поминовение «убогих и безродных» в Димитриевскую субботу. Синодик восстанавливает литургическую память там, где стерт физический могильный холм."
+    },
+    {
+      id: "chuzhbina",
+      label: "На чужбине и в плену",
+      rubric: "О скончавшихся во узах, пленении и на дорогах отступления",
+      formula: "Помяни, Господи, всякую душу воина, в чужих странах от ран, глада, хлада и скорби без покаяния ко Творцу отошедшую, идеже не бе ни псалма, ни кадила, ни гробового покрова.",
+      comment: "Чин поминовения служилых людей и рекрутов, павших за рубежами Отечества. Литургическое воспоминание заменяет недосягаемую могилу."
+    },
+    {
+      id: "neizvestnye",
+      label: "Ихже имена Ты Сам веси",
+      rubric: "Окончательное вверение усопших Божественной памяти",
+      formula: "Имена же их изгладились из памяти человеческой временем и забвением, но написаны суть на небесех в Книге Живота Твоего Небеснаго, идеже несть болезнь, ни печаль, ни воздыхание.",
+      comment: "Богословское основание кенотафа: когда камень и металл разрушаются, а полковой архив истлевает, поминальная книга держит имя в вечности."
+    }
+  ] : [
+    {
+      id: "bratya",
+      label: "Fallen in Battle",
+      rubric: "Rite of commemoration for warriors slain in the heat of battle",
+      formula: "Remember, O Lord our God, the souls of Thy servants who laid down their lives in battle: perished from arrows, spears, sword-strokes, and cannon-fire, whose names Thou Thyself alone knowest, O Lord.",
+      comment: "The oldest liturgical commemorative roll, descending from the 16th–17th-century synodiks of the Trinity-Sergius and Kirillo-Belozersky Lavras. Slain warriors were commemorated eternally at every proskomedia."
+    },
+    {
+      id: "bezym",
+      label: "Unmarked Trenches",
+      rubric: "For warriors who died without viaticum, coffin, or grave marker",
+      formula: "For those whom no one commemorates, neither father nor mother nor kin; whose bones are scattered across valleys, thickets, and marshes, hidden unknown in common trenches and damp ravines.",
+      comment: "Canonical commemoration of the 'destitute and kinless' on Demetrius Saturday. The synodik restores liturgical memory where the physical grave mound was erased."
+    },
+    {
+      id: "chuzhbina",
+      label: "Captivity & Exile",
+      rubric: "For those who perished in bonds, captivity, or roads of retreat",
+      formula: "Remember, O Lord, every soul of a warrior who departed to the Creator in foreign lands from wounds, famine, cold, and sorrow, without confession, where there was neither psalm nor censer nor funeral shroud.",
+      comment: "Commemoration of recruits and servicemen fallen far beyond the border. Liturgical remembrance stands in place of an unreachable physical grave."
+    },
+    {
+      id: "neizvestnye",
+      label: "Names Known to Thee",
+      rubric: "Final entrustment of the departed to Divine remembrance",
+      formula: "Whose names have been blotted out from human memory by time and oblivion, yet are written in Heaven in the Book of Eternal Life, where there is neither sickness nor sighing.",
+      comment: "The theological foundation of the Russian cenotaph: when stone and iron corrode and muster rolls decay, the liturgical roll preserves the forgotten."
+    }
+  ];
+
+  const first = tabs[0];
+  return `
+    <section class="sinodik-box" aria-label="${isRu ? "Монастырский Синодик павших воинов" : "Monastic Sinodik of Fallen Warriors"}">
+      <div class="sinodik-box__header">
+        <div class="sinodik-box__tag mono">${isRu ? "ЛИТУРГИЧЕСКИЙ ПАМЯТНИК · СИНОДИК XVII ВЕКА" : "LITURGICAL MONUMENT · 17TH-CENTURY MONASTIC ROLL"}</div>
+        <h2 class="sinodik-box__title">${isRu ? "Монастырский Синодик убиенных воинов" : "The Monastic Sinodik of Fallen Warriors"}</h2>
+        <p class="sinodik-box__desc">${isRu
+          ? "Поминальный свиток вечного поминовения безымянных ратников и воинов, оставшихся без погребения и могильного холма. Категории поминовения составлены по монастырским книгам XVI–XVII вв."
+          : "Commemorative scroll for eternal remembrance of unrecorded soldiers and unburied warriors without physical grave markers, transcribed from 16th–17th century monastic books."}</p>
+      </div>
+      <nav class="sinodik-nav" role="tablist" aria-label="${isRu ? "Статьи Синодика" : "Sinodik categories"}">
+        ${tabs.map((t, i) => `
+          <button class="sinodik-tab${i === 0 ? " is-active" : ""}" type="button" role="tab" aria-selected="${i === 0 ? "true" : "false"}"
+            data-rubric="${esc(t.rubric)}" data-formula="${esc(t.formula)}" data-comment="${esc(t.comment)}">
+            ${esc(t.label)}
+          </button>
+        `).join("")}
+      </nav>
+      <div class="sinodik-scroll" role="tabpanel">
+        <div class="sinodik-rubric">${esc(first.rubric)}</div>
+        <blockquote class="sinodik-formula">${esc(first.formula)}</blockquote>
+        <p class="sinodik-comment">${esc(first.comment)}</p>
+      </div>
+      <div class="sinodik-candle-row">
+        <button class="sinodik-candle-btn mono" type="button" aria-pressed="false"
+          data-lit="${isRu ? "Свеча возжена (вечный покой)" : "Candle is lit (eternal rest)"}"
+          data-unlit="${isRu ? "Поставить поминальную свечу" : "Light a memorial candle"}">
+          <span>🕯</span>
+          <span>${isRu ? "Поставить поминальную свечу" : "Light a memorial candle"}</span>
+        </button>
+      </div>
+    </section>
+  `;
+}
+
+function renderVanishedVillageLens(isRu) {
+  const living = isRu ? [
+    {
+      loc: "Крестьянская изба",
+      title: "Красный угол и тесовая кровля",
+      body: "Теплящаяся лампада перед родовыми образами. Матица держит кровлю; под порогом зарыта кость первого петуха как домашний оберег. Жизнь трех поколений под одной тесовой дранью.",
+      trace: "Материальный след: обтесанная сосна, смола, воск, ржаной дух печи."
+    },
+    {
+      loc: "Приходской погост",
+      title: "Сосновые голубцы под сенью берез",
+      body: "Вся деревня сходится по субботам. На могилах стоят резные деревянные кресты с двускатными кровельками (голубцы). В нишах — медные складни. На перекладинах повязаны домотканые рушники.",
+      trace: "Материальный след: свежая сосновая стружка, кутья на белой холстине."
+    },
+    {
+      loc: "Околица и поле",
+      title: "Наезженный большак и колодезный журавль",
+      body: "Скрип тележных колес, мерный стук цепов в овинах, открытый горизонт распаханных полос. Поминальные процессии на Радоницу обходят поля с иконами.",
+      trace: "Материальный след: утрамбованный суглинок, скошенная тимофеевка."
+    }
+  ] : [
+    {
+      loc: "Peasant Izba",
+      title: "The Red Corner & Timber Joist",
+      body: "Flickering vigil lamp before ancestor icons. The ceiling joist (matitsa) holds the roof; under the threshold, ritual bone is buried as a household ward. Three generations under one timber shingle.",
+      trace: "Material trace: hewn pine, spruce resin, beeswax, rye aroma of the masonry stove."
+    },
+    {
+      loc: "Parish Pogost",
+      title: "Roofed Pine Crosses beneath Birches",
+      body: "The whole village gathers on ancestral Saturdays. Carved wooden roofed crosses (golubtsy) rise above grave mounds, bronze icons nestled in recesses, homespun embroidered towels knotted to timber beams.",
+      trace: "Material trace: fresh pine shavings, honey-kutia on white linen."
+    },
+    {
+      loc: "Outskirts & Fields",
+      title: "Worn Cart Track & Well Sweep",
+      body: "Creaking of wooden cart wheels, steady thud of flails in threshing barns, wide horizon of plowed furrows. Memorial processions on Radonitsa circle the field bounds carrying parish icons.",
+      trace: "Material trace: packed loam, harvested timothy grass, wheel ruts."
+    }
+  ];
+
+  const deserted = isRu ? [
+    {
+      loc: "Крестьянская изба",
+      title: "Провалившийся подклет и крапива",
+      body: "Кровля рухнула внутрь сруба. Матица переломлена. На месте красного угла буйно разросся иван-чай. Нижние венцы превратились в темный перегной, питающий заросли бузины.",
+      trace: "Археологический след: замшелый кирпичный бой печи, фрагменты чугунка, дерн."
+    },
+    {
+      loc: "Приходской погост",
+      title: "Утонувшие могилы и глухой ольшаник",
+      body: "Деревянные кресты истлели у комля и легли вершинами на восток. Металлические кованые кресты накренились под тяжестью березовых стволов. Могильные холмы просели и читаются лишь как неглубокие впадины.",
+      trace: "Археологический след: окалина кованого железа, вспученный мох, глубокие западины."
+    },
+    {
+      loc: "Околица и поле",
+      title: "Березовый самосев и исчезнувшая колея",
+      body: "Поля заросли глухим молодым лесом. Большак превратился в заплывшую промоину, различимую лишь при косом осеннем солнце или на данных лазерного лидара.",
+      trace: "Археологический след: аномалии микрорельефа, канавы межевания, березовая чаща."
+    }
+  ] : [
+    {
+      loc: "Peasant Izba",
+      title: "Sunken Cellar & Fireweed",
+      body: "The shingled roof has caved into the cellar. The ceiling joist is split. Willowherb and stinging nettles rise where the red corner stood. Lower logs have turned to dark humus feeding elderberry roots.",
+      trace: "Archaeological trace: mossy stove brick rubble, cast-iron pot shards, thick turf."
+    },
+    {
+      loc: "Parish Pogost",
+      title: "Sunken Mounds & Alder Thicket",
+      body: "Wooden crosses rotted at soil level, falling eastwards. Wrought-iron crosses tilt under encroaching birch trunks. Burial mounds have subsided into shallow elongated depressions in the moss.",
+      trace: "Archaeological trace: forged iron mill scale, spongy peat moss, hollow sunken swales."
+    },
+    {
+      loc: "Outskirts & Fields",
+      title: "Birch Regrowth & Erased Road",
+      body: "Former cultivated fields returned to dense young forest. The cart road is reduced to an eroded ditch identifiable only in low autumn sunlight or LiDAR surface elevation models.",
+      trace: "Archaeological trace: microtopography anomalies, overgrown boundary ditches, young birch."
+    }
+  ];
+
+  return `
+    <section class="village-lens" aria-label="${isRu ? "Материальная стратиграфия покинутого поселения" : "Material Stratigraphy of Deserted Settlement"}">
+      <div class="village-lens__header">
+        <div class="village-lens__tag mono">${isRu ? "АРХЕОЛОГИЧЕСКАЯ СТРАТИГРАФИЯ · СОПОСТАВЛЕНИЕ ЭПОХ" : "ARCHAEOLOGICAL STRATIGRAPHY · EPOCH COMPARISON"}</div>
+        <h2 class="village-lens__title">${isRu ? "Материальные слои покинутой деревни" : "Material Strata of the Deserted Village"}</h2>
+        <p class="village-lens__desc">${isRu
+          ? "Интерактивная археологическая линза: сопоставление материальной структуры живого крестьянского поселения с современным состоянием заброшенного урочища."
+          : "Interactive archaeological lens: compare the material culture of the active peasant settlement with the overgrown ruin of the contemporary tract."}</p>
+      </div>
+      <div class="village-switch" role="group" aria-label="${isRu ? "Выбор эпохи" : "Epoch selection"}">
+        <button class="village-switch-btn is-active" type="button" data-mode="living" aria-pressed="true">
+          ${isRu ? "1. Живое урочище (XIX — сер. XX в.)" : "1. Active Settlement (19th – Mid 20th c.)"}
+        </button>
+        <button class="village-switch-btn" type="button" data-mode="deserted" aria-pressed="false">
+          ${isRu ? "2. Заброшенное урочище (Наши дни)" : "2. Overgrown Ruin (Present Day)"}
+        </button>
+      </div>
+      <div class="village-strata-grid village-strata-grid--living">
+        ${living.map((c) => `
+          <div class="strata-card">
+            <div class="strata-card__loc mono">${esc(c.loc)}</div>
+            <h3 class="strata-card__title">${esc(c.title)}</h3>
+            <p class="strata-card__body">${esc(c.body)}</p>
+            <div class="strata-card__trace mono">${esc(c.trace)}</div>
+          </div>
+        `).join("")}
+      </div>
+      <div class="village-strata-grid village-strata-grid--deserted" hidden>
+        ${deserted.map((c) => `
+          <div class="strata-card">
+            <div class="strata-card__loc mono">${esc(c.loc)}</div>
+            <h3 class="strata-card__title">${esc(c.title)}</h3>
+            <p class="strata-card__body">${esc(c.body)}</p>
+            <div class="strata-card__trace mono">${esc(c.trace)}</div>
+          </div>
+        `).join("")}
+      </div>
+    </section>
+  `;
+}
+
 function renderPlate(p) {
   const base = "../";
   const idx = plates.plates.indexOf(p);
@@ -852,6 +1210,11 @@ function renderPlate(p) {
 
   const marks = (lay.marks || []).map((m) => `<span class="hm" style="left:${m.x};top:${m.y};width:${m.w};--rot:${m.rot || 0}deg" aria-hidden="true">${mark(m.id, "mark--red")}</span>`).join("");
 
+  let plateArtifactHtml = "";
+  if (p.id === "b") plateArtifactHtml = renderDeathBundleExplorer(LANG === "ru");
+  else if (p.id === "y") plateArtifactHtml = renderMonasticSinodik(LANG === "ru");
+  else if (p.id === "q") plateArtifactHtml = renderVanishedVillageLens(LANG === "ru");
+
   const plateAudios = (audioDoc && audioDoc.recordings) ? audioDoc.recordings.filter((r) => r.plate.toLowerCase() === p.id || (r.plates || []).map((x) => x.toLowerCase()).includes(p.id)) : [];
   const plateAudioHtml = plateAudios.length ? `
     <section class="plate-audio-box" aria-label="${LANG === "ru" ? "Архивная фонограмма" : "Archival audio recording"}">
@@ -867,13 +1230,14 @@ function renderPlate(p) {
     rel: `plates/${p.id}-${p.slug}.html`,
     social: `social/${LANG === "ru" ? "ru-" : ""}plate-${p.id}.jpg`,
     socialAlt: `${LANG === "ru" ? "Лист" : "Plate"} ${p.letter}: ${p.title}. ${p.subtitle}`.replace(/[*`]/g, ""),
-    bodyClass: `plate-page g-${lay.ground}`,
+    bodyClass: `plate-page g-${lay.ground} vol-${p.volume.toLowerCase()}`,
     page: `plate-${p.id}`,
     content: `<main id="main">
-  <article class="plate p-${p.layout}" data-plate="${p.id}">
+  <article class="plate p-${p.layout} vol-${p.volume.toLowerCase()}" data-plate="${p.id}" data-volume="${p.volume}">
     ${head}
     <div class="plate__body">
       ${body}
+      ${plateArtifactHtml}
       ${marginal}
       ${marks}
     </div>

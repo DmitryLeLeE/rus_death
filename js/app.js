@@ -709,6 +709,96 @@
         }
       });
     }
+
+    // ------------------------------------------------------------- Interactive Modules
+    // Module 1: Death Bundle Explorer (Plate B)
+    const bundleExplorer = $(".bundle-chest");
+    if (bundleExplorer) {
+      const btns = Array.from(bundleExplorer.querySelectorAll(".bundle-btn"));
+      const card = bundleExplorer.querySelector(".bundle-card");
+      btns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          btns.forEach((b) => {
+            b.classList.remove("is-active");
+            b.setAttribute("aria-selected", "false");
+          });
+          btn.classList.add("is-active");
+          btn.setAttribute("aria-selected", "true");
+          if (card) {
+            const nameEl = card.querySelector(".bundle-card__name");
+            const termEl = card.querySelector(".bundle-card__term");
+            const matEl = card.querySelector(".bundle-card__prop--mat span");
+            const ruleEl = card.querySelector(".bundle-card__rule span");
+            if (nameEl && btn.dataset.name) nameEl.textContent = btn.dataset.name;
+            if (termEl && btn.dataset.term) termEl.textContent = btn.dataset.term;
+            if (matEl && btn.dataset.mat) matEl.textContent = btn.dataset.mat;
+            if (ruleEl && btn.dataset.rule) ruleEl.textContent = btn.dataset.rule;
+          }
+        });
+      });
+    }
+
+    // Module 2: Monastic Sinodik of Fallen Warriors (Plate Y)
+    const sinodikBox = $(".sinodik-box");
+    if (sinodikBox) {
+      const tabs = Array.from(sinodikBox.querySelectorAll(".sinodik-tab"));
+      const rubricEl = sinodikBox.querySelector(".sinodik-rubric");
+      const formulaEl = sinodikBox.querySelector(".sinodik-formula");
+      const commentEl = sinodikBox.querySelector(".sinodik-comment");
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          tabs.forEach((t) => {
+            t.classList.remove("is-active");
+            t.setAttribute("aria-selected", "false");
+          });
+          tab.classList.add("is-active");
+          tab.setAttribute("aria-selected", "true");
+          if (rubricEl && tab.dataset.rubric) rubricEl.textContent = tab.dataset.rubric;
+          if (formulaEl && tab.dataset.formula) formulaEl.textContent = tab.dataset.formula;
+          if (commentEl && tab.dataset.comment) commentEl.textContent = tab.dataset.comment;
+        });
+      });
+
+      const candleBtn = sinodikBox.querySelector(".sinodik-candle-btn");
+      if (candleBtn) {
+        candleBtn.addEventListener("click", () => {
+          const isLit = candleBtn.classList.toggle("is-lit");
+          candleBtn.setAttribute("aria-pressed", String(isLit));
+          const label = candleBtn.querySelector("span:last-child");
+          if (label) {
+            label.textContent = isLit
+              ? (candleBtn.dataset.lit || "Свеча возжена")
+              : (candleBtn.dataset.unlit || "Поставить свечу");
+          }
+        });
+      }
+    }
+
+    // Module 3: Vanished Village Stratigraphic Lens (Plate Q)
+    const villageLens = $(".village-lens");
+    if (villageLens) {
+      const switchBtns = Array.from(villageLens.querySelectorAll(".village-switch-btn"));
+      const gridLiving = villageLens.querySelector(".village-strata-grid--living");
+      const gridDeserted = villageLens.querySelector(".village-strata-grid--deserted");
+      switchBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          switchBtns.forEach((b) => {
+            b.classList.remove("is-active");
+            b.setAttribute("aria-pressed", "false");
+          });
+          btn.classList.add("is-active");
+          btn.setAttribute("aria-pressed", "true");
+          const mode = btn.dataset.mode;
+          if (mode === "living") {
+            if (gridLiving) gridLiving.hidden = false;
+            if (gridDeserted) gridDeserted.hidden = true;
+          } else {
+            if (gridLiving) gridLiving.hidden = true;
+            if (gridDeserted) gridDeserted.hidden = false;
+          }
+        });
+      });
+    }
   }
 
   window.RD = Object.assign(window.RD || {}, { init });

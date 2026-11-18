@@ -44,7 +44,7 @@
 <script>if("serviceWorker" in navigator){navigator.serviceWorker.register("../sw.js").catch(function(){});}</script>
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
-<body class="plate-page g-concrete" data-page="plate-f">
+<body class="plate-page g-concrete vol-i" data-page="plate-f">
 <a class="skip" href="#main">Skip to the atlas content</a>
 <div class="rubanner" data-rubanner hidden lang="en"><p>A Russian edition is available.</p><a href="../ru/plates/f-grave.html" hreflang="ru" data-lang-pick="ru">READ IN RUSSIAN →</a><button type="button" data-rubanner-close>dismiss</button></div>
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" class="mark-sprite">
@@ -97,7 +97,7 @@
   </button>
 </header>
 <main id="main">
-  <article class="plate p-grave" data-plate="f">
+  <article class="plate p-grave vol-i" data-plate="f" data-volume="I">
     <header class="head">
   <p class="head__tag">VOL. I · PLATE F · 06 / 09</p>
   <h1 class="head__title has-lead"><span class="w1">THE</span> <span class="w2">GRAVE</span></h1>
@@ -569,8 +569,44 @@
 </section>
       
       
+      
     </div>
     
+    <section class="plate-audio-box" aria-label="Archival audio recording">
+      <div class="plate-audio-box__tag mono">ARCHIVAL RECORDING · HISTORICAL SOUND MONUMENT</div>
+      <div class="gp-player" data-player>
+    <div class="gp-disc" aria-hidden="true">
+      <div class="gp-disc__label mono">
+        <span>78 RPM</span>
+      </div>
+    </div>
+    <div class="gp-info">
+      <div class="gp-meta mono">Liturgical canonical toll · Physical modal synthesis / Ogg Vorbis &amp; MP3</div>
+      <div class="gp-title">Funeral Perebor (Church Bell Peal for the Departed)</div>
+      <div class="gp-performer">Northern Bell Ringing Tradition (Arkhangelsk / Kargopol canon)</div>
+      <div class="gp-desc">The canonical Russian funeral bell toll (перебор): a slow, sequential progression from the highest treble bells (зазвонные) to the lowest bass bell (благовестник), symbolizing human life from childhood to old age, crowned by a unified choral strike of all bells signifying the sudden severance of life. Re-synthesized through modal bell acoustics with non-harmonic partials and natural doppler beatings. Central acoustic monument for Plate G (The Bell Tower) and Plate F (The Coffin).</div>
+      <div class="gp-controls">
+        <button class="gp-play-btn" type="button" aria-label="Play archival recording">
+          <span class="gp-icon-play">▶</span>
+          <span class="gp-icon-pause" hidden>❚❚</span>
+        </button>
+        <div class="gp-timeline">
+          <input class="gp-scrubber" type="range" min="0" max="100" value="0" step="0.1" aria-label="Timeline">
+          <div class="gp-progress-bar" style="width: 0%"></div>
+        </div>
+        <div class="gp-time mono">
+          <span class="gp-current">0:00</span> / <span class="gp-duration">0:55</span>
+        </div>
+        
+      </div>
+    </div>
+    <audio preload="metadata">
+      <source src="../assets/audio/pogrebalny-perebor.mp3" type="audio/mpeg">
+      <source src="../assets/audio/pogrebalny-perebor.ogg" type="audio/ogg">
+    </audio>
+  </div>
+    </section>
+  
     <details class="apparatus">
   <summary><span>Apparatus</span> sources · related plates · terms</summary>
   <div class="apparatus__cols">

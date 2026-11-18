@@ -44,7 +44,7 @@
 <script>if("serviceWorker" in navigator){navigator.serviceWorker.register("../sw.js").catch(function(){});}</script>
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
-<body class="plate-page g-soot" data-page="plate-q">
+<body class="plate-page g-soot vol-ii" data-page="plate-q">
 <a class="skip" href="#main">Skip to the atlas content</a>
 <div class="rubanner" data-rubanner hidden lang="en"><p>A Russian edition is available.</p><a href="../ru/plates/q-vanished-village.html" hreflang="ru" data-lang-pick="ru">READ IN RUSSIAN →</a><button type="button" data-rubanner-close>dismiss</button></div>
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" class="mark-sprite">
@@ -97,7 +97,7 @@
   </button>
 </header>
 <main id="main">
-  <article class="plate p-flow" data-plate="q">
+  <article class="plate p-flow vol-ii" data-plate="q" data-volume="II">
     <header class="head">
   <p class="head__tag">VOL. II · PLATE Q · 05 / 06</p>
   <h1 class="head__title has-lead"><span class="w1">THE</span> <span class="w2">VANISHED</span> <span class="w3">VILLAGE</span></h1>
@@ -294,6 +294,71 @@
     </figcaption>
     
   </div></figure>
+      
+    <section class="village-lens" aria-label="Material Stratigraphy of Deserted Settlement">
+      <div class="village-lens__header">
+        <div class="village-lens__tag mono">ARCHAEOLOGICAL STRATIGRAPHY · EPOCH COMPARISON</div>
+        <h2 class="village-lens__title">Material Strata of the Deserted Village</h2>
+        <p class="village-lens__desc">Interactive archaeological lens: compare the material culture of the active peasant settlement with the overgrown ruin of the contemporary tract.</p>
+      </div>
+      <div class="village-switch" role="group" aria-label="Epoch selection">
+        <button class="village-switch-btn is-active" type="button" data-mode="living" aria-pressed="true">
+          1. Active Settlement (19th – Mid 20th c.)
+        </button>
+        <button class="village-switch-btn" type="button" data-mode="deserted" aria-pressed="false">
+          2. Overgrown Ruin (Present Day)
+        </button>
+      </div>
+      <div class="village-strata-grid village-strata-grid--living">
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Peasant Izba</div>
+            <h3 class="strata-card__title">The Red Corner &amp; Timber Joist</h3>
+            <p class="strata-card__body">Flickering vigil lamp before ancestor icons. The ceiling joist (matitsa) holds the roof; under the threshold, ritual bone is buried as a household ward. Three generations under one timber shingle.</p>
+            <div class="strata-card__trace mono">Material trace: hewn pine, spruce resin, beeswax, rye aroma of the masonry stove.</div>
+          </div>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Parish Pogost</div>
+            <h3 class="strata-card__title">Roofed Pine Crosses beneath Birches</h3>
+            <p class="strata-card__body">The whole village gathers on ancestral Saturdays. Carved wooden roofed crosses (golubtsy) rise above grave mounds, bronze icons nestled in recesses, homespun embroidered towels knotted to timber beams.</p>
+            <div class="strata-card__trace mono">Material trace: fresh pine shavings, honey-kutia on white linen.</div>
+          </div>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Outskirts &amp; Fields</div>
+            <h3 class="strata-card__title">Worn Cart Track &amp; Well Sweep</h3>
+            <p class="strata-card__body">Creaking of wooden cart wheels, steady thud of flails in threshing barns, wide horizon of plowed furrows. Memorial processions on Radonitsa circle the field bounds carrying parish icons.</p>
+            <div class="strata-card__trace mono">Material trace: packed loam, harvested timothy grass, wheel ruts.</div>
+          </div>
+        
+      </div>
+      <div class="village-strata-grid village-strata-grid--deserted" hidden>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Peasant Izba</div>
+            <h3 class="strata-card__title">Sunken Cellar &amp; Fireweed</h3>
+            <p class="strata-card__body">The shingled roof has caved into the cellar. The ceiling joist is split. Willowherb and stinging nettles rise where the red corner stood. Lower logs have turned to dark humus feeding elderberry roots.</p>
+            <div class="strata-card__trace mono">Archaeological trace: mossy stove brick rubble, cast-iron pot shards, thick turf.</div>
+          </div>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Parish Pogost</div>
+            <h3 class="strata-card__title">Sunken Mounds &amp; Alder Thicket</h3>
+            <p class="strata-card__body">Wooden crosses rotted at soil level, falling eastwards. Wrought-iron crosses tilt under encroaching birch trunks. Burial mounds have subsided into shallow elongated depressions in the moss.</p>
+            <div class="strata-card__trace mono">Archaeological trace: forged iron mill scale, spongy peat moss, hollow sunken swales.</div>
+          </div>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Outskirts &amp; Fields</div>
+            <h3 class="strata-card__title">Birch Regrowth &amp; Erased Road</h3>
+            <p class="strata-card__body">Former cultivated fields returned to dense young forest. The cart road is reduced to an eroded ditch identifiable only in low autumn sunlight or LiDAR surface elevation models.</p>
+            <div class="strata-card__trace mono">Archaeological trace: microtopography anomalies, overgrown boundary ditches, young birch.</div>
+          </div>
+        
+      </div>
+    </section>
+  
       <aside class="ph marginal m-r" style="--c:8/13;--r:30;--y:0px;--rot:-1deg;--mw:90%">
     <button class="marginal__btn" type="button" data-marginal aria-controls="marg-q" aria-expanded="false">marginal note Q ↓</button>
     <p class="marginal__note" id="marg-q" tabindex="-1" hidden>Figures for the flooded area come from a planning proposal. The claim about cemeteries under the water comes from a news feature that names no records for it. Both are marked as such.</p>

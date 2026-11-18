@@ -25,29 +25,31 @@
     cover: { room: 0.12, wind: 0.035, bell: [30, 55] },
     prologue: { room: 0.1, wind: 0.02, drone: [110, 0.012] },
     "plate-a": { room: 0.08, wind: 0.06, bell: [25, 45] },
-    "plate-b": { room: 0.14, wind: 0, drone: [82, 0.02] },
-    "plate-c": { room: 0.09, wind: 0.02, bell: [14, 26], bellVol: 0.06 },
-    "plate-d": { room: 0.16, roomLP: 420, wind: 0.01 },
+    "plate-b": { room: 0.14, wind: 0, drone: [82, 0.02], water: [3, 8] },
+    "plate-c": { room: 0.09, wind: 0.02, bell: [14, 26], bellVol: 0.06, crackle: true },
+    "plate-d": { room: 0.16, roomLP: 420, wind: 0.01, creak: [14, 28] },
     "plate-e": { room: 0.06, wind: 0.09 },
-    "plate-f": { room: 0.08, wind: 0.05, bell: [35, 60] },
-    "plate-g": { room: 0.08, wind: 0, drone: [98, 0.028] },
-    "plate-h": { room: 0.08, wind: 0.02, drone: [73, 0.024], bell: [20, 35] },
+    "plate-f": { room: 0.08, wind: 0.05, bell: [35, 60], creak: [16, 32] },
+    "plate-g": { room: 0.08, wind: 0, drone: [98, 0.028], bell: [10, 20], bellVol: 0.07 },
+    "plate-h": { room: 0.08, wind: 0.02, drone: [73, 0.024], bell: [20, 35], crackle: true },
     "plate-i": { room: 0.13, wind: 0, drone: [87, 0.012], bell: [40, 70] },
     "plate-j": { room: 0.09, wind: 0 },
-    "plate-k": { room: 0.1, wind: 0, hum: 0.018 },
+    "plate-k": { room: 0.1, wind: 0, hum: 0.022 },
     "plate-l": { room: 0.05, wind: 0, rustle: 1.8 },
-    "plate-m": { room: 0.05, roomLP: 180, wind: 0.02, drone: [61, 0.014] },
+    "plate-m": { room: 0.05, roomLP: 180, wind: 0.02, drone: [61, 0.014], creak: [10, 22] },
     "plate-n": { room: 0.05, wind: 0.08 },
-    "plate-o": { room: 0.14, roomLP: 520, wind: 0.02 },
+    "plate-o": { room: 0.14, roomLP: 520, wind: 0.02, water: [3, 6] },
     "plate-p": { room: 0.06, wind: 0.07, bell: [45, 80] },
-    "plate-q": { room: 0.1, roomLP: 300, wind: 0.01, bell: [20, 35], bellVol: 0.05 },
+    "plate-q": { room: 0.1, roomLP: 300, wind: 0.01, bell: [20, 35], bellVol: 0.05, creak: [14, 28] },
     "plate-r": { room: 0.16, roomLP: 150, wind: 0, drone: [55, 0.02] },
-    "plate-s": { room: 0.07, wind: 0.01, drone: [90, 0.01] },
+    "plate-s": { room: 0.07, wind: 0.01, drone: [90, 0.01], creak: [12, 24] },
     "plate-t": { room: 0.05, wind: 0.06, drone: [70, 0.018] },
     "plate-u": { room: 0.08, wind: 0.02, bell: [18, 30] },
     "plate-v": { room: 0.07, wind: 0, drone: [77, 0.022] },
-    "plate-w": { room: 0.09, wind: 0, hum: 0.012 },
-    "plate-x": { room: 0.05, wind: 0, hum: 0.02 },
+    "plate-w": { room: 0.09, wind: 0, hum: 0.015 },
+    "plate-x": { room: 0.05, wind: 0, hum: 0.024 },
+    "plate-y": { room: 0.07, wind: 0.04, bell: [22, 45], drone: [65, 0.016] },
+    "plate-z": { room: 0.09, roomLP: 260, wind: 0.03, drone: [58, 0.015], water: [6, 12] },
   };
   const profile = () => Object.assign({}, BASE, PROFILES[document.body.dataset.page] || {});
 
@@ -77,7 +79,8 @@
 
   let ctx = null, master = null, sfxBus = null, white = null, brown = null;
   let layer = null, on = false, armed = false, started = false;
-  let gustTimer = 0, bellTimer = 0, scrollAcc = 0, lastRustle = 0, lastY = 0, lastSfx = 0;
+  let gustTimer = 0, bellTimer = 0, waterTimer = 0, crackleTimer = 0, creakTimer = 0;
+  let scrollAcc = 0, lastRustle = 0, lastY = 0, lastSfx = 0;
   const LEVEL = 0.9;
   const rnd = (a, b) => a + Math.random() * (b - a);
 
@@ -198,6 +201,59 @@
     const P = layer.P;
     bellSound([164.8, 185, 196, 220][Math.floor(Math.random() * 4)], P.bellVol || 0.045, master, rnd(-0.7, 0.7));
     bellTimer = setTimeout(farBell, rnd(P.bell[0], P.bell[1]) * 1000);
+  }
+
+  function waterDrop() {
+    clearTimeout(waterTimer);
+    if (!on || !layer || !layer.P.water) return;
+    const P = layer.P, t = ctx.currentTime + 0.005;
+    const f0 = rnd(650, 1150);
+    const o = ctx.createOscillator();
+    o.type = "sine";
+    o.frequency.setValueAtTime(f0, t);
+    o.frequency.exponentialRampToValueAtTime(f0 * 1.5, t + 0.015);
+    o.frequency.exponentialRampToValueAtTime(f0 * 0.75, t + 0.08);
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(0, t);
+    g.gain.linearRampToValueAtTime(0.024, t + 0.006);
+    g.gain.exponentialRampToValueAtTime(0.0002, t + 0.09);
+    o.connect(g); g.connect(master);
+    o.start(t); o.stop(t + 0.1);
+    waterTimer = setTimeout(waterDrop, rnd(P.water[0], P.water[1]) * 1000);
+  }
+
+  function candleCrackle() {
+    clearTimeout(crackleTimer);
+    if (!on || !layer || !layer.P.crackle) return;
+    const t = ctx.currentTime + 0.005;
+    const bursts = 1 + Math.floor(Math.random() * 3);
+    for (let i = 0; i < bursts; i++) {
+      const dt = t + i * rnd(0.04, 0.14);
+      burst(dt, { hp: 3200, bp: rnd(4500, 7500), peak: rnd(0.008, 0.02), decay: 0.012 });
+    }
+    crackleTimer = setTimeout(candleCrackle, rnd(1.2, 4.0) * 1000);
+  }
+
+  function woodCreak() {
+    clearTimeout(creakTimer);
+    if (!on || !layer || !layer.P.creak) return;
+    const P = layer.P, t = ctx.currentTime + 0.005;
+    const f0 = rnd(70, 125);
+    const o = ctx.createOscillator();
+    o.type = "triangle";
+    o.frequency.setValueAtTime(f0, t);
+    o.frequency.linearRampToValueAtTime(f0 * rnd(0.85, 1.18), t + 0.28);
+    const bp = ctx.createBiquadFilter();
+    bp.type = "bandpass";
+    bp.frequency.value = rnd(450, 950);
+    bp.Q.value = 2.2;
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(0, t);
+    g.gain.linearRampToValueAtTime(0.022, t + 0.05);
+    g.gain.exponentialRampToValueAtTime(0.0003, t + 0.32);
+    o.connect(bp); bp.connect(g); g.connect(master);
+    o.start(t); o.stop(t + 0.35);
+    creakTimer = setTimeout(woodCreak, rnd(P.creak[0], P.creak[1]) * 1000);
   }
 
   function rustle(scale) {
@@ -343,15 +399,31 @@
     btn.textContent = isOn ? D.on : D.off;
   };
 
+  function clearAtmosphere() {
+    clearTimeout(gustTimer);
+    clearTimeout(bellTimer); bellTimer = 0;
+    clearTimeout(waterTimer); waterTimer = 0;
+    clearTimeout(crackleTimer); crackleTimer = 0;
+    clearTimeout(creakTimer); creakTimer = 0;
+  }
+
+  function scheduleAtmosphere(layer) {
+    if (!layer || !layer.P) return;
+    if (layer.P.bell && !bellTimer) bellTimer = setTimeout(farBell, rnd(6, 14) * 1000);
+    if (layer.P.water && !waterTimer) waterTimer = setTimeout(waterDrop, rnd(layer.P.water[0], layer.P.water[1]) * 1000);
+    if (layer.P.crackle && !crackleTimer) crackleTimer = setTimeout(candleCrackle, rnd(1.5, 4) * 1000);
+    if (layer.P.creak && !creakTimer) creakTimer = setTimeout(woodCreak, rnd(layer.P.creak[0], layer.P.creak[1]) * 1000);
+  }
+
   function applyProfile(first) {
     if (!ctx) return;
     const old = layer;
     layer = buildLayer(profile());
-    clearTimeout(gustTimer); clearTimeout(bellTimer);
+    clearAtmosphere();
     if (on) {
       fadeLayer(layer, 1, first ? 0.05 : 2.2);
       gust();
-      if (layer.P.bell) bellTimer = setTimeout(farBell, rnd(6, 14) * 1000);
+      scheduleAtmosphere(layer);
     }
     if (old) { fadeLayer(old, 0, 1.6); setTimeout(() => dispose(old), 1800); }
   }
@@ -364,14 +436,14 @@
     master.gain.setValueAtTime(master.gain.value, t);
     master.gain.linearRampToValueAtTime(LEVEL, t + 2.5);
     if (!layer) applyProfile(true);
-    else { fadeLayer(layer, 1, 0.5); gust(); if (layer.P.bell && !bellTimer) bellTimer = setTimeout(farBell, rnd(6, 14) * 1000); }
+    else { fadeLayer(layer, 1, 0.5); gust(); scheduleAtmosphere(layer); }
     if (!started) { started = true; addEventListener("scroll", onScroll, { passive: true }); }
     return ctx.resume();
   }
 
   function stop() {
     on = false; armed = false;
-    clearTimeout(gustTimer); clearTimeout(bellTimer); bellTimer = 0;
+    clearAtmosphere();
     if (!ctx) return;
     const t = ctx.currentTime;
     master.gain.cancelScheduledValues(t);

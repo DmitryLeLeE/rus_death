@@ -300,3 +300,466 @@
   .voice__col + .voice__col { border-left: 1px solid #999; }
   .voice__l { font-size: 9pt; line-height: 1.35; }
 }
+
+/* ==========================================================================
+   VOLUME DRAMATURGY: Distinct Materiality for Volumes I, II, III, IV
+   ========================================================================== */
+
+/* VOLUME I — ARCHÆOLOGY OF RUSSIAN DEATH (Linen, Wood, Shroud, Wax) */
+.vol-i .head {
+  border-bottom: 2px dashed rgba(196, 125, 60, 0.35);
+  background: radial-gradient(ellipse at 85% 20%, rgba(196, 125, 60, 0.08) 0%, transparent 65%);
+}
+.vol-i .head__tag {
+  background: #8b3a2b;
+  border-left: 3px solid #dfc299;
+}
+.vol-i .sheet.mat-linen {
+  box-shadow: 0 4px 16px rgba(45, 30, 15, 0.35), inset 0 0 12px rgba(196, 125, 60, 0.08);
+}
+.vol-i .head__sub::before {
+  content: "§ ";
+  color: #c47d3c;
+  font-family: var(--f-mono);
+  font-size: 0.9em;
+}
+
+/* VOLUME II — THE CHTHONIC LANDSCAPE (Topography, Cartography, Peat, River) */
+.vol-ii .head {
+  border-bottom: 2px solid rgba(107, 140, 110, 0.4);
+  background: radial-gradient(ellipse at 80% 30%, rgba(107, 140, 110, 0.09) 0%, transparent 70%);
+}
+.vol-ii .head::before {
+  content: "+  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  +";
+  display: block;
+  font: 0.65rem var(--f-mono);
+  color: rgba(107, 140, 110, 0.55);
+  letter-spacing: 0.4em;
+  margin-bottom: 12px;
+}
+.vol-ii .head__tag {
+  background: #39573f;
+  border-left: 3px solid #8fad92;
+}
+.vol-ii .sheet {
+  border-left: 1px solid rgba(107, 140, 110, 0.2);
+}
+
+/* VOLUME III — THE UNSEEN (Nocturnal, Charcoal, Vigil, Slavic Ward) */
+.vol-iii .head {
+  border-bottom: 2px solid rgba(201, 147, 59, 0.35);
+  background: radial-gradient(circle at 75% 40%, rgba(201, 147, 59, 0.12) 0%, rgba(15, 13, 11, 0.8) 80%);
+}
+.vol-iii .head__tag {
+  background: #24201d;
+  color: #dfba73;
+  border: 1px solid rgba(223, 186, 115, 0.5);
+}
+.vol-iii .head__letter {
+  color: #dfba73 !important;
+  opacity: 0.15 !important;
+  text-shadow: 0 0 25px rgba(223, 186, 115, 0.2);
+}
+.vol-iii .sheet {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(201, 147, 59, 0.05);
+}
+
+/* VOLUME IV — MEMORY, CATASTROPHE & MODERNITY (Bureaucracy, Typewriter, Steel, CRT) */
+.vol-iv .head {
+  border-bottom: 3px double rgba(160, 45, 45, 0.45);
+  background: linear-gradient(135deg, rgba(80, 97, 110, 0.08) 0%, transparent 70%);
+}
+.vol-iv .head::before {
+  content: "EXHIBIT / RECONSTRUCTION ARCHIVE [SERIES-IV]";
+  display: inline-block;
+  font: 0.62rem var(--f-mono);
+  letter-spacing: 0.25em;
+  color: var(--red);
+  margin-bottom: 10px;
+  padding: 2px 6px;
+  border: 1px solid rgba(160, 45, 45, 0.3);
+  background: rgba(160, 45, 45, 0.05);
+}
+.vol-iv .head__tag {
+  background: #1e2429;
+  border-left: 3px solid var(--red);
+  font-family: var(--f-mono);
+}
+.vol-iv .sheet {
+  border: 1px solid rgba(120, 130, 140, 0.25);
+}
+
+/* ==========================================================================
+   INTERACTIVE MODULE 1: THE DEATH BUNDLE EXPLORER (Plate B)
+   ========================================================================== */
+.bundle-box {
+  grid-column: 2 / 12;
+  margin: clamp(40px, 5vw, 70px) auto 20px;
+  padding: clamp(24px, 3.5vw, 44px);
+  background: #d8ceb8 url("../assets/textures/mat-newsprint.jpg");
+  color: #1a1714;
+  border: 1px solid rgba(80, 60, 40, 0.35);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45), inset 0 0 40px rgba(110, 80, 40, 0.12);
+  position: relative;
+  max-width: 1300px;
+  width: 100%;
+}
+.bundle-box__header {
+  border-bottom: 2px solid #8b3a2b;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+.bundle-box__tag {
+  font: 700 0.7rem var(--f-mono);
+  letter-spacing: 0.16em;
+  color: #8b3a2b;
+  text-transform: uppercase;
+}
+.bundle-box__title {
+  font: 700 clamp(1.4rem, 2.4vw, 2.2rem)/1.1 var(--f-old);
+  margin: 6px 0 8px;
+  color: #1a1714;
+}
+.bundle-box__desc {
+  font-size: clamp(0.92rem, 1.1vw, 1.05rem);
+  line-height: 1.5;
+  max-width: 80ch;
+  color: #332d26;
+  margin: 0;
+}
+.bundle-chest {
+  display: grid;
+  grid-template-columns: 1fr 1.35fr;
+  gap: clamp(16px, 2.5vw, 36px);
+  margin-top: 24px;
+}
+.bundle-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bundle-btn {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(80, 60, 40, 0.3);
+  padding: 10px 14px;
+  font: 500 0.95rem/1.35 var(--f-old);
+  color: #241e18;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bundle-btn:hover {
+  background: #fdfaf3;
+  border-color: #8b3a2b;
+  transform: translateX(4px);
+}
+.bundle-btn[aria-selected="true"], .bundle-btn.is-active {
+  background: #8b3a2b;
+  color: #fdfaf3;
+  border-color: #652519;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(139, 58, 43, 0.35);
+}
+.bundle-btn__num {
+  font: 0.72rem var(--f-mono);
+  opacity: 0.75;
+  margin-right: 8px;
+}
+.bundle-card {
+  background: #fdfaf3;
+  border: 1px solid rgba(80, 60, 40, 0.35);
+  padding: clamp(18px, 2.5vw, 30px);
+  box-shadow: inset 0 0 16px rgba(110, 80, 40, 0.08);
+  position: relative;
+}
+.bundle-card__term {
+  font: 700 0.74rem var(--f-mono);
+  letter-spacing: 0.14em;
+  color: #8b3a2b;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.bundle-card__name {
+  font: 700 clamp(1.25rem, 1.8vw, 1.7rem)/1.15 var(--f-old);
+  margin: 0 0 12px;
+  color: #1a1714;
+}
+.bundle-card__prop {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #2b2520;
+}
+.bundle-card__prop strong {
+  font-family: var(--f-type);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5a493a;
+  display: block;
+  margin-bottom: 2px;
+}
+.bundle-card__rule {
+  margin-top: 14px;
+  padding: 10px 14px;
+  background: rgba(139, 58, 43, 0.08);
+  border-left: 3px solid #8b3a2b;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  font-style: italic;
+  color: #551d14;
+}
+
+/* ==========================================================================
+   INTERACTIVE MODULE 2: MONASTIC SINODIK OF FALLEN WARRIORS (Plate Y)
+   ========================================================================== */
+.sinodik-box {
+  grid-column: 2 / 12;
+  margin: clamp(40px, 5vw, 70px) auto 20px;
+  padding: clamp(26px, 3.8vw, 48px);
+  background: #1c1a17 url("../assets/textures/mat-soot.jpg");
+  color: #dfd7c5;
+  border: 1px solid rgba(223, 215, 197, 0.25);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.7), inset 0 0 60px rgba(0, 0, 0, 0.5);
+  position: relative;
+  max-width: 1300px;
+  width: 100%;
+}
+.sinodik-box::before {
+  content: "♰ ♰ ♰";
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #c9933b;
+  letter-spacing: 0.8em;
+  margin-bottom: 14px;
+}
+.sinodik-box__header {
+  text-align: center;
+  border-bottom: 1px solid rgba(201, 147, 59, 0.4);
+  padding-bottom: 18px;
+  margin-bottom: 24px;
+}
+.sinodik-box__tag {
+  font: 700 0.72rem var(--f-mono);
+  letter-spacing: 0.2em;
+  color: #c9933b;
+  text-transform: uppercase;
+}
+.sinodik-box__title {
+  font: 400 clamp(1.4rem, 2.5vw, 2.3rem)/1.15 var(--f-old);
+  color: #f7eedb;
+  margin: 8px 0;
+  letter-spacing: 0.04em;
+}
+.sinodik-box__desc {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #baa992;
+  max-width: 75ch;
+  margin: 0 auto;
+}
+.sinodik-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.sinodik-tab {
+  background: rgba(45, 40, 34, 0.7);
+  border: 1px solid rgba(201, 147, 59, 0.3);
+  color: #d8c8b0;
+  padding: 8px 16px;
+  font: 0.82rem/1.3 var(--f-type);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.sinodik-tab:hover {
+  background: rgba(201, 147, 59, 0.2);
+  border-color: #c9933b;
+  color: #fff;
+}
+.sinodik-tab[aria-selected="true"], .sinodik-tab.is-active {
+  background: #c9933b;
+  color: #17130e;
+  border-color: #ffd88a;
+  font-weight: 700;
+  box-shadow: 0 0 16px rgba(201, 147, 59, 0.4);
+}
+.sinodik-scroll {
+  background: #24201b;
+  border: 1px solid rgba(201, 147, 59, 0.3);
+  padding: clamp(20px, 3vw, 36px);
+  min-height: 220px;
+  position: relative;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.6);
+}
+.sinodik-rubric {
+  font: italic 0.86rem var(--f-old);
+  color: #df9e9b;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed rgba(223, 158, 155, 0.3);
+}
+.sinodik-formula {
+  font: 400 clamp(1.15rem, 1.8vw, 1.55rem)/1.45 var(--f-old);
+  color: #f7eedb;
+  margin-bottom: 18px;
+  text-indent: 1.5em;
+}
+.sinodik-comment {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #a4947d;
+  border-left: 2px solid #c9933b;
+  padding-left: 14px;
+  margin: 0;
+}
+.sinodik-candle-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+.sinodik-candle-btn {
+  background: transparent;
+  border: 1px solid #c9933b;
+  color: #c9933b;
+  padding: 6px 14px;
+  font: 0.72rem var(--f-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+.sinodik-candle-btn:hover {
+  background: rgba(201, 147, 59, 0.2);
+  color: #fff;
+}
+.sinodik-candle-btn.is-lit {
+  background: #c9933b;
+  color: #17130e;
+  border-color: #ffd88a;
+  box-shadow: 0 0 16px rgba(201, 147, 59, 0.5);
+}
+
+/* ==========================================================================
+   INTERACTIVE MODULE 3: VANISHED VILLAGE STRATIGRAPHIC LENS (Plate Q)
+   ========================================================================== */
+.village-lens {
+  grid-column: 2 / 12;
+  margin: clamp(40px, 5vw, 70px) auto 20px;
+  padding: clamp(24px, 3.5vw, 44px);
+  background: #cfc8b4 url("../assets/textures/mat-newsprint.jpg");
+  color: #1b1916;
+  border: 1px solid rgba(70, 80, 60, 0.35);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.45);
+  position: relative;
+  max-width: 1300px;
+  width: 100%;
+}
+.village-lens__header {
+  border-bottom: 2px solid #4a664c;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+.village-lens__tag {
+  font: 700 0.7rem var(--f-mono);
+  letter-spacing: 0.16em;
+  color: #39573f;
+  text-transform: uppercase;
+}
+.village-lens__title {
+  font: 700 clamp(1.4rem, 2.4vw, 2.2rem)/1.1 var(--f-old);
+  margin: 6px 0 8px;
+  color: #181c16;
+}
+.village-lens__desc {
+  font-size: clamp(0.92rem, 1.1vw, 1.05rem);
+  line-height: 1.5;
+  max-width: 80ch;
+  color: #2b3329;
+  margin: 0;
+}
+.village-switch {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+.village-switch-btn {
+  flex: 1;
+  padding: 12px 18px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(70, 80, 60, 0.3);
+  font: 600 0.88rem/1.3 var(--f-type);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #2b3329;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+.village-switch-btn:hover {
+  background: #f4faee;
+  border-color: #39573f;
+}
+.village-switch-btn[aria-pressed="true"], .village-switch-btn.is-active {
+  background: #39573f;
+  color: #f7faed;
+  border-color: #253d29;
+  box-shadow: 0 4px 12px rgba(57, 87, 63, 0.35);
+}
+.village-strata-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.strata-card {
+  background: #fcfbf7;
+  border: 1px solid rgba(70, 80, 60, 0.3);
+  padding: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+.strata-card__loc {
+  font: 700 0.68rem var(--f-mono);
+  letter-spacing: 0.14em;
+  color: #39573f;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.strata-card__title {
+  font: 700 1.15rem/1.2 var(--f-old);
+  margin: 0 0 10px;
+  color: #171d15;
+}
+.strata-card__body {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #343c32;
+  margin: 0;
+}
+.strata-card__trace {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed rgba(70, 80, 60, 0.3);
+  font-size: 0.82rem;
+  font-style: italic;
+  color: #61735e;
+}
+@media (max-width: 860px) {
+  .bundle-chest { grid-template-columns: 1fr; }
+  .village-strata-grid { grid-template-columns: 1fr; }
+  .village-switch { flex-direction: column; }
+}

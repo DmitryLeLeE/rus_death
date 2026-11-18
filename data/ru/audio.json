@@ -62,6 +62,52 @@
       ],
       "description": "Легендарная электрическая запись Фёдора Шаляпина 1927 года (Victor). Тяжелая, неумолимая поступь бурлаков, наваливающихся грудью на лямку и призывающих кудрявую березу и Волгу-матушку в ритуальном усилии на грани гибели и хтонической тяжести. Связана с Листом O («Вода, топь и река») и Листом D («Трапеза»).",
       "file_mp3": "assets/audio/chaliapin-volga-boatmen-1927.mp3"
+    },
+    {
+      "id": "pogrebalny-perebor",
+      "title": "Погребальный перебор (колокольный звон по усопшему)",
+      "title_en": "Funeral Perebor (Church Bell Peal for the Departed)",
+      "performer": "Северная традиция колокольного звона (архангельско-каргопольский устав)",
+      "date": "Традиционный богослужебный устав",
+      "medium": "Физико-акустический модальный синтез / Ogg Vorbis & MP3",
+      "author": "Русский православный погребальный устав (от зазвонных к благовестнику)",
+      "duration": "0:55",
+      "file": "assets/audio/pogrebalny-perebor.ogg",
+      "file_mp3": "assets/audio/pogrebalny-perebor.mp3",
+      "source_page": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B2%D0%BE%D0%BD",
+      "license": "Общественное достояние (Public Domain / CC0 1.0)",
+      "plate": "G",
+      "plates": [
+        "G",
+        "F",
+        "C"
+      ],
+      "description": "Канонический русский погребальный звон (перебор): мерное одиночное восхождение ударов от самых малых зазвонных колоколов к тяжелому басовому благовестнику, символизирующее течение человеческой жизни от младенчества к старости, завершающееся одновременным ударом во все колокола («ударом в собор»), знаменующим внезапный обрыв земного бытия. Физико-акустический синтез обертонного спектра колокольной бронзы. Центральный звуковой памятник к Листу G («Звонница») и Листу F («Домовина»).",
+      "author_en": "Traditional Russian Orthodox funeral toll (from treble to bass blagovest)",
+      "performer_en": "Northern Bell Ringing Tradition (Arkhangelsk / Kargopol canon)"
+    },
+    {
+      "id": "stikh-o-razluchenii-dushi",
+      "title": "Духовный стих: О разлучении души с телом",
+      "title_en": "Spiritual Verse: On the Parting of Soul from Body",
+      "performer": "Старообрядческая монодическая традиция (поморский распев)",
+      "date": "Рукописная традиция XVII–XVIII вв.",
+      "medium": "Формантно-акустическая реконструкция / соборная реверберация / Ogg Vorbis & MP3",
+      "author": "Анонимный старообрядческий покаянный сборник / крюковая монодия",
+      "duration": "0:41",
+      "file": "assets/audio/stikh-o-razluchenii-dushi.ogg",
+      "file_mp3": "assets/audio/stikh-o-razluchenii-dushi.mp3",
+      "source_page": "https://ru.wikipedia.org/wiki/%D0%94%D1%83%D1%85%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5_%D1%81%D1%82%D0%B8%D1%85%D0%B8",
+      "license": "Общественное достояние (Public Domain / CC0 1.0)",
+      "plate": "H",
+      "plates": [
+        "H",
+        "B",
+        "G"
+      ],
+      "description": "Реконструкция архаичного покаянного духовного стиха, исполнявшегося у постели умирающего и при чтении Псалтири над гробом в поморских и сибирских скитах: «Увы мне, грешному человеку, како разлучается душа от тела...». Монодическое бесполутоновое интонирование в дорийском ладу с микротоновыми глиссандо и акустикой высокой бревенчатой часовни. Центральный звуковой памятник к Листу H («Плач и духовный стих») и Листу B («Тело»).",
+      "author_en": "Anonymous Old Believer penitential manuscript / Znameny monody",
+      "performer_en": "Old Believer Monodic Cantillating Tradition (Pomor / Vetka chant)"
     }
   ]
 }

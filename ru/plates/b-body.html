@@ -44,7 +44,7 @@
 <script>if("serviceWorker" in navigator){navigator.serviceWorker.register("../../sw.js").catch(function(){});}</script>
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
-<body class="plate-page g-soot" data-page="plate-b">
+<body class="plate-page g-soot vol-i" data-page="plate-b">
 <a class="skip" href="#main">К содержанию атласа</a>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" class="mark-sprite">
@@ -97,7 +97,7 @@
   </button>
 </header>
 <main id="main">
-  <article class="plate p-body" data-plate="b">
+  <article class="plate p-body vol-i" data-plate="b" data-volume="I">
     <header class="head">
   <p class="head__tag">ТОМ I · ЛИСТ B · 02 / 09</p>
   <h1 class="head__title is-one"><span class="w1">ТЕЛО</span></h1>
@@ -299,9 +299,118 @@
   
 </section>
       
+    <section class="bundle-box" aria-label="Этнографический интерактивный сундук: Смертный узел">
+      <div class="bundle-box__header">
+        <div class="bundle-box__tag mono">ЭТНОГРАФИЧЕСКИЙ АРТЕФАКТ · МАТЕРИАЛЬНЫЙ РЕЕСТР</div>
+        <h2 class="bundle-box__title">Смертный узел (Смертная корзина)</h2>
+        <p class="bundle-box__desc">Вещи, заготовленные пожилыми крестьянами при жизни и хранимые в сундуке в холодной клети до часа разлучения души с телом. Выберите предмет для изучения ритуальных запретов и материальных свойств.</p>
+      </div>
+      <div class="bundle-chest">
+        <ul class="bundle-items" role="tablist" aria-label="Предметы смертного узла">
+          
+            <li>
+              <button class="bundle-btn is-active" type="button" role="tab" aria-selected="true"
+                data-name="Погребальный саван (покров)" data-term="Домотканый холст без узлов" data-mat="Суровый льняной или конопляный домотканый холст ручной выделки." data-rule="Шьется строго на руках швом «вперед иголку», без единого узла, чтобы на том свете душа не путалась и не томилась в узлах. Концы нитей обрываются или оплавляются.">
+                <span><span class="bundle-btn__num mono">01.</span> Саван</span>
+                <span class="mono">→</span>
+              </button>
+            </li>
+          
+            <li>
+              <button class="bundle-btn" type="button" role="tab" aria-selected="false"
+                data-name="Венчальная (смертная) рубаха" data-term="Полотняный испод" data-mat="Льняная цельнокроеная белая рубаха до пят, без вышивки и узоров, либо подлинная венчальная рубаха." data-rule="Хранится от дня свадьбы в сундуке. Накануне погребения омывается чистой колодезной водой без золы и мыла.">
+                <span><span class="bundle-btn__num mono">02.</span> Смертная рубаха</span>
+                <span class="mono">→</span>
+              </button>
+            </li>
+          
+            <li>
+              <button class="bundle-btn" type="button" role="tab" aria-selected="false"
+                data-name="Меднолитой нательный крест и лестовка" data-term="Медная пластика и кожа" data-mat="Литой восьмиконечный медный крест на льняной тесьме; кожаная старообрядческая лестовка на 109 ступеней." data-rule="В крестьянской традиции золотые и серебряные кресты строго исключались: предлежало сойти в сырую землю в смирении и нищете.">
+                <span><span class="bundle-btn__num mono">03.</span> Крест и лестовка</span>
+                <span class="mono">→</span>
+              </button>
+            </li>
+          
+            <li>
+              <button class="bundle-btn" type="button" role="tab" aria-selected="false"
+                data-name="Погребальный венчик и разрешительная молитва" data-term="Печатная или рукописная лента" data-mat="Бумажный налобный венчик с ликами Спасителя, Богородицы и Предтечи; свиток с разрешительной молитвой." data-rule="Возлагается на чело усопшего как знак мученического земного подвига и венца победы. Свиток влагается в правую руку.">
+                <span><span class="bundle-btn__num mono">04.</span> Венчик и молитва</span>
+                <span class="mono">→</span>
+              </button>
+            </li>
+          
+            <li>
+              <button class="bundle-btn" type="button" role="tab" aria-selected="false"
+                data-name="Опорки / смертные чуни без гвоздей" data-term="Обувь без единого гвоздя" data-mat="Мягкие сафьяновые, суконные или холщовые туфли на мягкой полотняной подошве." data-rule="Изготавливаются без железных гвоздей, костылей и подковок, чтобы не стучать железом по лицу Матери-Сырой-Земли и не будить предков.">
+                <span><span class="bundle-btn__num mono">05.</span> Смертные тапочки</span>
+                <span class="mono">→</span>
+              </button>
+            </li>
+          
+            <li>
+              <button class="bundle-btn" type="button" role="tab" aria-selected="false"
+                data-name="Страстная (четверговая) восковая свеча" data-term="Яровый пчелиный воск" data-mat="Чистая восковая свеча, сохраненная со службы двенадцати Евангелий Великого Четверга." data-rule="Зажигается при исходе души из тела, а по омовении влагается в сложенные крестообразно на груди руки усопшего.">
+                <span><span class="bundle-btn__num mono">06.</span> Страстная свеча</span>
+                <span class="mono">→</span>
+              </button>
+            </li>
+          
+        </ul>
+        <div class="bundle-card" role="tabpanel">
+          <div class="bundle-card__term mono">Домотканый холст без узлов</div>
+          <h3 class="bundle-card__name">Погребальный саван (покров)</h3>
+          <div class="bundle-card__prop bundle-card__prop--mat">
+            <strong>Материал и изготовление</strong>
+            <span>Суровый льняной или конопляный домотканый холст ручной выделки.</span>
+          </div>
+          <div class="bundle-card__rule">
+            <strong>Ритуальный канон и запрет</strong>
+            <span>Шьется строго на руках швом «вперед иголку», без единого узла, чтобы на том свете душа не путалась и не томилась в узлах. Концы нитей обрываются или оплавляются.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+      
       
     </div>
     
+    <section class="plate-audio-box" aria-label="Архивная фонограмма">
+      <div class="plate-audio-box__tag mono">АРХИВНАЯ ФОНОГРАММА · ЗВУКОВОЙ ПАМЯТНИК</div>
+      <div class="gp-player" data-player>
+    <div class="gp-disc" aria-hidden="true">
+      <div class="gp-disc__label mono">
+        <span>78 RPM</span>
+      </div>
+    </div>
+    <div class="gp-info">
+      <div class="gp-meta mono">Рукописная традиция XVII–XVIII вв. · Формантно-акустическая реконструкция / соборная реверберация / Ogg Vorbis &amp; MP3</div>
+      <div class="gp-title">Духовный стих: О разлучении души с телом</div>
+      <div class="gp-performer">Старообрядческая монодическая традиция (поморский распев)</div>
+      <div class="gp-desc">Реконструкция архаичного покаянного духовного стиха, исполнявшегося у постели умирающего и при чтении Псалтири над гробом в поморских и сибирских скитах: «Увы мне, грешному человеку, како разлучается душа от тела...». Монодическое бесполутоновое интонирование в дорийском ладу с микротоновыми глиссандо и акустикой высокой бревенчатой часовни. Центральный звуковой памятник к Листу H («Плач и духовный стих») и Листу B («Тело»).</div>
+      <div class="gp-controls">
+        <button class="gp-play-btn" type="button" aria-label="Воспроизвести запись">
+          <span class="gp-icon-play">▶</span>
+          <span class="gp-icon-pause" hidden>❚❚</span>
+        </button>
+        <div class="gp-timeline">
+          <input class="gp-scrubber" type="range" min="0" max="100" value="0" step="0.1" aria-label="Timeline">
+          <div class="gp-progress-bar" style="width: 0%"></div>
+        </div>
+        <div class="gp-time mono">
+          <span class="gp-current">0:00</span> / <span class="gp-duration">0:41</span>
+        </div>
+        
+      </div>
+    </div>
+    <audio preload="metadata">
+      <source src="../../assets/audio/stikh-o-razluchenii-dushi.mp3" type="audio/mpeg">
+      <source src="../../assets/audio/stikh-o-razluchenii-dushi.ogg" type="audio/ogg">
+    </audio>
+  </div>
+    </section>
+  
     <details class="apparatus">
   <summary><span>Аппарат</span> источники · связанные листы · термины</summary>
   <div class="apparatus__cols">

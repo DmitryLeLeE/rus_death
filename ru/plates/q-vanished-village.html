@@ -44,7 +44,7 @@
 <script>if("serviceWorker" in navigator){navigator.serviceWorker.register("../../sw.js").catch(function(){});}</script>
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
-<body class="plate-page g-soot" data-page="plate-q">
+<body class="plate-page g-soot vol-ii" data-page="plate-q">
 <a class="skip" href="#main">К содержанию атласа</a>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" class="mark-sprite">
@@ -97,7 +97,7 @@
   </button>
 </header>
 <main id="main">
-  <article class="plate p-flow" data-plate="q">
+  <article class="plate p-flow vol-ii" data-plate="q" data-volume="II">
     <header class="head">
   <p class="head__tag">ТОМ II · ЛИСТ Q · 05 / 06</p>
   <h1 class="head__title"><span class="w1">ИСЧЕЗНУВШАЯ</span> <span class="w2">ДЕРЕВНЯ</span></h1>
@@ -290,6 +290,71 @@
     </figcaption>
     
   </div></figure>
+      
+    <section class="village-lens" aria-label="Материальная стратиграфия покинутого поселения">
+      <div class="village-lens__header">
+        <div class="village-lens__tag mono">АРХЕОЛОГИЧЕСКАЯ СТРАТИГРАФИЯ · СОПОСТАВЛЕНИЕ ЭПОХ</div>
+        <h2 class="village-lens__title">Материальные слои покинутой деревни</h2>
+        <p class="village-lens__desc">Интерактивная археологическая линза: сопоставление материальной структуры живого крестьянского поселения с современным состоянием заброшенного урочища.</p>
+      </div>
+      <div class="village-switch" role="group" aria-label="Выбор эпохи">
+        <button class="village-switch-btn is-active" type="button" data-mode="living" aria-pressed="true">
+          1. Живое урочище (XIX — сер. XX в.)
+        </button>
+        <button class="village-switch-btn" type="button" data-mode="deserted" aria-pressed="false">
+          2. Заброшенное урочище (Наши дни)
+        </button>
+      </div>
+      <div class="village-strata-grid village-strata-grid--living">
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Крестьянская изба</div>
+            <h3 class="strata-card__title">Красный угол и тесовая кровля</h3>
+            <p class="strata-card__body">Теплящаяся лампада перед родовыми образами. Матица держит кровлю; под порогом зарыта кость первого петуха как домашний оберег. Жизнь трех поколений под одной тесовой дранью.</p>
+            <div class="strata-card__trace mono">Материальный след: обтесанная сосна, смола, воск, ржаной дух печи.</div>
+          </div>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Приходской погост</div>
+            <h3 class="strata-card__title">Сосновые голубцы под сенью берез</h3>
+            <p class="strata-card__body">Вся деревня сходится по субботам. На могилах стоят резные деревянные кресты с двускатными кровельками (голубцы). В нишах — медные складни. На перекладинах повязаны домотканые рушники.</p>
+            <div class="strata-card__trace mono">Материальный след: свежая сосновая стружка, кутья на белой холстине.</div>
+          </div>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Околица и поле</div>
+            <h3 class="strata-card__title">Наезженный большак и колодезный журавль</h3>
+            <p class="strata-card__body">Скрип тележных колес, мерный стук цепов в овинах, открытый горизонт распаханных полос. Поминальные процессии на Радоницу обходят поля с иконами.</p>
+            <div class="strata-card__trace mono">Материальный след: утрамбованный суглинок, скошенная тимофеевка.</div>
+          </div>
+        
+      </div>
+      <div class="village-strata-grid village-strata-grid--deserted" hidden>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Крестьянская изба</div>
+            <h3 class="strata-card__title">Провалившийся подклет и крапива</h3>
+            <p class="strata-card__body">Кровля рухнула внутрь сруба. Матица переломлена. На месте красного угла буйно разросся иван-чай. Нижние венцы превратились в темный перегной, питающий заросли бузины.</p>
+            <div class="strata-card__trace mono">Археологический след: замшелый кирпичный бой печи, фрагменты чугунка, дерн.</div>
+          </div>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Приходской погост</div>
+            <h3 class="strata-card__title">Утонувшие могилы и глухой ольшаник</h3>
+            <p class="strata-card__body">Деревянные кресты истлели у комля и легли вершинами на восток. Металлические кованые кресты накренились под тяжестью березовых стволов. Могильные холмы просели и читаются лишь как неглубокие впадины.</p>
+            <div class="strata-card__trace mono">Археологический след: окалина кованого железа, вспученный мох, глубокие западины.</div>
+          </div>
+        
+          <div class="strata-card">
+            <div class="strata-card__loc mono">Околица и поле</div>
+            <h3 class="strata-card__title">Березовый самосев и исчезнувшая колея</h3>
+            <p class="strata-card__body">Поля заросли глухим молодым лесом. Большак превратился в заплывшую промоину, различимую лишь при косом осеннем солнце или на данных лазерного лидара.</p>
+            <div class="strata-card__trace mono">Археологический след: аномалии микрорельефа, канавы межевания, березовая чаща.</div>
+          </div>
+        
+      </div>
+    </section>
+  
       <aside class="ph marginal m-r" style="--c:8/13;--r:30;--y:0px;--rot:-1deg;--mw:90%">
     <button class="marginal__btn" type="button" data-marginal aria-controls="marg-q" aria-expanded="false">помета на полях Q ↓</button>
     <p class="marginal__note" id="marg-q" tabindex="-1" hidden>Цифры по затопленной площади — из проектной статьи. Утверждение о кладбищах под водой — из новостного материала, который не называет для него записей. Оба случая помечены.</p>
