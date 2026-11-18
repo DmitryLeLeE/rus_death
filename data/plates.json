@@ -34,7 +34,8 @@
         "barsov1872",
         "derzhavin1779",
         "tolstaya1999-zerkalo",
-        "kremleva1999"
+        "kremleva1999",
+        "krinichnaya1997"
       ],
       "related": [
         "e",
@@ -182,6 +183,20 @@
           "sources": [
             "derzhavin1779"
           ]
+        },
+        {
+          "type": "text",
+          "heading": "The Shroud Bundle and Living Coffin Measurement",
+          "kicker": "Prepared departure",
+          "paras": [
+            "In traditional Russian peasant and Old Believer culture, death was never treated as an unforeseen emergency; it was anticipated through deliberate material preparation. Elderly villagers prepared their 'smertnyi uzel' (death bundle) decades before death—containing clean unstitched linen shrouds, sewn slippers with soft fabric soles, baptismal crosses, and beeswax taper candles.",
+            "Among Old Believers in the Urals and Siberia, peasants felled a massive pine or oak while in robust health to hollow out their own domovina (log coffin) with hand adzes. The finished log coffin was stored in the barn loft filled with dry grain or hung beneath the rafters, where the future occupant occasionally climbed up to measure the fit of their own wooden resting place."
+          ],
+          "sources": [
+            "baiburin1993",
+            "zelenin1927"
+          ],
+          "level": "documented"
         }
       ],
       "volume": "I"
@@ -893,7 +908,9 @@
         "tolstaya2024",
         "barsov1872",
         "dronova2024",
-        "tolstaya1999-zerkalo"
+        "tolstaya1999-zerkalo",
+        "sedakova2020",
+        "kremleva1999"
       ],
       "related": [
         "a",
@@ -1049,6 +1066,20 @@
           "alt": "An overgrown stone and brick family tomb with a collapsing arched vault, covered with wild ivy and shrubbery",
           "caption": "An overgrown family vault at the Nizhne-Gnilovskoye cemetery. The ancestral resting place returning to nature: where the dead remain as remembered forebears.",
           "credit": "Alexander Roumega / Wikimedia Commons, CC0",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Rising Steam: How the Dead Feast",
+          "kicker": "Alimentary communion",
+          "paras": [
+            "Peasant ritual consciousness maintained that the souls of the deceased could not ingest physical solids; they nourished themselves upon the ethereal essence of the feast—the rising hot steam (par).",
+            "During ancestor commemoration days (Dmitrievskaya and Radonitsa Parent Saturdays), peasant hosts set bowls of freshly boiled pearl barley kutia, boiling cabbage soup, and hot buttered blini directly upon the window ledge. The family sat in reverent silence, watching the warm vapors curl against the glass, convinced that the forebears were taking their share of the family harvest."
+          ],
+          "sources": [
+            "kremleva1999",
+            "sedakova2020"
+          ],
           "level": "documented"
         }
       ],
@@ -1810,7 +1841,9 @@
         "barsov1872",
         "sedakova2020",
         "dronova2024",
-        "bessonov1861"
+        "bessonov1861",
+        "tolstoy1995",
+        "krinichnaya1997"
       ],
       "related": [
         "a",
@@ -1986,6 +2019,20 @@
           "sources": [
             "bessonov1861"
           ]
+        },
+        {
+          "type": "text",
+          "heading": "Kalinov Bridge and the River of Fire",
+          "kicker": "Mythological topography",
+          "paras": [
+            "Alongside formal ecclesiastical iconography of heaven and hell, Russian spiritual verses (dukhovnye stikhi) and folktales preserved an archaic landscape of post-mortem transition: the soul's passage across the Kalinov Bridge (from 'kalit'—to scorch white-hot).",
+            "The bridge was imagined as a hair-thin vibrating tree trunk spanning the Smorodina River—a torrent of boiling pitch, sulfur, and flames. Only righteous souls guided by their guardian angels could cross without falling; sinful souls burdened with unconfessed offenses lost their footing and plunged directly into the boiling abyss."
+          ],
+          "sources": [
+            "krinichnaya1997",
+            "tolstoy1995"
+          ],
+          "level": "documented"
         }
       ],
       "volume": "I"
@@ -4319,7 +4366,8 @@
         "alexandrov2023",
         "dp2024",
         "alexandrov2023-preprint",
-        "pleshanova1974"
+        "pleshanova1974",
+        "pravenc-nadgrobie"
       ],
       "related": [
         "f",
@@ -4516,6 +4564,20 @@
           "sources": [
             "azbyka-pechory"
           ]
+        },
+        {
+          "type": "text",
+          "heading": "Sandstone Chemistry: The Microclimate of Odorless Preservation",
+          "kicker": "Geological necropolis",
+          "paras": [
+            "The famous 'God-given caves' (Bogomzdannye peshchery) of the Pskov-Caves Monastery present a unique geological anomaly. Over ten thousand bodies—monks, boyars, and defenders of the border fortress—have been committed to subterranean sand galleries since the late fourteenth century without embalming and without burial under earth.",
+            "The porous Devonian sandstone walls, combined with a stable underground temperature of +5°C and natural draft ventilation, absorb decomposition gases and moisture instantly. Bodies desiccate into natural mummies without generating foul odors, creating a subterranean city of unsealed coffins where death is preserved in stone-cool suspension."
+          ],
+          "sources": [
+            "azbyka-pechory",
+            "pravenc-nadgrobie"
+          ],
+          "level": "documented"
         }
       ]
     },
@@ -6244,6 +6306,34 @@
           "sources": [
             "vk-policy-memorial"
           ]
+        },
+        {
+          "type": "text",
+          "heading": "Digital Cenotaphs: The VK Memorial Page and Virtual Mourning",
+          "kicker": "Networked grief",
+          "paras": [
+            "In the Russian-language internet, social media profiles of the deceased have evolved into digital cenotaphs. On VKontakte (VK), accounts marked with the memorial status 'Страница умершего человека' (Page of a Deceased Person) cease algorithmic activity but remain open for asynchronous posthumous dialogue.",
+            "Sociological studies by the Higher School of Economics demonstrate that contemporary digital mourners utilize the profile wall to replicate archaic lament patterns: writing direct second-person messages ('You promised to call', 'Rest softly'), leaving digital floral images, and treating the personal digital archive—photos, audio playlists, last recorded login timestamps—as contemporary relics of the departed soul."
+          ],
+          "sources": [
+            "hse-digital-grief2025",
+            "rtvi-vk-dead"
+          ],
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "QR Tombstones: Networked Memorialization on Physical Soil",
+          "kicker": "The Hybrid Grave",
+          "paras": [
+            "Contemporary Russian municipal and commercial cemeteries increasingly feature hybrid funerary monuments: polished black gabbro-diabase headstones bearing laser-engraved QR codes alongside traditional Orthodox crosses and engraved portraits.",
+            "Scanning the code with a smartphone directs visitors to hosted cloud archives containing biographical documentaries, high-resolution family photograph albums, audio voice recordings, and digital guestbooks. The physical gravestone no longer serves as an isolated terminal marker; it functions as a hyperlink connecting physical cemetery terrain with global data infrastructure."
+          ],
+          "sources": [
+            "linden-online-death",
+            "hse-digital-grief2025"
+          ],
+          "level": "documented"
         }
       ]
     },
@@ -6426,7 +6516,9 @@
         "kremleva1999",
         "sanitary-rules-cemetery",
         "permilovskaya2013",
-        "merridale2000"
+        "merridale2000",
+        "rozanov-moscow-cemeteries",
+        "etkind2013"
       ],
       "concepts": [
         "abandonment",
@@ -6524,6 +6616,34 @@
           "alt": "An abandoned brick tomb with a collapsing arched vault, covered with thickets and wild shrubs",
           "caption": "An abandoned tomb at the Verkhne-Gnilovskoye cemetery, Rostov-on-Don (photograph: Alexander Roumega, CC0). The crumbling masonry and sinking brick vault overtaken by roots and wild vegetation: the material threshold of reclamation.",
           "credit": "Alexander Roumega / Wikimedia Commons, CC0",
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "Soviet Erasure: Parks of Culture on Graveyard Soil / [18+]",
+          "kicker": "The politics of oblivion / [18+]",
+          "paras": [
+            "During the rapid socialist urban reconstruction of the 1930s to 1950s, hundreds of historic Russian cemeteries were systematically liquidated by municipal decrees. What pre-revolutionary culture treated as consecrated ground awaiting universal resurrection was reclassified as dormant sanitary terrain hindering industrial expansion.",
+            "Major urban necropolises—including the Simonov, Pokrovsky, and Lazarevskoye cemeteries in Moscow—were bulldozed. Carved granite obelisks and white limestone headstones were crushed into ballast, repurposed as curbstones for boulevards, or used as structural foundation blocks for factory workshops. Above the unexhumed mass graves, municipal authorities laid gravel pathways, dance pavilions, and amusement carousels ('Parks of Culture and Rest'), turning burial topography into secular leisure grounds."
+          ],
+          "sources": [
+            "merridale2000",
+            "rozanov-moscow-cemeteries"
+          ],
+          "level": "documented"
+        },
+        {
+          "type": "text",
+          "heading": "The Botanical Horizon: Moss, Fungi, and Mineral Dissolution",
+          "kicker": "Ecological return",
+          "paras": [
+            "When human visitation ends, the cemetery surrenders to the chemical and biological succession of the boreal forest. Spruce and birch roots penetrate downward into decomposing coffins, utilizing calcium and phosphorus compounds leached from skeletal remains to fuel canopy growth.",
+            "Acidic forest mosses (Pleurozium schreberi, Dicranum scoparium) colonize fallen wooden crosses and limestone markers, dissolving carved Slavonic inscriptions beneath a dense carpet of green hummocks. In the span of a century, individual memory completely surrenders its textual specificity, dissolving without residue into the humus of the forest floor."
+          ],
+          "sources": [
+            "permilovskaya2013",
+            "kremleva1999"
+          ],
           "level": "documented"
         }
       ],

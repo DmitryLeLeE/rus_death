@@ -301,7 +301,7 @@
   .cv-intro__sheet { transform: none; }
   .cv-plates ol { grid-template-columns: repeat(6, minmax(0, 1fr)); }
   .cvp { grid-column: span 3 !important; margin-top: 0 !important; }
-  .cvp--a, .cvp--d, .cvp--h, .cvp--j, .cvp--b, .cvp--z { grid-column: span 6 !important; }
+  .cvp--a, .cvp--d, .cvp--h, .cvp--j, .cvp--b, .cvp--x, .cvp--z { grid-column: span 6 !important; }
   .cvp--g { --ar: 1; }
   .cvp--e { margin-top: 4vw !important; }
   .cvp--c, .cvp--i, .cvp--l, .cvp--y { margin-top: 5vw !important; }
@@ -322,8 +322,10 @@
 @media (max-width: 480px) {
   .pagehead { min-height: 0; }
   .cvp--f, .cvp--e { grid-column: span 3 !important; }
-  .bib-wrap { padding: 30px 18px; }
-  .card__stamp { font-size: 3.6rem; }
+  .bib-wrap { padding: 24px 14px; }
+  .card__stamp { font-size: 3.2rem; }
+  .colo-sec { padding: 20px 16px; }
+  .method__sec, .method__sec:nth-of-type(even) { padding: 24px 16px; }
 }
 @media (max-width: 900px) { .cv__slip, .cv__hand { display: none; } }
 

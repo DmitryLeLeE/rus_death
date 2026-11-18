@@ -207,12 +207,14 @@
   .head__letter { font-size: 70vw; }
 }
 @media (max-width: 480px) {
-  .slip { width: 94%; margin-left: 3%; }
-  .sheet { padding: 30px 18px; }
+  .slip { width: calc(100% - 16px); margin-left: 8px; margin-right: 8px; box-sizing: border-box; }
+  .sheet { padding: 24px 16px; }
   .p-threshold { --hs: 22vw; }
   .p-threshold .head__title { white-space: normal; margin-left: 0; }
   .p-threshold .head__title span { display: block; }
   .p-threshold .head__title span:last-child { margin-right: -8vw; }
+  .gate { min-height: 48px; touch-action: manipulation; }
+  .head { padding: 24px 12px 28px; }
 }
 /* Text sections inside a newsprint sheet.
    The section renders as <article class="prose voice">, so it inherits the
