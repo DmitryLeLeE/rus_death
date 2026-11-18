@@ -31,7 +31,7 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 <tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/p-roads-crossroads.html"><img src="social/plate-p.jpg" alt="Plate P: Roads, Crossroads and Borders"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/q-vanished-village.html"><img src="social/plate-q.jpg" alt="Plate Q: The Vanished Village"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/r-underground.html"><img src="social/plate-r.jpg" alt="Plate R: The Underground"></a></td></tr>
 <tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/s-household-spirits.html"><img src="social/plate-s.jpg" alt="Plate S: Household Spirits"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/t-unquiet-dead.html"><img src="social/plate-t.jpg" alt="Plate T: The Unquiet Dead"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/u-calendar-of-the-dead.html"><img src="social/plate-u.jpg" alt="Plate U: The Calendar of the Dead"></a></td></tr>
 <tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/v-taboo-and-protection.html"><img src="social/plate-v.jpg" alt="Plate V: Taboo, Omen and Protection"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/w-materials-of-abandonment.html"><img src="social/plate-w.jpg" alt="Plate W: The Materials of Abandonment"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/x-digital-afterlife.html"><img src="social/plate-x.jpg" alt="Plate X: The Digital Afterlife"></a></td></tr>
-<tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/y-military-cenotaph.html"><strong>Plate Y: The Military Cenotaph</strong></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/z-oblivion-and-reclamation.html"><strong>Plate Z: Oblivion and Reclamation</strong></a></td><td width="33%"></td></tr>
+<tr><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/y-military-cenotaph.html"><img src="social/plate-y.jpg" alt="Plate Y: The Military Cenotaph"></a></td><td width="33%"><a href="https://DmitryLeLeE.github.io/rus_death/plates/z-oblivion-and-reclamation.html"><img src="social/plate-z.jpg" alt="Plate Z: Oblivion and Reclamation"></a></td><td width="33%"></td></tr>
 </table>
 
 *Click a card to open the plate. Each plate has its own composition, material and ground.*
@@ -43,12 +43,13 @@ One rule runs through every plate: **documented** facts are kept apart from **in
 | Cover | The object: title, collage, plates |
 | Prologue | What the atlas is, what it will not do, three ways in |
 | Volumes | The four volumes and the plates in each |
-| Plates A–Z | Research plates, each with its own composition |
+| Plates A–Z | Research plates, each with its own composition (all 26 plates) |
 | Index | Card catalogue of plates, objects, concepts and places |
+| Voices | Lament, verse and historical field voices in Russian and English with source metadata |
 | Field archive | The catalogue of objects and what is known about each (28 entries) |
 | Map | 36 localities, with what the sources say of each |
 | Chronology | 37 points and caesuras, filterable by period |
-| Words | Lexicon of the Russian terms the atlas uses (61 entries) |
+| Words | Lexicon of the Russian terms the atlas uses (63 entries) |
 | Reading routes | Seven paths through the plates, covering all 26 compositions |
 | Claim ledger | Every section of every plate with its evidence level and sources, generated from the plate data |
 | Search | Client-side search over the whole atlas, English and Russian |

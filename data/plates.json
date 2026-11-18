@@ -1057,7 +1057,8 @@
         "k",
         "r",
         "t",
-        "u"
+        "u",
+        "z"
       ],
       "concepts": [
         "memory",
@@ -1987,7 +1988,8 @@
         "h",
         "k",
         "l",
-        "q"
+        "q",
+        "y"
       ],
       "concepts": [
         "memory",
@@ -2436,7 +2438,8 @@
         "i",
         "f",
         "l",
-        "w"
+        "w",
+        "y"
       ],
       "concepts": [
         "memory",
@@ -5701,7 +5704,8 @@
         "k",
         "l",
         "q",
-        "x"
+        "x",
+        "z"
       ],
       "concepts": [
         "memory",
@@ -6244,6 +6248,11 @@
           "alt": "A granite wall and a band of artificial flowers at Piskaryovskoye Memorial Cemetery, printed in deep black",
           "caption": "Piskaryovskoye Memorial Cemetery, St Petersburg (derivative, 2019). The cemetery holds approximately 420,000 civilians and soldiers who died during the Siege of Leningrad, 1941–44; it opened in 1960."
         }
+      ],
+      "related": [
+        "i",
+        "k",
+        "z"
       ]
     },
     {
@@ -6361,6 +6370,11 @@
           "alt": "A satellite image of the Rybinsk reservoir surface at the site of the submerged town of Mologa; a barely visible grid of streets shows through shallow water in autumn",
           "caption": "Site of Mologa, Rybinsk reservoir, Sentinel satellite, 11 October 2021. The town was flooded in 1947; the street grid is visible in shallow water during low-water autumns."
         }
+      ],
+      "related": [
+        "f",
+        "w",
+        "y"
       ]
     }
   ]

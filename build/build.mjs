@@ -496,10 +496,12 @@ ${spriteMarks}
     <a href="${base}map.html">${nav.map}</a>
     <a href="${base}chronology.html">${nav.chrono}</a>
     <a href="${base}words.html">${nav.words}</a>
-    <a href="${base}bibliography.html">${nav.sources}</a>
-    <a href="${base}method.html">${nav.method}</a>
+    <a href="${base}voices.html">${nav.voices}</a>
     <a href="${base}routes.html">${nav.routes}</a>
     <a href="${base}archive.html">${nav.archive}</a>
+    <a href="${base}ledger.html">${nav.ledger}</a>
+    <a href="${base}bibliography.html">${nav.sources}</a>
+    <a href="${base}method.html">${nav.method}</a>
     <a href="${base}search.html">${nav.search}</a>
   </nav>
   <div class="masthead__tools">
@@ -534,8 +536,10 @@ ${content}
     <a href="${base}voices.html">${nav.voices}</a>
     <a href="${base}routes.html">${nav.routes}</a>
     <a href="${base}archive.html">${nav.archive}</a>
+    <a href="${base}ledger.html">${nav.ledger}</a>
     <a href="${base}bibliography.html">${nav.sources}</a>
     <a href="${base}method.html">${nav.method}</a>
+    <a href="${base}search.html">${nav.search}</a>
     <a href="${base}colophon.html">${T.colophon}</a>
   </div>
 </dialog>
@@ -953,16 +957,76 @@ ${noteSec(X.notH, X.not1, X.not2)}
 // ------------------------------------------------------------------ 404 ----
 function notFound() {
   const base = "", X = T.nf;
+  const plateMap = Object.fromEntries(plates.plates.map((p) => [p.id, `${p.id}-${p.slug}.html`]));
+  const knownPages = ["index", "prologue", "volumes", "search", "ledger", "routes", "archive", "atlas", "map", "chronology", "words", "voices", "bibliography", "method", "colophon"];
+  const redirectScript = `<script>
+(function() {
+  try {
+    var p = window.location.pathname || "";
+    var isRu = /(?:^|\\/)ru(?:\\/|$)/i.test(p);
+    var segs = p.replace(/\\/+$/, "").split("/").filter(Boolean);
+    if (!segs.length) return;
+    var last = segs[segs.length - 1].toLowerCase().replace(/\\.html$/, "");
+    var plates = ${JSON.stringify(plateMap)};
+    var pages = ${JSON.stringify(knownPages)};
+    var m = p.match(/^(.*?)(?:ru\\/)?(?:plates\\/)?[^\\/]*$/);
+    var root = (m && m[1]) || "/";
+    if (!root.endsWith("/")) root += "/";
+    var langPre = isRu ? "ru/" : "";
+    if (plates[last]) {
+      window.location.replace(root + langPre + "plates/" + plates[last] + window.location.search + window.location.hash);
+      return;
+    }
+    if (pages.indexOf(last) !== -1) {
+      window.location.replace(root + langPre + last + ".html" + window.location.search + window.location.hash);
+      return;
+    }
+  } catch (e) {}
+})();
+</script>`;
+
   const ru = LANG === "en" ? `<p class="nf__text nf__text--ru" lang="ru">Такой страницы в архиве нет. <a href="ru/atlas.html">Указатель</a> · <a href="ru/index.html">обложка</a></p>` : "";
-  return shell({
-    title: X.title, description: X.desc, base, bodyClass: "nf-page", page: "404", rel: "404.html",
-    content: `<main id="main" class="nf">
+
+  const metaLinks = [
+    { href: "index.html", t: X.cover || T.coverWord || "COVER" },
+    { href: "volumes.html", t: T.nav.volumes || "VOLUMES" },
+    { href: "atlas.html", t: T.nav.index || "INDEX" },
+    { href: "voices.html", t: T.nav.voices || "VOICES" },
+    { href: "ledger.html", t: T.nav.ledger || "LEDGER" },
+    { href: "routes.html", t: T.nav.routes || "ROUTES" },
+    { href: "archive.html", t: T.nav.archive || "ARCHIVE" },
+    { href: "map.html", t: T.nav.map || "MAP" },
+    { href: "chronology.html", t: T.nav.chrono || "CHRONOLOGY" },
+    { href: "words.html", t: T.nav.words || "LEXICON" },
+    { href: "search.html", t: T.nav.search || "SEARCH" },
+    { href: "bibliography.html", t: T.nav.sources || "SOURCES" },
+    { href: "method.html", t: T.nav.method || "METHOD" },
+    { href: "colophon.html", t: T.colophon || "COLOPHON" },
+  ];
+
+  const dirHeading = LANG === "ru" ? "ВСЕ 26 ЛИСТОВ АТЛАСА (A–Z)" : "ALL 26 ATLAS PLATES (A–Z)";
+  const navHeading = LANG === "ru" ? "РАЗДЕЛЫ АТЛАСА" : "ATLAS SECTIONS";
+
+  const content = `<main id="main" class="nf">
   <p class="mono nf__kicker">${X.kicker}</p>
   <h1 class="nf__title">${X.h1}</h1>
   <p class="nf__text">${X.text}</p>
   ${ru}
-  <p class="nf__links mono"><a href="atlas.html">${X.index}</a> · <a href="index.html">${X.cover}</a></p>
-</main>`,
+  <nav class="nf__meta-nav mono" aria-label="${navHeading}">
+    ${metaLinks.map((l) => `<a href="${l.href}">${esc(l.t)}</a>`).join("\n    ")}
+  </nav>
+  <section class="nf__dir">
+    <h2 class="mono nf__dir-h">${dirHeading}</h2>
+    <ol class="nf__grid">
+      ${plates.plates.map((p) => `<li><a href="${plateHref(p.id, base)}"><span class="nf__grid-letter">${p.letter}.</span> <span>${esc(p.nav)}</span></a></li>`).join("\n      ")}
+    </ol>
+  </section>
+</main>`;
+
+  return shell({
+    title: X.title, description: X.desc, base, bodyClass: "nf-page", page: "404", rel: "404.html",
+    extraHead: redirectScript,
+    content,
   });
 }
 
@@ -1312,9 +1376,13 @@ function coverPage() {
           <a href="map.html">${X.navMap}</a>
           <a href="chronology.html">${X.navChrono}</a>
           <a href="words.html">${X.navWords}</a>
-          <a href="bibliography.html">${X.navSources}</a>
+          <a href="voices.html">${X.navVoices}</a>
+          <a href="routes.html">${X.navRoutes}</a>
+          <a href="archive.html">${X.navArchive}</a>
           <a href="ledger.html">${X.navLedger}</a>
+          <a href="bibliography.html">${X.navSources}</a>
           <a href="method.html">${X.navMethod}</a>
+          <a href="search.html">${X.navSearch}</a>
         </nav>
       </div>
     </div>
@@ -1376,7 +1444,37 @@ for (const lang of ["en", "ru"]) {
   if (prologueDoc) write(`${pre}prologue.html`, prologuePage());
   if (lexiconDoc) write(`${pre}words.html`, wordsPage());
   if (VOICES.length) write(`${pre}voices.html`, voicesPage());
-  for (const p of plates.plates) write(`${pre}plates/${p.id}-${p.slug}.html`, renderPlate(p));
+  write(`${pre}plates/index.html`, `<!doctype html>
+<html lang="${LANG}">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=../atlas.html">
+<link rel="canonical" href="${SITE}${pre}atlas.html">
+<script>location.replace("../atlas.html" + location.search + location.hash);</script>
+</head>
+<body><p>Redirecting to <a href="../atlas.html">Atlas</a>…</p></body>
+</html>`);
+  for (const p of plates.plates) {
+    write(`${pre}plates/${p.id}-${p.slug}.html`, renderPlate(p));
+    write(`${pre}plates/${p.id}.html`, `<!doctype html>
+<html lang="${LANG}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(p.nav)} — ${esc(T.brand)}</title>
+<meta http-equiv="refresh" content="0; url=${p.id}-${p.slug}.html">
+<link rel="canonical" href="${SITE}${pre}plates/${p.id}-${p.slug}.html">
+<script>location.replace("${p.id}-${p.slug}.html" + location.search + location.hash);</script>
+</head>
+<body class="nf-page">
+<main id="main" class="nf">
+  <p class="mono nf__kicker">${esc(p.letter)}</p>
+  <h1 class="nf__title">${esc(p.nav)}</h1>
+  <p class="nf__text"><a href="${p.id}-${p.slug}.html">${LANG === "ru" ? "Переход к листу…" : "Proceeding to plate…"}</a></p>
+</main>
+</body>
+</html>`);
+  }
   if (lang === "en") {
     sitemapRel.push(...PAGES, ...plates.plates.map((p) => `plates/${p.id}-${p.slug}.html`));
   }

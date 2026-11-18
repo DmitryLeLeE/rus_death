@@ -193,7 +193,8 @@
       "gloss": "churchyard; a village with a church and a graveyard",
       "register": "historical",
       "plates": [
-        "f"
+        "f",
+        "z"
       ]
     },
     {
@@ -203,7 +204,8 @@
       "gloss": "a grave-cross under a small gabled roof",
       "register": "regional, descriptive",
       "plates": [
-        "f"
+        "f",
+        "z"
       ]
     },
     {
@@ -640,6 +642,27 @@
       "register": "folk demonological",
       "plates": [
         "s"
+      ]
+    },
+    {
+      "id": "kenotaf",
+      "ru": "кенотаф",
+      "tr": "kenotaf",
+      "gloss": "a symbolic grave without remains; battlefield memorial marker",
+      "register": "literary, commemorative",
+      "plates": [
+        "y"
+      ]
+    },
+    {
+      "id": "bratskaya-mogila",
+      "ru": "братская могила",
+      "tr": "bratskaia mogila",
+      "gloss": "a mass military or collective grave",
+      "register": "official, archival",
+      "plates": [
+        "i",
+        "y"
       ]
     }
   ]

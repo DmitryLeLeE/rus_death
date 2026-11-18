@@ -39,7 +39,31 @@
 <link rel="stylesheet" href="css/pages.css">
 <link rel="stylesheet" href="css/motion.css">
 <link rel="stylesheet" href="css/print.css" media="print">
-
+<script>
+(function() {
+  try {
+    var p = window.location.pathname || "";
+    var isRu = /(?:^|\/)ru(?:\/|$)/i.test(p);
+    var segs = p.replace(/\/+$/, "").split("/").filter(Boolean);
+    if (!segs.length) return;
+    var last = segs[segs.length - 1].toLowerCase().replace(/\.html$/, "");
+    var plates = {"a":"a-threshold.html","b":"b-body.html","c":"c-ritual.html","d":"d-table.html","e":"e-returning.html","f":"f-grave.html","g":"g-voice.html","h":"h-afterlife.html","i":"i-collective.html","j":"j-art.html","k":"k-soviet.html","l":"l-unfinished.html","m":"m-empty-house.html","n":"n-forest-edge.html","o":"o-water-marsh-river.html","p":"p-roads-crossroads.html","q":"q-vanished-village.html","r":"r-underground.html","s":"s-household-spirits.html","t":"t-unquiet-dead.html","u":"u-calendar-of-the-dead.html","v":"v-taboo-and-protection.html","w":"w-materials-of-abandonment.html","x":"x-digital-afterlife.html","y":"y-military-cenotaph.html","z":"z-oblivion-and-reclamation.html"};
+    var pages = ["index","prologue","volumes","search","ledger","routes","archive","atlas","map","chronology","words","voices","bibliography","method","colophon"];
+    var m = p.match(/^(.*?)(?:ru\/)?(?:plates\/)?[^\/]*$/);
+    var root = (m && m[1]) || "/";
+    if (!root.endsWith("/")) root += "/";
+    var langPre = isRu ? "ru/" : "";
+    if (plates[last]) {
+      window.location.replace(root + langPre + "plates/" + plates[last] + window.location.search + window.location.hash);
+      return;
+    }
+    if (pages.indexOf(last) !== -1) {
+      window.location.replace(root + langPre + last + ".html" + window.location.search + window.location.hash);
+      return;
+    }
+  } catch (e) {}
+})();
+</script>
 <script>try{var d=document.documentElement;if(localStorage.getItem("rd-plain")==="1")d.classList.add("is-plain");d.classList.add("js")}catch(e){}</script>
 </head>
 <body class="nf-page" data-page="404">
@@ -77,10 +101,12 @@
     <a href="map.html">MAP</a>
     <a href="chronology.html">CHRONOLOGY</a>
     <a href="words.html">WORDS</a>
-    <a href="bibliography.html">SOURCES</a>
-    <a href="method.html">METHOD</a>
+    <a href="voices.html">VOICES</a>
     <a href="routes.html">ROUTES</a>
     <a href="archive.html">FIELD ARCHIVE</a>
+    <a href="ledger.html">CLAIM LEDGER</a>
+    <a href="bibliography.html">SOURCES</a>
+    <a href="method.html">METHOD</a>
     <a href="search.html">SEARCH</a>
   </nav>
   <div class="masthead__tools">
@@ -96,7 +122,53 @@
   <h1 class="nf__title">NOT<br>FOUND</h1>
   <p class="nf__text">The plate you asked for is not in this edition. The index is the way back.</p>
   <p class="nf__text nf__text--ru" lang="ru">Такой страницы в архиве нет. <a href="ru/atlas.html">Указатель</a> · <a href="ru/index.html">обложка</a></p>
-  <p class="nf__links mono"><a href="atlas.html">THE INDEX</a> · <a href="index.html">THE COVER</a></p>
+  <nav class="nf__meta-nav mono" aria-label="ATLAS SECTIONS">
+    <a href="index.html">THE COVER</a>
+    <a href="volumes.html">ATLAS</a>
+    <a href="atlas.html">INDEX</a>
+    <a href="voices.html">VOICES</a>
+    <a href="ledger.html">CLAIM LEDGER</a>
+    <a href="routes.html">ROUTES</a>
+    <a href="archive.html">FIELD ARCHIVE</a>
+    <a href="map.html">MAP</a>
+    <a href="chronology.html">CHRONOLOGY</a>
+    <a href="words.html">WORDS</a>
+    <a href="search.html">SEARCH</a>
+    <a href="bibliography.html">SOURCES</a>
+    <a href="method.html">METHOD</a>
+    <a href="colophon.html">COLOPHON</a>
+  </nav>
+  <section class="nf__dir">
+    <h2 class="mono nf__dir-h">ALL 26 ATLAS PLATES (A–Z)</h2>
+    <ol class="nf__grid">
+      <li><a href="plates/a-threshold.html"><span class="nf__grid-letter">A.</span> <span>Death as a Threshold</span></a></li>
+      <li><a href="plates/b-body.html"><span class="nf__grid-letter">B.</span> <span>The Body</span></a></li>
+      <li><a href="plates/c-ritual.html"><span class="nf__grid-letter">C.</span> <span>The Ritual</span></a></li>
+      <li><a href="plates/d-table.html"><span class="nf__grid-letter">D.</span> <span>The Table</span></a></li>
+      <li><a href="plates/e-returning.html"><span class="nf__grid-letter">E.</span> <span>The Returning Dead</span></a></li>
+      <li><a href="plates/f-grave.html"><span class="nf__grid-letter">F.</span> <span>The Grave</span></a></li>
+      <li><a href="plates/g-voice.html"><span class="nf__grid-letter">G.</span> <span>The Voice</span></a></li>
+      <li><a href="plates/h-afterlife.html"><span class="nf__grid-letter">H.</span> <span>The Afterlife</span></a></li>
+      <li><a href="plates/i-collective.html"><span class="nf__grid-letter">I.</span> <span>Collective Death</span></a></li>
+      <li><a href="plates/j-art.html"><span class="nf__grid-letter">J.</span> <span>Death in Art</span></a></li>
+      <li><a href="plates/k-soviet.html"><span class="nf__grid-letter">K.</span> <span>The Soviet and Post-Soviet Afterlife</span></a></li>
+      <li><a href="plates/l-unfinished.html"><span class="nf__grid-letter">L.</span> <span>The Unfinished Archive</span></a></li>
+      <li><a href="plates/m-empty-house.html"><span class="nf__grid-letter">M.</span> <span>The Empty House</span></a></li>
+      <li><a href="plates/n-forest-edge.html"><span class="nf__grid-letter">N.</span> <span>The Forest Edge</span></a></li>
+      <li><a href="plates/o-water-marsh-river.html"><span class="nf__grid-letter">O.</span> <span>Water, Marsh and River</span></a></li>
+      <li><a href="plates/p-roads-crossroads.html"><span class="nf__grid-letter">P.</span> <span>Roads and Crossroads</span></a></li>
+      <li><a href="plates/q-vanished-village.html"><span class="nf__grid-letter">Q.</span> <span>The Vanished Village</span></a></li>
+      <li><a href="plates/r-underground.html"><span class="nf__grid-letter">R.</span> <span>The Underground</span></a></li>
+      <li><a href="plates/s-household-spirits.html"><span class="nf__grid-letter">S.</span> <span>Household Spirits</span></a></li>
+      <li><a href="plates/t-unquiet-dead.html"><span class="nf__grid-letter">T.</span> <span>The Unquiet Dead</span></a></li>
+      <li><a href="plates/u-calendar-of-the-dead.html"><span class="nf__grid-letter">U.</span> <span>Calendar of the Dead</span></a></li>
+      <li><a href="plates/v-taboo-and-protection.html"><span class="nf__grid-letter">V.</span> <span>Taboo and Protection</span></a></li>
+      <li><a href="plates/w-materials-of-abandonment.html"><span class="nf__grid-letter">W.</span> <span>Materials of Abandonment</span></a></li>
+      <li><a href="plates/x-digital-afterlife.html"><span class="nf__grid-letter">X.</span> <span>The Digital Afterlife</span></a></li>
+      <li><a href="plates/y-military-cenotaph.html"><span class="nf__grid-letter">Y.</span> <span>The Military Cenotaph</span></a></li>
+      <li><a href="plates/z-oblivion-and-reclamation.html"><span class="nf__grid-letter">Z.</span> <span>Oblivion and Reclamation</span></a></li>
+    </ol>
+  </section>
 </main>
 <footer class="sitefoot">
   <p class="sitefoot__a">RUSSIAN CHTHONIC ATLAS</p>
@@ -149,8 +221,10 @@
     <a href="voices.html">VOICES</a>
     <a href="routes.html">ROUTES</a>
     <a href="archive.html">FIELD ARCHIVE</a>
+    <a href="ledger.html">CLAIM LEDGER</a>
     <a href="bibliography.html">SOURCES</a>
     <a href="method.html">METHOD</a>
+    <a href="search.html">SEARCH</a>
     <a href="colophon.html">COLOPHON</a>
   </div>
 </dialog>
