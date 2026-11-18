@@ -416,12 +416,117 @@ SPECS = [
      "Aleksandr Buchkuri, Peasant Funeral (1905)", "Whole frame"),
     ("linschoten-russian-cross-cut", "linschoten-russian-cross-1594.jpg", None, "faded", 850, "tblr",
      "Russian Carved Roadside and Votive Crosses (1594)", "Whole frame"),
+    ("anika-death-cut", "anika-death-lubok.jpg", None, "xerox", 850, "tblr",
+     "Anika the Warrior and Death (lubok woodcut)", "Whole frame"),
+    ("armenian-cemetery-cut", "armenian-cemetery-abandoned-graves.jpg", None, "faded", 1200, "tblr",
+     "Monument to Abandoned Graves, Armenian Cemetery, Moscow", "Whole frame"),
+    ("astrakhov-gulyanye-cut", "astrakhov-gulyanye.jpg", None, "faded", 1400, "tblr",
+     "A fair in Maryina Roshcha at Semik (Astrakhov, 1840s)", "Whole frame"),
+    ("bulla-revolution-cut", "bulla-revolution-funeral-1917.jpg", None, "news", 1200, "tblr",
+     "Revolution funeral in Petrograd, April 1917 (Viktor Bulla)", "Whole frame"),
+    ("chapaev-funeral-cut", "chapaev-funeral-1918.jpg", None, "news", 1200, "tblr",
+     "Vasily Chapaev at the funeral of his brother, Balakovo (1918)", "Whole frame"),
+    ("chekhov-funeral-cut", "chekhov-funeral-1904.jpg", None, "news", 1300, "tblr",
+     "Chekhov’s coffin carried from the railway wagon, Moscow (1904)", "Whole frame"),
+    ("donskoy-1913-cut", "donskoy-1913-duotone.jpg", None, "halftone", 1100, "tblr",
+     "Georgian necropolis at Donskoy Monastery, Moscow (1913)", "Whole frame"),
+    ("doukhobor-stove-cut", "doukhobor-stove-gorelovka.jpg", None, "faded", 1200, "tblr",
+     "Russian stove in a Doukhobor prayer house, Gorelovka", "Whole frame"),
+    ("drained-marsh-cut", "drained-marsh-1882.jpg", None, "xerox", 1400, "tblr",
+     "Drained Marshes of Polesie (engraving, 1882)", "Whole frame"),
+    ("ee-oldbelievers-kukita-cut", "ee-oldbelievers-kukita.jpg", None, "faded", 800, "tblr",
+     "Old Believers’ cemetery, Kükita (Estonia)", "Whole frame"),
+    ("ee-oldbelievers-piiri-border-cut", "ee-oldbelievers-piiri-border.jpg", None, "faded", 800, "tblr",
+     "Old Believers’ cemetery, Piiri border (Piirissaare)", "Whole frame"),
+    ("ee-oldbelievers-piiri-island-cut", "ee-oldbelievers-piiri-island.jpg", None, "faded", 800, "tblr",
+     "Old Believers’ cemetery on the island, Piiri (Piirissaare)", "Whole frame"),
+    ("ee-oldbelievers-tartu-roosi-cut", "ee-oldbelievers-tartu-roosi.jpg", None, "faded", 800, "tblr",
+     "Old Believers’ cemetery, Roosi street, Tartu", "Whole frame"),
+    ("ee-oldbelievers-varnja-cut", "ee-oldbelievers-varnja.jpg", None, "faded", 800, "tblr",
+     "Old Believers’ cemetery, Varnja (Estonia)", "Whole frame"),
+    ("kalyazin-belltower-cut", "kalyazin-belltower.jpg", None, "faded", 1200, "tblr",
+     "Flooded belltower of St Nicholas Cathedral, Kalyazin", "Whole frame"),
+    ("klever-forgotten-cut", "klever-forgotten-cemetery.jpg", None, "faded", 900, "tblr",
+     "Julius Klever, Forgotten Cemetery (1890)", "Whole frame"),
+    ("kobona-banya-cut", "kobona-banya.jpg", None, "faded", 1200, "tblr",
+     "Old banya in Kobona village, Leningrad Oblast", "Whole frame"),
+    ("mandrogy-banya-cut", "mandrogy-banya.jpg", None, "faded", 1200, "tblr",
+     "Traditional northern Russian banya, Mandrogy", "Whole frame"),
+    ("mice-burying-cat-cut", "mice-burying-cat.jpg", None, "xerox", 1400, "tblr",
+     "Mice Burying the Cat (Russian lubok, 18th c.)", "Whole frame"),
+    ("mologa-holy-cross-cut", "mologa-holy-cross-print.jpg", None, "news", 800, "tblr",
+     "Holy Cross Church before the flooding, Mologa", "Whole frame"),
+    ("mologa-sentinel-cut", "mologa-sentinel-2021.jpg", None, "dormant", 800, "tblr",
+     "Foundations of Mologa visible during low water, Sentinel satellite (2021)", "Whole frame"),
+    ("nansen-amur-cut", "nansen-amur-corpse-1913.jpg", None, "black", 1200, "tblr",
+     "Transporting a corpse through the taiga in the Amur region (Fridtjof Nansen, 1913)", "Whole frame"),
+    ("nansen-kureika-cut", "nansen-kureika-graves.jpg", None, "faded", 900, "tblr",
+     "Native graves in the forest of Kureika (Fridtjof Nansen, 1913)", "Whole frame"),
+    ("nizhne-gnilovskoe-cut", "nizhne-gnilovskoe-tomb.jpg", None, "black", 1000, "tblr",
+     "Abandoned tomb, Nizhne-Gnilovskoye cemetery", "Whole frame"),
+    ("north-carved-markers-cut", "north-carved-markers.jpg", None, "faded", 900, "tblr",
+     "Carved wooden grave markers of Old Believers, Russian North", "Whole frame"),
+    ("olearius-plach-cut", "olearius-plach.gif", None, "xerox", 950, "tblr",
+     "Prayer for the dead and funeral lament (Adam Olearius, 1647)", "Whole frame"),
+    ("peasant-interior-cut", "peasant-interior-novgorod.jpg", None, "faded", 1200, "tblr",
+     "Peasant izba interior, Novgorod region", "Whole frame"),
+    ("pechory-epitaph-cut", "pechory-epitaph.jpg", None, "dormant", 1100, "tblr",
+     "Ceramic epitaph plaque in the God-made caves, Pskov-Caves Monastery", "Whole frame"),
+    ("pechory-grave-tile-cut", "pechory-grave-tile.jpg", None, "black", 800, "tblr",
+     "Grave tile in the subterranean caves, Pskov-Caves Monastery", "Whole frame"),
+    ("pechory-niches-cut", "pechory-niches.jpg", None, "dormant", 1100, "tblr",
+     "Burial niches in the cave corridors, Pskov-Caves Monastery", "Whole frame"),
+    ("plattonen-funeral-coffin-cut", "plattonen-funeral-coffin.jpg", None, "faded", 1200, "tblr",
+     "Funeral of Matjoi Plattonen — carrying the coffin, Suistamo (1928)", "Whole frame"),
+    ("plattonen-funeral-crowd-cut", "plattonen-funeral-crowd.jpg", None, "faded", 1200, "tblr",
+     "Funeral of Matjoi Plattonen — crowd at the graveyard, Suistamo (1928)", "Whole frame"),
+    ("plattonen-funeral-road-cut", "plattonen-funeral-road.jpg", None, "faded", 1200, "tblr",
+     "Funeral of Matjoi Plattonen — funeral procession on the road, Suistamo (1928)", "Whole frame"),
+    ("pomor-domoviny-cut", "pomor-domoviny.jpg", None, "faded", 900, "tblr",
+     "Pomor cemetery with domoviny and krest-golubets, Russian North", "Whole frame"),
+    ("pripyat-village-cut", "pripyat-village-1882.jpg", None, "xerox", 900, "tblr",
+     "Village near the Pripyat River (engraving, 1882)", "Whole frame"),
+    ("qr-thorntons-cut", "qr-thorntons-congressional.jpg", None, "faded", 1200, "tblr",
+     "Tomb with QR code plaque, Congressional Cemetery — faded print with scanner banding", "Whole frame"),
+    ("rogozhskoe-procession-cut", "rogozhskoe-procession-1907.jpg", None, "news", 1200, "tblr",
+     "Rogozhskoe Old Believer cemetery cross procession (1907)", "Whole frame"),
+    ("semik-lubok-cut", "semik-lubok.jpg", None, "xerox", 1100, "tblr",
+     "Semik celebrations (Russian folk lubok, 19th c.)", "Whole frame"),
+    ("suistamo-bird-cross-cut", "suistamo-bird-cross-1935.jpg", None, "faded", 1000, "tblr",
+     "Grave cross with carved birds, Muuanto cemetery, Suistamo (1935)", "Whole frame"),
+    ("suistamo-grobu-cut", "suistamo-grobu-1935.jpg", None, "faded", 1200, "tblr",
+     "Log grave chamber (grobu), Piensarka cemetery, Suistamo (1935)", "Whole frame"),
+    ("suistamo-muuanto-cut", "suistamo-muuanto-cemetery-1935.jpg", None, "faded", 1200, "tblr",
+     "Cemetery in the spruce forest, Muuanto, Suistamo (1935)", "Whole frame"),
+    ("suistamo-piensarka-islet-cut", "suistamo-piensarka-islet-1935.jpg", None, "faded", 1200, "tblr",
+     "Piensarka island graveyard in the lake, Suistamo (1935)", "Whole frame"),
+    ("suistamo-tsasouna-cut", "suistamo-tsasouna-1935.jpg", None, "faded", 1200, "tblr",
+     "Village tsasouna chapel in the cemetery, Piensarka, Suistamo (1935)", "Whole frame"),
+    ("teriberka-houses-cut", "teriberka-houses.jpg", None, "faded", 1200, "tblr",
+     "Weathered wooden houses, Teriberka, Kola Peninsula", "Whole frame"),
+    ("tolstoy-astapovo-cut", "tolstoy-astapovo-1910.jpg", None, "news", 1100, "tblr",
+     "Removal of Leo Tolstoy’s coffin from Astapovo station (1910)", "Whole frame"),
+    ("ukhta-lamenter-cut", "ukhta-lamenter-1894.jpg", None, "faded", 900, "tblr",
+     "Karelian lamenter in traditional dress, Ukhta (1894)", "Whole frame"),
+    ("ulan-ude-oldbelievers-cut", "ulan-ude-oldbelievers-interior.jpg", None, "faded", 1000, "tblr",
+     "Old Believer red corner with icons, Ulan-Ude", "Whole frame"),
+    ("valaam-worship-cross-cut", "valaam-worship-cross.jpg", None, "faded", 1100, "tblr",
+     "Carved wooden poklonny cross, Nikolsky Island, Valaam", "Whole frame"),
+    ("verhne-gnilovskoe-cut", "verhne-gnilovskoe-tomb.jpg", None, "faded", 1200, "tblr",
+     "Overgrown vault at Verkhne-Gnilovskoye cemetery, Rostov-on-Don", "Whole frame"),
 ]
 
 
-def build_derived():
+def build_derived(force=False):
     meta = []
     for (did, srcf, box, treat, width, sides, title, shows) in SPECS:
+        path = os.path.join(OUT, did + ".webp")
+        if not force and os.path.exists(path) and os.path.getsize(path) > 0:
+            with Image.open(path) as existing:
+                w, h = existing.width, existing.height
+            meta.append({"id": did, "parent_file": srcf, "treatment": treat, "title": title, "shows": shows,
+                         "w": w, "h": h, "bytes": os.path.getsize(path)})
+            continue
         seed = abs(hash(did)) % (2 ** 31) if False else sum(ord(c) * (i + 3) for i, c in enumerate(did))
         rng = np.random.default_rng(seed)
         im = Image.open(os.path.join(SRC, srcf)).convert("RGB")
@@ -458,7 +563,7 @@ def register_credits(meta):
     """Declare every derivative in data/images.json (inherits the parent licence)."""
     p = os.path.join(ROOT, "data", "images.json")
     doc = json.load(open(p, encoding="utf-8"))
-    by_file = {i["file"].split("/")[-1]: i for i in doc["images"] if i["kind"] != "derivative"}
+    by_file = {i["file"].split("/")[-1]: i for i in doc["images"] if i.get("made_by") != "make_derived.py"}
     doc["images"] = [i for i in doc["images"] if i.get("made_by") != "make_derived.py"]
     for m in meta:
         par = by_file[m["parent_file"]]

@@ -688,5 +688,495 @@
   "w": 850,
   "h": 666,
   "bytes": 161340
+ },
+ {
+  "id": "anika-death-cut",
+  "parent_file": "anika-death-lubok.jpg",
+  "treatment": "xerox",
+  "title": "Anika the Warrior and Death (lubok woodcut)",
+  "shows": "Whole frame",
+  "w": 850,
+  "h": 665,
+  "bytes": 211006
+ },
+ {
+  "id": "armenian-cemetery-cut",
+  "parent_file": "armenian-cemetery-abandoned-graves.jpg",
+  "treatment": "faded",
+  "title": "Monument to Abandoned Graves, Armenian Cemetery, Moscow",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 900,
+  "bytes": 178528
+ },
+ {
+  "id": "astrakhov-gulyanye-cut",
+  "parent_file": "astrakhov-gulyanye.jpg",
+  "treatment": "faded",
+  "title": "A fair in Maryina Roshcha at Semik (Astrakhov, 1840s)",
+  "shows": "Whole frame",
+  "w": 1400,
+  "h": 946,
+  "bytes": 224274
+ },
+ {
+  "id": "bulla-revolution-cut",
+  "parent_file": "bulla-revolution-funeral-1917.jpg",
+  "treatment": "news",
+  "title": "Revolution funeral in Petrograd, April 1917 (Viktor Bulla)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 1035,
+  "bytes": 305624
+ },
+ {
+  "id": "chapaev-funeral-cut",
+  "parent_file": "chapaev-funeral-1918.jpg",
+  "treatment": "news",
+  "title": "Vasily Chapaev at the funeral of his brother, Balakovo (1918)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 860,
+  "bytes": 157642
+ },
+ {
+  "id": "chekhov-funeral-cut",
+  "parent_file": "chekhov-funeral-1904.jpg",
+  "treatment": "news",
+  "title": "Chekhov’s coffin carried from the railway wagon, Moscow (1904)",
+  "shows": "Whole frame",
+  "w": 1300,
+  "h": 689,
+  "bytes": 277974
+ },
+ {
+  "id": "donskoy-1913-cut",
+  "parent_file": "donskoy-1913-duotone.jpg",
+  "treatment": "halftone",
+  "title": "Georgian necropolis at Donskoy Monastery, Moscow (1913)",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 838,
+  "bytes": 395200
+ },
+ {
+  "id": "doukhobor-stove-cut",
+  "parent_file": "doukhobor-stove-gorelovka.jpg",
+  "treatment": "faded",
+  "title": "Russian stove in a Doukhobor prayer house, Gorelovka",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 1593,
+  "bytes": 273720
+ },
+ {
+  "id": "drained-marsh-cut",
+  "parent_file": "drained-marsh-1882.jpg",
+  "treatment": "xerox",
+  "title": "Drained Marshes of Polesie (engraving, 1882)",
+  "shows": "Whole frame",
+  "w": 1400,
+  "h": 682,
+  "bytes": 349492
+ },
+ {
+  "id": "ee-oldbelievers-kukita-cut",
+  "parent_file": "ee-oldbelievers-kukita.jpg",
+  "treatment": "faded",
+  "title": "Old Believers’ cemetery, Kükita (Estonia)",
+  "shows": "Whole frame",
+  "w": 800,
+  "h": 600,
+  "bytes": 66450
+ },
+ {
+  "id": "ee-oldbelievers-piiri-border-cut",
+  "parent_file": "ee-oldbelievers-piiri-border.jpg",
+  "treatment": "faded",
+  "title": "Old Believers’ cemetery, Piiri border (Piirissaare)",
+  "shows": "Whole frame",
+  "w": 800,
+  "h": 600,
+  "bytes": 76638
+ },
+ {
+  "id": "ee-oldbelievers-piiri-island-cut",
+  "parent_file": "ee-oldbelievers-piiri-island.jpg",
+  "treatment": "faded",
+  "title": "Old Believers’ cemetery on the island, Piiri (Piirissaare)",
+  "shows": "Whole frame",
+  "w": 800,
+  "h": 600,
+  "bytes": 72224
+ },
+ {
+  "id": "ee-oldbelievers-tartu-roosi-cut",
+  "parent_file": "ee-oldbelievers-tartu-roosi.jpg",
+  "treatment": "faded",
+  "title": "Old Believers’ cemetery, Roosi street, Tartu",
+  "shows": "Whole frame",
+  "w": 800,
+  "h": 450,
+  "bytes": 70868
+ },
+ {
+  "id": "ee-oldbelievers-varnja-cut",
+  "parent_file": "ee-oldbelievers-varnja.jpg",
+  "treatment": "faded",
+  "title": "Old Believers’ cemetery, Varnja (Estonia)",
+  "shows": "Whole frame",
+  "w": 800,
+  "h": 600,
+  "bytes": 79442
+ },
+ {
+  "id": "kalyazin-belltower-cut",
+  "parent_file": "kalyazin-belltower.jpg",
+  "treatment": "faded",
+  "title": "Flooded belltower of St Nicholas Cathedral, Kalyazin",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 960,
+  "bytes": 145270
+ },
+ {
+  "id": "klever-forgotten-cut",
+  "parent_file": "klever-forgotten-cemetery.jpg",
+  "treatment": "faded",
+  "title": "Julius Klever, Forgotten Cemetery (1890)",
+  "shows": "Whole frame",
+  "w": 900,
+  "h": 1172,
+  "bytes": 126532
+ },
+ {
+  "id": "kobona-banya-cut",
+  "parent_file": "kobona-banya.jpg",
+  "treatment": "faded",
+  "title": "Old banya in Kobona village, Leningrad Oblast",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 907,
+  "bytes": 323996
+ },
+ {
+  "id": "mandrogy-banya-cut",
+  "parent_file": "mandrogy-banya.jpg",
+  "treatment": "faded",
+  "title": "Traditional northern Russian banya, Mandrogy",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 900,
+  "bytes": 223866
+ },
+ {
+  "id": "mice-burying-cat-cut",
+  "parent_file": "mice-burying-cat.jpg",
+  "treatment": "xerox",
+  "title": "Mice Burying the Cat (Russian lubok, 18th c.)",
+  "shows": "Whole frame",
+  "w": 1400,
+  "h": 882,
+  "bytes": 405774
+ },
+ {
+  "id": "mologa-holy-cross-cut",
+  "parent_file": "mologa-holy-cross-print.jpg",
+  "treatment": "news",
+  "title": "Holy Cross Church before the flooding, Mologa",
+  "shows": "Whole frame",
+  "w": 800,
+  "h": 1207,
+  "bytes": 208736
+ },
+ {
+  "id": "mologa-sentinel-cut",
+  "parent_file": "mologa-sentinel-2021.jpg",
+  "treatment": "dormant",
+  "title": "Foundations of Mologa visible during low water, Sentinel satellite (2021)",
+  "shows": "Whole frame",
+  "w": 800,
+  "h": 910,
+  "bytes": 54226
+ },
+ {
+  "id": "nansen-amur-cut",
+  "parent_file": "nansen-amur-corpse-1913.jpg",
+  "treatment": "black",
+  "title": "Transporting a corpse through the taiga in the Amur region (Fridtjof Nansen, 1913)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 702,
+  "bytes": 221154
+ },
+ {
+  "id": "nansen-kureika-cut",
+  "parent_file": "nansen-kureika-graves.jpg",
+  "treatment": "faded",
+  "title": "Native graves in the forest of Kureika (Fridtjof Nansen, 1913)",
+  "shows": "Whole frame",
+  "w": 900,
+  "h": 1451,
+  "bytes": 220918
+ },
+ {
+  "id": "nizhne-gnilovskoe-cut",
+  "parent_file": "nizhne-gnilovskoe-tomb.jpg",
+  "treatment": "black",
+  "title": "Abandoned tomb, Nizhne-Gnilovskoye cemetery",
+  "shows": "Whole frame",
+  "w": 1000,
+  "h": 1333,
+  "bytes": 346568
+ },
+ {
+  "id": "north-carved-markers-cut",
+  "parent_file": "north-carved-markers.jpg",
+  "treatment": "faded",
+  "title": "Carved wooden grave markers of Old Believers, Russian North",
+  "shows": "Whole frame",
+  "w": 900,
+  "h": 614,
+  "bytes": 76948
+ },
+ {
+  "id": "olearius-plach-cut",
+  "parent_file": "olearius-plach.gif",
+  "treatment": "xerox",
+  "title": "Prayer for the dead and funeral lament (Adam Olearius, 1647)",
+  "shows": "Whole frame",
+  "w": 950,
+  "h": 752,
+  "bytes": 281510
+ },
+ {
+  "id": "peasant-interior-cut",
+  "parent_file": "peasant-interior-novgorod.jpg",
+  "treatment": "faded",
+  "title": "Peasant izba interior, Novgorod region",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 795,
+  "bytes": 126420
+ },
+ {
+  "id": "pechory-epitaph-cut",
+  "parent_file": "pechory-epitaph.jpg",
+  "treatment": "dormant",
+  "title": "Ceramic epitaph plaque in the God-made caves, Pskov-Caves Monastery",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 1466,
+  "bytes": 221476
+ },
+ {
+  "id": "pechory-grave-tile-cut",
+  "parent_file": "pechory-grave-tile.jpg",
+  "treatment": "black",
+  "title": "Grave tile in the subterranean caves, Pskov-Caves Monastery",
+  "shows": "Whole frame",
+  "w": 800,
+  "h": 1027,
+  "bytes": 199982
+ },
+ {
+  "id": "pechory-niches-cut",
+  "parent_file": "pechory-niches.jpg",
+  "treatment": "dormant",
+  "title": "Burial niches in the cave corridors, Pskov-Caves Monastery",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 1466,
+  "bytes": 152912
+ },
+ {
+  "id": "plattonen-funeral-coffin-cut",
+  "parent_file": "plattonen-funeral-coffin.jpg",
+  "treatment": "faded",
+  "title": "Funeral of Matjoi Plattonen — carrying the coffin, Suistamo (1928)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 670,
+  "bytes": 84526
+ },
+ {
+  "id": "plattonen-funeral-crowd-cut",
+  "parent_file": "plattonen-funeral-crowd.jpg",
+  "treatment": "faded",
+  "title": "Funeral of Matjoi Plattonen — crowd at the graveyard, Suistamo (1928)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 693,
+  "bytes": 97672
+ },
+ {
+  "id": "plattonen-funeral-road-cut",
+  "parent_file": "plattonen-funeral-road.jpg",
+  "treatment": "faded",
+  "title": "Funeral of Matjoi Plattonen — funeral procession on the road, Suistamo (1928)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 678,
+  "bytes": 86656
+ },
+ {
+  "id": "pomor-domoviny-cut",
+  "parent_file": "pomor-domoviny.jpg",
+  "treatment": "faded",
+  "title": "Pomor cemetery with domoviny and krest-golubets, Russian North",
+  "shows": "Whole frame",
+  "w": 900,
+  "h": 585,
+  "bytes": 81690
+ },
+ {
+  "id": "pripyat-village-cut",
+  "parent_file": "pripyat-village-1882.jpg",
+  "treatment": "xerox",
+  "title": "Village near the Pripyat River (engraving, 1882)",
+  "shows": "Whole frame",
+  "w": 900,
+  "h": 855,
+  "bytes": 252568
+ },
+ {
+  "id": "qr-thorntons-cut",
+  "parent_file": "qr-thorntons-congressional.jpg",
+  "treatment": "faded",
+  "title": "Tomb with QR code plaque, Congressional Cemetery — faded print with scanner banding",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 900,
+  "bytes": 235118
+ },
+ {
+  "id": "rogozhskoe-procession-cut",
+  "parent_file": "rogozhskoe-procession-1907.jpg",
+  "treatment": "news",
+  "title": "Rogozhskoe Old Believer cemetery cross procession (1907)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 912,
+  "bytes": 237542
+ },
+ {
+  "id": "semik-lubok-cut",
+  "parent_file": "semik-lubok.jpg",
+  "treatment": "xerox",
+  "title": "Semik celebrations (Russian folk lubok, 19th c.)",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 694,
+  "bytes": 286192
+ },
+ {
+  "id": "suistamo-bird-cross-cut",
+  "parent_file": "suistamo-bird-cross-1935.jpg",
+  "treatment": "faded",
+  "title": "Grave cross with carved birds, Muuanto cemetery, Suistamo (1935)",
+  "shows": "Whole frame",
+  "w": 1000,
+  "h": 1246,
+  "bytes": 151748
+ },
+ {
+  "id": "suistamo-grobu-cut",
+  "parent_file": "suistamo-grobu-1935.jpg",
+  "treatment": "faded",
+  "title": "Log grave chamber (grobu), Piensarka cemetery, Suistamo (1935)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 910,
+  "bytes": 200324
+ },
+ {
+  "id": "suistamo-muuanto-cut",
+  "parent_file": "suistamo-muuanto-cemetery-1935.jpg",
+  "treatment": "faded",
+  "title": "Cemetery in the spruce forest, Muuanto, Suistamo (1935)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 962,
+  "bytes": 169434
+ },
+ {
+  "id": "suistamo-piensarka-islet-cut",
+  "parent_file": "suistamo-piensarka-islet-1935.jpg",
+  "treatment": "faded",
+  "title": "Piensarka island graveyard in the lake, Suistamo (1935)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 912,
+  "bytes": 158170
+ },
+ {
+  "id": "suistamo-tsasouna-cut",
+  "parent_file": "suistamo-tsasouna-1935.jpg",
+  "treatment": "faded",
+  "title": "Village tsasouna chapel in the cemetery, Piensarka, Suistamo (1935)",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 869,
+  "bytes": 182110
+ },
+ {
+  "id": "teriberka-houses-cut",
+  "parent_file": "teriberka-houses.jpg",
+  "treatment": "faded",
+  "title": "Weathered wooden houses, Teriberka, Kola Peninsula",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 798,
+  "bytes": 198762
+ },
+ {
+  "id": "tolstoy-astapovo-cut",
+  "parent_file": "tolstoy-astapovo-1910.jpg",
+  "treatment": "news",
+  "title": "Removal of Leo Tolstoy’s coffin from Astapovo station (1910)",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 866,
+  "bytes": 163872
+ },
+ {
+  "id": "ukhta-lamenter-cut",
+  "parent_file": "ukhta-lamenter-1894.jpg",
+  "treatment": "faded",
+  "title": "Karelian lamenter in traditional dress, Ukhta (1894)",
+  "shows": "Whole frame",
+  "w": 900,
+  "h": 657,
+  "bytes": 62798
+ },
+ {
+  "id": "ulan-ude-oldbelievers-cut",
+  "parent_file": "ulan-ude-oldbelievers-interior.jpg",
+  "treatment": "faded",
+  "title": "Old Believer red corner with icons, Ulan-Ude",
+  "shows": "Whole frame",
+  "w": 1000,
+  "h": 1333,
+  "bytes": 127890
+ },
+ {
+  "id": "valaam-worship-cross-cut",
+  "parent_file": "valaam-worship-cross.jpg",
+  "treatment": "faded",
+  "title": "Carved wooden poklonny cross, Nikolsky Island, Valaam",
+  "shows": "Whole frame",
+  "w": 1100,
+  "h": 1416,
+  "bytes": 493748
+ },
+ {
+  "id": "verhne-gnilovskoe-cut",
+  "parent_file": "verhne-gnilovskoe-tomb.jpg",
+  "treatment": "faded",
+  "title": "Overgrown vault at Verkhne-Gnilovskoye cemetery, Rostov-on-Don",
+  "shows": "Whole frame",
+  "w": 1200,
+  "h": 900,
+  "bytes": 267776
  }
 ]
